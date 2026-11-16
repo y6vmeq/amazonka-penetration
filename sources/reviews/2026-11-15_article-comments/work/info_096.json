@@ -1,0 +1,176 @@
+{
+ "number": 96,
+ "url": "https://t.me/mogilev/11174?embed=1&discussion=1&comments_limit=100",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:31:12.182Z",
+ "html": "raw/096_t-me_tg-mogilev-11174-discussion.html",
+ "txt": "raw/096_t-me_tg-mogilev-11174-discussion.txt",
+ "sha256": "5f5589ca9c822d6466d56c5cf049bf11347be126ad747db159d64c5427ae318b",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 12,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_widget body_widget_discussion emoji_image force_userpic nodark name_nocolor",
+    "textLen": 403,
+    "text": "2 comments on this post Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_header_wrap",
+    "textLen": 23,
+    "text": "2 comments on this post"
+   },
+   {
+    "tag": "H3",
+    "id": "",
+    "cls": "tgme_post_discussion_header",
+    "textLen": 23,
+    "text": "2 comments on this post"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion js-message_history",
+    "textLen": 361,
+    "text": "Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области мо"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 195,
+    "text": " Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области м"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 171,
+    "text": "🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggest"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 151,
+    "text": " Руслана Корбут В апреле уже будем шашлыки жарить на даче и загорать там, скорее всего. Гастрофесты надо проводить зимой, когда сидят все по домам "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 130,
+    "text": "В апреле уже будем шашлыки жарить на даче и загорать там, скорее всего. Гастрофесты надо проводить зимой, когда сидят все по домам"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_footer",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "FORM",
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login_btn accent_bghover js-login_btn",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/discussion-widget.js?10",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [
+   "2 comments on this post Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о собы"
+  ],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "action": "",
+    "fields": [
+     "input:hidden:peer",
+     "input:hidden:top_msg_id",
+     "input:hidden:discussion_hash"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 403
+ },
+ "extra": {
+  "name": "tg_mogilev_11174_discussion",
+  "status": 200,
+  "requested": "https://t.me/mogilev/11174?embed=1&discussion=1&comments_limit=100",
+  "channel": "mogilev",
+  "post": 11174,
+  "tgDiscussion": {
+   "url": "https://t.me/mogilev/11174?embed=1&discussion=1&comments_limit=100",
+   "at": "2026-11-15T14:31:12.182Z",
+   "header": "2 comments on this post",
+   "error": "",
+   "comments": [
+    {
+     "id": "96747",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilevglavnoebot",
+     "text": "🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot",
+     "dateText": "Dec 11, 2025",
+     "datetime": "2025-12-11T09:03:41+00:00",
+     "url": "https://t.me/mogilev/11174?comment=96747",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "96768",
+     "author": "Руслана Корбут",
+     "authorHref": "https://t.me/RuslanaK0910",
+     "text": "В апреле уже будем шашлыки жарить на даче и загорать там, скорее всего. Гастрофесты надо проводить зимой, когда сидят все по домам",
+     "dateText": "Dec 11, 2025",
+     "datetime": "2025-12-11T11:11:48+00:00",
+     "url": "https://t.me/mogilev/11174?comment=96768",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    }
+   ],
+   "moreLeft": false,
+   "moreState": [
+    "tme_messages_more accent_bghover js-messages_more autoload hide|after=96768|before="
+   ],
+   "bodyText": "2 comments on this post\nМогилев. Главное!\n🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot\nDec 11, 2025\nРуслана Корбут\nВ апреле уже будем шашлыки жарить на даче и загорать там, "
+  }
+ }
+}

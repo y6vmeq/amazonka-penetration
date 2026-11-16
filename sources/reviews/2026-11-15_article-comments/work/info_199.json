@@ -1,0 +1,65 @@
+{
+ "number": 199,
+ "url": "https://magilev.by/news/2024/01/26/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid",
+ "title": "Куда сходить в Могилеве в ближайшие выходные: наш гид | magilev.by",
+ "at": "2026-11-15T15:30:11.073Z",
+ "html": "raw/199_magilev-by_magilev-2024-01-26-kuda-shodit-v-mogileve-v-blizhajshie-v.html",
+ "txt": "raw/199_magilev-by_magilev-2024-01-26-kuda-shodit-v-mogileve-v-blizhajshie-v.txt",
+ "sha256": "bb256e219beb0149175650abe3a7d5e6fbefa94447ba773dd55d38abd262d4c2",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "b b_detail-before-comments b_visible",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-7674021519504941&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1794756605&plat=3%3A16%2C4%3A16%2C9%3A32%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=",
+    "id": "aswift_0",
+    "cls": ""
+   },
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/html/r20261112/r20190131/zrt_lookup_fy2021.html",
+    "id": "google_esf",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [
+   "ле каждой ссоры уходит от меня, стабильно раз в месяц мы расстаемся». Комментирует психолог 25.01.2024 5204 ЭКОНОМИКА Беларусь заявила в ВОЗ о проблемах с поставками в страну лекар"
+  ],
+  "forms": [
+   {
+    "id": "sf1",
+    "cls": "search-form search-form_hidden",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   },
+   {
+    "id": "sf2",
+    "cls": "search-form search-form_hidden header__main-search",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 6345
+ },
+ "extra": {
+  "name": "magilev_2024-01-26_kuda-shodit-v-mogileve-v-blizhajshie-v",
+  "status": 200,
+  "requested": "https://magilev.by/news/2024/01/26/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid",
+  "pre": null
+ }
+}

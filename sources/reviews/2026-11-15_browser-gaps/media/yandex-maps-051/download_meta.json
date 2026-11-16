@@ -1,0 +1,53 @@
+{
+ "player_url": "https://runtime.strm.yandex.ru/player/video/vplvzufzumgbfkso4i7c",
+ "mpd_url": "https://strm.yandex.ru/vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=d91bbeb306ebddc103e20d605f6c78dfec6a23c703f61514261d8cf82b691781,abcID=1238,bstrat=strm,chID=vplc3e5cm3yjfdqx32ya,pfx,sfx,ts=6afc399f,video=vplvzufzumgbfkso4i7c/manifest.mpd?packman=1&vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919&vpuid=wkb0k57ra9&source_index=0&audio_mbr=1&mburl=1&drm_packager=1&t=1794741919365",
+ "fetched_at": "2026-11-15T11:26:53.010Z",
+ "base": "https://strm-fra-01.strm.yandex.net/lid=293/",
+ "duration": "PT6.033S",
+ "tracks": {
+  "video": {
+   "id": "vid5",
+   "codecs": "avc1.64001f",
+   "width": "1280",
+   "height": "720",
+   "frameRate": "30",
+   "bandwidth": "3147625",
+   "audioSamplingRate": null,
+   "segments": 2,
+   "part_sizes": [
+    698,
+    1969763,
+    407618
+   ],
+   "urls": [
+    "https://strm-fra-01.strm.yandex.net/lid=293/vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=f660237d51a5b233d4499d523093245e2a7ee81377dc19f3da2d62264bcc9925,abcID=1238,chID=vplc3e5cm3yjfdqx32ya,fps=30.00,label=720p,pfx,stream_type=DASH,ts=6afd299a,vbrt=3147,vcodec=h264,vh=720,vw=1280/vid5/init-v1.mp4?source_index=0&vpuid=wkb0k57ra9&vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919",
+    "https://strm-fra-01.strm.yandex.net/lid=293/vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=f660237d51a5b233d4499d523093245e2a7ee81377dc19f3da2d62264bcc9925,abcID=1238,chID=vplc3e5cm3yjfdqx32ya,fps=30.00,label=720p,pfx,stream_type=DASH,ts=6afd299a,vbrt=3147,vcodec=h264,vh=720,vw=1280/vid5/fragment-1-v1.m4s?source_index=0&vpuid=wkb0k57ra9&vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919",
+    "https://strm-fra-01.strm.yandex.net/lid=293/vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=f660237d51a5b233d4499d523093245e2a7ee81377dc19f3da2d62264bcc9925,abcID=1238,chID=vplc3e5cm3yjfdqx32ya,fps=30.00,label=720p,pfx,stream_type=DASH,ts=6afd299a,vbrt=3147,vcodec=h264,vh=720,vw=1280/vid5/fragment-2-v1.m4s?source_index=0&vpuid=wkb0k57ra9&vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919"
+   ],
+   "bytes": 2378079,
+   "sha256": "ebed66e53d9a483d81f1665a6e923533f97c08c713cd83aa63eed44e931cfb43"
+  },
+  "audio": {
+   "id": "aid0",
+   "codecs": "mp4a.40.2",
+   "width": null,
+   "height": null,
+   "frameRate": null,
+   "bandwidth": "198934",
+   "audioSamplingRate": "44100",
+   "segments": 2,
+   "part_sizes": [
+    604,
+    126711,
+    25874
+   ],
+   "urls": [
+    "https://strm-fra-01.strm.yandex.net/lid=293/vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=5469144e34746d5edc8b157821b3c1fbb3a19043d6271f817ecf8e8dd97b3160,abcID=1238,abrt=194,ach=2,acodec=aac,chID=vplc3e5cm3yjfdqx32ya,lang=und,pfx,stream_type=DASH,ts=6afd299a/aid0/init-a1.mp4?source_index=0&vpuid=wkb0k57ra9&vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919",
+    "https://strm-fra-01.strm.yandex.net/lid=293/vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=5469144e34746d5edc8b157821b3c1fbb3a19043d6271f817ecf8e8dd97b3160,abcID=1238,abrt=194,ach=2,acodec=aac,chID=vplc3e5cm3yjfdqx32ya,lang=und,pfx,stream_type=DASH,ts=6afd299a/aid0/fragment-1-a1.m4s?source_index=0&vpuid=wkb0k57ra9&vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919",
+    "https://strm-fra-01.strm.yandex.net/lid=293/vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=5469144e34746d5edc8b157821b3c1fbb3a19043d6271f817ecf8e8dd97b3160,abcID=1238,abrt=194,ach=2,acodec=aac,chID=vplc3e5cm3yjfdqx32ya,lang=und,pfx,stream_type=DASH,ts=6afd299a/aid0/fragment-2-a1.m4s?source_index=0&vpuid=wkb0k57ra9&vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919"
+   ],
+   "bytes": 153189,
+   "sha256": "62f7445a9677b34606d962db451cf765d55cd39654a827e55c1c458fe32e63b2"
+  }
+ }
+}

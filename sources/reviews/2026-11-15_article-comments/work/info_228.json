@@ -1,0 +1,75 @@
+{
+ "number": 228,
+ "url": "https://komkur.info/component/search/?searchword=%D0%91%D1%83%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%2C%2013&searchphrase=exact&ordering=newest&limit=0",
+ "title": "Результаты поиска: Буденного, 13 - komkur.info",
+ "at": "2026-11-15T17:05:21.364Z",
+ "html": "raw/228_komkur-info_komkur-search-budennogo-13.html",
+ "txt": "raw/228_komkur-info_komkur-search-budennogo-13.txt",
+ "sha256": "2e5ea4c61d082773cd94a0dc514f2a334a9f3696c044d43dcecf49198e3a7183",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/component/finder/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:cd19a83bc8bc4614347f054dca815359"
+    ]
+   },
+   {
+    "id": "searchForm",
+    "cls": "",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "select:select-one:ordering"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 652
+ },
+ "extra": {
+  "name": "komkur-search_budennogo-13",
+  "status": 200,
+  "requested": "https://komkur.info/component/search/?searchword=%D0%91%D1%83%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%2C%2013&searchphrase=exact&ordering=newest&limit=0",
+  "site": "komkur.info",
+  "query": "Буденного, 13",
+  "summary": "Результаты поиска: найдено 0 элементов.",
+  "links": [
+   {
+    "href": "https://yandex.by/maps/-/CDQK58zQ",
+    "text": "ул. Московская, 42, г. Бобруйск, Беларусь, 213826"
+   }
+  ],
+  "next": []
+ }
+}

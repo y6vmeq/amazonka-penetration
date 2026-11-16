@@ -1,0 +1,78 @@
+{
+ "number": 204,
+ "url": "https://magilev.by/news/2024/11/06/vosmoj-gastrofest-v-mogileve-kto-uchastvuet-i-chto-v-menyu-za-43-rublya-dopolnyaetsya",
+ "title": "Восьмой «Гастрофест» в Могилеве: кто участвует и что в меню за 43 рубля? | magilev.by",
+ "at": "2026-11-15T15:31:01.523Z",
+ "html": "raw/204_magilev-by_magilev-2024-11-06-vosmoj-gastrofest-v-mogileve-kto-uchas.html",
+ "txt": "raw/204_magilev-by_magilev-2024-11-06-vosmoj-gastrofest-v-mogileve-kto-uchas.txt",
+ "sha256": "8467d577267c705ce452322fbd78aa60990a807890d53eb2485eabc436024afb",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "b b_detail-before-comments b_visible",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [
+   {
+    "src": "https://www.instagram.com/p/DB_LRuGoDFe/embed/?cr=1&v=14&wp=483&rd=https%3A%2F%2Fmagilev.by&rp=%2Fnews%2F2024%2F11%2F06%2Fvosmoj-gastrofest-v-mogileve-kto-uchastvuet-i-chto-v-menyu-za-43-rublya-dopolnyaetsya#%7B%22ci%22%3A0%2C%22os%22%3A126.09999996423721%2C%22ls%22%3A61.69999998807907%2C%22le%22%3A",
+    "id": "instagram-embed-0",
+    "cls": "instagram-media"
+   },
+   {
+    "src": "https://www.instagram.com/p/DB8lKlBIWg3/embed/?cr=1&v=14&wp=517&rd=https%3A%2F%2Fmagilev.by&rp=%2Fnews%2F2024%2F11%2F06%2Fvosmoj-gastrofest-v-mogileve-kto-uchastvuet-i-chto-v-menyu-za-43-rublya-dopolnyaetsya#%7B%22ci%22%3A1%2C%22os%22%3A127.89999997615814%2C%22ls%22%3A61.69999998807907%2C%22le%22%3A",
+    "id": "instagram-embed-1",
+    "cls": "instagram-media"
+   },
+   {
+    "src": "https://www.instagram.com/p/DB84hNxIhT-/embed/?cr=1&v=14&wp=450&rd=https%3A%2F%2Fmagilev.by&rp=%2Fnews%2F2024%2F11%2F06%2Fvosmoj-gastrofest-v-mogileve-kto-uchastvuet-i-chto-v-menyu-za-43-rublya-dopolnyaetsya#%7B%22ci%22%3A2%2C%22os%22%3A129%2C%22ls%22%3A61.69999998807907%2C%22le%22%3A61.699999988079",
+    "id": "instagram-embed-2",
+    "cls": "instagram-media"
+   },
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-7674021519504941&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1794756652&plat=3%3A16%2C4%3A16%2C9%3A32%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=",
+    "id": "aswift_0",
+    "cls": ""
+   },
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/html/r20261112/r20190131/zrt_lookup_fy2021.html",
+    "id": "google_esf",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "sf1",
+    "cls": "search-form search-form_hidden",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   },
+   {
+    "id": "sf2",
+    "cls": "search-form search-form_hidden header__main-search",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 11375
+ },
+ "extra": {
+  "name": "magilev_2024-11-06_vosmoj-gastrofest-v-mogileve-kto-uchas",
+  "status": 200,
+  "requested": "https://magilev.by/news/2024/11/06/vosmoj-gastrofest-v-mogileve-kto-uchastvuet-i-chto-v-menyu-za-43-rublya-dopolnyaetsya",
+  "pre": null
+ }
+}

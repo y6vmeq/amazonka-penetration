@@ -1,0 +1,68 @@
+{
+ "number": 214,
+ "url": "https://magilev.by/news/2025/10/14/kulinarnyj-festival-mogilev-pro-osen-s-20-oktyabrya-kto-uchastvuet-i-chto-v-menyu-za-40-rublej",
+ "title": "Кулинарный фестиваль «Могилев pro Осень» с 20 октября: кто участвует и что в меню за 40 рублей? | magilev.by",
+ "at": "2026-11-15T15:32:28.217Z",
+ "html": "raw/214_magilev-by_magilev-2025-10-14-kulinarnyj-festival-mogilev-pro-osen-s.html",
+ "txt": "raw/214_magilev-by_magilev-2025-10-14-kulinarnyj-festival-mogilev-pro-osen-s.txt",
+ "sha256": "5caa1dfe3ef713c5cde66bcc6c571967383d58fc3ca7916695b08bc9a2b2d796",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "b b_detail-before-comments b_visible",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-7674021519504941&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1794756739&plat=3%3A16%2C4%3A16%2C9%3A32%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=",
+    "id": "aswift_0",
+    "cls": ""
+   },
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/html/r20261112/r20190131/zrt_lookup_fy2021.html",
+    "id": "google_esf",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [
+   "вует? И что предлагает? Гастробар «Цоколь» Сет гастробара «Цоколь». Отзыв о визите в гастробар «Цоколь» здесь. Адрес: ул. Дзержинского, 19 Телефон для бронирования: +375 (29) 1",
+   "лепихи и клюквы. Ресторан «Санта-Мария» Сет ресторана «Санта-Мария». Отзыв о визите в ресторан здесь. Адрес: ул. Симонова д. 69Г Вес сета: 1290 г Состав сета: Салат с лососем ",
+   "шоколадным муссом Глинтвейн. Рестобар Colette Сет рестобара Colette. Отзыв о визите в рестобар Colette здесь. Адрес: ул.Ленинская, 44 Телефон для бронирования: +375(44)7-900-700",
+   "аники с птицей и грибочками Яблочный пирог Бар «Луч» Сет бара «Луч». Отзыв о визите в бар «Луч» здесь. Адрес: ул. Ленинская, 15 Вес сета: 1550 Состав сета: Борщ по-белорусски "
+  ],
+  "forms": [
+   {
+    "id": "sf1",
+    "cls": "search-form search-form_hidden",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   },
+   {
+    "id": "sf2",
+    "cls": "search-form search-form_hidden header__main-search",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 8195
+ },
+ "extra": {
+  "name": "magilev_2025-10-14_kulinarnyj-festival-mogilev-pro-osen-s",
+  "status": 200,
+  "requested": "https://magilev.by/news/2025/10/14/kulinarnyj-festival-mogilev-pro-osen-s-20-oktyabrya-kto-uchastvuet-i-chto-v-menyu-za-40-rublej",
+  "pre": null
+ }
+}

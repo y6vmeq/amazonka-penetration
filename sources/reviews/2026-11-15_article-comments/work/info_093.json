@@ -1,0 +1,224 @@
+{
+ "number": 93,
+ "url": "https://t.me/mogilev/10180?embed=1&discussion=1&comments_limit=100",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:31:07.850Z",
+ "html": "raw/093_t-me_tg-mogilev-10180-discussion.html",
+ "txt": "raw/093_t-me_tg-mogilev-10180-discussion.txt",
+ "sha256": "015241744112d33c9e2d16ab728ad024a8e3ace7deae8ddf4133f739932b510a",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 16,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_widget body_widget_discussion emoji_image force_userpic nodark name_nocolor",
+    "textLen": 423,
+    "text": "3 comments on this post Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_header_wrap",
+    "textLen": 23,
+    "text": "3 comments on this post"
+   },
+   {
+    "tag": "H3",
+    "id": "",
+    "cls": "tgme_post_discussion_header",
+    "textLen": 23,
+    "text": "3 comments on this post"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion js-message_history",
+    "textLen": 381,
+    "text": "Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области мо"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 195,
+    "text": " Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области м"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 171,
+    "text": "🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggest"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 46,
+    "text": " Дарья Судные дни для работников общепита "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 34,
+    "text": "Судные дни для работников общепита"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply user-color-default js-reply_to",
+    "textLen": 40,
+    "text": "Дарья Судные дни для работников общепита"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 34,
+    "text": "Судные дни для работников общепита"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 66,
+    "text": " . Да да Особенно когда ты являешься одним из этих работников "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 58,
+    "text": "Да да Особенно когда ты являешься одним из этих работников"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_footer",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "FORM",
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login_btn accent_bghover js-login_btn",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/discussion-widget.js?10",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [
+   "3 comments on this post Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о собы"
+  ],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "action": "",
+    "fields": [
+     "input:hidden:peer",
+     "input:hidden:top_msg_id",
+     "input:hidden:discussion_hash"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 423
+ },
+ "extra": {
+  "name": "tg_mogilev_10180_discussion",
+  "status": 200,
+  "requested": "https://t.me/mogilev/10180?embed=1&discussion=1&comments_limit=100",
+  "channel": "mogilev",
+  "post": 10180,
+  "tgDiscussion": {
+   "url": "https://t.me/mogilev/10180?embed=1&discussion=1&comments_limit=100",
+   "at": "2026-11-15T14:31:07.850Z",
+   "header": "3 comments on this post",
+   "error": "",
+   "comments": [
+    {
+     "id": "84826",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilevglavnoebot",
+     "text": "🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot",
+     "dateText": "Oct 14, 2025",
+     "datetime": "2025-10-14T12:06:19+00:00",
+     "url": "https://t.me/mogilev/10180?comment=84826",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "84828",
+     "author": "Дарья",
+     "authorHref": "https://t.me/ddar_yaa05",
+     "text": "Судные дни для работников общепита",
+     "dateText": "Oct 14, 2025",
+     "datetime": "2025-10-14T12:35:51+00:00",
+     "url": "https://t.me/mogilev/10180?comment=84828",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "🔥2"
+     ],
+     "media": []
+    },
+    {
+     "id": "84836",
+     "author": ".",
+     "authorHref": "",
+     "text": "Да да\nОсобенно когда ты являешься одним из этих работников",
+     "dateText": "Oct 14, 2025",
+     "datetime": "2025-10-14T13:06:21+00:00",
+     "url": "https://t.me/mogilev/10180?comment=84836",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "🤝2"
+     ],
+     "media": []
+    }
+   ],
+   "moreLeft": false,
+   "moreState": [
+    "tme_messages_more accent_bghover js-messages_more autoload hide|after=84836|before="
+   ],
+   "bodyText": "3 comments on this post\nМогилев. Главное!\n🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot\nOct 14, 2025\nДарья\nСудные дни для работников общепита\n🔥\n2\nOct 14, 2025\n.\nДарья\nСудные"
+  }
+ }
+}

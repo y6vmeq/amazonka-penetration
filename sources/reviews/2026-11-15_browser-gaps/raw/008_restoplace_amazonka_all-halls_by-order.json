@@ -1,0 +1,145 @@
+{
+ "url": "https://312085.restoplace.ws/",
+ "captured_at": "2026-11-15T11:22:21.460Z",
+ "title": "Забронировать стол в Амазонка рестобар онлайн",
+ "data": {
+  "view": "Все залы / По порядку",
+  "active_floor": "Все залы",
+  "active_sort": "По порядку",
+  "time_shown": "с 19:10 ч.",
+  "working_hours_shown": "ВРЕМЯ РАБОТЫ: 12:00 - 03:00",
+  "tables_in_page_order": [
+   {
+    "id": "284806",
+    "hall": "1 зал",
+    "number": "№1",
+    "name": "Стол",
+    "seats_shown": "4",
+    "status_text_at_capture": "Занят до 22:05"
+   },
+   {
+    "id": "284807",
+    "hall": "1 зал",
+    "number": "№2",
+    "name": "Стол",
+    "seats_shown": "4",
+    "status_text_at_capture": "Занят до 20:35"
+   },
+   {
+    "id": "284808",
+    "hall": "1 зал",
+    "number": "№3",
+    "name": "Стол",
+    "seats_shown": "4",
+    "status_text_at_capture": "Занят до 21:05"
+   },
+   {
+    "id": "697559",
+    "hall": "1 зал",
+    "number": "№4",
+    "name": "Стол",
+    "seats_shown": "2",
+    "status_text_at_capture": "Занят до 20:05\nЗанят с 20:55 до 01:25"
+   },
+   {
+    "id": "697560",
+    "hall": "1 зал",
+    "number": "№5",
+    "name": "Стол",
+    "seats_shown": "2",
+    "status_text_at_capture": "Занят до 01:25"
+   },
+   {
+    "id": "284814",
+    "hall": "2 зал",
+    "number": "№6",
+    "name": "Стол",
+    "seats_shown": "4",
+    "status_text_at_capture": "Свободно до 21:05\nЗанят с 21:05 до 00:35"
+   },
+   {
+    "id": "284815",
+    "hall": "2 зал",
+    "number": "№7",
+    "name": "Стол",
+    "seats_shown": "2",
+    "status_text_at_capture": "Занят"
+   },
+   {
+    "id": "284816",
+    "hall": "2 зал",
+    "number": "№8",
+    "name": "Стол",
+    "seats_shown": "9",
+    "status_text_at_capture": "Занят"
+   },
+   {
+    "id": "284817",
+    "hall": "2 зал",
+    "number": "№9",
+    "name": "Стол",
+    "seats_shown": "6",
+    "status_text_at_capture": "Занят"
+   },
+   {
+    "id": "284818",
+    "hall": "2 зал",
+    "number": "№10",
+    "name": "Стол",
+    "seats_shown": "6",
+    "status_text_at_capture": "Занят до 22:05"
+   },
+   {
+    "id": "607773",
+    "hall": "2 зал",
+    "number": "№11",
+    "name": "Стол",
+    "seats_shown": "6",
+    "status_text_at_capture": "Занят до 22:05"
+   }
+  ],
+  "tables_count": 11,
+  "seats_sum": 49,
+  "halls_banquet_cards": [
+   {
+    "id": "18017",
+    "hidden_on_page": true,
+    "description": "Возможно частичное бронирование зала",
+    "name": "1 зал",
+    "people_shown": "16",
+    "people_block_class": "card-people "
+   },
+   {
+    "id": "18018",
+    "hidden_on_page": true,
+    "description": "Возможно частичное бронирование зала",
+    "name": "2 зал",
+    "people_shown": "33",
+    "people_block_class": "card-people "
+   },
+   {
+    "id": "46661",
+    "hidden_on_page": true,
+    "description": "Возможно частичное бронирование зала",
+    "name": "Летняя терраса",
+    "people_shown": "0",
+    "people_block_class": "card-people none"
+   }
+  ],
+  "scheme_containers": [
+   {
+    "floor_id": "18017",
+    "children": 0
+   },
+   {
+    "floor_id": "18018",
+    "children": 0
+   },
+   {
+    "floor_id": "46661",
+    "children": 0
+   }
+  ],
+  "body_class": "public address-one is-widget no-menu license widget-init floors-more items-enable init"
+ }
+}

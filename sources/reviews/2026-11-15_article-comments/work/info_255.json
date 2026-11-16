@@ -1,0 +1,59 @@
+{
+ "number": 255,
+ "url": "https://komkur.info/money/festival-edy-zimovy-smak-v-resto-bare-colette-rebenok-i-pitstsa-ochen-sovmestimye-komponenty",
+ "title": "Фестиваль еды «Зімовы смак» в рестобаре «Colette»: «Ребенок и пицца – очень совместимые компоненты»",
+ "at": "2026-11-15T17:08:54.500Z",
+ "html": "raw/255_komkur-info_komkur-new-festival-edy-zimovy-smak-v-resto-bare-co.html",
+ "txt": "raw/255_komkur-info_komkur-new-festival-edy-zimovy-smak-v-resto-bare-co.txt",
+ "sha256": "1c82a1f13787c9860ee6ce53297bdfadbf1031dec6f273f90ebae97905b8eafe",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [
+   {
+    "src": "https://yastatic.net/safeframe-bundles/0.89/1-1-0/render.html",
+    "id": "id4665",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:cd19a83bc8bc4614347f054dca815359"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 7228
+ },
+ "extra": {
+  "name": "komkur_new_festival-edy-zimovy-smak-v-resto-bare-co",
+  "status": 200,
+  "requested": "https://komkur.info/money/festival-edy-zimovy-smak-v-resto-bare-colette-rebenok-i-pitstsa-ochen-sovmestimye-komponenty",
+  "pre": null
+ }
+}

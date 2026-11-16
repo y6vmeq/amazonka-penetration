@@ -1,0 +1,49 @@
+mogilev.online: http=200 bytes=350784 title='ВКонтакте | ВКонтакте' | id=130268722 members=23149 name='МогилевОнлайн - новостной паблик Могилева' desc='Место, где могилевчане могут читать и обсуждать новости города. \\n\\nМы в Одноклассниках — https:\\/\\/ok.ru\\/mogilevonline\\nМы в Facebook — https:\\/\\/www.facebook.com\\/mogilevonline\\nМы в Telegram — htt'
+vestnikmogileva: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+my_mogilev: http=200 bytes=272992 title='ВКонтакте | ВКонтакте' | id=278400 members=5178 name='Могилёв | My Story' desc='Группа для тех, кто здесь родился, живет, приезжает сюда или просто любит этот город!\\n——————————————————————————————\\nОснована 29 августа 2007 года.'
+belarus4mogilev: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+magilev_by: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+magilev: http=200 bytes=244952 title='ВКонтакте | ВКонтакте' | group-json not found; id-guess=club229780192
+mycityby: http=200 bytes=243680 title='ВКонтакте | ВКонтакте' | group-json not found; id-guess=club229780192
+chp_mogilev: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+mogilev_chp: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+mogilevlive: http=200 bytes=376604 title='ВКонтакте | ВКонтакте' | id=85861363 members=922 name='Авто Live Могилев' desc='Реклама и объявления разрешены только в обсуждениях.'
+mogilev_live: http=200 bytes=374576 title='ВКонтакте | ВКонтакте' | id=43076878 members=101 name='Живые фотографии о Могилеве и его обитателях' desc='Фотография - это язык. Я учусь на нем общаться, писать истории, заметки и стихи.\\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _'
+typmogilev: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+mogilev_today: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+mogilev_afisha: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+mogilevafisha: http=200 bytes=294800 title='ВКонтакте | ВКонтакте' | id=120070716 members=4 name='Афиша' desc='Добро пожаловать!\\n\\n Данная рубрика освещает интересные места и тематические мероприятия города Могилева. Здесь вы можете ознакомиться с афишей, оставить свои приятные впечатление в виде отзыва, а та'
+kuda_mogilev: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+eda_mogilev: http=200 bytes=227534 title='ВКонтакте | ВКонтакте' | id=57927525 members=1 name='Еда с доставкой в Могилеве' desc='Срочная доставка еды в Могилеве. Горячие обеды и ужины, пицца, десерты и напитки.\\n\\nПять причин, почему Вам стоит выбрать нас:\\n\\n1. Это удобно. Вам не придется тратить время на хождение по магазинам'
+mogilev_rest: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+restorany_mogilev: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+gastrofest_mogilev: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+gastrofest: http=200 bytes=293205 title='ВКонтакте | ВКонтакте' | id=151967117 members=31 name='29.04 Гастрофест ГОРОДСКАЯ ЕДА' desc='Городская Еда - это твой формат отдыха:  • Уличная выставка-продажа еды; \\n• Зоны отдыха на газонах в гамаках, креслах-мешках и шезлонгах;\\n• Ремесленный арт маркет;\\n• Лекционная зона: мастер-классы '
+gastrofestby: http=200 bytes=594192 title='ВКонтакте | ВКонтакте' | id=128232180 members=12456 name='Gastrofest.by | Гастрономические Фестивали' desc='Серия гастрономических фестивалей в Минске и всех региональных городах представляет календарь на 2025 год! \\n\\nВ рамках фестивалей заведения предложат сеты по единой цене в Минске, Гомеле, Гродно, Вит'
+zatestilmogilev: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+baraholka_mogilev: http=200 bytes=278003 title='ВКонтакте | ВКонтакте' | id=43054026 members=54 name='Могилев | Барахолка BY | Доска объявлений' desc=''
+mogilev_baraholka: http=200 bytes=209285 title='ВКонтакте | ВКонтакте' | id=60888053 members=2 name='mogilev_baraholka' desc=''
+rabota_v_mogileve: http=200 bytes=202602 title='ВКонтакте | ВКонтакте' | id=62819070 members=4823 name='Работа и недвижимость в Могилеве. Вакансии.' desc='Ищите хорошую работу? Хотите понравится работодателю? Тогда Вы попали по нужному адресу. На нашем сайте Вы найдете то, как правильно составить резюме, как пройти собеседование, как расположить к себе '
+vakansii_mogilev: http=200 bytes=202570 title='ВКонтакте | ВКонтакте' | id=159764584 members=207 name='Работа Могилев' desc=''
+mogilev_vakansii: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+mogilevgid: http=200 bytes=246663 title='ВКонтакте | ВКонтакте' | group-json not found; id-guess=club229780192
+inmogilev: http=200 bytes=276921 title='ВКонтакте | ВКонтакте' | id=43899057 members=42 name='Интересный Могилев' desc='Новости и события Могилёва\\n\\nПроект Govorim.by - первая сеть городских порталов Беларуси'
+mogilev_in: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+vmogileve: http=200 bytes=198969 title='ВКонтакте | ВКонтакте' | group-json not found; id-guess=club229780192
+mogilevcity: http=200 bytes=299439 title='ВКонтакте | ВКонтакте' | id=67941267 members=47 name='Mogilev city' desc=''
+gorod_mogilev: http=200 bytes=272952 title='ВКонтакте | ВКонтакте' | id=63378313 members=1 name='Mogilev City | Город Могилев' desc='Группа для тех, кто живет в Могилеве, был здесь когда-то или каким-то образом связан с нашим городом.\\nСвежие новости, фотографии, праздники, новинки, места, знакомства - все это вы найдете именно зде'
+mogilev_gorod: http=200 bytes=232514 title='ВКонтакте | ВКонтакте' | id=120920703 members=4 name='Могилев' desc=''
+lifemogilev: http=200 bytes=199352 title='ВКонтакте | ВКонтакте' | id=40942685 members=0 name='Бесплатное подключение к Life:)!' desc='Здесь можно бесплатно подключиться к самой быстроразвивающейся мобильной сети страны - ЗАО \\"БеСТ\\" (ТМ \\"Life:)\\")'
+life_mogilev: http=200 bytes=198982 title='ВКонтакте | ВКонтакте' | group-json not found; id-guess=club229780192
+mogilev_region: http=200 bytes=250970 title='ВКонтакте | ВКонтакте' | id=17660706 members=44 name='&#9733;Могилёвский район&#9733;' desc='Пашково, Присно, Никитиничи, Аэропорт, Бобровичи, Княжицы, Сумароково...\\n\\nВсе, кто знает.\\nВсе, кто отдыхал.\\nВсе, кто любит.\\nВам сюда)*'
+podslushano_mogilev: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+podslushanomogilev: http=200 bytes=248669 title='ВКонтакте | ВКонтакте' | id=76621728 members=3 name='Подслушано|10 лицей|Могилев' desc='Здесь вы можете поделиться любыми секретами и ситуациями из жизни, имеющими то или иное отношение к городу либо к людям в нём. Анонимность гарантируется.\\n\\nПредложить новость можно через раздел \\"пре'
+mogilevpodslushano: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+mogilev_overhear: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+mogilev_blacklist: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+chernyi_spisok_mogilev: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+otzyvy_mogilev: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+mogilev_job: http=200 bytes=205437 title='ВКонтакте | ВКонтакте' | id=158763646 members=2732 name='Работа в Могилёве' desc='Удобный сервис ВКонтакте для поиска работы и сотрудников.\\nРазовая, постоянная, временная работа в Могилеве без посредников!\\n\\nНа стене размещаем только ВАКАНСИИ!!!\\n_________________________________'
+job_mogilev: http=200 bytes=273184 title='ВКонтакте | ВКонтакте' | id=209151126 members=130 name='Работа в Могилеве | Вакансии | Ищу работу' desc='Поиск работы среди всех актуальных вакансий в Могилеве. Работа, вакансии в Могилеве. Свежие вакансии.\\nНайти работников, предложить работу.\\n\\nМы не публикуем информацию:\\n - сетевых организаций \\n - '
+mogilevjob: http=200 bytes=199103 title='ВКонтакте | ВКонтакте' | group-json not found; id-guess=club229780192
+mogilev_work: http=200 bytes=201912 title='ВКонтакте | ВКонтакте' | id=60681571 members=1188 name='Работа | МОГИЛЕВ' desc=''

@@ -1,0 +1,91 @@
+{
+ "number": 223,
+ "url": "https://komkur.info/component/search/?searchword=%D0%90%D0%BC%D0%B0%D0%B7%D0%BE%D0%BD%D0%BA&searchphrase=exact&ordering=newest&limit=0",
+ "title": "Результаты поиска: Амазонк - komkur.info",
+ "at": "2026-11-15T17:04:27.080Z",
+ "html": "raw/223_komkur-info_komkur-search-amazonk.html",
+ "txt": "raw/223_komkur-info_komkur-search-amazonk.txt",
+ "sha256": "d28f80216f9a73642357532cf0f545517c77b2122a99dd31e02880a0637338c4",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/component/finder/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:cd19a83bc8bc4614347f054dca815359"
+    ]
+   },
+   {
+    "id": "searchForm",
+    "cls": "",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "select:select-one:ordering"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 1915
+ },
+ "extra": {
+  "name": "komkur-search_amazonk",
+  "status": 200,
+  "requested": "https://komkur.info/component/search/?searchword=%D0%90%D0%BC%D0%B0%D0%B7%D0%BE%D0%BD%D0%BA&searchphrase=exact&ordering=newest&limit=0",
+  "site": "komkur.info",
+  "query": "Амазонк",
+  "summary": "Результаты поиска: найдено 4 элементов.",
+  "links": [
+   {
+    "href": "https://komkur.info/money/v-mogilevskom-restobare-amazonka-mozhno-poderzhat-v-rukakh-gekkona-sest-sup-s-osminozhkami-i-zakazat-rimskuyu-pitstsu",
+    "text": "В могилевском рестобаре «Амазонка» можно подержать в руках геккона, съесть суп с осьминожками и заказать римскую пиццу"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-sup-v-amazonke-na-lyubitelya",
+    "text": "«Гастрофест» в Могилеве: суп в «Амазонке» – на любителя"
+   },
+   {
+    "href": "https://komkur.info/money/na-festivale-edy-zimovy-smak-restobar-amazonka-i-udivil-i-vkusno-nakormil",
+    "text": "На фестивале еды «Зімовы смак»: рестобар «Амазонка» и удивил, и вкусно накормил"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-udivitelno-vkusno-iskristo-i-ostro-nakormili-v-restobare-amazonka",
+    "text": "«Гастрофест» в Могилеве: «удивительно вкусно, искристо и остро» накормили в рестобаре «Амазонка»"
+   },
+   {
+    "href": "https://yandex.by/maps/-/CDQK58zQ",
+    "text": "ул. Московская, 42, г. Бобруйск, Беларусь, 213826"
+   }
+  ],
+  "next": []
+ }
+}

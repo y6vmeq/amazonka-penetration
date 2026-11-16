@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Yandex.Metrika counter -->
+<noscript><div><img src="https://mc.yandex.ru/watch/87385122" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="description" content=" " />
+<script data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Windows/i.test(ua)){cl += ' bx-win';}else if (/Macintosh/i.test(ua)){cl += " bx-mac";}else if (/Linux/i.test(ua) && !/Android/i.test(ua)){cl += " bx-linux";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";if (/Safari/i.test(ua) && !/Chrome/i.test(ua)){cl += " bx-safari";}else if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Firefox/.test(ua)){cl += " bx-firefox";}ht.className = htc ? htc + " " + cl : cl;})(window, document, navigator);</script>
+
+
+<link href="/bitrix/cache/css/s1/main_template/kernel_main/kernel_main_v1.css?179456165010074" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css?175836197123463" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/design-tokens/air/dist/air-design-tokens.min.css?1793950052163306" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?17583619692320" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/icon-set/dist/icon-set.bundle.min.css?17829796861877" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/icon-set/outline/dist/outline.bundle.min.css?1793950057146392" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/main/popup/dist/main.popup.bundle.min.css?179085340522500" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/cache/css/s1/main_template/page_c79b9feeb2d5cb5d760f43b997de239b/page_c79b9feeb2d5cb5d760f43b997de239b_v1.css?17945616506873" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/cache/css/s1/main_template/template_d741e7af40c3546d6b25ef862cd7b080/template_d741e7af40c3546d6b25ef862cd7b080_v1.css?1794561645739742" type="text/css" rel="stylesheet" data-template-style="true"/>
+
+
+<script type="extension/settings" data-extension="main.baseline">{"collectData":false,"helpUrl":"https:\/\/helpdesk.bitrix24.ru\/open\/code_27229654\/","helpCode":"redirect=detail\u0026code=27229654"}</script>
+
+
+
+
+
+
+<script type="extension/settings" data-extension="ui.a11y">{"restoreLostFocus":false,"useFocusTrapInDialogs":false}</script>
+<script type="extension/settings" data-extension="main.date">{"formats":{"FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","SHORT_DATE_FORMAT":"d.m.Y","MEDIUM_DATE_FORMAT":"j M Y","LONG_DATE_FORMAT":"j F Y","DAY_MONTH_FORMAT":"j F","DAY_SHORT_MONTH_FORMAT":"j M","SHORT_DAY_OF_WEEK_MONTH_FORMAT":"D, j F","SHORT_DAY_OF_WEEK_SHORT_MONTH_FORMAT":"D, j M","DAY_OF_WEEK_MONTH_FORMAT":"l, j F","FULL_DATE_FORMAT":"l, j F Y","SHORT_TIME_FORMAT":"H:i","LONG_TIME_FORMAT":"H:i:s"}}</script>
+
+
+
+<link rel="stylesheet" href="/local/templates/main_template/css/swiper-bundle.min.css" />
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/local/templates/main_template/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/local/templates/main_template/favicon-48.png" />
+
+	<title>Поиск</title>
+</head>
+<body>
+    <div id="panel">
+            </div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-top py-3 position-relative">
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center position-relative">
+                        <div class="d-flex align-items-center">
+                            
+                                                        <div class="inspectorates">
+                                
+<button class="inspectorates__btn d-md-flex align-items-center _btn-toggle">
+    <div class="inspectorates__title mr-auto"> Налоговые инспекции </div>
+    <i class="bi bi-chevron-down d-none d-md-block"></i>
+    <i class="bi bi-geo-alt d-block d-md-none"></i>
+</button>
+<ul class="inspectorates__list hidden-block">
+    <li><a href="/inspectorates/search" class="inspectorates__link"> Найти инспекцию </a></li>
+    <li id="5">
+        <a href="/inspectorates/imns-brest-region/" class="inspectorates__link"> ИМНС по Брестской области </a>
+    </li>
+    <li id="6">
+        <a href="/inspectorates/imns-vitebsk-region/" class="inspectorates__link"> ИМНС по Витебской области </a>
+    </li>
+    <li id="7">
+        <a href="/inspectorates/imns-gomel-region/" class="inspectorates__link"> ИМНС по Гомельской области </a>
+    </li>
+    <li id="8">
+        <a href="/inspectorates/imns-grodno-region/" class="inspectorates__link"> ИМНС по Гродненской области </a>
+    </li>
+    <li id="9">
+        <a href="/inspectorates/imns-minsk-region/" class="inspectorates__link"> ИМНС по Минской области </a>
+    </li>
+    <li id="10">
+        <a href="/inspectorates/imns-mogilev-region/" class="inspectorates__link"> ИМНС по Могилевской области </a>
+    </li>
+    <li id="11">
+        <a href="/inspectorates/imns-minsk/" class="inspectorates__link"> ИМНС по г. Минску </a>
+    </li>
+</ul>                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center">
+                            <a href="/sitemap/"class="map-site-header btn-accord btn-accord_white"> <i class="bi-diagram-3"></i></a>
+
+                            <div class="dropdown phone-header">
+                                <button type="button" class="phone-header__btn btn-accord btn-accord_white" id="dropdownPhone" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi-telephone"></i>
+                                </button>
+                                <ul class="dropdown-menu phone-header__list" aria-labelledby="dropdownPhone">
+                                    <li><a class="link" href="tel:189"><i class="bi-telephone mr-2"></i>189</a></li>
+                                    <li><a class="link" href="tel:+375172297979"><i class="bi-telephone mr-2"></i>+375 17 229-79-79</a></li>
+                                </ul>
+                            </div>
+
+                            <a href="#" class="header-handicapped btn-accord btn-accord_white bvi-open bvi-icon bvi-eye bvi-2x" title="Версия сайта для слабовидящих"><i class="bi bi-eye"></i></a>
+
+                                                        
+
+
+<form class="header-search" action="/search/">
+    <!--<input  type="text" placeholder="Искать здесь" class="header-search__input" />
+    -->
+            <input type="text" name="q" value="" size="15" maxlength="300" class="header-search__input" />
+        <div class="header-search__button btn-accord btn-accord_white">
+        <i class="bi bi-search position-absolute top-0 end-0"></i>
+    </div>
+</form>
+                            <div  id="lang_change">
+</div>
+
+                            <div class="nav-header">
+                                <button class="nav-header__burger d-block _btn-toggle">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+
+                                <nav class="nav-header__nav hidden-block">
+                                                                        <ul class="nav-header__list">
+	<li class="nav-header__tablet-link"><a href="/about" class="nav-header__hidden link-nav link-nav_black">О Министерстве</a></li>
+	<li class="nav-header__tablet-link"><a href="/documents" class="nav-header__hidden link-nav link-nav_black">Формы документов</a></li>
+	<li class="nav-header__tablet-link"><a href="/procedures" class="nav-header__hidden link-nav link-nav_black">Административные процедуры</a></li>
+	<li class="nav-header__tablet-link"><a href="/appeal" class="nav-header__hidden link-nav link-nav_black">Обращения граждан и юридических лиц</a></li>
+	<li><a href="/anti_corruption_commission" class="link-nav link-nav_black">Комиссия по противодействию коррупции </a></li>
+	<li><a href="/discussion_of_bills" class="link-nav link-nav_black">Обсуждение законопроектов</a></li>
+	<li><a href="/tax_control" class="link-nav link-nav_black">Налоговый контроль</a></li>
+	<li><a href="/international" class="link-nav link-nav_black">Международное сотрудничество</a></li>
+	<li><a href="/eec" class="link-nav link-nav_black">Евразийский экономический союз</a></li>
+	 	<li><a href="/software" class="link-nav link-nav_black">Программное обеспечение</a></li>
+	<li><a href="/tax_code" class="link-nav link-nav_black">Налоговый кодекс</a></li>
+	<li><a href="/vacancies" class="link-nav link-nav_black"> Вакансии </a> </li>
+	<li><a href="/question-answer" class="link-nav link-nav_black"> Вопрос - ответ </a> </li>
+<li><a href="/official-publications/" class="link-nav link-nav_black"> Официальные издания </a> </li>
+</ul>                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center position-relative">
+                                                    <a href="/" class="d-flex align-items-center my-3">
+                                                    <img class="logo" src="/local/templates/main_template/img/coat-of-arms.png" alt="coat-of-arms" />
+                            <img class="logo" src="/local/templates/main_template/img/heraldry.png" alt="mns_logo" />
+                            <div class="header-bottom__name">
+                                <div class="header-bottom__subtitle"> Официальный сайт </div>
+                                <div class="header-bottom__title">
+                                    Министерство по налогам и&nbsp;сборам Республики Беларусь                                </div>
+                            </div>
+                                                    </a>
+                                                <!-- menu -->
+
+                        
+<ul class="menu m-0 p-0">
+                                <!-- проверка доступа -->
+                                                <li>
+                        <a href="/about/" class="menu__link h6 p-2"> О министерстве </a> </li>
+                                                                            <!-- проверка доступа -->
+                                                <li>
+                        <a href="/documents/" class="menu__link h6 p-2"> Формы документов </a> </li>
+                                                                            <!-- проверка доступа -->
+                                                <li>
+                        <a href="/procedures/" class="menu__link h6 p-2"> Административные процедуры </a> </li>
+                                                                            <!-- проверка доступа -->
+                                                <li>
+                        <a href="/appeal/" class="menu__link h6 p-2"> Обращения граждан и юридических лиц </a> </li>
+                                                
+    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header__overlay"></div>
+
+        </header>
+
+        <main class="page page__decor">
+            <div class="content">
+
+                                                                <link href="/bitrix/css/main/font-awesome.css?175836190928777" type="text/css" rel="stylesheet" />
+<nav aria-label="breadcrumb"> <div class="container"><ol class="breadcrumb">
+			<li class="breadcrumb-item" id="bx_breadcrumb_0">
+				
+				<a href="/" title="Главная" itemprop="item">
+					Главная
+				</a>
+				<meta itemprop="position" content="1" />
+			</li>
+			<li class="breadcrumb-item active">
+				<i class="bi-chevron-right ms-2" style="color: white"></i>
+				Поиск
+			</li></div> </nav><div style="clear:both"></div>                    <div class="item-content ">
+                                
+
+<div class="container">
+
+<div id="comp_a4bef824b1e9ac3b140f79b77982786b"><div class="row mx-n2 mt-n3">    <aside class="col-lg-4 order-lg-2 px-2 pt-3">        <div class="sidebar">            <div class="sidebar__list">                <form class="sidebar-form"                     method="post" name="filter">                    <p class="h6 mb-3">Сортировать</p>                    <div class="business-entity__inputs mb-4 form-check">                        <div class="my-2">                            <input class="form-check-input"                                   type="radio"                                   id="sortNew"                                   name="sort"                                   value="DESK"                                   checked>                            <label for="sortNew" class="my-1 ms-3">                                Дата: сначала новые                            </label>                        </div>                        <div class="my-2">                            <input class="form-check-input"                                   type="radio"                                   id="sortOld"                                   name="sort"                                   value="ASC"                                >                            <label for="sortOld" class="my-1 ms-3">                                Дата: сначала старые                            </label>                        </div>                    </div>                    <div class="mb-4">                        <p class="h6 mb-3">Раздел</p>                        <div class="mb-3">                            <label class="checkbox ">                                <input id="all-site"                                       class="checkbox__input section-checkbox"                                       type="checkbox"                                       value="all-site"                                        checked                                >                                <span class="checkbox__text"><span>Все разделы</span></span>                            </label>                        </div>                        <div class="mb-3">                            <label class="checkbox">                                <input                                        id="clarifications"                                        class="checkbox__input section-checkbox"                                        type="checkbox"                                        value="clarifications"                                                                    >                                <span class="checkbox__text"><span>Разъяснения и комментарии</span></span>                            </label>                        </div>                        <div class="mb-3">                            <label class="checkbox">                                <input                                        id="news"                                        class="checkbox__input section-checkbox"                                        type="checkbox"                                        value="news"                                                                    >                                <span class="checkbox__text"><span>Новости</span></span>                            </label>                        </div>                        <div class="mb-3">                            <label class="checkbox">                                <input id="question-answer"                                       class="checkbox__input section-checkbox"                                       type="checkbox"                                       value="question-answer"                                                                    >                                <span class="checkbox__text"><span>Вопрос-ответ</span></span>                            </label>                        </div>                        <div class="mb-3">                            <label class="checkbox">                                <input id="tax_control"                                       class="checkbox__input section-checkbox"                                       type="checkbox"                                       value="tax_control"                                                                    >                                <span class="checkbox__text"><span>Налоговый контроль</span></span>                            </label>                        </div>                        <div class="mb-3">                            <label class="checkbox">                                <input                                        id="services"                                        class="checkbox__input section-checkbox"                                        type="checkbox"                                        value="services"                                                                    >                                <span class="checkbox__text"><span>Сервисы</span></span>                            </label>                        </div>                        <div>                            <label class="checkbox">                                <input id="projects"                                       class="checkbox__input section-checkbox"                                       type="checkbox"                                       value="projects"                                                                    >                                <span class="checkbox__text"><span>Медиатека</span></span>                            </label>                        </div>                    </div>                    <p class="h6 mb-3">Период публикации</p>                    <div class="business-entity__inputs mb-4 pb-2 form-check">                        <div class="my-2">                            <input class="form-check-input" type="radio" id="all-time" name="period" value="all"                                   checked="checked">                            <label for="all-time" class="my-1 ms-3">Все время</label>                        </div>                        <div class="my-2">                            <input                                    class="form-check-input"                                    type="radio"                                    id="3-months"                                    name="period"                                    value="90"                                                            >                            <label for="3-months" class="my-1 ms-3">3 месяца</label>                        </div>                        <div class="my-2">                            <input                                    class="form-check-input"                                    type="radio"                                    id="6-months"                                    name="period"                                    value="180"                                                            >                            <label for="6-months" class="my-1 ms-3">6 месяцев</label>                        </div>                        <div class="my-2">                            <input class="form-check-input" type="radio"                                   id="1-year"                                   name="period"                                   value="365"                                                            >                            <label for="1-year" class="my-1 ms-3">Год</label>                        </div>                        <div class="mt-2">                            <input class="form-check-input" type="radio" id="custom-date" name="period"                                   value="own-period"                                                            >                            <label for="custom-date" class="my-1 ms-3">Собственный период</label>                        </div>                        <div class="period-inputs d-flex flex-column">                            <div class="d-flex flex-row align-items-center">                                <div class="d-flex flex-row w-100 position-relative">                                    <input type="text" id="date_start" name="date_start"                                                                                    value=""                                                                                   size="10"                                           class="input"                                           placeholder="дд.мм.гггг"                                    />                                    <img src="/local/templates/main_template/components/bitrix/catalog.filter/cigarettes/img/calendar.svg"                                         alt="Выбрать дату в календаре"                                         class="calendar-icon position-absolute"                                         onclick="BX.calendar({node:this, field:'date_start', bTime: false, currentTime: '1724256576', bHideTime: true});"                                         onmouseover="BX.addClass(this, 'calendar-icon-hover');"                                         onmouseout="BX.removeClass(this, 'calendar-icon-hover');" border="0"                                         callback_after: updateStartDateManually/>                                </div>                                <span class="date-interval-hellip px-3 d-flex justify-content-center align-items-center">—</span>                                <div class="d-flex flex-row w-100 position-relative">                                    <input type="text" id="date_end" name="date_end"                                                                                    value=""                                                                                   size="10"                                           class="input" placeholder="дд.мм.гггг"                                    />                                    <img src="/local/templates/main_template/components/bitrix/catalog.filter/cigarettes/img/calendar.svg"                                         alt="Выбрать дату в календаре"                                         class="calendar-icon position-absolute"                                         onclick="BX.calendar({node:this, field:'date_end', bTime: false, currentTime: '1724256576', bHideTime: true});"                                         onmouseover="BX.addClass(this, 'calendar-icon-hover');"                                         onmouseout="BX.removeClass(this, 'calendar-icon-hover');" border="0"                                         callback_after: updateEndDateManually/>                                </div>                            </div>                        </div>                    </div>                    <div class="d-flex justify-content-between">                        <input type="submit" class="w-100 button" name="set_filter" value="Применить"><input                                type="hidden" name="set_filter" value="Y">&nbsp;&nbsp;                        <a href="https://nalog.gov.by/search/?q=%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC+%D1%80%D0%B8%D1%81%D0%BA%D0%BE%D0%BC+%D1%80%D0%B5%D0%B5%D1%81%D1%82%D1%80"                           class="w-100 button_white ml-3" type="submit">Сбросить</a>                    </div>                </form>            </div>        </div>    </aside>    <div class="col-lg-8 px-2 pt-3">        <div class="item-block">            <div class="p-md-4 p-2 mb-4">                <div class="item-block__title h4">Результаты поиска</div>                <form class="">                    <div class=" m-0 d-flex gap-3 flex-wrap flex-lg-nowrap">                        <div class="col-sm-12 col-lg-8 flex-grow-1 search-box p-0">                            <input type="text"                                   id="search-query"                                   name="q"                                   size="10"                                   class="mt-0 input input-gray pr-5"                                   value="повышенным риском реестр"                                   placeholder="Введите запрос...">                            <i class="remove-icon bi bi-x"></i>                        </div>                        <input type="submit"                               class="col-sm-12 col-lg-4 button flex-shrink-1"                               name="s"                               value="Найти">                    </div>                </form>                <!--                <p class="fs-14 color-gray mt-1">Найдено -->                <!-- результатов</p>-->                <div class="search-result">                                                                                                                                                                                                <div class="search-item">                                        <h4><a href="/services/179?sphrase_id=74326482"><b>Реестр</b> коммерческих организаций и индивидуальных предпринимателей с <b>повышенным</b> <b>риском</b> совершения нарушений в экономической сфере по состоянию на 31.12.2018 г.</a>                                        </h4>                                        <p class="mb-0 color-gray">27.12.2022</p>                                        <div class="search-preview"></div>                                        <small> <a href="/">Главная</a>&nbsp;/&nbsp;<a href="/services/">Все сервисы</a> </small>                                                                            </div>                                                                                                                                                                            </div>            </div>        </div>    </div></div></div></div>
+                                                </div>
+                            
+        </div>
+    </main>
+
+    <footer class="footer pt-4 pt-md-5 pb-3 pb-md-4">
+    <div class="container">
+        <div class="row mt-n3 mx-n2 mb-sm-2 mb-xl-4">
+            <div class="col-sm-6 col-xl-3 px-2 pt-3 mb-4">
+    <h5 class="h5 h5_white mb-4">Министерство</h5>
+    <nav>
+        <ul>
+            <li><a href="/about">О Министерстве</a></li>
+            <li><a href="/inspectorates">Налоговые инспекции</a></li>
+            <li><a href="/anti_corruption_commission">Комиссия по противодействию коррупции</a></li>
+                        <li><a href="/procedures">Административные процедуры</a></li>
+            <li><a href="/appeal">Электронные обращения</a></li>
+            <li><a href="/vacancies">Вакансии</a></li>
+            <li><a href="/about/#contacts">Контакты</a></li>
+                  </ul>
+    </nav>
+</div>
+
+
+            
+
+
+    <div class="col-sm-6 col-xl-3 px-2 pt-3 mb-4">
+        <h5 class="h5 h5_white mb-4">Для плательщиков</h5>
+        <nav>
+            <ul>
+                <li><a href="/individuals">Физическим лицам</a></li>
+                <li><a href="/entrepreneurs">Индивидуальным предпринимателям</a></li>
+                <li><a href="/organizations/">Организациям</a></li>
+                <li><a href="/official-publications/">Официальные издания</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+            
+<div class="col-sm-6 col-xl-3 px-2 pt-3 mb-4">
+	<h5 class="h5 h5_white mb-4">Полезные ссылки</h5>
+ <nav>
+	<ul>
+		<li><a href="/documents">Формы документов</a></li>
+		<li><a href="/inspectorates">Налоговые инспекции</a></li>
+		<li><a href="/software">Программное обеспечение</a></li>
+		<li><a href="/tax_control">Налоговый контроль</a></li>
+		<li><a href="/actual/cigarettes/">Максимальные розничные цены на сигареты с фильтром</a></li>
+		<li><a href="/international">Международное сотрудничество</a></li>
+		<li><a href="/eec">Евразийский экономический союз</a></li>
+		<li><a href="/actual/consultants/">Налоговые консультанты</a></li>
+		<li><a href="/actual/el_invoices/">Электронные счета-фактуры</a></li>
+		<li><a href="/appeal/contacts/">Контакты ИМНС</a></li>
+	</ul>
+ </nav>
+</div>
+               <div class="col-sm-6 col-xl-3 px-2 pt-3 mb-4">
+
+
+                
+<h5 class="h5 h5_white mb-4">Контакты</h5>
+<nav class="mb-3">
+    <ul>
+        <li>УНП 100582333</li>
+        <li>220010, г. Минск, ул. Советская, 9</li>
+        <li> <a href='mailto:mns@nalog.gov.by'> mns@nalog.gov.by </a> (кроме обращений)</li>
+    </ul>
+</nav>
+
+ <div class="h5 h5_white mb-2">Контакт-центр  <span style='font-size: 14px; font-weight: 400;'> (пн-пт&nbsp;9:00&nbsp;-&nbsp;18:00) </span> </div><ul class="mb-4">
+    <li>
+        <a class="link" href="tel:189"><i class="bi-telephone mr-2"></i>189&nbsp;&nbsp;</a>
+        <a class="link" href="tel:+375172297979"><i class="bi-telephone mr-2"></i>+375&nbsp;17&nbsp;229-79-79</a>
+    </li>
+</ul>                <h5 class="h5 h5_white mb-4">Социальные сети</h5>
+<div class="d-flex mb-4">
+    <a href="https://www.instagram.com/mns_belarus/" class="footer__link-social">
+        <img src="/local/templates/main_template/img/social-icons/instagram.svg" alt="instagram">
+    </a>
+    <a href="https://www.youtube.com/user/nalogby/videos" class="footer__link-social">
+        <img src="/local/templates/main_template/img/social-icons/youtube.svg" alt="youtube">
+    </a>
+    <a href="https://telegram.me/mnsrb" class="footer__link-social">
+        <img src="/local/templates/main_template/img/social-icons/telegram.svg" alt="telegram">
+    </a>
+</div>                <div class="mb-4"><a href="/cabinet" class="footer__link-icon">Личный кабинет<i class="bi bi-arrow-up-right ml-2"></i></a></div>
+                <div><a href="/sitemap" class="footer__link-icon">Карта сайта<i class="bi bi-arrow-up-right ml-2"></i></a></div>
+            </div>
+
+            <div class="col-12 mb-2">
+                <div class="alert-new d-flex flex-row align-items-center">
+                    <div class="">
+                        <i class="bi bi-info-circle-fill mr-3 mr-sm-4"></i>
+                    </div>
+                    <div class="alert-new__text">
+                        Если&nbsp;вы&nbsp;обнаружили на&nbsp;сайте опечатку или&nbsp;неточность, пожалуйста, нажмите
+                        <span class="alert-new__toggle" type="button" data-toggle="modal" data-target="#textErrorModal">сюда</span>
+                        и сообщите нам&nbsp;об&nbsp;этом.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="d-md-flex align-items-center justify-content-between border-top pt-3">
+            
+<div class="pb-3 pb-md-0 pr-md-3">© 2026, Все права защищены</div>
+<div>Сайт разработан: <a href='https://info-center.by' target='_blank' class='link link-author'>«Информационно-издательский центр по налогам и сборам»</a></div>
+        </div>
+    </div>
+</footer>
+</div>
+
+<div class="modal fade"
+     id="browserUnsupported" tabindex="-1"
+     aria-labelledby="ModalBrowserUnsupported" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content flex-row align-items-center p-4">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="icon mr-4">
+              <img class="img-fluid" src="/local/templates/main_template/icons/icon-attention.svg" alt="">
+          </div>
+            <div class="pr-3">
+                <div class="mb-3 h4">Обратите внимание</div>
+                <div class="h5">Для входа на Портал МНС с помощью ЭЦП нужно использовать браузер Internet Explorer или Microsoft Edge. <br> <br> <a href="http://service.nalog.gov.by/docs/lk/EDGE.pdf" target="_blank"> Инструкция по настройке Microsoft Edge </a> </div>
+            </div>
+      </div>
+    </div>
+ </div>
+
+<div class="modal fade"
+     id="servicesModal" tabindex="-1"
+     aria-labelledby="ModalServicesModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content flex-row align-items-center p-4">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="icon mr-4">
+                <img class="img-fluid" src="/local/templates/main_template/icons/icon-attention.svg" alt="">
+            </div>
+            <div class="pr-3">
+                <div class="mb-3 h4"> Обратите внимание </div>
+
+                <div class="h5">Для доступа к сервису нужно использовать браузер Internet Explorer или Microsoft Edge <br> <br> <a href="http://service.nalog.gov.by/docs/lk/EDGE.pdf" target="_blank"> Инструкция по настройке Microsoft Edge </a></div>
+                <a href="#" class="button mt-2" id="link-to" target="_blank"> Перейти </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    #servicesModal .modal-dialog {
+        max-width: 680px;
+        -webkit-box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.25);
+    }
+
+    #servicesModal .modal-content {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        border-radius: 10px;
+        border: none;
+    }
+
+    #servicesModal .close {
+        font-size: 30px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        opacity: 1;
+    }
+
+    #servicesModal .icon {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 45px;
+        flex: 0 0 45px;
+    }
+</style>
+<div id="rasa-chat-widget" data-websocket-url="https://nalog.gov.by/rasasiod">
+</div>
+<style>
+    .rw-conversation-container .rw-header{background-color: hsl(164, 97%, 15%) !important;}
+    .rw-launcher { background-color: hsl(37, 94.8%,69.8%) !important;}
+</style>
+<div class="modal fade alert5-new-modal" id="textErrorModal" aria-hidden="true"
+     tabindex="-1" aria-labelledby="alertNewLabel" role="dialog">
+    <div class="modal-dialog  modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="alertNewLabel">
+                    <strong>Сообщить об ошибке в тексте</strong>
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="bi bi-x-lg fw-bold"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="attention d-flex align-items-center mb-4 p-3 p-sm-4">
+                    <i class="bi bi-info-circle-fill mr-3 mr-sm-4"></i>
+                    <div>
+                        <p>
+                            Сообщения, направленные через&nbsp;электронную форму, не&nbsp;попадают под&nbsp;сферу деятельности Закона Республики Беларусь
+                            от&nbsp;18&nbsp;июля 2011&nbsp;г. №&nbsp;300-З «Об&nbsp;обращениях граждан и&nbsp;юридических&nbsp;лиц».
+                        </p>
+                    </div>
+                </div>
+                    <form name="textErrorForm" id="textErrorForm" method="post" action="/ajax/form/textError.php" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="mistake" ><strong>Описание ошибки</strong></label>
+                            <textarea class="form-control" name="mistake" id="mistake"  placeholder="Пожалуйста, опишите ошибку"></textarea>
+                            <div class="invalid-feedback"> Поле обязательно для заполнения</div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-file form-group files">
+                                <input type="file" name="file" id="file" class="_required" style="display:none;">
+                                <label for="file">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M5.89369 8.17808L4.17899 9.89278C2.71453 11.3572 2.71453 13.7316 4.17899 15.1961C5.64346 16.6606 8.01783 16.6605 9.4823 15.1961L11.7678 12.9105C13.2323 11.4461 13.2323 9.07171 11.7678 7.60725C11.4579 7.29733 11.1072 7.05299 10.7331 6.87425L10.0001 7.60725C9.92384 7.68347 9.85952 7.76709 9.8071 7.85579C10.2014 7.96877 10.5734 8.18055 10.8839 8.49113C11.8603 9.46744 11.8603 11.0504 10.8839 12.0267L8.59841 14.3122C7.6221 15.2885 6.03919 15.2885 5.06288 14.3122C4.08657 13.3359 4.08657 11.753 5.06288 10.7767L6.05364 9.78591C5.91339 9.26076 5.86008 8.71722 5.89369 8.17808Z" fill="#1A1A1A"></path>
+                                        <path d="M8.2323 5.83948C6.76783 7.30395 6.76783 9.67832 8.2323 11.1428C8.54222 11.4527 8.89289 11.697 9.26706 11.8758L10.2366 10.9063C9.82613 10.7967 9.43817 10.5809 9.11618 10.2589C8.13987 9.28259 8.13987 7.69968 9.11618 6.72337L11.4017 4.43783C12.378 3.46152 13.9609 3.46152 14.9372 4.43783C15.9136 5.41414 15.9136 6.99705 14.9372 7.97336L13.9465 8.96412C14.0867 9.48928 14.14 10.0328 14.1064 10.5719L15.8211 8.85725C17.2856 7.39278 17.2856 5.01841 15.8211 3.55395C14.3567 2.08948 11.9823 2.08948 10.5178 3.55395L8.2323 5.83948Z" fill="#1A1A1A"></path>
+                                    </svg>
+                                    <span id="file-name">Прикрепите документ</span>
+                                </label>
+                            </div>
+                        </div>
+
+                    </form>
+            </div>
+            <div class="modal-footer">
+                <input class="button" type="submit" form="textErrorForm" value="Отправить">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade alert5-new-modal" id="successMessageModal1" aria-hidden="true"
+     tabindex="-1" aria-labelledby="alertNewLabel" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="min-height: 20vh">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="bi bi-x-lg fw-bold"></i>
+                </button>
+                <div class="message mt-5">
+                    Ваше сообщение отправлено
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="modal fade alert-new-modal" id="alertNew" tabindex="-1" aria-labelledby="alertNewLabel"
+     aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="alertNewLabel">
+                    <strong>Сообщить об ошибке в тексте</strong>
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="bi bi-x-lg fw-bold"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="attention d-flex align-items-center mb-4 p-3 p-sm-4">
+                    <i class="bi bi-info-circle-fill mr-3 mr-sm-4"></i>
+                    <div>
+                        <p>
+                            Сообщения, направленные через электронную форму, не попадают под сферу деятельности Закона
+                            Республики Беларусь
+                            от 18 июля 2011 г. № 300-З «Об обращениях граждан и юридических лиц».
+                        </p>
+                    </div>
+                </div>
+                <form>
+                    <!-- <div class="form-group">
+                        <label for="formGroupExampleInput"><strong>E-mail для связи</strong></label>
+                        <input type="text" class="form-control"
+                        id="formGroupExampleInput" placeholder="E-mail">
+                    </div> -->
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2"><strong>Описание ошибки</strong></label>
+                        <textarea class="form-control" id="formGroupExampleInput2"
+                                  placeholder="Пожалуйста, опишите ошибку"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-file form-group files">
+                            <input type="file" name="file" id="file" onchange='uploadFile(this)' class="_required">
+                            <label for="file">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                     fill="none">
+                                    <path
+                                        d="M5.89369 8.17808L4.17899 9.89278C2.71453 11.3572 2.71453 13.7316 4.17899 15.1961C5.64346 16.6606 8.01783 16.6605 9.4823 15.1961L11.7678 12.9105C13.2323 11.4461 13.2323 9.07171 11.7678 7.60725C11.4579 7.29733 11.1072 7.05299 10.7331 6.87425L10.0001 7.60725C9.92384 7.68347 9.85952 7.76709 9.8071 7.85579C10.2014 7.96877 10.5734 8.18055 10.8839 8.49113C11.8603 9.46744 11.8603 11.0504 10.8839 12.0267L8.59841 14.3122C7.6221 15.2885 6.03919 15.2885 5.06288 14.3122C4.08657 13.3359 4.08657 11.753 5.06288 10.7767L6.05364 9.78591C5.91339 9.26076 5.86008 8.71722 5.89369 8.17808Z"
+                                        fill="#1A1A1A" />
+                                    <path
+                                        d="M8.2323 5.83948C6.76783 7.30395 6.76783 9.67832 8.2323 11.1428C8.54222 11.4527 8.89289 11.697 9.26706 11.8758L10.2366 10.9063C9.82613 10.7967 9.43817 10.5809 9.11618 10.2589C8.13987 9.28259 8.13987 7.69968 9.11618 6.72337L11.4017 4.43783C12.378 3.46152 13.9609 3.46152 14.9372 4.43783C15.9136 5.41414 15.9136 6.99705 14.9372 7.97336L13.9465 8.96412C14.0867 9.48928 14.14 10.0328 14.1064 10.5719L15.8211 8.85725C17.2856 7.39278 17.2856 5.01841 15.8211 3.55395C14.3567 2.08948 11.9823 2.08948 10.5178 3.55395L8.2323 5.83948Z"
+                                        fill="#1A1A1A" />
+                                </svg>
+                                <span id="file-name">Прикрепите документ</span>
+                            </label>
+                        </div>
+                    </div>
+                </form>
+                <p>
+                    Нажимая кнопку «Отправить» вы соглашаетесь <a href="" target="_blank" rel="noopener noreferrer"
+                                                                  class="color-green">
+                        с политикой обработки персональных данных
+                    </a>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="button" download="">Отправить</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade survey-success-modal" id="surveySuccessModal" tabindex="-1" aria-labelledby="surveySuccessModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                <i class="bi bi-check-circle-fill d-block mb-3"></i>
+                <h5 class="h5 mb-2" id="surveySuccessModalLabel">Спасибо за ответы!</h5>
+                <p class="mb-0 color-gray">Ваше мнение поможет нам сделать сайт удобнее.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div
+    class="modal fade survey-modal"
+    id="surveyModal"
+    tabindex="-1"
+    aria-labelledby="surveyModalTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered survey-modal__dialog">
+        <div class="modal-content survey-modal__content">
+            <button type="button" class="survey-modal__close" id="surveyModalClose" aria-label="Закрыть">
+                <i class="bi bi-x-lg" aria-hidden="true"></i>
+            </button>
+            <div class="modal-body survey-modal__body">
+                <div class="survey-modal__layout">
+                    <div class="survey-modal__media">
+                        <img src="/local/templates/main_template/img/survey/survey-modal-img.svg" alt="" class="survey-modal__img" width="240" height="208" />
+                    </div>
+                    <div class="survey-modal__info">
+                        <h2 class="survey-modal__title" id="surveyModalTitle">Оцените удобство использования сайта МНС</h2>
+                        <p class="survey-modal__text">
+                            Поделитесь своим мнением об удобстве сайта
+                            <a href="https://nalog.gov.by" class="survey-modal__link" target="_blank" rel="noopener noreferrer">nalog.gov.by</a>.
+                            Прохождение анонимного опроса займёт не более 3 минут.
+                        </p>
+                        <p class="survey-modal__text">Результаты будут использованы для улучшения работы сайта.</p>
+                        <a id="surveyModalStartBtn" href="/survey/" class="button survey-modal__btn">Пройти опрос</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel"> </h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Форма успешна отправлена
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="button" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container fixed-bottom m-auto">
+        <div class="alert bg-color-green-transparent alert-dismissible fade show p-lg-4 p-2 cookie-alert" role="alert">
+            <div class="w-100 d-flex flex-row flex-wrap justify-content-between align-content-center gap-3">
+                <div class="col-lg-7">
+                    <p class="mb-0">
+                        Мы используем файлы cookie для улучшения работы сайта.
+                        Подробную информацию вы найдете в <a href="/include/cookies/сookie.pdf" class="color-green-light fw-semibold"
+                                                             target="_blank" rel="noopener noreferrer">Политике в отношении
+                            обработки куки (cookies)
+                        </a>
+                    </p>
+                    <a class="d-block color-green-light fw-semibold mt-1" data-toggle="modal"
+                       data-target="#cookieModal" type="button">
+                        Настроить cookies
+                    </a>
+                </div>
+                <div class="d-flex flex-row gap-lg-3 gap-2 flex-wrap align-items-center">
+                    <button class="button button-empty accept-all" data-dismiss="alert" aria-label="Close">Принять все</button>
+                    <button class="button button-empty reject-all" type="button"
+                            data-dismiss="alert" aria-label="Close">Отклонить все
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal w-100  fade cookie-modal" id="cookieModal" tabindex="-1" aria-labelledby="cookieModalLabel"
+         aria-hidden="true">
+        <div class="modal-lg modal-custom modal-dialog-centered">
+            <div class="modal-content border-0 p-lg-4 p-2">
+                <div class="modal-header border-0 align-items-start">
+                    <h2 class="h2-section fs-24  text-uppercase fw-semibold" id="cookieModalLabel">Настроить
+                        cookies</h2>
+<!--                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>-->
+                </div>
+                <div class="modal-body pt-0">
+                    <p class="">
+                        Мы используем файлы cookies, которые повышают
+                        удобство работы с нашим сайтом, и помогают
+                        нам анализировать производительность и использование сайта.
+                    </p>
+                    <div class="accordion bg-transparent d-flex flex-column gap-3 accordion-question" id="accordionCookie">
+                        <div class="accordion-item overflow-hidden">
+                            <h2 class="accordion-header bg-color-green-transparent d-flex flex-row">
+                                <button
+                                        class="accordion-button fw-semibold collapsed bg-transparent after-no d-flex flex-row flex-wrap gap-2"
+                                        type="button" data-toggle="collapse" data-target="#collapseOneCookie"
+                                        aria-expanded="true" aria-controls="collapseOneCookie">
+                                    <span>Необходимые</span>
+                                    <b class="fs-14 color-green-light">Всегда активно</b>
+                                </button>
+                                <div
+                                        class="form-check form-switch d-flex justify-content-center align-content-center align-items-center col-sm-1 col-2 fs-20 p-0 m-0">
+                                    <input class="form-check-input m-auto cursor-pointer" type="checkbox"
+                                           role="switch" id="flexSwitchCheckCheckedOne" checked disabled>
+                                </div>
+                                <button class="accordion-button fw-semibold collapsed bg-transparent w-auto ps-2"
+                                        type="button" data-toggle="collapse" data-target="#collapseOneCookie"
+                                        aria-expanded="true" aria-controls="collapseOneCookie">
+                                </button>
+                            </h2>
+                            <div id="collapseOneCookie" class="accordion-collapse collapse"
+                                 data-parent="#accordionCookie">
+                                <div class="accordion-body">
+                                    Обеспечивают корректную работу сайта, позволят посетителям
+                                    передвигаться по сайту и использовать его возможности. Эти
+                                    файлы не идентифицируют посетителей как личность. Если
+                                    посетитель не согласен использовать — данный тип файлов,
+                                    это может оказать влияние нa производительность сайта‚
+                                    или его компонентов.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item overflow-hidden">
+                            <h2 class="accordion-header bg-color-green-transparent d-flex flex-row overflow-hidden">
+                                <button class="accordion-button fw-semibold collapsed bg-transparent after-no"
+                                        type="button" data-toggle="collapse" data-target="#collapseTwoCookie"
+                                        aria-expanded="false" aria-controls="collapseTwoCookie">
+                                    Функциональные
+                                </button>
+                                <div
+                                        class="form-check form-switch d-flex justify-content-center align-content-center align-items-center col-sm-1 col-2 fs-20 p-0 m-0">
+                                    <input class="form-check-input m-auto cursor-pointer" type="checkbox"
+                                           role="switch" id="flexSwitchCheckCheckedTwo">
+                                </div>
+                                <button class="accordion-button fw-semibold collapsed bg-transparent w-auto ps-2"
+                                        type="button" data-toggle="collapse" data-target="#collapseTwoCookie"
+                                        aria-expanded="true" aria-controls="collapseOneCookie">
+                                </button>
+                            </h2>
+                            <div id="collapseTwoCookie" class="accordion-collapse collapse"
+                                 data-parent="#accordionCookie">
+                                <div class="accordion-body">
+                                    Позволяют обеспечить индивидуальный опыт использования сайта
+                                    и устанавливаются в ответ на действия субъекта персональных 
+                                    данных. Функциональные куки позволяют индивидуально подбирать
+                                    содержание сайта для посетителей. Если посетитель блокирует этот
+                                    тип файлов, то это может повлиять на производительность
+                                    и функциональность сайта и может ограничить доступ к контенту на сайте;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item overflow-hidden">
+                            <h2 class="accordion-header bg-color-green-transparent d-flex flex-row">
+                                <button class="accordion-button fw-semibold collapsed bg-transparent after-no"
+                                        type="button" data-toggle="collapse" data-target="#collapseThreeCookie"
+                                        aria-expanded="false" aria-controls="collapseThreeCookie">
+                                    Статистические
+                                </button>
+                                <div
+                                        class="form-check form-switch d-flex justify-content-center align-content-center align-items-center col-sm-1 col-2 fs-20 p-0 m-0">
+                                    <input class="form-check-input m-auto cursor-pointer" type="checkbox"
+                                           role="switch" id="flexSwitchCheckCheckedThree">
+                                </div>
+                                <button class="accordion-button fw-semibold collapsed bg-transparent w-auto ps-2"
+                                        type="button" data-toggle="collapse" data-target="#collapseThreeCookie"
+                                        aria-expanded="false" aria-controls="collapseThreeCookie">
+                                </button>
+                            </h2>
+                            <div id="collapseThreeCookie" class="accordion-collapse collapse"
+                                 data-parent="#accordionCookie">
+                                <div class="accordion-body">
+                                    Позволяют хранить историю посещений страниц сайта
+                                    в целях повышения качества его функционирования,
+                                    чтобы определить наиболее и наименее популярные страницы.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0 justify-content-between row">
+                    <div class="d-flex col-lg-6 gap-2 flex-lg-nowrap flex-wrap">
+                        <button class="button accept-all-m button-full w-100" data-dismiss="alert" aria-label="Close">Принять
+                            все
+                        </button>
+                        <button class="button reject-all-m button-empty w-100" data-dismiss="alert" aria-label="Close">
+                            Отклонить все
+                        </button>
+                    </div>
+                    <div class="d-flex col-lg-4">
+                        <button class="button button-empty w-100 save-settings-cookies" data-dismiss="alert"
+                                aria-label="Close">Сохранить настройки
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72823757-3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-72823757-3');
+</script>
+
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(87385122, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+</script>
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"MAIN_BASELINE_BROWSER_OUTDATED":"Вы используете устаревшую версию браузера. Обновите его для безопасной и стабильной работы","MAIN_BASELINE_DETAILS":"Подробнее","MAIN_BASELINE_CLOSE":"Закрыть"});</script><script src="/bitrix/js/main/baseline/dist/baseline.bundle.min.js?17933451544633"></script><script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script><script src="/bitrix/js/main/core/core.min.js?1793345154226345"></script><script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>BX.Runtime.registerExtension({"name":"pull.protobuf","namespace":"BX","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"rest.client","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"pull_server_enabled":"Y","pull_config_timestamp":1642581140,"shared_worker_allowed":"Y","pull_guest_mode":"N","pull_guest_user_id":0,"pull_worker_mtime":1789716846});(window.BX||top.BX).message({"PULL_OLD_REVISION":"Для продолжения корректной работы с сайтом необходимо перезагрузить страницу."});</script>
+<script>BX.Runtime.registerExtension({"name":"pull.client","namespace":"BX","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"pull","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"jquery3","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.vue","namespace":"BX","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.a11y","namespace":"BX.UI.Accessibility","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.design-tokens","namespace":"","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.design-tokens.air","namespace":"","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.fonts.opensans","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.icon-set","namespace":"","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.icon-set.outline","namespace":"","loaded":true});</script>
+<script>(window.BX||top.BX).message({"MAIN_POPUP_CLOSE":"Закрыть"});</script>
+<script>BX.Runtime.registerExtension({"name":"main.popup","namespace":"BX.Main","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"popup","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"AMPM_MODE":false});(window.BX||top.BX).message({"MONTH_1":"Январь","MONTH_2":"Февраль","MONTH_3":"Март","MONTH_4":"Апрель","MONTH_5":"Май","MONTH_6":"Июнь","MONTH_7":"Июль","MONTH_8":"Август","MONTH_9":"Сентябрь","MONTH_10":"Октябрь","MONTH_11":"Ноябрь","MONTH_12":"Декабрь","MONTH_1_S":"января","MONTH_2_S":"февраля","MONTH_3_S":"марта","MONTH_4_S":"апреля","MONTH_5_S":"мая","MONTH_6_S":"июня","MONTH_7_S":"июля","MONTH_8_S":"августа","MONTH_9_S":"сентября","MONTH_10_S":"октября","MONTH_11_S":"ноября","MONTH_12_S":"декабря","MON_1":"янв","MON_2":"фев","MON_3":"мар","MON_4":"апр","MON_5":"мая","MON_6":"июн","MON_7":"июл","MON_8":"авг","MON_9":"сен","MON_10":"окт","MON_11":"ноя","MON_12":"дек","DAY_OF_WEEK_0":"Воскресенье","DAY_OF_WEEK_1":"Понедельник","DAY_OF_WEEK_2":"Вторник","DAY_OF_WEEK_3":"Среда","DAY_OF_WEEK_4":"Четверг","DAY_OF_WEEK_5":"Пятница","DAY_OF_WEEK_6":"Суббота","DOW_0":"Вс","DOW_1":"Пн","DOW_2":"Вт","DOW_3":"Ср","DOW_4":"Чт","DOW_5":"Пт","DOW_6":"Сб","FD_SECOND_AGO_0":"#VALUE# секунд назад","FD_SECOND_AGO_1":"#VALUE# секунду назад","FD_SECOND_AGO_10_20":"#VALUE# секунд назад","FD_SECOND_AGO_MOD_1":"#VALUE# секунду назад","FD_SECOND_AGO_MOD_2_4":"#VALUE# секунды назад","FD_SECOND_AGO_MOD_OTHER":"#VALUE# секунд назад","FD_SECOND_DIFF_0":"#VALUE# секунд","FD_SECOND_DIFF_1":"#VALUE# секунда","FD_SECOND_DIFF_10_20":"#VALUE# секунд","FD_SECOND_DIFF_MOD_1":"#VALUE# секунда","FD_SECOND_DIFF_MOD_2_4":"#VALUE# секунды","FD_SECOND_DIFF_MOD_OTHER":"#VALUE# секунд","FD_SECOND_SHORT":"#VALUE#с","FD_MINUTE_AGO_0":"#VALUE# минут назад","FD_MINUTE_AGO_1":"#VALUE# минуту назад","FD_MINUTE_AGO_10_20":"#VALUE# минут назад","FD_MINUTE_AGO_MOD_1":"#VALUE# минуту назад","FD_MINUTE_AGO_MOD_2_4":"#VALUE# минуты назад","FD_MINUTE_AGO_MOD_OTHER":"#VALUE# минут назад","FD_MINUTE_DIFF_0":"#VALUE# минут","FD_MINUTE_DIFF_1":"#VALUE# минута","FD_MINUTE_DIFF_10_20":"#VALUE# минут","FD_MINUTE_DIFF_MOD_1":"#VALUE# минута","FD_MINUTE_DIFF_MOD_2_4":"#VALUE# минуты","FD_MINUTE_DIFF_MOD_OTHER":"#VALUE# минут","FD_MINUTE_0":"#VALUE# минут","FD_MINUTE_1":"#VALUE# минуту","FD_MINUTE_10_20":"#VALUE# минут","FD_MINUTE_MOD_1":"#VALUE# минуту","FD_MINUTE_MOD_2_4":"#VALUE# минуты","FD_MINUTE_MOD_OTHER":"#VALUE# минут","FD_MINUTE_SHORT":"#VALUE#мин","FD_HOUR_AGO_0":"#VALUE# часов назад","FD_HOUR_AGO_1":"#VALUE# час назад","FD_HOUR_AGO_10_20":"#VALUE# часов назад","FD_HOUR_AGO_MOD_1":"#VALUE# час назад","FD_HOUR_AGO_MOD_2_4":"#VALUE# часа назад","FD_HOUR_AGO_MOD_OTHER":"#VALUE# часов назад","FD_HOUR_DIFF_0":"#VALUE# часов","FD_HOUR_DIFF_1":"#VALUE# час","FD_HOUR_DIFF_10_20":"#VALUE# часов","FD_HOUR_DIFF_MOD_1":"#VALUE# час","FD_HOUR_DIFF_MOD_2_4":"#VALUE# часа","FD_HOUR_DIFF_MOD_OTHER":"#VALUE# часов","FD_HOUR_SHORT":"#VALUE#ч","FD_YESTERDAY":"вчера","FD_TODAY":"сегодня","FD_TOMORROW":"завтра","FD_DAY_AGO_0":"#VALUE# дней назад","FD_DAY_AGO_1":"#VALUE# день назад","FD_DAY_AGO_10_20":"#VALUE# дней назад","FD_DAY_AGO_MOD_1":"#VALUE# день назад","FD_DAY_AGO_MOD_2_4":"#VALUE# дня назад","FD_DAY_AGO_MOD_OTHER":"#VALUE# дней назад","FD_DAY_DIFF_0":"#VALUE# дней","FD_DAY_DIFF_1":"#VALUE# день","FD_DAY_DIFF_10_20":"#VALUE# дней","FD_DAY_DIFF_MOD_1":"#VALUE# день","FD_DAY_DIFF_MOD_2_4":"#VALUE# дня","FD_DAY_DIFF_MOD_OTHER":"#VALUE# дней","FD_DAY_AT_TIME":"#DAY# в #TIME#","FD_DAY_SHORT":"#VALUE#д","FD_MONTH_AGO_0":"#VALUE# месяцев назад","FD_MONTH_AGO_1":"#VALUE# месяц назад","FD_MONTH_AGO_10_20":"#VALUE# месяцев назад","FD_MONTH_AGO_MOD_1":"#VALUE# месяц назад","FD_MONTH_AGO_MOD_2_4":"#VALUE# месяца назад","FD_MONTH_AGO_MOD_OTHER":"#VALUE# месяцев назад","FD_MONTH_DIFF_0":"#VALUE# месяцев","FD_MONTH_DIFF_1":"#VALUE# месяц","FD_MONTH_DIFF_10_20":"#VALUE# месяцев","FD_MONTH_DIFF_MOD_1":"#VALUE# месяц","FD_MONTH_DIFF_MOD_2_4":"#VALUE# месяца","FD_MONTH_DIFF_MOD_OTHER":"#VALUE# месяцев","FD_MONTH_SHORT":"#VALUE#мес","FD_YEARS_AGO_0":"#VALUE# лет назад","FD_YEARS_AGO_1":"#VALUE# год назад","FD_YEARS_AGO_10_20":"#VALUE# лет назад","FD_YEARS_AGO_MOD_1":"#VALUE# год назад","FD_YEARS_AGO_MOD_2_4":"#VALUE# года назад","FD_YEARS_AGO_MOD_OTHER":"#VALUE# лет назад","FD_YEARS_DIFF_0":"#VALUE# лет","FD_YEARS_DIFF_1":"#VALUE# год","FD_YEARS_DIFF_10_20":"#VALUE# лет","FD_YEARS_DIFF_MOD_1":"#VALUE# год","FD_YEARS_DIFF_MOD_2_4":"#VALUE# года","FD_YEARS_DIFF_MOD_OTHER":"#VALUE# лет","FD_YEARS_SHORT_0":"#VALUE#л","FD_YEARS_SHORT_1":"#VALUE#г","FD_YEARS_SHORT_10_20":"#VALUE#л","FD_YEARS_SHORT_MOD_1":"#VALUE#г","FD_YEARS_SHORT_MOD_2_4":"#VALUE#г","FD_YEARS_SHORT_MOD_OTHER":"#VALUE#л","CAL_BUTTON":"Выбрать","CAL_TIME_SET":"Установить время","CAL_TIME":"Время","FD_LAST_SEEN_TOMORROW":"завтра в #TIME#","FD_LAST_SEEN_NOW":"только что","FD_LAST_SEEN_TODAY":"сегодня в #TIME#","FD_LAST_SEEN_YESTERDAY":"вчера в #TIME#","FD_LAST_SEEN_MORE_YEAR":"более года назад","FD_UNIT_ORDER":"Y m d H i s","FD_SEPARATOR":"\u0026#32;","FD_SEPARATOR_SHORT":"\u0026#32;"});</script>
+<script>BX.Runtime.registerExtension({"name":"main.date","namespace":"BX.Main","loaded":true});</script>
+<script>(window.BX||top.BX).message({"WEEK_START":1});</script>
+<script>BX.Runtime.registerExtension({"name":"date","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1794738479,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"290dd0195144a3c1d254d0700d4126fc"});</script><script  src="/bitrix/cache/js/s1/main_template/kernel_main/kernel_main_v1.js?1794561656148928"></script>
+<script src="/bitrix/js/pull/protobuf/protobuf.min.js?178971684623214"></script>
+<script src="/bitrix/js/pull/protobuf/model.min.js?178971684621204"></script>
+<script src="/bitrix/js/rest/client/rest.client.min.js?17583619779240"></script>
+<script src="/bitrix/js/pull/client/pull.client.min.js?175836197749849"></script>
+<script src="/bitrix/js/main/jquery/jquery-3.6.0.min.js?175836196689501"></script>
+<script src="/bitrix/js/ui/vue/vue2/prod/dist/vue.bundle.min.js?1758361971113213"></script>
+<script src="/bitrix/js/ui/a11y/dist/a11y.bundle.min.js?179395005332758"></script>
+<script src="/bitrix/js/main/popup/dist/main.popup.bundle.min.js?179334515075890"></script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/date\/main.date.js","\/bitrix\/js\/main\/core\/core_date.js","\/bitrix\/js\/main\/session.js","\/bitrix\/js\/main\/core\/core_window.js","\/bitrix\/js\/main\/utils.js","\/local\/templates\/main_template\/js\/popper.min.js","\/local\/templates\/main_template\/js\/dropdown.js","\/local\/templates\/main_template\/script.js","\/local\/templates\/main_template\/js\/bootstrap\/bootstrap.min.js","\/local\/templates\/main_template\/js\/bootstrap\/bootstrap.bundle.js","\/local\/templates\/main_template\/js\/ResizeSensor.js","\/local\/templates\/main_template\/js\/stickySidebar.js","\/local\/templates\/main_template\/components\/bitrix\/menu\/top_menu\/script.js"]);</script>
+<script>BX.setCSSList(["\/bitrix\/js\/main\/core\/css\/core_date.css","\/local\/templates\/main_template\/components\/bitrix\/system.pagenavigation\/round_new\/style.css","\/local\/templates\/main_template\/components\/bitrix\/search.page\/main\/style.css","\/local\/templates\/main_template\/css\/bootstrap\/bootstrap.min.css","\/local\/templates\/main_template\/css\/bootstrap\/bootstrap-5.css","\/local\/templates\/main_template\/bootstrap-icons.css","\/local\/templates\/main_template\/css\/bvi.css","\/local\/templates\/main_template\/components\/bitrix\/catalog.section.list\/imns_sections\/style.css","\/local\/templates\/main_template\/components\/bitrix\/menu\/top_menu\/style.css","\/local\/templates\/main_template\/components\/bitrix\/breadcrumb\/main_template\/style.css","\/local\/templates\/main_template\/styles.css","\/local\/templates\/main_template\/template_styles.css"]);</script>
+<script>
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_s1");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("s1")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+<script src="/local/templates/main_template/js/swiper-bundle.min.js"></script>
+<script  src="/bitrix/cache/js/s1/main_template/template_d46c1dcba7cf36451a07f7e81956303e/template_d46c1dcba7cf36451a07f7e81956303e_v1.js?1794561645410168"></script>
+
+<script>
+    BX.Vue.create({
+        el: '#lang_change',
+        data() {
+            return {
+                languages:{
+                    ru: 'true',
+                    en: 'false',
+                    by: 'false',
+                }
+            }
+        },
+        methods:{
+            choose_lang: function (lang) {
+                this.lang = lang;
+                // window.location = replaceQueryParam('user_lang', lang, window.location.search);
+                this.setCookie('USER_LANG', lang);
+                window.location.reload();
+            },
+            getCookie: function(name) {
+                let matches = document.cookie.match(new RegExp(
+                    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+                ));
+                return matches ? decodeURIComponent(matches[1]) : undefined;
+            },
+            setCookie: function(name, value, options = {}) {
+                options = {
+                    path: '/',
+
+                    // при необходимости добавьте другие значения по умолчанию
+                    ...options
+                };
+
+                if (options.expires instanceof Date) {
+                    options.expires = options.expires.toUTCString();
+                }
+
+                let updatedCookie = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+
+
+                for (let optionKey in options) {
+                    updatedCookie += "; " + optionKey;
+                    let optionValue = options[optionKey];
+                    if (optionValue !== true) {
+                        updatedCookie += "=" + optionValue;
+                    }
+                }
+                console.log(updatedCookie);
+
+                document.cookie = updatedCookie;
+            },
+            getLang: function () {
+                let self = this;
+                let cookie_val = this.getCookie('USER_LANG');
+                if(cookie_val === 'ru'){ self.languages.ru = true}
+                if(cookie_val === 'en'){ self.languages.en = true}
+                if(cookie_val === 'by'){ self.languages.by = true}
+            }
+        },
+        mounted:function(){
+            let self = this;
+            let find_cookie = self.getCookie('USER_LANG');
+            if(find_cookie === undefined){
+                self.languages.ru = true
+                self.setCookie('USER_LANG', 'ru')
+            }
+
+            self.getLang();
+        },
+        template: `
+        <div class="header-language">
+            <div class="language-select">
+                <div class="language-select__item" v-bind:class="{ _active: languages.ru === true }" data-lang="ru"  @click="choose_lang('ru')">RU</div>
+                <div class="language-select__item" v-bind:class="{ _active: languages.en === true }" data-lang="en"  @click="choose_lang('en')">EN</div>
+                <div class="language-select__item" v-bind:class="{ _active: languages.by === true }" data-lang="by"  @click="choose_lang('by')">BY</div>
+            </div>
+        </div>
+        `,
+    });
+</script>
+
+<script>    function getByDistrictUrl() {        const url = new URL(window.location.href);        const bydistrictParam = url.searchParams.get('bydistrict');        if (bydistrictParam) {            return `${url.pathname}?bydistrict=${bydistrictParam}`;        } else {            return url.pathname;        }    }    BX.ready(() => {        let url = new URL(window.location.href);        let oldParams = url.searchParams;        let today = new Date();        let form = document.querySelector("form[name='filter']");        const checkboxes = document.querySelectorAll('.section-checkbox');        const periodInputs = document.querySelector('.period-inputs');        const customDate = document.querySelector('#custom-date')        periodInputs.classList.remove('d-flex');        periodInputs.classList.add('d-none');        if (customDate.checked === true) {            periodInputs.classList.add('d-flex');            periodInputs.classList.remove('d-none');        }        document.querySelectorAll("input[name='period']").forEach((radio) => {            radio.addEventListener("change", (event) => {                const period =                    event.target.value;                if (period === "own-period") {                    periodInputs.classList.remove('d-none');                    periodInputs.classList.add('d-flex');                } else {                    periodInputs.classList.remove('d-flex');                    periodInputs.classList.add('d-none');                }            });        });        const allSectionsCheckbox = document.getElementById("all-site");        const sectionCheckboxes = document.querySelectorAll(".section-checkbox");        let filteredCheckboxes = []        sectionCheckboxes.forEach((checkbox) => {            if (checkbox.getAttribute('id') !== 'all-site') {                filteredCheckboxes.push(checkbox)            }        })        allSectionsCheckbox.addEventListener("change", (event) => {            if (event.target.checked) {                filteredCheckboxes.forEach((checkbox) => {                    checkbox.checked = false;                });            }        });        filteredCheckboxes.forEach((checkbox) => {            checkbox.addEventListener("change", () => {                if (checkbox.checked) {                    allSectionsCheckbox.checked = false;                }            });        });        checkboxes.forEach(checkbox => {            checkbox.addEventListener('change', updateCategoryParameter);        });        function updateCategoryParameter() {            const selectedCategories = Array.from(checkboxes)                .filter(checkbox => checkbox.checked)                .map(checkbox => checkbox.value);            const url = new URL(window.location);            url.searchParams.set('category', selectedCategories.join(','));            history.pushState(null, '', url);            return selectedCategories.join(',')        }        if (form) {            form.addEventListener('submit', (e) => {                e.preventDefault();                let formData = new FormData(form);                let data = Object.fromEntries(formData);                console.log(data)                let getStr = ''                let url = new URL(window.location.href);                //let url = new URL('https://nalog.gov.by/news/');                let params = oldParams;                if (data.date_start !== '') {                    params.set('start', data.date_start);                }                if (data.date_end !== '') {                    params.set('end', data.date_end);                }                const categories = updateCategoryParameter();                if (categories) {                    params.set('category', categories)                }                // if (data.category !== '') {                //     params.set('category', () => updateCategoryParameter);                // }                if (data.period) {                    params.set('period', data.period)                }                if (data.sort) {                    params.set('sort', data.sort)                }                //console.log(params);                url.search = params.toString();                window.location.href = url            })        }    })    // document.querySelectorAll('.section-checkbox').forEach(function(checkbox) {    //     checkbox.addEventListener('change', function() {    //         if (this.checked) {    //             document.getElementById('all-site').checked = false;    //         }    //     });    // });    //    // document.getElementById('all-site').addEventListener('change', function() {    //     if (this.checked) {    //         document.querySelectorAll('.section-checkbox').forEach(function(checkbox) {    //             checkbox.checked = false;    //         });    //     }    // });    const searchInput = document.getElementById('search-query')    document.querySelector('.remove-icon').addEventListener('click', function () {        searchInput.value = ''    })</script><script>
+    !(function () {
+        let e = document.createElement("script"),
+            t = document.head || document.getElementsByTagName("head")[0];
+        (e.src =
+            "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+            (e.async = !0),
+            (e.onload = () => {
+                window.WebChat.default(
+                    {
+                        connectingText: 'Подключение к серверу...',
+                        connectOn: 'open',
+                        hideWhenNotConnected: false,
+                        customData: { language: "ru" },
+                        socketUrl: "https://nalog.gov.by/",
+                        socketPath: "/rasasiod/socket.io/",
+                        userBackgroundColor: "#014A37",
+                        userTextColor: "#FAFAFA",
+                    },
+                    null
+                );
+            })
+        t.insertBefore(e, t.firstChild);
+
+    })();
+    localStorage.clear();
+
+</script>
+
+<script>
+    const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+    const runLoopWithSleep = async () => {
+        for (let i = 0; i < 1000; i++) {
+            let rootElement = document.getElementById("rasaWebchatPro")
+            if (rootElement != null && rootElement.children != null) {
+                rootElement.children[0].style = null
+                break
+            }
+            await sleep(100);
+        }
+    };
+    runLoopWithSleep();
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallbackRecap&render=6LewtU4pAAAAAPqjAoTQi7zntGMFSfWujt0BNYL0"></script><script>
+    var onloadCallbackRecap = function () {
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LewtU4pAAAAAPqjAoTQi7zntGMFSfWujt0BNYL0', {action: 'contact_callback'}).then(function (token) {
+                let recapResponse = document.createElement("input");
+                recapResponse.type = "hidden";
+                recapResponse.className = "recap_response";
+                recapResponse.name = "recap_response";
+                recapResponse.id = "recap_response";
+                recapResponse.value = token;
+
+
+                let form = document.querySelector('#textErrorForm');
+                form.appendChild(recapResponse);
+            });
+        });
+    };
+</script><script type="text/javascript">
+    let form = document.querySelector('#textErrorForm');
+    if( form )
+    {
+        form.addEventListener('submit', (e)=>{
+            e.preventDefault();
+            let txt = form.querySelector('#mistake').value;
+            let errField = form.querySelector('.invalid-feedback');
+            errField.style.display = 'none';
+
+            if(txt.length === 0 ){
+                errField.style.display = 'block';
+            }else{
+                let formData = new FormData(form);
+                let fileInput = document.querySelector('input[type="file"]')
+                formData.append('page', window.location.href);
+                formData.append('file',fileInput.files[0])
+                fetch('/ajax/form/textError.php',
+                {
+                    method: 'POST',
+                    body:formData
+                })
+                .then( response => response.json() )
+                .then(data =>
+                    {
+                        if(data.status === 'success'){
+                            form.reset();
+                            $('#textErrorModal').modal('toggle');
+                            $('#successMessageModal1').modal('toggle');
+                            document.querySelector('#successMessageModal1').querySelector('.message').innerHTML = data.message
+
+                        }
+                        if(data.status === 'error')
+                        {
+                            $('#textErrorModal').modal('toggle');
+                            $('#successMessageModal1').modal('toggle');
+                            document.querySelector('#successMessageModal1').querySelector('.message').innerHTML = data.message;
+                        }
+                    }
+                )
+            }
+        });
+    }
+
+    setTimeout( () =>{
+        document.querySelector('.grecaptcha-badge').style.display = 'none';
+    }, 2000);
+
+
+</script>
+<script>
+    BX.ready(function() {
+        let hasVoted = false;
+
+        // const surveyModalEl = document.getElementById('surveyModal');
+        // const surveyModalCloseBtn = document.getElementById('surveyModalClose');
+        // const surveyModalStartBtn = document.getElementById('surveyModalStartBtn');
+        // const SURVEY_MODAL_COOKIE = 'mns_survey_modal_dismissed';
+        // const SURVEY_MODAL_COOKIE_OPTIONS = { expires: 1, path: '/' };
+        //
+        // function isSurveyModalDismissed() {
+        //     if (typeof Cookies === 'undefined') return false;
+        //     return Cookies.get(SURVEY_MODAL_COOKIE) === '1';
+        // }
+        //
+        // function shouldShowSurveyModal() {
+        //     return !isSurveyModalDismissed();
+        // }
+        //
+        // function markSurveyModalDismissed() {
+        //     if (typeof Cookies !== 'undefined') {
+        //         Cookies.set(SURVEY_MODAL_COOKIE, '1', SURVEY_MODAL_COOKIE_OPTIONS);
+        //     }
+        // }
+        //
+        // function hideSurveyModal() {
+        //     if (surveyModalEl && window.bootstrap) {
+        //         const instance =
+        //             bootstrap.Modal.getInstance(surveyModalEl) || bootstrap.Modal.getOrCreateInstance(surveyModalEl);
+        //         instance.hide();
+        //     }
+        // }
+        //
+        // window.resetSurveyModal = function () {
+        //     if (typeof Cookies !== 'undefined') {
+        //         Cookies.remove(SURVEY_MODAL_COOKIE, { path: '/' });
+        //     }
+        // };
+
+        //if (surveyModalEl) {
+            // let surveyModalWasShown = false;
+            //
+            // if (surveyModalCloseBtn) {
+            //     surveyModalCloseBtn.addEventListener('click', function (e) {
+            //         e.preventDefault();
+            //         hideSurveyModal();
+            //     });
+            // }
+            //
+            // if (surveyModalStartBtn) {
+            //     surveyModalStartBtn.addEventListener('click', function () {
+            //         markSurveyModalDismissed();
+            //     });
+            // }
+            //
+            // surveyModalEl.addEventListener('shown.bs.modal', function () {
+            //     surveyModalWasShown = true;
+            // });
+            //
+            // surveyModalEl.addEventListener('hidden.bs.modal', function () {
+            //     if (!surveyModalWasShown) return;
+            //     surveyModalWasShown = false;
+            //     markSurveyModalDismissed();
+            // });
+
+        //}
+
+        window.addEventListener('load', function () {
+            //if (hasVoted) {
+                return;
+            //}
+            // if (shouldShowSurveyModal() && window.bootstrap) {
+            //     setTimeout(function () {
+            //         bootstrap.Modal.getOrCreateInstance(surveyModalEl).show();
+            //     }, 800);
+            // }
+        });
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const acceptAllButton = document.querySelector('.accept-all');        //принять всё
+        const rejectAllButton = document.querySelector('.reject-all');        //отклонить всё
+        const acceptAllButtonM = document.querySelector('.accept-all-m');      //принять всё
+        const rejectAllButtonM = document.querySelector('.reject-all-m');      //отклонить всё
+
+        const saveCookies = document.querySelector('.save-settings-cookies');
+        function getAllCookies() {
+            // Получаем все cookies в виде строки
+            let allCookies = document.cookie;
+
+            // Разделяем строку на отдельные cookies
+            let cookiesArray = allCookies.split(";");
+
+            let activeCookies = [];
+
+            // Проходимся по каждому cookie
+            cookiesArray.forEach(cookie => {
+                let [name, value] = cookie.trim().split("=");
+                activeCookies.push({name: name, value: value});
+            });
+            return activeCookies;
+        }
+
+        const allCookies = getAllCookies();
+        function sendCookiesToServer(cookies, btnAccept, btnReject) {
+            const checkbox2 = document.getElementById('flexSwitchCheckCheckedTwo').checked;
+            const checkbox3 = document.getElementById('flexSwitchCheckCheckedThree').checked;
+
+            var data = {
+                cookies: cookies,
+                checkbox2: checkbox2,
+                checkbox3: checkbox3,
+                btnAccept: btnAccept,
+                btnReject: btnReject,
+            };
+            fetch('/include/cookies/set_cookies.php', {
+                method: 'POST',
+                body: JSON.stringify(data),
+                headers: {'Content-Type': 'application/json'}
+            })
+            .then(response => {
+                //console.log('Response:', response); // Логирование всего ответа
+                if (!response.ok) {
+                    throw new Error("HTTP error " + response.status);
+                }
+                return response.json(); // Сначала преобразуем ответ в JSON
+            })
+            .then(json => {
+                if (json && json.errors) { // Проверяем, есть ли поле errors в ответе
+                    console.error('Server returned an error:', json.errors);
+                    throw new Error('Server error');
+                }
+                location.reload(); // Перезагружаем страницу после установки куки
+            })
+            .catch(function () {
+                console.log("Failed to send cookies");
+            });
+        }
+
+        // Функция для добавления слушателя событий, если элемент существует
+        function addClickListenerIfExists(buttonElement, callback) {
+            if (buttonElement) {
+                buttonElement.addEventListener('click', callback);
+            }
+        }
+
+        // Использование функции для добавления слушателей событий
+        addClickListenerIfExists(acceptAllButton, function () {
+            // Установка всех необходимых cookies
+            console.log('1231');
+            sendCookiesToServer(allCookies, true, false);
+        });
+        addClickListenerIfExists(rejectAllButton, function () {
+            // Удаление всех cookies, которые нужно отклонить
+            sendCookiesToServer(allCookies, false, true);
+        });
+        addClickListenerIfExists(acceptAllButtonM, function () {
+            // Установка всех необходимых cookies
+            sendCookiesToServer(allCookies, true, false);
+        });
+        addClickListenerIfExists(rejectAllButtonM, function () {
+            // Удаление всех cookies, которые нужно отклонить
+            sendCookiesToServer(allCookies, false, true);
+        });
+        addClickListenerIfExists(saveCookies, function () {
+            // Сохранение настроек cookies
+            sendCookiesToServer(allCookies, false, false);
+        });
+    });
+</script></body>
+</html>

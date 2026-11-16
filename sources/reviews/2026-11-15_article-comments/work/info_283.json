@@ -1,0 +1,144 @@
+{
+ "number": 283,
+ "url": "https://people.onliner.by/sdapi/catalog/search/iframe?referrer=https://people.onliner.by/",
+ "title": "Поиск",
+ "at": "2026-11-15T17:14:36.940Z",
+ "html": "raw/283_people-onliner-by_onliner-search-amazonka.html",
+ "txt": "raw/283_people-onliner-by_onliner-search-amazonka.txt",
+ "sha256": "c1ee43411bd7fa113e5651f53dd4789623469531f8a2b76d32e11ef9c10b7c20",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 10,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 12,
+    "text": "НЕДВИЖИМОСТЬ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 10,
+    "text": "ТЕХНОЛОГИИ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 4,
+    "text": "ЛЮДИ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 4,
+    "text": "ЛЮДИ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 10,
+    "text": "ТЕХНОЛОГИИ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 10,
+    "text": "ТЕХНОЛОГИИ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 10,
+    "text": "ТЕХНОЛОГИИ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 10,
+    "text": "ТЕХНОЛОГИИ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 12,
+    "text": "НЕДВИЖИМОСТЬ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 4,
+    "text": "ЛЮДИ"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 5168
+ },
+ "extra": {
+  "name": "onliner-search_amazonka",
+  "status": 200,
+  "requested": "https://people.onliner.by/ (поле «Поиск в Новостях»)",
+  "site": "people.onliner.by",
+  "query": "Амазонка",
+  "period": "В любом разделе | За все время | Сначала релевантные",
+  "activeTab": "в новостях",
+  "links": [
+   {
+    "href": "https://realt.onliner.by/2018/07/27/prip9t-2",
+    "text": "«Белорусская Амазонка»: репортаж с одичавших земель"
+   },
+   {
+    "href": "https://tech.onliner.by/2021/01/03/boevye-monaxini-na-sluzhbe-diktatora-dejstvitelno-li-amazonki-oxranyali-muammara-kaddafi",
+    "text": "«Боевые монахини» на службе диктатора. Действительно ли «амазонки» охраняли Муаммара Каддафи?"
+   },
+   {
+    "href": "https://people.onliner.by/2019/06/14/pripyat-2",
+    "text": "Как приготовить уху за $200. Наблюдаем за мастер-классом от браконьеров с «белорусской Амазонки»"
+   },
+   {
+    "href": "https://people.onliner.by/2025/12/09/lovil-piranyu-na-myaso-minchanin-ustroil-zaplyv-na-sape-po-odnoj-iz-samyx-opasnyx-rek-v-mire",
+    "text": "«Ловил пиранью на мясо». Минчанин устроил заплыв на сапе по одной из самых опасных рек в мире"
+   },
+   {
+    "href": "https://tech.onliner.by/2024/02/21/gollivudskaya-zvezda-pomogla-otkryt-vid-gigantskix-anakond-v-amazonke",
+    "text": "Голливудская звезда помогла открыть вид гигантских анаконд в Амазонке"
+   },
+   {
+    "href": "https://tech.onliner.by/2022/05/26/v-lesax-amazonki-obnaruzhili-drevnie-poseleniya-zabytoj-civilizacii",
+    "text": "В лесах Амазонки обнаружили древние поселения забытой цивилизации"
+   },
+   {
+    "href": "https://tech.onliner.by/2018/03/17/ship-2",
+    "text": "Взрыв, инсценировка, пираты? Темная история исчезновения экипажа «Марии Целесты»"
+   },
+   {
+    "href": "https://tech.onliner.by/2017/06/02/wonder-woman-review",
+    "text": "Ах, какая женщина! Рецензия на блокбастер «Чудо-женщина»"
+   },
+   {
+    "href": "https://realt.onliner.by/2022/12/25/dolinu-v-dzhunglyax",
+    "text": "Самые недоступные места мира. Рассказываем про долину в джунглях, где тысячи людей до сих пор живут без контакта с цивилизацией"
+   },
+   {
+    "href": "https://people.onliner.by/2026/06/28/kafe-s-xorkami",
+    "text": "В Минске теперь можно сходить в гости к зверькам, которые без ума от людей"
+   }
+  ],
+  "summary": "Амазонка в каталоге в новостях на барахолке на форуме В любом разделе За все время Сначала релевантные Только с видео НЕДВИЖИМОСТЬ «Белорусская Амазонка»: ре"
+ }
+}

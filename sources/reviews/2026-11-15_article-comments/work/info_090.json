@@ -1,0 +1,206 @@
+{
+ "number": 90,
+ "url": "https://t.me/mogilev/8173?embed=1&discussion=1&comments_limit=100",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:31:03.549Z",
+ "html": "raw/090_t-me_tg-mogilev-8173-discussion.html",
+ "txt": "raw/090_t-me_tg-mogilev-8173-discussion.txt",
+ "sha256": "5c4a58c3a44dbe58694384aff35a6649b910fa879c69f41ba3e498ae2825450a",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 14,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_widget body_widget_discussion emoji_image force_userpic nodark name_nocolor",
+    "textLen": 566,
+    "text": "3 comments on this post Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_header_wrap",
+    "textLen": 23,
+    "text": "3 comments on this post"
+   },
+   {
+    "tag": "H3",
+    "id": "",
+    "cls": "tgme_post_discussion_header",
+    "textLen": 23,
+    "text": "3 comments on this post"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion js-message_history",
+    "textLen": 524,
+    "text": "Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области мо"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 195,
+    "text": " Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области м"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 171,
+    "text": "🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggest"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 54,
+    "text": " 813 Спасибо Хабаровску за такой знаковый подарок "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 44,
+    "text": "Спасибо Хабаровску за такой знаковый подарок"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 247,
+    "text": " Паша В этом году совсем скучно как то , даже без концертов в центре (бесплатных!) Может хоть на День Независимости подарок жителям города сделают! А то один ед"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 236,
+    "text": "В этом году совсем скучно как то , даже без концертов в центре (бесплатных!) Может хоть на День Независимости подарок жителям города сделают! А то один единстве"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_footer",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "FORM",
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login_btn accent_bghover js-login_btn",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/discussion-widget.js?10",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [
+   "3 comments on this post Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о собы"
+  ],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "action": "",
+    "fields": [
+     "input:hidden:peer",
+     "input:hidden:top_msg_id",
+     "input:hidden:discussion_hash"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 566
+ },
+ "extra": {
+  "name": "tg_mogilev_8173_discussion",
+  "status": 200,
+  "requested": "https://t.me/mogilev/8173?embed=1&discussion=1&comments_limit=100",
+  "channel": "mogilev",
+  "post": 8173,
+  "tgDiscussion": {
+   "url": "https://t.me/mogilev/8173?embed=1&discussion=1&comments_limit=100",
+   "at": "2026-11-15T14:31:03.549Z",
+   "header": "3 comments on this post",
+   "error": "",
+   "comments": [
+    {
+     "id": "60519",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilevglavnoebot",
+     "text": "🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot",
+     "dateText": "Jun 22, 2025",
+     "datetime": "2025-06-22T11:37:30+00:00",
+     "url": "https://t.me/mogilev/8173?comment=60519",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "60522",
+     "author": "813",
+     "authorHref": "https://t.me/Start813",
+     "text": "Спасибо Хабаровску за такой знаковый подарок",
+     "dateText": "Jun 22, 2025",
+     "datetime": "2025-06-22T12:35:20+00:00",
+     "url": "https://t.me/mogilev/8173?comment=60522",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "60587",
+     "author": "Паша",
+     "authorHref": "https://t.me/paha2301",
+     "text": "В этом году совсем скучно как то , даже без концертов в центре (бесплатных!)  Может хоть на День Независимости подарок жителям  города сделают! \nА то один единственный концерт на день города , на Спартаке, и то по билетам (80-110р)! (((",
+     "dateText": "Jun 23, 2025",
+     "datetime": "2025-06-23T12:01:45+00:00",
+     "url": "https://t.me/mogilev/8173?comment=60587",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    }
+   ],
+   "moreLeft": false,
+   "moreState": [
+    "tme_messages_more accent_bghover js-messages_more autoload hide|after=60587|before="
+   ],
+   "bodyText": "3 comments on this post\nМогилев. Главное!\n🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot\nJun 22, 2025\n813\nСпасибо Хабаровску за такой знаковый подарок\nJun 22, 2025\nПаша\nВ этом"
+  }
+ }
+}

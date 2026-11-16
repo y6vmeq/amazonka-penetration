@@ -1,0 +1,113 @@
+{
+ "number": 163,
+ "url": "https://t.me/moymogilev/51003?embed=1&discussion=1&comments_limit=100",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:32:38.987Z",
+ "html": "raw/163_t-me_tg-moymogilev-51003-discussion.html",
+ "txt": "raw/163_t-me_tg-moymogilev-51003-discussion.txt",
+ "sha256": "42f455cd311e85764edf9d366bb54fc9517402193a8ce9908548aff239ccea53",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 8,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_widget body_widget_discussion emoji_image force_userpic nodark name_nocolor",
+    "textLen": 69,
+    "text": "Comments on this post Be the first to add a comment LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_header_wrap",
+    "textLen": 21,
+    "text": "Comments on this post"
+   },
+   {
+    "tag": "H3",
+    "id": "",
+    "cls": "tgme_post_discussion_header",
+    "textLen": 21,
+    "text": "Comments on this post"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion js-message_history",
+    "textLen": 29,
+    "text": "Be the first to add a comment"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_footer",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "FORM",
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login_btn accent_bghover js-login_btn",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/discussion-widget.js?10",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "action": "",
+    "fields": [
+     "input:hidden:peer",
+     "input:hidden:top_msg_id",
+     "input:hidden:discussion_hash"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 69
+ },
+ "extra": {
+  "name": "tg_moymogilev_51003_discussion",
+  "status": 200,
+  "requested": "https://t.me/moymogilev/51003?embed=1&discussion=1&comments_limit=100",
+  "channel": "moymogilev",
+  "post": 51003,
+  "tgDiscussion": {
+   "url": "https://t.me/moymogilev/51003?embed=1&discussion=1&comments_limit=100",
+   "at": "2026-11-15T14:32:38.987Z",
+   "header": "Comments on this post",
+   "error": "",
+   "comments": [],
+   "moreLeft": false,
+   "moreState": [
+    "tme_messages_more accent_bghover js-messages_more autoload hide|after=|before="
+   ],
+   "bodyText": "Comments on this post\nBe the first to add a comment\nLOG IN TO COMMENT"
+  }
+ }
+}

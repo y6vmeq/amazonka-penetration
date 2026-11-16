@@ -1,0 +1,144 @@
+{
+ "number": 166,
+ "url": "https://t.me/moymogilev/51146?embed=1&discussion=1&comments_limit=100",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:32:43.021Z",
+ "html": "raw/166_t-me_tg-moymogilev-51146-discussion.html",
+ "txt": "raw/166_t-me_tg-moymogilev-51146-discussion.txt",
+ "sha256": "506ac7aa28cda1dec5989b69d7316f77087067ba51c396340049f0e59e8e86a5",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 10,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_widget body_widget_discussion emoji_image force_userpic nodark name_nocolor",
+    "textLen": 95,
+    "text": "1 comment on this post Отдых в Беларуси 🏰 Прощай фигура! 🤦🏼‍♀️ Nov 9, 2025 LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_header_wrap",
+    "textLen": 22,
+    "text": "1 comment on this post"
+   },
+   {
+    "tag": "H3",
+    "id": "",
+    "cls": "tgme_post_discussion_header",
+    "textLen": 22,
+    "text": "1 comment on this post"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion js-message_history",
+    "textLen": 54,
+    "text": "Отдых в Беларуси 🏰 Прощай фигура! 🤦🏼‍♀️ Nov 9, 2025"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 48,
+    "text": " Отдых в Беларуси 🏰 Прощай фигура! 🤦🏼‍♀️ "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 22,
+    "text": "Прощай фигура! 🤦🏼‍♀️"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_footer",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "FORM",
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login_btn accent_bghover js-login_btn",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/discussion-widget.js?10",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "action": "",
+    "fields": [
+     "input:hidden:peer",
+     "input:hidden:top_msg_id",
+     "input:hidden:discussion_hash"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 95
+ },
+ "extra": {
+  "name": "tg_moymogilev_51146_discussion",
+  "status": 200,
+  "requested": "https://t.me/moymogilev/51146?embed=1&discussion=1&comments_limit=100",
+  "channel": "moymogilev",
+  "post": 51146,
+  "tgDiscussion": {
+   "url": "https://t.me/moymogilev/51146?embed=1&discussion=1&comments_limit=100",
+   "at": "2026-11-15T14:32:43.021Z",
+   "header": "1 comment on this post",
+   "error": "",
+   "comments": [
+    {
+     "id": "11356",
+     "author": "Отдых в Беларуси 🏰",
+     "authorHref": "https://t.me/VisitToBelarus",
+     "text": "Прощай фигура! 🤦🏼‍♀️",
+     "dateText": "Nov 9, 2025",
+     "datetime": "2025-11-09T14:25:29+00:00",
+     "url": "https://t.me/moymogilev/51146?comment=11356",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    }
+   ],
+   "moreLeft": false,
+   "moreState": [
+    "tme_messages_more accent_bghover js-messages_more autoload hide|after=11356|before="
+   ],
+   "bodyText": "1 comment on this post\nОтдых в Беларуси 🏰\nПрощай фигура! 🤦🏼‍♀️\nNov 9, 2025\nLOG IN TO COMMENT"
+  }
+ }
+}

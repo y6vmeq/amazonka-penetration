@@ -1,0 +1,19 @@
+{
+ "query": "Смак бай",
+ "finalUrl": "https://magilev.by/search/?query=%D0%A1%D0%BC%D0%B0%D0%BA+%D0%B1%D0%B0%D0%B9",
+ "waitedMs": 900,
+ "stop": "нет кнопки «Вперед»",
+ "captchaFrames": [
+  "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdY-8QUAAAAAMKjt1mjAiBx1gpq_QIuUx9bLQ2k&co=aHR0cHM6Ly9tYWdpbGV2LmJ5OjQ0Mw..&hl=ru&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=9wq80be67llt"
+ ],
+ "pages": [
+  {
+   "page": 1,
+   "at": "2026-11-15T14:05:08.211Z",
+   "url": "https://magilev.by/search/?query=%D0%A1%D0%BC%D0%B0%D0%BA+%D0%B1%D0%B0%D0%B9",
+   "items": [],
+   "text": "Искать\n\nК сожалению, ничего не найдено",
+   "html": "<div class=\"search-page__form\"><div id=\"search-form-root\"><div class=\"_root_1ir2g_1\"><ul class=\"_root_n6j9z_1 _hidden_n6j9z_8\"></ul><form class=\"_form_1ir2g_7\"><input class=\"_root_1h2nr_1 _input_1ir2g_13\" placeholder=\"Введите текст для поиска\" minlength=\"3\" maxlength=\"255\" type=\"text\" value=\"Смак бай\" name=\"query\"><button class=\"button button_primary\">Искать</button></form><div><p>К сожалению, ничего не найдено</p></div></div></div></div>"
+  }
+ ]
+}

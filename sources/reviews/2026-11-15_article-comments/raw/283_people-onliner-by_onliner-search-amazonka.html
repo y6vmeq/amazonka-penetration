@@ -1,0 +1,1503 @@
+<html lang="ru"><head>
+    <meta charset="utf-8">
+    <title>Поиск</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="https://catalog.onliner.by/assets/search.d66fac28d46e1667.css">
+</head>
+<body class="no-touch">
+<script type="text/javascript">
+    window.isNewCurrency = false;
+</script>
+<div id="search-page" class="search search_filter" data-bind="css: {'search_filter': $root.activeSearchType() === 'news'}" style="display: block;">
+
+    <div class="search__bar" data-bind="css: {'search__bar_searching': $root.resultsInstance().isSearching}">
+        <div class="search__bar-wrapper">
+            <div class="search__suggests">
+                <div class="search__suggest-match" data-bind="html: $root.format.match($root.keyword(), $root.suggest.matchString())"><span class="text_match">Амазонка</span></div>
+                <div class="search__suggest-addon" data-bind="css: {'search__suggest-addon_active': !!$root.suggest.addonString()}, html: $root.suggest.addonString"></div>
+            </div>
+            <input class="search__input js-search-input ym-record-keys" type="text" placeholder="Поиск" value="" tabindex="1" name="text" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" data-bind="hasFocus: $root.hasFocus,
+                              value: $root.keyword,
+                              valueUpdate: 'input',
+                              event: {
+                                keydown: function (data, event) {return $root.onKeyDown(event)},
+                                focus: function (data, event) {return $root.moveInputCursorToEnd(event)},
+                                blur: function (data, event) {return $root.onInputBlur(event)}
+                              }">
+        </div>
+
+        <!-- ko if: $root.activeSearchType() === 'catalog' --><!-- /ko -->
+
+        <div class="search__bar-wrapper">
+            <div class="search__tabs" style="overflow: hidden;">
+                <div class="search__tabs-list" data-bind="foreach: {data: $root.searchTypes, as: 'item'}" style="transform: translateZ(0px); width: 421px;">
+                    <div class="search__tabs-item active" data-bind="text: item.name,
+                                    css: {'search__tabs-item_active': item.type === $root.activeSearchType()},
+                                    click: $root.changeSearchType.bind($root, item.type),
+                                    attr: { 'search-type': item.type }" search-type="catalog">в каталоге</div>
+                
+                    <div class="search__tabs-item search__tabs-item_active" data-bind="text: item.name,
+                                    css: {'search__tabs-item_active': item.type === $root.activeSearchType()},
+                                    click: $root.changeSearchType.bind($root, item.type),
+                                    attr: { 'search-type': item.type }" search-type="news">в новостях</div>
+                
+                    <div class="search__tabs-item" data-bind="text: item.name,
+                                    css: {'search__tabs-item_active': item.type === $root.activeSearchType()},
+                                    click: $root.changeSearchType.bind($root, item.type),
+                                    attr: { 'search-type': item.type }" search-type="baraholka">на барахолке</div>
+                
+                    <div class="search__tabs-item" data-bind="text: item.name,
+                                    css: {'search__tabs-item_active': item.type === $root.activeSearchType()},
+                                    click: $root.changeSearchType.bind($root, item.type),
+                                    attr: { 'search-type': item.type }" search-type="forum">на форуме</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ko if: $root.activeSearchType() === 'news' -->
+            <div class="search__bar-wrapper">
+                <div class="search__filter" style="overflow: hidden;">
+                    <div class="search__filter-list" style="transform: translateZ(0px); width: 513px;">
+
+                        <!-- ko if: $root.resultsInstance().projectFilter -->
+                            <!-- ko template: { name: 'filter-dropdown', data: $root.resultsInstance().projectFilter || {} } -->
+    <div class="search__filter-item active">
+    <div class="dropdown-style__handle search__filter-dropdown-handle">
+        <a href="#" class="search__filter-link search__filter-link_complementary search__filter-link_arrow_bottom" data-bind="click: $data.toggle.bind($data),
+                      text: $data.getSelectedText()">В любом разделе</a>
+        <div class="dropdown-style dropdown-style_primary dropdown-style_small dropdown-style_bottom-left search__filter-dropdown search__filter-dropdown_width_xxss" data-bind="css: { 'dropdown-style_visible': $data.isOpen }">
+            <div class="dropdown-style__content">
+                <ul class="dropdown-style__list" data-bind="foreach: { data: $data.optionsList, as: 'option' }">
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real" data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }" value="undefined" name="project">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text" data-bind="text: option.text">В любом разделе</span>
+                            </span>
+                        </label>
+                    </li>
+
+                
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real" data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }" value="money" name="project">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text" data-bind="text: option.text">Кошелек</span>
+                            </span>
+                        </label>
+                    </li>
+
+                
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real" data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }" value="people" name="project">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text" data-bind="text: option.text">Люди</span>
+                            </span>
+                        </label>
+                    </li>
+
+                
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real" data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }" value="auto" name="project">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text" data-bind="text: option.text">Авто</span>
+                            </span>
+                        </label>
+                    </li>
+
+                
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real" data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }" value="sport" name="project">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text" data-bind="text: option.text">Спорт</span>
+                            </span>
+                        </label>
+                    </li>
+
+                
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real" data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }" value="tech" name="project">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text" data-bind="text: option.text">Технологии</span>
+                            </span>
+                        </label>
+                    </li>
+
+                
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real" data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }" value="realt" name="project">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text" data-bind="text: option.text">Недвижимость</span>
+                            </span>
+                        </label>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /ko -->
+                        <!-- /ko -->
+
+
+                        <!-- ko if: $root.resultsInstance().publishFilter -->
+                            <!-- ko template: { name: 'filter-dropdown', data: $root.resultsInstance().publishFilter || {} } -->
+    <div class="search__filter-item">
+    <div class="dropdown-style__handle search__filter-dropdown-handle">
+        <a href="#" class="search__filter-link search__filter-link_complementary search__filter-link_arrow_bottom" data-bind="click: $data.toggle.bind($data),
+                      text: $data.getSelectedText()">За все время</a>
+        <div class="dropdown-style dropdown-style_primary dropdown-style_small dropdown-style_bottom-left search__filter-dropdown search__filter-dropdown_width_xxss" data-bind="css: { 'dropdown-style_visible': $data.isOpen }">
+            <div class="dropdown-style__content">
+                <ul class="dropdown-style__list" data-bind="foreach: { data: $data.optionsList, as: 'option' }">
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real" data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }" value="last_month" name="publish">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text" data-bind="text: option.text">Месяц</span>
+                            </span>
+                        </label>
+                    </li>
+
+                
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real" data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }" value="last_half_year" name="publish">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text" data-bind="text: option.text">Полгода</span>
+                            </span>
+                        </label>
+                    </li>
+
+                
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real" data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }" value="last_year" name="publish">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text" data-bind="text: option.text">Год</span>
+                            </span>
+                        </label>
+                    </li>
+
+                
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real" data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }" value="undefined" name="publish">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text" data-bind="text: option.text">Все время</span>
+                            </span>
+                        </label>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /ko -->
+                        <!-- /ko -->
+
+                        <!-- ko if: $root.resultsInstance().orderFilter -->
+                            <!-- ko template: { name: 'filter-dropdown', data: $root.resultsInstance().orderFilter || {} } -->
+    <div class="search__filter-item">
+    <div class="dropdown-style__handle search__filter-dropdown-handle">
+        <a href="#" class="search__filter-link search__filter-link_complementary search__filter-link_arrow_bottom" data-bind="click: $data.toggle.bind($data),
+                      text: $data.getSelectedText()">Сначала релевантные</a>
+        <div class="dropdown-style dropdown-style_primary dropdown-style_small dropdown-style_bottom-left search__filter-dropdown search__filter-dropdown_width_xxss" data-bind="css: { 'dropdown-style_visible': $data.isOpen }">
+            <div class="dropdown-style__content">
+                <ul class="dropdown-style__list" data-bind="foreach: { data: $data.optionsList, as: 'option' }">
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real" data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }" value="undefined" name="order">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text" data-bind="text: option.text">Релевантные</span>
+                            </span>
+                        </label>
+                    </li>
+
+                
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real" data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }" value="latest" name="order">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text" data-bind="text: option.text">Новые</span>
+                            </span>
+                        </label>
+                    </li>
+
+                
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real" data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }" value="popular" name="order">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text" data-bind="text: option.text">Популярные</span>
+                            </span>
+                        </label>
+                    </li>
+
+                
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real" data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }" value="oldest" name="order">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text" data-bind="text: option.text">Старые</span>
+                            </span>
+                        </label>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /ko -->
+                        <!-- /ko -->
+
+                        <!-- ko if: $root.resultsInstance().isWithVideoFilter -->
+                            <!-- ko template: { name: 'filter-checkbox', data: $root.resultsInstance().isWithVideoFilter || {} } -->
+    <div class="search__filter-item">
+    <label class="search__filter-checkbox-label">
+        <span class="i-checkbox search__filter-checkbox">
+            <input type="checkbox" class="i-checkbox__real" data-bind="checked: $data.checked">
+            <span class="i-checkbox__faux"></span>
+            <span class="search__filter-checkbox-text" data-bind="text: $data.label">Только с видео</span>
+        </span>
+    </label>
+</div>
+<!-- /ko -->
+                        <!-- /ko -->
+
+                    </div>
+                </div>
+            </div>
+        <!-- /ko -->
+
+        <span class="search__close" data-dismiss="modal"></span>
+    </div>
+
+    <div class="search__content-wrapper" style="" data-bind="visible: true">
+
+        <!-- ko if: $root.resultsInstance().productsList() && $root.resultsInstance().productsList().length --><!-- /ko -->
+
+    <ul class="search__results" data-bind="foreach: {data: $root.resultsInstance().list, as: 'result'}">
+
+        <li class="search__result" data-bind="event: {mouseover: $root.device.mobile ? function () {} : function () {$root.resultsInstance().onResultMouseOver($index())}},
+                       click: function () {$root.goToResult($index(), $root.activeSearchType() === 'catalog')},
+                       css: {'search__result_active': $root.resultsInstance().isActiveResult($index())}">
+            <div class="result__wrapper">
+                <!-- ko if: result.show_search_page_link_at_start --><!-- /ko -->
+
+                <!-- ko if: result.show_search_page_link_at_end --><!-- /ko -->
+
+                <!-- ko if: !result.show_search_page_link_at_start && !result.show_search_page_link_at_end -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'catalog') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'news') -->
+                        <!-- ko template: {name: 'result-item-news', data: result} -->
+    <!--ko if: $data.monthGroupLabel--><!--/ko-->
+
+<div class="result__item result__item_news">
+    <!--ko if: $data.image-->
+        <div class="news__preview">
+            <!--ko if: !$data.isWithImage() || $data.isImageLoading() --><!--/ko-->
+
+            <!--ko if: $data.isWithImage() && !$data.isImageLoading() -->
+            <div class="news__image" data-bind="attr: {style: 'background-image: url(' + $data.image + ')'}" style="background-image: url(https://content.onliner.by/news/550x298/632627afcd0ba7fe4933d5025dc18e8b.jpeg)">
+            </div>
+            <!--/ko-->
+
+            <!--ko if: !$root.resultsInstance().projectFilter.selected()-->
+            <div class="news__top">
+                <div class="news__detail">
+                    <div class="news__control">
+                        <div class="news__label news__label_primary" data-bind="text: $data.project.name">Недвижимость</div>
+                    </div>
+                </div>
+            </div>
+            <!--/ko-->
+        </div>
+    <!--/ko-->
+
+    <div class="news__data">
+        <!--ko if: !$data.image && !$root.resultsInstance().projectFilter.selected()--><!--/ko-->
+
+        <div class="news__clamping">
+            <div class="news__title">
+                <a class="news__link news__link_primary" target="_parent" data-bind="text: $data.title,
+                              attr: {href: $data.link},
+                              click: $root.onClickWithoutPropagation" href="https://realt.onliner.by/2018/07/27/prip9t-2">«Белорусская Амазонка»: репортаж с одичавших земель</a>
+            </div>
+            <div class="news__description" data-bind="text: $data.description">Есть теория о том, что у Припяти выше Мозыря имеется правый берег. О нем мало что известно, сам факт его существования не доказан. Из путешественников, которые туда отправлялись, никто не вернулся. Поговаривают, так и стоят в обнимку с вековыми деревьями. Разговаривают с ними, не в силах оторваться. Врут, скорее всего… Но что-то там точно есть. Мы все проверили и вернулись. Хотя тоже могли бы сейчас стоять, общаться с растениями и отращивать пере...</div>
+        </div>
+        <div class="news__detail">
+            <div class="news__control">
+                <div class="news__group">
+                    <!--ko if: $data.labels.has_video-->
+                        <div class="button-style button-style_obverse button-style_small button-style_noreflex news__button news__button_video"></div>
+                    <!--/ko-->
+
+                    <!--ko if: $data.counters.views-->
+                        <div class="button-style button-style_small button-style_noreflex news__button news__button_views button-style_excess news__button_views_popular" data-bind="css: {'button-style_obverse': !$data.labels.popular,
+                                              'button-style_excess': $data.labels.popular,
+                                              'news__button_views_popular': $data.labels.popular}">
+                            <!--ko text: $root.format.numberKFormatter($data.counters.views)-->64 726<!--/ko-->
+                        </div>
+                    <!--/ko-->
+
+                    <!--ko if: $data.counters.comments--><!--/ko-->
+                </div>
+
+                <div class="news__time" data-bind="text: $root.moment($data.created_at).format('D MMMM YYYY в HH.mm')">27 июля 2018 в 07.00</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /ko -->
+                    <!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'baraholka') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'forum') --><!-- /ko -->
+
+                    <!-- ko if: result.additional --><!-- /ko -->
+                <!-- /ko -->
+            </div>
+        </li>
+
+        <!-- ko if: $root.resultsInstance().mainCount() === $index() + 1 --><!-- /ko -->
+    
+
+        <li class="search__result" data-bind="event: {mouseover: $root.device.mobile ? function () {} : function () {$root.resultsInstance().onResultMouseOver($index())}},
+                       click: function () {$root.goToResult($index(), $root.activeSearchType() === 'catalog')},
+                       css: {'search__result_active': $root.resultsInstance().isActiveResult($index())}">
+            <div class="result__wrapper">
+                <!-- ko if: result.show_search_page_link_at_start --><!-- /ko -->
+
+                <!-- ko if: result.show_search_page_link_at_end --><!-- /ko -->
+
+                <!-- ko if: !result.show_search_page_link_at_start && !result.show_search_page_link_at_end -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'catalog') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'news') -->
+                        <!-- ko template: {name: 'result-item-news', data: result} -->
+    <!--ko if: $data.monthGroupLabel--><!--/ko-->
+
+<div class="result__item result__item_news">
+    <!--ko if: $data.image-->
+        <div class="news__preview">
+            <!--ko if: !$data.isWithImage() || $data.isImageLoading() --><!--/ko-->
+
+            <!--ko if: $data.isWithImage() && !$data.isImageLoading() -->
+            <div class="news__image" data-bind="attr: {style: 'background-image: url(' + $data.image + ')'}" style="background-image: url(https://content.onliner.by/news/550x298/8c686e0de3d3a7cf4bbea337690b58c7.jpeg)">
+            </div>
+            <!--/ko-->
+
+            <!--ko if: !$root.resultsInstance().projectFilter.selected()-->
+            <div class="news__top">
+                <div class="news__detail">
+                    <div class="news__control">
+                        <div class="news__label news__label_primary" data-bind="text: $data.project.name">Технологии</div>
+                    </div>
+                </div>
+            </div>
+            <!--/ko-->
+        </div>
+    <!--/ko-->
+
+    <div class="news__data">
+        <!--ko if: !$data.image && !$root.resultsInstance().projectFilter.selected()--><!--/ko-->
+
+        <div class="news__clamping">
+            <div class="news__title">
+                <a class="news__link news__link_primary" target="_parent" data-bind="text: $data.title,
+                              attr: {href: $data.link},
+                              click: $root.onClickWithoutPropagation" href="https://tech.onliner.by/2021/01/03/boevye-monaxini-na-sluzhbe-diktatora-dejstvitelno-li-amazonki-oxranyali-muammara-kaddafi">«Боевые монахини» на службе диктатора. Действительно ли «амазонки» охраняли Муаммара Каддафи?</a>
+            </div>
+            <div class="news__description" data-bind="text: $data.description">Муаммар Каддафи правил Ливией на протяжении многих десятилетий, постепенно обрастая званиями, чинами и титулами различной степени важности. Считается, что де-факто руководство страной в его руки перешло в 1969 году, «официально» это произошло чуть позже. В определенный момент Каддафи решил отказаться от всех высоких постов — вероятно, это стало для него утомительно.</div>
+        </div>
+        <div class="news__detail">
+            <div class="news__control">
+                <div class="news__group">
+                    <!--ko if: $data.labels.has_video--><!--/ko-->
+
+                    <!--ko if: $data.counters.views-->
+                        <div class="button-style button-style_small button-style_noreflex news__button news__button_views button-style_excess news__button_views_popular" data-bind="css: {'button-style_obverse': !$data.labels.popular,
+                                              'button-style_excess': $data.labels.popular,
+                                              'news__button_views_popular': $data.labels.popular}">
+                            <!--ko text: $root.format.numberKFormatter($data.counters.views)-->190 K<!--/ko-->
+                        </div>
+                    <!--/ko-->
+
+                    <!--ko if: $data.counters.comments--><!--/ko-->
+                </div>
+
+                <div class="news__time" data-bind="text: $root.moment($data.created_at).format('D MMMM YYYY в HH.mm')">3 января 2021 в 06.00</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /ko -->
+                    <!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'baraholka') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'forum') --><!-- /ko -->
+
+                    <!-- ko if: result.additional --><!-- /ko -->
+                <!-- /ko -->
+            </div>
+        </li>
+
+        <!-- ko if: $root.resultsInstance().mainCount() === $index() + 1 --><!-- /ko -->
+    
+
+        <li class="search__result" data-bind="event: {mouseover: $root.device.mobile ? function () {} : function () {$root.resultsInstance().onResultMouseOver($index())}},
+                       click: function () {$root.goToResult($index(), $root.activeSearchType() === 'catalog')},
+                       css: {'search__result_active': $root.resultsInstance().isActiveResult($index())}">
+            <div class="result__wrapper">
+                <!-- ko if: result.show_search_page_link_at_start --><!-- /ko -->
+
+                <!-- ko if: result.show_search_page_link_at_end --><!-- /ko -->
+
+                <!-- ko if: !result.show_search_page_link_at_start && !result.show_search_page_link_at_end -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'catalog') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'news') -->
+                        <!-- ko template: {name: 'result-item-news', data: result} -->
+    <!--ko if: $data.monthGroupLabel--><!--/ko-->
+
+<div class="result__item result__item_news">
+    <!--ko if: $data.image-->
+        <div class="news__preview">
+            <!--ko if: !$data.isWithImage() || $data.isImageLoading() --><!--/ko-->
+
+            <!--ko if: $data.isWithImage() && !$data.isImageLoading() -->
+            <div class="news__image" data-bind="attr: {style: 'background-image: url(' + $data.image + ')'}" style="background-image: url(https://content.onliner.by/news/550x298/b83b4488e773eb9fccccbe40e585b39d.jpeg)">
+            </div>
+            <!--/ko-->
+
+            <!--ko if: !$root.resultsInstance().projectFilter.selected()-->
+            <div class="news__top">
+                <div class="news__detail">
+                    <div class="news__control">
+                        <div class="news__label news__label_primary" data-bind="text: $data.project.name">Люди</div>
+                    </div>
+                </div>
+            </div>
+            <!--/ko-->
+        </div>
+    <!--/ko-->
+
+    <div class="news__data">
+        <!--ko if: !$data.image && !$root.resultsInstance().projectFilter.selected()--><!--/ko-->
+
+        <div class="news__clamping">
+            <div class="news__title">
+                <a class="news__link news__link_primary" target="_parent" data-bind="text: $data.title,
+                              attr: {href: $data.link},
+                              click: $root.onClickWithoutPropagation" href="https://people.onliner.by/2019/06/14/pripyat-2">Как приготовить уху за $200. Наблюдаем за мастер-классом от браконьеров с «белорусской Амазонки»</a>
+            </div>
+            <div class="news__description" data-bind="text: $data.description">Время сейчас жаркое. Столбик термометра улетает в космос, вода греется до совсем неприличных температур, а рыба в этой воде шалеет. Вам повезло, если вы сейчас попиваете что-нибудь очень холодное на берегу озера на севере страны. А люди как-то справляются на юге — у них там совсем Ташкент. А про рыбу мы заговорили не просто так: вроде бы время нереста прошло, а проблема осталась — ее тащат из теплой воды, ошалевшую и беспомощную, сетями всякие ло...</div>
+        </div>
+        <div class="news__detail">
+            <div class="news__control">
+                <div class="news__group">
+                    <!--ko if: $data.labels.has_video-->
+                        <div class="button-style button-style_obverse button-style_small button-style_noreflex news__button news__button_video"></div>
+                    <!--/ko-->
+
+                    <!--ko if: $data.counters.views-->
+                        <div class="button-style button-style_small button-style_noreflex news__button news__button_views button-style_excess news__button_views_popular" data-bind="css: {'button-style_obverse': !$data.labels.popular,
+                                              'button-style_excess': $data.labels.popular,
+                                              'news__button_views_popular': $data.labels.popular}">
+                            <!--ko text: $root.format.numberKFormatter($data.counters.views)-->66 720<!--/ko-->
+                        </div>
+                    <!--/ko-->
+
+                    <!--ko if: $data.counters.comments--><!--/ko-->
+                </div>
+
+                <div class="news__time" data-bind="text: $root.moment($data.created_at).format('D MMMM YYYY в HH.mm')">14 июня 2019 в 07.00</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /ko -->
+                    <!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'baraholka') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'forum') --><!-- /ko -->
+
+                    <!-- ko if: result.additional --><!-- /ko -->
+                <!-- /ko -->
+            </div>
+        </li>
+
+        <!-- ko if: $root.resultsInstance().mainCount() === $index() + 1 --><!-- /ko -->
+    
+
+        <li class="search__result" data-bind="event: {mouseover: $root.device.mobile ? function () {} : function () {$root.resultsInstance().onResultMouseOver($index())}},
+                       click: function () {$root.goToResult($index(), $root.activeSearchType() === 'catalog')},
+                       css: {'search__result_active': $root.resultsInstance().isActiveResult($index())}">
+            <div class="result__wrapper">
+                <!-- ko if: result.show_search_page_link_at_start --><!-- /ko -->
+
+                <!-- ko if: result.show_search_page_link_at_end --><!-- /ko -->
+
+                <!-- ko if: !result.show_search_page_link_at_start && !result.show_search_page_link_at_end -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'catalog') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'news') -->
+                        <!-- ko template: {name: 'result-item-news', data: result} -->
+    <!--ko if: $data.monthGroupLabel--><!--/ko-->
+
+<div class="result__item result__item_news">
+    <!--ko if: $data.image-->
+        <div class="news__preview">
+            <!--ko if: !$data.isWithImage() || $data.isImageLoading() --><!--/ko-->
+
+            <!--ko if: $data.isWithImage() && !$data.isImageLoading() -->
+            <div class="news__image" data-bind="attr: {style: 'background-image: url(' + $data.image + ')'}" style="background-image: url(https://content.onliner.by/news/550x298/fa8a524eb7a959ed98749f8a21c44606.jpg)">
+            </div>
+            <!--/ko-->
+
+            <!--ko if: !$root.resultsInstance().projectFilter.selected()-->
+            <div class="news__top">
+                <div class="news__detail">
+                    <div class="news__control">
+                        <div class="news__label news__label_primary" data-bind="text: $data.project.name">Люди</div>
+                    </div>
+                </div>
+            </div>
+            <!--/ko-->
+        </div>
+    <!--/ko-->
+
+    <div class="news__data">
+        <!--ko if: !$data.image && !$root.resultsInstance().projectFilter.selected()--><!--/ko-->
+
+        <div class="news__clamping">
+            <div class="news__title">
+                <a class="news__link news__link_primary" target="_parent" data-bind="text: $data.title,
+                              attr: {href: $data.link},
+                              click: $root.onClickWithoutPropagation" href="https://people.onliner.by/2025/12/09/lovil-piranyu-na-myaso-minchanin-ustroil-zaplyv-na-sape-po-odnoj-iz-samyx-opasnyx-rek-v-mire">«Ловил пиранью на мясо». Минчанин устроил заплыв на сапе по одной из самых опасных рек в мире </a>
+            </div>
+            <div class="news__description" data-bind="text: $data.description">Знакомьтесь: Олегу из Минска 31 год, и этой осенью он в одиночку слетал в Бразилию. Отправился он туда не поваляться на белоснежных пляжах Рио-де-Жанейро, а чтобы пройти на сапборде по Амазонке — одной из самых опасных рек в мире. Можно сказать, что Олег намеренно искал встречи с пираньями и кайманами, чтобы пощекотать себе нервы.</div>
+        </div>
+        <div class="news__detail">
+            <div class="news__control">
+                <div class="news__group">
+                    <!--ko if: $data.labels.has_video--><!--/ko-->
+
+                    <!--ko if: $data.counters.views-->
+                        <div class="button-style button-style_small button-style_noreflex news__button news__button_views button-style_excess news__button_views_popular" data-bind="css: {'button-style_obverse': !$data.labels.popular,
+                                              'button-style_excess': $data.labels.popular,
+                                              'news__button_views_popular': $data.labels.popular}">
+                            <!--ko text: $root.format.numberKFormatter($data.counters.views)-->45 648<!--/ko-->
+                        </div>
+                    <!--/ko-->
+
+                    <!--ko if: $data.counters.comments--><!--/ko-->
+                </div>
+
+                <div class="news__time" data-bind="text: $root.moment($data.created_at).format('D MMMM YYYY в HH.mm')">9 декабря 2025 в 10.20</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /ko -->
+                    <!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'baraholka') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'forum') --><!-- /ko -->
+
+                    <!-- ko if: result.additional --><!-- /ko -->
+                <!-- /ko -->
+            </div>
+        </li>
+
+        <!-- ko if: $root.resultsInstance().mainCount() === $index() + 1 --><!-- /ko -->
+    
+
+        <li class="search__result" data-bind="event: {mouseover: $root.device.mobile ? function () {} : function () {$root.resultsInstance().onResultMouseOver($index())}},
+                       click: function () {$root.goToResult($index(), $root.activeSearchType() === 'catalog')},
+                       css: {'search__result_active': $root.resultsInstance().isActiveResult($index())}">
+            <div class="result__wrapper">
+                <!-- ko if: result.show_search_page_link_at_start --><!-- /ko -->
+
+                <!-- ko if: result.show_search_page_link_at_end --><!-- /ko -->
+
+                <!-- ko if: !result.show_search_page_link_at_start && !result.show_search_page_link_at_end -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'catalog') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'news') -->
+                        <!-- ko template: {name: 'result-item-news', data: result} -->
+    <!--ko if: $data.monthGroupLabel--><!--/ko-->
+
+<div class="result__item result__item_news">
+    <!--ko if: $data.image-->
+        <div class="news__preview">
+            <!--ko if: !$data.isWithImage() || $data.isImageLoading() --><!--/ko-->
+
+            <!--ko if: $data.isWithImage() && !$data.isImageLoading() -->
+            <div class="news__image" data-bind="attr: {style: 'background-image: url(' + $data.image + ')'}" style="background-image: url(https://content.onliner.by/news/550x298/ab0815b20ae91b555a88846251200792.jpg)">
+            </div>
+            <!--/ko-->
+
+            <!--ko if: !$root.resultsInstance().projectFilter.selected()-->
+            <div class="news__top">
+                <div class="news__detail">
+                    <div class="news__control">
+                        <div class="news__label news__label_primary" data-bind="text: $data.project.name">Технологии</div>
+                    </div>
+                </div>
+            </div>
+            <!--/ko-->
+        </div>
+    <!--/ko-->
+
+    <div class="news__data">
+        <!--ko if: !$data.image && !$root.resultsInstance().projectFilter.selected()--><!--/ko-->
+
+        <div class="news__clamping">
+            <div class="news__title">
+                <a class="news__link news__link_primary" target="_parent" data-bind="text: $data.title,
+                              attr: {href: $data.link},
+                              click: $root.onClickWithoutPropagation" href="https://tech.onliner.by/2024/02/21/gollivudskaya-zvezda-pomogla-otkryt-vid-gigantskix-anakond-v-amazonke">Голливудская звезда помогла открыть вид гигантских анаконд в Амазонке</a>
+            </div>
+            <div class="news__description" data-bind="text: $data.description">«В тропических лесах Амазонки обитает самый крупный и тяжелый вид змей на Земле: зеленая анаконда. Однако то, что ранее считалось одним видом, обитающим на обширной территории, на самом деле является двумя отдельными видами», — такими словами открывается материал iflscience, в котором добавляют: в поисках помог голливудский актер Уилл Смит.</div>
+        </div>
+        <div class="news__detail">
+            <div class="news__control">
+                <div class="news__group">
+                    <!--ko if: $data.labels.has_video--><!--/ko-->
+
+                    <!--ko if: $data.counters.views-->
+                        <div class="button-style button-style_obverse button-style_small button-style_noreflex news__button news__button_views" data-bind="css: {'button-style_obverse': !$data.labels.popular,
+                                              'button-style_excess': $data.labels.popular,
+                                              'news__button_views_popular': $data.labels.popular}">
+                            <!--ko text: $root.format.numberKFormatter($data.counters.views)-->11 953<!--/ko-->
+                        </div>
+                    <!--/ko-->
+
+                    <!--ko if: $data.counters.comments--><!--/ko-->
+                </div>
+
+                <div class="news__time" data-bind="text: $root.moment($data.created_at).format('D MMMM YYYY в HH.mm')">21 февраля 2024 в 07.50</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /ko -->
+                    <!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'baraholka') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'forum') --><!-- /ko -->
+
+                    <!-- ko if: result.additional --><!-- /ko -->
+                <!-- /ko -->
+            </div>
+        </li>
+
+        <!-- ko if: $root.resultsInstance().mainCount() === $index() + 1 --><!-- /ko -->
+    
+
+        <li class="search__result" data-bind="event: {mouseover: $root.device.mobile ? function () {} : function () {$root.resultsInstance().onResultMouseOver($index())}},
+                       click: function () {$root.goToResult($index(), $root.activeSearchType() === 'catalog')},
+                       css: {'search__result_active': $root.resultsInstance().isActiveResult($index())}">
+            <div class="result__wrapper">
+                <!-- ko if: result.show_search_page_link_at_start --><!-- /ko -->
+
+                <!-- ko if: result.show_search_page_link_at_end --><!-- /ko -->
+
+                <!-- ko if: !result.show_search_page_link_at_start && !result.show_search_page_link_at_end -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'catalog') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'news') -->
+                        <!-- ko template: {name: 'result-item-news', data: result} -->
+    <!--ko if: $data.monthGroupLabel--><!--/ko-->
+
+<div class="result__item result__item_news">
+    <!--ko if: $data.image-->
+        <div class="news__preview">
+            <!--ko if: !$data.isWithImage() || $data.isImageLoading() --><!--/ko-->
+
+            <!--ko if: $data.isWithImage() && !$data.isImageLoading() -->
+            <div class="news__image" data-bind="attr: {style: 'background-image: url(' + $data.image + ')'}" style="background-image: url(https://content.onliner.by/news/550x298/6c45de7c2e8a28236c01315bae51ed36.jpeg)">
+            </div>
+            <!--/ko-->
+
+            <!--ko if: !$root.resultsInstance().projectFilter.selected()-->
+            <div class="news__top">
+                <div class="news__detail">
+                    <div class="news__control">
+                        <div class="news__label news__label_primary" data-bind="text: $data.project.name">Технологии</div>
+                    </div>
+                </div>
+            </div>
+            <!--/ko-->
+        </div>
+    <!--/ko-->
+
+    <div class="news__data">
+        <!--ko if: !$data.image && !$root.resultsInstance().projectFilter.selected()--><!--/ko-->
+
+        <div class="news__clamping">
+            <div class="news__title">
+                <a class="news__link news__link_primary" target="_parent" data-bind="text: $data.title,
+                              attr: {href: $data.link},
+                              click: $root.onClickWithoutPropagation" href="https://tech.onliner.by/2022/05/26/v-lesax-amazonki-obnaruzhili-drevnie-poseleniya-zabytoj-civilizacii">В лесах Амазонки обнаружили древние поселения забытой цивилизации</a>
+            </div>
+            <div class="news__description" data-bind="text: $data.description">Европейские ученые нашли с помощью лидаров на юго-западе региона Амазонки древние поселения, принадлежащие к эпохе культуры Касарабе — одной из доиспанских цивилизаций Южной Америки. Об этом сообщает издание Live Science со ссылкой на исследование в журнале Nature.</div>
+        </div>
+        <div class="news__detail">
+            <div class="news__control">
+                <div class="news__group">
+                    <!--ko if: $data.labels.has_video--><!--/ko-->
+
+                    <!--ko if: $data.counters.views-->
+                        <div class="button-style button-style_obverse button-style_small button-style_noreflex news__button news__button_views" data-bind="css: {'button-style_obverse': !$data.labels.popular,
+                                              'button-style_excess': $data.labels.popular,
+                                              'news__button_views_popular': $data.labels.popular}">
+                            <!--ko text: $root.format.numberKFormatter($data.counters.views)-->33 541<!--/ko-->
+                        </div>
+                    <!--/ko-->
+
+                    <!--ko if: $data.counters.comments--><!--/ko-->
+                </div>
+
+                <div class="news__time" data-bind="text: $root.moment($data.created_at).format('D MMMM YYYY в HH.mm')">26 мая 2022 в 08.41</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /ko -->
+                    <!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'baraholka') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'forum') --><!-- /ko -->
+
+                    <!-- ko if: result.additional --><!-- /ko -->
+                <!-- /ko -->
+            </div>
+        </li>
+
+        <!-- ko if: $root.resultsInstance().mainCount() === $index() + 1 --><!-- /ko -->
+    
+
+        <li class="search__result" data-bind="event: {mouseover: $root.device.mobile ? function () {} : function () {$root.resultsInstance().onResultMouseOver($index())}},
+                       click: function () {$root.goToResult($index(), $root.activeSearchType() === 'catalog')},
+                       css: {'search__result_active': $root.resultsInstance().isActiveResult($index())}">
+            <div class="result__wrapper">
+                <!-- ko if: result.show_search_page_link_at_start --><!-- /ko -->
+
+                <!-- ko if: result.show_search_page_link_at_end --><!-- /ko -->
+
+                <!-- ko if: !result.show_search_page_link_at_start && !result.show_search_page_link_at_end -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'catalog') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'news') -->
+                        <!-- ko template: {name: 'result-item-news', data: result} -->
+    <!--ko if: $data.monthGroupLabel--><!--/ko-->
+
+<div class="result__item result__item_news">
+    <!--ko if: $data.image-->
+        <div class="news__preview">
+            <!--ko if: !$data.isWithImage() || $data.isImageLoading() --><!--/ko-->
+
+            <!--ko if: $data.isWithImage() && !$data.isImageLoading() -->
+            <div class="news__image" data-bind="attr: {style: 'background-image: url(' + $data.image + ')'}" style="background-image: url(https://content.onliner.by/news/550x298/dd6c6a19ea275ff726aa7950c5a6f81c.jpeg)">
+            </div>
+            <!--/ko-->
+
+            <!--ko if: !$root.resultsInstance().projectFilter.selected()-->
+            <div class="news__top">
+                <div class="news__detail">
+                    <div class="news__control">
+                        <div class="news__label news__label_primary" data-bind="text: $data.project.name">Технологии</div>
+                    </div>
+                </div>
+            </div>
+            <!--/ko-->
+        </div>
+    <!--/ko-->
+
+    <div class="news__data">
+        <!--ko if: !$data.image && !$root.resultsInstance().projectFilter.selected()--><!--/ko-->
+
+        <div class="news__clamping">
+            <div class="news__title">
+                <a class="news__link news__link_primary" target="_parent" data-bind="text: $data.title,
+                              attr: {href: $data.link},
+                              click: $root.onClickWithoutPropagation" href="https://tech.onliner.by/2018/03/17/ship-2">Взрыв, инсценировка, пираты? Темная история исчезновения экипажа «Марии Целесты»</a>
+            </div>
+            <div class="news__description" data-bind="text: $data.description">Уже почти 150 лет энтузиасты и исследователи бьются над решением одной из главных тайн в истории мореплавания — бесследном исчезновении всего экипажа корабля «Мария Целеста». Выдвигались самые невероятные версии, вплоть до НЛО, однако не существует ни одной теории, которая идеально объясняла бы все странности этого случая.</div>
+        </div>
+        <div class="news__detail">
+            <div class="news__control">
+                <div class="news__group">
+                    <!--ko if: $data.labels.has_video--><!--/ko-->
+
+                    <!--ko if: $data.counters.views-->
+                        <div class="button-style button-style_obverse button-style_small button-style_noreflex news__button news__button_views" data-bind="css: {'button-style_obverse': !$data.labels.popular,
+                                              'button-style_excess': $data.labels.popular,
+                                              'news__button_views_popular': $data.labels.popular}">
+                            <!--ko text: $root.format.numberKFormatter($data.counters.views)-->31 830<!--/ko-->
+                        </div>
+                    <!--/ko-->
+
+                    <!--ko if: $data.counters.comments--><!--/ko-->
+                </div>
+
+                <div class="news__time" data-bind="text: $root.moment($data.created_at).format('D MMMM YYYY в HH.mm')">17 марта 2018 в 06.00</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /ko -->
+                    <!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'baraholka') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'forum') --><!-- /ko -->
+
+                    <!-- ko if: result.additional --><!-- /ko -->
+                <!-- /ko -->
+            </div>
+        </li>
+
+        <!-- ko if: $root.resultsInstance().mainCount() === $index() + 1 --><!-- /ko -->
+    
+
+        <li class="search__result" data-bind="event: {mouseover: $root.device.mobile ? function () {} : function () {$root.resultsInstance().onResultMouseOver($index())}},
+                       click: function () {$root.goToResult($index(), $root.activeSearchType() === 'catalog')},
+                       css: {'search__result_active': $root.resultsInstance().isActiveResult($index())}">
+            <div class="result__wrapper">
+                <!-- ko if: result.show_search_page_link_at_start --><!-- /ko -->
+
+                <!-- ko if: result.show_search_page_link_at_end --><!-- /ko -->
+
+                <!-- ko if: !result.show_search_page_link_at_start && !result.show_search_page_link_at_end -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'catalog') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'news') -->
+                        <!-- ko template: {name: 'result-item-news', data: result} -->
+    <!--ko if: $data.monthGroupLabel--><!--/ko-->
+
+<div class="result__item result__item_news">
+    <!--ko if: $data.image-->
+        <div class="news__preview">
+            <!--ko if: !$data.isWithImage() || $data.isImageLoading() --><!--/ko-->
+
+            <!--ko if: $data.isWithImage() && !$data.isImageLoading() -->
+            <div class="news__image" data-bind="attr: {style: 'background-image: url(' + $data.image + ')'}" style="background-image: url(https://content.onliner.by/news/550x298/757c629f6ca5a3a9bbb6262bf6984757.jpeg)">
+            </div>
+            <!--/ko-->
+
+            <!--ko if: !$root.resultsInstance().projectFilter.selected()-->
+            <div class="news__top">
+                <div class="news__detail">
+                    <div class="news__control">
+                        <div class="news__label news__label_primary" data-bind="text: $data.project.name">Технологии</div>
+                    </div>
+                </div>
+            </div>
+            <!--/ko-->
+        </div>
+    <!--/ko-->
+
+    <div class="news__data">
+        <!--ko if: !$data.image && !$root.resultsInstance().projectFilter.selected()--><!--/ko-->
+
+        <div class="news__clamping">
+            <div class="news__title">
+                <a class="news__link news__link_primary" target="_parent" data-bind="text: $data.title,
+                              attr: {href: $data.link},
+                              click: $root.onClickWithoutPropagation" href="https://tech.onliner.by/2017/06/02/wonder-woman-review">Ах, какая женщина! Рецензия на блокбастер «Чудо-женщина»</a>
+            </div>
+            <div class="news__description" data-bind="text: $data.description">Первый летний блокбастер обязательно должен быть таким, чтоб аж дух захватывало и хотелось сходить на этот аттракцион еще разок. К «Чудо-женщине» многие относились настороженно. Если забыть о нолановской трилогии «Темный рыцарь», то во вселенной DC Comics не так уж много примеров добротных фильмов. Способен ли кинокомикс об амазонке, отправившейся на фронт хлестать кнутом немцев, исправить ситуацию?</div>
+        </div>
+        <div class="news__detail">
+            <div class="news__control">
+                <div class="news__group">
+                    <!--ko if: $data.labels.has_video-->
+                        <div class="button-style button-style_obverse button-style_small button-style_noreflex news__button news__button_video"></div>
+                    <!--/ko-->
+
+                    <!--ko if: $data.counters.views-->
+                        <div class="button-style button-style_obverse button-style_small button-style_noreflex news__button news__button_views" data-bind="css: {'button-style_obverse': !$data.labels.popular,
+                                              'button-style_excess': $data.labels.popular,
+                                              'news__button_views_popular': $data.labels.popular}">
+                            <!--ko text: $root.format.numberKFormatter($data.counters.views)-->33 647<!--/ko-->
+                        </div>
+                    <!--/ko-->
+
+                    <!--ko if: $data.counters.comments--><!--/ko-->
+                </div>
+
+                <div class="news__time" data-bind="text: $root.moment($data.created_at).format('D MMMM YYYY в HH.mm')">2 июня 2017 в 07.00</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /ko -->
+                    <!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'baraholka') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'forum') --><!-- /ko -->
+
+                    <!-- ko if: result.additional --><!-- /ko -->
+                <!-- /ko -->
+            </div>
+        </li>
+
+        <!-- ko if: $root.resultsInstance().mainCount() === $index() + 1 --><!-- /ko -->
+    
+
+        <li class="search__result" data-bind="event: {mouseover: $root.device.mobile ? function () {} : function () {$root.resultsInstance().onResultMouseOver($index())}},
+                       click: function () {$root.goToResult($index(), $root.activeSearchType() === 'catalog')},
+                       css: {'search__result_active': $root.resultsInstance().isActiveResult($index())}">
+            <div class="result__wrapper">
+                <!-- ko if: result.show_search_page_link_at_start --><!-- /ko -->
+
+                <!-- ko if: result.show_search_page_link_at_end --><!-- /ko -->
+
+                <!-- ko if: !result.show_search_page_link_at_start && !result.show_search_page_link_at_end -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'catalog') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'news') -->
+                        <!-- ko template: {name: 'result-item-news', data: result} -->
+    <!--ko if: $data.monthGroupLabel--><!--/ko-->
+
+<div class="result__item result__item_news">
+    <!--ko if: $data.image-->
+        <div class="news__preview">
+            <!--ko if: !$data.isWithImage() || $data.isImageLoading() --><!--/ko-->
+
+            <!--ko if: $data.isWithImage() && !$data.isImageLoading() -->
+            <div class="news__image" data-bind="attr: {style: 'background-image: url(' + $data.image + ')'}" style="background-image: url(https://content.onliner.by/news/550x298/9964c91196ae3ebf2aeda8c000d95166.jpeg)">
+            </div>
+            <!--/ko-->
+
+            <!--ko if: !$root.resultsInstance().projectFilter.selected()-->
+            <div class="news__top">
+                <div class="news__detail">
+                    <div class="news__control">
+                        <div class="news__label news__label_primary" data-bind="text: $data.project.name">Недвижимость</div>
+                    </div>
+                </div>
+            </div>
+            <!--/ko-->
+        </div>
+    <!--/ko-->
+
+    <div class="news__data">
+        <!--ko if: !$data.image && !$root.resultsInstance().projectFilter.selected()--><!--/ko-->
+
+        <div class="news__clamping">
+            <div class="news__title">
+                <a class="news__link news__link_primary" target="_parent" data-bind="text: $data.title,
+                              attr: {href: $data.link},
+                              click: $root.onClickWithoutPropagation" href="https://realt.onliner.by/2022/12/25/dolinu-v-dzhunglyax">Самые недоступные места мира. Рассказываем про долину в джунглях, где тысячи людей до сих пор живут без контакта с цивилизацией</a>
+            </div>
+            <div class="news__description" data-bind="text: $data.description">Амазония. Даже не зеленое море — настоящий зеленый океан тропических лесов, на который только начинается серьезное наступление цивилизации. Значительная часть их по-прежнему труднопроходима, а основными транспортными артериями являются реки, в первую очередь величайшая на Земле Амазонка и ее притоки. Благодаря этому здесь все еще остается самая крупная на планете концентрация так называемых «неконтактных» племен.</div>
+        </div>
+        <div class="news__detail">
+            <div class="news__control">
+                <div class="news__group">
+                    <!--ko if: $data.labels.has_video--><!--/ko-->
+
+                    <!--ko if: $data.counters.views-->
+                        <div class="button-style button-style_small button-style_noreflex news__button news__button_views button-style_excess news__button_views_popular" data-bind="css: {'button-style_obverse': !$data.labels.popular,
+                                              'button-style_excess': $data.labels.popular,
+                                              'news__button_views_popular': $data.labels.popular}">
+                            <!--ko text: $root.format.numberKFormatter($data.counters.views)-->50 332<!--/ko-->
+                        </div>
+                    <!--/ko-->
+
+                    <!--ko if: $data.counters.comments--><!--/ko-->
+                </div>
+
+                <div class="news__time" data-bind="text: $root.moment($data.created_at).format('D MMMM YYYY в HH.mm')">25 декабря 2022 в 06.00</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /ko -->
+                    <!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'baraholka') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'forum') --><!-- /ko -->
+
+                    <!-- ko if: result.additional --><!-- /ko -->
+                <!-- /ko -->
+            </div>
+        </li>
+
+        <!-- ko if: $root.resultsInstance().mainCount() === $index() + 1 --><!-- /ko -->
+    
+
+        <li class="search__result" data-bind="event: {mouseover: $root.device.mobile ? function () {} : function () {$root.resultsInstance().onResultMouseOver($index())}},
+                       click: function () {$root.goToResult($index(), $root.activeSearchType() === 'catalog')},
+                       css: {'search__result_active': $root.resultsInstance().isActiveResult($index())}">
+            <div class="result__wrapper">
+                <!-- ko if: result.show_search_page_link_at_start --><!-- /ko -->
+
+                <!-- ko if: result.show_search_page_link_at_end --><!-- /ko -->
+
+                <!-- ko if: !result.show_search_page_link_at_start && !result.show_search_page_link_at_end -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'catalog') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'news') -->
+                        <!-- ko template: {name: 'result-item-news', data: result} -->
+    <!--ko if: $data.monthGroupLabel--><!--/ko-->
+
+<div class="result__item result__item_news">
+    <!--ko if: $data.image-->
+        <div class="news__preview">
+            <!--ko if: !$data.isWithImage() || $data.isImageLoading() --><!--/ko-->
+
+            <!--ko if: $data.isWithImage() && !$data.isImageLoading() -->
+            <div class="news__image" data-bind="attr: {style: 'background-image: url(' + $data.image + ')'}" style="background-image: url(https://content.onliner.by/news/550x298/820fdc964a0f58b1a50522dabf980737.jpg)">
+            </div>
+            <!--/ko-->
+
+            <!--ko if: !$root.resultsInstance().projectFilter.selected()-->
+            <div class="news__top">
+                <div class="news__detail">
+                    <div class="news__control">
+                        <div class="news__label news__label_primary" data-bind="text: $data.project.name">Люди</div>
+                    </div>
+                </div>
+            </div>
+            <!--/ko-->
+        </div>
+    <!--/ko-->
+
+    <div class="news__data">
+        <!--ko if: !$data.image && !$root.resultsInstance().projectFilter.selected()--><!--/ko-->
+
+        <div class="news__clamping">
+            <div class="news__title">
+                <a class="news__link news__link_primary" target="_parent" data-bind="text: $data.title,
+                              attr: {href: $data.link},
+                              click: $root.onClickWithoutPropagation" href="https://people.onliner.by/2026/06/28/kafe-s-xorkami">В Минске теперь можно сходить в гости к зверькам, которые без ума от людей</a>
+            </div>
+            <div class="news__description" data-bind="text: $data.description">Эти животные могут спать 20 часов в день. Но когда они просыпаются, всем окружающим нужно приготовиться: энергия у пушистых бьет ключом. Кстати, у них отсутствует врожденный страх перед человеком, поэтому играть и дуреть вместе они тоже могут часами. Все это — про хорьков. В начале лета в Минске открылось антикафе с ироничным названием «День хорька», где можно познакомиться с забавными зверьками поближе.</div>
+        </div>
+        <div class="news__detail">
+            <div class="news__control">
+                <div class="news__group">
+                    <!--ko if: $data.labels.has_video--><!--/ko-->
+
+                    <!--ko if: $data.counters.views-->
+                        <div class="button-style button-style_obverse button-style_small button-style_noreflex news__button news__button_views" data-bind="css: {'button-style_obverse': !$data.labels.popular,
+                                              'button-style_excess': $data.labels.popular,
+                                              'news__button_views_popular': $data.labels.popular}">
+                            <!--ko text: $root.format.numberKFormatter($data.counters.views)-->22 310<!--/ko-->
+                        </div>
+                    <!--/ko-->
+
+                    <!--ko if: $data.counters.comments--><!--/ko-->
+                </div>
+
+                <div class="news__time" data-bind="text: $root.moment($data.created_at).format('D MMMM YYYY в HH.mm')">28 июня 2026 в 07.00</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /ko -->
+                    <!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'baraholka') --><!-- /ko -->
+
+                    <!-- ko if: !result.additional && ($root.activeSearchType() === 'forum') --><!-- /ko -->
+
+                    <!-- ko if: result.additional --><!-- /ko -->
+                <!-- /ko -->
+            </div>
+        </li>
+
+        <!-- ko if: $root.resultsInstance().mainCount() === $index() + 1 -->
+            <!-- ko if: $root.resultsInstance().allResultsButton && $root.resultsInstance().isVisibleAllResultsButton --><!-- /ko -->
+        <!-- /ko -->
+    </ul>
+
+    <div class="search__loader" data-bind="css: {'search__loader_active': $root.resultsInstance().isLoading}">
+        <div class="search__loader-more" style="display: none" data-bind="visible: $root.resultsInstance().isVisibleMoreButton,
+                        event: {touchend: $root.resultsInstance().addNextPageList.bind($root.resultsInstance())}">Показать еще</div>
+    </div>
+
+    </div>
+
+</div>
+
+<script type="text/html" id="result-item-catalog">
+    <!-- ko if: !$data.full_name -->
+<div class="result__item result__item_category">
+    <a target="_parent" data-bind="attr: {href: $data.html_url}, click: function(data, event) { return $root.onClickUpdateGtmWithoutPropagation(data, $index(), event) }, html: $data.name" class="category__title"></a>
+    <!-- ko if: $data.products_count -->
+    <span class="category__count">
+        <span data-bind="text: $data.products_count"></span>&nbsp;<span data-bind="text: $root.format.pluralForm($data.products_count, ['товар', 'товара', 'товаров'])"></span>
+    </span>
+    <!-- /ko -->
+</div>
+<!-- /ko -->
+
+<!-- ko if: $data.full_name -->
+<div class="result__item result__item_product">
+    <div class="product__offers">
+        <div class="product__offers__wrapper">
+            <div class="product__price">
+                <!-- ko if: $data.status === 'old' -->Снят с&nbsp;продажи<!-- /ko -->
+                <!-- ko if: $data.status === 'new' -->Скоро в&nbsp;продаже<!-- /ko -->
+                <!-- ko if: $data.status === 'active' -->
+                <!-- ko if: $data.prices === null -->Нет в&nbsp;наличии<!-- /ko -->
+                <!-- ko if: $data.prices !== null -->
+                <a class="product__price-value product__price-value_primary" target="_parent" data-bind="attr: {href: $data.prices.html_url},
+                              click: function(data, event) { return $root.onClickUpdateGtmWithoutPropagation(data, $index(), event) }">
+                    <span data-bind="if: $data.prices.price_min.amount !== $data.prices.price_max.amount">от</span>
+                    <span data-bind="html: $root.format.minPrice($data.prices, 'BYN')"></span></a>
+                <!-- /ko -->
+                <!-- /ko -->
+            </div>
+            <!-- ko if: ($data.status === 'active' && $data.prices !== null) -->
+            <a class="button button_orange product__button" target="_parent" data-bind="attr: {href: $data.prices.html_url},
+                          text: $data.prices.offers.count + '&nbsp;' + $root.format.pluralForm($data.prices.offers.count, ['предложение', 'предложения', 'предложений']),
+                          click: function(data, event) { return $root.onClickUpdateGtmWithoutPropagation(data, $index(), event) }"></a>
+            <!-- /ko -->
+            <!-- ko if: $data.second.offers_count -->
+            <div class="product__adverts">
+                <a class="product__adverts-link" target="_parent" data-bind="{ click: function(data, event) { return $root.onClickUpdateGtmWithoutPropagation(data, $index(), event) },
+                                attr: {href: $data.html_url + '/used'},
+                                html: $data.second.offers_count + ' ' + $root.format.pluralForm($data.second.offers_count, ['объявление', 'объявления', 'объявлений']) }">
+                </a>
+            </div>
+            <!-- /ko -->
+        </div>
+    </div>
+
+    <div class="product__details">
+        <div class="product__title">
+            <a target="_parent" data-bind="html: $data.extended_name || $data.full_name, attr: {href: $data.html_url}, click: function(data, event) { return $root.onClickUpdateGtmWithoutPropagation(data, $index(), event) }" class="product__title-link"></a>
+            <nobr>&nbsp;&nbsp;<a target="_parent" class="product__rating" data-bind="attr: { href: $data.reviews.html_url },
+                                                   click: function(data, event) { return $root.onClickUpdateGtmWithoutPropagation(data, $index(), event) }">
+                    <span class="rating">
+                        <span class="rating__fill" data-bind="style: { width: $data.reviews.rating * 2 + '%' }"></span>
+                    </span>
+                    <span class="product__reviews" data-bind="text: $data.reviews.count + '&nbsp;' + $root.format.pluralForm($data.reviews.count, ['отзыв', 'отзыва', 'отзывов']) "></span>
+                </a></nobr>
+        </div>
+        <a class="product__description" target="_parent" data-bind="attr: {href: $data.html_url}, click: function(data, event) { return $root.onClickUpdateGtmWithoutPropagation(data, $index(), event) }, html: $data.description"></a>
+
+        <!-- ko if: $data.matches && $data.matches.includes('sku') -->
+        <div class="product__copy">Код товара: <span data-bind="text: $data.id"></span></div>
+        <!-- /ko -->
+    </div>
+
+    <a class="product__preview" target="_parent" data-bind="attr: {href: $data.html_url}, click: function(data, event) { return $root.onClickUpdateGtmWithoutPropagation(data, $index(), event) }">
+        <img class="product__image" data-bind="attr: {src: $data.images.header}">
+    </a>
+
+    <label class="product__compare" data-bind="attr: {title: $data.compare() ? 'В&nbsp;сравнении' : 'К&nbsp;сравнению'}, click: $root.onClickWithoutPropagation">
+        <span class="i-checkbox i-checkbox_yellow">
+            <input class="i-checkbox__real" type="checkbox" data-bind="checked: $data.compare">
+            <span class="i-checkbox__faux"></span>
+        </span>
+    </label>
+</div>
+<!-- /ko -->
+</script>
+
+<script type="text/html" id="result-item-news">
+    <!--ko if: $data.monthGroupLabel-->
+    <div class="result__item result__item_news">
+        <div class="news__delimiter">
+            <div class="news__delimiter-text"
+                 data-bind="text: $data.monthGroupLabel"></div>
+        </div>
+    </div>
+<!--/ko-->
+
+<div class="result__item result__item_news">
+    <!--ko if: $data.image-->
+        <div class="news__preview">
+            <!--ko if: !$data.isWithImage() || $data.isImageLoading() -->
+            <div class="news__image"
+                 data-bind="css: {'news__image_animated': $data.isImageLoading(),
+                                  'news__image_nophoto': !$data.isImageLoading() && !$data.isWithImage()}">
+            </div>
+            <!--/ko-->
+
+            <!--ko if: $data.isWithImage() && !$data.isImageLoading() -->
+            <div class="news__image"
+                 data-bind="attr: {style: 'background-image: url(' + $data.image + ')'}">
+            </div>
+            <!--/ko-->
+
+            <!--ko if: !$root.resultsInstance().projectFilter.selected()-->
+            <div class="news__top">
+                <div class="news__detail">
+                    <div class="news__control">
+                        <div class="news__label news__label_primary"
+                             data-bind="text: $data.project.name"></div>
+                    </div>
+                </div>
+            </div>
+            <!--/ko-->
+        </div>
+    <!--/ko-->
+
+    <div class="news__data">
+        <!--ko if: !$data.image && !$root.resultsInstance().projectFilter.selected()-->
+            <div class="news__detail">
+                <div class="news__control">
+                    <div class="news__label news__label_primary"
+                         data-bind="text: $data.project.name"></div>
+                </div>
+            </div>
+        <!--/ko-->
+
+        <div class="news__clamping">
+            <div class="news__title">
+                <a class="news__link news__link_primary"
+                   target="_parent"
+                   data-bind="text: $data.title,
+                              attr: {href: $data.link},
+                              click: $root.onClickWithoutPropagation">
+                </a>
+            </div>
+            <div class="news__description"
+                 data-bind="text: $data.description">
+            </div>
+        </div>
+        <div class="news__detail">
+            <div class="news__control">
+                <div class="news__group">
+                    <!--ko if: $data.labels.has_video-->
+                        <div class="button-style button-style_obverse button-style_small button-style_noreflex news__button news__button_video"></div>
+                    <!--/ko-->
+
+                    <!--ko if: $data.counters.views-->
+                        <div class="button-style button-style_obverse button-style_small button-style_noreflex news__button news__button_views"
+                             data-bind="css: {'button-style_obverse': !$data.labels.popular,
+                                              'button-style_excess': $data.labels.popular,
+                                              'news__button_views_popular': $data.labels.popular}">
+                            <!--ko text: $root.format.numberKFormatter($data.counters.views)--><!--/ko-->
+                        </div>
+                    <!--/ko-->
+
+                    <!--ko if: $data.counters.comments-->
+                    <div class="button-style button-style_adscititious button-style_small button-style_noreflex news__button news__button_comments">
+                        <!--ko text: $data.counters.comments--><!--/ko-->
+                    </div>
+                    <!--/ko-->
+                </div>
+
+                <div class="news__time"
+                     data-bind="text: $root.moment($data.created_at).format('D MMMM YYYY в HH.mm')"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</script>
+
+<script type="text/html" id="result-item-baraholka">
+    <div class="result__item result__item_baraholka">
+    <div class="baraholka__category-wrap">
+        <div class="baraholka__category baraholka__category_type_2" data-bind="attr: {class: 'baraholka__category baraholka__category_type_' + $data.category}"></div>
+    </div>
+    <div class="baraholka__title">
+        <span data-bind="html: $data.link"></span>
+    </div>
+    <div class="baraholka__price" data-bind="css: {'baraholka__price_empty': !$data.hasPrice}">
+        <span class="baraholka__price-value baraholka__price-value_primary">
+            <span data-bind="html: $data.priceBynFormatted"></span>
+            <span data-bind="html: $data.priceBynCurrencySign"></span>
+        </span>
+    </div>
+    <div class="baraholka__bargain">
+        <span data-bind="html: $data.bargain"></span>
+    </div>
+</div>
+</script>
+
+<script type="text/html" id="result-item-forum">
+    <div class="result__item result__item_forum">
+    <div class="forum__title" data-bind="html: $data"></div>
+</div>
+</script>
+
+<script type="text/html" id="result-item-additional">
+    <div class="result__item result__item_category">
+    <span class="category__title" data-bind="html: $data.name"></span>
+</div>
+</script>
+
+<script type="text/html" id="filter-dropdown">
+    <div class="search__filter-item">
+    <div class="dropdown-style__handle search__filter-dropdown-handle">
+        <a href="#" class="search__filter-link search__filter-link_complementary search__filter-link_arrow_bottom"
+           data-bind="click: $data.toggle.bind($data),
+                      text: $data.getSelectedText()"></a>
+        <div class="dropdown-style dropdown-style_primary dropdown-style_small dropdown-style_bottom-left search__filter-dropdown search__filter-dropdown_width_xxss"
+             data-bind="css: { 'dropdown-style_visible': $data.isOpen }">
+            <div class="dropdown-style__content">
+                <ul class="dropdown-style__list"
+                    data-bind="foreach: { data: $data.optionsList, as: 'option' }">
+
+                    <li class="dropdown-style__item dropdown-style__item_indent">
+                        <label class="dropdown-style__checkbox-label">
+                            <span class="i-checkbox i-checkbox_tip dropdown-style__checkbox">
+                                <input type="radio" class="i-checkbox__real"
+                                       data-bind="value: option.key,
+                                                  checked: $parent.selected,
+                                                  attr: { 'name': $parent.groupName }">
+                                <span class="i-checkbox__faux"></span>
+                                <span class="dropdown-style__checkbox-text"
+                                      data-bind="text: option.text"></span>
+                            </span>
+                        </label>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</script>
+
+<script type="text/html" id="filter-checkbox">
+    <div class="search__filter-item">
+    <label class="search__filter-checkbox-label">
+        <span class="i-checkbox search__filter-checkbox">
+            <input type="checkbox" class="i-checkbox__real"
+                   data-bind="checked: $data.checked">
+            <span class="i-checkbox__faux"></span>
+            <span class="search__filter-checkbox-text"
+                  data-bind="text: $data.label"></span>
+        </span>
+    </label>
+</div>
+</script>
+
+<div class="compare-button-container compare-button-container_responsive" id="compare-button-container" style="display: none;">
+
+    <div class="compare-button-container__inner">
+
+        <div class="compare-button" data-bind="css: {'compare-button_visible': $root.states.visible,
+                              'compare-button_hidden': $root.states.hidden,
+                              'compare-button_animated': $root.states.animated}">
+            <div class="compare-button__inner-container">
+                <div class="compare-button__inner" data-bind="css: {'compare-button__inner_moved': $root.states.moved},
+                                event:{mouseout: $root.onMouseout.bind($root),
+                                       mouseover: $root.onMouseover.bind($root)}">
+
+                    <div class="compare-button__state compare-button__state_initial">
+                        <a title="Очистить список сравнения" tabindex="-1" class="compare-button__sub compare-button__sub_control" data-bind="click: $root.doMoved.bind($root)">
+                            <span class="compare-button__icon compare-button__icon_trash"></span>
+                        </a>
+
+                        <a class="compare-button__sub compare-button__sub_main" target="_parent" data-bind="attr: {href: $root.link}" href="https://catalog.onliner.by/compare/">
+                            <span data-bind="html: $root.text">0&nbsp;товаров</span> в&nbsp;сравнении
+                        </a>
+                    </div>
+
+                    <div class="compare-button__state compare-button__state_clear compare-button__state_hidden" data-bind="click: $root.clear.bind($root)">
+                        <a tabindex="-1" class="compare-button__sub">Очистить список сравнения</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="compare-button-container__poof" data-bind="css: {'compare-button-container__poof_action': $root.states.poof}"></div>
+    </div>
+</div>
+
+<script src="https://catalog.onliner.by/assets/search.3e7aa1131f02b8b2.js"></script>
+
+
+
+</body></html>

@@ -1,0 +1,7 @@
+# Расшифровка: 002_video.mp4
+# Модель: faster-whisper large-v3-turbo; язык: en (p=0.50); длительность: 19.2 с; автоматическая расшифровка — сверять на слух перед цитированием
+
+[00:00.7 – 00:02.5] My bitch go loco
+[00:05.0 – 00:07.2] Slide on a nigga with the fofo
+[00:09.9 – 00:12.0] My bitch so loco
+[00:15.3 – 00:16.7] Pass that ass like a Lolo

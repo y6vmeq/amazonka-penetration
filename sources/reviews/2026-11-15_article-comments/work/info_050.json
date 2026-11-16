@@ -1,0 +1,71 @@
+{
+ "number": 50,
+ "url": "https://t.me/mogilev/7506?embed=1&mode=tme",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:27:12.871Z",
+ "html": "raw/050_t-me_tg-mogilev-7506-post.html",
+ "txt": "raw/050_t-me_tg-mogilev-7506-post.txt",
+ "sha256": "816f2fd11ed7277250f517393834b39159aefa1b1388c47d2993d3ac82ba537d",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 827
+ },
+ "extra": {
+  "name": "tg_mogilev_7506_post",
+  "status": 200,
+  "requested": "https://t.me/mogilev/7506?embed=1&mode=tme",
+  "tgPost": {
+   "url": "https://t.me/mogilev/7506?embed=1&mode=tme",
+   "at": "2026-11-15T14:27:12.871Z",
+   "error": "",
+   "post": {
+    "id": "7506",
+    "author": "Могилев. Главное!",
+    "authorHref": "https://t.me/mogilev",
+    "text": "❗️ Нарушения при проверке торговли и общепита в Могилеве\n\nСанитарные службы выявили случаи реализации просроченной продукции в ряде торговых и общественных заведений:\n\n— В баре «Амазонка» (ул. Ленинская) — томатный соус и вино с истекшим сроком хранения на сумму 110 руб.;\n— В магазине «Светофор» (Гомельское шоссе, 62а) — 15,5 кг непригодной к употреблению колбасы;\n— В трех магазинах «Евроопт»:\n    • ул. Терехина, 6а — просроченный салат (~1 кг);\n    • ул. Каштановая — куриный полуфабрикат (>1 кг);\n    • ул. Перекопская, 1 — рыбная продукция с истёкшим сроком годности;\n— В магазине «Петруха-маркет» (ул. Симонова) — хлебцы с нарушением сроков хранения.\n\nКонтрольные мероприятия продолжаются.\n\n6️⃣ Подписывайтесь!",
+    "dateText": "May 15, 2025 at 16:00",
+    "datetime": "2025-05-15T14:00:33+00:00",
+    "url": "https://t.me/mogilev/7506",
+    "replyTo": null,
+    "forwardedFrom": "",
+    "views": "9.26K",
+    "metaText": "May 15, 2025 at 16:00",
+    "signature": "",
+    "reactions": [
+     "👍35",
+     "😱10",
+     "🥰9",
+     "👀5",
+     "🔥4",
+     "😁3",
+     "🍾1"
+    ],
+    "media": [
+     {
+      "type": "photo",
+      "src": "https://cdn4.telesco.pe/file/XsgvynIvMEKbeBcRW4dYnLsoREerYS_IRXuye63hh-eH8Oeh0kBrn-mhwBzpD7tayqe6XdQuLBo_KlD7Hx-GyMUA-NmG2kMzERDptzYxcwN7yKtnpgJks_DKRvYcCeewqJ1Z5GYe4aLh0AaKxL6dKKoQvOH6-ds_tVdU68hkeAiEyunWveYIQwMwzrMMVPubFIns6hTAWScBqKC16Qb8AdAj9WVRCLAiQLuxWnShqhOLDb_Wx-zt8mXmC1OgzFhCDjWefvzKR0N3w2ekJ1cc3QuPV45pP3BHq4FrTjVW2Ed6m95M9RrMDhtE9aSi2mPgHCmhhexsmevhQqSYpmDifQ.jpg",
+      "href": "https://t.me/mogilev/7506"
+     },
+     {
+      "type": "not-supported",
+      "text": "Please open Telegram to view this post"
+     }
+    ]
+   },
+   "repliesText": "",
+   "bodyText": "Могилев. Главное!\n❗️ Нарушения при проверке торговли и общепита в Могилеве\n\nСанитарные службы выявили случаи реализации просроченной продукции в ряде торговых и общественных заведений:\n\n— В баре «Амазонка» (ул. Ленинская) — томатный соус и вино с истекшим сроком хранения на сумму 110 руб.;\n— В магазине «Светофор» (Гомельское шоссе, 62а) — 15,5 кг непригодной к употреблению колбасы;\n— В трех магази"
+  }
+ }
+}

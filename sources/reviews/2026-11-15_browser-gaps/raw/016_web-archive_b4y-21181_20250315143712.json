@@ -1,0 +1,87 @@
+{
+ "url": "https://web.archive.org/web/20250315143712/https://b4y.by/product/21181",
+ "captured_at": "2025-03-15T14:37:33.340Z",
+ "title": "Экзотический рестобар в Могилеве на продажу",
+ "data": {
+  "archive_timestamp": "20250315143712",
+  "h_title": "Экзотический рестобар в Могилеве |",
+  "views": "112 просмотра",
+  "date": "2024-03-18 13:31:57",
+  "num": "№21181",
+  "area": "113.00 м2",
+  "price": "221 907 BYN",
+  "currency_rates": [
+   {
+    "code": "BYN",
+    "rate": "1"
+   },
+   {
+    "code": "USD",
+    "rate": "3.1701"
+   },
+   {
+    "code": "EUR",
+    "rate": "3.4488"
+   },
+   {
+    "code": "RUB",
+    "rate": "0.036105"
+   },
+   {
+    "code": "UAH",
+    "rate": "0.07622"
+   }
+  ],
+  "seller_city": "Беларусь, Могилевская обл., Могилев, Ленинская, 38",
+  "seller_user": "Елизавета",
+  "seller_user_wrapper_style": "position: absolute; left: -2001px; width: 2001px;",
+  "seller_phone": "+375(29)658-99-69",
+  "pic_html": "<div class=\"pic\"> <img src=\"https://b4y.by/netcat_files/538/590/000izobrazhenie_viber_2024_03_15_11_41_02_229.jpg\" width=\"370\" alt=\"\" itemprop=\"image\"> <div style=\"position: absolute; top: 10px; right: 10px;\"> <img src=\"https://b4y.by/images/prodano.png\"> </div> <div class=\"pic_checker\"></div> </div>",
+  "sold_stamp_in_markup": true,
+  "badges": [],
+  "header_line": "112 просмотра 2024-03-18 13:31:57 №21181",
+  "description": "Продается экзотический рестобар в Могилеве.\n\nГотовый прибыльный бизнес с доходом от 5.000$ в месяц.\n\nАмазонка - экзотический рестобар с рептилиями, которых можно потрогать и сфотографировать, авторскими коктейлями с названиями рек впадающих в бассейн Амазонки, детским меню и паназиатской кухней.\n\nПлощадь помещения 113 м2. Штат сотрудников сформирован. Необходимое оборудование в собственности.\n\nИнстаграм: www.instagram.com/amazonka_restobar\n\nПередадим новому владельцу все наработки и базу поставщиков.\n\nПричина продажи не связана с бизнесом.",
+  "images": [
+   {
+    "src": "/css/css_biz4y/images/icon-nav.png",
+    "w": 24,
+    "h": 20
+   },
+   {
+    "src": "/netcat_files/538/590/000izobrazhenie_viber_2024_03_15_11_41_02_229.jpg",
+    "w": 0,
+    "h": 0
+   },
+   {
+    "src": "/images/prodano.png",
+    "w": 360,
+    "h": 176
+   },
+   {
+    "src": "https://b4y.by/22060.jpg",
+    "w": 220,
+    "h": 60
+   },
+   {
+    "src": "https://b4y.by/b4y.by.png",
+    "w": 204,
+    "h": 204
+   },
+   {
+    "src": "/netcat_files/pictures/kafe_v_sovetskom_rayone__15_let_na_1_meste-5579.jpg",
+    "w": 600,
+    "h": 400
+   },
+   {
+    "src": "/netcat_files/502/552/photo_2024_09_26_17_10_14.jpg",
+    "w": 768,
+    "h": 1024
+   },
+   {
+    "src": "/netcat_files/502/552/20230905_153805.jpg",
+    "w": 1200,
+    "h": 675
+   }
+  ]
+ }
+}

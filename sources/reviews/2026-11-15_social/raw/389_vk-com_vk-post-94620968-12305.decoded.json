@@ -1,0 +1,88 @@
+[
+ {
+  "PostContentContainer/init": {
+   "trackCode": "8266f97bb6EjqZ1soVzCVvnkMdTpuMxZoGjwKnfRyYoNq9EZH1E4qRaSgWatW8ReMWDka9uK-x70BJwqcbyo-A",
+   "ref": "",
+   "adsDisclaimer": null,
+   "adsAnalyticsInfo": {
+    "isAdsPromoPost": false,
+    "trackCode": "8266f97bb6EjqZ1soVzCVvnkMdTpuMxZoGjwKnfRyYoNq9EZH1E4qRaSgWatW8ReMWDka9uK-x70BJwqcbyo-A",
+    "postId": "-94620968_12305",
+    "adData": null,
+    "adBlockUniqueId": null,
+    "adsLinkHash": ""
+   },
+   "profiles": null,
+   "groups": null,
+   "attachmentsExpanded": true,
+   "footerAuthor": {
+    "label": "От Анжелики Тимофеевой",
+    "url": "/id348695430",
+    "from_user_id": 348695430
+   },
+   "item": {
+    "inner_type": "wall_wallpost",
+    "donut": {
+     "is_donut": false
+    },
+    "comments": {
+     "count": 27
+    },
+    "marked_as_ads": 0,
+    "type": "post",
+    "attachments": [],
+    "date": 1679777270,
+    "from_id": -94620968,
+    "header": {
+     "photo": {
+      "source_id": -94620968
+     },
+     "title": {
+      "source_id": -94620968
+     },
+     "descriptions": []
+    },
+    "id": 12305,
+    "likes": {
+     "can_like": 0,
+     "count": 5,
+     "user_likes": 0
+    },
+    "reaction_set_id": "reactions",
+    "reactions": {
+     "count": 5,
+     "items": [
+      {
+       "id": 0,
+       "count": 5
+      }
+     ]
+    },
+    "badges": {
+     "type": 11,
+     "id": 12305,
+     "owner_id": -94620968
+    },
+    "owner_id": -94620968,
+    "post_type": "post",
+    "reposts": {
+     "count": 0
+    },
+    "signer_id": 348695430,
+    "text": "Могилев, ресто-бар Амазонка, Ленинская 38,на кухне антисанитарные условия, повара готовят в чём пришли на работу, руки вообще не моют, не у одного повара и работника нет сан-книжки,еда которая падает на пол, возвращается в тарелку, иногда официант готовит, иногда и уборщица и готовит и убирает помещение в баре,пока хозяйка Лиза и повара бухают на баре и спят прям на диване.<br>Лиза очень любит давать всем штрафы,за кусочек бумажки в углу, снимут деньги за смену полностью,день работы бесплатно,за не выключенный свет,штраф 25 -30 руб.",
+    "views": {
+     "count": 10274
+    },
+    "copy_history": null
+   },
+   "htmlBlocks": {
+    "header": "",
+    "primaryAttach": "",
+    "text": "",
+    "secondaryAttach": "",
+    "footer": "",
+    "comments": ""
+   }
+  }
+ }
+]

@@ -1,0 +1,95 @@
+{
+ "number": 230,
+ "url": "https://komkur.info/component/search/?searchword=Colette&searchphrase=exact&ordering=newest&limit=0",
+ "title": "Результаты поиска: Colette - komkur.info",
+ "at": "2026-11-15T17:05:25.164Z",
+ "html": "raw/230_komkur-info_komkur-search-colette.html",
+ "txt": "raw/230_komkur-info_komkur-search-colette.txt",
+ "sha256": "6f83f8b854de45a16d41ab6b3b30904caaebd739cb51b42aa886b305c33cbca3",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/component/finder/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:cd19a83bc8bc4614347f054dca815359"
+    ]
+   },
+   {
+    "id": "searchForm",
+    "cls": "",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "select:select-one:ordering"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 2277
+ },
+ "extra": {
+  "name": "komkur-search_colette",
+  "status": 200,
+  "requested": "https://komkur.info/component/search/?searchword=Colette&searchphrase=exact&ordering=newest&limit=0",
+  "site": "komkur.info",
+  "query": "Colette",
+  "summary": "Результаты поиска: найдено 5 элементов.",
+  "links": [
+   {
+    "href": "https://komkur.info/money/festival-edy-zimovy-smak-v-resto-bare-colette-rebenok-i-pitstsa-ochen-sovmestimye-komponenty",
+    "text": "Фестиваль еды «Зімовы смак» в рестобаре «Colette»: «Ребенок и пицца – очень совместимые компоненты»"
+   },
+   {
+    "href": "https://komkur.info/money/belorusskoe-blyudo-no-khrustit-po-frantsuzski-otsenili-festivalnyj-set-ot-restorana-colette",
+    "text": "«Белорусское блюдо, но хрустит по-французски». Оценили фестивальный сет от ресторана «Colette»"
+   },
+   {
+    "href": "https://komkur.info/money/draniki-pod-shapochkoj-i-nezhnejshie-blinchiki-prodegustirovali-set-ot-mogilevskogo-restobara-colette",
+    "text": "Драники «под шапочкой» и нежнейшие блинчики: продегустировали сет от могилевского рестобара Colette."
+   },
+   {
+    "href": "https://komkur.info/money/glintvejn-na-mogilevskom-festivale-edy-zimovy-smak-podayut-v-edinstvennom-zavedenii-v-restobare-colette",
+    "text": "Глинтвейн на могилевском фестивале еды «Зімовы смак» подают в единственном заведении – в рестобаре Colette"
+   },
+   {
+    "href": "https://komkur.info/money/zakuski-k-pivu-dlya-lyubitelej-fastfuda-degustatsiya-seta-ot-restobara-colette-na-oktyabrfeste",
+    "text": "Закуски к пиву для любителей фастфуда. Дегустация сета от рестобара Colette на «Октябрьфесте»"
+   },
+   {
+    "href": "https://yandex.by/maps/-/CDQK58zQ",
+    "text": "ул. Московская, 42, г. Бобруйск, Беларусь, 213826"
+   }
+  ],
+  "next": []
+ }
+}

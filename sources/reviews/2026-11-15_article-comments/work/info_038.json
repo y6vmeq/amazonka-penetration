@@ -1,0 +1,78 @@
+{
+ "number": 38,
+ "url": "https://persik.by/afisha/kids/kontaktnye-zmei-reptilii-amazonka/",
+ "title": "Контактные змеи и рептилии в рестобаре «Амазонка»",
+ "at": "2026-11-15T14:18:42.894Z",
+ "html": "raw/038_persik-by_persik-by-kontaktnye-zmei-reptilii-amazonka.html",
+ "txt": "raw/038_persik-by_persik-by-kontaktnye-zmei-reptilii-amazonka.txt",
+ "sha256": "2d95771875f29ad26841870dd9f9d321be0094997840599f4c657b4c675fb8e4",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "I",
+    "id": "",
+    "cls": "mec-time-comment",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "rb-search-form live-search-form",
+    "action": "https://persik.by/",
+    "fields": [
+     "input:text:s",
+     "input:submit:"
+    ]
+   },
+   {
+    "id": "",
+    "cls": "rb-search-form",
+    "action": "https://persik.by/",
+    "fields": [
+     "input:text:s",
+     "input:submit:"
+    ]
+   },
+   {
+    "id": "popup-form",
+    "cls": "",
+    "action": "https://persik.by/bloom/",
+    "fields": [
+     "input:text:log",
+     "input:password:pwd",
+     "input:checkbox:rememberme",
+     "input:submit:wp-submit",
+     "input:hidden:redirect_to"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 2156
+ },
+ "extra": {
+  "status": 200,
+  "foundSelectors": [],
+  "commentContexts": [
+   "ng:1.25em 2.375em}:where(.wp-block-post-comments input[type=submit]){border:none}:where(.w",
+   "ibility:hidden}}:where(.wp-block-latest-comments){padding-left:0}:where(.wp-block-latest-c",
+   "{padding-left:0}:where(.wp-block-latest-comments:not([style*=line-height] .wp-block-latest",
+   "t([style*=line-height] .wp-block-latest-comments__comment)){line-height:1.1}:where(.wp-blo",
+   "line-height] .wp-block-latest-comments__comment)){line-height:1.1}:where(.wp-block-latest-",
+   "t([style*=line-height] .wp-block-latest-comments__comment-excerpt p)){line-height:1.8}:roo",
+   "line-height] .wp-block-latest-comments__comment-excerpt p)){line-height:1.8}:root :where(.",
+   "f;font-weight:600}:where(.wp-block-post-comments-form input:not([type=submit])),:where(.wp",
+   "t([type=submit])),:where(.wp-block-post-comments-form textarea){border:1px solid #949494;f",
+   "it\"],button,.button,.is-btn,a.show-post-comment,a.comment-reply-link,.pagination-wrap,.rbb",
+   "n,.button,.is-btn,a.show-post-comment,a.comment-reply-link,.pagination-wrap,.rbbsl a>span,",
+   "it\"],.web-stories-list__archive-link a,.comment-list .comment-reply-title small a,.element"
+  ]
+ }
+}

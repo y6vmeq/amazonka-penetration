@@ -1,0 +1,59 @@
+{
+ "number": 24,
+ "url": "https://komkur.info/money/na-festivale-edy-zimovy-smak-restobar-amazonka-i-udivil-i-vkusno-nakormil",
+ "title": "На фестивале еды «Зімовы смак»: рестобар «Амазонка» и удивил, и вкусно накормил",
+ "at": "2026-11-15T14:08:09.607Z",
+ "html": "raw/024_komkur-info_komkur-2024-01-27-zimovy-smak.html",
+ "txt": "raw/024_komkur-info_komkur-2024-01-27-zimovy-smak.txt",
+ "sha256": "e1d4f7a49c9565d43a551d389836d65a861f8886ad19c0d5f94d3681f91ad664",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [
+   {
+    "src": "https://yastatic.net/safeframe-bundles/0.89/1-1-0/render.html",
+    "id": "id7963",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:c151fad9762a8a8d60b3bd3c028c7629"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 3971
+ },
+ "extra": {
+  "name": "komkur_2024-01-27_zimovy-smak",
+  "status": 200,
+  "requested": "https://komkur.info/money/na-festivale-edy-zimovy-smak-restobar-amazonka-i-udivil-i-vkusno-nakormil",
+  "pre": null
+ }
+}

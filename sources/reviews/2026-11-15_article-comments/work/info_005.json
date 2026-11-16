@@ -1,0 +1,73 @@
+{
+ "number": 5,
+ "url": "https://magilev.by/news/2026/03/17/kulinarnyj-festival-lepshy-gust-magileva-v-gastrobare-amazanka-yaponskij-akcent-i-belorusskaya-dusha",
+ "title": "Кулинарный фестиваль «Лепшы густ Магiлева» в гастробаре «Амазонка»: японский акцент и белорусская душа | magilev.by",
+ "at": "2026-11-15T14:02:11.406Z",
+ "html": "raw/005_magilev-by_magilev-2026-03-17-lepshy-gust-amazonka.html",
+ "txt": "raw/005_magilev-by_magilev-2026-03-17-lepshy-gust-amazonka.txt",
+ "sha256": "c4e89c0f62448d998c08d01574e793925c4056926b45ff16768a79b5d5bb31d6",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "b b_detail-before-comments b_visible",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [
+   {
+    "src": "",
+    "id": "",
+    "cls": ""
+   },
+   {
+    "src": "about:blank",
+    "id": "",
+    "cls": ""
+   },
+   {
+    "src": "about:blank",
+    "id": "",
+    "cls": ""
+   },
+   {
+    "src": "about:blank",
+    "id": "",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "sf1",
+    "cls": "search-form search-form_hidden",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   },
+   {
+    "id": "sf2",
+    "cls": "search-form search-form_hidden header__main-search",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 6919
+ },
+ "extra": {
+  "name": "magilev_2026-03-17_lepshy-gust-amazonka",
+  "status": 200,
+  "requested": "https://magilev.by/news/2026/03/17/kulinarnyj-festival-lepshy-gust-magileva-v-gastrobare-amazanka-yaponskij-akcent-i-belorusskaya-dusha",
+  "pre": null
+ }
+}

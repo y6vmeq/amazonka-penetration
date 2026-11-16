@@ -1,0 +1,22 @@
+records=20 ok=10 loose=9 partial=0 missing=0 no-raw=0 image=0 snippet=1 empty=0 format_errors=0 reply_problems=0
+
+media-forums-001 | текст: OK | ответ: -
+media-forums-002 | текст: OK | ответ: -
+media-forums-003 | текст: OK | ответ: -
+media-forums-004 | текст: OK | ответ: -
+media-forums-005 | текст: LOOSE | ответ: -
+media-forums-006 | текст: LOOSE | ответ: -
+media-forums-007 | текст: LOOSE | ответ: -
+media-forums-008 | текст: LOOSE | ответ: -
+media-forums-009 | текст: LOOSE | ответ: -
+media-forums-010 | текст: LOOSE | ответ: -
+media-forums-011 | текст: LOOSE | ответ: -
+media-forums-012 | текст: OK | ответ: -
+media-forums-013 | текст: OK | ответ: -
+media-forums-014 | текст: OK | ответ: -
+media-forums-015 | текст: OK | ответ: -
+media-forums-016 | текст: LOOSE | ответ: -
+media-forums-017 | текст: LOOSE | ответ: -
+media-forums-018 | текст: OK | ответ: -
+media-forums-019 | текст: OK | ответ: -
+media-forums-020 | текст: SNIPPET | ответ: -

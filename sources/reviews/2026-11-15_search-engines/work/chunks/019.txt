@@ -1,0 +1,27 @@
+>> Y|0|site:instagram.com Амазонка Могилев рестобар отзыв|n=10|rel=5|note=Яндекс не показывает описаний страниц Instagram («Владелец сайта предпочёл скрыть описание страницы»)
+[32d3bdcd] am soc
+Ссылка на instagram.com
+https://www.instagram.com/amazonka_restobar_mogilev/p/CwJZX6YorC3/
+Владелец сайта предпочёл скрыть описание страницы. / Не найдено: отзыв
+
+[32d3bdcd] am soc
+Ссылка на instagram.com
+https://www.instagram.com/amazonka_restobar_mogilev/p/C8X1LJToFgG/
+Владелец сайта предпочёл скрыть описание страницы. / Не найдено: отзыв
+
+[32d3bdcd] am soc
+Ссылка на instagram.com
+https://www.instagram.com/amazonka_restobar_mogilev/p/C8X0wE_I2jx/
+Владелец сайта предпочёл скрыть описание страницы. / Не найдено: отзыв
+
+>> Y|1|site:instagram.com Амазонка Могилев рестобар отзыв|n=10|rel=1|note=4 результата — рилсы @amazonka_mogilev (магазин белья, другой объект); остальное — посторонние рестобары
+[32d3bdcd] am soc
+Ссылка на instagram.com
+https://www.instagram.com/slivkiby_mogilev/reel/C5TFSglo8Mg/
+Владелец сайта предпочёл скрыть описание страницы. / Не найдено: отзыв
+# рилс аккаунта @slivkiby_mogilev; по пометке Яндекса, на странице есть слова «Амазонка», «Могилев», «рестобар»
+
+>> Y|0|site:vk.com Амазонка Могилев рестобар|n=10|rel=0|note=посторонние страницы; записи VK в индексе Яндекса идут под доменом vk.ru
+>> Y|1|site:vk.com Амазонка Могилев рестобар|n=10|rel=0|note=посторонние страницы
+>> Y|0|site:t.me Амазонка Могилев рестобар|n=10|rel=0|note=посторонние каналы и аккаунты с ником «Amazonka»
+>> Y|1|site:t.me Амазонка Могилев рестобар|n=10|rel=0|note=посторонние каналы

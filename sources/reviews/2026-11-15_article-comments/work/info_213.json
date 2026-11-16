@@ -1,0 +1,63 @@
+{
+ "number": 213,
+ "url": "https://magilev.by/news/2025/06/30/festival-pachastunak-pa-magilyoski-zolotistyj-kartofel-nezhnye-rebryshki-i-hrustyashie-lukovye-kolca-ot-restobara-colette",
+ "title": "Фестиваль «Пачастунак па-магiлёўскi»: золотистый картофель, нежные ребрышки и хрустящие луковые кольца от рестобара Colette | magilev.by",
+ "at": "2026-11-15T15:32:17.368Z",
+ "html": "raw/213_magilev-by_magilev-2025-06-30-festival-pachastunak-pa-magilyoski-zol.html",
+ "txt": "raw/213_magilev-by_magilev-2025-06-30-festival-pachastunak-pa-magilyoski-zol.txt",
+ "sha256": "262e65bc5004751a052fc7b663219918f6af641347f24df2fd4e7e570e617810",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "b b_detail-before-comments b_visible",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-7674021519504941&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1794756731&plat=3%3A16%2C4%3A16%2C9%3A32%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=",
+    "id": "aswift_0",
+    "cls": ""
+   },
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/html/r20261112/r20190131/zrt_lookup_fy2021.html",
+    "id": "google_esf",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "sf1",
+    "cls": "search-form search-form_hidden",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   },
+   {
+    "id": "sf2",
+    "cls": "search-form search-form_hidden header__main-search",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 8557
+ },
+ "extra": {
+  "name": "magilev_2025-06-30_festival-pachastunak-pa-magilyoski-zol",
+  "status": 200,
+  "requested": "https://magilev.by/news/2025/06/30/festival-pachastunak-pa-magilyoski-zolotistyj-kartofel-nezhnye-rebryshki-i-hrustyashie-lukovye-kolca-ot-restobara-colette",
+  "pre": null
+ }
+}

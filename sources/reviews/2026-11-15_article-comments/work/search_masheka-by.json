@@ -1,0 +1,1234 @@
+{
+ "site": "masheka.by",
+ "queries": [
+  {
+   "query": "Амазонка",
+   "file": "raw/234_masheka-by_masheka-search-amazonk-p1.html",
+   "summary": "По Вашему запросу найдено 17 ответов (Результаты запроса 1 - 10) :",
+   "article_links_on_page": 35,
+   "name": "masheka-search_amazonk_p1"
+  },
+  {
+   "query": "рестобар",
+   "file": "raw/235_masheka-by_masheka-search-restobar-p1.html",
+   "summary": "По Вашему запросу найдено 26 ответов (Результаты запроса 1 - 10) :",
+   "article_links_on_page": 35,
+   "name": "masheka-search_restobar_p1"
+  },
+  {
+   "query": "Ленинская, 38",
+   "file": "raw/236_masheka-by_masheka-search-leninskaya-38-p1.html",
+   "summary": "По Вашему запросу найдено 40 ответов (Результаты запроса 1 - 10) :",
+   "article_links_on_page": 35,
+   "name": "masheka-search_leninskaya-38_p1"
+  },
+  {
+   "query": "Смак.BY",
+   "file": "raw/237_masheka-by_masheka-search-smak-by-p1.html",
+   "summary": "По Вашему запросу найдено 6 ответов (Результаты запроса 1 - 6) :",
+   "article_links_on_page": 29,
+   "name": "masheka-search_smak-by_p1"
+  },
+  {
+   "query": "Смак бай",
+   "file": "raw/238_masheka-by_masheka-search-smak-baj-p1.html",
+   "summary": "",
+   "article_links_on_page": 25,
+   "name": "masheka-search_smak-baj_p1"
+  },
+  {
+   "query": "Буденного, 13",
+   "file": "raw/239_masheka-by_masheka-search-budennogo-13-p1.html",
+   "summary": "По Вашему запросу найдено 27 ответов (Результаты запроса 1 - 10) :",
+   "article_links_on_page": 35,
+   "name": "masheka-search_budennogo-13_p1"
+  },
+  {
+   "query": "Колетт",
+   "file": "raw/240_masheka-by_masheka-search-kolett-p1.html",
+   "summary": "По Вашему запросу найдено 6 ответов (Результаты запроса 1 - 6) :",
+   "article_links_on_page": 30,
+   "name": "masheka-search_kolett_p1"
+  },
+  {
+   "query": "Colette",
+   "file": "raw/241_masheka-by_masheka-search-colette-p1.html",
+   "summary": "По Вашему запросу найдено 10 ответов (Результаты запроса 1 - 10) :",
+   "article_links_on_page": 35,
+   "name": "masheka-search_colette_p1"
+  },
+  {
+   "query": "гастрофест",
+   "file": "raw/244_masheka-by_masheka-search-gastrofest-p1.html",
+   "summary": "По Вашему запросу найдено 26 ответов (Результаты запроса 1 - 10) :",
+   "article_links_on_page": 35,
+   "name": "masheka-search_gastrofest_p1"
+  },
+  {
+   "query": "Амазонка",
+   "file": "raw/245_masheka-by_masheka-search-amazonk-p2.html",
+   "summary": "По Вашему запросу найдено 17 ответов (Результаты запроса 11 - 17) :",
+   "article_links_on_page": 32,
+   "name": "masheka-search_amazonk_p2"
+  },
+  {
+   "query": "рестобар",
+   "file": "raw/246_masheka-by_masheka-search-restobar-p2.html",
+   "summary": "По Вашему запросу найдено 26 ответов (Результаты запроса 11 - 20) :",
+   "article_links_on_page": 35,
+   "name": "masheka-search_restobar_p2"
+  },
+  {
+   "query": "рестобар",
+   "file": "raw/247_masheka-by_masheka-search-restobar-p3.html",
+   "summary": "По Вашему запросу найдено 26 ответов (Результаты запроса 21 - 26) :",
+   "article_links_on_page": 31,
+   "name": "masheka-search_restobar_p3"
+  },
+  {
+   "query": "Ленинская, 38",
+   "file": "raw/248_masheka-by_masheka-search-leninskaya-38-p2.html",
+   "summary": "По Вашему запросу найдено 40 ответов (Результаты запроса 11 - 20) :",
+   "article_links_on_page": 35,
+   "name": "masheka-search_leninskaya-38_p2"
+  },
+  {
+   "query": "Ленинская, 38",
+   "file": "raw/249_masheka-by_masheka-search-leninskaya-38-p3.html",
+   "summary": "По Вашему запросу найдено 40 ответов (Результаты запроса 21 - 30) :",
+   "article_links_on_page": 34,
+   "name": "masheka-search_leninskaya-38_p3"
+  },
+  {
+   "query": "Ленинская, 38",
+   "file": "raw/250_masheka-by_masheka-search-leninskaya-38-p4.html",
+   "summary": "По Вашему запросу найдено 40 ответов (Результаты запроса 31 - 40) :",
+   "article_links_on_page": 30,
+   "name": "masheka-search_leninskaya-38_p4"
+  },
+  {
+   "query": "Буденного, 13",
+   "file": "raw/251_masheka-by_masheka-search-budennogo-13-p2.html",
+   "summary": "По Вашему запросу найдено 27 ответов (Результаты запроса 11 - 20) :",
+   "article_links_on_page": 35,
+   "name": "masheka-search_budennogo-13_p2"
+  },
+  {
+   "query": "Буденного, 13",
+   "file": "raw/252_masheka-by_masheka-search-budennogo-13-p3.html",
+   "summary": "По Вашему запросу найдено 27 ответов (Результаты запроса 21 - 27) :",
+   "article_links_on_page": 32,
+   "name": "masheka-search_budennogo-13_p3"
+  },
+  {
+   "query": "гастрофест",
+   "file": "raw/253_masheka-by_masheka-search-gastrofest-p2.html",
+   "summary": "По Вашему запросу найдено 26 ответов (Результаты запроса 11 - 20) :",
+   "article_links_on_page": 35,
+   "name": "masheka-search_gastrofest_p2"
+  },
+  {
+   "query": "гастрофест",
+   "file": "raw/254_masheka-by_masheka-search-gastrofest-p3.html",
+   "summary": "По Вашему запросу найдено 26 ответов (Результаты запроса 21 - 26) :",
+   "article_links_on_page": 30,
+   "name": "masheka-search_gastrofest_p3"
+  }
+ ],
+ "urls": [
+  {
+   "url": "https://masheka.by/novosti-mogileva/24186-na-bulba-fjest-v-mogileve-priglashajut-12-zavedenij-vot-spisok.html",
+   "text": "На «Бульба-фэст» в Могилеве приглашают 12 заведений — вот список",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Буденного, 13",
+    "Колетт",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/22701-pitatelnyj-festival-v-mogileve-prodlili-do-3-maja.html",
+   "text": "«Питательный» фестиваль в Могилеве продлили до 3 мая",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Colette"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/22503-gastrofest-priblizhaetsja-sety-novyh-uchastnikov-v-mogileve.html",
+   "text": "Гастрофест приближается: сеты новых участников в Могилеве",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/22428-v-mogileve-startuet-gastrofest-gde-i-pochem-mozhno-poest.html",
+   "text": "В Могилеве стартует «Гастрофест» — где и почем можно поесть?",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Буденного, 13",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/22412-obzor-setov-na-gastrofest-v-mogileve-s-9-po-26-aprelja.html",
+   "text": "Обзор сетов на Гастрофест в Могилеве с 9 по 26 апреля",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Буденного, 13",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/22125-vesnoj-projdet-gastrofest-lepshy-gust-magileva-izvestny-daty-i-ceny.html",
+   "text": "Весной пройдет гастрофест «Лепшы густ Магiлёва» — известны даты и цены",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Буденного, 13",
+    "Колетт",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/poleznaja-informacija/tehnika-i-avto/21727-pochemu-arenda-motocikla-luchshaja-perezagruzka-dlja-zhitelja-bolshogo-goroda.html",
+   "text": "Почему аренда мотоцикла — лучшая перезагрузка для жителя большого города",
+   "queries": [
+    "Амазонка"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/19742-s-24-ijunja-po-6-ijulja-v-mogileve-projdet-gorodskoj-kulinarnyj-festival-pachastunak-pa-magileski.html",
+   "text": "С 24 июня по 6 июля в Могилёве пройдет городской кулинарный фестиваль «Пачастунак па-магiлёўскi»",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Буденного, 13",
+    "Колетт"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/19528-prosrochennye-produkty-prodavali-v-shesti-magazinah-i-odnom-bare-mogileva.html",
+   "text": "Просроченные продукты продавали в шести магазинах и одном баре Могилева",
+   "queries": [
+    "Амазонка"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/18561-v-mogileve-s-28-janvarja-startuet-festival-edy-zimovy-smak.html",
+   "text": "В Могилеве с 28 января стартует фестиваль еды «Зімовы смак»",
+   "queries": [
+    "Амазонка",
+    "Смак.BY",
+    "Colette",
+    "рестобар",
+    "Ленинская, 38",
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/24731-dejatelnost-zakladchicy-povlekla-gibel-25-letnego-zhitelja-mogilevschiny.html",
+   "text": "Деятельность «закладчицы» повлекла гибель 25-летнего жителя Могилевщины",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/24730-prjamuju-telefonnuju-liniju-14-nojabrja-provedet-upravljajuschij-delami-mogilevskogo-gorispolkoma-grigorij-sushko.html",
+   "text": "Прямую телефонную линию 14 ноября проведет управляющий делами Могилевского горисполкома Григорий Сушко",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/24729-mnogocvetie-talantov-2026-nashi-dostojno-predstavili-mogilevschinu.html",
+   "text": "«Многоцветие талантов 2026»: наши достойно представили Могилёвщину!",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/24728-zhiteli-mogileva-postroili-domik-dlja-bezdomnyh-koshek.html",
+   "text": "Жители Могилева построили домик для бездомных кошек",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/24727-dachnikov-mogilevschiny-massovo-obokrali.html",
+   "text": "Дачников Могилевщины массово обокрали",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/24726-kakoj-budet-pogoda-v-mogilevskoj-oblasti-v-nachale-sledujuschej-nedeli.html",
+   "text": "Какой будет погода в Могилевской области в начале следующей недели?",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/24725-po-itogam-proshedshej-nedeli-v-mogilevskoj-oblasti-zaregistrirovano-21-kiberprestuplenie.html",
+   "text": "По итогам прошедшей недели в Могилевской области зарегистрировано 21 киберпреступление",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/24724-prognoz-pogody-v-mogileve-13-nojabrja.html",
+   "text": "Прогноз погоды в Могилеве 13 ноября",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/24723-rabotniki-predprijatija-v-mogileve-hoteli-legkih-deneg-a-zarabotali-ugolovnoe-delo.html",
+   "text": "Работники предприятия в Могилеве хотели легких денег, а заработали уголовное дело",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/24722-v-mogileve-provedut-besplatnuju-vakcinaciju-pitomcev-ot-beshenstva.html",
+   "text": "В Могилеве проведут бесплатную вакцинацию питомцев от бешенства",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/belnews/24649-v-belarusi-zapustili-masshtabnye-akcii-na-ustrojstva-huawei-skidki-dostigajut-800-rublej.html",
+   "text": "В Беларуси запустили масштабные акции на устройства Huawei. Скидки достигают 800 рублей",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/belnews/24602-v-minske-obsudili-modnuju-illjustraciju-dizajnery-poznakomilis-s-vozmozhnostjami-prilozhenija-dlja-risovanija-gopaint.html",
+   "text": "В Минске обсудили модную иллюстрацию: дизайнеры познакомились с возможностями приложения для рисования GoPaint",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/belnews/24600-proverjala-kommunalku-a-nashla-10-000-rublej-jeti-belorusy-stali-bogache-blagodarja-coca-cola.html",
+   "text": "Проверяла коммуналку, а нашла 10 000 рублей. Эти белорусы стали богаче благодаря Coca-Cola",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/belnews/24587-kufar-priblizilsja-k-12-mln-akkauntov-nazvan-top-tovarov-u-belorusov.html",
+   "text": "Куфар приблизился к 12 млн аккаунтов. Назван топ товаров у белорусов",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/belnews/24586-belorusam-na-kinopoiske-pokazali-tretij-sezon-monologa-farmacevta-mjatezh-so-stjejtemom-i-drugie-novinki.html",
+   "text": "Белорусам на Кинопоиске показали третий сезон «Монолога фармацевта», «Мятеж» со Стэйтемом и другие новинки",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/belnews/24585-obzor-smart-chasov-huawei-watch-gt-7-pro-aksessuar-na-styke-tehnologij-i-stilja.html",
+   "text": "Обзор смарт-часов Huawei Watch GT 7 Pro: аксессуар на стыке технологий и стиля",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/belnews/24584-stilnye-smartfony-dlja-portretnoj-semki-serija-huawei-nova-16s-uzhe-v-mogileve.html",
+   "text": "Стильные смартфоны для портретной съёмки: серия Huawei nova 16s уже в Могилеве",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/belnews/24546-v-belarus-priehal-jelektricheskij-liftbek-forthing-s7-evo-nazvana-ceny.html",
+   "text": "В Беларусь приехал электрический лифтбек Forthing S7 EVO. Названа цена",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/belnews/24529-abonenty-jasna-mogut-vyigrat-iphone-17-podkljuchaja-mobilnyj-bezlimit-v-mts.html",
+   "text": "Абоненты ЯСНА могут выиграть iPhone 17, подключая мобильный безлимит в МТС",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/belnews/24497-gde-aktivnee-vsego-delilis-kontentom-mts-podvel-cifrovye-itogi-dazhynak.html",
+   "text": "Где активнее всего делились контентом: МТС подвел цифровые итоги «Дажынак»",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/14996-29-dekabrja-v-muzee-istorii-mogileva-projdet-novogodnij-kvest-noch-volshebstva-v-ratushe.html",
+   "text": "29 декабря в Музее истории Могилева пройдет новогодний квест «Ночь волшебства в Ратуше»",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/14699-v-mogileve-projdet-mezhdunarodnaja-vystavka-shou-porodistyh-loshadej-osen-2023.html",
+   "text": "В Могилеве пройдёт Международная выставка-шоу породистых лошадей «Осень-2023»",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/14379-fotovystavka-v-svoe-svobodnoe-vremja-prohodit-v-mogileve.html",
+   "text": "Фотовыставка \"В своё свободное время\" проходит в Могилеве",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/14362-mezhdunarodnyj-muzykalnyj-festival-zolotoj-shljager-2023-projdet-v-mogileve-s-24-po-29-oktjabrja.html",
+   "text": "Международный музыкальный фестиваль «Золотой шлягер - 2023» пройдет в Могилеве с 24 по 29 октября",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/14038-17-sentjabrja-v-mogileve-projdet-blagotvoritelnyj-prazdnik-programma-meroprijatij.html",
+   "text": "17 сентября в Могилеве пройдет благотворительный праздник: программа мероприятий",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Смак.BY",
+    "Смак бай",
+    "Буденного, 13",
+    "Колетт",
+    "Colette",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/20985-na-smenu-kulinarnomu-festu-mogilev-pro-osen-prihodit-desjatyj-respublikanskij-gastrofest.html",
+   "text": "На смену кулинарному фесту «Могилев pro Осень» приходит Десятый республиканский Gastrofest",
+   "queries": [
+    "рестобар",
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/20982-gastrofest-v-mogileve-s-13-po-30-nojabrja-obzor-vseh-setov-gastrofest-v-mogilevskih-zavedenijah.html",
+   "text": "Гастрофест в Могилеве с 13 по 30 ноября. Обзор всех сетов Gastrofest в могилевских заведениях",
+   "queries": [
+    "рестобар",
+    "Ленинская, 38",
+    "Буденного, 13",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/20823-s-20-oktjabrja-po-2-nojabrja-sostoitsja-gorodskoj-kulinarnyj-festival-mogilev-pro-osen.html",
+   "text": "С 20 октября по 2 ноября состоится городской кулинарный фестиваль «Могилев pro Осень»",
+   "queries": [
+    "рестобар",
+    "Colette"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/24222-vecher-romansa-projdet-v-mogileve-26-sentjabrja.html",
+   "text": "Вечер романса пройдет в Могилеве 26 сентября",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/23644-master-klass-po-akvarelnoj-zhivopisi-sostoitsja-25-ijulja-v-muzee-mogileva.html",
+   "text": "Мастер-класс по акварельной живописи состоится 25 июля в музее Могилева",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/mogilev/21926-shkoly-mogileva-do-i-posle-vojny.html",
+   "text": "Школы Могилева до и после войны",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/belnews/24172-banni-kuka-i-sguschena-kopeechka-zapustila-kollekciju-iz-24-igrushek-produktov-s-nadpisjami.html",
+   "text": "Банни, Кука и Сгущёна. «Копеечка» запустила коллекцию из 24 игрушек-продуктов с надписями",
+   "queries": [
+    "Смак.BY"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/15138-gorodskoj-gastrofestival-zimovy-smak-projdet-v-mogileve-s-18-po-28-janvarja.html",
+   "text": "Городской гастрофестиваль «Зімовы смак» пройдет в Могилеве с 18 по 28 января",
+   "queries": [
+    "Смак.BY",
+    "Colette",
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Буденного, 13",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/mogilevchane/592-televidenie-novogo-pokoleniya-intervyu-s-sozdatelyami.html",
+   "text": "Александр Полосмак. Телевидение Нового Поколения",
+   "queries": [
+    "Смак.BY"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/19904-v-mogileve-utverzhdena-programma-meroprijatij-posvjaschennyh-dnju-goroda.html",
+   "text": "В Могилеве утверждена программа мероприятий, посвященных Дню города",
+   "queries": [
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/19811-stala-izvestna-programma-meroprijatij-v-mogileve-ko-dnju-goroda-tam-razvlechenija-na-ljuboj-vkus.html",
+   "text": "Стала известна программа мероприятий в Могилеве ко Дню города — там развлечения на любой вкус",
+   "queries": [
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/19777-mogilevskie-teplovye-seti-nachinaet-vkljuchenie-gorjachego-vodosnabzhenija.html",
+   "text": "«Могилевские тепловые сети» начинает включение горячего водоснабжения",
+   "queries": [
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/14226-osennij-festival-oktjabrfjest-projdet-v-mogileve-s-13-po-22-oktjabrja.html",
+   "text": "Осенний фестиваль \"Октябрьфэст\" пройдет в Могилеве с 13 по 22 октября",
+   "queries": [
+    "Колетт",
+    "рестобар",
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/13199-v-mogileve-startoval-festival-belorusskoj-kuhni-toropites-poprobovat.html",
+   "text": "В Могилеве стартовал фестиваль белорусской кухни. Торопитесь попробовать!",
+   "queries": [
+    "Колетт",
+    "рестобар"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/17703-festival-edy-oktjabrfjest-projdet-v-mogileve-s-29-oktjabrja-po-10-nojabrja.html",
+   "text": "Фестиваль еды «Октябрьфэст» пройдет в Могилеве с 29 октября по 10 ноября",
+   "queries": [
+    "Colette",
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/16597-festival-belorusskoj-kuhni-v-mogileve-rasskazyvaem-chto-v-menju.html",
+   "text": "Фестиваль белорусской кухни в Могилеве: рассказываем, что в меню",
+   "queries": [
+    "Colette",
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/16521-gorodskoj-festival-belorusskoj-kuhni-projdet-v-mogileve-s-25-ijunja-po-7-ijulja.html",
+   "text": "Городской фестиваль белорусской кухни пройдет в Могилеве с 25 июня по 7 июля",
+   "queries": [
+    "Colette",
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/13848-s-7-po-24-sentjabrja-v-mogileve-projdet-osennij-kofejnyj-festival-pro-coffee.html",
+   "text": "С 7 по 24 сентября в Могилеве пройдет осенний кофейный фестиваль PRO COFFEE",
+   "queries": [
+    "Colette"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/belnews/17989-evroopt-razygraet-sredi-pokupatelej-denezhnye-prizy-na-330-000-rublej-i-dva-avto-kak-ih-poluchit.html",
+   "text": "Евроопт» разыграет среди покупателей денежные призы на 330 000 рублей и два авто. Как их получить?",
+   "queries": [],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/belnews/17969-evroopt-razygraet-sredi-pokupatelej-denezhnye-prizy-na-330-000-rublej-i-dva-avto-kak-ih-poluchit.html",
+   "text": "Евроопт» разыграет среди покупателей денежные призы на 330 000 рублей и два авто. Как их получить?",
+   "queries": [],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/poleznaja-informacija/biznes-i-finansy/7846-kak-vyzhit-kafe-i-restoranam-v-koronavirusnuju-jepohu.html",
+   "text": "Как выжить кафе и ресторанам в коронавирусную эпоху",
+   "queries": [],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/poleznaja-informacija/dlja-doma-dachi-semi/4406-dostavka-edy-v-mogileve-gde-i-chto-mozhno-zakazat.html",
+   "text": "Доставка еды в Могилеве. Где и что можно заказать?",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/18380-mogilevskaja-kapella-priglashaet-gorozhan-vmeste-vstretit-staryj-novyj-god.html",
+   "text": "Могилевская капелла приглашает горожан вместе встретить Старый новый год",
+   "queries": [],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/18351-koncert-staryj-novyj-god-gotovit-mogilevskaja-kapella.html",
+   "text": "Концерт «Старый новый год» готовит Могилевская капелла",
+   "queries": [],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/eco/4959-kto-zagrjaznjaet-atmosfernyj-vozduh-v-mogileve.html",
+   "text": "Кто загрязняет атмосферный воздух в Могилеве",
+   "queries": [],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/arhiv/369-razum-i-sovest-v-sovremennom-obschestve.html",
+   "text": "Разум и совесть в современном обществе",
+   "queries": [],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/22350-respublikanskij-festival-gastrofest-projdet-v-mogileve-s-9-po-26-aprelja.html",
+   "text": "Республиканский фестиваль Gastrofest пройдет в Могилеве с 9 по 26 апреля",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/20975-gastrofest-v-mogileve-priblizhaetsja-sety-novyh-uchastnikov.html",
+   "text": "Гастрофест в Могилеве приближается: сеты новых участников",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/19485-devjatyj-respublikanskij-gastrofest-skoro-startuet-v-mogileve.html",
+   "text": "Девятый Республиканский Gastrofest скоро стартует в Могилёве",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/19440-s-15-maja-v-mogileve-startuet-gastrofest-uzhe-izvestna-cena-seta.html",
+   "text": "С 15 мая в Могилеве стартует «Гастрофест»: уже известна цена сета",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/17932-vkusnejshie-menju-mozhno-otvedat-na-gastrofeste-v-mogileve.html",
+   "text": "Вкуснейшие меню можно отведать на Гастрофесте в Могилеве",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/17877-kakie-zavedenija-mogileva-primut-uchastie-v-gastrofest-2024.html",
+   "text": "Какие заведения Могилева примут участие в Gastrofest 2024",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/14582-s-16-nojabrja-i-po-3-dekabrja-v-mogileve-projdet-6-j-respublikanskij-festival-gastrofest.html",
+   "text": "С 16 ноября и по 3 декабря в Могилеве пройдет 6-й республиканский фестиваль «Гастрофест»",
+   "queries": [
+    "Амазонка",
+    "рестобар",
+    "Ленинская, 38",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/17571-populjarnyj-mogilevskij-restobar-prodajut-za-25-mln-dollarov.html",
+   "text": "Популярный могилевский рестобар продают за 2,5 млн долларов",
+   "queries": [
+    "рестобар"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/15984-gastrofest-v-mogileve-v-aprele-2024-obzor-setov-zavedenij-mogileva-gastrofest-strany-mira.html",
+   "text": "Гастрофест в Могилеве в апреле 2024. Обзор сетов заведений Могилева Gastrofest Страны Мира",
+   "queries": [
+    "рестобар",
+    "Буденного, 13",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/15974-gastrofest-priblizhaetsja-sety-uchastnikov-v-mogileve-uzhe-izvestny.html",
+   "text": "Гастрофест приближается: сеты участников в Могилеве уже известны",
+   "queries": [
+    "рестобар",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/13075-kotlety-po-mogilevski-i-dranik-burger-ot-luny-festival-belorusskoj-kuhni.html",
+   "text": "Котлеты по-могилевски и драник-бургер от «Луны» - фестиваль белорусской кухни",
+   "queries": [
+    "рестобар"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/12361-gastrofest-knigi-projdet-v-mogileve-obzor-vseh-setov.html",
+   "text": "Гастрофест Книги пройдет в Могилеве. Обзор всех сетов",
+   "queries": [
+    "рестобар",
+    "Буденного, 13",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/11039-gastrofest-v-mogileve-s-17-nojabrja-po-4-dekabrja-obzor-vseh-setov.html",
+   "text": "Гастрофест в Могилеве с 17 ноября по 4 декабря. Обзор всех сетов",
+   "queries": [
+    "рестобар",
+    "Буденного, 13",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/17349-gde-v-mogileve-mozhno-pozavtrakat-za-5-rub.html",
+   "text": "Где в Могиле‌ве можно позавтракать за 5 руб",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/16799-najdeny-samye-zelenye-ulicy-mogileva-uznali-pochem-tam-kvartiry.html",
+   "text": "Найдены самые «зеленые» улицы Могилева. Узнали, почем там квартиры",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/16151-programma-na-1-maja-v-mogileve.html",
+   "text": "Программа на 1 мая в Могилеве",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/16007-kak-budet-hodit-transport-na-vremja-perekrytija-ulicy-pervomajskoj-v-mogileve.html",
+   "text": "Как будет ходить транспорт на время перекрытия улицы Первомайской в Могилеве",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/13180-brodvej-zvezdochet-i-krylataja-skulptura-proguljalis-po-mogilevu-so-smartfonom-huawei-p60-pro.html",
+   "text": "«Бродвей», звездочет и «Крылатая» скульптура. Прогулялись по Могилеву со смартфоном Huawei P60 Pro",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/11513-gde-v-mogileve-otremontirujut-i-blagoustrojat-dvory-v-tekuschem-2023-godu.html",
+   "text": "Где в Могилеве отремонтируют и благоустроят дворы в текущем 2023 году",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/5792-v-mogileve-projdet-gorodskaja-jestafeta-bitva-dvorov.html",
+   "text": "В Могилеве пройдет городская эстафета \"Битва дворов\"",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/3774-obnovlennye-marshruty-transporta-v-svjazi-s-remontom-puteprovoda-v-mogileve.html",
+   "text": "Обновленные маршруты транспорта в связи с ремонтом путепровода в Могилеве",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/3721-novye-vremennye-marshruty-obschestvennogo-transporta-utverdili-v-svjazi-s-remontom-mosta-po-ulpervomajskoj.html",
+   "text": "Как будет ходить транспорт в Могилеве в связи с ремонтом моста на Первомайской",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/3137-programma-prazdnichnyh-meroprijatij-na-1-maja-v-mogileve.html",
+   "text": "Программа праздничных мероприятий на 1 мая в Могилеве",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/3003-neobychnaja-biznes-shkola-dlja-detej-otkrylas-v-mogileve-intervju-s-sozdatelem-biznes-shkoly-alfaplus.html",
+   "text": "Необычная бизнес-школа для детей открылась в Могилеве. Интервью с создателем бизнес-школы AlfaPlus",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/2150-pervaja-pokatushka-otkryla-evropejskuju-nedelju-mobilnosti.html",
+   "text": "Первая покатушка открыла Европейскую неделю мобильности!",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/ads/1829-agrousadba-sozh-otlichnyy-otdyh-v-zhivopisnom-meste.html",
+   "text": "Агроусадьба \"Сож\": отличный отдых в живописном месте",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/arhiv/851-vnimanie-dvizhenie-transporta-po-pushkinskomu-mostu-budet-ogranicheno-na-5-dney-s-1000-23-marta-do-0500-28-marta.html",
+   "text": "Внимание: движение транспорта по Пушкинскому мосту будет ограничено на 5 дней — с 10:00 23 марта до 05:00 28 марта.",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/arhiv/583-mogilev-itogi-2013-godatorgovlya.html",
+   "text": "Могилев: итоги 2013 года.Торговля",
+   "queries": [
+    "Ленинская, 38",
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/photo/483-mogilev-foto-nedeliulica-leninskaya.html",
+   "text": "Могилев : фото недели. Улица Ленинская",
+   "queries": [
+    "Ленинская, 38"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/16635-v-mogileve-prinjata-programma-meroprijatij-posvjaschennyh-dnju-goroda.html",
+   "text": "В Могилеве принята программа мероприятий, посвященных Дню города",
+   "queries": [
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/16016-gastrofest-speshit-poradovat-mogilevchan-sety-uchastnikov.html",
+   "text": "Гастрофест спешит порадовать могилевчан: сеты участников",
+   "queries": [
+    "Буденного, 13",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/14193-uznajte-gde-i-vo-skolko-budet-perekryvatsja-dvizhenie-v-mogileve-1-oktjabrja.html",
+   "text": "Узнайте, где и во сколько будет перекрываться движение в Могилеве 1 октября",
+   "queries": [
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/11598-kapitalnyj-remont-35-obektov-provedut-v-mogileve-v-2023-godu.html",
+   "text": "Капитальный ремонт 35 объектов проведут в Могилеве в 2023 году",
+   "queries": [
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/5813-gde-i-kogda-ogranichat-dvizhenie-transporta-v-mogileve-na-den-goroda-i-den-nezavisimosti.html",
+   "text": "Где и когда ограничат движение транспорта в Могилеве на День города и День Независимости",
+   "queries": [
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/3464-gde-budet-perekryto-dvizhenie-v-mogileve-28-30-ijunja-i-3-ijulja.html",
+   "text": "Где будет перекрыто движение в Могилеве на День Города 28-30 июня и 3 июля",
+   "queries": [
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/3422-18-ijunja-dvizhenie-transporta-perekrojut-po-ulicam-lepeshinskogo-i-budennogo-v-mogileve.html",
+   "text": "18 июня движение транспорта перекроют по улицам Лепешинского и Буденного в Могилеве",
+   "queries": [
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/3211-9-maja-dvizhenie-transporta-po-vsemu-mogilevu-budet-ogranicheno.html",
+   "text": "9 мая движение транспорта по всему Могилеву будет ограничено",
+   "queries": [
+    "Буденного, 13"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/17883-gastrofest-priblizhaetsja-sety-novyh-uchastnikov-radujut-mogilevchan.html",
+   "text": "Гастрофест приближается: сеты новых участников радуют могилевчан",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/17793-vosmoj-respublikanskij-gastrofest-nachnetsja-v-mogileve-s-14-nojabrja.html",
+   "text": "Восьмой республиканский GASTROFEST начнется в Могилеве с 14 ноября",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/16286-stali-izvestny-pobediteli-proshedshego-gastrofesta-v-mogileve.html",
+   "text": "Стали известны победители прошедшего \"Гастрофеста\" в Могилеве",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/belnews/15888-sedmoj-respublikanskij-gastrofest-strany-mira-projdet-v-aprele.html",
+   "text": "СЕДЬМОЙ РЕСПУБЛИКАНСКИЙ GASTROFEST – СТРАНЫ МИРА ПРОЙДЁТ В АПРЕЛЕ",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/14493-shestoj-respublikanskij-festival-gastrofest-projdet-v-mogileve-s-16-nojabrja-po-3-dekabrja.html",
+   "text": "Шестой республиканский фестиваль Gastrofest пройдет в Могилеве с 16 ноября по 3 декабря",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://masheka.by/novosti-mogileva/12252-gastrofest-v-mogileve-v-mogileve-projdet-pjatyj-gastrofestknigi.html",
+   "text": "Гастрофест в Могилеве. В Могилеве пройдет пятый GASTROFEST.КНИГИ",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  }
+ ]
+}

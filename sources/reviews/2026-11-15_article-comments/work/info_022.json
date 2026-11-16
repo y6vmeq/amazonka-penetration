@@ -1,0 +1,59 @@
+{
+ "number": 22,
+ "url": "https://komkur.info/money/v-mogilevskom-restobare-amazonka-mozhno-poderzhat-v-rukakh-gekkona-sest-sup-s-osminozhkami-i-zakazat-rimskuyu-pitstsu/",
+ "title": "В могилевском рестобаре «Амазонка» можно подержать в руках геккона, съесть суп с осьминожками и заказать римскую пиццу",
+ "at": "2026-11-15T14:07:53.913Z",
+ "html": "raw/022_komkur-info_komkur-2024-12-12-gekkon-sup-s-osminozhkami.html",
+ "txt": "raw/022_komkur-info_komkur-2024-12-12-gekkon-sup-s-osminozhkami.txt",
+ "sha256": "d5e0348b9f211b547b381a1aadf2f3256ace3809d73200477bda0d36986ceefd",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [
+   {
+    "src": "https://yastatic.net/safeframe-bundles/0.89/1-1-0/render.html",
+    "id": "id2381",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:c151fad9762a8a8d60b3bd3c028c7629"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 8854
+ },
+ "extra": {
+  "name": "komkur_2024-12-12_gekkon-sup-s-osminozhkami",
+  "status": 200,
+  "requested": "https://komkur.info/money/v-mogilevskom-restobare-amazonka-mozhno-poderzhat-v-rukakh-gekkona-sest-sup-s-osminozhkami-i-zakazat-rimskuyu-pitstsu/",
+  "pre": null
+ }
+}

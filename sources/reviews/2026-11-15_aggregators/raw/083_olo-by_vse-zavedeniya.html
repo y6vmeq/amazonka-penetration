@@ -1,0 +1,1292 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Выбор города</title>
+
+    <link type="image/x-icon" rel="shortcut icon" href="https://olo.by/favicon.ico"><link type="image/png" sizes="16x16" rel="icon" href="https://olo.by/favicon-16x16.png"><link type="image/png" sizes="32x32" rel="icon" href="https://olo.by/favicon-32x32.png"><link type="image/png" sizes="96x96" rel="icon" href="https://olo.by/favicon-96x96.png"><link type="image/png" sizes="120x120" rel="icon" href="https://olo.by/favicon-120x120.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="csrf-token" content="5d387828329366c944a6464b51ab955543a8be4870ae0ae0df8c0454dd776b9f">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+
+<link rel="manifest" href="https://olo.by/manifest.json">
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(101180903, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/101180903" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<meta name="google-site-verification" content="avJkmL10l2rJG7-OHwy1d_CJaX4avg7Mme5MeBPIrmM" />
+<meta name="yandex-verification" content="ac69286392167381" />
+<link href="/templates/css/line-awesome.min.css?d1e1896d" rel="stylesheet"><link href="/templates/css/bootstrap.min.css?d1e1896d" rel="stylesheet"><link href="/templates/css/ionicons/ionicons.min.css?d1e1896d" rel="stylesheet"><link href="/templates/css/styles.css?d1e1896d" rel="stylesheet"><link href="/templates/js/owl-carousel/owl.carousel.min.css?d1e1896d" rel="stylesheet"><link href="/templates/js/owl-carousel/owl.theme.default.css?d1e1896d" rel="stylesheet"><link href="/templates/js/slick/slick-theme.css?d1e1896d" rel="stylesheet"><link href="/templates/js/slick/slick.css?d1e1896d" rel="stylesheet"><link href="/templates/css/lightgallery.css?d1e1896d" rel="stylesheet"><link href="/templates/css/lightslider.css?d1e1896d" rel="stylesheet"><link href="/templates/js/dragula/dragula.min.css?d1e1896d" rel="stylesheet"><link href="/templates/js/ion/css/ion.rangeSlider.min.css?d1e1896d" rel="stylesheet"><link href="/templates/css/animate.css?d1e1896d" rel="stylesheet"><link href="/templates/js/summernote/summernote-lite.css?d1e1896d" rel="stylesheet"><link href="/templates/js/summernote/summernote.min.css?d1e1896d" rel="stylesheet"><link href="/templates/js/summernote/summernote-bs4.css?d1e1896d" rel="stylesheet"><link href="/templates/js/minicolors/jquery.minicolors.css?d1e1896d" rel="stylesheet"><link href="/templates/js/dropzone/dropzone.min.css?d1e1896d" rel="stylesheet"><link href="/templates/js/apexcharts/apexcharts.css?d1e1896d" rel="stylesheet"><link href="/templates/js/ui/jquery-ui.min.css?d1e1896d" rel="stylesheet"><link href="/templates/js/ui/jquery-ui.theme.css?d1e1896d" rel="stylesheet">
+
+  </head>
+
+  <body data-prefix="/" data-template="templates" >
+    
+    <header class="header-wow d-none d-lg-block" >
+   
+      <div class="header-wow-top" >
+        <div class="container" >
+           <div class="row" >
+               <div class="col-lg-2 col-2" >
+                   
+                                       
+               </div>
+               <div class="col-lg-10 col-10 text-right" >
+
+                  <div class="header-wow-top-list " >
+
+                    
+                                                    <a href="https://olo.by/map"  >Карта</a>
+                                                              <a href="https://olo.by/blog"  >Новости</a>
+                               
+                  </div>                  
+                   
+               </div>
+           </div>
+        </div>
+   </div>
+      <div class="header-wow-sticky" >
+       
+       <div class="header-wow-sticky-container" >
+
+       
+       <div class="container" >
+         
+           <div class="row" >
+
+               <div class="col-lg-2 col-md-2 col-sm-2" >
+                   
+                  <a class="h-logo" href="https://olo.by" title="Общепит Беларуси" >
+                      <img src="https://olo.by/media/others/logo_684aad7670dd3.png" data-inv="0" alt="Общепит Беларуси">
+                  </a>
+
+               </div>
+
+               <div class="header-flex-box" >
+
+               <div class="header-flex-box-1" >
+
+                  <div class="header-button-menu-catalog btn-color-blue" >
+                      <span class="header-button-menu-catalog-icon-1" ><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="ui-e2"><path d="M5 6a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm4-1a1 1 0 000 2h12a1 1 0 100-2H9zm0 6a1 1 0 100 2h12a1 1 0 100-2H9zm-1 7a1 1 0 011-1h6a1 1 0 110 2H9a1 1 0 01-1-1zm-4.5-4.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM5 18a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></span>
+                      <span class="header-button-menu-catalog-icon-2" ><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="ui-e2"><path d="M12 10.587l6.293-6.294a1 1 0 111.414 1.414l-6.293 6.295 6.293 6.294a1 1 0 11-1.414 1.414L12 13.416 5.707 19.71a1 1 0 01-1.414-1.414l6.293-6.294-6.293-6.295a1 1 0 111.414-1.414L12 10.587z" fill="currentColor"></path></svg></span>
+                      <span>Каталог</span>
+                  </div>                    
+                   
+               </div>
+               
+               <div class="header-flex-box-2" >
+
+                  <div class="container-search-goods parents-ajax-live-search" >
+                      
+                      <div class="header-wow-sticky-search" >
+
+                          
+                          <form class="form-ajax-live-search" method="get" action="https://olo.by/belarus" >
+
+                          
+                          <button class="header-wow-sticky-search-icon" ><i class="las la-search"></i></button>
+                          
+                          <input type="text" name="search" class="ajax-live-search" autocomplete="off" placeholder="Поиск" value="" >
+
+                          </form>
+
+                          
+                          <div class="sticky-search-control-geo" >
+
+                              
+                                                            <div class="sticky-search-control-geo-name sticky-search-control-geo-change" ><i class="las la-map-marker-alt"></i> Выберите город</div>
+                              
+                              
+                                                            <div class="sticky-search-control-geo-area-change" >
+                                                                      
+                              </div>
+                          </div>
+
+                          <div class="sticky-search-control-geo-area" >
+                              <div class="sticky-search-control-geo-area-cancel" >Отмена</div>
+                          </div>
+
+                          <div class="sticky-search-geo-area-list" >
+
+                              <div class="modal-geo-options-tab" >
+                                          
+                              </div>
+                              
+                              <form class="modal-geo-options-form" >
+                              <div class="modal-geo-options-tab-content" >
+                                  <div data-tab="1"  >
+                                   <div class="geo-options-metro" >
+                                   <div class="container" >
+                                       <div class="row" >
+                                                                              </div>
+                                   </div>
+                                   </div>
+                                  </div>
+                                  <div data-tab="2"  >
+                                     <div class="geo-options-areas" >
+                                     <div class="container" >
+                                         <div class="row" >
+                                                                                  </div>
+                                     </div>
+                                     </div>
+                                  </div>
+                              </div>
+
+                              </form>
+
+                              <div class="row mt30" >
+                                 <div class="col-lg-3" > <button class="btn-custom btn-color-blue width100 submit-geo-options-form" >Применить</button> </div>
+                              </div>
+                           
+                          </div>
+
+                          
+                          <div class="results-ajax-live-search main-search-results" ></div>
+
+                      </div>
+                      
+                  </div>
+
+                  <div class="container-search-geo" >
+                      <div class="header-wow-sticky-search" >
+
+                          <span class="header-wow-sticky-search-icon" ><i class="las la-map-marker-alt"></i></span>
+                          
+                          <input type="text" name="search" class="sticky-search-geo-input" autocomplete="off" placeholder="Поиск по городам" >
+
+                          <div class="sticky-search-control-geo" >
+                              <div class="sticky-search-control-geo-cancel" >Отмена</div>
+                          </div>
+
+                          <div class="sticky-search-geo-list" >
+                               <div class="row modal-country-container" ><div class="col-lg-4 col-md-6 col-sm-6 col-12" ><span class="item-city" id-city="0" id-region="0" id-country="4" data-alias="belarus" >Все города</span><span class="item-city" id-city="1788" id-region="0" id-country="0" >Минск</span><span class="item-city" id-city="1742" id-region="0" id-country="0" >Витебск</span><span class="item-city" id-city="1759" id-region="0" id-country="0" >Гомель</span><span class="item-city" id-city="1808" id-region="0" id-country="0" >Могилев</span><span class="item-city" id-city="1731" id-region="0" id-country="0" >Орша</span><span class="item-city" id-city="1774" id-region="0" id-country="0" >Гродно</span><span class="item-city" id-city="1722" id-region="0" id-country="0" >Брест</span><span class="item-city" id-city="1796" id-region="0" id-country="0" >Заславль</span><span class="item-city" id-city="1720" id-region="0" id-country="0" >Высокое</span></div><div class="col-lg-4 col-md-6 col-sm-6 col-12" ><span class="item-city" id-city="1799" id-region="0" id-country="0" >Вилейка</span><span class="item-city" id-city="1756" id-region="0" id-country="0" >Жлобин</span><span class="item-city" id-city="1792" id-region="0" id-country="0" >Логойск</span><span class="item-city" id-city="1716" id-region="0" id-country="0" >Ивацевичи</span><span class="item-city" id-city="1771" id-region="0" id-country="0" >Лида</span><span class="item-city" id-city="1766" id-region="0" id-country="0" >Сморгонь</span><span class="item-city" id-city="1817" id-region="0" id-country="0" >Бобруйск</span><span class="item-city" id-city="1717" id-region="0" id-country="0" >Жабинка</span><span class="item-city" id-city="1800" id-region="0" id-country="0" >Воложин</span><span class="item-city" id-city="1783" id-region="0" id-country="0" >Солигорск</span></div><div class="col-lg-4 col-md-6 col-sm-6 col-12" ><span class="item-city" id-city="1729" id-region="0" id-country="0" >Полоцк</span><span class="item-city" id-city="1707" id-region="0" id-country="0" >Пинск</span><span class="item-city" id-city="1801" id-region="0" id-country="0" >Борисов</span><span class="item-city" id-city="1735" id-region="0" id-country="0" >Лепель</span><span class="item-city" id-city="1748" id-region="0" id-country="0" >Светлогорск</span><span class="item-city" id-city="1738" id-region="0" id-country="0" >Докшицы</span><span class="item-city" id-city="1741" id-region="0" id-country="0" >Верхнедвинск</span><span class="item-city" id-city="1784" id-region="0" id-country="0" >Слуцк</span><span class="item-city" id-city="1749" id-region="0" id-country="0" >Речица</span><span class="item-city" id-city="1786" id-region="0" id-country="0" >Несвиж</span></div><div class="col-lg-4 col-md-6 col-sm-6 col-12" ><span class="item-city" id-city="1705" id-region="0" id-country="0" >Столин</span></div></div>                              
+                          </div>
+                          
+                          <div class="sticky-search-geo-results" ></div>
+
+                      </div>
+                  </div>
+
+               </div>
+
+               <div class="header-flex-box-3" >
+                    
+                    
+                    
+                                        <div class="toolbar-link mr8" >
+                       <a href="https://olo.by/auth" class="header-wow-sticky-auth">Войти</a>
+                    </div>
+                    
+                    <div class="toolbar-link" >
+                    <a href="https://olo.by/ad/create" class="header-wow-sticky-add" > Разместить </a>
+                    </div>
+
+               </div>
+
+               </div>
+
+           </div>
+
+       </div>
+
+       <div class="header-big-menu catalog-header-big-menu" ></div>
+
+       
+       </div>
+
+   </div>
+
+</header>
+<style>
+.header-wow-mobile-category a{
+    color: black; display: inline-block; text-align: center; width: 75px; scroll-snap-align: start; margin: 0 5px; text-decoration: none;
+    display: block; font-size: 12px;
+}
+</style>
+<header class="header-wow-mobile d-block d-lg-none height55"  >
+   
+<div class="header-wow-mobile-sticky" >
+   <div class="header-wow-mobile-top parents-ajax-live-search" >
+
+      <div class="container" >
+         <div class="header-flex-box" >   
+             <div class="header-flex-box-mobile-1" >
+                  
+                                    <div class="toolbar-link" >
+                    <span class="toolbar-link-title-icon" >
+                        <div class="toolbar-link-title-icon-box mobile-fixed-menu_all-menu-open" >
+                            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" ><path fill-rule="evenodd" clip-rule="evenodd" d="M5 6a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm4-1a1 1 0 000 2h12a1 1 0 100-2H9zm0 6a1 1 0 100 2h12a1 1 0 100-2H9zm-1 7a1 1 0 011-1h6a1 1 0 110 2H9a1 1 0 01-1-1zm-4.5-4.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM5 18a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" fill="currentColor"></path></svg>
+                        </div>
+                    </span>
+                  </div>                    
+                                        
+             </div>
+             <div class="header-flex-box-mobile-2" >
+
+                  
+             </div>
+             <div class="header-flex-box-mobile-3" >
+
+                
+                
+             </div>             
+         </div>
+      </div>
+
+      <div class="results-ajax-live-search main-search-results" ></div>
+
+   </div>
+
+   
+</div>
+
+</header>
+
+<noindex>
+<div class="mobile-fixed-menu mobile-fixed-menu_all-category" >
+    <div class="mobile-fixed-menu-header" >
+        <span class="mobile-fixed-menu-header-close" ><i class="las la-times"></i></span>
+        <span class="mobile-fixed-menu-header-title" >Все категории</span>
+    </div>
+    <div class="mobile-fixed-menu-content mobile-fixed-menu-content-link deny-margin-15" >
+        
+                             <a class="mobile-fixed-menu_link-category" href="https://olo.by/vse-zavedeniya" data-id="440" data-parent="true"  >
+                    
+                    <span class="mobile-fixed-menu_name-category" >Все заведения</span>
+                    <span class="mobile-fixed-menu_count-category" >34</span>
+
+                   </a>
+                                      <a class="mobile-fixed-menu_link-category" href="https://olo.by/akcii-i-skidki" data-id="461" data-parent="false"  >
+                    
+                    <span class="mobile-fixed-menu_name-category" >Акции и скидки</span>
+                    <span class="mobile-fixed-menu_count-category" >1</span>
+
+                   </a>
+                                      <a class="mobile-fixed-menu_link-category" href="https://olo.by/uslugi-i-infrastruktura-obshchepita" data-id="447" data-parent="true"  >
+                    
+                    <span class="mobile-fixed-menu_name-category" >Услуги для общепита</span>
+                    <span class="mobile-fixed-menu_count-category" >416</span>
+
+                   </a>
+                                      <a class="mobile-fixed-menu_link-category" href="https://olo.by/vakansii-i-personal" data-id="494" data-parent="true"  >
+                    
+                    <span class="mobile-fixed-menu_name-category" >Вакансии и Резюме</span>
+                    <span class="mobile-fixed-menu_count-category" >33</span>
+
+                   </a>
+                                      <a class="mobile-fixed-menu_link-category" href="https://olo.by/kupi-proday" data-id="481" data-parent="true"  >
+                    
+                    <span class="mobile-fixed-menu_name-category" >Купи Продай</span>
+                    <span class="mobile-fixed-menu_count-category" >4</span>
+
+                   </a>
+                                      <a class="mobile-fixed-menu_link-category" href="https://olo.by/karta-olo" data-id="473" data-parent="false"  >
+                    
+                    <span class="mobile-fixed-menu_name-category" >Карта OLO</span>
+                    <span class="mobile-fixed-menu_count-category" >7</span>
+
+                   </a>
+                                      <a class="mobile-fixed-menu_link-category" href="https://olo.by/poleznaya-infa" data-id="480" data-parent="false"  >
+                    
+                    <span class="mobile-fixed-menu_name-category" >Полезная инфа</span>
+                    <span class="mobile-fixed-menu_count-category" >22</span>
+
+                   </a>
+                   
+    </div>
+</div>
+
+</noindex>
+
+
+
+
+    <div class="container" >
+       
+       <nav aria-label="breadcrumb">
+ 
+          <ol class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+
+            <li class="breadcrumb-item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+              <a itemprop="item" href="https://olo.by">
+              <span itemprop="name">Главная</span>
+              </a>
+              <meta itemprop="position" content="1">
+            </li>
+
+            <li class="breadcrumb-item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+              <span itemprop="name">Выбор города</span>
+              <meta itemprop="position" content="2">
+            </li>                 
+          </ol>
+
+        </nav>
+          
+        <div class="row" >
+            <div class="col-lg-12" >
+
+              <h1 class="cities-list-title" >Выберите город</h1>
+
+              
+              <div class="row mb15 mt25" >
+                  <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                      <a class="btn-custom btn-color-light width100" href="https://olo.by/belarus" ><strong>Объявления в Беларуси</strong></a>
+                  </div>
+              </div>
+
+              <div class="cities-list minheight400" >
+
+              <form action="#" autocomplete="off" onsubmit="return false" >
+              <div class="mb25 cities-search-input" >
+                  <input type="text" name="q" autocomplete="off" placeholder="Поиск" >
+              </div>
+              </form>
+
+                              <div class="cities-search-list-container" >
+                                    <div class="row" >
+                                              <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/minsk" >Минск</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/vitebsk" >Витебск</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/gomel" >Гомель</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/mogilev" >Могилев</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/orsha" >Орша</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/grodno" >Гродно</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/brest" >Брест</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/zaslavl" >Заславль</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/vysokoe" >Высокое</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/vileyka" >Вилейка</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/zhlobin" >Жлобин</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/logoysk" >Логойск</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/ivacevichi" >Ивацевичи</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/lida" >Лида</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/smorgon" >Сморгонь</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/bobruysk" >Бобруйск</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/zhabinka" >Жабинка</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/volozhin" >Воложин</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/soligorsk" >Солигорск</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/polock" >Полоцк</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/pinsk" >Пинск</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/borisov" >Борисов</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/lepel" >Лепель</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/svetlogorsk" >Светлогорск</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/dokshicy" >Докшицы</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/verhnedvinsk" >Верхнедвинск</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/sluck" >Слуцк</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/rechica" >Речица</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/nesvizh" >Несвиж</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/stolin" >Столин</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/novopolock" >Новополоцк</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/tolochin" >Толочин</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/kobrin" >Кобрин</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/mozyr" >Мозырь</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/zhodino" >Жодино</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/bereza" >Береза</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/lyahovichi" >Ляховичи</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/svisloch" >Свислочь</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/miory" >Миоры</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/oshmyany" >Ошмяны</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/shklov" >Шклов</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/ive" >Ивье</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/uzda" >Узда</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/molodechno" >Молодечно</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/shchuchin" >Щучин</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/volkovysk" >Волковыск</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/dzerzhinsk" >Дзержинск</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/smolevichi" >Смолевичи</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/pruzhany" >Пружаны</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/starye-dorogi" >Старые Дороги</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/slonim" >Слоним</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/zhitkovichi" >Житковичи</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/ivanovo" >Иваново</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/krichev" >Кричев</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/chausy" >Чаусы</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/slavgorod" >Славгород</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/braslav" >Браслав</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/dyatlovo" >Дятлово</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/skidel" >Скидель</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/elsk" >Ельск</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/vasilevichi" >Василевичи</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/stolbcy" >Столбцы</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/gancevichi" >Ганцевичи</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/klimovichi" >Климовичи</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/david-gorodok" >Давид-Городок</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/novolukoml" >Новолукомль</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/gorki" >Горки</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/kalinkovichi" >Калинковичи</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/baran" >Барань</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/mosty" >Мосты</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/novogrudok" >Новогрудок</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/hoyniki" >Хойники</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/fanipol" >Фаниполь</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/luninec" >Лунинец</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/postavy" >Поставы</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/chashniki" >Чашники</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/sharkovshchina" >Шарковщина</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/malorita" >Малорита</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/klichev" >Кличев</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/cherikov" >Чериков</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/petrikov" >Петриков</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/baranovichi" >Барановичи</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/dubrovno" >Дубровно</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/vetka" >Ветка</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/dobrush" >Добруш</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/byhov" >Быхов</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/kirovsk" >Кировск</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/glubokoe" >Глубокое</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/disna" >Дисна</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/chechersk" >Чечерск</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/kleck" >Клецк</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/lyuban" >Любань</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/mikashevichi" >Микашевичи</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/turov" >Туров</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/kopyl" >Копыль</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/myadel" >Мядель</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/osipovichi" >Осиповичи</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/beloozersk" >Белоозерск</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/berezovka" >Березовка</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/berezino" >Березино</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/narovlya" >Наровля</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/rogachev" >Рогачев</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/gorodok" >Городок</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/marina-gorka" >Марьина Горка</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/krupki" >Крупки</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/mstislavl" >Мстиславль</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/buda-koshelevo" >Буда-Кошелево</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/senno" >Сенно</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/drogichin" >Дрогичин</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/kostyukovichi" >Костюковичи</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/cherven" >Червень</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/kamenec" >Каменец</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/kossovo" >Коссово</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/liozno" >Лиозно</a>
+                          </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-4 col-12" >
+                              <a href="https://olo.by/shumilino" >Шумилино</a>
+                          </div>
+                                              </div>                   
+                                    </div>
+
+              </div>
+
+            </div>
+        </div>
+         
+          
+       <div class="mt50" ></div>
+
+
+    </div>
+
+
+    <noindex>
+
+
+<div class="mobile-fixed-menu mobile-fixed-menu_all-menu" >
+    <div class="mobile-fixed-menu-header" >
+        <span class="mobile-fixed-menu-header-close" ><i class="las la-arrow-left"></i></span>
+        <span class="mobile-fixed-menu-header-title" >Меню</span>
+    </div>
+    <div class="mobile-fixed-menu-content bg-gray no-padding" >
+
+       <div class="mobile-fixed-menu-content-bg-white" >
+ 
+                <div class="mobile-fixed-menu-content-card-user" >
+             <h6>Зарегистрируйтесь на нашем сайте</h6>
+             <p>и получите <strong>1 р.</strong> на свой бонусный счет!</p>
+             <a class="card-user-link-profile" href="https://olo.by/auth" >Войти или зарегистрироваться</a>
+         </div>
+                
+       <hr>
+
+       
+      <div class="deny-margin-15 mobile-fixed-menu-content-link" >
+
+      <a href="https://olo.by" >Главная</a>
+
+                   <a href="https://olo.by/map"  >Карта</a>
+                          <a href="https://olo.by/blog"  >Новости</a>
+             
+      <a href="https://olo.by/ad/create" >Добавить объявление <i class="las la-angle-right"></i></a>
+
+      </div>
+
+      </div>
+
+      <div class="mobile-fixed-menu-content-footer-link" >
+
+          <a href="https://olo.by/rules">Правила сервиса</a>
+          <a href="https://olo.by/polzovatelskoe-soglashenie">Пользовательское соглашение</a>
+          <a href="https://olo.by/feedback">Служба поддержки</a>       
+
+      </div>
+
+    </div>
+</div>
+
+
+<div class="modal-custom-bg" id="modal-cart" style="display: none;" >
+    <div class="modal-custom" style="max-width: 750px;" >
+
+      <span class="modal-custom-close" ><i class="las la-times"></i></span>
+
+      <div class="modal-cart-header" >
+          <h5>Корзина товаров</h5>
+          <p class="cart-info" ></p>        
+      </div>
+
+      <div class="cart-container mt20" ></div>
+
+    </div>
+</div>
+
+
+
+<div class="modal-custom-bg bg-click-close" style="display: none;" id="modal-order-accept" >
+    <div class="modal-custom animation-modal" style="max-width: 500px" >
+
+      <span class="modal-custom-close" ><i class="las la-times"></i></span>
+      
+      <div class="modal-notification-content" >
+          <i class="las la-check"></i>
+
+          <h4 class="modal-notification-text" >Заказ успешно создан!</h4>            
+      </div>
+
+      <div class="mt20" ></div>
+
+      <div class="row" >
+         <div class="col-lg-6" >
+           <button class="button-style-custom schema-color-button color-light button-click-close mb10" >Закрыть</button>
+         </div> 
+         <div class="col-lg-6" >
+           <a href="https://olo.by/user//orders" class="button-style-custom schema-color-button color-blue mb10" >Перейти к заказам</a>
+         </div>                    
+      </div>      
+
+    </div>
+</div>
+
+<div class="mobile-box-register-bonus" data-status="1" >
+
+   <span class="mobile-box-register-bonus-close" ><i class="las la-times"></i></span>
+   
+   <h5>Зарегистрируйтесь на нашем сайте</h5>
+
+   <p>и получите <strong>1 р.</strong> на свой бонусный счет!</p>
+
+   <a href="https://olo.by/auth" class="btn-custom btn-color-white" >Зарегистрироваться</a>
+
+</div>
+
+
+<div class="modal-custom-bg" id="modal-auth" style="display: none;" >
+    <div class="modal-custom" style="max-width: 400px" >
+
+      <span class="modal-custom-close" ><i class="las la-times"></i></span>
+
+      <div class="modal-auth-content" >
+
+         
+<div class="auth-block-tabs" >
+   <span data-tab="1" class="active" >Войти</span>
+   <span data-tab="2" >Регистрация</span>
+</div>
+
+<div class="auth-block-tab auth-block-tab-auth auth-block-tab-1" >
+
+        <p class="text-center mb20" >Укажите номер телефона и пароль для входа на сайт</p>
+    
+
+        <div class="input-phone-format" >
+
+      <input type="text"  class="form-control input-style2-custom phone-mask" data-format="+375(__) ___ __ __" placeholder="Номер телефона" name="user_login">
+      
+      
+    </div>
+    
+    <div class="msg-error mb10" data-name="user_login" ></div>
+
+    <input type="password"  class="form-control input-style2-custom" placeholder="Пароль" maxlength="25" name="user_pass">
+    <div class="msg-error mb10" data-name="user_pass" ></div>  
+    
+    <div class="box-save-auth" >
+      <label class="checkbox">
+        <input type="checkbox" name="save_auth" value="1" >
+        <span></span>
+        Сохранить пароль      </label>    
+    </div>
+
+    <div class="auth-captcha"  >
+      <div class="row" >
+        <div class="col-lg-4 col-12" ><img src="" ></div>
+        <div class="col-lg-8 col-12" ><input type="text"  class="form-control input-style2-custom" placeholder="Укажите код" name="captcha"></div>
+      </div>
+      <div class="msg-error mb10" data-name="captcha" ></div>
+    </div>
+
+    <button class="button-style-custom schema-color-button color-green action-auth-send mt20" >Войти</button>
+    <button class="button-style-custom color-light action-forgot mt10" >Восстановить пароль</button>
+
+    
+    <div class="clr" ></div>
+
+</div>
+
+<div class="auth-block-tab auth-block-tab-reg auth-block-tab-2" >
+
+        <p class="text-center mb20" >Укажите номер телефона для регистрации на сайте</p>
+    
+    <div class="auth-block-right-box-tab-1-1" >
+      
+            <div class="input-phone-format" >
+      
+        <input type="text"  class="form-control input-style2-custom phone-mask" data-format="+375(__) ___ __ __" placeholder="Номер телефона" name="user_login">
+        
+        
+      </div>
+            
+      <div class="msg-error mb10" data-name="user_login" ></div>
+  
+      <div class="auth-captcha" style="display: block;" >
+        <div class="row" >
+          <div class="col-lg-4 col-12" ><img src="" ></div>
+          <div class="col-lg-8 col-12" ><input type="text"  class="form-control input-style2-custom" placeholder="Укажите код" name="captcha"></div>
+        </div>
+        <div class="msg-error mb10" data-name="captcha" ></div>
+      </div>
+  
+      <button class="button-style-custom schema-color-button color-green action-reg-send mt20" >Продолжить</button>
+
+    </div>
+
+    <div class="auth-block-right-box-tab-1-2" >
+      <p class="auth-block-right-box-tab-1-2-back" > <span><i class="las la-arrow-left"></i> назад</span> </p>
+      <input type="text"  class="form-control input-style2-custom" placeholder="" maxlength="4" name="user_code_login">
+      <div class="msg-error mb10" data-name="user_code_login" ></div>
+
+      <div class="auth-captcha"  >
+        <div class="row" >
+          <div class="col-lg-4 col-12" ><img src="" ></div>
+          <div class="col-lg-8 col-12" ><input type="text"  class="form-control input-style2-custom" placeholder="Укажите код" name="captcha"></div>
+        </div>
+        <div class="msg-error mb10" data-name="captcha" ></div>
+      </div>
+
+      <button class="button-style-custom schema-color-button color-green action-reg-verify mt20" >Продолжить</button>                   
+    </div>
+
+    <div class="auth-block-right-box-tab-1-3" >
+
+      <input type="text"  class="form-control input-style2-custom" placeholder="Ваше имя" name="user_name">
+      <div class="msg-error mb10" data-name="user_name" ></div>
+
+      <input type="password"  class="form-control input-style2-custom" placeholder="Пароль" maxlength="25" name="user_pass">
+      <div class="msg-error mb10" data-name="user_pass" ></div>
+
+      <button class="button-style-custom schema-color-button color-green action-reg-finish mt20" >Завершить регистрацию</button>           
+    </div>
+
+    
+    <div class="clr" ></div>
+
+</div>
+
+<div class="auth-block-tab auth-block-tab-forgot" >
+
+    <p class="text-center mb20" >Восстановление пароля</p>
+
+    <input type="text" class="form-control input-style2-custom auth-forgot-login" placeholder="Телефон или электронная почта" >
+    <div class="msg-error mb10" data-name="user_recovery_login" ></div>
+
+    <div class="auth-captcha" style="display: block;" >
+      <div class="row" >
+        <div class="col-lg-4 col-12" ><img src="" ></div>
+        <div class="col-lg-8 col-12" ><input type="text"  class="form-control input-style2-custom" placeholder="Укажите код" name="captcha"></div>
+      </div>
+      <div class="msg-error mb10" data-name="captcha" ></div>
+    </div>
+
+    <button class="button-style-custom schema-color-button color-green auth-forgot mt20" >Восстановить</button>
+
+</div>
+
+
+
+      </div>
+
+
+    </div>
+</div>
+
+<div class="modal-custom-bg bg-click-close" style="display: none;" id="modal-notification" >
+    <div class="modal-custom animation-modal" style="max-width: 400px" >
+
+      <span class="modal-custom-close" ><i class="las la-times"></i></span>
+      
+      <div class="modal-notification-content" >
+          <i class="las la-check"></i>
+
+          <h4 class="modal-notification-text" ></h4>            
+      </div>
+
+    </div>
+</div>
+
+<div class="modal-custom-bg bg-click-close"  id="modal-auth-block" style="display: none;" >
+    <div class="modal-custom animation-modal" style="max-width: 450px;" >
+
+      <span class="modal-custom-close" ><i class="las la-times"></i></span>
+
+      <h4 style="color: red;" > <strong>Ваш аккаунт заблокирован!</strong> </h4>
+
+      <div class="mt30" ></div>
+
+      <p>Если вы не согласны с нашим решением — напишите в службу поддержки</p>
+
+      <div class="mt30" ></div>
+
+      <div class="row" >
+         <div class="col-lg-7" >
+           <a class="button-style-custom schema-color-button color-green mb10" href="https://olo.by/feedback" >Написать в поддержку</a>
+         </div>            
+      </div>
+
+    </div>
+</div>
+
+<div class="modal-custom-bg bg-click-close"  id="modal-auth-delete" style="display: none;" >
+    <div class="modal-custom animation-modal" style="max-width: 450px;" >
+
+      <span class="modal-custom-close" ><i class="las la-times"></i></span>
+
+      <h4 style="color: red;" > <strong>Ваш аккаунт удален!</strong> </h4>
+
+      <div class="mt30" ></div>
+
+      <div class="row" >
+         <div class="col-lg-7" >
+           <a class="button-style-custom schema-color-button color-green mb10" href="https://olo.by/feedback" >Написать в поддержку</a>
+         </div>            
+      </div>
+
+    </div>
+</div>
+
+<div class="modal-custom-bg bg-click-close"  id="modal-balance" style="display: none;" >
+    <div class="modal-custom animation-modal" style="max-width: 500px;" >
+
+      <span class="modal-custom-close" ><i class="las la-times"></i></span>
+
+      <div class="text-center" >
+        <span class="circle-icon" > <i class="las la-wallet"></i> </span>
+      </div>
+
+      <h4 class="text-center" > <strong>Недостаточно средств для оплаты!</strong> </h4>
+
+      <div class="mt30" ></div>
+
+      <h6 class="text-center" >Ваш баланс <strong class="modal-balance-summa" ></strong> </h6>
+
+      <div class="mt30" ></div> 
+
+      <div class="row" >
+         <div class="col-lg-3" ></div>
+         <div class="col-lg-6" >
+           <a class="button-style-custom schema-color-button color-green mb10" href="https://olo.by/user//balance" >Пополнить</a>
+         </div>
+         <div class="col-lg-3" ></div>            
+      </div>
+
+    </div>
+</div>
+
+<div class="modal-custom-bg bg-click-close"  id="modal-services-access" style="display: none;" >
+    <div class="modal-custom animation-modal" style="max-width: 500px;" >
+
+      <span class="modal-custom-close" ><i class="las la-times"></i></span>
+
+      <div class="text-center" >
+        <span class="circle-icon" > <i class="las la-check"></i> </span>
+      </div>
+
+      <h4 class="text-center" > <strong>Услуга успешно подключена!</strong> </h4>
+
+      <div class="mt30" ></div> 
+
+      <div class="row" >
+         <div class="col-lg-3" ></div>
+         <div class="col-lg-6" >
+            <button class="button-style-custom schema-color-button width100 button-click-close color-light mb10" >Закрыть</button>
+         </div>
+         <div class="col-lg-3" ></div>            
+      </div>
+
+    </div>
+</div>
+
+<div class="modal-custom-bg"  id="modal-chat-user" style="display: none;" >
+    <div class="modal-custom animation-modal" style="max-width: 900px; padding: 0px;" >
+
+      <span class="modal-custom-close modal-chat-user-close" ><i class="las la-times"></i></span>
+
+      <div class="modal-chat-user-content init-chat-body" ></div>
+
+    </div>
+</div>
+
+<div class="modal-custom-bg bg-click-close" style="display: none;" id="modal-chat-user-confirm-delete" >
+    <div class="modal-custom animation-modal" style="max-width: 400px" >
+
+      <span class="modal-custom-close" ><i class="las la-times"></i></span>
+      
+      <div class="modal-confirm-content" >
+          <h4>Вы действительно хотите удалить диалог?</h4>            
+      </div>
+
+      <div class="mt30" ></div>
+
+      <div class="modal-custom-button" >
+         <div>
+           <button class="button-style-custom btn-color-danger chat-user-delete schema-color-button" >Удалить</button>
+         </div> 
+         <div>
+           <button class="button-style-custom color-light button-click-close" >Отменить</button>
+         </div>                                       
+      </div>
+
+    </div>
+</div>
+
+<div class="modal-custom-bg bg-click-close" style="display: none;" id="modal-chat-user-confirm-block" >
+    <div class="modal-custom animation-modal" style="max-width: 400px" >
+
+      <span class="modal-custom-close" ><i class="las la-times"></i></span>
+      
+      <div class="modal-confirm-content" >
+          <h4>Внести пользователя в чёрный список?</h4>    
+          <p class="mt15" >Пользователь не сможет писать вам в чатах и оставлять комментарии к объявлениям.</p>        
+      </div>
+
+      <div class="mt30" ></div>
+
+      <div class="modal-custom-button" >
+         <div>
+           <button class="button-style-custom color-blue chat-user-block schema-color-button" >Внести</button>
+         </div> 
+         <div>
+           <button class="button-style-custom color-light button-click-close" >Отменить</button>
+         </div>                                       
+      </div>
+
+    </div>
+</div>
+
+<div class="modal-custom-bg" style="display: none;" id="modal-complaint" >
+    <div class="modal-custom width550 animation-modal" >
+
+      <span class="modal-custom-close" ><i class="las la-times"></i></span>
+
+      <div class="modal-complaint" >
+      
+      <form method="post" class="modal-complaint-form" > 
+
+           <h4>Сообщить о нарушении</h4>
+
+           <div class="textarea-custom mt20" >
+
+               <textarea placeholder="Опишите подробности нарушения" name="text" ></textarea>
+               <div class="textarea-custom-actions text-right" >
+                 <button class="btn-custom-mini color-light" >Отправить</button>
+               </div>
+             
+           </div>
+
+          <input type="hidden" name="id" value="0" >
+          <input type="hidden" name="action_complain" value="" >
+          <input type="hidden" name="csrf_token" value="e662871eac9b3e163a63e1188f6978b08a146d238813c1f7c36a45c5c2f06b25" >
+
+      </form>
+
+      <div class="modal-complaint-notification" >
+          <i class="las la-check"></i>
+          <h4></h4>
+      </div> 
+
+      </div>
+
+
+    </div>
+</div>
+
+<div class="modal-custom-bg" style="display: none;" id="modal-delivery-point" >
+    <div class="modal-custom width850 animation-modal" >
+
+        <span class="modal-custom-close" ><i class="las la-times"></i></span>
+
+        <h4>Пункты получения</h4> 
+
+        <div class="container-custom-search" >
+          <input type="text" autocomplete="nope" class="form-control mt15 action-input-search-delivery-city" placeholder="Город" >
+          <div class="custom-results SearchDeliveryCityResults" ></div>
+        </div>
+
+        <div class="modal-delivery-point-map mt15" >
+            
+            <div class="modal-delivery-point-map-init" id="modal-delivery-point-map-init" >
+            <div class="modal-delivery-point-preload-spinner" >
+                <div class="spinner-grow preload-spinner" role="status">
+                  <span class="sr-only"></span>
+                </div> 
+            </div>
+            </div>           
+
+        </div>
+
+        <input type="hidden" name="map_vendor" value="custom" >
+        <input type="hidden" name="map_vendor_key" value="" >
+
+    </div>
+</div>
+
+<div class="modal-custom-bg" style="display: none;" id="modal-user-story-add" >
+    <div class="modal-custom animation-modal" style="max-width: 450px" >
+
+        <span class="modal-custom-close" ><i class="las la-times"></i></span>
+
+        
+        <div class="modal-user-story-add-actions" >
+            
+            <button class="button-style-custom btn-color-blue-light schema-color-button action-user-story-image-add" >Добавить фото</button>
+
+            <button class="button-style-custom btn-color-blue-light schema-color-button action-user-story-video-add mt10" >Добавить видео</button>
+
+            <form class="modal-user-story-image-form" >
+                <input type="file" name="story_media" accept=".png,.jpg,.jpeg" >
+            </form>      
+
+            <form class="modal-user-story-video-form" >
+                <input type="file" name="story_media" accept=".mp4,.mov,.avi" >
+            </form>      
+
+        </div>
+
+    </div>
+</div>
+
+<div class="modal-view-user-stories" style="display: none;" >
+    <div class="modal-view-user-stories-container" ></div>
+</div>
+
+
+<div class="modal-user-story-add-maker" style="display: none;" >
+    <div class="modal-user-story-add-container-maker" >
+        
+      <div class="spinner-grow preload-spinner" role="status"><span class="sr-only"></span></div>
+
+    </div>
+</div>
+
+<div class="modal-custom-bg bg-click-close" style="display: none;" id="modal-user-story-confirm-delete" >
+    <div class="modal-custom animation-modal" style="max-width: 400px" >
+
+      <span class="modal-custom-close" ><i class="las la-times"></i></span>
+      
+      <div class="modal-confirm-content" >
+          <h4>Вы действительно хотите удалить сторис?</h4>         
+      </div>
+
+      <div class="mt30" ></div>
+
+      <div class="modal-custom-button" >
+         <div>
+           <button class="button-style-custom btn-color-danger user-story-delete schema-color-button" >Удалить</button>
+         </div> 
+         <div>
+           <button class="button-style-custom color-light button-click-close" >Отменить</button>
+         </div>                                       
+      </div>
+
+    </div>
+</div>
+
+<div class="block-cookies" >
+   <p>
+     Этот Сайт использует файлы cookies для более удобной работы пользователей с ним. Продолжая любое дальнейшее использование Сайта, Вы соглашаетесь с этим. Более подробная информация доступна в <a href="https://olo.by/politika-cookie">Политики использования cookie</a>
+   </p>
+   <span class="btn-custom btn-color-blue" >Понятно</span>
+</div>
+
+<div class="lang-js-1 lang-js" >Аукцион завершен</div>
+<div class="lang-js-2 lang-js" >минут</div>
+<div class="lang-js-3 lang-js" >секунд</div>
+<div class="lang-js-4 lang-js" >Выбрано</div>
+<div class="lang-js-5 lang-js" >Добавить</div>
+<div class="lang-js-6 lang-js" >Аукцион завершен</div>
+<div class="lang-js-7 lang-js" >Скрыть параметры</div>
+<div class="lang-js-8 lang-js" >Все параметры</div>
+<div class="lang-js-9 lang-js" >Вы действительно хотите удалить страницу?</div>
+
+</noindex>
+
+<script src="/templates/js/jquery-3.6.0.min.js?d1e1896d"></script><script src="/templates/js/bootstrap.bundle.min.js?d1e1896d"></script><script src="/templates/js/bootstrap.bundle.js?d1e1896d"></script><script src="/templates/js/popper.min.js?d1e1896d"></script><script src="/templates/js/bootstrap.min.js?d1e1896d"></script><script src="/templates/js/jquery.cookie.js?d1e1896d"></script><script src="/templates/js/owl-carousel/owl.carousel.min.js?d1e1896d"></script><script src="/templates/js/slick/slick.min.js?d1e1896d"></script><script src="/templates/js/unisite-select.js?d1e1896d"></script><script src="/templates/js/vendor.js?d1e1896d"></script><script src="/templates/js/cart.js?d1e1896d"></script><script src="/templates/js/chat.js?d1e1896d"></script><script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script><script src="/templates/js/lightgallery.min.js?d1e1896d"></script><script src="/templates/js/lightslider.min.js?d1e1896d"></script><script src="/templates/js/lg-zoom.min.js?d1e1896d"></script><script src="/templates/js/lg-thumbnail.min.js?d1e1896d"></script><script src="/templates/js/lg-video.js?d1e1896d"></script><script src="/templates/js/lg-autoplay.js?d1e1896d"></script><script src="/templates/js/ion/js/ion.rangeSlider.min.js?d1e1896d"></script><script src="/templates/js/jquery-inputformat.min.js?d1e1896d"></script><script src="/templates/js/dragula/dragula.min.js?d1e1896d"></script><script src="/templates/js/jquery.maskedinput.min.js?d1e1896d"></script><script src="/templates/js/jquery.countdown.min.js?d1e1896d"></script><script src="/templates/js/apexcharts/apexcharts.min.js?d1e1896d"></script><script src="/templates/js/auth.js?d1e1896d"></script><script src="/templates/js/tippy.all.min.js?d1e1896d"></script><script src="/templates/js/ui/jquery-ui.min.js?d1e1896d"></script>
+            
+            <script type='text/javascript'>
+            if (navigator.serviceWorker.controller) {
+                
+            } else {
+                navigator.serviceWorker.register('https://olo.by/sw.js?v=1794737512', {
+                    scope: '/'
+                }).then(function(reg) {
+                    
+                });
+            }
+            </script>
+          
+
+  </body>
+</html> 

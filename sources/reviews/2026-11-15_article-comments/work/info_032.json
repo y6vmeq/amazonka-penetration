@@ -1,0 +1,47 @@
+{
+ "number": 32,
+ "url": "https://mycity.by/news/obshchestvo/14369-respublikanskij-festival-gastrofest-craft-projdet-v-mogileve-uznali-chto-v-menyu",
+ "title": "Республиканский фестиваль Gastrofest.Craft пройдет в Могилеве. Узнали, что в меню",
+ "at": "2026-11-15T14:14:35.752Z",
+ "html": "raw/032_mycity-by_mycity-14369-gastrofest-craft.html",
+ "txt": "raw/032_mycity-by_mycity-14369-gastrofest-craft.txt",
+ "sha256": "e04eedb4d8d67b123f7f30f0d6763699e1c0cd21578f69298d75d5823eb94452",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [
+   {
+    "src": "https://yastatic.net/share/ya-share-cnt.html?url=https%3A%2F%2Fmycity.by%2Fnews%2Fobshchestvo%2F14369-respublikanskij-festival-gastrofest-craft-projdet-v-mogileve-uznali-chto-v-menyu&services=vkontakte,twitter,odnoklassniki,moimir",
+    "id": "",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [
+   "https://vk.com/js/api/openapi.js?130"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline form-search",
+    "action": "/news/obshchestvo",
+    "fields": [
+     "input:search:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 5804
+ },
+ "extra": {
+  "name": "mycity_14369_gastrofest-craft",
+  "status": 200,
+  "requested": "https://mycity.by/news/obshchestvo/14369-respublikanskij-festival-gastrofest-craft-projdet-v-mogileve-uznali-chto-v-menyu",
+  "pre": null
+ }
+}

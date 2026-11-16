@@ -1,0 +1,56 @@
+{
+ "number": 290,
+ "url": "https://people.onliner.by/sdapi/catalog/search/iframe?referrer=https://people.onliner.by/",
+ "title": "Поиск",
+ "at": "2026-11-15T17:15:01.928Z",
+ "html": "raw/290_people-onliner-by_onliner-search-budennogo-13.html",
+ "txt": "raw/290_people-onliner-by_onliner-search-budennogo-13.txt",
+ "sha256": "915588e949dbc86cc44b53a3a9396da425aa76083bf4b8903261d3ce7905fcd9",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 2,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 12,
+    "text": "НЕДВИЖИМОСТЬ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 4,
+    "text": "ЛЮДИ"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 995
+ },
+ "extra": {
+  "name": "onliner-search_budennogo-13",
+  "status": 200,
+  "requested": "https://people.onliner.by/ (поле «Поиск в Новостях»)",
+  "site": "people.onliner.by",
+  "query": "Буденного, 13",
+  "period": "В любом разделе | За все время | Сначала релевантные",
+  "activeTab": "в новостях",
+  "links": [
+   {
+    "href": "https://realt.onliner.by/2018/12/11/papa-johns-9",
+    "text": "Papa John’s идет в регионы. До конца декабря рестораны сети появятся сразу в четырех областных центрах"
+   },
+   {
+    "href": "https://people.onliner.by/2022/01/12/peshehodnaja-mogilev",
+    "text": "Кофейня с тиром и много долгоиграющих баров. Узнали, что есть интересного на могилевской пешеходке"
+   }
+  ],
+  "summary": "Буденного, 13 в каталоге в новостях на барахолке на форуме В любом разделе За все время Сначала релевантные Только с видео НЕДВИЖИМОСТЬ Papa John’s идет в ре"
+ }
+}

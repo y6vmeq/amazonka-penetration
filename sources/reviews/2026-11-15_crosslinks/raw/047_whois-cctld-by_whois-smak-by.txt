@@ -1,0 +1,15 @@
+=== smak.by
+Domain name: smak.by
+Registrar: Open Contact, Ltd
+Person: HIDDEN!
+Email: HIDDEN! Details are available at https://whois.cctld.by
+Name Server: ns1.dreamhost.com
+Name Server: ns2.dreamhost.com
+Name Server: ns3.dreamhost.com
+Update Date: 2026-04-12
+Creation Date: 2008-05-25
+Expiration Date: 2028-06-10
+
+-------------------------------------------
+Service provided by Belarusian Cloud Technologies LLC
+

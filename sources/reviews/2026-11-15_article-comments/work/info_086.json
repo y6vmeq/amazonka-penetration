@@ -1,0 +1,1217 @@
+{
+ "number": 86,
+ "url": "https://t.me/mogilev/4212?embed=1&discussion=1&comments_limit=100",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:30:57.816Z",
+ "html": "raw/086_t-me_tg-mogilev-4212-discussion.html",
+ "txt": "raw/086_t-me_tg-mogilev-4212-discussion.txt",
+ "sha256": "4d141285e739cf0d399df639b7917162b798fa4f3c8cbd4ba143ded2a1dceb40",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 88,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_widget body_widget_discussion emoji_image force_userpic nodark name_nocolor",
+    "textLen": 5213,
+    "text": "34 comments on this post Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о события"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_header_wrap",
+    "textLen": 24,
+    "text": "34 comments on this post"
+   },
+   {
+    "tag": "H3",
+    "id": "",
+    "cls": "tgme_post_discussion_header",
+    "textLen": 24,
+    "text": "34 comments on this post"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion js-message_history",
+    "textLen": 5170,
+    "text": "Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области мо"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 195,
+    "text": " Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области м"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 171,
+    "text": "🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggest"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 44,
+    "text": " Дмитрий Прикольно, я думал это шутка🤣 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 30,
+    "text": "Прикольно, я думал это шутка🤣"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 61,
+    "text": " Roman Lukashevich Передумал я что-то заводить собаку 😂 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 37,
+    "text": "Передумал я что-то заводить собаку 😂"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 63,
+    "text": " Dalya К е сити по 20 минут ходить ,окей ,ахахахха,шикарно "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 51,
+    "text": "К е сити по 20 минут ходить ,окей ,ахахахха,шикарно"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 17,
+    "text": " Андрей М-да "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 4,
+    "text": "М-да"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 22,
+    "text": " Андрей Пошли они "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 9,
+    "text": "Пошли они"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 26,
+    "text": " влад клоуны Могилёва "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 15,
+    "text": "клоуны Могилёва"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 123,
+    "text": " 🚬Meawur d: А бездомные собаки сами за себя штраф платить будут? Или им можно? Если да я скауж что не моя а бездомная "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 105,
+    "text": "А бездомные собаки сами за себя штраф платить будут? Или им можно? Если да я скауж что не моя а бездомная"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 190,
+    "text": " Алексей Поддерживаю, а то зимой или весной идёшь во дворе как по минному полю. Если бы убирали за своими питомцами не было проблем, а так если нравится жить в "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 176,
+    "text": "Поддерживаю, а то зимой или весной идёшь во дворе как по минному полю. Если бы убирали за своими питомцами не было проблем, а так если нравится жить в г**не, ну"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 30,
+    "text": " Алина Демон Вообще пофиг "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 12,
+    "text": "Вообще пофиг"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 268,
+    "text": " Анна А как объяснить собаке, что нужно подождать, проехать на автобусе пару остановок до мест выгула, что бы ни в коем случае не смел писить и какать. Да и по "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 257,
+    "text": "А как объяснить собаке, что нужно подождать, проехать на автобусе пару остановок до мест выгула, что бы ни в коем случае не смел писить и какать. Да и по сути и"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 85,
+    "text": " Deleted Account А если собака сделала свои дела, ей можно дойти пешком до дома? "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 63,
+    "text": "А если собака сделала свои дела, ей можно дойти пешком до дома?"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 223,
+    "text": " Антон Зимой мой ребенок хочет слепить снеговика из снега, а не из ваших какашек. Любите животных, убирайте за ними. Когда вечером идёшь домой можешь и сам не з"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 211,
+    "text": "Зимой мой ребенок хочет слепить снеговика из снега, а не из ваших какашек. Любите животных, убирайте за ними. Когда вечером идёшь домой можешь и сам не заметить"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 101,
+    "text": " Антон Какая бы Европа не была, хотя я не люблю её, но с пакетиками ходят все за своими собаками "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 89,
+    "text": "Какая бы Европа не была, хотя я не люблю её, но с пакетиками ходят все за своими собаками"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 19,
+    "text": " Антон Я прав? "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 7,
+    "text": "Я прав?"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 48,
+    "text": " Антон Кроме Алексея одекватных наверно нет "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 36,
+    "text": "Кроме Алексея одекватных наверно нет"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply user-color-default js-reply_to",
+    "textLen": 13,
+    "text": "Антон Я прав?"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 7,
+    "text": "Я прав?"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 16,
+    "text": " danatela + "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 1,
+    "text": "+"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 34,
+    "text": " Ad Olf ахаахахахахахахахахха "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 21,
+    "text": "ахаахахахахахахахахха"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 236,
+    "text": " Deleted Account Наконец то хоть город чище будет. Не все собачники плохие у которых питомцы возле подъездов гадят, но их большинство. Взять даже после зимы ког"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 214,
+    "text": "Наконец то хоть город чище будет. Не все собачники плохие у которых питомцы возле подъездов гадят, но их большинство. Взять даже после зимы когда снег сходит вс"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 118,
+    "text": " Oksana Бред какой-то. Ехать в спец места для выгула, ну вы даёте ребята. Мозгов на нормальное решение не хватило "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 105,
+    "text": "Бред какой-то. Ехать в спец места для выгула, ну вы даёте ребята. Мозгов на нормальное решение не хватило"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 68,
+    "text": " Татьяна Матвиенко Давно пора, заебали ходят под окнами тявкают "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 44,
+    "text": "Давно пора, заебали ходят под окнами тявкают"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 242,
+    "text": " Vladik Лучше бы просто штраф давали, за то что хозяин не убирает за собакой. Сколько собачников ходят, и во дворах, если собака нагадила, убирают сразу. Почему"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 229,
+    "text": "Лучше бы просто штраф давали, за то что хозяин не убирает за собакой. Сколько собачников ходят, и во дворах, если собака нагадила, убирают сразу. Почему из за п"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 104,
+    "text": " Nikk Nikolay А теперь вопрос этим м. Лесополосы, овраги, где трава по пояс, от клещей обработаны? "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 85,
+    "text": "А теперь вопрос этим м. Лесополосы, овраги, где трава по пояс, от клещей обработаны?"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply user-color-default js-reply_to",
+    "textLen": 95,
+    "text": "Антон Какая бы Европа не была, хотя я не люблю её, но с пакетиками ходят все за своими собаками"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 89,
+    "text": "Какая бы Европа не была, хотя я не люблю её, но с пакетиками ходят все за своими собаками"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 216,
+    "text": " Nikk Nikolay В европе не только с пакетиками ходят. У них площадка для выгула в каждом квартале, да и в Москве и СПб тоже. Пусть оборудуют площадки, а уж потом"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 197,
+    "text": "В европе не только с пакетиками ходят. У них площадка для выгула в каждом квартале, да и в Москве и СПб тоже. Пусть оборудуют площадки, а уж потом штрафы. А так"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply user-color-default js-reply_to",
+    "textLen": 62,
+    "text": "Татьяна Матвиенко Давно пора, заебали ходят под окнами тявкают"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 44,
+    "text": "Давно пора, заебали ходят под окнами тявкают"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 170,
+    "text": " Nikk Nikolay Так ты тоже пьяный возле подъезда тявкаешь, похуже собак будут. Вот алкаши реально зае. ли. И бутылки и мусор и бычки. Какахи дождем смоет. А за э"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 151,
+    "text": "Так ты тоже пьяный возле подъезда тявкаешь, похуже собак будут. Вот алкаши реально зае. ли. И бутылки и мусор и бычки. Какахи дождем смоет. А за этими?"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 30,
+    "text": " 638568 Идите вы в овраг! "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 17,
+    "text": "Идите вы в овраг!"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 48,
+    "text": " Игорь Пакет носи с собой. Все как в Европе "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 36,
+    "text": "Пакет носи с собой. Все как в Европе"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply user-color-default js-reply_to",
+    "textLen": 184,
+    "text": "Алексей Поддерживаю, а то зимой или весной идёшь во дворе как по минному полю. Если бы убирали за своими питомцами не было проблем, а так если нравится жить в г"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 176,
+    "text": "Поддерживаю, а то зимой или весной идёшь во дворе как по минному полю. Если бы убирали за своими питомцами не было проблем, а так если нравится жить в г**не, ну"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 90,
+    "text": " Оксана Оленская Нормальный хозяин не позволит собаке сходить на тротуар или тропинку "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 68,
+    "text": "Нормальный хозяин не позволит собаке сходить на тротуар или тропинку"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply user-color-default js-reply_to",
+    "textLen": 236,
+    "text": "Vladik Лучше бы просто штраф давали, за то что хозяин не убирает за собакой. Сколько собачников ходят, и во дворах, если собака нагадила, убирают сразу. Почему "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 229,
+    "text": "Лучше бы просто штраф давали, за то что хозяин не убирает за собакой. Сколько собачников ходят, и во дворах, если собака нагадила, убирают сразу. Почему из за п"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 41,
+    "text": " Оксана Оленская Полностью согласна. "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 19,
+    "text": "Полностью согласна."
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply user-color-default js-reply_to",
+    "textLen": 262,
+    "text": "Анна А как объяснить собаке, что нужно подождать, проехать на автобусе пару остановок до мест выгула, что бы ни в коем случае не смел писить и какать. Да и по с"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 257,
+    "text": "А как объяснить собаке, что нужно подождать, проехать на автобусе пару остановок до мест выгула, что бы ни в коем случае не смел писить и какать. Да и по сути и"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 76,
+    "text": " Оксана Оленская О, а про транспорт ничего не сказано!!! Про какахи😂🙈 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 54,
+    "text": "О, а про транспорт ничего не сказано!!! Про какахи😂🙈"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 213,
+    "text": " Ольга М Трудно назвать это местом для выгула собак по ул. Ленинской, 39 (овраг). Я свою маленькую собачку туда в траву не поведу. Хотелось бы, чтобы собачники "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 199,
+    "text": "Трудно назвать это местом для выгула собак по ул. Ленинской, 39 (овраг). Я свою маленькую собачку туда в траву не поведу. Хотелось бы, чтобы собачники убирали з"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 276,
+    "text": " Порядина Галина У нас неприличные собачники в районе областной больницы от магазина Авеню Перекрёсток до ул Кулешова без пакета гуляли с любимцами , даже во дв"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 254,
+    "text": "У нас неприличные собачники в районе областной больницы от магазина Авеню Перекрёсток до ул Кулешова без пакета гуляли с любимцами , даже во дворе , где дети гу"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/discussion-widget.js?10",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [
+   "34 comments on this post Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о собы"
+  ],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "action": "",
+    "fields": [
+     "input:hidden:peer",
+     "input:hidden:top_msg_id",
+     "input:hidden:discussion_hash"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 5213
+ },
+ "extra": {
+  "name": "tg_mogilev_4212_discussion",
+  "status": 200,
+  "requested": "https://t.me/mogilev/4212?embed=1&discussion=1&comments_limit=100",
+  "channel": "mogilev",
+  "post": 4212,
+  "tgDiscussion": {
+   "url": "https://t.me/mogilev/4212?embed=1&discussion=1&comments_limit=100",
+   "at": "2026-11-15T14:30:57.815Z",
+   "header": "34 comments on this post",
+   "error": "",
+   "comments": [
+    {
+     "id": "29722",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilevglavnoebot",
+     "text": "🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot",
+     "dateText": "Sep 26, 2024",
+     "datetime": "2024-09-26T17:05:58+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29722",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "👍1"
+     ],
+     "media": []
+    },
+    {
+     "id": "29724",
+     "author": "Дмитрий",
+     "authorHref": "",
+     "text": "Прикольно, я думал это шутка🤣",
+     "dateText": "Sep 26, 2024",
+     "datetime": "2024-09-26T17:17:36+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29724",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "❤15",
+      "👍4",
+      "💅1"
+     ],
+     "media": []
+    },
+    {
+     "id": "29725",
+     "author": "Roman Lukashevich",
+     "authorHref": "",
+     "text": "Передумал я что-то заводить собаку 😂",
+     "dateText": "Sep 26, 2024",
+     "datetime": "2024-09-26T17:21:10+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29725",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "❤8",
+      "👍2",
+      "😁2"
+     ],
+     "media": []
+    },
+    {
+     "id": "29726",
+     "author": "Dalya",
+     "authorHref": "https://t.me/garagedrinking",
+     "text": "К е сити по 20 минут ходить ,окей ,ахахахха,шикарно",
+     "dateText": "Sep 26, 2024",
+     "datetime": "2024-09-26T17:21:52+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29726",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "👍7",
+      "💅1"
+     ],
+     "media": []
+    },
+    {
+     "id": "29727",
+     "author": "Андрей",
+     "authorHref": "",
+     "text": "М-да",
+     "dateText": "Sep 26, 2024",
+     "datetime": "2024-09-26T17:29:50+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29727",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "👍1"
+     ],
+     "media": []
+    },
+    {
+     "id": "29729",
+     "author": "Андрей",
+     "authorHref": "",
+     "text": "Пошли они",
+     "dateText": "Sep 26, 2024",
+     "datetime": "2024-09-26T17:30:03+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29729",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "👍2"
+     ],
+     "media": []
+    },
+    {
+     "id": "29730",
+     "author": "влад",
+     "authorHref": "https://t.me/eyexyhd",
+     "text": "клоуны Могилёва",
+     "dateText": "Sep 26, 2024",
+     "datetime": "2024-09-26T17:36:52+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29730",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "👍6"
+     ],
+     "media": []
+    },
+    {
+     "id": "29731",
+     "author": "🚬Meawur d:",
+     "authorHref": "https://t.me/Meawur",
+     "text": "А бездомные собаки сами за себя штраф платить будут? Или им можно? Если да я скауж что не моя а бездомная",
+     "dateText": "Sep 26, 2024",
+     "datetime": "2024-09-26T17:41:03+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29731",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "👍13",
+      "❤1",
+      "💅1"
+     ],
+     "media": []
+    },
+    {
+     "id": "29736",
+     "author": "Алексей",
+     "authorHref": "https://t.me/AleX1996Malenkov",
+     "text": "Поддерживаю, а то зимой или весной идёшь во дворе как по минному полю. Если бы убирали за своими питомцами не было проблем, а так если нравится жить в г**не, ну это тоже выбор.",
+     "dateText": "Sep 26, 2024",
+     "datetime": "2024-09-26T17:59:23+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29736",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "👍41",
+      "👎4",
+      "❤1",
+      "🦄1"
+     ],
+     "media": []
+    },
+    {
+     "id": "29738",
+     "author": "Алина Демон",
+     "authorHref": "https://t.me/ali_liinka1",
+     "text": "Вообще пофиг",
+     "dateText": "Sep 26, 2024",
+     "datetime": "2024-09-26T18:16:18+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29738",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "😁1"
+     ],
+     "media": []
+    },
+    {
+     "id": "29739",
+     "author": "Анна",
+     "authorHref": "",
+     "text": "А как объяснить собаке, что нужно подождать, проехать на автобусе пару остановок до мест выгула, что бы ни в коем случае не смел писить и какать. Да и по сути именно оборудованных мест выгула по Могилеву не так то много. На карте большинство мест помеченых - это просто участки, удаленные от жилых домов, а не места для выгула. И так же подлежит штрафу.",
+     "dateText": "Sep 26, 2024",
+     "datetime": "2024-09-26T18:19:24+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29739",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "❤16"
+     ],
+     "media": []
+    },
+    {
+     "id": "29740",
+     "author": "Deleted Account",
+     "authorHref": "",
+     "text": "А если собака сделала свои дела, ей можно дойти пешком до дома?",
+     "dateText": "Sep 26, 2024",
+     "datetime": "2024-09-26T18:31:52+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29740",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "29747",
+     "author": "Антон",
+     "authorHref": "",
+     "text": "Зимой мой ребенок хочет слепить снеговика из снега, а не из ваших какашек. Любите животных, убирайте за ними. Когда вечером идёшь домой можешь и сам не заметить ,домой на ботинках принесешь. Мне это не нравится.",
+     "dateText": "Sep 26, 2024",
+     "datetime": "2024-09-26T21:57:20+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29747",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "👍16",
+      "😁1"
+     ],
+     "media": []
+    },
+    {
+     "id": "29748",
+     "author": "Антон",
+     "authorHref": "",
+     "text": "Какая бы Европа не была, хотя я не люблю её, но с пакетиками ходят все за своими собаками",
+     "dateText": "Sep 27, 2024",
+     "datetime": "2024-09-26T22:00:51+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29748",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "❤4"
+     ],
+     "media": []
+    },
+    {
+     "id": "29749",
+     "author": "Антон",
+     "authorHref": "",
+     "text": "Я прав?",
+     "dateText": "Sep 27, 2024",
+     "datetime": "2024-09-26T22:01:01+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29749",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "🤝2"
+     ],
+     "media": []
+    },
+    {
+     "id": "29750",
+     "author": "Антон",
+     "authorHref": "",
+     "text": "Кроме Алексея одекватных наверно нет",
+     "dateText": "Sep 27, 2024",
+     "datetime": "2024-09-26T22:07:52+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29750",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "❤2"
+     ],
+     "media": []
+    },
+    {
+     "id": "29752",
+     "author": "danatela",
+     "authorHref": "https://t.me/ddanatela",
+     "text": "+",
+     "dateText": "Sep 27, 2024",
+     "datetime": "2024-09-26T22:36:21+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29752",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "29753",
+     "author": "Ad Olf",
+     "authorHref": "https://t.me/ossizz",
+     "text": "ахаахахахахахахахахха",
+     "dateText": "Sep 27, 2024",
+     "datetime": "2024-09-26T22:42:57+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29753",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "29769",
+     "author": "Deleted Account",
+     "authorHref": "",
+     "text": "Наконец то хоть город чище будет. Не все собачники плохие у которых питомцы возле подъездов гадят, но их большинство. Взять даже после зимы когда снег сходит все дорожки и тропинки жёлтые и в какашках, и это везде.",
+     "dateText": "Sep 27, 2024",
+     "datetime": "2024-09-27T07:50:24+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29769",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "👍1",
+      "😁1"
+     ],
+     "media": []
+    },
+    {
+     "id": "29787",
+     "author": "Oksana",
+     "authorHref": "https://t.me/Dikaja_Ledi",
+     "text": "Бред какой-то. Ехать в спец места для выгула, ну вы даёте ребята. Мозгов на нормальное решение не хватило",
+     "dateText": "Sep 27, 2024",
+     "datetime": "2024-09-27T10:04:17+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29787",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "29788",
+     "author": "Татьяна Матвиенко",
+     "authorHref": "",
+     "text": "Давно пора, заебали ходят под окнами тявкают",
+     "dateText": "Sep 27, 2024",
+     "datetime": "2024-09-27T10:10:16+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29788",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "👍2"
+     ],
+     "media": []
+    },
+    {
+     "id": "29790",
+     "author": "Vladik",
+     "authorHref": "https://t.me/Vladik_Marakesh",
+     "text": "Лучше бы просто штраф давали, за то что хозяин не убирает за собакой. Сколько собачников ходят, и во дворах, если собака нагадила, убирают сразу. Почему из за придурков, как недохозяева должны страдать нормальные собачники🤦🏻‍♀️",
+     "dateText": "Sep 27, 2024",
+     "datetime": "2024-09-27T10:56:08+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29790",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "👍2"
+     ],
+     "media": []
+    },
+    {
+     "id": "29797",
+     "author": "Nikk Nikolay",
+     "authorHref": "",
+     "text": "А  теперь вопрос этим м. Лесополосы, овраги, где трава по пояс, от клещей обработаны?",
+     "dateText": "Sep 27, 2024",
+     "datetime": "2024-09-27T11:13:28+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29797",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "29799",
+     "author": "Nikk Nikolay",
+     "authorHref": "",
+     "text": "В европе не только с пакетиками ходят. У них площадка для выгула в каждом квартале, да и в Москве и СПб тоже. Пусть оборудуют площадки, а уж потом штрафы. А так на пустом месте бабла срубить хотят.",
+     "dateText": "Sep 27, 2024",
+     "datetime": "2024-09-27T11:17:13+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29799",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "👍4"
+     ],
+     "media": []
+    },
+    {
+     "id": "29800",
+     "author": "Nikk Nikolay",
+     "authorHref": "",
+     "text": "Так ты тоже пьяный возле подъезда тявкаешь, похуже собак будут. Вот алкаши реально зае. ли. И бутылки и мусор и бычки. Какахи дождем смоет. А за этими?",
+     "dateText": "Sep 27, 2024",
+     "datetime": "2024-09-27T11:20:00+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29800",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "❤5",
+      "🔥1"
+     ],
+     "media": []
+    },
+    {
+     "id": "29818",
+     "author": "638568",
+     "authorHref": "",
+     "text": "Идите вы в овраг!",
+     "dateText": "Sep 27, 2024",
+     "datetime": "2024-09-27T12:37:51+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29818",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "29949",
+     "author": "Игорь",
+     "authorHref": "https://t.me/Garry_Nestor",
+     "text": "Пакет носи с собой. Все как в Европе",
+     "dateText": "Sep 29, 2024",
+     "datetime": "2024-09-29T07:56:02+00:00",
+     "url": "https://t.me/mogilev/4212?comment=29949",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "30050",
+     "author": "Оксана Оленская",
+     "authorHref": "",
+     "text": "Нормальный хозяин не позволит собаке сходить на тротуар или тропинку",
+     "dateText": "Sep 29, 2024",
+     "datetime": "2024-09-29T17:37:19+00:00",
+     "url": "https://t.me/mogilev/4212?comment=30050",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "30051",
+     "author": "Оксана Оленская",
+     "authorHref": "",
+     "text": "Полностью согласна.",
+     "dateText": "Sep 29, 2024",
+     "datetime": "2024-09-29T17:38:49+00:00",
+     "url": "https://t.me/mogilev/4212?comment=30051",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "30057",
+     "author": "Оксана Оленская",
+     "authorHref": "",
+     "text": "О, а про транспорт ничего не сказано!!! Про какахи😂🙈",
+     "dateText": "Sep 29, 2024",
+     "datetime": "2024-09-29T19:25:43+00:00",
+     "url": "https://t.me/mogilev/4212?comment=30057",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "30151",
+     "author": "Ольга М",
+     "authorHref": "",
+     "text": "Трудно назвать это местом для выгула собак по ул. Ленинской, 39 (овраг). Я свою маленькую собачку туда в траву не поведу. Хотелось бы, чтобы собачники убирали за своими собаками и не было бы проблем.",
+     "dateText": "Sep 30, 2024",
+     "datetime": "2024-09-30T17:20:14+00:00",
+     "url": "https://t.me/mogilev/4212?comment=30151",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "30397",
+     "author": "Порядина Галина",
+     "authorHref": "",
+     "text": "У нас неприличные собачники в районе областной больницы от магазина Авеню Перекрёсток до ул Кулешова без пакета гуляли с любимцами , даже во дворе , где дети гуляли . По тротуару от школы 45 до магазина Авеню видны собачьи какашки 💩, смотреть неприятно.",
+     "dateText": "Oct 4, 2024",
+     "datetime": "2024-10-04T08:41:15+00:00",
+     "url": "https://t.me/mogilev/4212?comment=30397",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "30960",
+     "author": "Ахименесы ваш красивый подоконник! Ольга",
+     "authorHref": "",
+     "text": "А как будет определятся :ты ведешь собаку в туалет или вы просто гуляете по улице?Или теперь по улице с собакой гулять будет нельзя?",
+     "dateText": "Oct 7, 2024",
+     "datetime": "2024-10-07T10:21:56+00:00",
+     "url": "https://t.me/mogilev/4212?comment=30960",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "31691",
+     "author": "Антон",
+     "authorHref": "",
+     "text": "Просто убирайте за собаками, и всё. А-то слона заведу и буду выгуливать возле подъезда",
+     "dateText": "Oct 13, 2024",
+     "datetime": "2024-10-13T09:05:40+00:00",
+     "url": "https://t.me/mogilev/4212?comment=31691",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    }
+   ],
+   "moreLeft": false,
+   "moreState": [
+    "tme_messages_more accent_bghover js-messages_more autoload hide|after=31691|before="
+   ],
+   "bodyText": "34 comments on this post\nМогилев. Главное!\n🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot\n👍\n1\nSep 26, 2024\nДмитрий\nПрикольно, я думал это шутка🤣\n❤\n15\n👍\n4\n💅\n1\nSep 26, 2024\n"
+  }
+ }
+}

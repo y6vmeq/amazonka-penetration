@@ -1,0 +1,167 @@
+{
+ "number": 94,
+ "url": "https://t.me/mogilev/10287?embed=1&discussion=1&comments_limit=100",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:31:09.284Z",
+ "html": "raw/094_t-me_tg-mogilev-10287-discussion.html",
+ "txt": "raw/094_t-me_tg-mogilev-10287-discussion.txt",
+ "sha256": "b945e70509a6cdfb4b4c5a4ba28a43bbfef252c8f54c3f40cc4cfd19471049ff",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 13,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_widget body_widget_discussion emoji_image force_userpic nodark name_nocolor",
+    "textLen": 519,
+    "text": "1 comment on this post Могилев. Главное! Могилев. Главное! 🔥 В городе стартовал фестиваль «Могилев pro осень» Участвуют 13 заведений: • Гастробар «Цоколь» (ули"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_header_wrap",
+    "textLen": 22,
+    "text": "1 comment on this post"
+   },
+   {
+    "tag": "H3",
+    "id": "",
+    "cls": "tgme_post_discussion_header",
+    "textLen": 22,
+    "text": "1 comment on this post"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion js-message_history",
+    "textLen": 478,
+    "text": "Могилев. Главное! Могилев. Главное! 🔥 В городе стартовал фестиваль «Могилев pro осень» Участвуют 13 заведений: • Гастробар «Цоколь» (улица Дзержинского, 19); •"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply user-color-default js-reply_to",
+    "textLen": 275,
+    "text": "Могилев. Главное! 🔥 В городе стартовал фестиваль «Могилев pro осень» Участвуют 13 заведений: • Гастробар «Цоколь» (улица Дзержинского, 19); • ресторан «Санта М"
+   },
+   {
+    "tag": "I",
+    "id": "",
+    "cls": "tgme_widget_message_reply_thumb",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 257,
+    "text": "🔥 В городе стартовал фестиваль «Могилев pro осень» Участвуют 13 заведений: • Гастробар «Цоколь» (улица Дзержинского, 19); • ресторан «Санта Мария» (улица Симон"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 195,
+    "text": " Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области м"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 171,
+    "text": "🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggest"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_footer",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "FORM",
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login_btn accent_bghover js-login_btn",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/discussion-widget.js?10",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [
+   "т» (улица Буденного, 13/44); • бар «Луч» (улица Ленинская, 15);… 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о собы"
+  ],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "action": "",
+    "fields": [
+     "input:hidden:peer",
+     "input:hidden:top_msg_id",
+     "input:hidden:discussion_hash"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 519
+ },
+ "extra": {
+  "name": "tg_mogilev_10287_discussion",
+  "status": 200,
+  "requested": "https://t.me/mogilev/10287?embed=1&discussion=1&comments_limit=100",
+  "channel": "mogilev",
+  "post": 10287,
+  "tgDiscussion": {
+   "url": "https://t.me/mogilev/10287?embed=1&discussion=1&comments_limit=100",
+   "at": "2026-11-15T14:31:09.284Z",
+   "header": "1 comment on this post",
+   "error": "",
+   "comments": [
+    {
+     "id": "86193",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilevglavnoebot",
+     "text": "🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot",
+     "dateText": "Oct 21, 2025",
+     "datetime": "2025-10-21T15:31:54+00:00",
+     "url": "https://t.me/mogilev/10287?comment=86193",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    }
+   ],
+   "moreLeft": false,
+   "moreState": [
+    "tme_messages_more accent_bghover js-messages_more autoload hide|after=86193|before="
+   ],
+   "bodyText": "1 comment on this post\nМогилев. Главное!\nМогилев. Главное!\n🔥 В городе стартовал фестиваль «Могилев pro осень» Участвуют 13 заведений: • Гастробар «Цоколь» (улица Дзержинского, 19); • ресторан «Санта Мария» (улица Симонова, 69Г); • кафе «Рестобар Колетт» (улица Буденного, 13/44); • бар «Луч» (улица "
+  }
+ }
+}

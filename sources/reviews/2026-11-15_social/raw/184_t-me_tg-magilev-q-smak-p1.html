@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Magilev.by – Telegram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible"
+     content="IE=edge" />
+    <meta name="MobileOptimized" content="176" />
+    <meta name="HandheldFriendly" content="True" />
+    
+<meta property="og:title" content="Magilev.by">
+<meta property="og:image" content="https://cdn4.telesco.pe/file/CPMlVW9Dbl1Hsv1Cdp-DRQZZ1sJrzv9B6LRltEKujxYzx4mvbf7X__PmRXhfBKJ6AR_mADfgfkBzRA5--SCRZfYV_LkON0gTw_yitobOyK3I71imcVddMqEAaMbtXOdcKnye-A2LTwv5MnnLXSmPJh1qAs4Dh5b-9cTDC7_k45GmcnEQx4saUQbjV27oj-AGCA0N-neE4M0XigKe9N0BoKKRQdBy_gpXTW-mRX0iwPlCGJ0141mm8tuMovnIiSfFEzFuniCVWfxB5rYSe0KKDdiLeZsISreWtCLR4Pa1EapmoxI_Og5nGlZKt5ctXOECdtccGGbrWhjOPVtLetoWBA.jpg">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Новости Могилева по существу и с лёгкой иронией
+
+Бот для связи с редакцией: @Magilev_bot Вы можете задать нам свой вопрос, поделиться новостью, прислать фото или видео
+УНП 790179489">
+
+<meta property="twitter:title" content="Magilev.by">
+<meta property="twitter:image" content="https://cdn4.telesco.pe/file/CPMlVW9Dbl1Hsv1Cdp-DRQZZ1sJrzv9B6LRltEKujxYzx4mvbf7X__PmRXhfBKJ6AR_mADfgfkBzRA5--SCRZfYV_LkON0gTw_yitobOyK3I71imcVddMqEAaMbtXOdcKnye-A2LTwv5MnnLXSmPJh1qAs4Dh5b-9cTDC7_k45GmcnEQx4saUQbjV27oj-AGCA0N-neE4M0XigKe9N0BoKKRQdBy_gpXTW-mRX0iwPlCGJ0141mm8tuMovnIiSfFEzFuniCVWfxB5rYSe0KKDdiLeZsISreWtCLR4Pa1EapmoxI_Og5nGlZKt5ctXOECdtccGGbrWhjOPVtLetoWBA.jpg">
+<meta property="twitter:site" content="@Telegram">
+
+<meta property="al:ios:app_store_id" content="686449807">
+<meta property="al:ios:app_name" content="Telegram Messenger">
+<meta property="al:ios:url" content="tg://resolve?domain=magilev">
+
+<meta property="al:android:url" content="tg://resolve?domain=magilev">
+<meta property="al:android:app_name" content="Telegram">
+<meta property="al:android:package" content="org.telegram.messenger">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@Telegram">
+<meta name="twitter:description" content="Новости Могилева по существу и с лёгкой иронией
+
+Бот для связи с редакцией: @Magilev_bot Вы можете задать нам свой вопрос, поделиться новостью, прислать фото или видео
+УНП 790179489
+">
+
+    <link rel="canonical" href="/s/magilev?q=%D1%81%D0%BC%D0%B0%D0%BA&before=16053">
+
+    <script>window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches&&document.documentElement&&document.documentElement.classList&&document.documentElement.classList.add('theme_dark');</script>
+    <link rel="icon" type="image/svg+xml" href="//telegram.org/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="//telegram.org/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//telegram.org/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="//telegram.org/img/favicon-16x16.png">
+<link rel="alternate icon" href="//telegram.org/img/favicon.ico" type="image/x-icon" />
+    <link href="//telegram.org/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+    <link href="//telegram.org/css/widget-frame.css?75" rel="stylesheet" media="screen">
+    <link href="//telegram.org/css/telegram-web.css?39" rel="stylesheet" media="screen">
+    <script>TBaseUrl='/';</script>
+    <style>        .user-color-12 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #3391d4 0px, #3391d4 5px, #7dd3f0 5px, #7dd3f0 10px);
+          --user-accent-color: #3391d4;
+          --user-background: #3391d41f;
+        }        .user-color-10 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #27a910 0px, #27a910 5px, #a7dc57 5px, #a7dc57 10px);
+          --user-accent-color: #27a910;
+          --user-background: #27a9101f;
+        }        .user-color-8 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #e0802b 0px, #e0802b 5px, #fac534 5px, #fac534 10px);
+          --user-accent-color: #e0802b;
+          --user-background: #e0802b1f;
+        }        .user-color-7 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #e15052 0px, #e15052 5px, #f9ae63 5px, #f9ae63 10px);
+          --user-accent-color: #e15052;
+          --user-background: #e150521f;
+        }        .user-color-9 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #a05ff3 0px, #a05ff3 5px, #f48fff 5px, #f48fff 10px);
+          --user-accent-color: #a05ff3;
+          --user-background: #a05ff31f;
+        }        .user-color-11 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #27acce 0px, #27acce 5px, #82e8d6 5px, #82e8d6 10px);
+          --user-accent-color: #27acce;
+          --user-background: #27acce1f;
+        }        .user-color-13 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #dd4371 0px, #dd4371 5px, #ffbe9f 5px, #ffbe9f 10px);
+          --user-accent-color: #dd4371;
+          --user-background: #dd43711f;
+        }        .user-color-14 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #247bed 0px, #247bed 5px, #f04856 5px, #f04856 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #247bed;
+          --user-background: #247bed1f;
+        }        .user-color-15 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #d67722 0px, #d67722 5px, #1ea011 5px, #1ea011 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #d67722;
+          --user-background: #d677221f;
+        }        .user-color-16 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #179e42 0px, #179e42 5px, #e84a3f 5px, #e84a3f 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #179e42;
+          --user-background: #179e421f;
+        }        .user-color-17 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #2894af 0px, #2894af 5px, #6fc456 5px, #6fc456 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #2894af;
+          --user-background: #2894af1f;
+        }        .user-color-18 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #0c9ab3 0px, #0c9ab3 5px, #ffad95 5px, #ffad95 10px, #ffe6b5 10px, #ffe6b5 15px);
+          --user-accent-color: #0c9ab3;
+          --user-background: #0c9ab31f;
+        }        .user-color-19 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #7757d6 0px, #7757d6 5px, #f79610 5px, #f79610 10px, #ffde8e 10px, #ffde8e 15px);
+          --user-accent-color: #7757d6;
+          --user-background: #7757d61f;
+        }        .user-color-20 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #1585cf 0px, #1585cf 5px, #f2ab1d 5px, #f2ab1d 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #1585cf;
+          --user-background: #1585cf1f;
+        }        body.dark .user-color-12, html.theme_dark .user-color-12 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #52bfff 0px, #52bfff 5px, #0b5494 5px, #0b5494 10px);
+          --user-accent-color: #52bfff;
+          --user-background: #52bfff1f;
+        }        body.dark .user-color-10, html.theme_dark .user-color-10 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #a7eb6e 0px, #a7eb6e 5px, #167e2d 5px, #167e2d 10px);
+          --user-accent-color: #a7eb6e;
+          --user-background: #a7eb6e1f;
+        }        body.dark .user-color-8, html.theme_dark .user-color-8 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ecb04e 0px, #ecb04e 5px, #c35714 5px, #c35714 10px);
+          --user-accent-color: #ecb04e;
+          --user-background: #ecb04e1f;
+        }        body.dark .user-color-7, html.theme_dark .user-color-7 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ff9380 0px, #ff9380 5px, #992f37 5px, #992f37 10px);
+          --user-accent-color: #ff9380;
+          --user-background: #ff93801f;
+        }        body.dark .user-color-9, html.theme_dark .user-color-9 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #c697ff 0px, #c697ff 5px, #5e31c8 5px, #5e31c8 10px);
+          --user-accent-color: #c697ff;
+          --user-background: #c697ff1f;
+        }        body.dark .user-color-11, html.theme_dark .user-color-11 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #40d8d0 0px, #40d8d0 5px, #045c7f 5px, #045c7f 10px);
+          --user-accent-color: #40d8d0;
+          --user-background: #40d8d01f;
+        }        body.dark .user-color-13, html.theme_dark .user-color-13 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ff86a6 0px, #ff86a6 5px, #8e366e 5px, #8e366e 10px);
+          --user-accent-color: #ff86a6;
+          --user-background: #ff86a61f;
+        }        body.dark .user-color-14, html.theme_dark .user-color-14 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #3fa2fe 0px, #3fa2fe 5px, #e5424f 5px, #e5424f 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #3fa2fe;
+          --user-background: #3fa2fe1f;
+        }        body.dark .user-color-15, html.theme_dark .user-color-15 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ff905e 0px, #ff905e 5px, #32a527 5px, #32a527 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #ff905e;
+          --user-background: #ff905e1f;
+        }        body.dark .user-color-16, html.theme_dark .user-color-16 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #66d364 0px, #66d364 5px, #d5444f 5px, #d5444f 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #66d364;
+          --user-background: #66d3641f;
+        }        body.dark .user-color-17, html.theme_dark .user-color-17 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #22bce2 0px, #22bce2 5px, #3da240 5px, #3da240 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #22bce2;
+          --user-background: #22bce21f;
+        }        body.dark .user-color-18, html.theme_dark .user-color-18 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #22bce2 0px, #22bce2 5px, #ff9778 5px, #ff9778 10px, #ffda6b 10px, #ffda6b 15px);
+          --user-accent-color: #22bce2;
+          --user-background: #22bce21f;
+        }        body.dark .user-color-19, html.theme_dark .user-color-19 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #9791ff 0px, #9791ff 5px, #f2731d 5px, #f2731d 10px, #ffdb59 10px, #ffdb59 15px);
+          --user-accent-color: #9791ff;
+          --user-background: #9791ff1f;
+        }        body.dark .user-color-20, html.theme_dark .user-color-20 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #3da6eb 0px, #3da6eb 5px, #eea51d 5px, #eea51d 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #3da6eb;
+          --user-background: #3da6eb1f;
+        }.user-color-6, .user-color-4, .user-color-2, .user-color-0, .user-color-1, .user-color-3, .user-color-5,   .user-color-default {
+    --user-accent-color: var(--accent-color);
+    --user-accent-background: var(--accent-background);
+    --user-line-gradient: linear-gradient(45deg, var(--accent-color), var(--accent-color));
+  }</style>
+  </head>
+  <body class="widget_frame_base tgme_webpreview emoji_image thin_box_shadow tme_mode no_transitions">
+    <div class="tgme_background_wrap">
+      <canvas id="tgme_background" class="tgme_background" width="50" height="50" data-colors="dbddbb,6ba587,d5d88d,88b884"></canvas>
+      <div class="tgme_background_pattern"></div>
+    </div>
+    <header class="tgme_header search_collapsed">
+  <div class="tgme_container">
+    <div class="tgme_header_search">
+      <form class="tgme_header_search_form has_value" action="/s/magilev">
+        <svg class="tgme_header_search_form_icon" width="20" height="20" viewBox="0 0 20 20"><g fill="none" stroke="#7D7F81" stroke-width="1.4"><circle cx="9" cy="9" r="6"></circle><path d="M13.5,13.5 L17,17" stroke-linecap="round"></path></g></svg>
+        <input class="tgme_header_search_form_input js-header_search" placeholder="Search" name="q" autocomplete="off" value="смак" />
+        <a href="/s/magilev" class="tgme_header_search_form_clear"><svg class="tgme_action_button_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20"><g class="icon_body" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#000000" stroke-width="1.5"><path d="M6 14l8-8m0 8L6 6" stroke-dasharray="0,11.314" stroke-dashoffset="5.657"/><path d="M26 14l8-8m0 8l-8-8" stroke-dasharray="0.371,10.943" stroke-dashoffset="5.842"/><path d="M46 14l8-8m0 8l-8-8" stroke-dasharray="1.982,9.332" stroke-dashoffset="6.647756"/><path d="M66 14l8-8m0 8l-8-8" stroke-dasharray="5.173,6.14" stroke-dashoffset="8.243"/><path d="M86 14l8-8m0 8l-8-8" stroke-dasharray="7.866,3.448" stroke-dashoffset="9.59"/><path d="M106 14l8-8m0 8l-8-8" stroke-dasharray="9.471,1.843" stroke-dashoffset="10.392"/><path d="M126 14l8-8m0 8l-8-8" stroke-dasharray="10.417,0.896" stroke-dashoffset="10.866"/><path d="M146 14l8-8m0 8l-8-8" stroke-dasharray="10.961,0.353" stroke-dashoffset="11.137"/><path d="M166 14l8-8m0 8l-8-8" stroke-dasharray="11.234,0.08" stroke-dashoffset="11.274"/><path d="M186 14l8-8m0 8l-8-8"/></g></svg></a>
+      </form>
+    </div>
+    <div class="tgme_header_right_column">
+      <section class="tgme_right_column">
+        <div class="tgme_channel_info">
+          <div class="tgme_channel_info_header">
+            <i class="tgme_page_photo_image bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i>
+            <div class="tgme_channel_info_header_title_wrap">
+              <div class="tgme_channel_info_header_title"><span dir="auto">Magilev.by</span></div>
+              <div class="tgme_channel_info_header_labels"></div>
+            </div>
+            <div class="tgme_channel_info_header_username"><a href="https://t.me/magilev">@magilev</a></div>
+          </div>
+          <div class="tgme_channel_info_counters"><div class="tgme_channel_info_counter"><span class="counter_value">2.26K</span> <span class="counter_type">subscribers</span></div><div class="tgme_channel_info_counter"><span class="counter_value">10.3K</span> <span class="counter_type">photos</span></div><div class="tgme_channel_info_counter"><span class="counter_value">3.71K</span> <span class="counter_type">videos</span></div><div class="tgme_channel_info_counter"><span class="counter_value">8</span> <span class="counter_type">files</span></div><div class="tgme_channel_info_counter"><span class="counter_value">5.95K</span> <span class="counter_type">links</span></div></div>
+          <div class="tgme_channel_info_description">Новости Могилева по существу и с лёгкой иронией<br/><br/>Бот для связи с редакцией: <a href="https://t.me/Magilev_bot" target="_blank">@Magilev_bot</a> Вы можете задать нам свой вопрос, поделиться новостью, прислать фото или видео<br/>УНП 790179489</div>
+          <a class="tgme_channel_download_telegram" href="//telegram.org/dl?tme=a3e8530115d5397dc4_17783544416403412322">
+            <svg class="tgme_channel_download_telegram_icon" width="21px" height="18px" viewBox="0 0 21 18"><g fill="none"><path fill="#ffffff" d="M0.554,7.092 L19.117,0.078 C19.737,-0.156 20.429,0.156 20.663,0.776 C20.745,0.994 20.763,1.23 20.713,1.457 L17.513,16.059 C17.351,16.799 16.62,17.268 15.88,17.105 C15.696,17.065 15.523,16.987 15.37,16.877 L8.997,12.271 C8.614,11.994 8.527,11.458 8.805,11.074 C8.835,11.033 8.869,10.994 8.905,10.958 L15.458,4.661 C15.594,4.53 15.598,4.313 15.467,4.176 C15.354,4.059 15.174,4.037 15.036,4.125 L6.104,9.795 C5.575,10.131 4.922,10.207 4.329,10.002 L0.577,8.704 C0.13,8.55 -0.107,8.061 0.047,7.614 C0.131,7.374 0.316,7.182 0.554,7.092 Z"></path></g></svg>Download Telegram
+          </a>
+          <div class="tgme_footer">
+            <div class="tgme_footer_column">
+              <h5><a href="//telegram.org/faq">About</a></h5>
+            </div>
+            <div class="tgme_footer_column">
+              <h5><a href="//telegram.org/blog">Blog</a></h5>
+            </div>
+            <div class="tgme_footer_column">
+              <h5><a href="//telegram.org/apps">Apps</a></h5>
+            </div>
+            <div class="tgme_footer_column">
+              <h5><a href="//core.telegram.org/">Platform</a></h5>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="tgme_header_info">
+      <a class="tgme_channel_join_telegram" href="//telegram.org/dl?tme=a3e8530115d5397dc4_17783544416403412322">
+        <svg class="tgme_channel_join_telegram_icon" width="19px" height="16px" viewBox="0 0 19 16"><g fill="none"><path fill="#ffffff" d="M0.465,6.638 L17.511,0.073 C18.078,-0.145 18.714,0.137 18.932,0.704 C19.009,0.903 19.026,1.121 18.981,1.33 L16.042,15.001 C15.896,15.679 15.228,16.111 14.549,15.965 C14.375,15.928 14.211,15.854 14.068,15.748 L8.223,11.443 C7.874,11.185 7.799,10.694 8.057,10.345 C8.082,10.311 8.109,10.279 8.139,10.249 L14.191,4.322 C14.315,4.201 14.317,4.002 14.195,3.878 C14.091,3.771 13.926,3.753 13.8,3.834 L5.602,9.138 C5.112,9.456 4.502,9.528 3.952,9.333 L0.486,8.112 C0.077,7.967 -0.138,7.519 0.007,7.11 C0.083,6.893 0.25,6.721 0.465,6.638 Z"></path></g></svg>Join
+      </a>
+      <a class="tgme_header_link" href="https://t.me/magilev">
+        <i class="tgme_page_photo_image bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i>
+        <div class="tgme_header_title_wrap">
+          <div class="tgme_header_title"><span dir="auto">Magilev.by</span></div>
+          <div class="tgme_header_labels"></div>
+        </div>
+        <div class="tgme_header_counter">2.26K subscribers</div>
+      </a>
+    </div>
+  </div>
+</header>
+<main class="tgme_main" data-url="/magilev">
+  <div class="tgme_container">
+    <section class="tgme_channel_history js-message_history">
+      <div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/6026" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6IjYwMjZnIiwidCI6MTc5NDczNjg4OSwiaCI6IjY0N2ZmMDQ3MmM4NzA2MDQ2MCJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+
+<div class="tgme_widget_message_grouped_wrap js-message_grouped_wrap" data-margin-w="2" data-margin-h="2" style="width:453px;">
+  <div class="tgme_widget_message_grouped js-message_grouped" style="padding-top:113.192%">
+    <div class="tgme_widget_message_grouped_layer js-message_grouped_layer" style="width:453px;height:512px">
+      <a class="tgme_widget_message_photo_wrap grouped_media_wrap blured js-message_photo" style="left:0px;top:0px;width:453px;height:255px;margin-right:0px;margin-bottom:2px;background-image:url('https://cdn4.telesco.pe/file/g9-W3y2b2VcHfV6fSXR8odIxoCS75AFVHtEL1kGkjSdKwRd8_IMyTISh7IQuD2ypUwzZN0eugl6RKlQPoWsKRmuZn2ptrf_bribSmgYskf-CrbQ8iydSJ9B-OX61le8leEbKzPlhCgcWZEANXWLDWV2aTzoe-70C-Qsn-o1hJhFSdvElXw39ZxzuIqQa0MthIXFb6W7zzso5az-LpOjnclD1khrYzmI1FAzCZeHiFaSqhdh0U6sxqdfTOCV4BqI3yVDSWgnwKTDeO1bn9dPfxxXerwoQnqQX88GHQFrg2ecSXfzRGz91T-IelyQjx8jHxgO0EA3RiRuorD8KPoiWAw.jpg')" data-ratio="1.7738359201774" href="https://t.me/magilev/6026?single">
+  <div class="grouped_media_helper" style="left:0;right:0;top:128px;bottom:129.7575px;">
+    <div class="tgme_widget_message_photo grouped_media" style="left:0;right:0;top:-1px;bottom:0px;"></div>
+  </div>
+</a><a class="tgme_widget_message_photo_wrap grouped_media_wrap blured js-message_photo" style="left:0px;top:257px;width:453px;height:255.7575px;margin-right:0px;margin-bottom:0px;background-image:url('https://cdn4.telesco.pe/file/jZboXJCgcE5Gjhp9AurpB5texSCL0EriRy9nbcKTRpekpDVptG2QGhXmno2uMEpoz0EOx4_F0y8FW0Rya9AVXnvLchUsv7iFHtmA-xICPakdSKk32bdR6-PP5NEeKxowdBQ8suk6M14T-Po77yucwW5pJHXxwm7fNNoOSJ41lFOjF1inuxQnJlCAtyoc7yxqBhKArgz23ur_hYfTUw07a30rUzGFxRc2PZ0ioKV4PoMpog7yJQ6kOuxeOTE5B-hEC_Lh4Uc9FHsGtzX6OkA_ITc0YnrA3nnLi1ECEbh4FM2wRCKgvMX3kF0Tktd33fAw7UYhQH0uVBNt7r3e-43Vyg.jpg')" data-ratio="1.7738359201774" href="https://t.me/magilev/6027?single">
+  <div class="grouped_media_helper" style="left:0;right:0;top:128px;bottom:129.7575px;">
+    <div class="tgme_widget_message_photo grouped_media" style="left:0;right:0;top:-1px;bottom:0.75749999999994px;"></div>
+  </div>
+</a>
+    </div>
+  </div>
+</div><div class="tgme_widget_message_text js-message_text" dir="auto"><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')"><b>🔸️</b></i>Открытие дня<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F98B3.png')"><b>😳</b></i><br/><br/>Оказалось, в некоторых продуктовых магазинах Могилева появились микроволновые печи специально для покупателей. Например, в &quot;Квартале&quot; на Первомайской в центре города.<br/><br/>Купил булочку - разогрел сам на месте и схомячил (что при нас со <mark class="highlight">смаком</mark> и делала группа студентов). Очень удобно.<br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>14</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">356</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/magilev/6026"><time datetime="2023-02-15T07:00:14+00:00" class="time">07:00</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/9046" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6OTA0NiwidCI6MTc5NDczNjg4OSwiaCI6ImUzZTNlNmQ0YTdlYTkzM2MwYyJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+
+<a class="tgme_widget_message_video_player blured js-message_video_player" href="https://t.me/magilev/9046"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/iKI76z7nMym_9PIxTu3GDa4vWKZ7G84Ka22vzVPdgFz4J2qLfVN3ngZEt-4p4Cg_WkoxXgbdIsqTJWb0nGHcrg6jEv9asU8lI7D5vIdqu_Y9cQCiXIsDLANvi6nlJ-KVFZ5EZlmVeG_E9CSzv5eW7f7x2D7EqldjEpKHJsBkovkGqmVCMzxGBHE1fyT_8jAaBjIEEITW7vDPq7NBJ_ExLKjZMAQmyw1rS0wo2-TDTyXW3RdGKv__YTWOWjrOpLvwVahqjBHxYhtVA_BGhZIN7aku67_0X4JcNjlQ6NMuW-SLEpvlbbwA8dvODE7j_EQ6qPAYLUHRtBYvYguwrkL8MQ')"></i>
+<video src="https://cdn4.telesco.pe/file/db546fa271.mp4?token=fw_Ps1x5nZy6sRWuBQ4RRlSNmBGb4xNhJUouDcdXsah18DuvvCkVCLqwPOgKpAHt7MhHuIyYSk5mxKIxeeBmNk1FFotF-2Xeipy5eFQSddiL4E9QRW0TWnjCUD-vloAfOxpv9QC-ZhNN3u4Uy8AobbJLHcO7WhRBPCWjedBqn1aLuaMJ23_ypzcQDq8a-T8KKM7OS5HDJALzz1P2WxdDzZPvgwE9VKzgBNcHN5ajyuRQwj7l2h7EyV5avdpTNAvk5ZU3QJLfShpJRJWQWmUOVGCdh5ES9Qk_Zq0NYbArKo9ubsfE6WOfCOKw4B2zwT2DiUmb20FLzEPdDpNb_97bdQ" class="tgme_widget_message_video blured js-message_video_blured" width="100%" height="100%" muted></video>
+<div class="tgme_widget_message_video_wrap" style="width:720px;padding-top:133.33333333333%">
+  <video src="https://cdn4.telesco.pe/file/db546fa271.mp4?token=fw_Ps1x5nZy6sRWuBQ4RRlSNmBGb4xNhJUouDcdXsah18DuvvCkVCLqwPOgKpAHt7MhHuIyYSk5mxKIxeeBmNk1FFotF-2Xeipy5eFQSddiL4E9QRW0TWnjCUD-vloAfOxpv9QC-ZhNN3u4Uy8AobbJLHcO7WhRBPCWjedBqn1aLuaMJ23_ypzcQDq8a-T8KKM7OS5HDJALzz1P2WxdDzZPvgwE9VKzgBNcHN5ajyuRQwj7l2h7EyV5avdpTNAvk5ZU3QJLfShpJRJWQWmUOVGCdh5ES9Qk_Zq0NYbArKo9ubsfE6WOfCOKw4B2zwT2DiUmb20FLzEPdDpNb_97bdQ" class="tgme_widget_message_video js-message_video" width="100%" height="100%"></video>
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">0:16</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')"><b>🔹</b></i>Могилевское кафе &quot;Корчма на Шкловском базаре&quot; (неподалеку от Звездочета) -  в числе участников гастрономических фестивалей (и нынешнего &quot;Октябрьфэста&quot;) оказалась впервые. Наш корреспондент решила оценить дебютанта.<br/><br/>К фестивалю здесь подготовили сразу 2 сета, и оба - с белорусским уклоном. Мы сделали выбор в пользу сета «Шляхецкi <mark class="highlight">смак</mark>»: жульен, драники с красной рыбой, мачанка – от одних названий слюнки текут&#33;<br/><br/><a href="https://magilev.by/news/2023/10/14/v-raboteoktyabrfest-v-mogileve-v-korchme-na-shklovskom-bazare-s-festivalnym-zadaniem-spravilis-na-otlichno" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">&gt;&gt;&gt;&gt;&gt;Оправдал ли сет ожидания? И был ли первый фестивальный блин для &quot;Корчмы на Шкловском базаре&quot; комом, ЧИТАЙТЕ В МАТЕРИАЛЕ НАШЕГО КОРРЕСПОНДЕНТА- ДЕГУСТАТОРА.</a><br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>9</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9881.png')"><b>😁</b></i>3</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')"><b>🔥</b></i>1</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918F.png')"><b>👏</b></i>1</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09FA494.png')"><b>🤔</b></i>1</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">679</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta">edited &nbsp;<a class="tgme_widget_message_date" href="https://t.me/magilev/9046"><time datetime="2023-10-14T09:31:23+00:00" class="time">09:31</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/9646" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6OTY0NiwidCI6MTc5NDczNjg4OSwiaCI6ImE1Y2I3YTRlNjYzOTFkYjY5ZSJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+
+<a class="tgme_widget_message_video_player js-message_video_player" href="https://t.me/magilev/9646"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/r2v_vVaSiHOJroP4JAKzNEKWd1w6nwGLE46IbRCP2VUQkAw6rTHLOIEJUxgA4c-k2qBfnpMz7AzdMRVzkUo81nk2yqfKf-4QXmOYoglv5Czb1qU66o9FFRXCxlf0x9-BmqPz85DK38BPgrIA5uz599EFBm0YUwul11JT2T95pDRjrB_sHOGVTZ80JAN3NW6OFb8FtETQJrI5RlNSF8JVqsOHABUuOiX8lInBEynFPY40B_-UhF8vVFZ2tmlQu_5v8BenREG73qp2P5NnVQwPI4e3_iSlkrU2O2nnc6vbkhynLcn9teJmeIKBuEq3kHwexDB23X282utRJwB_fHIutA')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:320px;padding-top:68.75%">
+  <video src="https://cdn4.telesco.pe/file/bfe60c5e67.mp4?token=XNAgTg6FMhabJvlggCTI47BO4GS06dn0FdFDZAck39NqeNyTTkDnMqzxAL5pfnQHkrATp5lkAbw1Txpmt3PY_wyU4NLQqO86TEcTk_js6n1EyNfvaPbnUrkGTISA3-V_t9upUG2Th6K_ClZkGuGJ8KsTxB-VeqV_NEV6qWmYZC0Rb2Zykw7LeY402FLlnt-Ci7-PGzm49Xt4hh7QM0Bj66xsbe1bMylHmek6tVK-LlHMCjqFfTnBWQvvfuPmCy7jl16KUuNwDFR35vv5uoJLXFhlwdr6YLeQ-3pRv2GYYzrAtHC6VuOjrx-R2iKTcl4FGbxeoigpJxnyYkTT9fS6fw" class="tgme_widget_message_video js-message_video" width="100%" height="100%"></video>
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">0:02</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')"><b>🔹</b></i>Очередной фестиваль еды с вкусным названием «Зімовы <mark class="highlight">смак</mark>» пройдет в Могилеве  с 18 по 28 января<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09FA582.png')"><b>🥂</b></i><br/><br/>Похоже, проведение подобных фестов в нашем городе стало доброй традицией. И если «Гастрофест» охватывает всю Беларусь, то нынешний «Зімовы <mark class="highlight">смак</mark>» – исключительно могилевский, инициатором его проведения выступает горисполком. <br/><br/>Длится он 10 дней и концепцией напоминает уже упомянутый «Гастрофест» – когда за фиксированную сумму в <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/33E283A3.png')"><b>3⃣</b></i><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/35E283A3.png')"><b>5⃣</b></i> рублей кафе и рестораны предлагают свои сеты.<br/><br/><a href="https://magilev.by/news/2024/01/11/v-mogileve-s-18-yanvarya-startuet-festival-edy-zimovyya-prysmaki-chto-v-menyu-za-35-rublej-dopolnyaetsya" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">&gt;&gt;&gt;&gt;&gt;Итак, кто же участвует? И что предлагает? (мы будем публиковать сеты на нашем сайте magilev. by по мере появления их в сети). Сохраняйте себе эту ссылку, заходите и выбирайте.</a><br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>8</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29DA4.png')"><b>❤</b></i>3</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')"><b>🔥</b></i>2</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">784</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta">edited &nbsp;<a class="tgme_widget_message_date" href="https://t.me/magilev/9646"><time datetime="2024-01-11T14:45:55+00:00" class="time">14:45</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/9663" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6OTY2MywidCI6MTc5NDczNjg4OSwiaCI6Ijg1MWYyMzM3ZmFmYjI2NzE4MSJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+
+<a class="tgme_widget_message_photo_wrap 5269751832710861984 1226959711_456250528" href="https://t.me/magilev/9663" style="width:800px;background-image:url('https://cdn4.telesco.pe/file/jMyRkScBrVxQxYI4S-ZpftaM0xeXuE4htyMXXEv-ScaC7Zy3sowsQfzfG-K2506GHQIv7yV4Ap1VPCECqiLlSmjJ3GxD0zG1lBI5MFd75mvHOfJaTD2fmt51znDHkSobHSq6l38aiJxLXwWF-W1HAQxMeQiFrjlFaSaSxjPEnQ6Csw3Mcrp_m2oUMH4MHQ68yq3tG-xMxbGtqjheGvvDKxIOWa3l0oFxp_MPw_7_rPyOuZLi-C6V5tEkPFuPcjmplqUw0ATPH1r3Ep40WW-V6ZDVsgqwxSuft7r043GeUv7PULVdW8MyCGNgKXaazImtl259mZq6ubl5ZiXjDjIbRQ.jpg')">
+  <div class="tgme_widget_message_photo" style="padding-top:68.625%"></div>
+</a><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')"><b>🔸</b></i>Любители вкусно поесть, аууу&#33; <br/><br/>Напоминаем. Уже с этого четверга по 28 января в Могилеве пройдет фестиваль еды «Зімовы <mark class="highlight">смак</mark>». Стоимость сета – фиксированная, 35 рублей.<br/><br/><a href="https://magilev.by/news/2024/01/11/v-mogileve-s-18-yanvarya-startuet-festival-edy-zimovyya-prysmaki-chto-v-menyu-za-35-rublej-dopolnyaetsya" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">&gt;&gt;&gt;&gt;&gt;МЫ СОБРАЛИ СЕТЫ ВСЕХ ЗАВЕДЕНИЙ-УЧАСТНИКОВ. Выбирайте на здоровьице<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F988B.png')"><b>😋</b></i></a><br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>6</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29DA4.png')"><b>❤</b></i>3</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">799</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta">edited &nbsp;<a class="tgme_widget_message_date" href="https://t.me/magilev/9663"><time datetime="2024-01-15T07:28:57+00:00" class="time">07:28</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/9691" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6OTY5MSwidCI6MTc5NDczNjg4OSwiaCI6IjNkNTZiOWZjNzhiMjQ2M2QzOSJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+
+<a class="tgme_widget_message_video_player blured js-message_video_player" href="https://t.me/magilev/9691"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/cAxSs8dEeVow2-agg568uYZfqt7GYs8Q036oJ4Q5MZSqOvqSg7ZfM6q0fsvQiHPZwwe_egMPfRzZreAYhj-gAfZLS-wDT5TdpqO4t_Ob5A5LXgDjjo2lhDC4-9lDOzpl76SWrovPyVQSTXHFJiniXBlfL6REYxFhvWh6GejCyL7IWZYwdAyK9_bJL1v1tri1IZXrJrvqx1dPsR-0dEKei6Ux0usWqfweSH8UmWa0vB66qWaEaJmoVWUDS9SY1PRVc4gqchkrNUY17ofUPOHBDwh2Uka2pT8M5_rSBigv4viLr4G3Y5KKL9k-rGtH41g4yyGw1rsQFNM2YunAByyTUQ')"></i>
+<video src="https://cdn4.telesco.pe/file/d1b4498962.mp4?token=GX9aaf0C1i4D1ASjvrTZSCynyYrOaO-whE6N0R32uFBpBiqOOLTo2i38hCaveM9RBm5j8fBoUIfrOMvj776QFLnHNKRAyqD8GpiApKh_qhA-drj0N2zLQ6UPLmzXuZ0XwQZzez4OSiEg1_EtubpABLs8KKu4UDrlXWi_K1r1-SPiarfWsw9PojPCyamHsizSCNyYZU2mKD8LJhAxruCsvzy9pOzK14M4j1o-BBGEO0T5aW7LJYpJlJf-TCUoU7td-BJSO9AR95foIh4OQQXh1MP9ZLe3GgSDMXpZ44emGy5qmb0KR3wkSaf3d-MDH_-9YuY33ow_UB_9ewc4XMPWcGpr-OtnSJiyHe0uwx_WLLwUAIPrpFnPReM_0JgtJ9vv3LgAnVU1KMZn8ijy_gyLCqkLdHkiQYMiIjja6H82JF1L7qOu2ajxL6042WsGBrpShDYbbz-7AmwtJ6oYCnJC7abdRUaMaTW1eN560aEig4ih5xZPdc2-CkpPLb31aABv4uBuRLtAVT0TkHj2z7iGPOR-H9cY8A6-lwLf5H87YlgCbDYoxF_p4r52UDcyVegAQ7w6Etsf7C2VN7XPDPamW-iINt68cP_jnxH2AFuLlEDQ39iZEmQIePmfcV10l6qKvLEGZRFnFecwx7_owzDrqWt2DSiln-V7t8z3vs6tVtY" class="tgme_widget_message_video blured js-message_video_blured" width="100%" height="100%" muted></video>
+<div class="tgme_widget_message_video_wrap" style="width:720px;padding-top:133.33333333333%">
+  <video src="https://cdn4.telesco.pe/file/d1b4498962.mp4?token=GX9aaf0C1i4D1ASjvrTZSCynyYrOaO-whE6N0R32uFBpBiqOOLTo2i38hCaveM9RBm5j8fBoUIfrOMvj776QFLnHNKRAyqD8GpiApKh_qhA-drj0N2zLQ6UPLmzXuZ0XwQZzez4OSiEg1_EtubpABLs8KKu4UDrlXWi_K1r1-SPiarfWsw9PojPCyamHsizSCNyYZU2mKD8LJhAxruCsvzy9pOzK14M4j1o-BBGEO0T5aW7LJYpJlJf-TCUoU7td-BJSO9AR95foIh4OQQXh1MP9ZLe3GgSDMXpZ44emGy5qmb0KR3wkSaf3d-MDH_-9YuY33ow_UB_9ewc4XMPWcGpr-OtnSJiyHe0uwx_WLLwUAIPrpFnPReM_0JgtJ9vv3LgAnVU1KMZn8ijy_gyLCqkLdHkiQYMiIjja6H82JF1L7qOu2ajxL6042WsGBrpShDYbbz-7AmwtJ6oYCnJC7abdRUaMaTW1eN560aEig4ih5xZPdc2-CkpPLb31aABv4uBuRLtAVT0TkHj2z7iGPOR-H9cY8A6-lwLf5H87YlgCbDYoxF_p4r52UDcyVegAQ7w6Etsf7C2VN7XPDPamW-iINt68cP_jnxH2AFuLlEDQ39iZEmQIePmfcV10l6qKvLEGZRFnFecwx7_owzDrqWt2DSiln-V7t8z3vs6tVtY" class="tgme_widget_message_video js-message_video" width="100%" height="100%"></video>
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">0:27</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')"><b>🔹</b></i>Вы помните, что сегодня в Могилеве стартовал фестиваль еды «Зімовы <mark class="highlight">смак</mark>», где сеты по 35 рублей? А?&#33; <br/><br/>Мы вот не забыли&#33; И уже успели продегустировать фестивальные блюда в одном из любимых наших кафе<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29DA4.png')"><b>❤️</b></i> - в «СтанЪ», что за Главпочтамтом. Там сет более 1300 гр. Советуем идти вдвоём или втроём.<br/><br/>Если кратко, то вкусно, сытно и очень согревающе<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')"><b>🔥</b></i>Особенно когда за окном метель, а на градуснике устойчивый «минус». А уж любителям классической белорусской кухни сет точно зайдет «на ура».<br/><br/><a href="https://magilev.by/news/2024/01/18/festival-edy-zimovy-smak-pirog-i-kolduny-v-kafe-stan-shedevralnye-a-kakie-gribochki" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">&gt;&gt;&gt;&gt;&gt;Полный отзыв нашего редакционного &quot;дегустатора&quot; - ПО ССЫЛКЕ.</a><br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>19</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">773</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta">edited &nbsp;<a class="tgme_widget_message_date" href="https://t.me/magilev/9691"><time datetime="2024-01-18T13:46:59+00:00" class="time">13:46</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/9707" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6OTcwNywidCI6MTc5NDczNjg4OSwiaCI6ImE4ODE1OGE0ZGZmZmNmOGUwYSJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+
+<a class="tgme_widget_message_video_player blured js-message_video_player" href="https://t.me/magilev/9707"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/ihgvBkpOqsmJT8FyOPuUjwh2hJpLmXM9WxtZzp93fXBYDCoxYlbAn5c_KkIVdxauQ4OQW3dM_UnuwSgS0IzImDT-Lj27FozO9gU2t6ysqvpZQuAdo4ctoYOJ6LmwSavNHjsUCTznOnxxhy484LPrpIYGSP_eiffRLK_zXCx2ph35OMW3MZktxeg4eoMqcydKGLdV5chYKQwTpa8ZE63FrQWXNiEpVjB_1qDrakHfRwN3e56nBMIfd12uymhRzvcJWl1vuYbYDk6MoV2fmTEdROPjFl7nW4-vTriQp5yDwNwfWst__Sp-1pNiPn7zmlxbT6psqqNcfh7rPl2bucbvoA')"></i>
+<video src="https://cdn4.telesco.pe/file/59e948627d.mp4?token=f8CPPZvXMEw1q1PpzDStNdeq8TZc6sLuSXayJPtD46c3wCGhfqEsZ0acpST0czb4jJNfEHwDzW3RAsVOMjGvcAO1FqPsLlPcLPFVnR8UAXw0i-UqMk1MCD3UxsBZIFmsB5QNY83aahQxgDRbSJeS49hBcohnEqfj2Qz9NODNmtz7ZHn6leBEw9nu4xuLNsNxsPsGiHc8nmsEbPzzoyRoaZAhTv5cFYbFTZAIoVKyRczzaicrhtwHXv-BAUtKk-WZoqXFlxf3kTBZrwiw_GWuStS3HdPgBZofnOADUaBb3ekFYohveyFy9OoQRD8Iq5R0lLbvDmcp5lU6M6uGv9QE7YWOpGPPJgrUDPjvR3m_yJOfwRxPGsEpzEljmzYPM_ib305LxFaLPd8quvZ40nG9StDJNw4Nax8aoRuL-b8n-6oBPvwGr8dv3EhiyaKqNfG_gV9yGSa5ZYGah72x-eD3NdPOT5KFLz0rHzzCgVpF21iBWL2Mh-pu7emhKtuQ6RrzYc-exPxNBiFoTJJ4PSz4BcA7I0RbPUvvLPVvJS478EhQjqh_St8RHpk-3Wpaz8lMgpmY2V0l6NDEKTgkiX0IrwOxzwQ6jsb7EQRO3f6H6YGX2g2aDZYSErWvG97giqxzjDm64dEXG5M0_9VmmbDUMpm4EEasNpxSft6FvnJPxA8" class="tgme_widget_message_video blured js-message_video_blured" width="100%" height="100%" muted></video>
+<div class="tgme_widget_message_video_wrap" style="width:720px;padding-top:133.33333333333%">
+  <video src="https://cdn4.telesco.pe/file/59e948627d.mp4?token=f8CPPZvXMEw1q1PpzDStNdeq8TZc6sLuSXayJPtD46c3wCGhfqEsZ0acpST0czb4jJNfEHwDzW3RAsVOMjGvcAO1FqPsLlPcLPFVnR8UAXw0i-UqMk1MCD3UxsBZIFmsB5QNY83aahQxgDRbSJeS49hBcohnEqfj2Qz9NODNmtz7ZHn6leBEw9nu4xuLNsNxsPsGiHc8nmsEbPzzoyRoaZAhTv5cFYbFTZAIoVKyRczzaicrhtwHXv-BAUtKk-WZoqXFlxf3kTBZrwiw_GWuStS3HdPgBZofnOADUaBb3ekFYohveyFy9OoQRD8Iq5R0lLbvDmcp5lU6M6uGv9QE7YWOpGPPJgrUDPjvR3m_yJOfwRxPGsEpzEljmzYPM_ib305LxFaLPd8quvZ40nG9StDJNw4Nax8aoRuL-b8n-6oBPvwGr8dv3EhiyaKqNfG_gV9yGSa5ZYGah72x-eD3NdPOT5KFLz0rHzzCgVpF21iBWL2Mh-pu7emhKtuQ6RrzYc-exPxNBiFoTJJ4PSz4BcA7I0RbPUvvLPVvJS478EhQjqh_St8RHpk-3Wpaz8lMgpmY2V0l6NDEKTgkiX0IrwOxzwQ6jsb7EQRO3f6H6YGX2g2aDZYSErWvG97giqxzjDm64dEXG5M0_9VmmbDUMpm4EEasNpxSft6FvnJPxA8" class="tgme_widget_message_video js-message_video" width="100%" height="100%"></video>
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">0:23</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')"><b>🔹</b></i>Уже второй день в Могилеве идет фестиваль еды «Зімовы <mark class="highlight">смак</mark>». Городские кафе и рестораны предлагают свои сеты за 35 рублей. Среди них – гастробар «Цоколь».<br/><br/>Сет приличный, 1020-граммовый, поэтому наш корреспондент взяла один на двоих.<br/><br/>Еда самая что ни на есть простая – борщ, мачанка и сырник. <br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')"><b>💬</b></i>&quot;А все это я люблю, - говорит наш редакционный &quot;дегустатор&quot;. - К тому же, по слухам в «Цоколе» даже обычные блюда получаются невероятно вкусными...<br/><br/><a href="https://magilev.by/news/2024/01/19/reklama-na-1901-mesto-gde-klassicheskie-blyuda-prevrashayut-v-restorannyj-izysk-pobyvali-na-feste-zimovy-smak-v-gastrobare-cokol" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">&gt;&gt;&gt;&gt;&gt; Так ли на поверку вышло, ЧИТАЙТЕ ПО ССЫЛКЕ.<br/></a><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>16</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">784</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta">edited &nbsp;<a class="tgme_widget_message_date" href="https://t.me/magilev/9707"><time datetime="2024-01-19T18:16:53+00:00" class="time">18:16</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/9716" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6OTcxNiwidCI6MTc5NDczNjg4OSwiaCI6IjU2NzI3Y2YyMjUyZGI0YWUxYyJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+
+<a class="tgme_widget_message_video_player blured js-message_video_player" href="https://t.me/magilev/9716"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/PYbElQGVA1sTOBDKGUKuAmFjMt9t7RzM_4vpZwko4VKwW0BX2Packb92FuoU52_A4-fJGBBHDSqtedmazcpvGrXjgqsT6vtq52poMZXH_LB7vFPbHZYjXHEN4clHW9bdrPz40xTV9Pvp0ctrymumHr73s9jZLntsFogfNf5B_Y5O1fAXUOJrDtU_BFi4yU85k4r5KGws8in_UNlumorzMt60pIfJ8fyZA_E6gg0m24uItIoUvakufvu6GMkZXh2aCUWCnH5e2--FFTAkjQ8ucta0BAH3i7c8mpbAOwyjEgTAGbPOqBEzbkZJCQAoHCYTGCsi5rYleKcWtDGfXh_cwg')"></i>
+<video src="https://cdn4.telesco.pe/file/e8e64ebd59.mp4?token=kMWO3QNxn56CYOgqW-34qaORFUnIu74iyMs4Z18C7G0oKukLKLnrAFzat5ND5Zslmxu_5LBH0pBlFHKFnVX6QRgxncyN8FUsoXMsQ4ReJTsS6hwOSt_qmCmUJZS8BpkNGwhsDTImicCiF6KDfQXJvv8ljB92xErDCGJ0sHHXnGdOxBhHy_BIFlf1uU_IxgxKfhE0ltpAn0aliXa-270Hrhwy6pCECeGxzSciQ4vA7oQQRXOie81j2aQZ_aAfGad9jZF11D67WMoDLcrOlda85oLIrysui6mboXlL1bG2xnaNut1_96TwcoFKqraS9Ap2HU09hYTS_9aCQYdSit_3WXPNuKFnIrRPwYn9tsPmhFYyiMnyZYHXBiannvc_pNwFlJbm61LRhr89Yxi-Z-h3dXynCf6KeRlcQXmm0YZpDe6lpijPi3wtXdgu4WIsQLiTKhp-9mlKP06hbI4TMdNo17wxLd4Q1mcyrHCzE-U4LB4y2aucyj5AUZt2rkwnnzTpCclYjCqMJFASC29_5ixzyc4U7G2gdj7_p4YPQ9TW1zlEnzX8iRl7rXYt6g2PjD0N7uGw_poV9rHUDoLn9kVsCo3RDX72q6k61djQ5DKwBZ79KkEKmYDZ5Yqqe-0fKp-hwQbKKI5HDJWS7ubwDClhtDtnm4beosT0MnhjRpoxgzo" class="tgme_widget_message_video blured js-message_video_blured" width="100%" height="100%" muted></video>
+<div class="tgme_widget_message_video_wrap" style="width:720px;padding-top:133.33333333333%">
+  <video src="https://cdn4.telesco.pe/file/e8e64ebd59.mp4?token=kMWO3QNxn56CYOgqW-34qaORFUnIu74iyMs4Z18C7G0oKukLKLnrAFzat5ND5Zslmxu_5LBH0pBlFHKFnVX6QRgxncyN8FUsoXMsQ4ReJTsS6hwOSt_qmCmUJZS8BpkNGwhsDTImicCiF6KDfQXJvv8ljB92xErDCGJ0sHHXnGdOxBhHy_BIFlf1uU_IxgxKfhE0ltpAn0aliXa-270Hrhwy6pCECeGxzSciQ4vA7oQQRXOie81j2aQZ_aAfGad9jZF11D67WMoDLcrOlda85oLIrysui6mboXlL1bG2xnaNut1_96TwcoFKqraS9Ap2HU09hYTS_9aCQYdSit_3WXPNuKFnIrRPwYn9tsPmhFYyiMnyZYHXBiannvc_pNwFlJbm61LRhr89Yxi-Z-h3dXynCf6KeRlcQXmm0YZpDe6lpijPi3wtXdgu4WIsQLiTKhp-9mlKP06hbI4TMdNo17wxLd4Q1mcyrHCzE-U4LB4y2aucyj5AUZt2rkwnnzTpCclYjCqMJFASC29_5ixzyc4U7G2gdj7_p4YPQ9TW1zlEnzX8iRl7rXYt6g2PjD0N7uGw_poV9rHUDoLn9kVsCo3RDX72q6k61djQ5DKwBZ79KkEKmYDZ5Yqqe-0fKp-hwQbKKI5HDJWS7ubwDClhtDtnm4beosT0MnhjRpoxgzo" class="tgme_widget_message_video js-message_video" width="100%" height="100%"></video>
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">0:31</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')"><b>🔹</b></i>Корреспондент <a href="http://magilev.by/" target="_blank" rel="noopener">magilev.by</a> отправилась дегустировать «зимний» сет за 35 рублей в рестобар Colette. И вот что говорит по этому поводу:<br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')"><b>💬</b></i>&quot;На месте Colette (на Ленинской, 44, неподалеку от Звездочета) раньше находилось другое заведение, которое, скажу честно, мне не очень нравилось. Ни по сервису, ни по меню. Сейчас, однако, здесь всё иначе. Несравнимо иначе. Это я поняла еще летом, когда с дочкой заглянула в Colette на бизнес-ланч – он, помнится, оказался найсвежайшим и вкусным. Поэтому сейчас и выбрала для «пофестивалить» именно этот рестобар.<br/><br/>И не прогадала&#33; К тому же, здесь в сет входит глинтвейн – ни в одном из остальных 8 заведений-участников фестиваля «Зімні <mark class="highlight">смак</mark>» напитки, да еще такие актуальные в наш «минус» за окном, не подают...&quot;.<br/><br/><a href="https://magilev.by/news/2024/01/22/hrustyashie-dranichki-pod-goryachij-glintvejn-pobyvali-v-restobare-colette-na-festivale-edy-zimovy-smak" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">&gt;&gt;&gt;&gt;&gt;Что ещё рассказала о сете наш автор, ЧИТАЙТЕ ПО ССЫЛКЕ.</a><br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>10</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')"><b>🔥</b></i>2</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">789</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta">edited &nbsp;<a class="tgme_widget_message_date" href="https://t.me/magilev/9716"><time datetime="2024-01-22T08:34:44+00:00" class="time">08:34</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/9742" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6OTc0MiwidCI6MTc5NDczNjg4OSwiaCI6ImU5NDg3ZWI5NjlmZjY2NmQ2YyJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+
+<a class="tgme_widget_message_photo_wrap 5299022584588915831 1233774839_456250487" href="https://t.me/magilev/9742" style="width:800px;background-image:url('https://cdn4.telesco.pe/file/nMJJeTuo_hVDD7X8mYxpAw1ynBgNO8V68Y4A8ut7_dTcc0S0IwYBRlJPiZnTySsKVHeCS9zycZU1BHAc4aiE6RT1rC-SECAf1H_ZMSIxs-Iv-BJ3A6BC5GK2hRkRl1LKRcHJ1vtlCx6f7jXilXnT8PRbSC_sb2VGszY4QsXWAnK-4rXh3gbNMxC9sK7NrQqyjFPyv1TyanV-gAYKD5Or7T_df5pVBR75zZSTJdc_Zmr_ajXOVREXJBl1upBuaz9Hkmwj99TzDW-7eOWQHNcskP4YL78EcbjSrSD3Ac1bMETRHJUUIqNjLXs01WktoFkdHCZHfFQBDzysRgTitvG-oA.jpg')">
+  <div class="tgme_widget_message_photo" style="padding-top:75%"></div>
+</a><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')"><b>🔹</b></i>Напоминаем, в Могилеве до 28 января проходит фестиваль еды «Зімовы <mark class="highlight">смак</mark>», где за 35 рублей 9 заведений предлагают сеты из разных блюд.<br/><br/>В их числе - ресторан «Винтаж» (рядом с бывшей гостиницей «Днепр»). Туда наш корреспондент и отправилась.<br/><br/>Внушали надежду и сочетание любимых драников с оригинальными блюдами, и вес сета в полтора кило&#33; <br/><br/><a href="https://magilev.by/news/2024/01/24/samyj-bolshoj-set-na-festivale-edy-zimovy-smak-v-restorane-vintazh" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">&gt;&gt;&gt;&gt;&gt;Оправдались ли ожидания? И почему наш автор таки не всё съела, ЧИТАЙТЕ ПО ССЫЛКЕ.</a><br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>7</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">997</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta">edited &nbsp;<a class="tgme_widget_message_date" href="https://t.me/magilev/9742"><time datetime="2024-01-25T09:49:53+00:00" class="time">09:49</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/12497" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6MTI0OTcsInQiOjE3OTQ3MzY4ODksImgiOiIxNjIxNDliMjhmMTk2MmM3Y2QifQ">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+
+<a class="tgme_widget_message_video_player js-message_video_player" href="https://t.me/magilev/12497"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/XRvqVJIxDqTNtjEwNdne-mh7_1AaiguV1JiTicygfyTLHTbvKD9BSMMN08QhxOy4j6xYKrF8jXY_wcfHVEFhT3NHQ2xt7k04qYstmGnlRObWkxNZCx3XOLJnjJeA5aK-Fv0aLqo2l-16GH83-ciVvIBF7gbYE-7YEicMYK_o6BPm2cuCCcyVP84ddNLTA7fRplZMRULSVbl2tIDbqX1HF0RWd9KzrSd-E2KyUtJZIy6rUrE4jNbbOIPb6lVIOm8vvx6vk2-2fsKlhdG3MGwUnR6tucc_opAcNyyatfnFuYkV6JRwlxIpZYsk9LP1Fk0bwR4BPukXhPdb4NIe3SZ9Ug')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:240px;padding-top:59.48275862069%">
+  <video src="https://cdn4.telesco.pe/file/0ad37a8397.mp4?token=LQydCPk7KFynNSf0zGLAs9HyyKlu-D7HUPfpCj8UFlihXrSRUDg8nMjwyoRPlMjZgR_pcIrblKgCjGHRaC1v7nOfk9OpVnd0QRds5Q9d5_uwlYN5PwzyviI2WYhPLL-o2xQ_RTFA1R4Oowjwmqq0Cq1d7HbGIw4xuDMMQfkKArRh7GLvRY6rQ0CK0EfO4R54tKlv2iw66ZC_tnEUOSjth05LRymqvnAlW_qJA7snX2b0kDJM_SRUPTc6Nvx-oiim1TYgp4-AkWGG8yOtD1JHobJdstApzA6eKoafKSLTgc_ZybjbDpW4B6D0ohhl5_rotg2MiCmAUOSNb2vnL3b9MQ" class="tgme_widget_message_video js-message_video" width="100%" height="100%"></video>
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">0:04</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')"><b>🔸</b></i> У могилевчан-любителей вкусно покушать явно поднимется настроение. Потому как<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9187.png')"><b>👇</b></i><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9187.png')"><b>👇</b></i><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9187.png')"><b>👇</b></i><br/><br/>Уже на следующей неделе 28 января в Могилеве начнётся фестиваль еды «Зімовы <mark class="highlight">смак</mark>». Стоимость сета – фиксированная, <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/34E283A3.png')"><b>4⃣</b></i><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/30E283A3.png')"><b>0⃣</b></i> рублей.<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F988B.png')"><b>😋</b></i><br/><br/>Обозначена в этом году и тема фестиваля: «Кухня замежных сяброў», так что ждем от кафе и ресторанов не самое привычное меню. Участвуют, кстати, 12 могилевских заведений<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9187.png')"><b>👇</b></i><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9187.png')"><b>👇</b></i><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9187.png')"><b>👇</b></i><br/><br/><a href="https://magilev.by/news/2025/01/22/v-mogileve-s-28-yanvarya-startuet-festival-edy-zimovy-smak-chto-v-menyu-za-40-rublej-dopolnyaetsya" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">&gt;&gt;&gt;&gt;&gt;Вот ЗДЕСЬ уже есть меню большинства из них</a><br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>12</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')"><b>🔥</b></i>1</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">1.08K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/magilev/12497"><time datetime="2025-01-24T04:23:25+00:00" class="time">04:23</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/12533" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6MTI1MzMsInQiOjE3OTQ3MzY4ODksImgiOiI1MjIxOWQzZWZkMzU2MjExNzAifQ">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+
+<a class="tgme_widget_message_video_player js-message_video_player" href="https://t.me/magilev/12533"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/GhfBnfWJB9sxKiVgtc_pxlpBz0GEmnt9P2Fn4ayhWn0rgKCXLaxFJ430-dhTgNvJYUgwTNjfcF_nlrHIu6Hbu3fAwNNZsLXNQuZJHwfSo1t-tR4IhUX6Ik8cU6CZqOGyJd9p2LAYYTm-66k6Ahmgg8A_VYe7sxgBKmeplBKNv58O3BmsCNkEa3Af_3A-Ny13CXMt9XpMLjM_u8vPXWGjJmRZVTbB5AqWZE-axfQP8-EyIaT35ziUOuVVvZzLQr-0TW8eWWJKz8K6VIwvl8JLPbEGh7qr8hgNEptt9phJVpQhu3dLcZc-PLWWjMzC3QY-Uyot_lLEJptkemXX6pjwEQ')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:320px;padding-top:100%">
+  <video src="https://cdn4.telesco.pe/file/a0f0eb7b2f.mp4?token=koCK9aAsuIOBvgB9z2_cAKeVcXv-fRTaQ0QIzdr5KYaWSWBO9RPoAVDNpGJoA8qO4fWMirdN-0Vg8cznaCLCMU39X7DlRFKtaV-DVnoIge67rIH6jj651NuSGCrokDOzzGBetIqqnQryJJwFX6fGFPyaouGVkWfp3DXo5kaxn4Ai2ot_ynYc10Eqcy2rP5KthGS09Eok5PjD2Lkhre-ihax6AO1llEqz7vKs_RFgxEB15l4U5gcP_W4GF7hL5DpTmNa1s3sM076APDBdQUkaFZToKKp9ZSS-3SoQQaRmEEiaghy6h67ow-WO8r08NvFlM76YJedVwWSLY6sDi1w0RQ" class="tgme_widget_message_video js-message_video" width="100%" height="100%"></video>
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">0:00</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')"><b>🔸</b></i> Напоминаем, с сегодняшнего дня  и по 9 февраля в Могилеве проходит фестиваль еды «Зімовы <mark class="highlight">смак</mark>». Стоимость сета – фиксированная, <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/34E283A3.png')"><b>4⃣</b></i><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/30E283A3.png')"><b>0⃣</b></i> рублей.<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F988B.png')"><b>😋</b></i><br/><br/>Обозначена в этом году и тема фестиваля: «Кухня замежных сяброў», так что ждем от кафе и ресторанов не самое привычное меню. Участвуют, кстати, 12 могилевских заведений<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9187.png')"><b>👇</b></i><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9187.png')"><b>👇</b></i><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9187.png')"><b>👇</b></i><br/><br/><a href="https://magilev.by/news/2025/01/22/v-mogileve-s-28-yanvarya-startuet-festival-edy-zimovy-smak-chto-v-menyu-za-40-rublej-dopolnyaetsya" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">&gt;&gt;&gt;&gt;&gt;Вот ЗДЕСЬ СЕТЫ ВСЕХ УЧАСТНИКОВ </a><br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>10</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')"><b>🔥</b></i>1</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">1.08K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/magilev/12533"><time datetime="2025-01-28T09:04:38+00:00" class="time">09:04</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/12535" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6MTI1MzUsInQiOjE3OTQ3MzY4ODksImgiOiJlOWRmOTZkY2VlNDU1NGI0NDEifQ">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+<a class="tgme_widget_message_reply user-color-default" href="https://t.me/magilev/12533" "><i class="tgme_widget_message_reply_thumb" style="background-image:url('https://cdn4.telesco.pe/file/Hxvparzv3NxTPZSHBMLZGGJbxQyTqyKLUDmZZPPZCqRmbxgbClr7ZmcBPQwd_Us49MiXtrdSMwM4SmBss1hvUmnaIYrhAYq9-c-Ob2_RudbpuyUJGWENxJOHzycoLXh9V2AJ6gc-lvX8QirVflFScd9sIAb0azx9_afoLuL4g_8zYbz36M4mUEJwf5yJsuRbXU3gMTSnR9i3h7WXyGCRpKRCgbzfpKT8_bSDLL2BH-fEDYpxtAoywYoRdO7GXkjxRCBtT4io8UXN3iHNMcJgq4Zq57-WMGwWxlzz9OXOCrBt6yag-rhv-fBb3CjkqABZwfz6OTtG4fcnCtQCCAbxLg')"></i>
+<div class="tgme_widget_message_author accent_color">
+  <span class="tgme_widget_message_author_name" dir="auto">Magilev.by</span>
+</div>
+<div class="tgme_widget_message_text js-message_reply_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')"><b>🔸</b></i> Напоминаем, с сегодняшнего дня  и по 9 февраля в Могилеве проходит фестиваль еды «Зімовы смак». Стоимость сета – фиксированная, <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/34E283A3.png')"><b>4⃣</b></i><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/30E283A3.png')"><b>0⃣</b></i> рублей.<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F988B.png')"><b>😋</b></i>  Обозначена в этом году и тема фестиваля: «Кухня замежных сяброў», так что ждем от кафе и ресторанов не самое привычное…</div>
+</a>
+<a class="tgme_widget_message_video_player not_supported js-message_video_player" href="https://t.me/magilev/12535"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/DYs9pZG6Z7vAyXxLpdj8MrWa4AsFyRB6OkBpPuaUWWr3tBVt7d7V5TpiMJBb-xEb1l-T2t1Laf0EI8OAlzlz1DjsIbQ3DPpit-iYc1K8m6ojo4HMpSMk21LVvIaxYswBDmN7z8-gJ1eNg3a1us1_C66q0dy1qe6bXg6ZegJ7N-HvtanhoTIPXbdKT-aVI0s0T3BcejU19gzyt8hpXbNNaYRNmiE6k3kRaZ4eDfilK7844V5PLV8wVqr5PkBCY1LBtt4RyZd9X88c6M_v_lv8mob0JdXDO-JI_dhmmmgM97vJRZIH2qk3RH6AoxoX4SWtat73Idk_DH0FWKIVJ9F1Dw')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:720px;padding-top:133.33333333333%">
+  
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">1:30</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Media is too big</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')"><b>🔹</b></i>Мы уже писали, что сегодня в Могилеве стартовал фестиваль еды «Зімовы <mark class="highlight">смак</mark>»: на нем за 40 рублей можно попробовать различные сеты в 12 кафе и ресторанах города<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8DB4.png')"><b>🍴</b></i><br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E296AB.png')"><b>▫️</b></i>Что мы сразу же и сделали&#33; Первый в наших гастрообзорах - <b>гастробар «Цоколь»</b><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29DA4.png')"><b>❤️</b></i> <br/><br/>Здесь для фестиваля еды приготовили 820-граммовый сет из блюд российской кухни. Изюминка сета – пожарская котлета <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F98B3.png')"><b>😳</b></i>, за приготовление которой берутся только повара с огромным опытом...<br/><br/><a href="https://magilev.by/news/2025/01/28/pozharskaya-kotleta-tayala-vo-rtu-a-napoleon-okazalsya-ne-desertom-pobyvali-na-mogilevskom-feste-zimovy-smak-v-gastrobare-cokol" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">&gt;&gt;&gt;&gt;&gt;Весь обзор с впечатлениями и, как говорится,  послевкусием - ПО ССЫЛКЕ<br/></a><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>9</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918F.png')"><b>👏</b></i>1</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">1K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta">edited &nbsp;<a class="tgme_widget_message_date" href="https://t.me/magilev/12535"><time datetime="2025-01-28T13:59:13+00:00" class="time">13:59</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/12539" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6MTI1MzksInQiOjE3OTQ3MzY4ODksImgiOiI0ZTE1MjYwMDdmMjY0NTFjMGYifQ">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+<a class="tgme_widget_message_reply user-color-default" href="https://t.me/magilev/12533" "><i class="tgme_widget_message_reply_thumb" style="background-image:url('https://cdn4.telesco.pe/file/K8wGhzfemcyDtGBUskhV1V3GqgRsWcVYn7yZabnqmPYeYcgeOEaCFmqwmzx9EM0Gpxbo4mT46dKFrfWmxwoJ7tLpaxt1lzMvTdLNpLNc6Xf2EIctBYpntqWdGLfUb2-cqqqbd9GbvzXXOMsK40CNhW0ZSAaI-0E7W9vDLYpLo4Qhkfo0p1j0zbrdg8QYCviMnIuwZwD4sJIKhGqumBb9eey-a00lwwSzd01iDWkAyXqhSSr5x9IH199P0Y3VU911Snie9SM-W6Id8WBvZKzCh6N6oJec2k4T_4AKzqjcYM8fR6vmGG3cDpkPl7-mrGO5D-Icv29wKdOteeqJwLnIcw')"></i>
+<div class="tgme_widget_message_author accent_color">
+  <span class="tgme_widget_message_author_name" dir="auto">Magilev.by</span>
+</div>
+<div class="tgme_widget_message_text js-message_reply_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')"><b>🔸</b></i> Напоминаем, с сегодняшнего дня  и по 9 февраля в Могилеве проходит фестиваль еды «Зімовы смак». Стоимость сета – фиксированная, <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/34E283A3.png')"><b>4⃣</b></i><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/30E283A3.png')"><b>0⃣</b></i> рублей.<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F988B.png')"><b>😋</b></i>  Обозначена в этом году и тема фестиваля: «Кухня замежных сяброў», так что ждем от кафе и ресторанов не самое привычное…</div>
+</a>
+<a class="tgme_widget_message_video_player not_supported js-message_video_player" href="https://t.me/magilev/12539"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/Klx3HPQ2X_RcGQQVjuJZVSEhgKo8K-CZaJxJ9BLLkfG7B2GeG73CqvIwwjP7vEtcJXbKZ3ucQFKOzyGiaLMvRukNy-6Aqc1g3WanWa47LOMr9gDDk7-M20EDmxHAGvbkEJOBTedqcDGvbY0yjJL-xzLh7cAatz34ch-28C9yPBMqcI2syNIw3Qfo4PMlJBrGEkNm8FS9QpTumJRkExRDO5Jx6VhIbsCjVrFx-JcHKCBiBOClown6-7QcXesCzjFacykyAHxgzGxErHLf3VUkfKyO_1XWFqb8K71fBzXS7ZD5cOxB3C3Ix0QdMMpfqmFkbxdPZgiOlQzcBAKdyCg6BQ')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:720px;padding-top:133.33333333333%">
+  
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">0:42</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Media is too big</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')"><b>🔸</b></i>Мы продолжаем дегустировать сеты за 40 рублей на городском фестивале еды «Зімовы <mark class="highlight">смак</mark>». И на этот раз отправились на Ленинскую – <b>в рестобар «Луна»</b><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29DA4.png')"><b>❤️</b></i><br/><br/>В этом заведении с типично европейской кухней для «Зімовага <mark class="highlight">смаку</mark>» решили создать более чем килограммовый сет из кавказских блюд.<br/><br/>Кто любит кавказскую кухню – однозначно оценит. Кто никогда ее не пробовал – милости просим в «Луну»: это хороший вариант, чтобы открыть для себя что-то новое.<br/><br/><a href="https://magilev.by/news/2025/01/29/festival-edy-v-mogileve-zimovy-smak-v-restobare-luna-i-vkusno-i-dushevno" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">&gt;&gt;&gt;&gt;&gt;Наш детальный обзор сета - ПО ССЫЛКЕ</a><br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>10</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29DA4.png')"><b>❤</b></i>1</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')"><b>🔥</b></i>1</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">940</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/magilev/12539"><time datetime="2025-01-29T09:11:38+00:00" class="time">09:11</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/12549" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6MTI1NDksInQiOjE3OTQ3MzY4ODksImgiOiJlYmJlYzA2NmIzYzBlNjkyOTAifQ">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+<a class="tgme_widget_message_reply user-color-default" href="https://t.me/magilev/12533" "><i class="tgme_widget_message_reply_thumb" style="background-image:url('https://cdn4.telesco.pe/file/MphA0h7cIjKdsVXt3Vs9s1OaiIpN_C2rZqNgUHB5DyYZ1i6acdKF1szcKTmVbmq7JNRMJVAasZ5s5-XT-KVTbPh6RP_PA-QbGj4D2_fVup7QwLkKRHo-2T9-C3GIQfnvwY0FCFkbcPZ07-tsSHkR0GaRt9qIV2ZEKxr0suCP_bvtjdG5-pzf8NVq_Fog8sajyBnZ_ERRjVMIrxmuPucitM672b8zFgdDFFnta9C9YECOZwEfhNGNlfEsUTjONR-iX6Z4fZylIgYz5Mwf1ZsdmxLw-K4RiOuUAhwzIoYZmNLSfsDuvBxX2Zs9_U-KjZM50eRvnKvVNKC9S1jRsPVr9g')"></i>
+<div class="tgme_widget_message_author accent_color">
+  <span class="tgme_widget_message_author_name" dir="auto">Magilev.by</span>
+</div>
+<div class="tgme_widget_message_text js-message_reply_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')"><b>🔸</b></i> Напоминаем, с сегодняшнего дня  и по 9 февраля в Могилеве проходит фестиваль еды «Зімовы смак». Стоимость сета – фиксированная, <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/34E283A3.png')"><b>4⃣</b></i><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/30E283A3.png')"><b>0⃣</b></i> рублей.<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F988B.png')"><b>😋</b></i>  Обозначена в этом году и тема фестиваля: «Кухня замежных сяброў», так что ждем от кафе и ресторанов не самое привычное…</div>
+</a>
+<a class="tgme_widget_message_video_player not_supported js-message_video_player" href="https://t.me/magilev/12549"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/ky8gk3YT_KRaajPIiP_3lZ79RrShykU-8-9gcce2wl4NjkneDQiLXB-z9MDO4lC0Gzo8CrZstMW495ATodCoKCrhL1bS_2gcVYGOmgscU_SA33QJoYwHCmJ3YnAPKmmEcvB9DlRVfngCln9nWcpvGzaX0ViY5W1S0fVPFqlgQn01L56cSjCvqsnB_B_rlVodUU0cxw2jLUBITpggl82DN7JyAjadtMLkUZCcwG2QL9z98dZk4gtSNGTcSrpb1-49_XeSLZivvCrQ6e0hu6kDI4OvszakMum0_KtsXbZ6qFgmlJeSkXjaNew0bpgyrV-gxAzQj4iQ6cBfHK8k3HUfGQ')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:720px;padding-top:133.33333333333%">
+  
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">1:25</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Media is too big</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')"><b>🔹</b></i>Напомнаем, что в Могилеве до 9 февраля проходит фестиваль еды «Зімовы <mark class="highlight">смак</mark>», где за 40 рублей заведения города предлагают различные по объему и наполнению сеты.<br/><br/>На этот раз наш корреспондент отправилась к Святому озеру - именно там, на берегу, находится <b>ресторан-корабль «Санта Мария»</b><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8C8A.png')"><b>🌊</b></i><br/><br/><a href="https://magilev.by/news/2025/01/30/reklama-na-3001festival-edy-v-mogileve-zimovy-smak-mnogo-myasa-i-udivitelnye-syrniki-ot-restorana-santa-mariya-gurmany-ocenyat" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">&gt;&gt;&gt;&gt;&gt;Если кратко, фестивальный сет от «Санты Марии» вряд ли оставит равнодушным фанатов мясных блюд... Полный обзор - ПО ССЫЛКЕ<br/></a><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>9</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29DA4.png')"><b>❤</b></i>1</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')"><b>🔥</b></i>1</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9881.png')"><b>😁</b></i>1</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">959</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta">edited &nbsp;<a class="tgme_widget_message_date" href="https://t.me/magilev/12549"><time datetime="2025-01-30T10:42:41+00:00" class="time">10:42</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/12560" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6MTI1NjAsInQiOjE3OTQ3MzY4ODksImgiOiI5ZDNhMjhmNjUyYTdlOWMyYTMifQ">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+
+<a class="tgme_widget_message_video_player not_supported js-message_video_player" href="https://t.me/magilev/12560"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/X_fs8U9Fb3jt24M_R6KxZw0Na2gV8HA2eLkPD8TCxJ13LJ3Fv0znhYr2m-KlhgzSj1oylVpwjIQx0LMx7raWGR2fXiPYHQhRzidaADeWsty7IbbDRdQzEQVdT2wSsCIQZ64UfVgKr7WkPu9c3sZ8WcjiPpUSaLpYsR3zMXjrbM8YFu1nXZxeQ-ziBzbBcoLbP4lspkLmQ47gQiM2sldk8VLUMfWVQF47WR7_CObxDH7amg00Cf-v-NlwqxgtFCQHOMP_8UbXdVf6raHz7Tj3XIc2vMVQ-Oc2WUh4UTCuXJuuut7Z9etBS6v7SF_TejpqjMNvcwqRczPnuetdKJKJGw')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:720px;padding-top:133.33333333333%">
+  
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">1:08</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Media is too big</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')"><b>🔹</b></i>Наши корреспонденты продолжают дегустировать 40-рублевые сеты на фестивале еды «Зімовы <mark class="highlight">смак</mark>». На этот раз мы отправились на Ленинскую - <b>в рестобар Colette</b> (недалеко от Звездочета).<br/><br/>Здесь для феста подготовили килограммовый итальянский сет с говорящим названием «Mamma mia».<br/><br/><a href="https://magilev.by/news/2025/01/31/festival-edy-zimovy-smak-v-restorane-colette-rebenok-i-picca-ochen-sovmestimye-komponenty" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">&gt;&gt;&gt;&gt;&gt;По вкусовым ощущениям и правда Mamma mia&#33;&#33;&#33;<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09FA48C.png')"><b>🤌</b></i> Подробный обзор сета - ПО ССЫЛКЕ<br/></a><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29DA4.png')"><b>❤</b></i>5</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>3</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918F.png')"><b>👏</b></i>1</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">882</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta">edited &nbsp;<a class="tgme_widget_message_date" href="https://t.me/magilev/12560"><time datetime="2025-01-31T10:23:20+00:00" class="time">10:23</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/12569" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6MTI1NjksInQiOjE3OTQ3MzY4ODksImgiOiIxMWVlODY5NWY5OWRiMDk1YTkifQ">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+<a class="tgme_widget_message_reply user-color-default" href="https://t.me/magilev/12533" "><i class="tgme_widget_message_reply_thumb" style="background-image:url('https://cdn4.telesco.pe/file/aQRsVZIXkJKWSTI35iZjhuWJDDY3ApXaBET53MicnjTi5CGKzEp2CeaX0nvtRzj5DYuTnFXDzjlSjZN57DVv6Y7mpnbzAXQjcRERRuOr9h_R4YbkFXFVHtGYP3UA--Dd1c8VIbwBkVQu3pXpA4nNPXYSaW7OTIPBzin1vc3ypswIUgZnfwnO3beatL6f6EMpb8v14L_ceyjBVNv4hK-ZeOZa7YVqgIa2WsGNy9lsSdGJj_vb_xdB32xsJZkAIhHlu9X1FBZbOYBUmNvhECaKPPQrO3ihDi8FlZwCgigC1TiwDqwGoz5lLr_Ok5ybV0Gl0jN5h_CBfHdSvA3vkxwi-g')"></i>
+<div class="tgme_widget_message_author accent_color">
+  <span class="tgme_widget_message_author_name" dir="auto">Magilev.by</span>
+</div>
+<div class="tgme_widget_message_text js-message_reply_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')"><b>🔸</b></i> Напоминаем, с сегодняшнего дня  и по 9 февраля в Могилеве проходит фестиваль еды «Зімовы смак». Стоимость сета – фиксированная, <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/34E283A3.png')"><b>4⃣</b></i><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/30E283A3.png')"><b>0⃣</b></i> рублей.<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F988B.png')"><b>😋</b></i>  Обозначена в этом году и тема фестиваля: «Кухня замежных сяброў», так что ждем от кафе и ресторанов не самое привычное…</div>
+</a>
+<a class="tgme_widget_message_video_player not_supported js-message_video_player" href="https://t.me/magilev/12569"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/pC-e4Zh3CcDd4KU2Oh3NxCZSuRHhbdWWMQgaHSKKLMHFjw33jukGfAlKypi_nFPht8teSyQtLShiCvv2tMkLNDmtarhc7aCrg3O-kpI2Q27QbAueGUNXyvJgkekXLiVmo9QER7KGqch3vIyEPfTBPotKY4_smm9ujipPzOgok90fXi5Ie5-jqpVOzkP4g41uz9JAP6Z4S9qWE3L3CJDeXCJbQ0ErFMejyXwZe5dxNGDCnQVr1kyXcorVZxmDOr-IyVB2VqKCAaN6EgcjGig6Q7bZN6GyA6X45bPlrPj8XVWTN1HufYrTNGlCJLvC6HAsi1ZhTa7MKn5LVaVEF-cezQ')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:720px;padding-top:133.33333333333%">
+  
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">1:29</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Media is too big</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B9.png')"><b>🔹</b></i>Мы продолжаем дегустировать 40-рублевые сеты на фестивале еды «Зiмовы <mark class="highlight">смак</mark>».<br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29D97.png')"><b>❗️</b></i>Первый раз в нем участвует ресторан «Турист», который находится в одноименной гостинице. Здесь подготовили килограммовый сет, который в хорошем смысле удивил нашего корреспондента хрустящими фляками и томленой говядиной<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09FA48C.png')"><b>🤌</b></i><br/><br/><a href="https://magilev.by/news/2025/02/01/reklama-na-102-festival-zimovy-smak-restoran-turist-udivlyaet-hrustyashimi-flyakami-i-tomlenoj-govyadinoj" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">&gt;&gt;&gt;&gt;&gt;Подробно о сете, а также наши впечатления о «Туристе» - ПО ССЫЛКЕ</a><br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>10</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94A5.png')"><b>🔥</b></i>1</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9881.png')"><b>😁</b></i>1</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">1K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/magilev/12569"><time datetime="2025-02-01T09:58:26+00:00" class="time">09:58</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="magilev/16052" data-view="eyJjIjotMTUwOTkyNzQwNywicCI6MTYwNTIsInQiOjE3OTQ3MzY4ODksImgiOiIzYjM4ZDkxZTJjNDg3YTMzZDkifQ">
+  <div class="tgme_widget_message_user"><a href="https://t.me/magilev"><i class="tgme_widget_message_user_photo bgcolor2" data-content="M"><img src="https://cdn4.telesco.pe/file/uqwCrznYHLNyhHR15LbD5fboaUgAKH0DVxGrD6Y7Tr34i2hyidFJIUOW4uQK7dS5_Lnb0R5rXLMOAz4eMy9LbJT7XN32NnQJbSHQS8R1JIH5yzfXd-qT7ORYnrr5qLFgY2UnwbGqbtCKL-ChC6T2gVSKmgJUZZpEDIZdj7qWwPOcA4tTIAW3DqxFYK0R6zwVN-5D7b_YOehL-Tuo-2QsLgpZPWOWtihjK_7EShRQ-YY2ZU-SfrX4EmdOkbey_1aSt2uUegCQEP6uL-ulHEJ9ZKP2XXfdLB93ew7tx-Ux5Mx-K027zbCqzxES9-8aAelD_rfa1gZbxqAC6XEuOTfHBg.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/magilev"><span dir="auto">Magilev.by</span></a></div>
+
+
+<a class="tgme_widget_message_video_player blured js-message_video_player" href="https://t.me/magilev/16052"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/DJxYgDdx-nqWtOulb1J0gHxJhr6cB84bmi_UGDmsplzMC17RE6tIEboCqxRmXubAKRWypXJhrau7n_gAmnLHCer5y9g0nOwvJygMaXq_kEqeNFmTtpJ55m9dNxxhCsvMLV45MNK2ZOLGA7rdhiK5002f6rrA8EDmb7KTaHoInya6BiGs6lgV3bQrDdCG2RVZlWBJnSdVxsJQG0GSw04-DC--o49wLlLqIvbJ2YEi8TYJpp1fjWmXhYnPAt4tgN9vL2xkMrVvLlkYTLTwIUvNPxjXVpa8vipmAInJ-978YZ3n45M4sFx5Nnxs8iYAsty48v_OvBQjR7v4qZx3EU0lSg')"></i>
+<video src="https://cdn4.telesco.pe/file/9937c26f1d.mp4?token=RP8J2kJU4YNh7vV_qitxrDf2QySzQLQIBOc_ZvgBQZbBtSLH7H7AFM6_WFgNSq9GZj803jcRwK2LiJB69OD2nsvy7jocacKaJzsoAv8qRDyZySnMk3cvXPXCA34KkEtYQGQJ7zdyRVtxX78lAvBsMpxh_Rjg0mXjwL_eFH9XigSCYHCHLAS0R6jx-_Ae2yNDq24cm6wh4HPn4MTdpNbtBYW01zFxOm3oktGxm3-qxYqKnydmMVjEaPbk2QctYaC1bkxhmo8_xr8gW4NsLoM0Dp1Xno7-GnkrFdz_Bq58DiHglBrNSKBmjjqH80fQmWWLPkO4bq-f4A21jo5Cd4lf5g" class="tgme_widget_message_video blured js-message_video_blured" width="100%" height="100%" muted></video>
+<div class="tgme_widget_message_video_wrap" style="width:714px;padding-top:133.33333333333%">
+  <video src="https://cdn4.telesco.pe/file/9937c26f1d.mp4?token=RP8J2kJU4YNh7vV_qitxrDf2QySzQLQIBOc_ZvgBQZbBtSLH7H7AFM6_WFgNSq9GZj803jcRwK2LiJB69OD2nsvy7jocacKaJzsoAv8qRDyZySnMk3cvXPXCA34KkEtYQGQJ7zdyRVtxX78lAvBsMpxh_Rjg0mXjwL_eFH9XigSCYHCHLAS0R6jx-_Ae2yNDq24cm6wh4HPn4MTdpNbtBYW01zFxOm3oktGxm3-qxYqKnydmMVjEaPbk2QctYaC1bkxhmo8_xr8gW4NsLoM0Dp1Xno7-GnkrFdz_Bq58DiHglBrNSKBmjjqH80fQmWWLPkO4bq-f4A21jo5Cd4lf5g" class="tgme_widget_message_video js-message_video" width="100%" height="100%"></video>
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">0:25</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F94B8.png')"><b>🔸</b></i><b>В Skymall в Могилёве замечен весьма необычный зверь<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9889.png')"><b>😉</b></i><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9186.png')"><b>👆</b></i></b><br/><br/>*Видео: <a href="https://vt.tiktok.com/ZSaSkb5qM/" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Вясковы <mark class="highlight">смак</mark></a><br/><br/><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C94.png')"><b>✔️</b></i>Подписывайтесь и делитесь <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9189.png')"><b>👉</b></i> <a href="https://t.me/magilev" target="_blank">@magilev</a></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9881.png')"><b>😁</b></i>9</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918E.png')"><b>👎</b></i>4</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>2</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29DA4.png')"><b>❤</b></i>1</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09FA4A9.png')"><b>🤩</b></i>1</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">920</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta">edited &nbsp;<a class="tgme_widget_message_date" href="https://t.me/magilev/16052"><time datetime="2026-01-27T08:29:05+00:00" class="time">08:29</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div>
+    </section>
+  </div>
+</main>
+    <script src="//telegram.org/js/jquery.min.js"></script>
+    <script src="//telegram.org/js/jquery-ui.min.js"></script>
+    <script src="//telegram.org/js/tgwallpaper.min.js?3"></script>
+<script src="//telegram.org/js/tgsticker.js?32"></script>
+
+    <script src="//telegram.org/js/widget-frame.js?68"></script>
+    <script src="//telegram.org/js/telegram-web.js?14"></script>
+    <script>TWeb.init();
+</script>
+    
+  </body>
+</html>
+<!-- page generated in 265.37ms -->

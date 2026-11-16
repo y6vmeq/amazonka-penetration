@@ -1,0 +1,35 @@
+records=33 ok=23 loose=9 partial=0 missing=0 no-raw=0 image=0 snippet=1 empty=0 format_errors=0 reply_problems=0
+
+official-001 | текст: OK | ответ: -
+official-002 | текст: OK | ответ: -
+official-003 | текст: LOOSE | ответ: -
+official-004 | текст: OK | ответ: -
+official-005 | текст: OK | ответ: -
+official-006 | текст: LOOSE | ответ: -
+official-007 | текст: OK | ответ: -
+official-008 | текст: OK | ответ: -
+official-009 | текст: OK | ответ: -
+official-010 | текст: LOOSE | ответ: -
+official-011 | текст: LOOSE | ответ: -
+official-012 | текст: OK | ответ: -
+official-013 | текст: OK | ответ: -
+official-014 | текст: LOOSE | ответ: -
+official-015 | текст: OK | ответ: -
+official-016 | текст: LOOSE | ответ: -
+official-017 | текст: LOOSE | ответ: -
+official-018 | текст: OK | ответ: -
+official-019 | текст: LOOSE | ответ: -
+official-020 | текст: OK | ответ: -
+official-021 | текст: OK | ответ: -
+official-022 | текст: OK | ответ: -
+official-023 | текст: OK | ответ: -
+official-024 | текст: OK | ответ: -
+official-025 | текст: OK | ответ: -
+official-026 | текст: OK | ответ: -
+official-027 | текст: OK | ответ: -
+official-029 | текст: OK | ответ: -
+official-030 | текст: LOOSE | ответ: -
+official-031 | текст: OK | ответ: -
+official-032 | текст: OK | ответ: -
+official-034 | текст: OK | ответ: -
+official-035 | текст: SNIPPET | ответ: -

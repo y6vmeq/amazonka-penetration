@@ -1,0 +1,107 @@
+{
+ "number": 42,
+ "url": "https://t.me/moymogilev/66759?embed=1&mode=tme",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:27:00.355Z",
+ "html": "raw/042_t-me_tg-moymogilev-66759-post.html",
+ "txt": "raw/042_t-me_tg-moymogilev-66759-post.txt",
+ "sha256": "75dda3f4ddfd59605ca69b5a8ff93c40882faa11f968e2566a37af545fe65d38",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 800
+ },
+ "extra": {
+  "name": "tg_moymogilev_66759_post",
+  "status": 200,
+  "requested": "https://t.me/moymogilev/66759?embed=1&mode=tme",
+  "tgPost": {
+   "url": "https://t.me/moymogilev/66759?embed=1&mode=tme",
+   "at": "2026-11-15T14:27:00.354Z",
+   "error": "",
+   "post": {
+    "id": "66759",
+    "author": "Могилёв - мой город!",
+    "authorHref": "https://t.me/moymogilev",
+    "text": "🍔🍕Сегодня в Могилеве стартовал Gastrofest.Craft \n\n📍Пройдет фестиваль с 12 по 29 ноября. \n\nПринимают участие 10 заведений:\n\n📍Гастробар Цоколь (ул. Дзержинского, 19);\n📍Бар «Эдисон» (ул. Ленинская, 11)(\n📍INARI (пр-т Мира, 18);\n📍Ресторан 101 (пер. Пожарный, 6Б);\n📍Ресторан-бар «[исключено]» ([исключено]);\n📍Ресторан «Чайхана Рахмат» (ул.Первомайская, 31);\n📍Рестобар «Луна» (ул. Ленинская, 22);\n📍Ресторан Хинкальня (ул. Будённого, 13);\n📍Рестобар Амазонка (ул. Ленинская, 38);\n📍Смак. BY (ул. Буденного, 13/44).\n\n💰Стоимость сетов фиксированная - 39 рублей\n\n🔼Фото сетов с наполнением выше. Какой сет понравился больше всего?\n\nПРИСЛАТЬ НОВОСТЬ\n\n✔️Подписывайтесь Instagram TikTok Telegram YouTube mogilove.by",
+    "dateText": "Nov 12 at 13:45",
+    "datetime": "2026-11-12T12:45:27+00:00",
+    "url": "https://t.me/moymogilev/66759",
+    "replyTo": null,
+    "forwardedFrom": "",
+    "views": "3.25K",
+    "metaText": "Nov 12 at 13:45",
+    "signature": "",
+    "reactions": [
+     "❤‍🔥9",
+     "❤5",
+     "😱1"
+    ],
+    "media": [
+     {
+      "type": "photo",
+      "src": "https://cdn4.telesco.pe/file/S9Ur4tz5nNk0UCVNdWchS4HC1M5z4-BIj4gKI_GCGXMmK2TXKzqg1nOQLow8KWegI2MZ3qBb_cAgUKCskoTNmXRPI2C9CX5jfLtvErd2ELq53L_4zqphJGNEHHtdrP0urJlibpBZ05wTrsrS496ZaKPfFIpazwiaVVPjEBFs21kMKVis4Jy4jmddhr9582p_d-gGHQ3XoV39-Bduzt3yg_prH3-Vvl8xzYjpZUOeQT5mQngjqNfiJedW9Dmy_EeyV-3R62eEX6MuT7Oo975RR2_DCdJueQ3gZptcCqaNEGoH-xx5DxEgSnodpLkSdvcvcgPDhamAuRixFYB3CKQzMQ.jpg",
+      "href": "https://t.me/moymogilev/66759?single"
+     },
+     {
+      "type": "photo",
+      "src": "https://cdn4.telesco.pe/file/JbZRL98Lts7bb1jHHA-T0W4tdHbA89RmHwKP9ks4lOGgXhQveqCjnrzdctqZvRJqAGQ5Q4UmerkDhamQ6MZs8Bh_a1i8tM6eCZM5KirJo7FPVgxYzQnyWr5S_RfTiBnYMFYUEgpw9fSgADfSb0QylTVuspVf7ElpkruGk-mE0QrSSeky1WwIxPl10vPG832pLYmuVgsT7AdhAWh5e7rkmIdhQf3KGaqQpGnl6Vo-1r3AN3J0xIceghtd_7O_9m3wue29Pu5QjVvH-PMSpwvfythZlJLPdxO2gtqKXnFdW3gZzP1c0j6cXw4QrdjwG567LesdmsW0pdkxd14fXr6qWw.jpg",
+      "href": "https://t.me/moymogilev/66760?single"
+     },
+     {
+      "type": "photo",
+      "src": "https://cdn4.telesco.pe/file/DOFoFtMNYDrMRI-5Z2OqKcaZxm23yYySLKQLxd_VElnEjJWtPIa0kuzXyIAfF7o-rHkNgdZLyZAKt8D4Ta0uAeEclWqFQYzi64YbvJxPaye5UjYPRTM9f3eJYgw2n-DQnjzg5sDrQ6XOJDby7ZV9LDoBK4D0_9zZqXdHWC3PaVCzmapUtc3m4GsZtuQrS-zExjnM95Ke_ekMCsayvyvcnMshYnmlaTbJlfcLVU3OMBxgf1uKP5NcOzYmi2Ts_JYrPXqc9g1aCsWSrrDPoUqJNl66jy1vg1N3hCV-md0OvRSP3IOwnPy_zO3Y8YoAhdRU767KWABAcgn6DPiHfIfoSA.jpg",
+      "href": "https://t.me/moymogilev/66761?single"
+     },
+     {
+      "type": "photo",
+      "src": "https://cdn4.telesco.pe/file/qpfmcUtHEMu7sr-X3oicIrB8po7ET05QF_5Mbm-L9n3ZDV-qWDEnQ2RylRN9hFcR0M8AyDTMUGIUDRb4_8Id_j0T-gcoWcEQkWackKU-Bgl2RTWiyNQ5JFTS9STZZjvmKRtfR3PHUNsbwnh5xatZHW3ApabLOYL3KnUqgc1s6yUocXr5HBM1NTwU_mGRpJOkE4kiMOFWY0kNWvmibhVCckeLaWPbbTKyj24RXOhjyIyCk_FXBcHvc9PDig7FOO51GQ0VpSO2M-0yF--QoPEDIBLtQH8f57hJQ1vmETIjVYhjyKvAhbsvMw-FtjNrkmfmbCF331sVg2lzQ238S793wg.jpg",
+      "href": "https://t.me/moymogilev/66762?single"
+     },
+     {
+      "type": "photo",
+      "src": "https://cdn4.telesco.pe/file/Oc2WUhP2mg8lRHYGCGaARTBPniOu5CRVYXJ91NaN8NGMzU0E-jtdBDugLfJvpco4ajFWgavtvDNS88j3j6c_xKKF5XU4JEGP8kIjUrOBECn7ea6DPF1OLZt3MovGwmhX-o4OucddFU7XYoegbr80-2cRneV7prh6Z3DAYHBIo4eA47Kg0XoCxd88GQRDoxKg5u_ymVc5zVxEBQJ2N2Yn-lkbmNCzsqfJ9islJOJb7zlbEnKRwGTQEmqn9EZsrrHyhylot5od48GuZxokexCQaKmPC5nRewT1AzssQDICH47992_79LM6n2R3EMkT64dErmct15RdZmhRRG-5i85dew.jpg",
+      "href": "https://t.me/moymogilev/66763?single"
+     },
+     {
+      "type": "photo",
+      "src": "https://cdn4.telesco.pe/file/vpkVBoFSmzupvvibJaWxDVkFqM0hmowDyisY2-8oJyvHoHRQRshwdrAG10hslN-6umHsk6rwatccYRLT95_e02QQs3O41SSF9Al0Eey1Dn0x3sc7tQM8YQyiLzRAao7pKmyDoPix9SOQ0VP8VQb9qHCl0Bzjz2PA2cfo0c3-aGlrgLA1oTq5YXuqk8vOEkn00LYlhMfOQU7ZL2TNofz2GNIh59tgdELmAq0ACfs63eMXqg6JeM0MMNZOTyqm8DZwMaZCa58MC49k8QYyV3PIyHdtQKOA5VO7gBg2KrY1vF4JtO4miIapk402UHktY9OIJGzO8RCAErj4Zv-iQF8uuw.jpg",
+      "href": "https://t.me/moymogilev/66764?single"
+     },
+     {
+      "type": "photo",
+      "src": "https://cdn4.telesco.pe/file/lNqX_-r95SUHp9tXKzA-FphBdQ0VDTe1U2YIEvMccU7BcWtvPU-3a48pHLpgfWNeF7kdyWubdzlWhHKL3SRudfi8rZOugaR3cyiFvqxfx6ajLChTTRIadFtuQQD3R1QCz1EWd5d4ZbEd9IeQIF-jtItn8NtMejCzo84y5Zk3DTmwboGidrSBipe8cTRblI_RZTc5uWgDQXAUBzA6kzbhy1ydHkixpauhjU1cQshHahKOf-Q9G2tkZtxuHwg5TbERaBcKQZg_8SAHlhlSCkUXq_RDWi04RQ_IJCp2B8cHKuf0VJFXvVlT_GXsq7I1gy8rfeTJXROTKE3KM31VSPZIAw.jpg",
+      "href": "https://t.me/moymogilev/66765?single"
+     },
+     {
+      "type": "photo",
+      "src": "https://cdn4.telesco.pe/file/e37zWlaG1G4eDEZV8QCRiKeL1tcI7itdWPayWhk1ONaP62VjdOg014VTbn_zJgpozr2sHAfxqvce4-ocGjCUu9cTjryR63LSglfoSPBCChBrWlJnCj0JLH8j8w4Y5eUidLSeVqJRU4AKiQGP6TxhML_JAB2oVLdMpAWiFiPhCW0_fxol_aS0ZelPb3MEjOzSYsmipNDJUY2C9mmSbBMHg3q6V6AGt7HyYn2hf9n3u-ij-zlXXraORbWMdzo6e4sMl12rEL4Eue2txgsoZ6ROUG7DOrZP4a8Cbh6Z3xLAZZls6S0zipmpSRKK2yB7mh7sxW_3h0pQVLbgBlWlxiV7dg.jpg",
+      "href": "https://t.me/moymogilev/66766?single"
+     },
+     {
+      "type": "photo",
+      "src": "https://cdn4.telesco.pe/file/WTlihpcjG4eGGvq4m_LAs4spIXKyr5OllhbxyKGv9dVVpWYwwM5F0Hvgaf1AtOWS33A6p-v3Uhxw403P40A4hZL8cJorcSMtNkGeG6WHfrmt7TerS2y014wnmR_ichtfEbmbL7Q2lz06_aLQMfpKhDgzWHJDRfqT0OUt5Sm0SAkCk4P1u5c1HB3JELZO272X4Pbquo6VaQMjn5CAiu9ZKydSJquWVQ-T01zrUUGB2tln97vFPZnc0WwaDgJZRFOvVMiat8NdwHnZYIlFrnsXNcYCAvpdZKG3Kelat1WRlJF5D9sjoH6Tij1V7YWDpNDdD1KG7mfCqIB4HSIVg7TFbA.jpg",
+      "href": "https://t.me/moymogilev/66767?single"
+     },
+     {
+      "type": "photo",
+      "src": "https://cdn4.telesco.pe/file/RkNjz0VWKmobK_pUui7MbensYt_fzV3Zoiyyu4Hf6fMIBRUqdiREUSha3GCCdzsBvAK4Whr1W-9S_I5trRBAUvMMunQOQoMcDDjAWVuh7MrJLQ4QHbTITErYcWu3d685aEKESq7SBDQhOgMOq2tXM3NXYmLFaCKPy6TJC3upqF8R7Np5D0Tr8M8jbSgEr4hKHQMf187uAHH7Eo-nZG1XNmBJ_DU_C6FRxdz8i8fWY6Vtjz0bHbDz9o8zgwZv6rmr542ulle2P2BVJA35n85kCcpqEWPe8JRIXxvPa6lIaUU6GzbJeWHRtEN56Hie75_OmmmiCcm_-etudFyl-H672Q.jpg",
+      "href": "https://t.me/moymogilev/66768?single"
+     }
+    ]
+   },
+   "repliesText": "",
+   "bodyText": "Могилёв - мой город!\n🍔🍕Сегодня в Могилеве стартовал Gastrofest.Craft\n\n📍Пройдет фестиваль с 12 по 29 ноября.\n\nПринимают участие 10 заведений:\n\n\n📍Гастробар Цоколь (ул. Дзержинского, 19);\n📍Бар «Эдисон» (ул. Ленинская, 11)(\n📍INARI (пр-т Мира, 18);\n📍Ресторан 101 (пер. Пожарный, 6Б);\n📍Ресторан «Чайхана Рахмат» (ул.Первомайская, 31);\n📍Рестобар «Луна» (у"
+  }
+ }
+}

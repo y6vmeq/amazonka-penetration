@@ -1,0 +1,460 @@
+{
+ "number": 253,
+ "url": "https://masheka.by/index.php?do=search&subaction=search&search_start=2&full_search=0&result_from=11&story=%D0%B3%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%82",
+ "title": "Поиск по сайту » MASHEKA - информационный портал Могилёва. Новости Могилева, интервью с могилевчанами",
+ "at": "2026-11-15T17:07:09.533Z",
+ "html": "raw/253_masheka-by_masheka-search-gastrofest-p2.html",
+ "txt": "raw/253_masheka-by_masheka-search-gastrofest-p2.txt",
+ "sha256": "779814db2b5a1755c72309d73e26e77b422db1af396e5386fe80d44190b0642d",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 27,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 2,
+    "text": "13"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 2,
+    "text": "21"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 2,
+    "text": "64"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 2,
+    "text": "95"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 2,
+    "text": "87"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 2,
+    "text": "31"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 2,
+    "text": "24"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 2,
+    "text": "88"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 2,
+    "text": "19"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 4,
+    "text": " 29 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 4,
+    "text": " 52 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 4,
+    "text": " 41 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 4,
+    "text": " 27 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 4,
+    "text": " 25 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 4,
+    "text": " 27 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 4,
+    "text": " 28 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 4,
+    "text": " 29 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 4,
+    "text": " 27 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 5,
+    "text": " 420 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 5,
+    "text": " 410 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 5,
+    "text": " 560 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 5,
+    "text": " 552 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 5,
+    "text": " 356 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 5,
+    "text": " 798 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 5,
+    "text": " 489 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 5,
+    "text": " 599 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "blog-post-comment",
+    "textLen": 5,
+    "text": " 596 "
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "quicksearch",
+    "cls": "",
+    "action": "",
+    "fields": [
+     "input:hidden:do",
+     "input:hidden:subaction",
+     "input:text:story"
+    ]
+   },
+   {
+    "id": "fullsearch",
+    "cls": "",
+    "action": "",
+    "fields": [
+     "input:hidden:do",
+     "input:hidden:subaction",
+     "input:hidden:search_start",
+     "input:hidden:full_search",
+     "input:text:story"
+    ]
+   },
+   {
+    "id": "",
+    "cls": "",
+    "action": "",
+    "fields": [
+     "input:text:login_name",
+     "input:password:login_password",
+     "input:checkbox:login_not_save",
+     "input:hidden:login"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 4771
+ },
+ "extra": {
+  "name": "masheka-search_gastrofest_p2",
+  "status": 200,
+  "requested": "https://masheka.by/index.php?do=search&subaction=search&search_start=2&full_search=0&result_from=11&story=%D0%B3%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%82",
+  "site": "masheka.by",
+  "query": "гастрофест",
+  "summary": "По Вашему запросу найдено 26 ответов (Результаты запроса 11 - 20) :",
+  "links": [
+   {
+    "href": "https://masheka.by/novosti-mogileva/",
+    "text": "НОВОСТИ МОГИЛЕВА И ОБЛАСТИ"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/17932-vkusnejshie-menju-mozhno-otvedat-na-gastrofeste-v-mogileve.html",
+    "text": "Вкуснейшие меню можно отведать на Гастрофесте в Могилеве"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/",
+    "text": "НОВОСТИ МОГИЛЕВА И ОБЛАСТИ"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/17883-gastrofest-priblizhaetsja-sety-novyh-uchastnikov-radujut-mogilevchan.html",
+    "text": "Гастрофест приближается: сеты новых участников радуют могилевчан"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/",
+    "text": "НОВОСТИ МОГИЛЕВА И ОБЛАСТИ"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/17793-vosmoj-respublikanskij-gastrofest-nachnetsja-v-mogileve-s-14-nojabrja.html",
+    "text": "Восьмой республиканский GASTROFEST начнется в Могилеве с 14 ноября"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/",
+    "text": "НОВОСТИ МОГИЛЕВА И ОБЛАСТИ"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/16286-stali-izvestny-pobediteli-proshedshego-gastrofesta-v-mogileve.html",
+    "text": "Стали известны победители прошедшего \"Гастрофеста\" в Могилеве"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/",
+    "text": "НОВОСТИ МОГИЛЕВА И ОБЛАСТИ"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/16016-gastrofest-speshit-poradovat-mogilevchan-sety-uchastnikov.html",
+    "text": "Гастрофест спешит порадовать могилевчан: сеты участников"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/",
+    "text": "НОВОСТИ МОГИЛЕВА И ОБЛАСТИ"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/15984-gastrofest-v-mogileve-v-aprele-2024-obzor-setov-zavedenij-mogileva-gastrofest-strany-mira.html",
+    "text": "Гастрофест в Могилеве в апреле 2024. Обзор сетов заведений Могилева Gastrofest Страны Мира"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/",
+    "text": "НОВОСТИ МОГИЛЕВА И ОБЛАСТИ"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/15974-gastrofest-priblizhaetsja-sety-uchastnikov-v-mogileve-uzhe-izvestny.html",
+    "text": "Гастрофест приближается: сеты участников в Могилеве уже известны"
+   },
+   {
+    "href": "https://masheka.by/belnews/15888-sedmoj-respublikanskij-gastrofest-strany-mira-projdet-v-aprele.html",
+    "text": "СЕДЬМОЙ РЕСПУБЛИКАНСКИЙ GASTROFEST – СТРАНЫ МИРА ПРОЙДЁТ В АПРЕЛЕ"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/",
+    "text": "НОВОСТИ МОГИЛЕВА И ОБЛАСТИ"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/15138-gorodskoj-gastrofestival-zimovy-smak-projdet-v-mogileve-s-18-po-28-janvarja.html",
+    "text": "Городской гастрофестиваль «Зімовы смак» пройдет в Могилеве с 18 по 28 января"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/",
+    "text": "НОВОСТИ МОГИЛЕВА И ОБЛАСТИ"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/14582-s-16-nojabrja-i-po-3-dekabrja-v-mogileve-projdet-6-j-respublikanskij-festival-gastrofest.html",
+    "text": "С 16 ноября и по 3 декабря в Могилеве пройдет 6-й республиканский фестиваль «Гастрофест»"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/",
+    "text": "НОВОСТИ МОГИЛЕВА И ОБЛАСТИ"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/24731-dejatelnost-zakladchicy-povlekla-gibel-25-letnego-zhitelja-mogilevschiny.html",
+    "text": "Деятельность «закладчицы» повлекла гибель 25-летнего жителя Могилевщины"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/24730-prjamuju-telefonnuju-liniju-14-nojabrja-provedet-upravljajuschij-delami-mogilevskogo-gorispolkoma-grigorij-sushko.html",
+    "text": "Прямую телефонную линию 14 ноября проведет управляющий делами Могилевского горисполкома Григорий Сушко"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/24729-mnogocvetie-talantov-2026-nashi-dostojno-predstavili-mogilevschinu.html",
+    "text": "«Многоцветие талантов 2026»: наши достойно представили Могилёвщину!"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/24728-zhiteli-mogileva-postroili-domik-dlja-bezdomnyh-koshek.html",
+    "text": "Жители Могилева построили домик для бездомных кошек"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/24727-dachnikov-mogilevschiny-massovo-obokrali.html",
+    "text": "Дачников Могилевщины массово обокрали"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/24726-kakoj-budet-pogoda-v-mogilevskoj-oblasti-v-nachale-sledujuschej-nedeli.html",
+    "text": "Какой будет погода в Могилевской области в начале следующей недели?"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/24725-po-itogam-proshedshej-nedeli-v-mogilevskoj-oblasti-zaregistrirovano-21-kiberprestuplenie.html",
+    "text": "По итогам прошедшей недели в Могилевской области зарегистрировано 21 киберпреступление"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/24724-prognoz-pogody-v-mogileve-13-nojabrja.html",
+    "text": "Прогноз погоды в Могилеве 13 ноября"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/24723-rabotniki-predprijatija-v-mogileve-hoteli-legkih-deneg-a-zarabotali-ugolovnoe-delo.html",
+    "text": "Работники предприятия в Могилеве хотели легких денег, а заработали уголовное дело"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/24722-v-mogileve-provedut-besplatnuju-vakcinaciju-pitomcev-ot-beshenstva.html",
+    "text": "В Могилеве проведут бесплатную вакцинацию питомцев от бешенства"
+   },
+   {
+    "href": "https://masheka.by/belnews/24649-v-belarusi-zapustili-masshtabnye-akcii-na-ustrojstva-huawei-skidki-dostigajut-800-rublej.html",
+    "text": "В Беларуси запустили масштабные акции на устройства Huawei. Скидки достигают 800 рублей"
+   },
+   {
+    "href": "https://masheka.by/belnews/24602-v-minske-obsudili-modnuju-illjustraciju-dizajnery-poznakomilis-s-vozmozhnostjami-prilozhenija-dlja-risovanija-gopaint.html",
+    "text": "В Минске обсудили модную иллюстрацию: дизайнеры познакомились с возможностями приложения для рисования GoPaint"
+   },
+   {
+    "href": "https://masheka.by/belnews/24600-proverjala-kommunalku-a-nashla-10-000-rublej-jeti-belorusy-stali-bogache-blagodarja-coca-cola.html",
+    "text": "Проверяла коммуналку, а нашла 10 000 рублей. Эти белорусы стали богаче благодаря Coca-Cola"
+   },
+   {
+    "href": "https://masheka.by/belnews/24587-kufar-priblizilsja-k-12-mln-akkauntov-nazvan-top-tovarov-u-belorusov.html",
+    "text": "Куфар приблизился к 12 млн аккаунтов. Назван топ товаров у белорусов"
+   },
+   {
+    "href": "https://masheka.by/belnews/24586-belorusam-na-kinopoiske-pokazali-tretij-sezon-monologa-farmacevta-mjatezh-so-stjejtemom-i-drugie-novinki.html",
+    "text": "Белорусам на Кинопоиске показали третий сезон «Монолога фармацевта», «Мятеж» со Стэйтемом и другие новинки"
+   },
+   {
+    "href": "https://masheka.by/belnews/24585-obzor-smart-chasov-huawei-watch-gt-7-pro-aksessuar-na-styke-tehnologij-i-stilja.html",
+    "text": "Обзор смарт-часов Huawei Watch GT 7 Pro: аксессуар на стыке технологий и стиля"
+   },
+   {
+    "href": "https://masheka.by/belnews/24584-stilnye-smartfony-dlja-portretnoj-semki-serija-huawei-nova-16s-uzhe-v-mogileve.html",
+    "text": "Стильные смартфоны для портретной съёмки: серия Huawei nova 16s уже в Могилеве"
+   },
+   {
+    "href": "https://masheka.by/belnews/24546-v-belarus-priehal-jelektricheskij-liftbek-forthing-s7-evo-nazvana-ceny.html",
+    "text": "В Беларусь приехал электрический лифтбек Forthing S7 EVO. Названа цена"
+   },
+   {
+    "href": "https://masheka.by/belnews/24529-abonenty-jasna-mogut-vyigrat-iphone-17-podkljuchaja-mobilnyj-bezlimit-v-mts.html",
+    "text": "Абоненты ЯСНА могут выиграть iPhone 17, подключая мобильный безлимит в МТС"
+   },
+   {
+    "href": "https://masheka.by/belnews/24497-gde-aktivnee-vsego-delilis-kontentom-mts-podvel-cifrovye-itogi-dazhynak.html",
+    "text": "Где активнее всего делились контентом: МТС подвел цифровые итоги «Дажынак»"
+   },
+   {
+    "href": "https://masheka.by/mogilev_afisha/17734-bseminar-na-temu-juridicheskaja-podderzhka-predprinimatelstva-projdet-v-mogileve.html",
+    "text": "Бсеминар на тему: \"Юридическая поддержка предпринимательства\" пройдет в Могилеве"
+   },
+   {
+    "href": "https://masheka.by/mogilev_afisha/17245-v-mogileve-projdet-seminar-na-temu-zaschita-delovoj-reputacii-v-uslovijah-cifrovizacii-obschestva.html",
+    "text": "В Могилеве пройдет семинар на тему «Защита деловой репутации в условиях цифровизации общества»"
+   },
+   {
+    "href": "https://masheka.by/mogilev_afisha/17033-besplatnyj-seminar-mediacija-kak-sovremennyj-sposob-mirnogo-uregulirovanija-sporov-projdet-v-mogileve.html",
+    "text": "Бесплатный семинар \"Медиация как современный способ мирного урегулирования споров\" пройдет в Могилеве"
+   },
+   {
+    "href": "https://masheka.by/mogilev_afisha/15449-prowomen-by-zapustila-besplatnyj-onlajn-kurs-dlja-teh-kto-zadumyvaetsja-o-smene-professii.html",
+    "text": "ProWomen By запустила бесплатный онлайн-курс для тех, кто задумывается о смене профессии"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/14996-29-dekabrja-v-muzee-istorii-mogileva-projdet-novogodnij-kvest-noch-volshebstva-v-ratushe.html",
+    "text": "29 декабря в Музее истории Могилева пройдет новогодний квест «Ночь волшебства в Ратуше»"
+   },
+   {
+    "href": "https://masheka.by/mogilev_afisha/14736-udvojte-potencial-svoego-biznesa-na-wweekend.html",
+    "text": "Удвойте потенциал своего бизнеса на W.Weekend"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/14699-v-mogileve-projdet-mezhdunarodnaja-vystavka-shou-porodistyh-loshadej-osen-2023.html",
+    "text": "В Могилеве пройдёт Международная выставка-шоу породистых лошадей «Осень-2023»"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/14379-fotovystavka-v-svoe-svobodnoe-vremja-prohodit-v-mogileve.html",
+    "text": "Фотовыставка \"В своё свободное время\" проходит в Могилеве"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/14362-mezhdunarodnyj-muzykalnyj-festival-zolotoj-shljager-2023-projdet-v-mogileve-s-24-po-29-oktjabrja.html",
+    "text": "Международный музыкальный фестиваль «Золотой шлягер - 2023» пройдет в Могилеве с 24 по 29 октября"
+   },
+   {
+    "href": "https://masheka.by/novosti-mogileva/14038-17-sentjabrja-v-mogileve-projdet-blagotvoritelnyj-prazdnik-programma-meroprijatij.html",
+    "text": "17 сентября в Могилеве пройдет благотворительный праздник: программа мероприятий"
+   },
+   {
+    "href": "https://yura.expert/",
+    "text": "Создание сайта - Yura.Expert"
+   }
+  ],
+  "next": []
+ }
+}

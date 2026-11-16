@@ -1,0 +1,1355 @@
+<!DOCTYPE html>
+<html lang="ru"><!-- InstanceBegin template="/Templates/servicesshablon.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>УЗ "Могилёвский зональный центр гигиены и эпидемиологии"</title>
+<!-- InstanceEndEditable -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../assets/style.css" type="text/css">
+  <link rel="stylesheet" href="../assets/w3.css">
+  <link rel="stylesheet" href="../assets/bvi.min.css" type="text/css">
+  <link rel="stylesheet" href="../assets/accord/styles.css">
+  <script src="../assets/accord/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+    overflow-x: hidden !important;
+}
+body { display: flex; flex-direction: column; min-height: 100vh; }
+.main-content { flex: 1 0 auto; }
+
+ .parallax {
+    background: linear-gradient(90deg, #d9ece0 0%, #f4faf6 40%, #ffffff 50%, #f4faf6 60%, #d9ece0 100%);
+    min-height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    color: #555555;
+    padding-top: 130px;
+    padding-bottom: 40px;
+ }
+
+/* ===== ШАПКА ===== */
+.site-header {
+    background: #f7f9f8;
+    position: fixed; top: 0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border-bottom: 1px solid #e8ece9;
+}
+.header-top {
+    max-width: 1200px; margin: 0 auto;
+    padding: 12px 20px;
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 14px;
+}
+.header-top .brand {
+    font-weight: 700; color: #333; font-size: 16px;
+    text-decoration: none; line-height: 1.3;
+    flex: 1 1 auto; min-width: 200px;
+}
+.header-top .brand:hover { color: #4CAF50; }
+.header-right { display: flex; align-items: center; gap: 8px; flex: 0 0 auto; }
+.header-right a {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 38px; height: 38px; border-radius: 50%;
+    background: #eef3f0; color: #4CAF50; text-decoration: none; font-size: 16px;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+.header-right a:hover { background: #4CAF50; color: #fff; transform: translateY(-1px); }
+.burger {
+    display: none; background: transparent;
+    border: 1px solid #d9e3dd; border-radius: 8px;
+    padding: 8px 12px; color: #4CAF50; font-size: 20px; cursor: pointer;
+}
+.main-nav { background: #f7f9f8; border-top: 1px solid #eef3f0; }
+.nav-inner {
+    max-width: 1200px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: center;
+    padding: 0 20px; flex-wrap: wrap; row-gap: 0;
+}
+.nav-item { position: relative; }
+.nav-item > a {
+    display: flex; align-items: center; gap: 6px;
+    padding: 14px 18px; color: #555; text-decoration: none;
+    font-size: 14px; font-weight: 600;
+    border-bottom: 3px solid transparent;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+    white-space: nowrap;
+}
+.nav-item > a .caret {
+    border-top: none !important; width: auto !important; height: auto !important;
+    margin: 0 !important; color: #555; opacity: 0.7; font-size: 10px;
+    display: inline-block; transition: transform 0.2s;
+}
+.nav-item:hover > a {
+    color: #2e7d32; border-bottom-color: #4CAF50; background: #fafdfb;
+}
+.nav-item:hover > a .caret { transform: rotate(180deg); color: #2e7d32; }
+.mega-panel {
+    position: absolute; top: 100%; left: 50%;
+    transform: translateX(-50%) translateY(8px);
+    background: #fff; border: 1px solid #e8ecf0;
+    border-radius: 0 0 14px 14px;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.10);
+    padding: 20px 24px; min-width: 560px;
+    opacity: 0; visibility: hidden; pointer-events: none;
+    transition: opacity 0.22s ease, transform 0.22s ease, visibility 0.22s;
+    z-index: 200;
+    display: grid; grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 6px 24px;
+}
+.nav-item:hover .mega-panel {
+    opacity: 1; visibility: visible; pointer-events: auto;
+    transform: translateX(-50%) translateY(0);
+}
+.mega-panel.single { grid-template-columns: 1fr; min-width: 300px; }
+.mega-col-title {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 1px;
+    color: #4CAF50; font-weight: 700;
+    margin: 4px 0 8px; padding-bottom: 6px; border-bottom: 1px solid #eef3f0;
+}
+.mega-link {
+    display: block; padding: 8px 12px; color: #555; text-decoration: none;
+    font-size: 13px; border-left: 3px solid transparent; border-radius: 6px;
+    transition: background 0.15s, border-color 0.15s, color 0.15s; line-height: 1.4;
+}
+.mega-link:hover { background: #f1faf3; border-left-color: #4CAF50; color: #2e7d32; }
+
+/* ===== Ссылки ===== */
+a:focus { text-decoration: none; color: #555555; }
+a:link { color: #555555; background-color: transparent; text-decoration: none; }
+a:visited { color: #555555; background-color: transparent; text-decoration: none; }
+a:hover { color: #4CAF50; background-color: transparent; text-decoration: none; }
+a:active { color: red; background-color: transparent; text-decoration: none; }
+
+/* ===== Хлебные крошки ===== */
+.breadcrumb {
+    background-color: transparent; padding: 8px 0;
+    margin-bottom: 20px; font-size: 13px;
+}
+.breadcrumb > li > a { color: #4CAF50; text-decoration: none; }
+.breadcrumb > li > a:hover { color: #2e7d32; text-decoration: underline; }
+.breadcrumb > .active { color: #555; }
+
+/* ===== Полная ширина ===== */
+.full-width-bg {
+    width: 100vw !important; position: relative;
+    left: 50%; right: 50%;
+    margin-left: -50vw !important; margin-right: -50vw !important;
+}
+
+/* ===== ФУТЕР ===== */
+.myFooter h4 { text-decoration: none; }
+.myFooter a { color: #333333; text-decoration: none; }
+.myFooter a:hover, .myFooter a:focus { text-decoration: none; color: #4CAF50; }
+.myFooter .social-networks { text-align: center; padding-top: 30px; padding-bottom: 38px; }
+.myFooter .fa {
+    font-size: 30px; margin-right: 15px; margin-left: 20px;
+    background-color: #ffffff; color: #4CAF50; border-radius: 51%;
+    padding: 10px; height: 50px; width: 50px; text-align: center; line-height: 31px;
+    text-decoration: none; transition: color 0.2s, background 0.2s;
+}
+.myFooter .fa-telegram:hover { color: #249bd7; }
+.myFooter .fa-instagram:hover { color: #125688; }
+.footer-contacts-single {
+    margin: 20px auto 0; padding: 16px 22px;
+    background: rgba(255, 255, 255, 0.65); border-radius: 12px; border-left: 4px solid #4CAF50;
+}
+.footer-contacts-single .fc-line {
+    display: flex; align-items: flex-start; gap: 10px; padding: 8px 0;
+    font-size: 14px; line-height: 1.5; color: #333333;
+    border-bottom: 1px dashed #cfdcd4;
+}
+.footer-contacts-single .fc-line:last-child { border-bottom: none; }
+.footer-contacts-single .fc-icon {
+    color: #4CAF50; font-size: 15px; flex-shrink: 0; margin-top: 2px;
+    width: 20px; text-align: center;
+}
+.footer-contacts-single .fc-label { font-weight: 700; color: #2e7d32; flex-shrink: 0; }
+.footer-contacts-single .fc-text { color: #333333; word-break: break-word; }
+.footer-contacts-single .fc-text a { color: #4CAF50; text-decoration: none; }
+.footer-contacts-single .fc-text a:hover { text-decoration: underline; }
+.footer-contacts-single .parent-org-link { color: #333333; text-decoration: none; font-weight: 400; }
+.footer-contacts-single .parent-org-link:hover { color: #4CAF50; text-decoration: underline; }
+
+/* ============================================================ */
+/* CONTENT                                                       */
+/* ============================================================ */
+.content-page-title {
+    font-size: 22px; font-weight: 700; color: #2e7d32;
+    margin: 0 0 18px; padding-left: 14px;
+    border-left: 5px solid #4CAF50;
+}
+
+.content-archive { margin-bottom: 18px; }
+
+/* Инфо-карточка (текст) */
+.content-info-card {
+    background: #fff;
+    border: 1px solid #e8ecf0;
+    border-left: 5px solid #4CAF50;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 14px;
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: #555;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+}
+.content-info-card .ci-icon {
+    color: #4CAF50;
+    margin-right: 6px;
+    font-size: 15px;
+}
+.content-info-card a {
+    color: #2e7d32 !important;
+    text-decoration: underline !important;
+    font-weight: 600;
+}
+.content-info-card a:hover { color: #1b5e20 !important; }
+
+/* Feature-карточка с картинкой */
+.content-feature {
+    background: #fff;
+    border: 1px solid #e8ecf0;
+    border-left: 5px solid #4CAF50;
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 14px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 22px;
+    align-items: start;
+}
+.content-feature .cf-img {
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f1faf3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+}
+.content-feature .cf-img img {
+    width: 100%; height: auto; display: block;
+    transition: transform .2s;
+}
+.content-feature .cf-img a:hover img { transform: scale(1.03); }
+.content-feature .cf-body h3 {
+    margin: 0 0 10px;
+    font-size: 19px;
+    color: #1a1a1a;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.content-feature .cf-body p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    margin: 0 0 12px;
+}
+.content-feature .cf-body ul {
+    margin: 0 0 12px;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+.content-feature .cf-body ul li { margin-bottom: 6px; }
+.content-feature .cf-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #4CAF50;
+    color: #fff !important;
+    text-decoration: none !important;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 13.5px;
+    transition: background .2s;
+}
+.content-feature .cf-btn:hover { background: #388E3C; color: #fff !important; }
+@media (max-width: 768px) {
+    .content-feature { grid-template-columns: 1fr; gap: 16px; padding: 16px; }
+    .content-feature .cf-img { min-height: auto; max-height: 220px; }
+}
+
+/* ===== Внешний аккордеон (год) ===== */
+.archive-group {
+    background: #fff;
+    border: 1px solid #e8ecf0;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+}
+.archive-head {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 12px;
+    padding: 14px 18px;
+    background: #f4faf6;
+    border: none; width: 100%; text-align: left;
+    cursor: pointer; font-family: inherit;
+    font-size: 15px; font-weight: 700; color: #2e7d32;
+    transition: background .15s;
+}
+.archive-head:hover { background: #eef6f1; }
+.archive-head .ah-left {
+    display: inline-flex; align-items: center; gap: 10px;
+    flex: 1 1 auto; min-width: 0;
+}
+.archive-head .ah-icon {
+    width: 32px; height: 32px; flex: 0 0 32px;
+    border-radius: 50%; background: #e8f5e9; color: #4CAF50;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 14px;
+}
+.archive-head .ah-title {
+    display: flex; flex-direction: column; gap: 2px;
+    min-width: 0;
+}
+.archive-head .ah-sub {
+    font-size: 11.5px; font-weight: 500; color: #888;
+    line-height: 1.3; margin-top: 1px;
+}
+.archive-head .ah-chev {
+    color: #4CAF50; transition: transform .2s; font-size: 12px;
+    flex-shrink: 0;
+}
+.archive-group.open > .archive-head .ah-chev { transform: rotate(180deg); }
+.archive-body {
+    display: none;
+    padding: 14px 18px 16px;
+    border-top: 1px solid #eef3f0;
+}
+.archive-group.open > .archive-body { display: block; }
+
+/* ===== Вложенная подсекция (тема внутри года) ===== */
+.subsection {
+    border: 1px solid #eef3f0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background: #fafdfb;
+}
+.subsection:last-child { margin-bottom: 0; }
+.subsection-head {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 12px;
+    padding: 11px 14px;
+    background: #fff;
+    border: none; width: 100%; text-align: left;
+    cursor: pointer; font-family: inherit;
+    font-size: 13.5px; font-weight: 700; color: #333;
+    transition: background .15s;
+}
+.subsection-head:hover { background: #f7fbf8; }
+.subsection-head .sh-left {
+    display: inline-flex; align-items: center; gap: 10px;
+    flex: 1 1 auto; min-width: 0;
+}
+.subsection-head .sh-icon {
+    width: 26px; height: 26px; flex: 0 0 26px;
+    border-radius: 6px; background: #e8f5e9; color: #4CAF50;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 12px;
+}
+.subsection[data-type="news"] .sh-icon       { background: #e3eef8; color: #2f6fb0; }
+.subsection[data-type="nonfood"] .sh-icon    { background: #fff3e0; color: #ef6c00; }
+.subsection[data-type="food"] .sh-icon       { background: #e8f5e9; color: #4CAF50; }
+.subsection[data-type="sanmery"] .sh-icon    { background: #fdecea; color: #d32f2f; }
+.subsection[data-type="certificates"] .sh-icon { background: #ede7f6; color: #6a3ec0; }
+
+.subsection-head .sh-title {
+    min-width: 0; line-height: 1.3;
+}
+.subsection-head .sh-chev {
+    color: #4CAF50; transition: transform .2s; font-size: 10px;
+    flex-shrink: 0;
+}
+.subsection.open > .subsection-head .sh-chev { transform: rotate(180deg); }
+.subsection-body {
+    display: none;
+    padding: 6px 14px 12px;
+    border-top: 1px solid #eef3f0;
+    background: #fff;
+}
+.subsection.open > .subsection-body { display: block; }
+
+/* Подсказка внутри подсекции */
+.content-hint {
+    font-size: 12.5px;
+    color: #555;
+    line-height: 1.55;
+    margin: 8px 0 4px;
+    padding: 10px 14px;
+    background: #f4faf6;
+    border-radius: 8px;
+    border-left: 3px solid #a5d6a7;
+}
+
+/* Список документов */
+.subsection-body ol {
+    padding-left: 20px; margin: 8px 0 0;
+    counter-reset: item; list-style: none;
+}
+.subsection-body ol li {
+    position: relative;
+    padding: 8px 0 8px 32px;
+    font-size: 13px; line-height: 1.5; color: #333;
+    border-bottom: 1px dashed #f0f3f5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+.subsection-body ol li:last-child { border-bottom: none; }
+.subsection-body ol li::before {
+    counter-increment: item;
+    content: counter(item) ".";
+    position: absolute; left: 0; top: 8px;
+    color: #4CAF50; font-weight: 700; font-size: 12px;
+    min-width: 24px;
+}
+.subsection-body ol li > a {
+    color: #333 !important; text-decoration: none !important;
+    transition: color .15s;
+    flex: 1 1 auto; min-width: 0;
+}
+.subsection-body ol li > a:hover {
+    color: #2e7d32 !important; text-decoration: underline !important;
+}
+
+/* Бейджи */
+.file-tag {
+    display: inline-block;
+    flex-shrink: 0;
+    font-size: 9.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    padding: 1px 7px;
+    border-radius: 8px;
+    line-height: 1.4;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+.file-tag.pdf    { color: #d32f2f; background: #fdecea; }
+.file-tag.png    { color: #6a3ec0; background: #ede7f6; }
+.file-tag.doc    { color: #1d6f42; background: #e6f4ea; }
+.file-tag.online { color: #2f6fb0; background: #e3eef8; }
+
+.type-icon { color: #4CAF50; font-size: 11px; margin-right: 4px; }
+.type-icon.is-online { color: #2f6fb0; }
+
+.empty-state {
+    text-align: center;
+    padding: 16px 14px;
+    font-size: 12.5px;
+    color: #999;
+    font-style: italic;
+}
+
+@media (max-width: 480px) {
+    .archive-body { padding: 10px 12px 12px; }
+    .subsection-body ol li { padding-left: 28px; font-size: 12.5px; }
+    .archive-head { padding: 12px 14px; font-size: 13.5px; }
+    .subsection-head { padding: 10px 12px; font-size: 12.5px; }
+    .archive-head .ah-icon { width: 28px; height: 28px; flex-basis: 28px; font-size: 12px; }
+    .archive-head .ah-sub { display: none; }
+    .content-page-title { font-size: 18px; }
+    .file-tag { font-size: 9px; padding: 1px 6px; }
+    .content-info-card { padding: 12px 14px; font-size: 12.5px; }
+    .content-feature { padding: 14px; }
+}
+
+/* ===== АДАПТИВ ШАПКИ ===== */
+@media (max-width: 992px) {
+    .parallax { padding-top: 130px; }
+    .header-top .brand { font-size: 14px; }
+    .burger { display: inline-flex; }
+    .main-nav { display: none; }
+    .main-nav.open { display: block; }
+    .nav-inner { flex-direction: column; align-items: stretch; padding: 0; flex-wrap: nowrap; }
+    .nav-item { width: 100%; }
+    .nav-item > a {
+        border-bottom: 1px solid #eef3f0;
+        border-left: 4px solid transparent;
+        justify-content: space-between; white-space: normal;
+    }
+    .nav-item:hover > a { border-bottom-color: #eef3f0; border-left-color: #4CAF50; }
+    .nav-item.open > a { border-left-color: #4CAF50; color: #2e7d32; }
+    .nav-item.open > a .caret { transform: rotate(180deg); }
+    .mega-panel {
+        position: static; transform: none; box-shadow: none;
+        border: none; border-radius: 0; padding: 10px 18px 14px;
+        min-width: auto; grid-template-columns: 1fr;
+        opacity: 1; visibility: visible; pointer-events: auto;
+        display: none; background: #fafdfb;
+    }
+    .nav-item:hover .mega-panel { transform: none; }
+    .nav-item.open .mega-panel { display: grid; }
+    .mega-col-title { margin-top: 10px; }
+}
+
+@media (max-width: 768px) {
+    .myFooter .fa {
+        font-size: 24px; margin-right: 10px; margin-left: 10px;
+        padding: 8px; height: 42px; width: 42px; line-height: 26px;
+    }
+    iframe { height: 200px !important; }
+}
+
+@media (max-width: 480px) {
+    .parallax { padding-top: 150px; }
+    .header-top .brand { font-size: 12px; min-width: 150px; }
+    .header-right a { width: 34px; height: 34px; font-size: 14px; }
+    .footer-contacts-single { padding: 12px 16px; margin: 16px 12px 0; }
+    .footer-contacts-single .fc-line { font-size: 13px; flex-wrap: wrap; gap: 6px; }
+    .myFooter .fa {
+        font-size: 20px; margin-right: 8px; margin-left: 8px;
+        padding: 6px; height: 36px; width: 36px; line-height: 24px;
+    }
+}
+
+  </style>
+  <meta name="google-site-verification" content="wQXrmiEJt5O4IJOvy-BDcuLGITU52_RqVXIcazPKLoA" />
+</head>
+
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60"> 
+
+<div class="main-content">
+
+  <header class="site-header">
+    <div class="header-top">
+      <a href="../menu_exec.html" class="brand">УЗ "Могилёвский зональный центр гигиены и эпидемиологии"</a>
+      <div class="header-right">
+        <button class="burger" id="burger" aria-label="Меню">☰</button>
+        <a data-toggle="modal" href="#myModale" title="Выбор языка"><i class="fa fa-globe"></i></a>
+        <a href="../twoorange/search.html" title="Поиск по сайту"><i class="fa fa-search"></i></a>
+        <a href="#" class="bvi-open" title="Версия для слабовидящих"><i class="fa fa-eye"></i></a>
+      </div>
+    </div>
+
+    <nav class="main-nav" id="mainNav">
+      <div class="nav-inner">
+        <div class="nav-item">
+          <a href="#">О центре <span class="caret">▼</span></a>
+          <div class="mega-panel">
+            <div>
+              <div class="mega-col-title">Информация</div>
+              <a href="../twoorange/functions.html" class="mega-link">О задаче и функциях учреждения</a>
+              <a href="../twoorange/outline_history_organization.html" class="mega-link">Исторический очерк о центре</a>
+              <a href="../twoorange/history_100.html" class="mega-link">Об истории организации и становления санитарного дела</a>
+              <a href="../twoorange/branch.html" class="mega-link">Структурные подразделения</a>
+              <a href="../twoorange/in_tape_branch.html" class="mega-link">Информационные ленты структурных подразделений</a>
+            </div>
+            <div>
+              <div class="mega-col-title">Коллектив</div>
+              <a href="../twoorange/apersonal.html" class="mega-link">Административно-управленческий персонал</a>
+              <a href="../twoorange/vacancies.html" class="mega-link">Вакансии</a>
+              <a href="../twoorange/primary_trade_union_organization.html" class="mega-link">Первичная профсоюзная организация</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="#">Документы <span class="caret">▼</span></a>
+          <div class="mega-panel single">
+            <div>
+              <a href="../twoorange/document.html" class="mega-link">Документы</a>
+              <a href="../twoorange/aproced.html" class="mega-link">Административные процедуры</a>
+              <a href="info_knd.html" class="mega-link">Контрольная (надзорная) деятельность</a>
+              <a href="../twoorange/public_health_risk_assessment.html" class="mega-link">Оценка риска для здоровья населения</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="#">Обращения <span class="caret">▼</span></a>
+          <div class="mega-panel">
+            <div>
+              <div class="mega-col-title">Для граждан</div>
+              <a href="../twoorange/citizen_appeals.html" class="mega-link">Обращения граждан и юридических лиц</a>
+              <a href="../twoorange/question_answer.html" class="mega-link">Задайте свой вопрос здесь</a>
+            </div>
+            <div>
+              <div class="mega-col-title">Прямая связь</div>
+              <a href="../twoorange/dirhotline.html" class="mega-link">Горячие и прямые телефонные линии</a>
+              <a href="../twoorange/anti_corruption_commission.html" class="mega-link">Комиссия по противодействию коррупции</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="#">Профилактика <span class="caret">▼</span></a>
+          <div class="mega-panel">
+            <div>
+              <div class="mega-col-title">Здоровье населения</div>
+              <a href="../health/healthy_lifestyle.html" class="mega-link">Здоровый образ жизни</a>
+              <a href="../twoorange/healthy_cities_towns.html" class="mega-link">Здоровые города и посёлки</a>
+              <a href="../twoorange/respiratory_diseases.html" class="mega-link">Профилактика ОРИ и гриппа</a>
+            </div>
+            <div>
+              <div class="mega-col-title">Обучение</div>
+              <a href="../twoorange/hygienic_trainings.html" class="mega-link">Гигиеническое обучение населения</a>
+              <a href="../twoorange/cybercrime_prevention.html" class="mega-link">Профилактика киберпреступности</a>
+              <a href="../twoorange/single_information_day.html" class="mega-link">Единый день информирования</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="#">Информация <span class="caret">▼</span></a>
+          <div class="mega-panel single">
+            <div>
+              <a href="../twoorange/information_tape.html" class="mega-link">Полезная информация</a>
+              <a href="../twoorange/in_tape_branch.html" class="mega-link">Информационные ленты структурных подразделений</a>
+              <a href="../twoorange/sd_goals_new.html" class="mega-link">Цели устойчивого развития</a>
+              <a href="../twoorange/applicant.html" class="mega-link">Абитуриенту</a>
+              <a href="../twoorange/personal-data-advice.html" class="mega-link">Советы по защите персональных данных</a>
+              <a href="../twoorange/linksy.html" class="mega-link">Ссылки</a>
+              <a href="../twoorange/contact.html" class="mega-link">Контакты</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="../services/servise.html">Услуги</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="parallax">
+    <div class="container">
+      <ul class="breadcrumb">
+        <li><a href="../menu_exec.html">О центре</a></li>
+        <li><a href="../twoorange/in_tape_branch.html">Информационные ленты структурных подразделений</a></li>
+        <li class="active">Информация, новости функциональной группы по надзору и контролю за гигиенической безопасностью товаров отдела гигиены</li>
+      </ul>
+
+      <h3 class="content-page-title">Информация, новости функциональной группы по надзору и контролю за гигиенической безопасностью товаров отдела гигиены</h3>
+
+      <!-- ===== Инфо-карточка: реестр «Опасная продукция» ===== -->
+       <div class="content-info-card">
+        <i class="fa fa-exclamation-triangle ci-icon"></i>
+        <strong>Реестр «Опасная продукция»</strong>
+        <p>Информация об опасной продукции и прекращении действия документов о подтверждении соответствия на территории Республики Беларусь размещена на официальном сайте Госстандарта:</p>
+        <ul>
+          <li>реестр опасной продукции, запрещённой к ввозу и (или) обращению на территории Республики Беларусь;</li>
+          <li>реестр документов о подтверждении соответствия продукции требованиям технических регламентов Таможенного союза (Евразийского экономического союза), действие которых прекращено на территории Республики Беларусь.</li>
+        </ul>
+        <a href="https://danger.gskp.by/" target="_blank" rel="noopener">Перейти на официальный сайт Госстандарта →</a>
+      </div>
+
+      <!-- ===== Инфо-карточка: телеграм-канал ===== -->
+      <div class="content-info-card">
+        <i class="fa fa-telegram ci-icon"></i>
+        <strong>Информацию о выявленной нестандартной продукции</strong> можно найти на официальном публичном телеграм-канале УЗ «Могилевский зональный центр гигиены и эпидемиологии». Указанная информация распространяется с целью исключения попадания в торговлю и к покупателям опасной и запрещённой продукции.
+        Найти телеграм-канал можно по ссылке: <a href="https://t.me/uzmzcge" target="_blank" rel="noopener">t.me/uzmzcge</a>, а также набрав в поисковой строке мессенджера Telegram слова УЗ «МЗЦГЭ».
+        Дополнительно информацию к темам, обсуждаемым на странице, вы можете найти на официальных сайтах: Министерства здравоохранения Республики Беларусь (<a href="http://minzdrav.gov.by" target="_blank" rel="noopener">minzdrav.gov.by</a>), ГУ «Республиканский ЦГЭиОЗ» (<a href="https://www.rcheph.by" target="_blank" rel="noopener">www.rcheph.by</a>).
+      </div>
+
+      <!-- ===== Архив по годам ===== -->
+      <div class="content-archive">
+
+        <!-- ================================================= -->
+        <!-- 2026 — открыт по умолчанию                        -->
+        <!-- ================================================= -->
+        <div class="archive-group open">
+          <button class="archive-head" type="button">
+            <span class="ah-left">
+              <span class="ah-icon"><i class="fa fa-calendar-check-o"></i></span>
+              <span class="ah-title">
+                <span>Новости, информация 2026 года</span>
+                <span class="ah-sub">Новости, продукция, меры, свидетельства</span>
+              </span>
+            </span>
+            <span class="ah-chev">▼</span>
+          </button>
+          <div class="archive-body">
+
+            <!-- 2026: Новости -->
+            <div class="subsection open" data-type="news">
+              <button class="subsection-head" type="button">
+                <span class="sh-left">
+                  <span class="sh-icon"><i class="fa fa-bullhorn"></i></span>
+                  <span class="sh-title">Новости, информация 2026 года</span>
+                </span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <ol>
+                  <li><a href="../_files/news/infobt/13102026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Товары для детей под контролем! (13.10.26)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/05082026_3.PNG"><i class="fa fa-picture-o type-icon"></i>Школьный рынок - за безопасные покупки! (05.08.26)</a><span class="file-tag png">PNG</span></li>
+                  <li><a href="../_files/news/infobt/17042026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Контроль за БАД. (17.04.26)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/16012026_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>NESTLE отзывает детские смеси. (16.01.26)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09012026_7.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Перечень запрещенной стеклоомывающей жидкости. (09.01.26)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <!-- 2026: Непищевая продукция -->
+            <div class="subsection" data-type="nonfood">
+              <button class="subsection-head" type="button">
+                <span class="sh-left">
+                  <span class="sh-icon"><i class="fa fa-flask"></i></span>
+                  <span class="sh-title">Непищевая продукция, не соответствующая санитарно-эпидемиологическим и гигиеническим требованиям, выявленная в 2026 году</span>
+                </span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="content-hint">Учреждение здравоохранения «Могилевский зональный центр гигиены и эпидемиологии» информирует о выявлении факта оборота на территории города Могилева нестандартной продукции, а именно:</div>
+                <ol>
+                  <li><a href="../_files/news/infobt/06082026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Сорочка для мальчиков торговой марки «Brostem», джинсы для девочки торговой марки «Rong Rong». (06.08.26)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/17022026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Средство бытовой химии АНТИОБЛЕДЕНИТЕЛЬ «ПЛЮС». (17.02.26)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <!-- 2026: Пищевая продукция -->
+            <div class="subsection" data-type="food">
+              <button class="subsection-head" type="button">
+                <span class="sh-left">
+                  <span class="sh-icon"><i class="fa fa-cutlery"></i></span>
+                  <span class="sh-title">Пищевая продукция, не соответствующая санитарно-эпидемиологическим и гигиеническим требованиям, выявленная в 2026 году</span>
+                </span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="content-hint">Учреждение здравоохранения «Могилевский зональный центр гигиены и эпидемиологии» информирует о выявлении факта оборота на территории города Могилева нестандартной продукции, а именно:</div>
+                <ol>
+                  <li><a href="../_files/news/infobt/03032026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Изделия кондитерские сахаристые. Жевательная конфета со вкусом манго. Mango jelly. (03.03.26)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <!-- 2026: Временные санитарные меры -->
+            <div class="subsection" data-type="sanmery">
+              <button class="subsection-head" type="button">
+                <span class="sh-left">
+                  <span class="sh-icon"><i class="fa fa-exclamation-triangle"></i></span>
+                  <span class="sh-title">Временные санитарные меры в 2026 году</span>
+                </span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="empty-state">Записей за этот год нет.</div>
+              </div>
+            </div>
+
+            <!-- 2026: Прекращение свидетельств -->
+            <div class="subsection" data-type="certificates">
+              <button class="subsection-head" type="button">
+                <span class="sh-left">
+                  <span class="sh-icon"><i class="fa fa-file-text-o"></i></span>
+                  <span class="sh-title">О прекращении действия свидетельств о государственной регистрации в 2026 году</span>
+                </span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="empty-state">Записей за этот год нет.</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ================================================= -->
+        <!-- 2025                                              -->
+        <!-- ================================================= -->
+        <div class="archive-group">
+          <button class="archive-head" type="button">
+            <span class="ah-left">
+              <span class="ah-icon"><i class="fa fa-calendar-check-o"></i></span>
+              <span class="ah-title">
+                <span>Новости, информация 2025 года</span>
+                <span class="ah-sub">Новости, продукция, меры, свидетельства</span>
+              </span>
+            </span>
+            <span class="ah-chev">▼</span>
+          </button>
+          <div class="archive-body">
+
+            <div class="subsection" data-type="news">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-bullhorn"></i></span><span class="sh-title">Новости, информация 2025 года</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <ol>
+                  <li><a href="../_files/news/infobt/14102025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Результаты надзора за товарами для детей. (14.10.25)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09102025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Осторожно: опасная стеклоомывающая жидкость! (09.10.25)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/18092025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>БАДы: как безопасно поддерживать здоровье и понимать риски. (18.09.25)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/14082025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Рекомендации по выбору школьной одежды и принадлежностей в преддверии учебного года. (14.08.25)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/06022025_4.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Как правильно выбрать посуду для приготовления пищи. (06.02.25)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="nonfood">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-flask"></i></span><span class="sh-title">Непищевая продукция, не соответствующая требованиям, выявленная в 2025 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="content-hint">Учреждение здравоохранения «Могилевский зональный центр гигиены и эпидемиологии» информирует о выявлении факта оборота на территории города Могилева нестандартной продукции, а именно:</div>
+                <ol>
+                  <li><a href="../_files/news/infobt/06022025_5.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Ковш и турка. (06.02.25)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="food">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-cutlery"></i></span><span class="sh-title">Пищевая продукция, не соответствующая требованиям, выявленная в 2025 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="content-hint">Учреждение здравоохранения «Могилевский зональный центр гигиены и эпидемиологии» информирует о выявлении факта оборота на территории города Могилева нестандартной продукции, а именно:</div>
+                <ol>
+                  <li><a href="../_files/news/infobt/12112025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Томатная паста. (12.11.25)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/17032025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Козинак. (17.03.25)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="sanmery">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-exclamation-triangle"></i></span><span class="sh-title">Временные санитарные меры в 2025 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <ol>
+                  <li><a href="../_files/news/infobt/16092025_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>ВСМ дыня, овощная смесь, масло-жировой комбинат. (16.09.25)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/16062025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О запрете ввоза на территорию Республики Беларусь, реализации, хранения, транспортировки, использования халвы, орехов, сухофруктов производства ООО «Азовская кондитерская фабрика» Российская Федерация, ООО "GREEN DESRT" Узбекистан и др. (16.06.25)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/02062025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О запрете ввоза на территорию Республики Беларусь, реализации, хранения, транспортировки, использования салфеток бумажных окрашенных, с печатью GRATIAS, производства «ТишьюПром», Российская Федерация. (02.06.25)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/17032025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О запрете ввоза на территорию Республики Беларусь, реализации, хранения, транспортировки, использования стеклоомывающей низкозамерзающей жидкости -30 «Снежная дорога» производства ООО «ХИМПАРТНЕР», РФ; «Gleid Clean Effect»-30 производства ООО «ГРИФ», РФ. (17.03.25)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/25022025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О запрете ввоза на территорию Республики Беларусь, реализации, хранения, транспортировки, использования стеклоомывающей низкозамерзающей жидкости -30 «Зимняя вишня» производства ООО «ХИМПАРТНЕР», Российская Федерация. (25.02.25)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/06022025_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Об отмене временной санитарной меры продукции, производства Oerlamans Foods Siemiatycze Sp.Z.o.o., ООО «Русские деликатесы», ООО «РостАгроКомплекс». (06.02.25)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09012025_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Об отмене временной санитарной меры продукции, производства ООО "Морозко". (09.01.25)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09012025_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>По запрету ввоза и обращения стеклоомывающей жидкости. (09.01.25)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="certificates">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-file-text-o"></i></span><span class="sh-title">О прекращении действия свидетельств о государственной регистрации в 2025 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <ol>
+                  <li><a href="../_files/news/infobt/06022025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О прекращении действия свидетельств о государственной регистрации на продукцию ТОО ТД «Каланит». (06.02.25)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/06022025_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О прекращении действия свидетельств о государственной регистрации на продукцию ООО «Семья и комфорт». (06.02.25)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09012025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О прекращении действия свидетельств о государственной регистрации продукции КУП "Минскхлебпром". (09.01.25)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ================================================= -->
+        <!-- 2024                                              -->
+        <!-- ================================================= -->
+        <div class="archive-group">
+          <button class="archive-head" type="button">
+            <span class="ah-left">
+              <span class="ah-icon"><i class="fa fa-calendar-check-o"></i></span>
+              <span class="ah-title">
+                <span>Новости, информация 2024 года</span>
+                <span class="ah-sub">Новости, продукция, меры, свидетельства</span>
+              </span>
+            </span>
+            <span class="ah-chev">▼</span>
+          </button>
+          <div class="archive-body">
+
+            <div class="subsection" data-type="news">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-bullhorn"></i></span><span class="sh-title">Новости, информация 2024 года</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <ol>
+                  <li><a href="../_files/news/infobt/18122024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Обнаружены БГКП (в 0,1 грамма), сульфитредуцирующие клостридии (в 1,0 грамма) и выявлены микроорганизмы (бактерии группы кишечной палочки). (18.12.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/03122024_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Временная санитарная мера по запрету ввоза и обращения на территории Республики Беларусь продукции производства ООО «Морозко». (3.12.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/03122024_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Временная санитарная мера по запрету ввоза и обращения на территории Республики Беларусь продукции производства ООО «РостАгроКомплекс». (3.12.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/27112024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Перечень Постановлений Главного государственного санитарного врача Республики Беларусь «О запрете ввоза на территорию Республики Беларусь, реализации, хранения, транспортировки, использования жидкостей стеклоомывающих низкозамерзающих…». (27.11.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/18112024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Об отмене запрета ввоза на территорию Республики Беларусь, реализации, хранения, транспортировки, использования пищевой продукции производства ООО «Маревен Фуд Сэнтрал». (8.11.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/15112024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О запрете ввоза и обращения на территории Республики Беларусь продукции производства ООО «Кондипрод». (15.11.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/31102024_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Подгузники для взрослых одноразового использования медицинского назначения «StandartPlus» Small», партия SMM 1440. (31.10.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/31102024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Биологически активная добавка к пище: МАКСЛЕР «Органик Гинко Билога» / MAXLER «Organik Ginkgo Biloga», таблетки по 400 мг/60, изготовитель GTI USA LLC. (31.10.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/22102024_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Временные санитарные меры по запрету ввоза и обращения на территории Республики Беларусь некоторых видов продукции... (22.10.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/08102024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Водителям на заметку! (8.10.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/03102024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Результаты надзора за Школьным рынком. (3.10.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/15082024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Прекращено действие свидетельства о государственной регистрации. (15.08.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/14082024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Прекращено действие свидетельства о государственной регистрации. (14.08.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/05082024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Прекращено действие свидетельств о государственной регистрации. (5.08.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/01082024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Готовимся к школе! (1.08.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/31052024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Игрушки "слайм". (31.05.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/23042024_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Отмена запрета ввоза и обращения. (23.04.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/23042024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О прекращении действия свидетельств о государственной регистрации на продукцию. (23.04.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09042024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Запрет ввоза на территорию Республики Беларусь, реализацию, хранение, транспортировку, использование пищевой продукции производства ООО «ОРИМИ». (9.04.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/04042024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Салфетки бумажные «GRATIAS», кексик, ГОСТ Р 52354-2005, производства ООО «ТишьюПром», Российская Федерация. (4.04.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/03042024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Незамерзающая жидкость стеклоомывающая NORTH WAY -30° производства ООО «ОПТИМА». (3.04.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/25032024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Постановление заместителя Министра — Главного государственного санитарного врача Республики Беларусь от 19.03.2024 №17 временной санитарной меры по запрету ввоза, реализации, хранения, транспортировки и использования на территории Республики Беларусь продукции производства ООО «Араратский коньячный завод». (25.03.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/07032024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>«Легкий пластилин застывающий, со стеками» BRAUBERF kids 12 цветов, масса нетто 120г, артикул 106306, для детей от 3-х лет... (7.03.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/05032024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Напиток растворимый «Шиповник», шиповник натуральный растворимый гранулированный, производство ООО «КЦК «АРОНАП» и прочее... (4.03.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/29012024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Перечень Постановлений заместителя Министра здравоохранения — Главного государственного санитарного врача Республики Беларусь о запрете ввоза на территорию Республики Беларусь, реализации, хранении, транспортировки и использования стеклоомывающих жидкостей... (29.01.24)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="food">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-cutlery"></i></span><span class="sh-title">Пищевая продукция, не соответствующая требованиям, выявленная в 2024 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="content-hint">Учреждение здравоохранения «Могилевский зональный центр гигиены и эпидемиологии» информирует о выявлении факта оборота на территории города Могилева нестандартной продукции, а именно:</div>
+                <ol>
+                  <li><a href="../_files/news/infobt/22102024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Напиток слабоалкогольный особый газированный Santo Stefano APERINI SPRITZ (САНТО СТЕФАНО АПЕРИНИ ШПРИЦ) 6,9% vol. (22.10.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/19092024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Рыбный кулинарный полуфабрикат: бургеры фигурные из фарша рыбного в панировке обжаренные замороженные «MOONSTERY DINNO». (19.09.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/05062024_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Смесь овощная быстрозамороженная «Гавайская» т.м. «И зимой И летом». (5.06.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/05062024_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Изюм малаяр (виноград сушеный светло-коричневый) изюм MALAYAR (изюм INDUSTRIAL GRADE) т.м. Shalu. (5.06.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/05062024_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Грецкий орех ядра. т.м. Белый пеликан. (5.06.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/27032024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Смесь овощная быстрозамороженная «Гавайская». (27.03.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/20032024_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>«Сrackers fish shaped / крекер в форме рыбок». (20.03.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/14032024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>«АЙРУМ» вино фруктово-ягодное натуральное полусладкое красное слабоалкогольное гранатовое, ш.к.: 4850001923671, дата разлива: 06.11.23. (14.03.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/28022024_4.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Вафли шоколадные с маркировкой «Благодарушка», ш/к 4630007186344, изготовлено и упаковано: 21.11.23, годен до: 21.11.24. (28.02.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/28022024_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Напиток растворимый "Шиповник": шиповник натуральный растворимый гранулированный, номер смены, код изготовителя: 08.10.23.1.А, ш/к 4600874006670. (28.02.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/28022024_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Чай черный байховый индийский ГИТА в пакетиках для разовой заварки, дата изготовления: 11/2023, годен до конца: 10/2026, ш/к 4605246002519. (28.02.24)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="nonfood">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-flask"></i></span><span class="sh-title">Непищевая продукция, не соответствующая требованиям, выявленная в 2024 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="content-hint">Учреждение здравоохранения «Могилевский зональный центр гигиены и эпидемиологии» информирует о выявлении факта оборота на территории города Могилева нестандартной продукции, а именно:</div>
+                <ol>
+                  <li><a href="../_files/news/infobt/23102024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Nordix Winter -30 Стеклоомывающая жидкость. (23.10.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/20032024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Набор слаймов с маркировкой «ЮНЛАНДИЯ». (20.03.24)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/28022024_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Жидкость стеклоомывающая низкозамерзающая «GLEID UNLIMITED» -30. (28.02.24)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="sanmery">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-exclamation-triangle"></i></span><span class="sh-title">Временные санитарные меры в 2024 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="empty-state">Записей за этот год нет.</div>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="certificates">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-file-text-o"></i></span><span class="sh-title">О прекращении действия свидетельств о государственной регистрации в 2024 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="empty-state">Записей за этот год нет.</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ================================================= -->
+        <!-- 2023                                              -->
+        <!-- ================================================= -->
+        <div class="archive-group">
+          <button class="archive-head" type="button">
+            <span class="ah-left">
+              <span class="ah-icon"><i class="fa fa-calendar-check-o"></i></span>
+              <span class="ah-title">
+                <span>Новости, информация 2023 года</span>
+                <span class="ah-sub">Новости, продукция, меры, свидетельства</span>
+              </span>
+            </span>
+            <span class="ah-chev">▼</span>
+          </button>
+          <div class="archive-body">
+
+            <div class="subsection" data-type="news">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-bullhorn"></i></span><span class="sh-title">Новости, информация 2023 года</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <ol>
+                  <li><a href="../_files/news/infobt/19122023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Стеклоомывающие жидкости, запрещённые для ввоза, реализации, хранения, транспортировки и использования на территории Республики Беларусь. (19.12.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/30112023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Перечень действующих Постановлений Главного государственного санитарного врача Республики Беларусь «О запрете ввоза на территорию Республики Беларусь, реализации, хранения, транспортировки, использования жидкостей стеклоомывающих низкозамерзающих…» по состоянию на 30.11.2023 г. (30.11.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/11112023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>В целях обеспечения санитарно-эпидемиологического благополучия населения и защиты внутреннего рынка от некачественной и небезопасной продукции, специалистами УЗ «Могилевский зональный центр гигиены и эпидемиологии» организован надзор за обращением стеклоомывающих жидкостей. (11.11.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/18092023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Сокосодержащий напиток из яблок, вишни, черноплодной рябины «Спелая Вишня» с маркировкой «YESTA» для питания детей дошкольного и школьного возраста (с 3-х лет). (18.09.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/06092023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Результаты надзора за Школьным рынком. (6.09.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/29082023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Пищевые добавки на основе мухоморов под запретом! (29.08.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/11082023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Школьный базар - готовимся к школе! (11.08.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/15072023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Сидр фруктовый ароматизированный фильтрованный сладкий газированный «Голубая лагуна», алк. 4,9%. (15.07.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/05072023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О прекращении действия свидетельства о государственной регистрации №RU.77.99.11.003.R.000858.03.21 от 17.03.2021г. (5.07.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/06042023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Надзор за качеством и безопасностью пищевой продукции. (6.04.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/20022023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О запрете ввоза и обращения на территории РБ стеклоомывающих жидкостей. (20.02.23)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="food">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-cutlery"></i></span><span class="sh-title">Пищевая продукция, не соответствующая требованиям, выявленная в 2023 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="content-hint">Учреждение здравоохранения «Могилевский зональный центр гигиены и эпидемиологии» информирует о выявлении факта оборота на территории города Могилева нестандартной продукции, а именно:</div>
+                <ol>
+                  <li><a href="../_files/news/infobt/15112023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Курага индустриальная т/м «Econuts». (15.11.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/14112023_4.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Мармелад «Желейный формовой» ассорти. (14.11.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/14112023_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Курага индустриальная (абрикос сушеный) т/м «Econuts». (14.11.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/14112023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Чай черный байховый индийский ГИТА в пакетиках для разовой заварки. (14.11.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/14112023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Изюм малаяр (виноград сушеный светло-коричневый). (14.11.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09082023_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Сидр фруктовый ароматизированный фильтрованный сладкий газированный «Черная вишня». (9.08.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09082023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Финик сушеный с косточкой. (9.08.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09082023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Виноград сушеный (изюм) коричневый и финик сушеный с косточкой. (9.08.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09082023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Смесь кукурузы, орехов, бобов и экструдированных мучных продуктов «Хрустящий микс» т.м. «Белый пеликан». (9.08.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/24072023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Пресервы. Филе сельди атлантической слабосоленое «Санта Бремор» с укропом в масле. «Селедочка с укропом». (24.07.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/30062023_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Грецкий орех очищенный (ядро). (30.06.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/30062023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Конфеты в шоколадной глазури с кокосом «КОКО» («СОСО»). (30.06.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/30062023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Чипсы пшеничные «5D» со вкусом «4 сыра». (30.06.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/21032023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Восточные сладости типа карамели. Козинак подсолнечный с маркировкой PRINCE OF PERSIA. (21.03.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09032023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Финик сушеный с косточкой (Иран). (9.03.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09032023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Паприка сладкая молотая GURMINA. (9.03.23)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="nonfood">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-flask"></i></span><span class="sh-title">Непищевая продукция, не соответствующая требованиям, выявленная в 2023 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="content-hint">Учреждение здравоохранения «Могилевский зональный центр гигиены и эпидемиологии» информирует о выявлении факта оборота на территории города Могилева нестандартной продукции, а именно:</div>
+                <ol>
+                  <li><a href="../_files/news/infobt/04122023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Стеклоомывающая жидкость CLEAR VIEW -30, ш/к 4607859625840, объем 5л. ТУ 20.41.32-002-28337706-2021. (4.12.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/15112023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Краски пальчиковые для детского творчества. (15.11.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/15112023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>SNOW TRACK стеклоомывающая незамерзающая жидкость -30. (15.11.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/11102023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Джинсы детские. Артикул: Б0310. Размер: 28 (рост 110). (11.10.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/10082023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Дуршлаг. Арт. HFPZ-25-26. (9.08.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/10082023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Дуршлаг Д=24 см на ножке 2,45 л. Артикул: 0030. (9.08.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/10082023_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Решетка-гриль ROYAL GRILL 4 секции BBQ time 23×20 см. Art.: 80-017. (9.08.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/10082023_4.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Решетка для барбекю «СОКОЛ». Артикул: 62-0020. (9.08.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/10082023_5.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Брюки для мальчика торговой марки «LKS interlooks». (9.08.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/10082023_6.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Юбка для девочки торговой марки «Full Girls». (9.08.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/10082023_7.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Салфетки бумажные 3-х слойные, глубокой тонировки «Batist tone». (9.08.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/10082023_8.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Фольга алюминиевая пищевая. Эконом. 29 см × 10 м, 9 микрон. VIP VERY IMPORTANT PLASTIC. (9.08.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/30062023_4.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Игрушка — Слайм Облачко. (30.06.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/18052023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Набор вилок столовых «Селена» из 3-х штук на подвеске. (18.05.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/13022023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Набор шаров 25 шт. (микс цветов) c маркировкой «Party Balloons», арт. МСВ-24В. (13.02.23)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/13022023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Низкозамерзающие стеклоомывающие жидкости. (13.02.23)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="sanmery">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-exclamation-triangle"></i></span><span class="sh-title">Временные санитарные меры в 2023 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="empty-state">Записей за этот год нет.</div>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="certificates">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-file-text-o"></i></span><span class="sh-title">О прекращении действия свидетельств о государственной регистрации в 2023 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="empty-state">Записей за этот год нет.</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ================================================= -->
+        <!-- 2022                                              -->
+        <!-- ================================================= -->
+        <div class="archive-group">
+          <button class="archive-head" type="button">
+            <span class="ah-left">
+              <span class="ah-icon"><i class="fa fa-calendar-check-o"></i></span>
+              <span class="ah-title">
+                <span>Новости, информация 2022 года</span>
+                <span class="ah-sub">Новости, продукция, меры, свидетельства</span>
+              </span>
+            </span>
+            <span class="ah-chev">▼</span>
+          </button>
+          <div class="archive-body">
+
+            <div class="subsection" data-type="news">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-bullhorn"></i></span><span class="sh-title">Новости, информация 2022 года</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <ol>
+                  <li><a href="../_files/news/infobt/15122022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Плюшевые монстры. (15.12.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/11112022_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Учитывая сезонность реализации товара, специалистами центра в ноябре 2022 года усилен надзор за обращением стеклоомывающих низкозамерзающих жидкостей. (11.11.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/11112022_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Постановлением заместителя Министра здравоохранения — Главного государственного санитарного врача Беларуси от 1 ноября 2022 года № 27 внесены изменения в постановление № 1 от 5 января 2022 года. (11.11.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09082022_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Школьный базар 2022. (9.08.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09082022_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О работе специалистов отделения надзора и контроля за гигиенической безопасностью товаров УЗ «МЗЦГЭ» в 1-м полугодии 2022-го года. (9.08.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/11072022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Разрешён ввоз и обращение на территории Республики Беларусь следующей продукции: средства моющего жидкого — геля для стирки детского белья «Ушастный нянь»; конфет таблетированных «Ассорти». (11.07.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09062022_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Запрещён ввоз на территорию Республики Беларусь, реализация, хранение, транспортировка, использование салфеток столовых сервировочных с товарным знаком «Перышко». (9.06.22)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="food">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-cutlery"></i></span><span class="sh-title">Пищевая продукция, не соответствующая требованиям, выявленная в 2022 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="content-hint">Учреждение здравоохранения «Могилевский зональный центр гигиены и эпидемиологии» информирует о выявлении факта оборота на территории города Могилева нестандартной продукции, а именно:</div>
+                <ol>
+                  <li><a href="../_files/news/infobt/15122022_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Финик сушеный с косточкой. (15.12.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/11112022_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Курага индустриальная (состав: абрикос сушеный без косточки 1 сорт, консервант-Е220), ш/к 4810948007322, ТУ ВУ 690269922.002, масса нетто 200г, дата изготовления 01.2022, годен до 01.01.2023. (11.11.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/26102022_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Халва подсолнечная т.м. Liberty Orchards. (26.10.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/26102022_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Килька черноморская неразделанная в томатном соусе стерилизованная. (26.10.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/14102022_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Приправа пряная хмели-сунели. Приправы сухие. (14.10.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/13102022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Соленая пищевая рыбная продукция. Форель радужная филе-кусок с кожей слабосоленая «Классическая» охлажденная. (13.10.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09092022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Дыня свежая Торпеда, урожай 2022 года, дата упаковывания 20.07.2022. (9.09.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/02092022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Арбуз свежий продовольственный, урожай 2022 года. (2.09.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/26072022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Консервы рыбные. Хамса черноморская неразделанная в томатном соусе стерилизованная. (26.07.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/09062022_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Печенье-сэндвич «Кот Федот» с какао с ванильно-сливочным ароматом. (9.06.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/08062022_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Фруктово-ореховая смесь сладкая. (8.06.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/26052022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Рыбные консервы натуральные стерилизованные сайра и сардина (иваси) тихоокеанские (куски) натуральные с добавлением масла. (26.05.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/19052022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Манго (листики оранжевые) (Mango slices. orange) плоды и съедобные части растений, приготовленные (подсушенные) методом осмотического обезвоживания с содержанием сахара (цукаты). (19.05.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/04042022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Полуфабрикаты рубленые из мяса птицы: котлеты «По-домашнему» замороженные. (4.04.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/25032022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Рыбные консервы натуральные стерилизованные сайра и сардина (иваси) тихоокеанские (куски) натуральные т.м. «7 морей Сайра натуральная». (25.03.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/21032022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Приправа без соли для плова SPICE EXPERT. (21.03.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/17032022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Торт «Персидская ночь». Изделие мучное кондитерское песочное. (17.03.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/03032022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Мороженая пищевая рыбная продукция минтай б/г 25+ фасованная. (3.03.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/02032022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Изделия мучные кондитерские длительного хранения Пирожное «Карамельное». (2.03.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/15022022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Ананас обезвоженный консервированный с сахаром кубики микс (цукат) (Candied pineapple core dice mix). (15.02.22)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="nonfood">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-flask"></i></span><span class="sh-title">Непищевая продукция, не соответствующая требованиям, выявленная в 2022 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="content-hint">Учреждение здравоохранения «Могилевский зональный центр гигиены и эпидемиологии» информирует о выявлении факта оборота на территории города Могилева нестандартной продукции, а именно:</div>
+                <ol>
+                  <li><a href="../_files/news/infobt/15122022_4.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Средство для стирки детского белья порошкообразное «Ушастый нянь». (15.12.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/15122022_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Средство для стирки порошкообразное «Аистенок». (15.12.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/15122022_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Жидкость стеклоомывающая антиобледенительная, противозапотевательная (-30), торговой марки «Гандия», с маркировкой Mr. Омывайкин. (15.12.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/26102022_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Эластичные и шелковистые колготки для девочек на каждый день с маркировкой «Incanto kids». (26.10.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/10082022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Кепка т.м. «ELAS», 56-58 см, микс цвета (МY-022). (10.08.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/11072022_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Салфетки столовые, сервировочные «Кофе» торгового знака «Пёрышко». (11.07.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/11072022_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Тёрка кухонная торговой марки «Lorica». (11.07.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/11072022_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Набор вилок столовых «Flowers» торговой марки «Lorica». (11.07.22)</a><span class="file-tag pdf">PDF</span></li>
+                  <li><a href="../_files/news/infobt/11072022_4.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Краски гуашевые торговой марки «Creativiki». (11.07.22)</a><span class="file-tag pdf">PDF</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="sanmery">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-exclamation-triangle"></i></span><span class="sh-title">Временные санитарные меры в 2022 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="empty-state">Записей за этот год нет.</div>
+              </div>
+            </div>
+
+            <div class="subsection" data-type="certificates">
+              <button class="subsection-head" type="button">
+                <span class="sh-left"><span class="sh-icon"><i class="fa fa-file-text-o"></i></span><span class="sh-title">О прекращении действия свидетельств о государственной регистрации в 2022 году</span></span>
+                <span class="sh-chev">▼</span>
+              </button>
+              <div class="subsection-body">
+                <div class="empty-state">Записей за этот год нет.</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="full-width-bg" style="background-color: #e8f0ea; color: #333333;">
+    <div class="container" style="padding-top: 20px; padding-bottom: 20px;">
+      <div class="row">
+        <div class="col-sm-12">
+           <p><div align="center" style="color:#333333; padding: 10px;">Учреждение здравоохранения "Могилёвский зональный центр гигиены и эпидемиологии"</div></p>
+        </div>           
+      </div>
+      <div class="footer-contacts-single">
+        <div class="fc-line">
+            <span class="fc-icon glyphicon glyphicon-map-marker"></span>
+            <span class="fc-label">Адрес:</span>
+            <span class="fc-text">212022, Республика Беларусь, г. Могилёв, ул. Лазаренко, 66</span>
+        </div>
+        <div class="fc-line">
+            <span class="fc-icon glyphicon glyphicon-earphone"></span>
+            <span class="fc-label">Телефон/факс:</span>
+            <span class="fc-text">8 (0222) 62-74-68</span>
+        </div>
+        <div class="fc-line">
+            <span class="fc-icon glyphicon glyphicon-envelope"></span>
+            <span class="fc-label">E-mail:</span>
+            <span class="fc-text"><a href="mailto:mzcge@cge.by">mzcge@cge.by</a></span>
+        </div>
+        <div class="fc-line">
+            <span class="fc-icon glyphicon glyphicon-time"></span>
+            <span class="fc-label">Режим работы:</span>
+            <span class="fc-text">Пн–Пт: 8:00 – 17:00 · Обед: 13:00 – 14:00 · Сб, Вс — выходные</span>
+        </div>
+        <div class="fc-line">
+            <span class="fc-icon glyphicon glyphicon-link"></span>
+            <span class="fc-label">Вышестоящая организация:</span>
+            <span class="fc-text">
+                <a href="https://mcge.by/" target="_blank" rel="noopener" class="parent-org-link">
+                    Могилевский областной центр гигиены, эпидемиологии и общественного здоровья
+                </a>
+            </span>
+        </div>
+      </div>
+      <div style="padding: 0 15px;">
+        <iframe style="border:0; height: 240px; width: 100%; margin-top: 30px; margin-bottom: 10px;"
+        src="https://yandex.ru/map-widget/v1/-/CCUyJMec0B"></iframe>
+      </div>
+      <div class="myFooter"> 
+        <div class="social-networks">  
+          <a href="https://www.instagram.com/mogilevzcge/?hl=ru" class="twitter"><i class="fa fa-instagram"></i></a>
+          <a href="https://t.me/uzmzcge" title="Telegram-канал Могилевского ЗонЦГЭ" class="telegram"><i class="fa fa-telegram"></i></a>  				
+        </div>  
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="full-width-bg" style="background-color: #2e3a35; color: #d2d1d1; margin-top: auto;">
+  <footer class="container text-center" style="padding-top: 15px; padding-bottom: 15px;">
+      <p>© 2009-2026 Copyright: УЗ "МЗЦГЭ" </p>
+      <a href="#myPage" title="НАВЕРХ" style="color: #d2d1d1;">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>НАВЕРХ</p>
+  </footer>
+</div>
+
+ <div class="modal fade" id="myModale">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header"><h4 class="modal-title"></h4></div>
+        <div class="modal-body">
+          <div id="google_translate_element" style="display:block"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть выбор языка</button>
+        </div>
+      </div>
+    </div>
+  </div>   
+
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: "ru"}, "google_translate_element");
+  }
+</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script>
+  (function () {
+    var btn = document.getElementById('upbutton');
+    if (!btn) return;
+    window.addEventListener('scroll', function () {
+      btn.style.display = (window.pageYOffset > 100) ? 'block' : 'none';
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+</script>
+
+<script>
+  (function () {
+    var burger = document.getElementById('burger');
+    var mainNav = document.getElementById('mainNav');
+    if (burger && mainNav) {
+      burger.addEventListener('click', function () { mainNav.classList.toggle('open'); });
+    }
+    document.querySelectorAll('.nav-item > a').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        if (window.innerWidth <= 992) {
+          var item = link.parentElement;
+          var panel = item.querySelector('.mega-panel');
+          if (panel) {
+            e.preventDefault();
+            item.classList.toggle('open');
+          }
+        }
+      });
+    });
+  })();
+</script>
+
+<script>
+  (function () {
+    // Внешние аккордеоны (по годам)
+    document.querySelectorAll('.archive-head').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        btn.parentElement.classList.toggle('open');
+      });
+    });
+    // Вложенные подсекции (темы внутри года)
+    document.querySelectorAll('.subsection-head').forEach(function (btn) {
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        btn.parentElement.classList.toggle('open');
+      });
+    });
+  })();
+</script>
+
+<script src="../assets/bvi.min.js"></script>
+<script>
+  new isvek.Bvi();
+</script>
+
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,308 @@
+{
+ "number": 97,
+ "url": "https://t.me/mogilev/12545?embed=1&discussion=1&comments_limit=100",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:31:13.615Z",
+ "html": "raw/097_t-me_tg-mogilev-12545-discussion.html",
+ "txt": "raw/097_t-me_tg-mogilev-12545-discussion.txt",
+ "sha256": "5f0fe71d2a99b468d684f55bf489e0d1239b7c8e3859c4bdd0640c795303a9e7",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 22,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_widget body_widget_discussion emoji_image force_userpic nodark name_nocolor",
+    "textLen": 666,
+    "text": "6 comments on this post Могилев. Главное! ⚡️ За ваши фото, видео, новости и истории, связанные с Могилёвом, дарим подарки, сертификаты и многое другое! Пишите в"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_header_wrap",
+    "textLen": 23,
+    "text": "6 comments on this post"
+   },
+   {
+    "tag": "H3",
+    "id": "",
+    "cls": "tgme_post_discussion_header",
+    "textLen": 23,
+    "text": "6 comments on this post"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion js-message_history",
+    "textLen": 624,
+    "text": "Могилев. Главное! ⚡️ За ваши фото, видео, новости и истории, связанные с Могилёвом, дарим подарки, сертификаты и многое другое! Пишите в редакцию → @suggestmogi"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 173,
+    "text": " Могилев. Главное! ⚡️ За ваши фото, видео, новости и истории, связанные с Могилёвом, дарим подарки, сертификаты и многое другое! Пишите в редакцию → @suggestmog"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 149,
+    "text": "⚡️ За ваши фото, видео, новости и истории, связанные с Могилёвом, дарим подарки, сертификаты и многое другое! Пишите в редакцию → @suggestmogilevbot"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 42,
+    "text": " Throne | @coast о блин, надо сходить "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 20,
+    "text": "о блин, надо сходить"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 82,
+    "text": " Artsiom Там все равно столько не съесть, если только половину забрать домой. "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 68,
+    "text": "Там все равно столько не съесть, если только половину забрать домой."
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply user-color-default js-reply_to",
+    "textLen": 76,
+    "text": "Artsiom Там все равно столько не съесть, если только половину забрать домой."
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 68,
+    "text": "Там все равно столько не съесть, если только половину забрать домой."
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 56,
+    "text": " Лиза Заельцовская 1 сет рассчитан на двоих человек "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 32,
+    "text": "1 сет рассчитан на двоих человек"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 60,
+    "text": " Лиза Заельцовская а где можно посмотреть состав сетов? "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 36,
+    "text": "а где можно посмотреть состав сетов?"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 129,
+    "text": " Светлана Рахманова Очень хотим попробовать с мамой, но, к сожалению, мама не может ходить. А заказать доставку можно будет? "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 104,
+    "text": "Очень хотим попробовать с мамой, но, к сожалению, мама не может ходить. А заказать доставку можно будет?"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_footer",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "FORM",
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login_btn accent_bghover js-login_btn",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/discussion-widget.js?10",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "action": "",
+    "fields": [
+     "input:hidden:peer",
+     "input:hidden:top_msg_id",
+     "input:hidden:discussion_hash"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 666
+ },
+ "extra": {
+  "name": "tg_mogilev_12545_discussion",
+  "status": 200,
+  "requested": "https://t.me/mogilev/12545?embed=1&discussion=1&comments_limit=100",
+  "channel": "mogilev",
+  "post": 12545,
+  "tgDiscussion": {
+   "url": "https://t.me/mogilev/12545?embed=1&discussion=1&comments_limit=100",
+   "at": "2026-11-15T14:31:13.615Z",
+   "header": "6 comments on this post",
+   "error": "",
+   "comments": [
+    {
+     "id": "113035",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilevglavnoebot",
+     "text": "⚡️ За ваши фото, видео, новости и истории, связанные с Могилёвом, дарим подарки, сертификаты и многое другое!\n\nПишите в редакцию → @suggestmogilevbot",
+     "dateText": "Mar 6",
+     "datetime": "2026-03-06T14:00:45+00:00",
+     "url": "https://t.me/mogilev/12545?comment=113035",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "113036",
+     "author": "Throne | @coast",
+     "authorHref": "",
+     "text": "о блин, надо сходить",
+     "dateText": "Mar 6",
+     "datetime": "2026-03-06T14:02:12+00:00",
+     "url": "https://t.me/mogilev/12545?comment=113036",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "113042",
+     "author": "Artsiom",
+     "authorHref": "https://t.me/artemiijj",
+     "text": "Там все равно столько не съесть, если только половину забрать домой.",
+     "dateText": "Mar 6",
+     "datetime": "2026-03-06T14:37:05+00:00",
+     "url": "https://t.me/mogilev/12545?comment=113042",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "113051",
+     "author": "Лиза Заельцовская",
+     "authorHref": "https://t.me/zael069",
+     "text": "1 сет рассчитан на двоих человек",
+     "dateText": "Mar 6",
+     "datetime": "2026-03-06T16:10:12+00:00",
+     "url": "https://t.me/mogilev/12545?comment=113051",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "113052",
+     "author": "Лиза Заельцовская",
+     "authorHref": "https://t.me/zael069",
+     "text": "а где можно посмотреть состав сетов?",
+     "dateText": "Mar 6",
+     "datetime": "2026-03-06T16:10:56+00:00",
+     "url": "https://t.me/mogilev/12545?comment=113052",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "113077",
+     "author": "Светлана Рахманова",
+     "authorHref": "",
+     "text": "Очень хотим попробовать с мамой, но, к сожалению, мама не может ходить. А заказать доставку можно будет?",
+     "dateText": "Mar 6",
+     "datetime": "2026-03-06T18:21:12+00:00",
+     "url": "https://t.me/mogilev/12545?comment=113077",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    }
+   ],
+   "moreLeft": false,
+   "moreState": [
+    "tme_messages_more accent_bghover js-messages_more autoload hide|after=113077|before="
+   ],
+   "bodyText": "6 comments on this post\nМогилев. Главное!\n⚡️ За ваши фото, видео, новости и истории, связанные с Могилёвом, дарим подарки, сертификаты и многое другое!\n\nПишите в редакцию → @suggestmogilevbot\nMar 6\nThrone | @coast\nо блин, надо сходить\nMar 6\nArtsiom\nТам все равно столько не съесть, если только полови"
+  }
+ }
+}

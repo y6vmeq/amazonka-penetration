@@ -1,0 +1,107 @@
+{
+ "number": 46,
+ "url": "https://t.me/mogilev/7876?embed=1&mode=tme",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:27:06.572Z",
+ "html": "raw/046_t-me_tg-mogilev-7876-post.html",
+ "txt": "raw/046_t-me_tg-mogilev-7876-post.txt",
+ "sha256": "764534769e9db21c6a3bbcb65688e72456e219c1d0e33e2548ac986cf22a169a",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 5,
+  "commentElements": [
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "tgme_widget_message_link_preview",
+    "textLen": 283,
+    "text": "Telegram Могилев. Главное! 🍽 С 15 мая по 1 июня по всей Беларуси пройдет Gastrofest В Могилеве принимают участие 8 заведений: • Гастробар «Цоколь» — ул. Дзержи"
+   },
+   {
+    "tag": "I",
+    "id": "",
+    "cls": "link_preview_right_image",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "link_preview_site_name accent_color",
+    "textLen": 8,
+    "text": "Telegram"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "link_preview_title",
+    "textLen": 17,
+    "text": "Могилев. Главное!"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "link_preview_description",
+    "textLen": 256,
+    "text": "🍽 С 15 мая по 1 июня по всей Беларуси пройдет Gastrofest В Могилеве принимают участие 8 заведений: • Гастробар «Цоколь» — ул. Дзержинского, 19 • Бар «Эдисон» —"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 758
+ },
+ "extra": {
+  "name": "tg_mogilev_7876_post",
+  "status": 200,
+  "requested": "https://t.me/mogilev/7876?embed=1&mode=tme",
+  "tgPost": {
+   "url": "https://t.me/mogilev/7876?embed=1&mode=tme",
+   "at": "2026-11-15T14:27:06.572Z",
+   "error": "",
+   "post": {
+    "id": "7876",
+    "author": "Могилев. Главное!",
+    "authorHref": "https://t.me/mogilev",
+    "text": "🎉 Могилевчане выбрали своих фаворитов на прошедшем «Гастрофесте»\n\nВ топ-3 лучших заведения попали:\n🔸Гастробар «Цоколь»\n🔸Рестобар «Амазонка»\n🔸Бар «Эдисон»\n\nВажно отметить, что на «Гастрофесте» не присуждаются конкретные места, поэтому все три заведения по праву считаются лучшими.\n\nЮбилейный, десятый «Гастрофест», пройдет в Могилеве с 13 по 30 ноября.\n\n6️⃣ Подписывайтесь!",
+    "dateText": "Jun 6, 2025 at 14:33",
+    "datetime": "2025-06-06T12:33:47+00:00",
+    "url": "https://t.me/mogilev/7876",
+    "replyTo": null,
+    "forwardedFrom": "",
+    "views": "8.95K",
+    "metaText": "Jun 6, 2025 at 14:33",
+    "signature": "",
+    "reactions": [
+     "❤16",
+     "👍8",
+     "😁4",
+     "❤‍🔥1",
+     "🎄1"
+    ],
+    "media": [
+     {
+      "type": "link-preview",
+      "href": "https://t.me/mogilev/7426",
+      "title": "Могилев. Главное!",
+      "text": "🍽 С 15 мая по 1 июня по всей Беларуси пройдет GastrofestВ Могилеве принимают участие 8 заведений:• Гастробар «Цоколь» — ул. Дзержинского, 19• Бар «Эдисон» — ул. Ленинская, 11• Ресто-бар «Амазонка» — ул. Ленинская, 38• Ресторан 101 — пер. Пожарный,…",
+      "image": "https://cdn4.telesco.pe/file/Ej2W4zheYAriOBauVJcIwKdQbefydNNEYsH9AwdxI2MNTvKukRWzOqza_R14PKvu73XGw1oWvvFxjShuOMbtVOLChE7bwCDjB3eWr0QPD8T-LafKbVQCnrmJRis-B9pN7yKu6y7i-pQegj9oGW7L--XG6GcgNoE6WlKOaOW0dyAAZCT6BA2BqUFEy3BXag7e5yWULyO_cYmDXkJKKk2-5L0LKZAOEz4qk2ZJgKzkb4gk99ZLwejQX9dukWlCiyvlFLanHULvSEk-KD7--H7kduirolLymZwmjjpZEFbUxfbXq_TxLCoauNleTPctNeLYzL31wsS04rfrdE8qEOpYMQ.jpg"
+     },
+     {
+      "type": "not-supported",
+      "text": "Please open Telegram to view this post"
+     }
+    ]
+   },
+   "repliesText": "",
+   "bodyText": "Могилев. Главное!\n🎉 Могилевчане выбрали своих фаворитов на прошедшем «Гастрофесте»\n\nВ топ-3 лучших заведения попали:\n🔸Гастробар «Цоколь»\n🔸Рестобар «Амазонка»\n🔸Бар «Эдисон»\n\nВажно отметить, что на «Гастрофесте» не присуждаются конкретные места, поэтому все три заведения по праву считаются лучшими.\n\nЮбилейный, десятый «Гастрофест», пройдет в Могилеве с 13 по 30 ноября.\n\n\n6️⃣ Подписывайтесь!\nTele"
+  }
+ }
+}

@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>УЗ "Могилёвский зональный центр гигиены и эпидемиологии"</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <style>
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+    overflow-x: hidden !important;
+}
+body { display: flex; flex-direction: column; min-height: 100vh; }
+.main-content { flex: 1 0 auto; }
+
+.parallax {
+    background: linear-gradient(90deg, #d9ece0 0%, #f4faf6 40%, #ffffff 50%, #f4faf6 60%, #d9ece0 100%);
+    min-height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    color: #555555;
+    padding-top: 130px;
+    padding-bottom: 40px;
+}
+
+/* ===== ШАПКА ===== */
+.site-header {
+    background: #f7f9f8;
+    position: fixed; top: 0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border-bottom: 1px solid #e8ece9;
+}
+.header-top {
+    max-width: 1200px; margin: 0 auto;
+    padding: 12px 20px;
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 14px;
+}
+.header-top .brand {
+    font-weight: 700; color: #333; font-size: 16px;
+    text-decoration: none; line-height: 1.3;
+    flex: 1 1 auto; min-width: 200px;
+}
+.header-top .brand:hover { color: #4CAF50; }
+.header-right { display: flex; align-items: center; gap: 8px; flex: 0 0 auto; }
+.header-right a {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 38px; height: 38px; border-radius: 50%;
+    background: #eef3f0; color: #4CAF50; text-decoration: none; font-size: 16px;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+.header-right a:hover { background: #4CAF50; color: #fff; transform: translateY(-1px); }
+.burger {
+    display: none; background: transparent;
+    border: 1px solid #d9e3dd; border-radius: 8px;
+    padding: 8px 12px; color: #4CAF50; font-size: 20px; cursor: pointer;
+}
+.main-nav { background: #f7f9f8; border-top: 1px solid #eef3f0; }
+.nav-inner {
+    max-width: 1200px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: center;
+    padding: 0 20px; flex-wrap: wrap; row-gap: 0;
+}
+.nav-item { position: relative; }
+.nav-item > a {
+    display: flex; align-items: center; gap: 6px;
+    padding: 14px 18px; color: #555; text-decoration: none;
+    font-size: 14px; font-weight: 600;
+    border-bottom: 3px solid transparent;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+    white-space: nowrap;
+}
+.nav-item > a .caret {
+    border-top: none !important; width: auto !important; height: auto !important;
+    margin: 0 !important; color: #555; opacity: 0.7; font-size: 10px;
+    display: inline-block; transition: transform 0.2s;
+}
+.nav-item:hover > a {
+    color: #2e7d32; border-bottom-color: #4CAF50; background: #fafdfb;
+}
+.nav-item:hover > a .caret { transform: rotate(180deg); color: #2e7d32; }
+.mega-panel {
+    position: absolute; top: 100%; left: 50%;
+    transform: translateX(-50%) translateY(8px);
+    background: #fff; border: 1px solid #e8ecf0;
+    border-radius: 0 0 14px 14px;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.10);
+    padding: 20px 24px; min-width: 560px;
+    opacity: 0; visibility: hidden; pointer-events: none;
+    transition: opacity 0.22s ease, transform 0.22s ease, visibility 0.22s;
+    z-index: 200;
+    display: grid; grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 6px 24px;
+}
+.nav-item:hover .mega-panel {
+    opacity: 1; visibility: visible; pointer-events: auto;
+    transform: translateX(-50%) translateY(0);
+}
+.mega-panel.single { grid-template-columns: 1fr; min-width: 300px; }
+.mega-col-title {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 1px;
+    color: #4CAF50; font-weight: 700;
+    margin: 4px 0 8px; padding-bottom: 6px; border-bottom: 1px solid #eef3f0;
+}
+.mega-link {
+    display: block; padding: 8px 12px; color: #555; text-decoration: none;
+    font-size: 13px; border-left: 3px solid transparent; border-radius: 6px;
+    transition: background 0.15s, border-color 0.15s, color 0.15s; line-height: 1.4;
+}
+.mega-link:hover { background: #f1faf3; border-left-color: #4CAF50; color: #2e7d32; }
+
+/* ===== Ссылки ===== */
+a:focus { text-decoration: none; color: #555555; }
+a:link { color: #555555; background-color: transparent; text-decoration: none; }
+a:visited { color: #555555; background-color: transparent; text-decoration: none; }
+a:hover { color: #4CAF50; background-color: transparent; text-decoration: none; }
+a:active { color: red; background-color: transparent; text-decoration: none; }
+
+/* ===== Хлебные крошки ===== */
+.breadcrumb {
+    background-color: transparent; padding: 8px 0;
+    margin-bottom: 20px; font-size: 13px;
+}
+.breadcrumb > li > a { color: #4CAF50; text-decoration: none; }
+.breadcrumb > li > a:hover { color: #2e7d32; text-decoration: underline; }
+.breadcrumb > .active { color: #555; }
+
+/* ===== Полная ширина ===== */
+.full-width-bg {
+    width: 100vw !important; position: relative;
+    left: 50%; right: 50%;
+    margin-left: -50vw !important; margin-right: -50vw !important;
+}
+
+/* ===== ФУТЕР ===== */
+.myFooter h4 { text-decoration: none; }
+.myFooter a { color: #333333; text-decoration: none; }
+.myFooter a:hover, .myFooter a:focus { text-decoration: none; color: #4CAF50; }
+.myFooter .social-networks { text-align: center; padding-top: 30px; padding-bottom: 38px; }
+.myFooter .fa {
+    font-size: 30px; margin-right: 15px; margin-left: 20px;
+    background-color: #ffffff; color: #4CAF50; border-radius: 51%;
+    padding: 10px; height: 50px; width: 50px; text-align: center; line-height: 31px;
+    text-decoration: none; transition: color 0.2s, background 0.2s;
+}
+.myFooter .fa-telegram:hover { color: #249bd7; }
+.myFooter .fa-instagram:hover { color: #125688; }
+.footer-contacts-single {
+    margin: 20px auto 0; padding: 16px 22px;
+    background: rgba(255, 255, 255, 0.65); border-radius: 12px; border-left: 4px solid #4CAF50;
+}
+.footer-contacts-single .fc-line {
+    display: flex; align-items: flex-start; gap: 10px; padding: 8px 0;
+    font-size: 14px; line-height: 1.5; color: #333333;
+    border-bottom: 1px dashed #cfdcd4;
+}
+.footer-contacts-single .fc-line:last-child { border-bottom: none; }
+.footer-contacts-single .fc-icon {
+    color: #4CAF50; font-size: 15px; flex-shrink: 0; margin-top: 2px;
+    width: 20px; text-align: center;
+}
+.footer-contacts-single .fc-label { font-weight: 700; color: #2e7d32; flex-shrink: 0; }
+.footer-contacts-single .fc-text { color: #333333; word-break: break-word; }
+.footer-contacts-single .fc-text a { color: #4CAF50; text-decoration: none; }
+.footer-contacts-single .fc-text a:hover { text-decoration: underline; }
+.footer-contacts-single .parent-org-link { color: #333333; text-decoration: none; font-weight: 400; }
+.footer-contacts-single .parent-org-link:hover { color: #4CAF50; text-decoration: underline; }
+
+/* ============================================================ */
+/* CONTENT                                                       */
+/* ============================================================ */
+.content-page-title {
+    font-size: 22px; font-weight: 700; color: #2e7d32;
+    margin: 0 0 18px; padding-left: 14px;
+    border-left: 5px solid #4CAF50;
+}
+
+.content-archive { margin-bottom: 18px; }
+
+/* Feature-карточка с картинкой */
+.content-feature {
+    background: #fff;
+    border: 1px solid #e8ecf0;
+    border-left: 5px solid #4CAF50;
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 18px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 22px;
+    align-items: start;
+}
+.content-feature .cf-img {
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f1faf3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 160px;
+}
+.content-feature .cf-img img { width: 100%; height: auto; display: block; }
+.content-feature .cf-body {
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: #555;
+}
+.content-feature .cf-body p { margin: 0 0 10px; }
+.content-feature .cf-body u { color: #2e7d32; text-decoration-color: #4CAF50; }
+.content-feature .cf-sign {
+    text-align: right;
+    font-size: 13px;
+    color: #888;
+    font-style: italic;
+    margin-top: 12px;
+}
+@media (max-width: 768px) {
+    .content-feature { grid-template-columns: 1fr; gap: 16px; padding: 16px; }
+    .content-feature .cf-img { min-height: auto; max-height: 220px; }
+}
+
+/* Блок текущего года (открыт, без кнопки) */
+.archive-group {
+    background: #fff;
+    border: 1px solid #e8ecf0;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+}
+.archive-head {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 12px;
+    padding: 14px 18px;
+    background: #f4faf6;
+    border: none; width: 100%; text-align: left;
+    font-family: inherit;
+    font-size: 15px; font-weight: 700; color: #2e7d32;
+}
+.archive-head.is-static,
+.archive-head.is-static:hover { background: #f4faf6; cursor: default; }
+.archive-head .ah-left {
+    display: inline-flex; align-items: center; gap: 10px;
+    flex: 1 1 auto; min-width: 0;
+}
+.archive-head .ah-icon {
+    width: 32px; height: 32px; flex: 0 0 32px;
+    border-radius: 50%; background: #e8f5e9; color: #4CAF50;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 14px;
+}
+.archive-head .ah-title {
+    display: flex; flex-direction: column; gap: 2px;
+    min-width: 0;
+}
+.archive-head .ah-sub {
+    font-size: 11.5px; font-weight: 500; color: #888;
+    line-height: 1.3; margin-top: 1px;
+}
+.archive-head .ah-live-badge {
+    display: inline-block;
+    font-size: 10.5px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .3px;
+    color: #fff; background: #4CAF50;
+    padding: 2px 8px; border-radius: 10px;
+    margin-left: 8px;
+}
+.archive-body {
+    display: block;
+    padding: 6px 16px 14px;
+    border-top: 1px solid #eef3f0;
+}
+
+/* Свёрнутые года */
+.year-group {
+    background: #fff;
+    border: 1px solid #e8ecf0;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+}
+.year-head {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 12px;
+    padding: 14px 18px;
+    background: #fafdfb;
+    border: none; width: 100%; text-align: left;
+    cursor: pointer; font-family: inherit;
+    font-size: 15px; font-weight: 700; color: #2e7d32;
+    transition: background .15s;
+}
+.year-head:hover { background: #f1faf3; }
+.year-head .yh-left {
+    display: inline-flex; align-items: center; gap: 10px;
+    flex: 1 1 auto; min-width: 0;
+}
+.year-head .yh-icon {
+    width: 32px; height: 32px; flex: 0 0 32px;
+    border-radius: 50%; background: #e8f5e9; color: #4CAF50;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 14px;
+}
+.year-head .yh-title {
+    display: flex; flex-direction: column; gap: 2px;
+    min-width: 0;
+}
+.year-head .yh-sub {
+    font-size: 11.5px; font-weight: 500; color: #888;
+    line-height: 1.3; margin-top: 1px;
+}
+.year-head .yh-chev {
+    color: #4CAF50; transition: transform .2s; font-size: 12px;
+    flex-shrink: 0;
+}
+.year-group.open .year-head .yh-chev { transform: rotate(180deg); }
+.year-body {
+    display: none;
+    padding: 6px 16px 14px;
+    border-top: 1px solid #eef3f0;
+}
+.year-group.open > .year-body { display: block; }
+
+/* Список документов */
+.archive-body ol,
+.year-body ol {
+    padding-left: 20px; margin: 8px 0 0;
+    counter-reset: item; list-style: none;
+}
+.archive-body ol li,
+.year-body ol li {
+    position: relative;
+    padding: 8px 0 8px 32px;
+    font-size: 13px; line-height: 1.5; color: #333;
+    border-bottom: 1px dashed #f0f3f5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+.archive-body ol li:last-child,
+.year-body ol li:last-child { border-bottom: none; }
+.archive-body ol li::before,
+.year-body ol li::before {
+    counter-increment: item;
+    content: counter(item) ".";
+    position: absolute; left: 0; top: 8px;
+    color: #4CAF50; font-weight: 700; font-size: 12px;
+    min-width: 24px;
+}
+.archive-body ol li > a,
+.year-body ol li > a {
+    color: #333 !important; text-decoration: none !important;
+    transition: color .15s;
+    flex: 1 1 auto; min-width: 0;
+}
+.archive-body ol li > a:hover,
+.year-body ol li > a:hover {
+    color: #2e7d32 !important; text-decoration: underline !important;
+}
+
+/* Бейджи */
+.file-tag {
+    display: inline-block;
+    flex-shrink: 0;
+    font-size: 9.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    padding: 1px 7px;
+    border-radius: 8px;
+    line-height: 1.4;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+.file-tag.pdf    { color: #d32f2f; background: #fdecea; }
+.file-tag.png    { color: #6a3ec0; background: #ede7f6; }
+.file-tag.doc    { color: #1d6f42; background: #e6f4ea; }
+.file-tag.online { color: #2f6fb0; background: #e3eef8; }
+.file-tag.rar    { color: #d32f2f; background: #fdecea; }
+.file-tag.xls    { color: #1d6f42; background: #e6f4ea; }
+
+.type-icon { color: #4CAF50; font-size: 11px; margin-right: 4px; }
+.type-icon.is-online { color: #2f6fb0; }
+
+.empty-state {
+    text-align: center;
+    padding: 20px 14px;
+    font-size: 13px;
+    color: #999;
+    font-style: italic;
+}
+
+@media (max-width: 480px) {
+    .archive-body, .year-body { padding: 4px 12px 12px; }
+    .archive-body ol li, .year-body ol li { padding-left: 28px; font-size: 12.5px; }
+    .archive-head, .year-head { padding: 12px 14px; font-size: 13.5px; }
+    .archive-head .ah-icon, .year-head .yh-icon { width: 28px; height: 28px; flex-basis: 28px; font-size: 12px; }
+    .year-head .yh-sub, .archive-head .ah-sub { display: none; }
+    .archive-head .ah-live-badge { font-size: 9px; padding: 1px 6px; margin-left: 4px; }
+    .content-page-title { font-size: 18px; }
+    .file-tag { font-size: 9px; padding: 1px 6px; }
+    .content-feature { padding: 14px; }
+}
+
+/* ===== АДАПТИВ ШАПКИ ===== */
+@media (max-width: 992px) {
+    .parallax { padding-top: 130px; }
+    .header-top .brand { font-size: 14px; }
+    .burger { display: inline-flex; }
+    .main-nav { display: none; }
+    .main-nav.open { display: block; }
+    .nav-inner { flex-direction: column; align-items: stretch; padding: 0; flex-wrap: nowrap; }
+    .nav-item { width: 100%; }
+    .nav-item > a {
+        border-bottom: 1px solid #eef3f0;
+        border-left: 4px solid transparent;
+        justify-content: space-between; white-space: normal;
+    }
+    .nav-item:hover > a { border-bottom-color: #eef3f0; border-left-color: #4CAF50; }
+    .nav-item.open > a { border-left-color: #4CAF50; color: #2e7d32; }
+    .nav-item.open > a .caret { transform: rotate(180deg); }
+    .mega-panel {
+        position: static; transform: none; box-shadow: none;
+        border: none; border-radius: 0; padding: 10px 18px 14px;
+        min-width: auto; grid-template-columns: 1fr;
+        opacity: 1; visibility: visible; pointer-events: auto;
+        display: none; background: #fafdfb;
+    }
+    .nav-item:hover .mega-panel { transform: none; }
+    .nav-item.open .mega-panel { display: grid; }
+    .mega-col-title { margin-top: 10px; }
+}
+
+@media (max-width: 768px) {
+    .myFooter .fa {
+        font-size: 24px; margin-right: 10px; margin-left: 10px;
+        padding: 8px; height: 42px; width: 42px; line-height: 26px;
+    }
+    iframe { height: 200px !important; }
+}
+
+@media (max-width: 480px) {
+    .parallax { padding-top: 150px; }
+    .header-top .brand { font-size: 12px; min-width: 150px; }
+    .header-right a { width: 34px; height: 34px; font-size: 14px; }
+    .footer-contacts-single { padding: 12px 16px; margin: 16px 12px 0; }
+    .footer-contacts-single .fc-line { font-size: 13px; flex-wrap: wrap; gap: 6px; }
+    .myFooter .fa {
+        font-size: 20px; margin-right: 8px; margin-left: 8px;
+        padding: 6px; height: 36px; width: 36px; line-height: 24px;
+    }
+}
+
+  </style>
+  <meta name="google-site-verification" content="wQXrmiEJt5O4IJOvy-BDcuLGITU52_RqVXIcazPKLoA" />
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<div class="main-content">
+
+  <header class="site-header">
+    <div class="header-top">
+      <a href="../menu_exec.html" class="brand">УЗ "Могилёвский зональный центр гигиены и эпидемиологии"</a>
+      <div class="header-right">
+        <button class="burger" id="burger" aria-label="Меню">☰</button>
+        <a data-toggle="modal" href="#myModale" title="Выбор языка"><i class="fa fa-globe"></i></a>
+        <a href="../twoorange/search.html" title="Поиск по сайту"><i class="fa fa-search"></i></a>
+        <a href="#" class="bvi-open" title="Версия для слабовидящих"><i class="fa fa-eye"></i></a>
+      </div>
+    </div>
+
+    <nav class="main-nav" id="mainNav">
+      <div class="nav-inner">
+
+        <div class="nav-item">
+          <a href="#">О центре <span class="caret">▼</span></a>
+          <div class="mega-panel">
+            <div>
+              <div class="mega-col-title">Информация</div>
+              <a href="../twoorange/functions.html" class="mega-link">О задаче и функциях учреждения</a>
+              <a href="../twoorange/outline_history_organization.html" class="mega-link">Исторический очерк о центре</a>
+              <a href="../twoorange/history_100.html" class="mega-link">Об истории организации и становления санитарного дела</a>
+              <a href="../twoorange/branch.html" class="mega-link">Структурные подразделения</a>
+              <a href="../twoorange/in_tape_branch.html" class="mega-link">Информационные ленты структурных подразделений</a>
+            </div>
+            <div>
+              <div class="mega-col-title">Коллектив</div>
+              <a href="../twoorange/apersonal.html" class="mega-link">Административно-управленческий персонал</a>
+              <a href="../twoorange/vacancies.html" class="mega-link">Вакансии</a>
+              <a href="../twoorange/primary_trade_union_organization.html" class="mega-link">Первичная профсоюзная организация</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="#">Документы <span class="caret">▼</span></a>
+          <div class="mega-panel single">
+            <div>
+              <a href="../twoorange/document.html" class="mega-link">Документы</a>
+              <a href="../twoorange/aproced.html" class="mega-link">Административные процедуры</a>
+              <a href="info_knd.html" class="mega-link">Контрольная (надзорная) деятельность</a>
+              <a href="../twoorange/public_health_risk_assessment.html" class="mega-link">Оценка риска для здоровья населения</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="#">Обращения <span class="caret">▼</span></a>
+          <div class="mega-panel">
+            <div>
+              <div class="mega-col-title">Для граждан</div>
+              <a href="../twoorange/citizen_appeals.html" class="mega-link">Обращения граждан и юридических лиц</a>
+              <a href="../twoorange/question_answer.html" class="mega-link">Задайте свой вопрос здесь</a>
+            </div>
+            <div>
+              <div class="mega-col-title">Прямая связь</div>
+              <a href="../twoorange/dirhotline.html" class="mega-link">Горячие и прямые телефонные линии</a>
+              <a href="../twoorange/anti_corruption_commission.html" class="mega-link">Комиссия по противодействию коррупции</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="#">Профилактика <span class="caret">▼</span></a>
+          <div class="mega-panel">
+            <div>
+              <div class="mega-col-title">Здоровье населения</div>
+              <a href="../health/healthy_lifestyle.html" class="mega-link">Здоровый образ жизни</a>
+              <a href="../twoorange/healthy_cities_towns.html" class="mega-link">Здоровые города и посёлки</a>
+              <a href="../twoorange/respiratory_diseases.html" class="mega-link">Профилактика ОРИ и гриппа</a>
+            </div>
+            <div>
+              <div class="mega-col-title">Обучение</div>
+              <a href="../twoorange/hygienic_trainings.html" class="mega-link">Гигиеническое обучение населения</a>
+              <a href="../twoorange/cybercrime_prevention.html" class="mega-link">Профилактика киберпреступности</a>
+              <a href="../twoorange/single_information_day.html" class="mega-link">Единый день информирования</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="#">Информация <span class="caret">▼</span></a>
+          <div class="mega-panel single">
+            <div>
+              <a href="../twoorange/information_tape.html" class="mega-link">Полезная информация</a>
+              <a href="../twoorange/in_tape_branch.html" class="mega-link">Информационные ленты структурных подразделений</a>
+              <a href="../twoorange/sd_goals_new.html" class="mega-link">Цели устойчивого развития</a>
+              <a href="../twoorange/applicant.html" class="mega-link">Абитуриенту</a>
+              <a href="../twoorange/personal-data-advice.html" class="mega-link">Советы по защите персональных данных</a>
+              <a href="../twoorange/linksy.html" class="mega-link">Ссылки</a>
+              <a href="../twoorange/contact.html" class="mega-link">Контакты</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="../services/servise.html">Услуги</a>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <div class="parallax">
+    <div class="container">
+      <ul class="breadcrumb">
+        <li><a href="../menu_exec.html">О центре</a></li>
+        <li><a href="../twoorange/in_tape_branch.html">Информационные ленты структурных подразделений</a></li>
+        <li class="active">Информация, новости отделения коммунальной гигиены</li>
+      </ul>
+
+      <h3 class="content-page-title">Информация, новости отделения коммунальной гигиены</h3>
+
+      <!-- ===== Featured: порядок на территории ===== -->
+      <div class="content-feature">
+        <div class="cf-img">
+          <a href="https://target99.by/"><img src="../images/21042023.png" alt="Цель 99"></a>
+        </div>
+        <div class="cf-body">
+          <p>«Поддерживайте порядок на территории своего домовладения, на улицах своего населённого пункта, объясните детям об опасности мусора, выброшенного в неустановленных местах. <u>Важно правильно собирать и утилизировать мусор.</u> Покажите культуру своего поведения — выбрасывайте мусор только в установленных местах, не допускайте появления свалок, не загрязняйте окружающую Вас территорию!»</p>
+          <div class="cf-sign">Заведующая отделением коммунальной гигиены О.Э.&nbsp;Воронова</div>
+        </div>
+      </div>
+
+      <!-- ===== Архив ===== -->
+      <div class="content-archive">
+
+        <!-- ===== 2026 — текущий год, всегда открыт ===== -->
+        <div class="archive-group">
+          <div class="archive-head is-static">
+            <span class="ah-left">
+              <span class="ah-icon"><i class="fa fa-bullhorn"></i></span>
+              <span class="ah-title">
+                <span>Новости, информация 2026 года<span class="ah-live-badge">Текущий год</span></span>
+                <span class="ah-sub">Свежие материалы отделения коммунальной гигиены</span>
+              </span>
+            </span>
+          </div>
+          <div class="archive-body">
+            <ol>
+			<li><a href="../_files/news/infogigkommun/11112026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Ноябрь-время готовности к зимнему сезону. (11.11.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/12102026_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Вниманию объектов бытового обслуживания населения г. Могилева и Могилевского района. (12.10.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/12102026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Осенний месячник по благоустройству и наведению порядка на территории города Могилева — время активного участия в поддержании порядка для всех! (12.10.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/24092026_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>День без автомобиля. Беларусь за чистый воздух. (24.09.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/22092026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах обследования детских игровых площадок... (22.09.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/07082026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций… (07.08.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/07072026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций… (07.07.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26062026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций… (26.06.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/23062026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Гигиенические требования к бассейнам, баням, саунам. (23.06.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09062026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Правила безопасного отдыха у воды! (10.06.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09062026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О необходимости активизации работы… (09.06.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/03062026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О контроле за зонами рекреаций… (03.06.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19052026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Время косить траву... (19.05.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/15052026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за объектами, оказывающими услуги бассейнов на территории города Могилева. (15.05.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/08052026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Безопасный отдых у воды — советы врача-гигиениста. (08.05.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/28042026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О необходимости организации и проведения производственного контроля. (28.04.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/14042026_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Санитарная очистка индивидуальных домовладений. (14.04.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09042026_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Наведение порядка – в вопросах и ответах. (09.04.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09042026_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Гигиенические аспекты радиационного фактора. (09.04.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/03042026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О требованиях к поддержанию порядка на территории мест погребения города Могилева и Могилевского района. (03.04.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/30032026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля… (30.03.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/27032026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>К сведению индивидуальных домовладельцев – порядок должен быть везде! (27.03.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/23032026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Требования нормативных документов к устройству и содержанию контейнерных площадок. (23.03.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/13032026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Весна - время наводить порядок! (13.03.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/05032026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О контроле за качеством водоснабжения города Могилева. (05.03.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/03032026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Поддержание чистоты и порядка – задача для каждого! (03.03.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26022026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О контроле за качеством воды в колодцах. (26.02.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/25022026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Гигиенические рекомендации к устройству и содержанию колодцев. (25.02.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/18022026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве и безопасности питьевого водоснабжения г. Могилева и Могилевского района. (18.02.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/13022026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О гигиенической безопасности в паводковый период. (13.02.26)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/13012026.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за качеством воды из криниц и купелей (13.01.26)</a><span class="file-tag pdf">PDF</span></li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- ===== 2025 ===== -->
+        <div class="year-group">
+          <button class="year-head" type="button">
+            <span class="yh-left">
+              <span class="yh-icon"><i class="fa fa-calendar-check-o"></i></span>
+              <span class="yh-title"><span>2025</span><span class="yh-sub">Новости и материалы за 2025 год</span></span>
+            </span>
+            <span class="yh-chev">▼</span>
+          </button>
+          <div class="year-body">
+            <ol>
+              <li><a href="../_files/news/infogigkommun/02122025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>15 декабря — День профилактики травматизма! Санитарная очистка в зимний период года — основа профилактики травматизма! (02.12.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26112025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Гигиена жилища. Плесень – меры профилактики! (26.11.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/24112025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Строим колодец по правилам! (24.11.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/17112025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Требования нормативных документов к санитарной очистке территорий в холодный период года, проведению противогололёдных мероприятий. (17.11.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/13112025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Вода для малышей – какие существуют опасности? (13.11.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/04112025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О контроле за стерильностью инструментов, используемых при оказании услуг «красоты»! (04.11.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/04112025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О типичных нарушениях санитарного содержания контейнерных площадок города Могилева и Могилевского района. (04.11.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/20102025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора деятельности МУКП «Жилкомхоз», о типичных нарушениях, выявленных в деятельности предприятия (продолжение). (20.10.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/15102025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора деятельности МУКП «Жилкомхоз», о типичных нарушениях, выявленных в деятельности предприятия. (15.10.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/10102025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О проводимом санитарно-гигиеническом контроле за качеством и безопасностью питьевого водоснабжения г. Могилева. (10.10.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/07102025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий города Могилева. (07.10.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26092025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах исследований проб воздуха, отобранных до и в период проведения акции — День без автомобиля. (26.09.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19092025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>22 сентября 2025 года пройдёт республиканская акция «День без автомобиля». (19.09.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/02092025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О решении проблемных вопросов. (02.09.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/27082025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за санитарным состоянием территорий города Могилева. (27.08.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19082025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева и Могилевского района (19.08.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/12082025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева и Могилевского района (12.08.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/30072025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Единый день Здоровья «Всемирный День борьбы с гепатитами» (30.07.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21072025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева и Могилевского района (21.07.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/11072025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева и Могилевского района (11.07.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/10072025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Санитарно-эпидемиологическая служба информирует (10.07.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/12062025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций. (12.06.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/29052025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Правила безопасности отдыхающим у водных объектов. (29.05.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/16052025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за объектами, оказывающими услуги бассейнов на территории города Могилева. (16.05.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/08052025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за поддержанием порядка на территории города Могилева и Могилевского района. (08.05.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/05052025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах подготовки городских пляжей к летнему сезону 2025 года. (05.05.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/02052025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О контроле за детскими площадками. (02.05.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/24042025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О проделанной работе по контролю за санитарным содержанием территорий индивидуальной жилой застройки города Могилева и Могилевского района. (24.04.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/22042025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Там чисто - где не мусорят. (22.04.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/22042025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>26 апреля - День памяти о чернобыльской катастрофе. (22.04.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/18042025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>2025 год – Год благоустройства. (18.04.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/16042025_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О типичных нарушениях требований санитарно-эпидемиологического законодательства в части содержания территорий. (16.04.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/15042025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за соблюдением требований санитарно-эпидемиологического законодательства на объектах бытового обслуживания. (15.04.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/11042025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за поддержанием порядка на территории Могилевского района. (11.04.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/07042025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О требованиях к поддержанию порядка на территории мест погребения города Могилева и Могилевского района. (07.04.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/04042025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за поддержанием порядка на территории города Могилева и Могилевского района. (04.04.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/03042025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Чтобы детские площадки были в радость. (03.04.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/31032025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Гигиенические требования к устройству и содержанию колодцев. (31.03.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/27032025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Все, что Вы хотели спросить по вопросам наведения порядка. (27.03.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26032025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О поддержании порядка на территориях садоводческих товариществ Могилевского района. (26.03.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19032025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О требованиях к поддержанию порядка собственникам индивидуальных домовладений. (19.03.25)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/06022025.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О контроле за качеством и безопасностью питьевого водоснабжения. (06.02.25)</a><span class="file-tag pdf">PDF</span></li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- ===== 2024 ===== -->
+        <div class="year-group">
+          <button class="year-head" type="button">
+            <span class="yh-left">
+              <span class="yh-icon"><i class="fa fa-calendar-check-o"></i></span>
+              <span class="yh-title"><span>2024</span><span class="yh-sub">Новости и материалы за 2024 год</span></span>
+            </span>
+            <span class="yh-chev">▼</span>
+          </button>
+          <div class="year-body">
+            <ol>
+              <li><a href="../_files/news/infogigkommun/27082024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах обследования территорий и объектов Сухаревского сельского исполнительного комитета. (27.08.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26082024_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах обследования территорий и объектов Княжицкого сельского исполнительного комитета. (26.08.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26082024_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О безопасности воды в зонах рекреаций Могилевского района по состоянию на 26.08.2024. (26.08.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26082024_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О безопасности воды в зонах рекреаций города Могилева по состоянию на 26.08.2024. (26.08.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/23082024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах обследований территорий и объектов Дашковского сельского исполнительного комитета. (23.08.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21082024_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах обследования территорий и объектов Кадинского сельского исполнительного комитета. (21.08.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21082024_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах обследования территорий и объектов Буйничского сельского исполнительного комитета. (21.08.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19082024_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах обследования территорий и объектов Вейнянского сельского исполнительного комитета. (19.08.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19082024_4.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах обследования территорий и объектов Сидоровичского сельского исполнительного комитета. (19.08.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19082024_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций Могилевского района по состоянию на 19.08.2024. (19.08.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19082024_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О безопасности воды в зонах рекреаций города Могилева по состоянию на 19.08.2024. (19.08.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/01082024_3.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций Могилевского района. (1.08.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/01082024_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева. (1.08.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/01082024_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Об утверждении новых документов в сфере санитарно-эпидемиологического законодательства. (1.08.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/23072024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О безопасности воды в зонах рекреаций города Могилева и Могилевского района по состоянию на 22.07.2024. (23.07.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/17072024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О порядке проведения дезинсекционных и дератизационных работ в жилых домах. (17.07.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/16072024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О необходимости соблюдения мер безопасности на отдыхе у воды… (16.07.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/12072024_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О безопасности воды в зонах рекреаций города Могилева и Могилевского района по состоянию на 12.07.2024. (12.07.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/12072024_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Поддерживайте чистоту и порядок - это важно для сохранения здоровья! (12.07.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09072024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах проведённых лабораторных исследований безопасности воды в фонтанах. (9.07.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/05072024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Контроль за безопасностью питьевой воды — приоритетное направление в деятельности санэпидслужбы в летний период года. (5.07.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/04072024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Купание в фонтанах – на радость или на беду? (4.07.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/02072024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О безопасности воды в зонах рекреаций г. Могилева и Могилевского района по состоянию на 02.07.2024. (2.07.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/14062024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О безопасности воды в зонах рекреаций г. Могилева и Могилевского района. (14.06.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/30052024_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Внимание – вопросы безопасности питьевого водоснабжения в жаркий период! (30.05.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/30052024_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Гигиенические рекомендации горожанам, отдыхающим у водных объектов. (30.05.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/23052024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля объектам социальной инфраструктуры, дворовых территорий, промышленных предприятий, строительных площадок и гражданских. (23.05.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21052024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории г. Могилева. (21.05.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/08052024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за санитарным состоянием гражданских кладбищ города Могилева и Могилевского района. (8.05.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/06052024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О проводимой работе по контролю за санитарным состоянием устройств и сооружений системы централизованного питьевого водоснабжения. (6.05.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/02052024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О необходимости приведения в порядок детских игровых площадок города Могилева и Могилевского района. (2.05.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/24042024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О контроле за качеством и безопасностью питьевого водоснабжения Могилевского района. (24.04.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/05042024_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Гигиена жилья в вопросах и ответах. (5.04.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/05042024_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Выбрасывание мусора в неустановленных местах – может дорого обойтись! (5.04.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/20032024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Чисто там, где не мусорят… (20.03.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/18032024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О наведении порядка на территории садоводческих товариществ Могилевского района. (18.03.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/15032024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О требованиях нормативных документов к организации мусороудаления, поддержания порядка на территории гаражных кооперативов. (15.03.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/13032024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора. (13.03.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/01032024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Об изменении требований нормативного документа, регламентирующего содержание и эксплуатацию источников и систем питьевого водоснабжения (1.03.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/28022024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Давайте сделаем территорию нашего края чистой, а значит здоровой! (28.02.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19022024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Гигиенические рекомендации в предпаводковый период и период паводка. (19.02.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/16022024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за объектами бытового обслуживания. (16.02.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/13022024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за проведением противогололёдных мероприятий. (13.02.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/01022024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О контроле за качеством и безопасностью питьевого водоснабжения. (1.02.24)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/10012024.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в криницах Могилевского района. (10.01.24)</a><span class="file-tag pdf">PDF</span></li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- ===== 2023 ===== -->
+        <div class="year-group">
+          <button class="year-head" type="button">
+            <span class="yh-left">
+              <span class="yh-icon"><i class="fa fa-calendar-check-o"></i></span>
+              <span class="yh-title"><span>2023</span><span class="yh-sub">Новости и материалы за 2023 год</span></span>
+            </span>
+            <span class="yh-chev">▼</span>
+          </button>
+          <div class="year-body">
+            <ol>
+              <li><a href="../_files/news/infogigkommun/22122023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Порядок обслуживания территории, прилегающей к индивидуальным домовладениям, в холодный период года. (22.12.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21122023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О требованиях законодательства при проведении санитарной очистки территорий в холодный период года. (21.12.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/13122023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории г. Могилева. (13.12.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/11122023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях в деятельности объектов бытового обслуживания. (11.12.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/29112023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Осторожно: гололёд, снежные заносы. (29.11.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/28112023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О контроле за санитарным состоянием территорий и объектов Могилевского района. (28.11.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/28112023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за санитарным состоянием территорий и объектов города Могилева за ноябрь 2023 года. (28.11.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09112023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории г. Могилева. (9.11.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/31102023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Гигиенические аспекты работы по контролю за торговыми объектами города, оборотом товаров импортного производства… (31.10.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/20102023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах обследований территорий и объектов КУП «ЖРЭУ Октябрьского района г. Могилева». (20.10.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/18102023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Специалистами отделения коммунальной гигиены в рамках предупредительного санитарного надзора за текущий период 2023 года было рассмотрено 8 проектов градостроительного и детального планирования, выдано 49 технических требований на проектирование и строительство объектов, проведена оценка соответствия требованиям санитарно-эпидемиологического законодательства 183 объектов, вводимых в эксплуатацию с выдачей заключения. (18.10.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/16102023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах обследования специалистами санитарно-эпидемиологической службы территорий и объектов Сидоровичского сельского исполнительного комитета. (16.10.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/13102023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории г. Могилева. (13.10.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/12102023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Об обследовании территорий и объектов Заводскослободского сельского исполнительного комитета… (12.10.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/11102023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О санитарно-гигиеническом контроле соответствия гигиеническим нормативам качества воды в колодцах Могилевского района. (11.10.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/10102023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях на территориях Буйничского, Княжицкого, Полыковичского, Пашковского сельских исполнительных комитетов. (10.10.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09102023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за санитарным состоянием общежитий г. Могилева. (9.10.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/06102023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О проводимой работе по контролю за качеством и безопасностью питьевой воды, подаваемой населению города Могилева. (6.10.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26092023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях санитарного содержания территорий и объектов Могилевского района. (26.09.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/25092023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за качеством атмосферного воздуха на территории г. Могилева в рамках акции: 22 сентября – День без автомобиля. (25.09.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/25092023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории г. Могилева. (25.09.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/22092023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>22.09.2023 - День без автомобиля. Беларусь за чистый воздух. (22.09.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21092023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О наиболее типичных нарушениях в деятельности коммунальных служб города Могилева и Могилевского района в сфере наведения порядка, санитарной очистки обслуживаемых территорий и объектов (21.09.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/18092023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Посещение парикмахерской, салона красоты – в вопросах и ответах! (18.09.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/11092023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>К сведению частных домовладельцев… (11.09.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/02092023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территории объектов г. Могилева. (2.09.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/28082023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева. (28.08.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/28082023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций Могилевского района. (28.08.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/25082023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>К сведению работников бытового обслуживания: «Порядок действий при аварийном контакте с биологическими жидкостями потребителя, загрязнении биологическими жидкостями объектов внешней среды». (25.08.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21082023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева. (21.08.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21082023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций Могилевского района. (21.08.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/18082023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Требования к дезинфекции, предстерилизационной очистке, стерилизации и оценке качества. (18.08.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/14082023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева. (14.08.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/14082023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций Могилевского района. (14.08.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/11082023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории Октябрьского района г. Могилева. (11.08.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/10082023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории Ленинского района г. Могилева. (10.08.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09082023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах обследования территорий и объектов Могилевского района. (9.08.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/08082023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева. (8.08.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/08082023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций Могилевского района. (8.08.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/01082023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева. (1.08.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/01082023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций Могилевского района. (1.08.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26072023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Могилевского района. (26.07.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/24072023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева. (24.07.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/24072023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций Могилевского района. (24.07.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21072023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева. (21.07.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19072023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева. (19.07.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/15072023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>С 22.07.2023 г. вступают в силу Санитарные нормы и правила «Санитарно-эпидемиологические требования к содержанию и эксплуатации объектов по оказанию бытовых услуг», утверждённые постановлением Минздрава от 15.02.2023 № 33, опубликованным 21.04.2023. (14.07.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/29062023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева. (29.06.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/29062023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций Могилевского района. (29.06.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26062023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева. (26.06.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26062023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций Могилевского района. (26.06.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/23062023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории г. Могилева. (23.06.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/22062023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным содержанием общественных туалетов города Могилева. (22.06.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/20062023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева по состоянию 20.06.2023. (20.06.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/20062023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций Могилевского района по состоянию 20.06.2023. (20.06.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19062023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О состоянии работы по благоустройству населённых пунктов и наведению порядка на территории Могилевского района. (19.06.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/16062023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О безопасности воды в зонах рекреаций г. Могилева и Могилевского района. (16.06.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/12062023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О безопасности воды в зонах рекреаций г. Могилева и Могилевского района. (12.06.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09062023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О санитарно-гигиеническом контроле за зонами рекреаций города Могилева и Могилевского района. (9.06.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/05062023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях санитарного состояния территорий и объектов Дашковского сельского исполнительного комитета. (5.06.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/02062023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории г. Могилева. (2.06.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/01062023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О приостановлении использования шахтных колодцев в питьевых целях… (1.06.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/29052023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах обследования территорий и объектов Вендорожского сельского исполнительного комитета. (29.05.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/18052023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях санитарного состояния территорий и объектов Могилевского района. (18.05.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/16052023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях санитарного содержания и благоустройства детских игровых и спортивных площадок г. Могилева (16.05.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/13052023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях в подготовке зон рекреаций города Могилева к летнему сезону 2023 года (13.05.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/12052023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях в подготовке зон рекреаций Могилевского района к летнему сезону 2023 года. (12.05.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/11052023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Безопасный отдых у воды. (11.05.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/10052023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях санитарного содержания территорий и объектов города Могилева. (10.05.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/03052023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных 02-03.05.2023 г. нарушениях санитарного содержания и благоустройства артскважин сельскохозяйственных предприятий Могилевского района. (3.05.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/02052023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях санитарного содержания территорий объектов Могилевского района. (2.05.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26042023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях санитарного содержания территорий и объектов города Могилева. (26.04.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21042023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях санитарного содержания территорий и объектов Могилевского района. (20.04.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/14042023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории Октябрьского района г. Могилева. (14.04.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/13042023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях санитарного содержания территорий и объектов Дашковского сельского исполнительного комитета. (13.04.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/12042023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях санитарного содержания территорий и объектов Кадинского сельского исполнительного комитета. (12.04.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/12042023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за учреждениями высшего образования г. Могилева. (12.04.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/11042023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах обследования субъектов хозяйствования, имеющих в своём составе бассейны. (11.04.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/10042023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О требованиях санитарно-эпидемиологического законодательства к устройству, содержанию агроэкоусадеб. (10.04.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/06042023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О требованиях нормативных документов... (6.04.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/04042023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях в сфере наведения порядка на территории Вейнянского сельского исполнительного комитета. (4.04.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/29032023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Мусор опасен для здоровья человека. (29.03.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/22032023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории г. Могилева. (22.03.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/20032023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за объектами бытового обслуживания города Могилева. (20.03.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/17032023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах выборочного обследования подвальных и чердачных помещений многоквартирных жилых домов города Могилева на предмет их санитарного содержания. (17.03.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/07032023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории г. Могилева (7.03.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/06032023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О санитарно-эпидемиологической надёжности системы централизованного водоснабжения города Могилева. (6.03.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/02032023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О требованиях нормативных документов по вопросу содержания территорий, поддержания порядка на территории садоводческих товариществ. (2.03.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/02032023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О приостановлении использования шахтных колодцев в питьевых целях по адресам: Могилёвский район, д. Дубинка-1, ул. Озерная, 20, ул. Шоссейная, 19, ул. Школьная, 17. (1.03.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/24022023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным содержанием территорий и объектов Могилевского района. (24.02.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21022023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий г. Могилева. (21.02.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09022023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>5 болезней, которыми можно заразиться в бассейне и сауне. (9.02.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/08022023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории г. Могилева. (8.02.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/08022023_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Рекомендации по соблюдению мер профилактики кишечных инфекций в период паводка. (7.02.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/02022023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Гигиенические рекомендации в паводковый период. (2.02.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/23012023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве и безопасности воды в Сухаревской кринице. (23.01.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/20012023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Требования санитарных норм и правил к устройству и содержанию колодцев. (20.01.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19012023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Если Вы решили построить колодец… (19.01.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/17012023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве и безопасности воды в криницах Могилевского района. (17.01.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/16012023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Октябрьского района г. Могилева. (16.01.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/13012023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Ленинского района г. Могилева. (13.01.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09012023.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов города Могилев. (9.01.23)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/05012023_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным содержанием территорий и объектов Могилевского района 04.01.2023. (5.01.23)</a><span class="file-tag pdf">PDF</span></li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- ===== 2022 ===== -->
+        <div class="year-group">
+          <button class="year-head" type="button">
+            <span class="yh-left">
+              <span class="yh-icon"><i class="fa fa-calendar-check-o"></i></span>
+              <span class="yh-title"><span>2022</span><span class="yh-sub">Новости и материалы за 2022 год</span></span>
+            </span>
+            <span class="yh-chev">▼</span>
+          </button>
+          <div class="year-body">
+            <ol>
+              <li><a href="../_files/news/infogigkommun/26122022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов города Могилева. (26.12.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/22122022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Внимание! О необходимости соблюдения мер профилактики гриппа, коронавирусной инфекции... (22.12.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21122022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Могилевского района. (21.12.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/20122022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории Октябрьского района г. Могилева. (20.12.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19122022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории Ленинского района г. Могилева. (19.12.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/14122022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за проведением противогололёдных мероприятий на территориях и объектах города Могилева. (14.12.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/11122022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Производственный контроль – замена внешнему? (12.12.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09122022_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов города Могилева. (9.12.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09122022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Могилевского района. (9.12.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/08122022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов города Могилева. (8.12.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/06122022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Могилевского района. (6.12.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/01122022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов г. Могилева. (1.12.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/30112022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве и безопасности воды из Полыковичской криницы Могилевского района. (30.11.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/25112022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Обращаем внимание руководителей субъектов хозяйствования, индивидуальных предпринимателей. (25.11.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/22112022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории г. Могилева. (22.11.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21112022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Могилевского района. (21.11.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/11112022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Осень – время подготовиться к зиме! (11.11.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/04112022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Специалистами УЗ «Могилевский зональный центр гигиены и эпидемиологии» в рамках проведения обследований территорий и объектов по вопросам наведения порядка, надлежащего санитарного состояния объектов отмечены факты неудовлетворительного санитарного состояния объектов, арендатором которых является предприятие КУП «ЖРЭУ Ленинского района г. Могилева» (коммерческая недвижимость). (4.11.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/01112022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах анализа результатов лабораторного контроля питьевой воды систем централизованного и децентрализованного водоснабжения, выполненного в рамках социально-гигиенического мониторинга в области питьевого водоснабжения г. Могилева и Могилевского района за 3 квартал 2022 г. (1.11.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/28102022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов города Могилева. (28.10.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/27102022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О типичных нарушениях требований санитарно-эпидемиологического законодательства. (27.10.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/14102022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов города Могилева. (14.10.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/11102022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Могилевского района. (11.10.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/10102022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории Ленинского района г. Могилева. (10.10.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/03102022_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов города Могилева. (3.10.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/27092022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за оказывающими гостиничные услуги объектами. (27.09.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/23092022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Результаты исследования проб атмосферного воздуха, отобранных 21.09.2022 (до проведения акции) в ходе проведения акции 22.09.2022 — День без автомобиля. (23.09.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21092022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Могилевского района. (21.09.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19092022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов города Могилева. (19.09.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/15092022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>22 сентября – День без автомобиля. Беларусь за чистый воздух. (15.09.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/13092022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О приостановлении использования шахтных колодцев в питьевых целях по адресам: Могилёвский район, д. Костинка, ул. Центральная, 1, 33, 43, 44А, 67, ул. Лесная, 3, 6, 24, ул. Культурная, 12, 20. (13.09.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/07092022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>В практике осуществления государственного санитарного надзора специалисты службы по разделу коммунальной гигиены систематически сталкиваются с нарушениями, допущенными коммунальными службами, а также гражданами в сфере наведения порядка. (7.09.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/02092022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории г. Могилева. (2.09.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/30082022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявленных нарушениях в сфере наведения порядка и благоустройства территорий Могилевского района. (30.08.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/25082022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Перечень субъектов, в отношении которых отделением коммунальной гигиены УЗ «Могилевский зональный ЦГЭ» запланировано проведение надзорных мероприятий в сентябре 2022 года. (25.08.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/24082022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района. (24.08.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/17082022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района. (17.08.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09082022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района. (9.08.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/02082022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района. (2.08.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26072022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района. (26.07.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/25072022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Информация о наиболее типичных нарушениях, выявляемых специалистами санитарно-эпидемиологической службы по разделу коммунальной гигиены в ходе осуществления государственного санитарного надзора. (25.07.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/22072022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Гигиенические аспекты загрязнения почвы. (22.07.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19072022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района. (19.07.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/14072022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах мониторинга объектов с наличием немеханизированных батутов, надувных аттракционов, расположенных на территории города Могилева. (14.07.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/12072022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района. (12.07.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/08072022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий Могилевского района. (8.07.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/06072022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Спрашивали-отвечаем. (6.07.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/05072022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района. (5.07.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/01072022_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий Могилевского района... (1.07.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/01072022_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий города Могилева... (1.07.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/27062022_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Купание по правилам 2022 года. (27.06.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/27062022_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района. (27.06.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/15062022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района. (15.06.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/14062022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Гигиенические аспекты водоснабжения населения города Могилева. (14.06.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/13062022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Гигиенические аспекты водоснабжения населения Могилевского района. (13.06.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/08062022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района. (8.06.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/18052022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов города Могилева. (18.05.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/16052022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Безопасная вода из колодца! (16.05.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/04052022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий Могилевского района. (4.05.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26042022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий Могилевского района. (26.04.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/22042022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий города Могилева. (22.04.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/07042022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за объектами, оказывающими гостиничные услуги. (7.04.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/06042022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Могилевского района. (6.04.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/30032022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за благоустройством и наведением порядка на территории г. Могилева. (30.03.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/28032022_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Уважаемые жители Могилёвского района! Давайте сделаем территорию Могилевского района чистой, а значит здоровой! (28.03.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/28032022_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Могилевского района. (28.03.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21032022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Могилевского района. (21.03.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/17032022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Внимание - паводок. (17.03.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/16032022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах контроля за благоустройством и наведением порядка на территории г. Могилева. (16.03.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/12032022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий Могилевского района. (12.03.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/18022022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий Могилевского района. (18.02.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/17022022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за наведением порядка на объектах ЖКХ Могилевского района. (17.02.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/14022022_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за проведением противогололёдных мероприятий в городе Могилеве. (14.02.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/11022022_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Требования нормативных документов к проведению противогололёдных мероприятий. (11.02.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/11022022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О вопросах санитарно-эпидемиологической надёжности системы централизованного водоснабжения города Могилева. (11.02.22)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19012022.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за качеством воды из криниц и купелей. (19.01.22)</a><span class="file-tag pdf">PDF</span></li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- ===== 2021 ===== -->
+        <div class="year-group">
+          <button class="year-head" type="button">
+            <span class="yh-left">
+              <span class="yh-icon"><i class="fa fa-calendar-check-o"></i></span>
+              <span class="yh-title"><span>2021</span><span class="yh-sub">Новости и материалы за 2021 год</span></span>
+            </span>
+            <span class="yh-chev">▼</span>
+          </button>
+          <div class="year-body">
+            <ol>
+              <li><a href="../_files/news/infogigkommun/22122021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Внимание: стеклоомывающие жидкости – риск для здоровья! (22.12.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/17122021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О факте выявления продукции, не соответствующей санитарно-эпидемиологическим и гигиеническим требованиям: незамерзающей жидкости стеклоомывающей «CRYSTAL GLASS» (17.12.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/30112021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за оборотом стеклоомывающей жидкости (23.11.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/05112021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за оборотом стеклоомывающей жидкости (5.11.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/27102021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов города Могилева. (27.10.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26102021_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Могилевского района. (26.10.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26102021_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Листовка. «Сохраним порядок и чистоту!». (26.10.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/25102021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявлении продукции, не соответствующей гигиеническим нормативам – формы для выпечки. (25.10.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/01102021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявлении продукции, не соответствующей гигиеническим нормативам (1.10.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/28092021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявлении продукции, не соответствующей гигиеническим нормативам (28.09.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/24092021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Меры профилактики коронавирусной инфекции на объектах торговли и бытовых услуг, необходимые для выполнения! (24.09.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21092021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О контроле за оборотом продукции импортного производства (синтетических моющих средств). Факторы риска использования синтетических моющих средств. (21.09.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/20092021_2.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве синтетических моющих средств (далее – СМС) отечественного и импортного производства с учётом результатов проверок Комитета государственного контроля (далее – КГК) и других контролирующих органов. (20.09.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/16092021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О требованиях нормативных документов… (16.09.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/13092021_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Спрашивали-отвечаем... Санитарно-защитная зона. (13.09.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/13092021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах государственного санитарного надзора за период 06.09-10.09.2021 г. (13.09.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/29072021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах государственного санитарного надзора за качеством воды в зонах рекреаций города Могилева и Могилевского района по состоянию на 28.07.2021. (29.07.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21072021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах государственного санитарного надзора за качеством воды в зонах рекреаций города Могилева и Могилевского района по состоянию на 21.07.2021. (21.07.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/14072021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах государственного санитарного надзора за качеством воды в зонах рекреаций города Могилева и Могилевского района по состоянию на 14.07.2021. (14.07.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/06072021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах государственного санитарного надзора за качеством воды в зонах рекреаций города Могилева и Могилевского района по состоянию на 6.07.2021. (6.07.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/29062021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах государственного санитарного надзора за качеством воды в зонах рекреаций города Могилева и Могилевского района по состоянию на 29.06.2021. (29.06.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26062021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Санитарно-эпидемиологическая служба информирует…. (26.06.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/24062021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Уважаемые граждане, в целях профилактики кишечных инфекций и сохранения санитарно-эпидемиологического благополучия рекомендуем использовать в питьевых целях кипячёную или бутилированную воду. (24.06.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/23062021_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах государственного санитарного надзора за качеством воды в зонах рекреаций города Могилева и Могилевского района по состоянию на 23.06.2021. (23.06.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/23062021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Купание по правилам. (23.06.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/07062021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов города Могилева. (7.06.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/04062021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Могилевского района. (4.06.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/01062021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций города Могилева и Могилевского района. (1.06.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/27052021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Могилевского района (27.05.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/17052021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Могилевского района. (17.05.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/14052021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов города Могилева. (14.05.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/29042021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов города Могилева. (29.04.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26042021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий объектов Могилевского района. (26.04.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/22042021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О запрете ввоза и обращения парфюмерно-косметической продукции. (22.04.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21042021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий гаражных кооперативов города Могилева. (21.04.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/16042021_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>В рамках мониторинга за период 05.04-08.04.2021 специалистами санитарно-эпидемиологической службы были обследованы территории и объекты 4-х сельских исполнительных комитетов: Вейнянского, Кадинского, Подгорьевского, Вендорожского, территории и объекты, находящиеся на балансе МУКП «Жилкомхоз», дорожных предприятий. (16.04.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/16042021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Учреждением здравоохранения «Могилевский зональный центр гигиены и эпидемиологии» в рамках проведения месячника по благоустройству и наведению порядка на территории г. Могилева активизированы надзорные мероприятия на подконтрольных объектах, территориях многоквартирной жилой застройки, частного сектора, стройплощадок, гаражных кооперативов и других территориях. (15.04.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/14042021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>УЗ «Могилевский зональный центр гигиены и эпидемиологии» информирует, что постановлением заместителя Министра – Главного государственного санитарного врача Республики Беларусь от 06.04.2021 № 12 введены временные санитарные меры по запрету ввоза и обращения парфюмерно-косметической продукции. Данный документ является обязательным для исполнения юридическими и физическими лицами. (14.04.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/14042021_1.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Читать подробнее... (14.04.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/08042021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>УЗ «Могилевский зональный центр гигиены и эпидемиологии» информирует, что специалистами осуществляется постоянный контроль санитарного состояния территорий и объектов Могилевского района. (8.04.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/07042021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Учреждение здравоохранения «Могилевский зональный центр гигиены и эпидемиологии» информирует, что в рамках проведения месячника по благоустройству и наведению порядка на территории г. Могилева активизированы надзорные мероприятия на подконтрольных объектах, территориях многоквартирной жилой застройки, частного сектора, стройплощадок, гаражных кооперативов и других территориях. (7.04.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/02042021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>В рамках мониторинга за период 26.03-01.04.2021 специалистами санитарно-эпидемиологической службы были обследованы территории и объекты 4-х сельских исполнительных комитетов: Кадинского, Подгорьевского, Заводскослободского, Сидоровичского. (2.04.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/30032021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>УЗ «Могилевский зональный центр гигиены и эпидемиологии» информирует, что специалистами осуществляется постоянный контроль санитарного состояния территорий и объектов Могилевского района. (30.03.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/23032021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Внимание! Объявлен месячник по наведению порядка и благоустройству территорий г. Могилева и Могилевского района! (23.03.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/15032021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О выявлении продукции, не соответствующей санитарно-эпидемиологическим и гигиеническим требованиям. (15.03.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/12032021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах надзора за санитарным состоянием территорий и объектов Могилевского района. (12.03.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09032021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Врач-гигиенист О.Э. Воронова: «Внимание, паводок!» (9.03.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/25022021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Врач-гигиенист О.Э. Воронова: «Спрашивали-отвечаем…. Порядок определения размера земельного участка для обслуживания территории индивидуальными домовладельцами, организациями и предприятиями…» (25.02.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/15022021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Врач-гигиенист О.Э. Воронова: «Вопросы водоснабжения в сельской местности». (15.02.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/11022021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Врач-гигиенист О.Э. Воронова: «Спрашивали-отвечаем… Микроклимат» (11.02.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/10022021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Врач-гигиенист О.Э. Воронова: «Спрашивали-отвечаем… Освещённость» (10.02.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09022021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Врач-гигиенист О.Э. Воронова: «Спрашивали-отвечаем… Шум» (9.02.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/08022021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Врач-гигиенист О.Э. Воронова: «О факте выявления продукции, не соответствующей санитарно-эпидемиологическим и гигиеническим требованиям». (8.02.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/26012021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Врач-гигиенист О.Э. Воронова: «О результатах надзора за гостиницами города Могилева». (26.01.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/25012021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Врач-гигиенист О.Э. Воронова разъясняет: «Требования нормативных документов, регламентирующие проведение противогололёдных мероприятий». (25.01.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/22012021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Врач-гигиенист О.Э. Воронова разъясняет: «О результатах надзора за санитарным состоянием территорий и объектов коммунальной сферы Могилевского района» (22.01.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/20012021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Врач-гигиенист О.Э. Воронова разъясняет: «О результатах контроля за реализацией стеклоомывающей жидкости» (20.01.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/19012021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Врач-гигиенист О.Э. Воронова разъясняет: «О качестве воды в криницах и купели водоисточников Могилевского района». (19.01.21)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/16012021.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Врач-гигиенист О.Э. Воронова: «Санитарно-эпидемиологические аспекты результатов анализа деятельности объектов бытового обслуживания г. Могилева и Могилевского района». (16.01.21)</a><span class="file-tag pdf">PDF</span></li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- ===== 2020 ===== -->
+        <div class="year-group">
+          <button class="year-head" type="button">
+            <span class="yh-left">
+              <span class="yh-icon"><i class="fa fa-calendar-check-o"></i></span>
+              <span class="yh-title"><span>2020</span><span class="yh-sub">Новости и материалы за 2020 год</span></span>
+            </span>
+            <span class="yh-chev">▼</span>
+          </button>
+          <div class="year-body">
+            <ol>
+              <li><a href="../_files/news/infogigkommun/26112020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Врач-гигиенист О.Э. Воронова разъясняет: «Опасности от использования некачественной стеклоомывающей жидкости». (26.11.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/11112020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах государственного санитарного надзора за санитарным состоянием территорий и объектов Могилевского района. (11.11.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09112020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Памятка. «Гигиенические аспекты наведения порядка на территории индивидуальной жилой застройки». (9.11.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/05112020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Санитарно-эпидемиологические требования профилактики ОРВИ, гриппа, коронавирусной инфекции на объектах торговли, бытового обслуживания (5.11.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/04112020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О результатах государственного санитарного надзора за санитарным состоянием территорий и объектов г. Могилева. (4.11.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/09102020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Санитарно-эпидемиологические аспекты результатов анализа деятельности объектов бытового обслуживания г. Могилева и Могилевского района. (9.10.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/25092020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Гигиенические аспекты санитарной очистки территории г. Могилева и Могилевского района (25.09.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/24092020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О гигиенических аспектах питьевого водоснабжения населения Могилевского района (24.09.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21092020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О гигиенических аспектах питьевого водоснабжения населения г. Могилева (21.09.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/05082020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района по состоянию на 5.08.2020. (5.08.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/28072020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района по состоянию на 27.07.2020. (28.07.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/21072020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района по состоянию на 21.07.2020. (21.07.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/15072020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района (15.07.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/07072020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района (7.07.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/01072020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района (1.07.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/25062020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>О качестве воды в зонах рекреаций г. Могилева и Могилевского района (25.06.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/17062020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>Санитарно-эпидемиологическая служба информирует… (О качестве воды в зонах рекреаций г. Могилева и Могилевского района) (17.06.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/10062020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>До начала купального сезона остались считанные дни. С наступлением жаркой погоды сотни людей устремятся для отдыха к открытым водоемам. (10.06.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/03032020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>УЗ «Могилевский зональный центр гигиены и эпидемиологии» информирует, что за текущий период 2020 года в рамках контроля за санитарным состоянием территорий и объектов специалистами центра было обследовано более 1100 объектов. Особое внимание уделяется объектам социальной инфраструктуры города. (3.03.20)</a><span class="file-tag pdf">PDF</span></li>
+              <li><a href="../_files/news/infogigkommun/24012020.pdf"><i class="fa fa-file-pdf-o type-icon"></i>УЗ «Могилевский зональный центр гигиены и эпидемиологии» информирует, что по результатам лабораторных исследований выявлена продукция, не соответствующая «Единым санитарно-эпидемиологическим и гигиеническим требованиям к товарам, подлежащим санитарно-эпидемиологическому надзору (контролю)», по содержанию метанола. (24.01.20)</a><span class="file-tag pdf">PDF</span></li>
+            </ol>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="full-width-bg" style="background-color: #e8f0ea; color: #333333;">
+    <div class="container" style="padding-top: 20px; padding-bottom: 20px;">
+      <div class="row">
+        <div class="col-sm-12">
+           <p><div align="center" style="color:#333333; padding: 10px;">Учреждение здравоохранения "Могилёвский зональный центр гигиены и эпидемиологии"</div></p>
+        </div>
+      </div>
+      <div class="footer-contacts-single">
+        <div class="fc-line">
+            <span class="fc-icon glyphicon glyphicon-map-marker"></span>
+            <span class="fc-label">Адрес:</span>
+            <span class="fc-text">212022, Республика Беларусь, г. Могилёв, ул. Лазаренко, 66</span>
+        </div>
+        <div class="fc-line">
+            <span class="fc-icon glyphicon glyphicon-earphone"></span>
+            <span class="fc-label">Телефон/факс:</span>
+            <span class="fc-text">8 (0222) 62-74-68</span>
+        </div>
+        <div class="fc-line">
+            <span class="fc-icon glyphicon glyphicon-envelope"></span>
+            <span class="fc-label">E-mail:</span>
+            <span class="fc-text"><a href="mailto:mzcge@cge.by">mzcge@cge.by</a></span>
+        </div>
+        <div class="fc-line">
+            <span class="fc-icon glyphicon glyphicon-time"></span>
+            <span class="fc-label">Режим работы:</span>
+            <span class="fc-text">Пн–Пт: 8:00 – 17:00 · Обед: 13:00 – 14:00 · Сб, Вс — выходные</span>
+        </div>
+        <div class="fc-line">
+            <span class="fc-icon glyphicon glyphicon-link"></span>
+            <span class="fc-label">Вышестоящая организация:</span>
+            <span class="fc-text">
+                <a href="https://mcge.by/" target="_blank" rel="noopener" class="parent-org-link">
+                    Могилевский областной центр гигиены, эпидемиологии и общественного здоровья
+                </a>
+            </span>
+        </div>
+      </div>
+      <div style="padding: 0 15px;">
+        <iframe style="border:0; height: 240px; width: 100%; margin-top: 30px; margin-bottom: 10px;"
+        src="https://yandex.ru/map-widget/v1/-/CCUyJMec0B"></iframe>
+      </div>
+      <div class="myFooter">
+        <div class="social-networks">
+          <a href="https://www.instagram.com/mogilevzcge/?hl=ru" class="twitter"><i class="fa fa-instagram"></i></a>
+          <a href="https://t.me/uzmzcge" title="Telegram-канал Могилевского ЗонЦГЭ" class="telegram"><i class="fa fa-telegram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="full-width-bg" style="background-color: #2e3a35; color: #d2d1d1; margin-top: auto;">
+  <footer class="container text-center" style="padding-top: 15px; padding-bottom: 15px;">
+      <p>© 2009-2026 Copyright: УЗ "МЗЦГЭ" </p>
+      <a href="#myPage" title="НАВЕРХ" style="color: #d2d1d1;">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>НАВЕРХ</p>
+  </footer>
+</div>
+
+ <div class="modal fade" id="myModale">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header"><h4 class="modal-title"></h4></div>
+        <div class="modal-body">
+          <div id="google_translate_element" style="display:block"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть выбор языка</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: "ru"}, "google_translate_element");
+  }
+</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script>
+  (function () {
+    var burger = document.getElementById('burger');
+    var mainNav = document.getElementById('mainNav');
+    if (burger && mainNav) {
+      burger.addEventListener('click', function () { mainNav.classList.toggle('open'); });
+    }
+    document.querySelectorAll('.nav-item > a').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        if (window.innerWidth <= 992) {
+          var item = link.parentElement;
+          var panel = item.querySelector('.mega-panel');
+          if (panel) {
+            e.preventDefault();
+            item.classList.toggle('open');
+          }
+        }
+      });
+    });
+  })();
+</script>
+
+<script>
+  (function () {
+    document.querySelectorAll('.year-head').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        btn.parentElement.classList.toggle('open');
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>

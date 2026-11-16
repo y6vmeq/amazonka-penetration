@@ -1,0 +1,63 @@
+mogilevnewsby: CHANNEL title='MOGILEVNEWS' counters=[('16.9K', 'subscribers'), ('94.1K', 'photos'), ('26.5K', 'videos'), ('6', 'files'), ('34.8K', 'links')] last=2026-11-15T09:57:09+00:00 desc='Официальный телеграм-канал ИА "Могилевские ведомости". Подписывайтесь и будьте в курсе главных тем области, страны и мира. Чат-бот для связи с нами @MogilevNews_Chat_bot'
+belarus4mogilev: CHANNEL title='Беларусь 4 Могилев' counters=[('5.94K', 'subscribers'), ('33.7K', 'photos'), ('16K', 'videos'), ('1', 'file'), ('24.8K', 'links')] last=2026-11-15T09:35:09+00:00 desc='Новости - Могилев и Могилевская область, Беларусь. Вы можете отправлять нам сообщения прямо в чат — делитесь новостями, интересными темами, рассказывайте, что у Вас интересного!'
+mogilev_6: CHANNEL title='МОГИЛЕВ Live' counters=[('3.98K', 'subscribers'), ('64.4K', 'photos'), ('9.69K', 'videos'), ('7.14K', 'links')] last=2026-11-15T07:59:49+00:00 desc='Мы добиваемся активного участия граждан в жизни нашего города, вовлекая их в цивилизованное публичное обсуждение актуальных событий.'
+uvdmogilev: CHANNEL title='Милиция Могилевщины' counters=[('13.4K', 'subscribers'), ('26.3K', 'photos'), ('7.47K', 'videos'), ('3.57K', 'links')] last=2026-11-15T08:12:01+00:00 desc='⚡️ Официальный канал УВД Могилевского облисполкома. Узнавайте первыми про: ▪️ преступления ▪️ ДТП ▪️ правила вашей безопасности Будьте в курсе событий!'
+magilev: CHANNEL title='Magilev.by' counters=[('2.26K', 'subscribers'), ('10.3K', 'photos'), ('3.71K', 'videos'), ('8', 'files'), ('5.95K', 'links')] last=2026-11-15T09:03:29+00:00 desc='Новости Могилева по существу и с лёгкой иронией Бот для связи с редакцией: @Magilev_bot Вы можете задать нам свой вопрос, поделиться новостью, прислать фото или видео УНП 790179489'
+mogilev_in: none (http=200)
+mogilevin: NO-PREVIEW title='Mogilev.in' extra='@mogilevin' desc=None
+mogilevgik: none (http=200)
+mogilev_gik: none (http=200)
+mogilevgorispolkom: none (http=200)
+mogilev_gorispolkom: none (http=200)
+mogilevoblispolkom: none (http=200)
+mogilev_oblispolkom: CHANNEL title='Могилёвский областной исполнительный комитет.' counters=[('85', 'subscribers'), ('168', 'photos'), ('3', 'videos'), ('3', 'links')] last=2023-09-25T05:17:15+00:00 desc='Новости Могилёвской области. Всё самое актуальное и важное. Иногда с (горьким) юмором.'
+mogilevregion: NO-PREVIEW title='VLAD' extra='@mogilevregion' desc='Я из 🇧🇾'
+mzcge: none (http=200)
+mogzcge: none (http=200)
+mcge_mogilev: none (http=200)
+mogilevcge: none (http=200)
+sanepid_mogilev: none (http=200)
+mogocge: none (http=200)
+mchs_mogilev: none (http=200)
+mchsmogilev: none (http=200)
+mogilev_mchs: none (http=200)
+prokuratura_mogilev: none (http=200)
+kgk_mogilev: none (http=200)
+mart_mogilev: none (http=200)
+nalog_mogilev: none (http=200)
+radiomogilev: none (http=200)
+radio_mogilev: none (http=200)
+tvrmogilev: CHANNEL title='11' counters=[('2', 'subscribers')] last=2022-09-19T11:48:35+00:00 desc=None
+otzyvy_mogilev: none (http=200)
+mogilev_otzyvy: none (http=200)
+blacklist_mogilev: none (http=200)
+chs_mogilev: NO-PREVIEW title='ЦХС Могилёв' extra='@chs_mogilev' desc='Медицинский центр диагностики и коррекции слуха'
+mogilev_food: none (http=200)
+eda_mogilev: none (http=200)
+foodmogilev: none (http=200)
+gastromogilev: none (http=200)
+gastrofest_mogilev: none (http=200)
+mogilev_afisha: CHANNEL title='Афиша Могилёва' counters=[('2.34K', 'subscribers'), ('719', 'photos'), ('2', 'videos'), ('419', 'links')] last=2026-11-15T08:36:20+00:00 desc='Афиша Могилёва каждый день. Кино с рейтингами Кинопоиска и IMDb, спектакли, концерты, выставки, домашние игры «Днепра». Дата, площадка, цена, ссылка на билеты — сразу в посте.'
+afishamogilev: none (http=200)
+kudapoiti_mogilev: none (http=200)
+rabota_v_mogileve: NO-PREVIEW title='Работа Новополоцк|Курьером' extra='8 subscribers' desc=None
+mogilev_rabota: none (http=200)
+job_mogilev: none (http=200)
+rabotamogilev: none (http=200)
+baraholka_mogilev: CHANNEL title='БАРАХОЛКА/МОГИЛЕВ' counters=[('3', 'subscribers'), ('4', 'photos')] last=2021-04-03T07:10:32+00:00 desc=None
+mogilev_baraholka: NO-PREVIEW title='ЧАТ ПРОДАЖ РБ РФ' extra='928 members, 323 online' desc=None
+typicalmogilev: none (http=200)
+mogilevtyp: none (http=200)
+tipichnyi_mogilev: none (http=200)
+mogilev_typical: none (http=200)
+mogilevlove: CHANNEL title='в могилеве любят' counters=[('6', 'subscribers'), ('2', 'photos'), ('1', 'link')] last=2025-05-15T09:51:57+00:00 desc=None
+ilovemogilev: none (http=200)
+mogilev_people: none (http=200)
+mogilev_insider: none (http=200)
+mogilevinside: CHANNEL title='CONSULTANT NOIR' counters=[('2', 'subscribers'), ('4', 'photos'), ('10', 'videos'), ('1', 'link')] last=2025-10-27T07:44:49+00:00 desc=None
+mogilevsegodnya: none (http=200)
+mogilev_segodnya: none (http=200)
+nashmogilev: none (http=200)
+nash_mogilev: none (http=200)
+mogilev_plus: none (http=200)
+mogilevplus: none (http=200)

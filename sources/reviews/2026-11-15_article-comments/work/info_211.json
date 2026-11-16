@@ -1,0 +1,63 @@
+{
+ "number": 211,
+ "url": "https://magilev.by/news/2025/06/06/v-mogileve-nazvany-3-luchshih-zavedeniya-pobediteli-gastrofesta-za-nih-otdali-golosa-mogilevchane",
+ "title": "В Могилеве названы 3 лучших заведения – победители «Гастрофеста»: за них отдали голоса могилевчане | magilev.by",
+ "at": "2026-11-15T15:32:00.872Z",
+ "html": "raw/211_magilev-by_magilev-2025-06-06-v-mogileve-nazvany-3-luchshih-zavedeni.html",
+ "txt": "raw/211_magilev-by_magilev-2025-06-06-v-mogileve-nazvany-3-luchshih-zavedeni.txt",
+ "sha256": "f68a1b7ba310b38fafbd8e67d6684a5d532c4d39a6d0629f8eedb973a27b3e11",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "b b_detail-before-comments b_visible",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-7674021519504941&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1794756715&plat=3%3A16%2C4%3A16%2C9%3A32%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=",
+    "id": "aswift_0",
+    "cls": ""
+   },
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/html/r20261112/r20190131/zrt_lookup_fy2021.html",
+    "id": "google_esf",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "sf1",
+    "cls": "search-form search-form_hidden",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   },
+   {
+    "id": "sf2",
+    "cls": "search-form search-form_hidden header__main-search",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 4732
+ },
+ "extra": {
+  "name": "magilev_2025-06-06_v-mogileve-nazvany-3-luchshih-zavedeni",
+  "status": 200,
+  "requested": "https://magilev.by/news/2025/06/06/v-mogileve-nazvany-3-luchshih-zavedeniya-pobediteli-gastrofesta-za-nih-otdali-golosa-mogilevchane",
+  "pre": null
+ }
+}

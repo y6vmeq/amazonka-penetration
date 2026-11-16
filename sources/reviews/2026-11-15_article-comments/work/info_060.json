@@ -1,0 +1,120 @@
+{
+ "number": 60,
+ "url": "https://t.me/s/mogilev?q=Colette",
+ "title": "Могилев. Главное! – Telegram",
+ "at": "2026-11-15T14:28:24.895Z",
+ "html": "raw/060_t-me_tg-search-mogilev-colette.html",
+ "txt": "raw/060_t-me_tg-search-mogilev-colette.txt",
+ "sha256": "60eecaf8492d5d25e8697949e73d0fdaa8fe50fcf82e62c8dee520c898d36363",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_webpreview emoji_image thin_box_shadow tme_mode twallpaper",
+    "textLen": 1009,
+    "text": "Могилев. Главное! @mogilev 47.8K Subscribers 9.05K Photos 4.22K Videos 9.98K Links Главный новостной telegram-канал Могилева Реклама 👉 @glavnoebel 🔈 Предложит"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://telegram.org/js/jquery.min.js",
+   "https://telegram.org/js/jquery-ui.min.js",
+   "https://telegram.org/js/tgwallpaper.min.js?3",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68",
+   "https://telegram.org/js/telegram-web.js?14"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_header_search_form has_value",
+    "action": "/s/mogilev",
+    "fields": [
+     "input:text:q"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 1009
+ },
+ "extra": {
+  "name": "tg-search_mogilev_colette",
+  "status": 200,
+  "requested": "https://t.me/s/mogilev?q=Colette",
+  "channel": "mogilev",
+  "query": "Colette",
+  "tgSearch": {
+   "channelTitle": "Могилев. Главное!",
+   "counters": "47.8K Subscribers\n9.05K Photos\n4.22K Videos\n9.98K Links",
+   "messages": [
+    {
+     "id": "mogilev/12930",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilev",
+     "text": "🍽 С 9 по 26 апреля в Могилеве пройдет Gastrofest \n\nВсего участвуют 12 заведений:\n• Ресторан «Гурманофф» — ул. Тимирязевская, 34\n• Ресторан «Чайхана Рахмат» — ул.Первомайская, 31\n• Кафе-бистро Ван Гог — ул. Ленинская, 36\n• Бар «Эдисон» — ул. Ленинская, 11\n• Ресторан 101 — пер. Пожарный, 6Б\n• Ресто-бар «COLETTE» — ул. Ленинская, 44\n• Черчилль Бар — пер. Мигая, 13\n• Ресторан-бар «[исключено]» — [исключено]\n• Гастробар Цоколь — ул. Дзержинского, 19\n• Рестобар «Амазонка» — ул. Ленинская, 38\n• Ресторан «Royal Club» — ул. Якубовского, 71\n• Бар «Карчма на Шклoўскiм базары» — ул. Буденного, 13-82\n\nСтоимость сетов фиксированная — 46 рублей. \n\n🗞 Подписывайтесь!",
+     "dateText": "18:33",
+     "datetime": "2026-03-31T16:33:11+00:00",
+     "url": "https://t.me/mogilev/12930",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "15.4K",
+     "metaText": "18:33",
+     "signature": "",
+     "reactions": [
+      "🥰49",
+      "❤23",
+      "👍9",
+      "👻3",
+      "👀1"
+     ],
+     "media": [
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/iQWOdXBJoh9p8h4BH__2Jdyi26mgSWBIw7IRoTdpO49iJQEEEGA1rT05oz8nCkHccGvTldMe0r3C1I0_Rxv9DYjJI_Vf_AjE2LzZlAFDBYtW5JTdpc90q6vdeWxLn5Vyhnk8Fx9hEPBH91A1-Buq8ZGETPNYrWChJn5aI14QorJhU69NdveBHjf45V2ohHfFhEpxkpV8CeN9H4FOuNUxyqv4igYCfXOkOuZB_-muEZ9mQTioUDmArhnij4nW5Dn04JjJ2cTdSRP4zVq929mSrZ2wmUR-RtWmABFbeytzBiy9EwuzDyvwzzSMc-R6ZHUydo0jZFP10L8GXFCvh5xr0A.jpg",
+       "href": "https://t.me/mogilev/12930?single"
+      },
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/opBprG2O5Geeuodkpcxapm_qSzxiGE8vVTWbSF87aENLmVdcFLt3jZpJtJhviSyScRPs50uxhwI9Yk4Ne68D76MTuFJGKAKx_Ta1mr6USDy3jHAzi4nZXq_d8qAn9knMQXdwMnv2IUVpU_WIiVIYioQ7hQDKE143XBY7JnhxLWIMi62fHz2tbjERKhmyBtHG-jwpTZdUl6zFoSEkAsWlDyKRfx030b80eHnRJ72Upy634okF1-PEJmw13SRlEu6AtkbwPoyy25yhOarw0XXGCDfSj_898N8ijCEHsjGpwdDi0DNNP2zMZTq0UAY66mVckehB86k7rzjaTz-jO5K70g.jpg",
+       "href": "https://t.me/mogilev/12931?single"
+      },
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/gIv8MqMH8ApMA28n0qmlMgPA3JIudFon1EJWeW-uAoNAJALYCV2hvKUh0hociOzitYBYZJhA2EnuTucMkSCRitOc_UpcWmMN9biLSzaRc3KX9YSoUYN5mU0wPP6UB2bCJvhwQKGsH4ExPzl1QsSWeQI9-1LsUqBmMZiN9Qon71sSgYxJLGEx3Ynq0ZQz1wonDa7Ow2i2ppaDjPVp6twc-WiCj7pfTGzy3hvvdbrEypw5ujXuRbhhfuaHTD6z2RnXUzIGny0psojzj3HsdmdvpuftrGwyCLLalTnYg9AaXlobcszpCLrxnNNrHIoemfdJoncQ5kwKTfZR1pcYUNKnSA.jpg",
+       "href": "https://t.me/mogilev/12932?single"
+      },
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/g24mQVgvNQoSQff7Da6SfmKh6UEuP32mmO4cIhnvrCGYeh29ZFiuP6KrpWqOL19KZBcwNfJHwkSCUvKMMTkyGE4ehhlZzTT2ajqDw3U1Bj3IzbTDirDqZ4HV8zfu75RnXkutEhe3ZC_0ChguImMH_HyqeeRVvF5oJgM00_y2lApP7EQkOINEmGeV19tDFVTuUPPvm6fTxBVgf1-AvvYRSfry7YPwH67wnBaS6OxMrUJzu-x5Se0_eAzGSVKyYD90eiAMvF57S2dR_UCX2bypG_elzANmgCrUeN5AKiyGj81dXX54EoN2w9P8wpiKSPck5tbN1aO11cjsFIRhBgwCzw.jpg",
+       "href": "https://t.me/mogilev/12933?single"
+      },
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/RZ5foB6LRRY3ST3AXcnqJK1M2_naj4K15q2laPnQK_4n-9hItggUCzGh6S9Kirlk4tUP23nw1eEntOFChC74mrcj9PkNHs2gzuYNjIOSu8kzW0t_rfdoAiVwE4o0JMaGSVZcMB6W1ynLzXmKcFaiFzEBLry3O7RHPF3BjhZmMAJ2vQImEUX1237zMyU-XT9CUapWR_RgewHgnINJcT8V1IxnW9cbzO3Bm8xBQU_OhTl3U4gRpzOTyk9iIove84A0gnGx-RYmSdsjjT8rIWCMDK4bDSUQ72BSGxdgRuodPxeB2xJfLXnumJ9ig2qMRjQ-HBSmcVaWnh4977-VOTH-Vw.jpg",
+       "href": "https://t.me/mogilev/12934?single"
+      },
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/EGHSPJUlJGzlblUDShYtPaUWup9463bzUXOHur5YMCQ4KUhtuybrI5178HWrU-xsempA6Shkgqe9SJ_gB5jKkDZOPyAr0WVqYhUZ2GhY-2ckwgeQM-m9ccOKPtGESq03b6JaNHSp72y6WH1eWj7D-RvoObQmdR402aeoHRPMQsTif0yX0avaO4yukd_LAr_qgSIiNZc_bbjGq5qP_3TQv0SRV0nMURpnrw1quYe6Z5FRfdDXqWWvu2BXNAU91_kvRO-v9HNNxSGjJ1SAL8xxYS2Jh4wKmG3EalS6mVz8RBQaTH95T_HJJ0uG2F2cjWfEJ1G_kquBgMLPITObt_ykXw.jpg",
+       "href": "https://t.me/mogilev/12935?single"
+      },
+      {
+       "type": "not-supported",
+       "text": "Please open Telegram to view this post"
+      },
+      {
+       "type": "not-supported",
+       "text": "Please open Telegram to view this post"
+      }
+     ]
+    }
+   ],
+   "empty": ""
+  }
+ }
+}

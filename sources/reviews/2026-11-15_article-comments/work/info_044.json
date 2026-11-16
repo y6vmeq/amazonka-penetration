@@ -1,0 +1,75 @@
+{
+ "number": 44,
+ "url": "https://t.me/magilev/17116?embed=1&mode=tme",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:27:03.522Z",
+ "html": "raw/044_t-me_tg-magilev-17116-post.html",
+ "txt": "raw/044_t-me_tg-magilev-17116-post.txt",
+ "sha256": "88229276d1a1353f8521d088e5c02f16386e2f9f4f4c26c18edf7ccc52f36900",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 509
+ },
+ "extra": {
+  "name": "tg_magilev_17116_post",
+  "status": 200,
+  "requested": "https://t.me/magilev/17116?embed=1&mode=tme",
+  "tgPost": {
+   "url": "https://t.me/magilev/17116?embed=1&mode=tme",
+   "at": "2026-11-15T14:27:03.521Z",
+   "error": "",
+   "post": {
+    "id": "17116",
+    "author": "Magilev.by",
+    "authorHref": "https://t.me/magilev",
+    "text": "🔸Добрались и до «Амазонки»! \n\nЗдесь фестиваль «Вкус лета» (все сеты по 45 рублей) заиграл совсем другими красками - восточными.\n\nПока ждали заказ, успели подружиться с бородатыми агамами, василиском и реснитчатым бананоедом🦎\n\nА на веранде нас уже ждал азиатский сет от шеф-повара - настоящего фаната Японии.\n\n>>>>>Впечатления от сета - в видео👆 и ПО ССЫЛКЕ\n\n✔️Подписывайтесь и делитесь 👉 @magilev",
+    "dateText": "Jun 24 at 07:20",
+    "datetime": "2026-06-24T05:20:24+00:00",
+    "url": "https://t.me/magilev/17116",
+    "replyTo": null,
+    "forwardedFrom": "",
+    "views": "799",
+    "metaText": "Jun 24 at 07:20",
+    "signature": "",
+    "reactions": [
+     "👍8",
+     "❤4",
+     "🔥1"
+    ],
+    "media": [
+     {
+      "type": "video",
+      "src": "",
+      "thumb": "https://cdn4.telesco.pe/file/aG1-BDqOkDAI24YZBICNT6r8UuqqzZ4L1W92N8zsJm96jBJpHwPH9juV0ZfyfEQZJP2VBJ84Ou5GSY5rHuH7xGmzuDczeGMggibMGnizIClCH-D53NgAsUYZKwq8ekNH0nDdH8TbakwRckw6ZvSq4oCT_B1RA_vf8D386Gp_QyImaL9iN-yPiZJgASUSDThHI0-WXy1GMfpYG0gO-nUitkNNk2B9YP8ZSdXyKEgUkufXZ8IAflZ6I4s6tghyBSe2nOXj7thHo-m52wCbAAGyadefP6aTW72EHH1Hi3qX1YzEGZD1d8f4y4EHZk0ClG0BDViPJCiAedFo1AfshZzI5g",
+      "href": "https://t.me/magilev/17116",
+      "duration": "1:09"
+     },
+     {
+      "type": "video",
+      "src": "",
+      "thumb": "",
+      "href": "",
+      "duration": ""
+     },
+     {
+      "type": "not-supported",
+      "text": "Media is too big"
+     }
+    ]
+   },
+   "repliesText": "",
+   "bodyText": "Magilev.by\n1:09\nMedia is too big\nVIEW IN TELEGRAM\n🔸Добрались и до «Амазонки»!\n\nЗдесь фестиваль «Вкус лета» (все сеты по 45 рублей) заиграл совсем другими красками - восточными.\n\nПока ждали заказ, успели подружиться с бородатыми агамами, василиском и реснитчатым бананоедом🦎\n\nА на веранде нас уже ждал азиатский сет от шеф-повара - настоящего фаната Японии.\n\n>>>>>Впечатления от сета - в видео👆 и П"
+  }
+ }
+}

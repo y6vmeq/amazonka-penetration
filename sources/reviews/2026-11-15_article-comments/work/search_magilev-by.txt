@@ -1,0 +1,995 @@
+Амазонка: страниц 2, карточек 35, нет кнопки «Вперед» -> raw/011_magilev-by_search-amazonka.json
+рестобар: страниц 4, карточек 79, нет кнопки «Вперед» -> raw/012_magilev-by_search-restobar.json
+Ленинская, 38: страниц 3, карточек 51, нет кнопки «Вперед» -> raw/013_magilev-by_search-leninskaya-38.json
+Смак.BY: страниц 4, карточек 60, нет кнопки «Вперед» -> raw/014_magilev-by_search-smak-by.json
+Смак бай: страниц 1, карточек 0, нет кнопки «Вперед» -> raw/015_magilev-by_search-smak-baj.json
+Буденного, 13: страниц 2, карточек 35, нет кнопки «Вперед» -> raw/016_magilev-by_search-budennogo-13.json
+Колетт: страниц 1, карточек 6, нет кнопки «Вперед» -> raw/017_magilev-by_search-kolett.json
+Colette: страниц 2, карточек 26, нет кнопки «Вперед» -> raw/018_magilev-by_search-colette.json
+гастрофест: страниц 9, карточек 161, нет кнопки «Вперед» -> raw/021_magilev-by_search-gastrofest.json
+
+Уникальных адресов: 349; из них есть в своде: 10
++ https://magilev.by/news/2026/11/03/12-j-gastrofest-v-mogileve-kto-uchastvuet-i-chto-v-menyu-za-39-rublej
+      12-й «Гастрофест» в Могилеве: кто участвует и что в меню за 39 рублей 03.11.2026
+      запросы: Амазонка, рестобар, Ленинская, 38, Смак.BY, Буденного, 13, [исключено], гастрофест
++ https://magilev.by/news/2026/06/23/reklama-na-2306gastrofest-s-ramenom-rollami-i-tryufelnym-desertom-probuem-vkus-leta-v-restobare-amazonka
+      Гастрофест с раменом, роллами и трюфельным десертом. Пробуем «Вкус лета» в рестобаре «Амазонка» 23.06.2026
+      запросы: Амазонка, рестобар, Ленинская, 38, гастрофест
+- https://magilev.by/news/2026/06/08/festival-edy-vkus-leta-s-22-iyunya-startuet-v-mogileve-kto-uchastvuet-i-chto-v-menyu
+      Фестиваль еды «Вкус лета» с 22 июня стартует в Могилеве. Кто участвует и что в меню? 08.06.2026
+      запросы: Амазонка, рестобар, Ленинская, 38, Colette
+- https://magilev.by/news/2026/05/04/mestechko-glusk-ptich-sputnica-na-vsyu-zhizn-ch-10
+      Местечко Глуск. Птичь – спутница на всю жизнь… Ч. 10 04.05.2026
+      запросы: Амазонка
+- https://magilev.by/news/2026/03/30/odinnadcatyj-gastrofest-v-mogileve-s-9-po-26-aprelya-kto-uchastvuet-i-chto-v-menyu-za-46-rublej
+      11-й «Гастрофест» в Могилеве: кто участвует и что в меню за 46 рублей 30.03.2026
+      запросы: Амазонка, рестобар, Ленинская, 38, Буденного, 13, Colette, [исключено], гастрофест
++ https://magilev.by/news/2026/03/17/kulinarnyj-festival-lepshy-gust-magileva-v-gastrobare-amazanka-yaponskij-akcent-i-belorusskaya-dusha
+      Кулинарный фестиваль «Лепшы густ Магiлева» в гастробаре «Амазонка»: японский акцент и белорусская душа 17.03.2026
+      запросы: Амазонка, рестобар, Ленинская, 38
+- https://magilev.by/news/2026/03/04/kulinarnyj-festival-lepshy-gust-magilyova-s-16-marta-kto-uchastvuet-i-chto-v-menyu
+      Кулинарный фестиваль «Лепшы густ Магiлёва» с 16 марта: кто участвует и что в меню 04.03.2026
+      запросы: Амазонка, рестобар, Ленинская, 38, Colette, гастрофест
+- https://magilev.by/news/2025/06/22/odnazhdy-v-mogileve-sidet-na-stupenkah-udovolstvie-eshe-to-bud-ty-v-svitere-ili-dazhe-v-palto
+      Однажды в Могилеве. «Сидеть на ступеньках – удовольствие еще то, будь ты в свитере или даже в пальто» 22.06.2025
+      запросы: Амазонка
+- https://magilev.by/news/2025/06/11/festival-edy-pachastunak-pa-magilyoski-s-24-iyunya-startuet-v-mogileve-kto-uchastvuet-i-chto-v-menyu
+      Фестиваль еды «Пачастунак па-магiлёўскi» с 24 июня стартует в Могилеве. Кто участвует и что в меню? 11.06.2025
+      запросы: Амазонка, рестобар, Ленинская, 38, Colette
+- https://magilev.by/news/2025/06/06/v-mogileve-nazvany-3-luchshih-zavedeniya-pobediteli-gastrofesta-za-nih-otdali-golosa-mogilevchane
+      В Могилеве названы 3 лучших заведения – победители «Гастрофеста»: за них отдали голоса могилевчане 06.06.2025
+      запросы: Амазонка, рестобар, гастрофест
+- https://magilev.by/news/2025/06/05/ya-vot-slov-ne-mogu-podobrat-chtoby-rasskazat-kak-mne-vse-ponravilos-zhizn-glazami-mogilevchan
+      «Я вот слов не могу подобрать, чтобы рассказать, как мне все понравилось…» Жизнь глазами могилевчан 05.06.2025
+      запросы: Амазонка, гастрофест
+- https://magilev.by/news/2025/05/08/devyatyj-gastrofest-v-mogileve-kto-uchastvuet-i-chto-v-menyu-za-45-rublej-dopolnyaetsya
+      Девятый «Гастрофест» в Могилеве: кто участвует и что в меню за 45 рублей? 08.05.2025
+      запросы: Амазонка, рестобар, Ленинская, 38, Буденного, 13, гастрофест
+- https://magilev.by/news/2025/02/24/muzykant-s-letayushej-tarelkoj-na-leninskoj-v-mogileve-rebyata-davajte-zhit-druzhno
+      Музыкант с «летающей» тарелкой на Ленинской в Могилеве: «Ребята, давайте жить дружно!» 24.02.2025
+      запросы: Амазонка
+- https://magilev.by/news/2025/01/22/v-mogileve-s-28-yanvarya-startuet-festival-edy-zimovy-smak-chto-v-menyu-za-40-rublej-dopolnyaetsya
+      В Могилеве с 28 января стартует фестиваль еды «Зімовы смак». Что в меню за 40 рублей? 22.01.2025
+      запросы: Амазонка, рестобар, Ленинская, 38, Смак.BY, Colette
++ https://magilev.by/news/2024/12/12/v-raboteekzoticheskie-reptilii-avtorskie-koktejli-i-rolly-na-lyuboj-vkus-v-amazonke-mogut-ugodit-dazhe-samomu-kapriznomu-gostyu
+      Экзотические рептилии, авторские коктейли и роллы на любой вкус: в «Амазонке» могут угодить даже самому капризному гостю 12.12.2024
+      запросы: Амазонка, рестобар, Ленинская, 38
+- https://magilev.by/news/2024/12/09/nazvana-trojka-luchshih-zavedenij-uchastnikov-vosmogo-gastrofesta-v-mogileve-kto-v-chisle-pobeditelej
+      Названа тройка лучших заведений-участников восьмого «Гастрофеста» в Могилеве. Кто в числе победителей? 09.12.2024
+      запросы: Амазонка, рестобар, гастрофест
++ https://magilev.by/news/2024/11/29/gastrofest-v-mogileve-sup-v-amazonke-na-lyubitelya
+      «Гастрофест» в Могилеве: суп в «Амазонке» – на любителя 29.11.2024
+      запросы: Амазонка, рестобар, Ленинская, 38, гастрофест
+- https://magilev.by/news/2024/11/06/vosmoj-gastrofest-v-mogileve-kto-uchastvuet-i-chto-v-menyu-za-43-rublya-dopolnyaetsya
+      Восьмой «Гастрофест» в Могилеве: кто участвует и что в меню за 43 рубля? 06.11.2024
+      запросы: Амазонка, рестобар, Ленинская, 38, Буденного, 13, гастрофест
+- https://magilev.by/news/2024/10/14/festival-edy-oktyabrfest-s-29-oktyabrya-startuet-v-mogileve-kto-uchastvuet-i-chto-v-menyu
+      Фестиваль еды «Октябрьфэст» с 29 октября стартует в Могилеве: кто участвует и что в меню? 14.10.2024
+      запросы: Амазонка, рестобар, Ленинская, 38, Colette
++ https://magilev.by/news/2024/07/02/ostalos-chuvstvo-chto-to-s-etim-blyudom-ne-tak-shodili-v-amazonku-na-festival-belorusskoj-kuhni
+      «Осталось чувство: что-то с этим блюдом не так». Сходили в «Амазонку» на фестиваль белорусской кухни 02.07.2024
+      запросы: Амазонка, рестобар, Ленинская, 38, гастрофест
+- https://magilev.by/news/2024/06/17/festival-belorusskoj-kuhni-startuet-mogileve-25-iyunya-kto-uchastvuet-i-chto-v-menyu
+      Фестиваль белорусской кухни стартует в Могилеве 25 июня. Кто участвует и что в меню? 17.06.2024
+      запросы: Амазонка, рестобар, Ленинская, 38, Буденного, 13, Colette
++ https://magilev.by/news/2024/01/27/na-festivale-edy-zimovy-smak-restobar-amazonka-i-udivil-i-vkusno-nakormil
+      На фестивале еды «Зімовы смак»: рестобар «Амазонка» и удивил, и вкусно накормил 27.01.2024
+      запросы: Амазонка, рестобар, Смак.BY
+- https://magilev.by/news/2024/01/11/v-mogileve-s-18-yanvarya-startuet-festival-edy-zimovyya-prysmaki-chto-v-menyu-za-35-rublej-dopolnyaetsya
+      В Могилеве с 18 января стартует фестиваль еды «Зімовы смак». Что в меню за 35 рублей? 11.01.2024
+      запросы: Амазонка, рестобар, Ленинская, 38, Смак.BY, Буденного, 13, Colette, гастрофест
+- https://magilev.by/news/2023/12/12/nazvana-3-ka-luchshih-zavedenij-uchastnikov-gastrofesta-v-mogileve-kto-v-chisle-pobeditelej
+      Названа тройка лучших заведений-участников «Гастрофеста» в Могилеве. Кто в числе победителей? 12.12.2023
+      запросы: Амазонка, рестобар, гастрофест
+- https://magilev.by/news/2023/11/27/surovye-tamozhenniki-i-dolgaya-akklimatizaciya-mogilevchanin-podelilsya-vpechatleniyami-ot-poezdki-v-boliviyu-chast-1
+      Суровые таможенники и долгая акклиматизация. Могилевчанин в Боливии-1 27.11.2023
+      запросы: Амазонка
++ https://magilev.by/news/2023/11/26/gastrofest-v-mogileve-udivitelno-vkusno-iskristo-i-ostro-vpechatlenie-o-sete-restobara-amazonka
+      «Гастрофест» в Могилеве: «удивительно вкусно, искристо и остро» накормили в рестобаре «Амазонка» 26.11.2023
+      запросы: Амазонка, рестобар, Ленинская, 38, гастрофест
+- https://magilev.by/news/2023/11/10/shestoj-gastrofest-v-mogileve-kakoe-menyu-za-38-rublej-podgotovili-zavedeniya-uchastniki-dopolnyaetsya
+      Шестой «Гастрофест» стартует в Могилеве. Что в меню за 38 рублей? 10.11.2023
+      запросы: Амазонка, рестобар, Ленинская, 38, Буденного, 13, гастрофест
++ https://magilev.by/news/2023/10/11/borodataya-zhenya-i-gekkon-misha-poobedali-za-950-v-restobare-amazonka
+      Бородатая Женя и геккон Миша. Пообедали за 9.50 в рестобаре «Амазонка» 11.10.2023
+      запросы: Амазонка, рестобар, Ленинская, 38
+- https://magilev.by/news/2023/10/07/ya-poshutila-chto-ukushu-ego-i-on-nabet-moj-ukus-svadebnaya-para-nedeli
+      «Я пошутила, что укушу его и он набьет мой укус». Свадебная пара недели 07.10.2023
+      запросы: Амазонка, рестобар
+- https://magilev.by/news/2022/11/05/indejcy-peru-vzyali-v-zalozhniki-turistov-chtoby-privlech-vnimanie-k-ekologii
+      Индейцы Перу взяли в заложники туристов, чтобы привлечь внимание к экологии 05.11.2022
+      запросы: Амазонка
+- https://magilev.by/news/2022/08/06/odnazhdy-v-mogileve-prakticheskaya-geometriya-na-dubrovenke-i-za-ee-predelami
+      Однажды в Могилеве. Практическая геометрия на Дубровенке и за ее пределами 06.08.2022
+      запросы: Амазонка
+- https://magilev.by/news/2022/07/06/kak-dregovichi-ezdili-v-gosti-k-radimicham-po-kolcu-zhivotvornyh-krinic
+      Как дреговичи на лясиках ездили в гости к радимичам и пили воду из криниц 06.07.2022
+      запросы: Амазонка
+- https://magilev.by/news/2022/06/04/odnazhdy-v-mogileve-postoyanno-otmahivayas-ot-komarov-i-muh-hot-inogda-poglyadyvaj-a-ryadom-li-tvoj-drug
+      Однажды в Могилеве. «Постоянно отмахиваясь от комаров и мух, хоть иногда поглядывай – а рядом ли твой друг?!» 04.06.2022
+      запросы: Амазонка
+- https://magilev.by/news/2021/09/19/vysockogo-my-ne-mogli-ostanovit-o-sudbah-zhitelej-odnogo-bobrujskogo-dvora-na-internacionalnoj-ch-23
+      «Высоцкого мы не могли остановить…» О судьбах жителей одного бобруйского двора на Интернациональной: ч. 23 19.09.2021
+      запросы: Амазонка
+- https://magilev.by/news/2019/07/29/v-shestidesyati-kilometrah-ot-bobrujska-vysadilsya-desant-lyudej-s-gitarami-i-udochkami
+      В 60 км от Бобруйска высадился десант с гитарами и удочками 29.07.2019
+      запросы: Амазонка, Смак.BY
+- https://magilev.by/news/2026/06/22/festival-edy-vkus-leta-ot-buslinogo-gnezda-do-sinih-ozer-kakimi-blyudami-v-cokole-rasskazyvayut-o-belarusi
+      Фестиваль еды «Вкус лета». От буслиного гнезда до синих озер: какими блюдами в «Цоколе» рассказывают о Беларуси» 22.06.2026
+      запросы: рестобар
+- https://magilev.by/news/2025/11/04/desyatyj-gastrofest-v-mogileve-s-13-po-30-noyabrya-kto-uchastvuet-i-chto-v-menyu-za-45-rublej
+      Десятый «Гастрофест» в Могилеве с 13 по 30 ноября: кто участвует и что в меню за 45 рублей? 04.11.2025
+      запросы: рестобар, Буденного, 13, гастрофест
+- https://magilev.by/news/2025/10/14/kulinarnyj-festival-mogilev-pro-osen-s-20-oktyabrya-kto-uchastvuet-i-chto-v-menyu-za-40-rublej
+      Кулинарный фестиваль «Могилев pro Осень» с 20 октября: кто участвует и что в меню за 40 рублей? 14.10.2025
+      запросы: рестобар, Буденного, 13, Colette, гастрофест
+- https://magilev.by/news/2025/06/30/festival-pachastunak-pa-magilyoski-zolotistyj-kartofel-nezhnye-rebryshki-i-hrustyashie-lukovye-kolca-ot-restobara-colette
+      Фестиваль «Пачастунак па-магiлёўскi»: золотистый картофель, нежные ребрышки и хрустящие луковые кольца от рестобара Colette 30.06.2025
+      запросы: рестобар, Colette
+- https://magilev.by/news/2025/02/08/festival-zimovy-smak-roll-v-sushi-bare-dve-palochki-ponravilsya-a-obsluzhivanie-net
+      Фестиваль «Зiмовы смак»: ролл в суши-баре «Две палочки» понравился, а обслуживание – нет 08.02.2025
+      запросы: рестобар, Смак.BY
+- https://magilev.by/news/2025/01/31/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 31.01.2025
+      запросы: рестобар, Смак.BY
+- https://magilev.by/news/2025/01/29/festival-edy-v-mogileve-zimovy-smak-v-restobare-luna-i-vkusno-i-dushevno
+      Фестиваль еды в Могилеве «Зімовы смак»: в рестобаре «Луна» и вкусно, и душевно 29.01.2025
+      запросы: рестобар, Смак.BY
+- https://magilev.by/news/2025/01/11/cena-v-rajone-36-mln-evro-v-mogileve-prodaetsya-gostinica-metropol-ta-chto-ryadom-s-kostelom
+      Цена – в районе 3,6 млн евро. В Могилеве продается гостиница «Метрополь» – та, что рядом с костелом 11.01.2025
+      запросы: рестобар
+- https://magilev.by/news/2024/11/16/na-1611-gastrofest-v-mogileve-aziatskoe-puteshestvie-dlya-gurmanov-v-belom-lise
+      «Гастрофест» в Могилеве: азиатское путешествие для гурманов в «Белом Лисе» 16.11.2024
+      запросы: рестобар, гастрофест
+- https://magilev.by/news/2024/10/31/oktyabrfest-v-mogileve-na-lunu-za-belorusskim-setom
+      «Октябрьфест» в Могилеве: на «Луну» за белорусским сетом 31.10.2024
+      запросы: рестобар
+- https://magilev.by/news/2024/10/07/krylo-samoleta-deshevle-v-mogileve-za-25-mln-dollarov-prodaetsya-populyarnyj-u-zolotoj-molodezhi-restobar-cherchill
+      «Крыло самолета дешевле». В Могилеве за 2,5 млн долларов продается популярный у золотой молодежи рестобар «Черчилль» 07.10.2024
+      запросы: рестобар
+- https://magilev.by/news/2024/06/30/dranniki-pod-shapochkoj-iz-myasa-s-gribami-i-nezhnejshie-blinchiki-prodegustirovali-set-ot-mogilevskogo-restobara-colette
+      Драники «под шапочкой» и нежнейшие блинчики: продегустировали сет от могилевского рестобара Colette 30.06.2024
+      запросы: рестобар, Colette
+- https://magilev.by/news/2024/05/03/gastrofest-v-mogileve-radi-uzhina-v-edisone-specialno-priehala-iz-bobrujska
+      «Гастрофест» в Могилеве: «Ради ужина в «Эдисоне» специально приехала из Бобруйска» 03.05.2024
+      запросы: рестобар, Ленинская, 38, гастрофест
+- https://magilev.by/news/2024/04/26/gastrofest-v-mogileve-anglijskaya-kuhnya-s-zhabami-v-norke-v-lune
+      Гастрофест в Могилеве: английская кухня с «Жабами в норке» в «Луне» 26.04.2024
+      запросы: рестобар, гастрофест
+- https://magilev.by/news/2024/04/20/gastrofest-v-mogileve-hachapuri-s-suluguni-ot-hinkalni-nastoyashij-shedevr-fanatom-gruzinskogo-zastolya-posvyashaetsya
+      «Гастрофест» в Могилеве: хачапури с сулугуни от «Хинкальни» – настоящий шедевр! Фанатам грузинского застолья посвящается 20.04.2024
+      запросы: рестобар, Буденного, 13, гастрофест
+- https://magilev.by/news/2024/04/19/gastrofest-v-mogileve-krudo-iz-lososya-i-tunca-v-bozhestvennom-citrusovom-marinade-ot-restorana-sel-i-sel-nash-rekomendason
+      «Гастрофест» в Могилеве: крудо из лосося и тунца в божественном цитрусовом маринаде от ресторана «Сел и съел» – наш рекомендасьон 19.04.2024
+      запросы: рестобар, Ленинская, 38, гастрофест
+- https://magilev.by/news/2024/04/10/sedmoj-gastrofest-v-mogileve-kto-uchastvuet-i-chto-v-menyu-za-38-rublej-dopolnyaetsya
+      Седьмой «Гастрофест» в Могилеве: кто участвует и что в меню за 38 рублей? 10.04.2024
+      запросы: рестобар, Ленинская, 38, Буденного, 13, гастрофест
+- https://magilev.by/news/2024/01/26/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 26.01.2024
+      запросы: рестобар, Смак.BY, Colette
+- https://magilev.by/news/2024/01/22/hrustyashie-dranichki-pod-goryachij-glintvejn-pobyvali-v-restobare-colette-na-festivale-edy-zimovy-smak
+      Хрустящие дранички под горячий глинтвейн: побывали в рестобаре Colette на фестивале еды «Зімовы смак» 22.01.2024
+      запросы: рестобар, Смак.BY, Colette
+- https://magilev.by/news/2024/01/21/festival-edy-v-mogileve-zimovy-smak-skazhu-kratko-vkusno-i-sytno-pouzhinali-v-restobare-luna
+      Фестиваль еды в Могилеве «Зімовы смак»: скажу кратко – очень вкусно и сытно поужинали в рестобаре «Луна» 21.01.2024
+      запросы: рестобар, Смак.BY
+- https://magilev.by/news/2024/01/20/vot-kak-u-nas-po-belorusski-ugoshayut-chem-vpechatlil-restobar-edison-na-festivale-edy-zimovy-smak
+      «Вот как у нас по-белорусски угощают!» Чем впечатлил рестобар «Эдисон» на фестивале еды «Зімовы смак» 20.01.2024
+      запросы: рестобар, Смак.BY, гастрофест
+- https://magilev.by/news/2024/01/19/reklama-na-1901-mesto-gde-klassicheskie-blyuda-prevrashayut-v-restorannyj-izysk-pobyvali-na-feste-zimovy-smak-v-gastrobare-cokol
+      Место, где классические блюда превращают в ресторанный изыск. Побывали на фесте «Зімовы смак» в гастробаре «Цоколь» 19.01.2024
+      запросы: рестобар, Смак.BY
+- https://magilev.by/news/2023/11/28/gastrofest-v-mogileve-belyj-lis-pryamo-na-glazah-priobretaet-krasochnyj-ottenok
+      «Гастрофест» в Могилеве: «Белый лис» прямо на глазах приобретает красочный оттенок 28.11.2023
+      запросы: рестобар, гастрофест
+- https://magilev.by/news/2023/11/24/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 24.11.2023
+      запросы: рестобар, гастрофест
+- https://magilev.by/news/2023/11/24/gastrofest-v-mogileve-samoj-vkusnoj-v-restobare-edison-kak-ni-stranno-okazalas-pasta-pesto
+      «Гастрофест» в Могилеве: самой вкусной в рестобаре «Эдисон», как ни странно, оказалась паста «Песто» 24.11.2023
+      запросы: рестобар, Ленинская, 38, гастрофест
+- https://magilev.by/news/2023/11/22/gastrofest-v-mogileve-set-v-lune-vkusnyj-eto-plyus-a-vot-chereschur-bystrye-oficianty-minus
+      «Гастрофест» в Могилеве: сет в «Луне» вкусный – это плюс, а вот чересчур быстрые официанты – минус 22.11.2023
+      запросы: рестобар, Ленинская, 38, гастрофест
+- https://magilev.by/news/2023/10/22/oktyabrfest-v-mogilevskom-restobare-belyj-lis-meloch-a-nepriyatno
+      «Октябрьфэст» в могилевском рестобаре «Белый Лис»: мелочь, а неприятно 22.10.2023
+      запросы: рестобар
+- https://magilev.by/news/2023/10/20/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 20.10.2023
+      запросы: рестобар
+- https://magilev.by/news/2023/10/18/zakuski-k-pivu-dlya-lyubitelej-fastfuda-degustaciya-seta-ot-restobara-colette-na-oktyabrfeste
+      Закуски к пиву для любителей фастфуда. Дегустация сета от рестобара Colette на «Октябрьфэсте» 18.10.2023
+      запросы: рестобар, Colette, гастрофест
+- https://magilev.by/news/2023/10/17/v-rabotegorod-s-zapahom-kofe-sezdili-v-grodno-skolko-potratili-chto-uvideli
+      Город с ароматом кофе: съездили в Гродно, сколько потратили, что увидели 17.10.2023
+      запросы: рестобар
+- https://magilev.by/news/2023/10/15/oktyabrfest-v-mogileve-s-trudom-no-seli-potomu-chto-vkusno-gotovyat-v-lune
+      «Октябрьфэст» в Могилеве: «С трудом, но съели, потому что вкусно готовят в «Луне» 15.10.2023
+      запросы: рестобар, гастрофест
+- https://magilev.by/news/2023/10/13/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 13.10.2023
+      запросы: рестобар
+- https://magilev.by/news/2023/10/12/kogda-perestanut-rabotat-letnie-kafe-v-mogileve-uznali-otvet
+      Когда перестанут работать летние кафе в Могилеве? Узнали ответ 12.10.2023
+      запросы: рестобар, Colette
+- https://magilev.by/news/2023/10/04/ne-pivnoj-no-v-temu-v-mogileve-s-13-oktyabrya-startuet-festival-edy-oktyabrfest-chto-za-sety-u-14-zavedenij-uchastnikov-dopolnyaetsya
+      Не пивной, но в тему: в Могилеве с 13 октября стартует фестиваль еды «Октябрьфэст». Какое меню у 14 заведений-участников? 04.10.2023
+      запросы: рестобар, Смак.BY, Буденного, 13, Colette
+- https://magilev.by/news/2023/09/19/kofejnyj-festival-v-mogileve-dolce-vita-v-restobare-kolett
+      Кофейный фестиваль в Могилеве: Dolce Vita в рестобаре «Колетт» 19.09.2023
+      запросы: рестобар, Колетт
+- https://magilev.by/news/2023/09/08/kuda-shodit-v-mogileve-i-ne-tolko-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 08.09.2023
+      запросы: рестобар, Colette
+- https://magilev.by/news/2023/08/31/v-mogileve-s-7-sentyabrya-startuet-kofejnyj-festival-pro-coffee-kakie-sety-predlagayut-10-zavedenij-uchastnikov
+      В Могилеве с 7 сентября стартует кофейный фестиваль PRO COFFEE. Какие сеты предлагают 10 заведений-участников? 31.08.2023
+      запросы: рестобар, Colette
+- https://magilev.by/news/2023/08/10/neozhidanno-samoe-dorogoe-v-obedennom-menyu-molochnyj-koktejl-testiruem-mogilevskij-restobar-kolett
+      Неожиданно: самое дорогое в обеденном меню – молочный коктейль. Тестируем могилевский рестобар «Колетт» 10.08.2023
+      запросы: рестобар, Колетт
+- https://magilev.by/news/2023/08/06/ya-zhe-skazala-picca-v-stope-pochemu-poobedat-v-restobare-belyj-lis-v-mogileve-okazalos-plohoj-ideej
+      «Я же сказала – пицца в стопе»: почему пообедать в рестобаре «Белый Лис» в Могилеве оказалось плохой идеей 06.08.2023
+      запросы: рестобар, гастрофест
+- https://magilev.by/news/2023/07/12/s-10-rublyami-v-karmane-syuda-sovatsya-nechego-kak-my-poobedali-v-mogilevskom-restobare-luna
+      «С 10 рублями в кармане сюда соваться нечего!». Как мы пообедали в могилевском рестобаре «Луна» 12.07.2023
+      запросы: рестобар, гастрофест
+- https://magilev.by/news/2023/06/30/festival-belorusskoj-kuhni-v-mogileve-eda-krasivaya-no-bez-sharma-v-kafe-restobar-kolett
+      Фестиваль белорусской кухни в Могилеве: еда красивая, но без шарма в кафе «Рестобар «Колетт» 30.06.2023
+      запросы: рестобар, Колетт
+- https://magilev.by/news/2023/06/22/ne-gastrofest-no-pohozhe-v-mogileve-nedelyu-budet-prohodit-festival-belorusskoj-kuhni
+      Не «Гастрофест», но похоже. В Могилеве неделю проходит фестиваль белорусской кухни (дополняется) 22.06.2023
+      запросы: рестобар, Колетт, гастрофест
+- https://magilev.by/news/2023/05/05/gastrofest-v-mogileve-set-iz-luny-poka-luchshij-iz-vseh-chto-dovelos-poprobovat-za-vse-vremya-festivalej
+      Гастрофест в Могилеве: «Сет из «Луны» – пока лучший из всех, что довелось попробовать за все время фестивалей…» 05.05.2023
+      запросы: рестобар, гастрофест
+- https://magilev.by/news/2023/05/03/gastrofest-v-mogileve-neopravdannye-ozhidaniya-v-restobare-edison
+      «Гастрофест» в Могилеве: неоправданные ожидания в рестобаре «Эдисон» 03.05.2023
+      запросы: рестобар, гастрофест
+- https://magilev.by/news/2023/04/28/gastrofest-v-mogileve-est-ne-hotelos-tolko-pit-kak-prinimayut-gostej-v-restobare-belyj-lis
+      «Гастрофест» в Могилеве. «Есть не хотелось, только пить»: как принимают гостей в рестобаре «Белый Лис» 28.04.2023
+      запросы: рестобар, гастрофест
+- https://magilev.by/news/2023/04/14/gastrofest-v-mogileve-kakoe-menyu-predlagayut-zavedeniya-uchastniki-dopolnyaetsya
+      «Гастрофест» в Могилеве. Какое меню предлагают 12 заведений-участников? 14.04.2023
+      запросы: рестобар, Буденного, 13, гастрофест
+- https://magilev.by/news/2022/12/12/v-mogileve-podveli-itogi-gastrofesta-rasskazyvaem-kto-luchshij
+      В Могилеве подвели итоги «Гастрофеста». Кто лучший? 12.12.2022
+      запросы: рестобар, гастрофест
+- https://magilev.by/news/2022/11/28/gastrofest-v-mogileve-pyat-krevetok-i-sploshnoj-loft-v-restobare-edison
+      «Гастрофест» в Могилеве. Пять креветок и сплошной лофт в рестобаре «Эдисон» 28.11.2022
+      запросы: рестобар, гастрофест
+- https://magilev.by/news/2022/11/24/gastrofest-v-mogileve-kak-nas-priruchil-belyj-lis
+      «Гастрофест» в Могилеве. Как нас «приручил» «Белый Лис» 24.11.2022
+      запросы: рестобар, гастрофест
+- https://magilev.by/news/2022/11/08/gastrofest-v-mogileve-kakoe-menyu-predlagayut-12-zavedenij-uchastnikov-dopolnyaetsya
+      «Гастрофест» в Могилеве. Какое меню предлагают 11 заведений-участников? 08.11.2022
+      запросы: рестобар, Буденного, 13, гастрофест
+- https://magilev.by/news/2022/05/05/amerikanka-ledi-gaga-i-ee-italyanskie-delikatesy
+      Американка Леди Гага и ее итальянские деликатесы уже в Могилеве 05.05.2022
+      запросы: рестобар, гастрофест
+- https://magilev.by/news/2022/04/27/gastrofest-v-mogileve-kakie-zavedeniya-budut-uchastvovat-dopolnyaetsya
+      «Гастрофест» в Могилеве. Какое меню предлагают 12 заведений-участников? 27.04.2022
+      запросы: рестобар, Смак.BY, Буденного, 13, гастрофест
+- https://magilev.by/org/restobar-luna
+      Рестобар «LUNA» 19.11.2021
+      запросы: рестобар
+- https://magilev.by/org/restobar-belyj-lis
+      РестоБар «Белый Лис» 19.11.2021
+      запросы: рестобар
+- https://magilev.by/news/2021/11/19/pochti-dva-kg-vkusnoj-edy-za-27-rublej-chto-mozhno-poprobovat-na-gastrofeste-v-mogileve
+      Почти два кг вкусной еды за 27 рублей. Что можно попробовать на Гастрофесте в Могилеве? 19.11.2021
+      запросы: рестобар, Буденного, 13, гастрофест
+- https://magilev.by/news/2026/09/22/chitajte-v-svezhem-nomere-gazety-vechernij-bobrujsk-23-sentyabrya
+      Читайте в свежем номере газеты «Вечерний Бобруйск» 23 сентября 22.09.2026
+      запросы: Ленинская, 38
+- https://magilev.by/news/2026/09/03/mestechko-glusk-topornyj-materyal-o-mestechkovyh-muzhchinah-ch-41
+      Местечко Глуск. «Топорный матерьял». О местечковых мужчинах. Ч. 41. 03.09.2026
+      запросы: Ленинская, 38
+- https://magilev.by/news/2026/08/26/kuda-pojti-posle-raboty-i-gde-razvlechsya-na-pensii-spisok-kruzhkov-dlya-vzroslyh-v-bobrujske
+      Куда пойти после работы и где развлечься на пенсии? Список кружков для взрослых в Бобруйске 26.08.2026
+      запросы: Ленинская, 38
+- https://magilev.by/news/2026/05/15/kuda-shodit-v-mogileve-i-ne-tolko-v-blizhajshie-vyhodnye-16-i-17-maya-ili-neskolko-variantov-akcii-noch-muzeev-nash-gid
+      Куда сходить в Могилеве и не только в ближайшие выходные – 16 и 17 мая или несколько вариантов акции «Ночь музеев»: наш гид 15.05.2026
+      запросы: Ленинская, 38
+- https://magilev.by/news/2026/02/26/perezhivala-chto-rebenok-poka-ne-hodit-na-gorshok-stoit-li-otdavat-rebenka-do-3-h-let-v-detsad-sprosili-u-bobrujskih-mam
+      «Переживала, что ребенок пока не ходит на горшок». Стоит ли отдавать ребенка до 3-х лет в детсад? Спросили у бобруйских мам 26.02.2026
+      запросы: Ленинская, 38
+- https://magilev.by/news/2025/10/17/povernul-ne-napravo-a-nalevo-i-povez-v-zags-svadebnaya-para-nedeli
+      Повернул не направо, а налево – и привез в ЗАГС. Свадебная пара недели 17.10.2025
+      запросы: Ленинская, 38
+- https://magilev.by/news/2025/04/11/dorogie-i-byudzhetnye-kvartiry-mogileva-na-seredinu-aprelya-2025-goda
+      Дорогие и бюджетные квартиры Могилева на середину апреля 2025 года 11.04.2025
+      запросы: Ленинская, 38
+- https://magilev.by/news/2025/03/13/dorogie-i-byudzhetnye-kvartiry-mogileva-na-seredinu-marta-2025-goda
+      Дорогие и бюджетные квартиры Могилева на середину марта 2025 года 13.03.2025
+      запросы: Ленинская, 38
+- https://magilev.by/news/2024/12/13/bez-sahara-glyutena-i-laktozy-zaglyanuli-v-kofejnyu-sova-gde-zavtraki-podayut-ves-den
+      Без сахара, глютена и лактозы. Заглянули в кофейню «Сова», где завтраки подают весь день 13.12.2024
+      запросы: Ленинская, 38
+- https://magilev.by/news/2024/12/09/mogilevchanin-obokral-sozhitelnicu-i-obmanul-neskolko-chelovek-na-krupnye-summy
+      Могилевчанин украл у сожительницы ювелирные украшения почти на 24 тысячи рублей 09.12.2024
+      запросы: Ленинская, 38
+- https://magilev.by/news/2024/10/23/vecher-romansa-sostoitsya-v-muzee-byalynickogo-biruli-mogileva-27-oktyabrya
+      Вечер романса состоится в музее Бялыницкого-Бирули Могилева 27 октября 23.10.2024
+      запросы: Ленинская, 38
+- https://magilev.by/news/2024/10/09/vmesto-raboty-na-obekte-stroil-dom-prorabu-mogilevchanin-zastavil-podchinennogo-truditsya-na-sebya
+      Вместо работы на объекте строил дом прорабу: могилевчанин заставил подчиненного трудиться «на себя» 09.10.2024
+      запросы: Ленинская, 38
+- https://magilev.by/news/2024/05/06/takoe-nado-probovat-v-mogilevskom-fudzhi-poyavilis-unikalnye-piccy
+      Такое надо пробовать. В могилевском Фуджи появились уникальные пиццы 06.05.2024
+      запросы: Ленинская, 38
+- https://magilev.by/news/2024/04/29/gastrofest-v-mogileve-dushu-to-nashego-belorusskogo-povara-nikuda-ne-denesh-dazhe-na-korejskoj-kuhne
+      «Гастрофест» в Могилеве: «Душу-то нашего белорусского повара никуда не денешь, даже на корейской кухне» 29.04.2024
+      запросы: Ленинская, 38, гастрофест
+- https://magilev.by/news/2024/04/21/mogilevchanin-prinyal-uchastie-v-trejlovom-zabege-medvezhij-les
+      Могилевчанин принял участие в трейловом забеге «Медвежий лес» 21.04.2024
+      запросы: Ленинская, 38
+- https://magilev.by/news/2024/04/15/v-mogileve-remontiruyut-dorogu-na-pervomajskoj-ot-glavpochtamta-do-byvshego-teatralnogo-kak-hodit-transport
+      В Могилеве ремонтируют дорогу на Первомайской, движение перекрыто. Как ходит транспорт? (обновлено) 15.04.2024
+      запросы: Ленинская, 38
+- https://magilev.by/news/2024/02/26/rezultaty-vyborov-deputatov-mogilevskogo-gorodskogo-soveta-deputatov-obyavili-v-mogileve
+      Результаты выборов депутатов Могилевского городского Совета депутатов объявили в Могилеве 26.02.2024
+      запросы: Ленинская, 38
+- https://magilev.by/news/2024/02/26/cik-opublikoval-familii-deputatov-palaty-predstavitelej-vosmogo-sozyva
+      ЦИК опубликовал фамилии депутатов Палаты представителей восьмого созыва 26.02.2024
+      запросы: Ленинская, 38
+- https://magilev.by/news/2023/11/20/gastrofest-v-mogileve-dolgie-ozhidaniya-i-bespodobnaya-eda-v-sushi-bare-dve-palochki
+      «Гастрофест» в Могилеве: долгие ожидания и бесподобная еда в суши-баре «Две палочки» 20.11.2023
+      запросы: Ленинская, 38, гастрофест
+- https://magilev.by/news/2023/11/17/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 17.11.2023
+      запросы: Ленинская, 38, гастрофест
+- https://magilev.by/news/2023/06/01/dom-3-na-menzhinskogo-derevyannye-perila-na-lestnichnoj-kletke-rumynskaya-mebel-i-saraj-vo-dvore-kakim-bylo-zhile-dlya-tehnicheskoj-intelligencii-v-mogileve-v-proshlom-veke
+      Дом №3 на Менжинского: деревянные перила, румынская мебель и сарай во дворе. Каким было жилье интеллигенции в прошлом веке 01.06.2023
+      запросы: Ленинская, 38
+- https://magilev.by/news/2023/02/22/esli-s-drugom-vyshel-v-put-mogilevchanin-s-priyatelem-obvoroval-sosedskuyu-dachu
+      «Если с другом вышел в путь»: могилевчанин с приятелем обворовал соседскую дачу 22.02.2023
+      запросы: Ленинская, 38
+- https://magilev.by/news/2022/10/27/top-10-kvartir-na-sutki-v-mogileve-stoimostyu-chut-vyshe-20-ue
+      Топ-10 квартир на сутки в Могилеве стоимостью чуть выше 20 у.е. 27.10.2022
+      запросы: Ленинская, 38
+- https://magilev.by/news/2022/10/07/istorii-mnogodetnyh-mam-mogileva-i-bobrujska
+      «Без детей я смысла жизни не вижу». Истории многодетных мам Могилева и Бобруйска 07.10.2022
+      запросы: Ленинская, 38
+- https://magilev.by/news/2022/09/02/top-10-vakansij-dlya-pedagogov-v-mogileve
+      Топ-10 вакансий для педагогов в Могилеве 02.09.2022
+      запросы: Ленинская, 38
+- https://magilev.by/news/2022/05/11/dorogie-i-byudzhetnye-kvartiry-na-nachalo-maya-v-mogileve
+      Дорогие и бюджетные квартиры на начало мая в Могилеве 11.05.2022
+      запросы: Ленинская, 38
+- https://magilev.by/news/2019/07/31/nezryachaya-bobrujchanka-zhivet-polnocennoj-zhiznyu-i-pomogaet-drugim
+      Незрячая бобруйчанка пользуется компьютером и будет учить этому других 31.07.2019
+      запросы: Ленинская, 38
+- https://magilev.by/news/2026/10/22/mestechko-glusk-prodolzhenie-skripka-luzha-pervomaj-rassmatrivaem-foto-glusskogo-subbotnika-1926-goda-ch-11
+      «Местечко Глуск. Продолжение». Скрипка, лужа, Первомай: рассматриваем фото глусского субботника 1926 года. Ч. 11. 22.10.2026
+      запросы: Смак.BY
+- https://magilev.by/news/2026/09/09/dva-vida-myasnyh-polufabrikatov-otechestvennogo-proizvoditelya-zapretili-prodavat-v-belarusi
+      Два вида мясных полуфабрикатов отечественного производителя запретили продавать в Беларуси 09.09.2026
+      запросы: Смак.BY
+- https://magilev.by/news/2026/07/23/kuda-shodit-v-mogileve-i-ne-tolko-v-blizhajshie-vyhodnye-25-26-iyulya-nash-gid
+      Куда сходить в Могилеве и не только в ближайшие выходные – 25-26 июля: наш гид 23.07.2026
+      запросы: Смак.BY
+- https://magilev.by/news/2026/07/21/festival-bolshaya-bard-rybalka-2026-projdet-na-chigirinke-s-24-po-26-iyulya-podrobnaya-programma
+      Фестиваль «Большая бард-рыбалка-2026» пройдет на Чигиринке с 24 по 26 июля: подробная программа 21.07.2026
+      запросы: Смак.BY
+- https://magilev.by/news/2025/12/04/bliny-z-pechy-smakata-yakaya-vyartae-da-vyaskovaga-dzyacinstva
+      Бліны з печы. Смаката, якая вяртае да вясковага дзяцінства 04.12.2025
+      запросы: Смак.BY
+- https://magilev.by/news/2025/09/20/glushchane-na-baloce-yak-my-zbirali-zhuraviny-kalya-vozera-baravoe-gluskim-rayone
+      «Глушчане на балоце». Як мы збіралі журавіны каля возера Баравое ў Глускім раёне 20.09.2025
+      запросы: Смак.BY
+- https://magilev.by/news/2025/08/12/na-goluboj-krynice-pod-slavgorodom-v-vyhodnye-13-14-avgusta-otmetyat-makovej-vot-programma-prazdnika
+      На «Голубой крынице» под Славгородом 13-14 августа отметят «Маковей»: вот программа праздника 12.08.2025
+      запросы: Смак.BY
+- https://magilev.by/news/2025/02/07/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 07.02.2025
+      запросы: Смак.BY
+- https://magilev.by/news/2025/02/05/festival-zimovy-smak-est-tolko-mig-a-takzhe-dranik-mezhdu-proshlym-i-budushim
+      Фестиваль «Зiмовы смак». Есть только миг (а также драник) между прошлым и будущим… 05.02.2025
+      запросы: Смак.BY
+- https://magilev.by/news/2025/02/02/festival-zimovy-smak-shurpa-kyufta-i-chak-chak-v-chajhane-rahmat
+      Фестиваль «Зiмовы смак»: шурпа, кюфта и чак-чак в чайхане «Рахмат» 02.02.2025
+      запросы: Смак.BY
+- https://magilev.by/news/2025/02/01/reklama-na-102-festival-zimovy-smak-restoran-turist-udivlyaet-hrustyashimi-flyakami-i-tomlenoj-govyadinoj
+      Фестиваль «Зiмовы смак»: ресторан «Турист» удивляет хрустящими фляками и томленой говядиной 01.02.2025
+      запросы: Смак.BY
+- https://magilev.by/news/2025/01/31/festival-edy-zimovy-smak-v-restorane-colette-rebenok-i-picca-ochen-sovmestimye-komponenty
+      Фестиваль еды «Зімовы смак» в ресто-баре «Colette»: «Ребенок и пицца – очень совместимые компоненты» 31.01.2025
+      запросы: Смак.BY, Colette, гастрофест
+- https://magilev.by/news/2025/01/30/reklama-na-3001festival-edy-v-mogileve-zimovy-smak-mnogo-myasa-i-udivitelnye-syrniki-ot-restorana-santa-mariya-gurmany-ocenyat
+      Фестиваль еды в Могилеве «Зімовы смак». Много мяса и удивительные сырники от ресторана «Санта Мария»: гурманы оценят 30.01.2025
+      запросы: Смак.BY
+- https://magilev.by/news/2025/01/28/pozharskaya-kotleta-tayala-vo-rtu-a-napoleon-okazalsya-ne-desertom-pobyvali-na-mogilevskom-feste-zimovy-smak-v-gastrobare-cokol
+      Пожарская котлета таяла во рту, а наполеон оказался не десертом. Побывали на могилевском фесте «Зімовы смак» в гастробаре «Цоколь» 28.01.2025
+      запросы: Смак.BY
+- https://magilev.by/news/2024/07/12/gotovim-gitary-i-udochki-v-konce-iyulya-na-chigirinke-projdet-bolshaya-bard-rybalka
+      Готовим гитары и удочки: в конце июля на Чигиринке пройдет «Большая бард-рыбалка» 12.07.2024
+      запросы: Смак.BY
+- https://magilev.by/news/2024/06/26/leta-pa-belarusku-ot-mogilevskogo-kafe-stan-udivit-dranpiccej-vlyubit-v-blinchiki-i-poraduet-aromatom-maliny
+      «Лета па-беларуску» от могилевского кафе «СтанЪ» удивило дранпиццей, влюбило в блинчики и порадовало ароматом малины 26.06.2024
+      запросы: Смак.BY
+- https://magilev.by/news/2024/01/28/festival-edy-zimovy-smak-v-mogileve-idete-v-karchmu-na-shkloskim-bazary-berite-kontejner
+      Фестиваль еды «Зiмовы смак» в Могилеве: Идете в «Карчму на Шклоўскiм базары» – берите контейнер 28.01.2024
+      запросы: Смак.BY, Буденного, 13
+- https://magilev.by/news/2024/01/24/samyj-bolshoj-set-na-festivale-edy-zimovy-smak-v-restorane-vintazh
+      Самый большой сет на фестивале еды «Зімовы смак» – в ресторане «Винтаж» 24.01.2024
+      запросы: Смак.BY
+- https://magilev.by/news/2024/01/23/festival-edy-v-mogileve-zimovy-smak-shanshuka-v-santa-marii-nu-prosto-palchiki-oblizhesh-i-blinchiki-v-panirovke-obedenie
+      Фестиваль еды в Могилеве «Зімовы смак»: шакшука в «Санта Марии» – ну просто пальчики оближешь и блинчики в панировке – объедение! 23.01.2024
+      запросы: Смак.BY
+- https://magilev.by/news/2024/01/19/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 19.01.2024
+      запросы: Смак.BY
+- https://magilev.by/news/2024/01/18/festival-edy-zimovy-smak-pirog-i-kolduny-v-kafe-stan-shedevralnye-a-kakie-gribochki
+      Фестиваль еды «Зімовы смак»: пирог и колдуны в кафе «СтанЪ» шедевральные. А какие грибочки! 18.01.2024
+      запросы: Смак.BY
+- https://magilev.by/news/2023/10/14/v-raboteoktyabrfest-v-mogileve-v-korchme-na-shklovskom-bazare-s-festivalnym-zadaniem-spravilis-na-otlichno
+      «Октябрьфэст» в Могилеве: в «Корчме на Шкловском базаре» с фестивальным заданием справились на отлично 14.10.2023
+      запросы: Смак.BY, Буденного, 13
+- https://magilev.by/news/2023/09/23/eto-perebor-mnenie-sladkoezhki-o-kofejnom-sete-v-mogilevskom-kafe-tandyr
+      «Это перебор»: мнение сладкоежки о кофейном сете в могилевском кафе «Тандыр» 23.09.2023
+      запросы: Смак.BY
+- https://magilev.by/news/2023/07/21/puteshestvie-odnogo-dnya-v-belynichi-i-ego-hudozhestvennyj-muzej
+      Путешествие одного дня: в Белыничи и его художественный музей 21.07.2023
+      запросы: Смак.BY
+- https://magilev.by/news/2023/07/20/gastronomicheskij-festival-gaspadarchy-syr-sostoitsya-v-slavgorode-22-iyulya
+      Гастрономический фестиваль «Гаспадарчы сыр» состоится в Славгороде 22 июля 20.07.2023
+      запросы: Смак.BY
+- https://magilev.by/news/2023/06/29/festyval-belaruskaj-kuhni-u-magilyove-tayamnica-ruzhovaga-haladnika-gumar-i-inshyya-zagadki-belaruskamonym-kafe-shparki-los
+      Фестываль беларускай кухні ў Магілёве: таямніца ружовага халадніка, гумар і іншыя загадкі ў беларускамоўным кафэ «Шпаркі лось» 29.06.2023
+      запросы: Смак.BY
+- https://magilev.by/news/2023/06/26/chalavek-galodny-ni-na-shto-ne-godny-kakim-okazalsya-obed-za-5-rublej-v-stolovoj-ot-metiz
+      «Чалавек галодны нi на што не годны»: каким оказался обед за 5 рублей в столовой от «Метиз» 26.06.2023
+      запросы: Смак.BY
+- https://magilev.by/news/2023/04/02/sdelano-s-teplom-i-uyutom-obed-v-stolovoj-domochaj-za-85-rublya
+      Сделано с теплом и уютом. Обед в столовой «Домочай» за 8,5 рубля 02.04.2023
+      запросы: Смак.BY
+- https://magilev.by/news/2023/03/26/a-kapusta-dolzhna-byt-kisloj-posle-nedorogo-obeda-v-stolovoj-gorelektrotransporta-ostalis-voprosy
+      «А капуста должна быть кислой?»: после недорогого обеда в столовой «Горэлектротранспорта» остались вопросы 26.03.2023
+      запросы: Смак.BY
+- https://magilev.by/news/2023/02/11/stolovaya-belorussko-rossijskogo-universiteta-obed-studenta-za-115-rublej
+      Столовая Белорусско-Российского университета: обед студента за 11,5 рублей 11.02.2023
+      запросы: Смак.BY
+- https://magilev.by/news/2022/08/01/bolshaya-bard-rybalka-proshla-posle-pereryva-na-novom-meste-no-so-starymi-druzyami
+      «Большая бард-рыбалка» прошла после перерыва на новом месте, но со старыми друзьями 01.08.2022
+      запросы: Смак.BY
+- https://magilev.by/news/2022/07/27/konkurs-avtorskoj-pesni-banno-ozdorovitelnyj-prazdnik-rybolovnye-sorevnovaniya-koncert-vyacheslava-malezhika-ozvuchena-programma-bolshoj-bard-rybalki-i-predstavlena-shema-ee-koncertnoj-ploshadki
+      Авторская песня, банный праздник, рыболовные соревнования, концерт Вячеслава Малежика: озвучена программа «Большой бард-рыбалки» 27.07.2022
+      запросы: Смак.BY
+- https://magilev.by/news/2022/06/29/obed-v-kafe-bistro-park-avenyu-v-grecheskom-zale-v-grecheskom-zale
+      Обед в кафе-бистро «Парк Авеню»: «В греческом зале, в греческом зале…» 29.06.2022
+      запросы: Смак.BY
+- https://magilev.by/news/2022/06/16/bannyj-prazdnik-vystupleniya-povarov-rybolovnye-sorevnovaniya-i-mnogo-muzyki-chto-budet-na-bard-rybalke-2022
+      Банный праздник, выступления поваров, рыболовные соревнования и много музыки. Что будет на бард-рыбалке-2022 16.06.2022
+      запросы: Смак.BY
+- https://magilev.by/news/2022/06/07/stolovaya-bru-ot-dnya-rozhdeniya-do-svadby
+      Столовая БРУ: студенческий обед за 4.16 рубля. Но это без мясных блюд 07.06.2022
+      запросы: Смак.BY
+- https://magilev.by/news/2022/06/05/litoskaya-gaspadynya-naryhtovaem-sala-solim-pravilna-recepty-yakim-ne-mensh-za-600-gado
+      «Літоўская гаспадыня»: нарыхтоўваем сала. Солім правільна. Рэцэпты, якім не менш за 600 гадоў 05.06.2022
+      запросы: Смак.BY
+- https://magilev.by/news/2022/05/22/litoskaya-gaspadynya-kabasy-yakiya-e-vyaliki-knyaz-vitat-raspavyadaem-yak-ih-prygatavac-calkam-realna
+      «Літоўская гаспадыня»: каўбасы, якія еў вялікі князь Вітаўт. Распавядаем як іх прыгатаваць. Цалкам рэальна! 22.05.2022
+      запросы: Смак.BY
+- https://magilev.by/news/2022/05/13/litoskaya-gaspadynya-abaranki-yakiya-vyratuyuc-zhycce-paddaduc-paru-nastroj
+      «Літоўская гаспадыня»: абаранкі, якія выратуюць жыцце, паддадуць пару ў настрой 13.05.2022
+      запросы: Смак.BY
+- https://magilev.by/news/2022/05/09/okazyvaetsya-u-nas-s-urgantom-sovpadayut-vkusovye-pristrastiya-prosto-sytno-i-mnogo-prodolzhaem-degustirovat-sety-gastrofesta-prohodyashego-v-mogileve
+      «Гастрофест» в Могилеве. Оказывается, у нас с Ургантом совпадают вкусовые пристрастия: просто, сытно и много 09.05.2022
+      запросы: Смак.BY, гастрофест
+- https://magilev.by/news/2022/03/20/litoskaya-gaspadynya-abo-pra-toe-za-shto-radzivil-pane-kahanku-6-mesyaca-u-vezhy-syadze-shto-en-tam-e-i-shto-pi
+      «Літоўская гаспадыня». За што Радзівіл Пане Каханку ў вежы сядзеў, што там еў і што піў 20.03.2022
+      запросы: Смак.BY
+- https://magilev.by/news/2022/02/21/litoskaya-gaspadynya-vinshue-sih-belarusa-z-dnem-rodnaj-movy-recepty-ad-urshuli-radzivil-adnoj-z-samyh-adukavanyh-zhanchyn-svajgo-chasu
+      «Літоўская гаспадыня» віншуе ўсіх беларусаў з Днем роднай мовы! Рэцэпты ад Уршулі Радзівіл 21.02.2022
+      запросы: Смак.BY
+- https://magilev.by/news/2022/02/12/yak-i-shto-pili-nashy-prodki-i-chamu-my-da-getaga-chasu-zhyvyya-i-zdarovyya-parady-ad-litoskaya-gaspadyni
+      «Літоўская гаспадыня». Як і што пілі нашы продкі, i чаму мы да гэтага часу жывыя і здаровыя 12.02.2022
+      запросы: Смак.BY
+- https://magilev.by/news/2021/12/31/recept-litoskaga-bigasa-ad-adama-mickevicha
+      Рэцэпт літоўскага бігаса ад Адама Міцкевіча 31.12.2021
+      запросы: Смак.BY
+- https://magilev.by/news/2021/12/19/shto-e-knyaz-vitat-na-kalyady-prapanovaem-recepty-starazhytnyh-belaruskih-stra-u-tym-liku-posny
+      «Літоўская гаспадыня». Што еў князь Вітаўт на Каляды – рэцэпты старажытных беларускіх страў 19.12.2021
+      запросы: Смак.BY
+- https://magilev.by/news/2021/12/03/smachna-esci-pa-meksikansku-abo-kolki-slo-pra-magileski-gastrafest
+      «Хто хварэе на страўнік, лепей ад гэтых страў адмовіцца». Смачна есці па-мексіканску, або Колькі слоў пра магілеўскі «Гастрафэст» 03.12.2021
+      запросы: Смак.BY, гастрофест
+- https://magilev.by/news/2026/11/10/prodegustirovali-osennij-set-ot-karchmy-na-shkloskim-bazary
+      На любой вкус! Продегустировали осенний сет от «Карчмы на Шклоўскiм базары» 10.11.2026
+      запросы: Буденного, 13
+- https://magilev.by/news/2026/10/30/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-30-oktyabrya-1-noyabrya-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные – 30 октября-1 ноября: наш гид 30.10.2026
+      запросы: Буденного, 13
+- https://magilev.by/news/2026/10/23/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-24-25-oktyabrya-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные – 24-25 октября: наш гид 23.10.2026
+      запросы: Буденного, 13
+- https://magilev.by/news/2026/09/21/burger-iz-dranikov-i-babka-grafa-tyshkevicha-shodili-na-bulba-fest-v-karchmu-na-shkloskim-bazare
+      Бургер из драников и бабка графа Тышкевича: сходили на «Бульба-фэст» в «Карчму на Шклоўскiм базаре» 21.09.2026
+      запросы: Буденного, 13
+- https://magilev.by/news/2026/08/31/mestechko-glusk-chasy-iz-ruk-legendarnogo-budennogo-vosminitochnye-skaterti-takie-raznye-sudby-mestechkovyh-zhenshin-ch-40
+      Местечко Глуск. Часы от Буденного, восьминиточные скатерти… Такие разные судьбы местечковых женщин. Ч. 40 31.08.2026
+      запросы: Буденного, 13
+- https://magilev.by/news/2026/06/22/draniki-s-yablokami-kakaya-zhe-eto-vkusnotisha-pofestivalili-v-mogileve-v-karchme-na-shkloskim-bazary
+      Драники с яблоками – какая же это вкуснотища: пофестивалили в Могилеве – в «Карчме на Шклоўскім базары» 22.06.2026
+      запросы: Буденного, 13
+- https://magilev.by/news/2026/04/12/draniki-olenina-i-nikakogo-diflope-testiruem-moshnyj-set-po-osobennostyam-nacionalnoj-ohoty-v-karchme-na-shkloskim-bazary
+      Драники, оленина и никакого дифлопе: тестируем мощный сет по «Особенностям национальной охоты» в «Карчме на Шклоўскiм базары» 12.04.2026
+      запросы: Буденного, 13, гастрофест
+- https://magilev.by/news/2026/03/16/kulinarnyj-festival-lepshy-gust-magileva-luchshe-dranikov-mogut-byt-tolko-draniki-ot-karchmy-na-shkloskim-bazary
+      Кулинарный фестиваль «Лепшы густ Магiлёва»: лучше драников могут быть только драники от «Карчмы на Шклоўскiм базары»! 16.03.2026
+      запросы: Буденного, 13
+- https://magilev.by/news/2026/01/31/ushli-iz-zhizni-v-bobrujske-s-20-po-27-yanvarya-2026-goda
+      Ушли из жизни в Бобруйске с 20 по 27 января 2026 года 31.01.2026
+      запросы: Буденного, 13
+- https://magilev.by/news/2025/06/18/festivali-morozhenogo-i-vozdushnyh-zmeev-lvinyj-zabeg-i-aviashou-kak-mogilev-otprazdnuet-den-goroda
+      Фестивали мороженого и воздушных змеев, «львиный» забег и авиашоу: как Могилев отпразднует День города 18.06.2025
+      запросы: Буденного, 13
+- https://magilev.by/news/2024/11/21/gastrofest-v-mogileve-salat-v-restorane-hinkalnya-razocharoval-no-situaciyu-spasli-hachapuri-i-cyplenok-v-slivochno-klyukvennom-souse
+      «Гастрофест» в Могилеве: салат в ресторане «Хинкальня» разочаровал, но ситуацию спасли хачапури и цыпленок в сливочно-клюквенном соусе 21.11.2024
+      запросы: Буденного, 13, гастрофест
+- https://magilev.by/news/2024/06/21/vystavka-retroavtomobilej-otkrytie-fontana-prazdnik-vkusa-sorevnovaniya-silachej-programma-prazdnichnyh-meropriyatij-k-dnyu-goroda-v-mogileve
+      Выставка ретроавтомобилей, открытие фонтана, праздник вкуса, соревнования силачей: программа праздничных мероприятий к Дню города в Могилеве 21.06.2024
+      запросы: Буденного, 13
+- https://magilev.by/news/2023/12/02/gastrofest-v-mogileve-esli-hinkalnya-to-tolko-navynos
+      Гастрофест в Могилеве: если «Хинкальня» – то только навынос 02.12.2023
+      запросы: Буденного, 13, гастрофест
+- https://magilev.by/news/2023/06/07/svinina-zhestkaya-zato-oficiant-nezhnyj-kak-my-poobedali-v-korchme-na-shklovskom-bazare-v-centre-mogileva
+      Свинина жесткая, зато официант нежный: как мы пообедали в «Корчме на Шкловском базаре» в центре Могилева 07.06.2023
+      запросы: Буденного, 13
+- https://magilev.by/news/2023/05/04/gastrofest-v-mogileve-zhal-chto-bez-deserta-ili-obed-vmesto-uzhina-v-restorane-hinkalnya
+      «Гастрофест» в Могилеве: Жаль, что без десерта, или Обед вместо ужина в ресторане «Хинкальня» 04.05.2023
+      запросы: Буденного, 13, гастрофест
+- https://magilev.by/news/2023/02/03/remont-bolee-10-dorog-i-pochta-20-dvorovyh-territorii-v-mogilevskom-gorispolkome-ozvuchili-plany-blagoustrojstva-na-2023-god
+      Отремонтировать более 10 дорог и почти 20 дворов: что планируют сделать в Могилеве в 2023 году 03.02.2023
+      запросы: Буденного, 13
+- https://magilev.by/news/2022/09/28/ogromnaya-yaichnica-i-mnogo-ukropa-poobedali-v-korchme-na-shklovskom-bazare
+      Огромная яичница и много укропа: пообедали в «Корчме на Шкловском базаре» 28.09.2022
+      запросы: Буденного, 13
+- https://magilev.by/news/2026/11/15/chislo-milliarderov-v-mire-sokratilos-vsemu-vinoj-lyubovnicy-dzhensena-huanga
+      Число миллиардеров в мире сократилось – всему виной любовницы Дженсена Хуанга 15.11.2026
+      запросы: Колетт
+- https://magilev.by/news/2024/11/01/belorusskoe-blyudo-no-hrustit-po-francuzski-ocenili-festivalnyj-set-ot-restorana-colette
+      «Белорусское блюдо, но хрустит по-французски». Оценили фестивальный сет от ресторана «Colette» 01.11.2024
+      запросы: Колетт, Colette
++ https://magilev.by/news/2026/09/23/kogda-osen-zastavlyaet-iskat-teplo-zaglyanuli-v-colette-na-leninskoj-i-poprobovali-set-bulba-festa
+      Когда осень заставляет искать тепло: заглянули в Colette на Ленинской и попробовали сет «Бульба-фэста» 23.09.2026
+      запросы: Colette
+- https://magilev.by/news/2026/09/16/kulinarnyj-festival-bulba-fest-s-20-sentyabrya-v-mogileve-kto-uchastvuet-i-chto-v-menyu
+      Кулинарный фестиваль «Бульба-фэст» с 20 сентября в Могилеве: кто участвует и что в меню 16.09.2026
+      запросы: Colette
+- https://magilev.by/news/2026/06/23/festival-edy-vkus-leta-volna-letnih-emocij-v-gorshochke-s-pticej-ot-resto-bara-colette
+      Фестиваль еды «Вкус лета»: волна летних эмоций в горшочке с птицей от ресто-бара «Colette» 23.06.2026
+      запросы: Colette
+- https://magilev.by/news/2026/04/11/gastrofest-v-mogileve-velikolepno-maestro-ili-sup-zagadka-ot-resto-bara-colette-dlya-sultana-kotoruyu-my-ne-smogli-otgadat
+      Гастрофест в Могилеве: великолепно, маэстро, или Суп-загадка от ресто-бара «Colette» для султана, которую мы не смогли отгадать 11.04.2026
+      запросы: Colette, гастрофест
+- https://magilev.by/news/2026/03/18/gastrofestival-lepshy-gust-magilyova-kak-my-iskali-nastoyashij-vkus-rodnogo-goroda-v-resto-bare-colette
+      Гастрофестиваль «Лепшы густ Магiлёва»: как мы искали настоящий вкус родного города в ресто-баре «Colette» 18.03.2026
+      запросы: Colette, гастрофест
+- https://magilev.by/news/2025/10/20/mogilev-pro-osen-v-restorane-colette-teplo-uyut-i-vkus-zolotogo-oktyabrya-na-tarelke
+      «Могилев pro Осень» в ресто-баре «Colette»: тепло, уют и вкус золотого октября на тарелке 20.10.2025
+      запросы: Colette
+- https://magilev.by/news/2024/11/21/zhitel-mogilevskoj-oblasti-vyigral-avtomobil-belgee-x50-v-reklamnoj-igre-udacha-v-pridachu
+      Житель Могилевской области выиграл автомобиль BELGEE X50 в рекламной игре «Удача в придачу!» 21.11.2024
+- https://magilev.by/news/2026/11/06/sopromat-druzya-sem-stupenek-i-shkola-zhizni-v-mogileve-yubilej-bru-ne-za-gorami
+      Сопромат, друзья, «Семь ступенек» и «школа жизни» в Могилеве. Юбилей БРУ не за горами 06.11.2026
+- https://magilev.by/news/2026/09/12/kartina-maslom-po-mogilevski-vstrechatsya-vsegda-luchshe-chem-proshatsya
+      Картина маслом по-могилевски: встречаться всегда лучше, чем прощаться 12.09.2026
+- https://magilev.by/news/2026/08/18/odnazhdy-v-mogileve-i-muzhik-s-kirpichom-kak-zhe-bez-nego
+      Однажды в Могилеве. И мужик с кирпичом, как же без него… 18.08.2026
+- https://magilev.by/news/2026/07/24/mogilevskie-hippi-tak-kto-zhe-vse-taki-byl-pervyj
+      Могилевские хиппи: так кто же все-таки был первый? 24.07.2026
+- https://magilev.by/news/2026/07/09/prosto-mogilevchane-otcy-synovya-i-prevratnosti-sudby
+      Просто могилевчане. Отцы, сыновья и превратности судьбы 09.07.2026
+- https://magilev.by/news/2026/06/05/odnazhdy-v-mogileve-pecherskoe-ozero-zelenyj-plyazh-i-trofejnaya-lavochka-iz-skvera-u-chyrvonaj-zorki-video
+      Однажды в Могилеве. Печерское озеро, зеленый пляж и трофейная лавочка из сквера у «Чырвонай зоркі». Видео 05.06.2026
+- https://magilev.by/news/2026/04/23/volodya-iz-mogilevskogo-dvorika-po-ulice-leninskoj-na-smenu-staromu-vsegda-prihodit-chto-to-novoe
+      Володя из могилевского дворика по улице Ленинской: «На смену старому всегда приходит что-то новое» 23.04.2026
+- https://magilev.by/news/2026/03/30/neobychnyj-match-na-mogilevskom-spartake-eto-bylo-nedavno-eto-bylo-davno
+      Необычный матч на могилевском «Спартаке»: это было недавно, это было давно 30.03.2026
+- https://magilev.by/news/2026/01/16/mogilevskie-semidesyatniki-nam-bitly-stroit-i-zhit-pomogayut
+      Могилевские «семидесятники»: «Нам битлы строить и жить помогают!» 16.01.2026
+- https://magilev.by/news/2026/01/06/mogilevskie-muzykanty-yubilei-chtut-no-ved-za-vsem-ne-usledish
+      Могилевские музыканты юбилеи чтут. Но ведь за всем не уследишь 06.01.2026
+- https://magilev.by/news/2025/12/02/kotiki-mogilevskogo-dvorika-v-pozharnom-pereulke-myau-my-s-vami
+      Котики могилевского дворика в Пожарном переулке: «Мяу, мы с вами!» 02.12.2025
+- https://magilev.by/news/2025/11/28/odnazhdy-v-mogileve-za-bednogo-haima-zamolvite-slovo
+      Однажды в Могилеве. За бедного Хаима замолвите слово 28.11.2025
+- https://magilev.by/news/2025/07/19/odnazhdy-v-mogileve-ne-ishite-menya-na-zemle
+      Однажды в Могилеве. «Не ищите меня на Земле…» 19.07.2025
+- https://magilev.by/news/2025/06/18/mogilevskie-semidesyatniki-inogda-dejstvuyut-po-naitiyu-esli-dlya-etogo-est-sereznye-osnovaniya
+      Могилевские «семидесятники» иногда действуют по наитию. Если для этого есть серьезные основания 18.06.2025
+- https://magilev.by/news/2024/07/30/tam-gde-krutyatsya-diski-ili-neskolko-vstrech-so-starymi-druzyami
+      Там, где «крутятся» диски, или Несколько встреч со старыми друзьями 30.07.2024
+- https://magilev.by/news/2024/07/22/mogilevskie-semidesyatniki-mogut-zaputatsya-v-cifrah-ili-dazhe-v-sobytiyah-no-potom-obyazatelno-ispravlyayutsya
+      Могилевские «семидесятники» могут запутаться в цифрах или даже в событиях. Но потом обязательно исправляются 22.07.2024
+- https://magilev.by/news/2024/06/11/mogilevskaya-kazimirovka-velosiped-zdes-vovse-ne-pri-chem
+      Водоемы могилевской Казимировки: велосипед здесь вовсе ни при чем 11.06.2024
+- https://magilev.by/news/2024/03/30/odnazhdy-v-mogileve-ha-ha-ha-ha-ha-ili-vpolne-sereznyj-razgovor-o-kazalos-by-shutochnom-zhanre-tvorchestva
+      Однажды в Могилеве. «Ха-ха-ха-ха-ха…», или Вполне серьезный разговор о, казалось бы, шуточном жанре творчества 30.03.2024
+- https://magilev.by/news/2024/02/19/mogilevskij-trombonist-lenya-ne-nado-nyt
+      Могилевский тромбонист Леня: «Не надо ныть!» 19.02.2024
+- https://magilev.by/news/2024/01/13/odnazhdy-v-mogileve-nu-vot-takoj-on-byl-chelovek
+      Однажды в Могилеве. «Ну, вот такой он был человек!» 13.01.2024
+- https://magilev.by/news/2023/12/20/petya-ulavlivaet-shepot-s-5-metrov-kak-mogilevskij-malchik-s-gluhotoj-stal-slyshat-i-hodit-v-obychnyj-detsad
+      «Петя улавливает шепот с 5 метров…». Как могилевский мальчик с глухотой стал слышать и ходить в обычный детсад 20.12.2023
+- https://magilev.by/news/2023/09/23/odnazhdy-v-mogileve-grandioznyj-koncert-kotoryj-tak-i-ne-sostoyalsya
+      Однажды в Могилеве. Грандиозный концерт, который так и не состоялся 23.09.2023
+- https://magilev.by/news/2023/08/19/odnazhdy-v-mogileve-vot-tak-prihodish-k-istine-prostoj-izvestnoj-do-tebya-uzhe-vekami-ili-bi-bi-king-na-leninskoj
+      Однажды в Могилеве. «Вот так приходишь к истине простой, известной до тебя уже веками…», или Би Би Кинг на Ленинской 19.08.2023
+- https://magilev.by/news/2023/06/17/predlozhenie-sdelal-na-obzornoj-ploshadke-nacionalnoj-biblioteki-svadebnaya-para-nedeli
+      «Предложение сделал на обзорной площадке Национальной библиотеки». Свадебная пара недели 17.06.2023
+- https://magilev.by/news/2023/05/27/odnazhdy-v-mogileve-derevo-leni-palevicha-i-v-samom-dele-ulybalos
+      Однажды в Могилеве. Дерево Лени Палевича и в самом деле улыбалось… 27.05.2023
+- https://magilev.by/news/2023/05/03/kot-dzhosh-samaya-dobraya-sobaka-solnyshko-i-koshechka-alisa-podborka-besplatnyh-obyavlenij-o-teh-komu-nuzhen-dom
+      Котик Джош, добрая собака Солнышко и кошечка Алиса: подборка бесплатных объявлений о тех, кому нужен дом 03.05.2023
+- https://magilev.by/news/2023/02/07/nikakoj-fingal-pod-glazom-s-etim-ne-sravnitsya
+      «Никакой фингал под глазом с этим не сравнится»: одноклассникам посвящается 07.02.2023
+- https://magilev.by/news/2023/01/21/odnazhdy-v-mogileve-gorlo-est-i-u-butylki-pochemu-zh-ona-ne-pyot
+      Однажды в Могилеве. «Горло есть и у бутылки, почему ж она не пьет?» 21.01.2023
+- https://magilev.by/news/2023/01/13/chudesa-da-i-tolko-neskolko-neobyknovennyh-istorij-iz-proshlogo-sluchivshihsya-pod-novyj-god
+      Чудеса, да и только. Несколько необыкновенных историй из прошлого, случившихся под Новый год 13.01.2023
+- https://magilev.by/news/2022/12/30/i-spustya-gody-on-govorit-chto-ya-u-nego-edinstvennaya-i-nepovtorimaya-semya-akulich-iz-bobrujska-otprazdnovala-serebryanuyu-svadbu
+      «И спустя годы я у него – единственная и неповторимая!» Семья Акулич из Бобруйска отпраздновала серебряную свадьбу 30.12.2022
+- https://magilev.by/news/2022/12/21/volshebstvo-samo-sebya-proyavit-neskolko-obyknovennyh-istorij-s-neobychnym-syuzhetom
+      Волшебство само себя проявит: несколько обыкновенных историй с необычным сюжетом 21.12.2022
+- https://magilev.by/news/2022/12/16/koncertnuyu-programmu-sostoyashuyu-iz-pesen-kino-i-multfilmov-gotovit-mogilevskaya-gorodskaya-kapella-k-novomu-godu
+      Концертную программу, состоящую из песен кино и мультфильмов, готовит Могилевская городская капелла к Новому году 16.12.2022
+- https://magilev.by/news/2022/12/08/moj-kalendar-den-kogda-ne-stalo-dzhona-lennona
+      Мой календарь: день, когда не стало Джона Леннона 08.12.2022
+- https://magilev.by/news/2022/12/03/odnazhdy-v-mogileve-kluby-kotorye-nas-vybirayut-po-strannomu-stecheniyu-obstoyatelstv
+      Однажды в Могилеве. Клубы, которые нас выбирают. По странному стечению обстоятельств 03.12.2022
+- https://magilev.by/news/2022/11/15/mogilevskij-prospekt-mira-na-fone-cvetushej-sakury-strany-voshodyashego-solnca
+      Могилевский проспект Мира на фоне цветущей сакуры. Про выпуск книги о наших «семедисятниках» в Японии 15.11.2022
+- https://magilev.by/news/2022/11/12/odnazhdy-v-mogileve-volosy-kotorye-my-poteryali
+      Однажды в Могилеве. Волосы, которые мы потеряли 12.11.2022
+- https://magilev.by/news/2022/11/09/v-obshezhitii-mogilevskoj-mashinki-reproduktory-pryamo-so-stenok-sletali-den-makkaferti-znal-svoe-delo
+      В общежитии могилевской «машинки» репродукторы прямо со стенок слетали! Дэн Маккаферти знал свое дело 09.11.2022
+- https://magilev.by/news/2022/09/01/dizajnerom-hudozhnik-mozhet-i-ne-byt-zato-dizajner
+      Дизайнером художник может и не быть, зато дизайнер… 01.09.2022
+- https://magilev.by/news/2022/08/10/odnazhdy-v-mogileve-dvesti-dam-na-pyateryh-muzhikov
+      Однажды в Могилеве. Двести дам на пятерых мужиков 10.08.2022
+- https://magilev.by/news/2022/05/28/spokojnye-cveta-kachestvennye-materialy-komfortnaya-posadka-v-bobrujske-proshel-pokaz-shkolnoj-formy-ot-slavyanki-video
+      Спокойные цвета, качественные материалы, комфортная посадка. В Бобруйске прошел показ школьной формы от «Славянки» (видео) 28.05.2022
+- https://magilev.by/news/2022/03/02/odnazhdy-v-mogileve-schastya-vsegda-pochemu-to-na-vseh-ne-hvataet
+      Однажды в Могилеве. «Счастья всегда почему-то на всех не хватает» 02.03.2022
+- https://magilev.by/news/2022/02/02/odnazhdy-v-mogileve-neobychnaya-istoriya-zhizni-i-smerti-poklonnika-katkov-i-romantikov
+      Однажды в Могилеве. Необычная история жизни и смерти поклонника «Катков» и «Романтиков» 02.02.2022
+- https://magilev.by/news/2022/01/27/27-yanvarya-v-mogileve-fotoreportazh-s-nekogda-samoj-krutoj-dorozhnoj-arterii-goroda-s-ulicy-lazarenko
+      27 января в Могилеве. Фоторепортаж с некогда самой крутой улицы города — Лазаренко 27.01.2022
+- https://magilev.by/news/2022/01/19/odnazhdy-v-mogileve-pravyj-huk-pod-july-morning
+      Однажды в Могилеве. Серия ударов в голову под модный шлягер, или Как дрались на танцплощадках в брежневские времена 19.01.2022
+- https://magilev.by/news/2022/01/01/53-goda-nazad-v-efir-vyshel-pervyj-vypusk-legendarnoj-teleprogrammy-vremya-istoriya-staroj-fotografii-dolgoe-vremya-pylivshejsya-na-polke-v-shkafu-odnoj-iz-mogilevskih-kvartir
+      53 года назад в эфир вышел первый выпуск легендарной телепрограммы «Время». История старой фотографии 01.01.2022
+- https://magilev.by/news/2021/12/18/odnazhdy-v-mogileve-ot-snezhinki-do-pingvina-i-v-konce-koncov-k-zvezdochetu-ch2
+      Однажды в Могилеве. «У нас были лавочки на Первомайской»: от посиделок возле кинотеатра «Чырвоная Зорка» – до судеб могилевчан 18.12.2021
+- https://magilev.by/news/2021/11/18/v-parke-gorkogo-do-moey-armii-tancev-ne-bula
+      «Это было действительно крутое время!» Мажор к юбилею Леонида Шульца 18.11.2021
+- https://magilev.by/news/2021/10/30/vspomnit-vse-mihail-shufutinskij-o-nostalgii-restoranah-lichnoj-zhizni-i-obogrevatelyah
+      Вспомнить всё. Михаил Шуфутинский: о ностальгии, ресторанах, личной жизни и обогревателях 30.10.2021
+- https://magilev.by/news/2021/09/20/zametil-chto-gribochki-lyubyat-voennye-prazdniki-fotokonkurs-tihaya-ohota-prodolzhaetsya
+      «Заметил, что грибочки любят военные праздники». Фотоконкурс «Тихая охота» продолжается 20.09.2021
+- https://magilev.by/news/2021/08/26/ulichnye-perfomansy-brezhnevskoj-epohi-restorannye-salfetki-i-masshtaby-socialisticheskogo-stroitelstva
+      Уличные перфомансы брежневской эпохи. Как жили, учились и развлекались студенты 1970-х: ч. 5 26.08.2021
+- https://magilev.by/news/2021/07/30/ispytaniya-sopromatom-i-rok-n-rollom
+      Испытания сопроматом и рок-н-роллом в могилевской «машинке». Как жили и учились, о чем мечтали студенты 1970-х 30.07.2021
+- https://magilev.by/news/2020/04/27/dnej-12-sideli-bez-gaza-varili-supy-i-kashi-kipyatilnikom-o-chem-bobrujchane-pisali-v-pismah-i-otkrytkah-mnogo-let-nazad
+      «Дней 12 сидели без газа, варили супы и каши кипятильником». О чем бобруйчане писали в письмах и открытках много лет назад 27.04.2020
+- https://magilev.by/news/2019/11/09/svadba-nedeli-nevesta-ne-stala-puskat-otnosheniya-na-samotek-i-vse-vzyala-v-svoi-ruki
+      Молодожены недели: невеста все взяла в свои руки 09.11.2019
+- https://magilev.by/news/2026/11/13/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-14-15-noyabrya-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные – 14-15 ноября: наш гид 13.11.2026
+      запросы: гастрофест
+- https://magilev.by/news/2026/11/12/gastrofest-v-mogileve-pivo-v-deserte-i-ne-tolko-ocenili-gastronomicheskij-eksperiment-ot-cokolya
+      Гастрофест в Могилеве: Пиво в десерте и не только! Оценили гастрономический эксперимент от «Цоколя» 12.11.2026
+      запросы: гастрофест
+- https://magilev.by/news/2026/09/25/kuda-shodit-v-mogileve-i-ne-tolko-v-blizhajshie-vyhodnye-26-27-sentyabrya-nash-gid
+      Куда сходить в Могилеве и не только в ближайшие выходные – 26-27 сентября: наш гид 25.09.2026
+      запросы: гастрофест
+- https://magilev.by/news/2026/08/06/v-den-na-edu-tratim-30-40-rublej-kak-zhivet-semya-s-dohodom-v-3-000-rublej
+      «В день на еду тратим 30-40 рублей». Как живет семья с доходом в 3 000 рублей 06.08.2026
+      запросы: гастрофест
+- https://magilev.by/news/2026/06/24/reklama-na-2406dlya-teh-kto-realno-progolodalsya-testiruem-gastrofest-vkus-leta-v-gastrobare-luch
+      Для тех, кто реально проголодался. Тестируем гастрофест «Вкус лета» в гастробаре «Луч» 24.06.2026
+      запросы: гастрофест
+- https://magilev.by/news/2026/04/30/kuda-shodit-v-mogileve-i-ne-tolko-v-blizhajshie-bolshie-vyhodnye-1-2-i-3-maya-nash-gid
+      Куда сходить в Могилеве и не только в ближайшие большие выходные – 1, 2 и 3 мая: наш гид 30.04.2026
+      запросы: гастрофест
+- https://magilev.by/news/2026/04/25/kuda-shodit-v-mogileve-i-ne-tolko-v-blizhajshij-edinstvennyj-vyhodnoj-26-aprelya-nash-gid
+      Куда сходить в Могилеве и не только в ближайший единственный выходной – 26 апреля: наш гид 25.04.2026
+      запросы: гастрофест
+- https://magilev.by/news/2026/04/17/kuda-shodit-v-mogileve-v-blizhajshie-bolshie-vyhodnye-s-18-po-21-aprelya-nash-gid
+      Куда сходить в Могилеве в ближайшие большие выходные – с 18 по 21 апреля: наш гид 17.04.2026
+      запросы: гастрофест
+- https://magilev.by/news/2026/04/10/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-11-i-12-aprelya-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные – 11 и 12 апреля: наш гид 10.04.2026
+      запросы: гастрофест
+- https://magilev.by/news/2026/04/10/kak-my-v-restorane-gurmanoff-uvideli-ogon-preispodnej-i-ocenili-na-vkus-krylya-letuchih-myshej
+      Как мы в ресторане «Гурманофф» увидели «Огонь преисподней» и оценили на вкус крылья «Летучих мышей» 10.04.2026
+      запросы: гастрофест
+- https://magilev.by/news/2026/04/09/luk-imeet-sloi-i-nash-uzhin-tozhe-kak-my-iskali-boloto-shreka-v-centre-mogileva
+      Лук имеет слои, и наш ужин тоже: как мы искали болото Шрека в центре Могилева 09.04.2026
+      запросы: гастрофест
+- https://magilev.by/news/2025/12/12/pobediteli-desyatogo-gastrofesta-opredeleny-v-mogileve-tri-luchshih-zavedeniya-vybrali-mogilevchane
+      Победители десятого «Гастрофеста» определены в Могилеве: три лучших заведения выбрали могилевчане 12.12.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/11/28/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 28.11.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/11/21/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 21.11.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/11/19/mogilevskie-semidesyatniki-dikie-loshadi-kogda-nibud-my-ih-ukrotim
+      Могилевские «семидесятники»: «Дикие лошади, когда-нибудь мы их укротим» 19.11.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/11/17/mogilevskij-restoran-gruzinskoj-kuhni-tut-ne-do-filosofii
+      Могилевский ресторан грузинской кухни: тут не до философии 17.11.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/11/14/kuda-shodit-v-mogileve-v-blizhajshie-bolshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 14.11.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/11/14/gastrofest-v-mogileve-vmeste-s-gurmanoff-pobyvali-v-gostyah-u-babushki-i-ugostilis-nastoyashim-bigosom-i-machankoj-s-gusem
+      «Гастрофест» в Могилеве: вместе с «Гурманофф» побывали в гостях у бабушки и угостились настоящим бигосом и мачанкой с гусем 14.11.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/11/13/gastrofest-v-mogileve-shuba-bez-shuby-utka-s-mandarinami-i-vzryvnaya-karamel-ot-cokolya-v-ozhidanii-novogo-goda
+      «Гастрофест» в Могилеве: «Шуба» без шубы, утка с мандаринами и взрывная карамель от «Цоколя» в ожидании Нового года 13.11.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/10/17/kuda-shodit-v-mogileve-i-ne-tolko-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве (и не только) в ближайшие выходные: наш гид 17.10.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/09/23/balnye-tancy-gala-koncert-vystavki-tematicheskie-ploshadki-chem-vpechatlit-gostej-verasnyoski-fest-v-zhilichah-programma
+      Бальные танцы, гала-концерт, выставки, тематические площадки: чем впечатлит гостей «Вераснёўскі фэст» в Жиличах (программа) 23.09.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/05/30/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 30.05.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/05/29/gastrofest-v-mogileve-dve-palochki-uchitsya-uchitsya-uchitsya
+      «Гастрофест» в Могилеве. «Две палочки»: учиться никогда не поздно 29.05.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/05/26/gastrofest-v-mogileve-chajhana-rahmat-kak-vsegda-okazalas-na-vysote
+      «Гастрофест» в Могилеве: Кюфта, пахлава и суп без мяса, но наваристый: чайхана «Рахмат» снова порадовала 26.05.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/05/23/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 23.05.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/05/21/gastrofest-v-mogileve-vysokaya-kuhnya-s-elementami-stolovoj-v-restorane-101
+      «Гастрофест» в Могилеве: «высокая кухня» с элементами столовой в ресторане «101» 21.05.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/05/17/gastrofest-v-mogileve-ekler-s-forelyu-i-pyure-gercoginya-ot-bara-edison-dlya-cenitelej-vkusnoj-edy
+      «Гастрофест» в Могилеве: эклер с форелью и пюре Герцогиня от бара «Эдисон» для ценителей вкусной еды 17.05.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/05/16/kuda-shodit-v-mogileve-i-ne-tolko-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве (и не только) в ближайшие выходные: наш гид 16.05.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/05/15/gastrofest-v-mogileve-set-s-vidom-na-gorod-ot-gastrobara-cokol-s-dubajskim-shokoladom-vprikusku
+      «Гастрофест» в Могилеве: сет с видом на город от гастробара «Цоколь» с дубайским шоколадом вприкуску 15.05.2025
+      запросы: гастрофест
+- https://magilev.by/news/2025/05/05/devyatyj-gastrofest-startuet-v-mogileve-s-15-maya-vse-sety-po-45-rublej
+      Девятый «Гастрофест» стартует в Могилеве с 15 мая. Все сеты – по 45 рублей 05.05.2025
+      запросы: гастрофест
+- https://magilev.by/news/2024/11/29/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 29.11.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/11/23/gastrofest-v-mogileve-eshe-by-raz-shodila-v-restoran-101-tolko-radi-supchika
+      «Гастрофест» в Могилеве: еще бы раз сходила в ресторан «101» только ради супчика 23.11.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/11/22/gastrofest-v-mogileve-15-kg-vkusnoj-italii-v-parmezane
+      Гастрофест в Могилеве: 1,5 кг вкусной Италии в «Пармезане» 22.11.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/11/20/gastrofest-v-mogileve-tertyuha-i-gulbishnik-v-karchme-na-shkloskim-bazary
+      Гастрофест в Могилеве: тертюха и гульбишник в «Карчме на Шклоўскiм базары» 20.11.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/11/19/gastrofest-v-mogileve-fokusy-s-forelyu-ne-prohodyat
+      «Гастрофест» в Могилеве: фокусы с форелью не проходят 19.11.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/11/18/gastrofest-v-mogileve-v-sushi-bare-dve-palochki-mozhet-skryuchit-i-produt-no-neudobstva-sglazhivaet-vkusnejshij-desert
+      «Гастрофест» в Могилеве: в суши-баре «Две палочки» может скрючить и продуть, но неудобства сглаживает вкуснейший десерт 18.11.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/11/15/gastrofest-v-mogileve-v-chajhane-rahmat-mnogo-myasa-i-potryasayushij-tykvenno-orehovyj-pirog-gurmany-ocenyat
+      «Гастрофест» в Могилеве: в чайхане «Рахмат» много мяса и потрясающий тыквенно-ореховый пирог. Гурманы оценят! 15.11.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/11/15/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-vyhodnoj-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные (выходной): наш гид 15.11.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/11/14/gastrofest-v-mogileve-tumannye-gastronomicheskie-spektakli-s-pannoj-kottoj-v-vuali-ot-cokolya
+      «Гастрофест» в Могилеве: «туманные» гастрономические спектакли с панной-коттой в вуали от «Цоколя» 14.11.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/11/06/kuda-shodit-v-mogileve-v-dlinnye-noyabrskie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в длинные ноябрьские выходные: наш гид 06.11.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/10/30/vosmoj-gastrofest-startuet-v-mogileve-s-14-noyabrya-vse-sety-po-43-rublya
+      Восьмой «Гастрофест» стартует в Могилеве с 14 ноября. Все сеты – по 43 рубля 30.10.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/10/19/s-klyukvoj-so-svekloj-dedu-na-zakusku-v-belynichskom-rajone-proshel-kapustnyj-gastrofest
+      С клюквой, со свеклой, «деду на закуску»: в Белыничском районе прошел капустный гастрофест 19.10.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/08/16/kuda-shodit-v-mogileve-i-ne-tolko-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве (и не только) в ближайшие выходные: наш гид 16.08.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/08/15/gastrofest-torgovye-ryady-konkursy-den-ogurca-projdet-17-avgusta-v-shklove
+      Гастрофест, торговые ряды, конкурсы: «День огурца» пройдет 17 августа в Шклове 15.08.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/07/06/gastrofest-v-mogileve-kak-my-s-bitlami-zamechatelno-pouzhinali-v-pozharnom-restorane
+      «Гастрофест» в Могилеве: как мы с «битлами» замечательно поужинали в «пожарном» ресторане 06.07.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/07/05/gastrofest-v-mogileve-tomlenye-gribochki-v-sedobnoj-misochke-ot-kafe-grilnik
+      «Гастрофест» в Могилеве: томленые грибочки в съедобной мисочке от кафе «Грильник» 05.07.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/06/25/gastrofest-v-mogileve-ne-dranikami-edinymi-bogata-belorusskaya-kuhnya-dokazal-gastrobar-cokol
+      «Гастрофест» в Могилеве: не драниками едиными богата белорусская кухня, доказал гастробар «Цоколь» 25.06.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/05/26/fatu-dlya-svadby-naprimer-ya-sshila-sebe-sama-svadebnaya-para-nedeli
+      «Хотя я знала, что он собирается сделать предложение, все равно удивилась». Свадебная пара недели 26.05.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/05/10/nazvana-trojka-luchshih-zavedenij-uchastnikov-gastrofesta-v-mogileve-kto-v-chisle-pobeditelej
+      Названа тройка лучших заведений-участников «Гастрофеста» в Могилеве. Кто в числе победителей? 10.05.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/05/07/kogda-gastrofest-ne-v-radost-v-breste-vo-vremya-festivalya-edy-setom-odnogo-iz-zavedenij-otravilis-19-chelovek
+      Когда «Гастрофест» не в радость: в Бресте во время фестиваля еды сетом одного из заведений отравились 19 человек 07.05.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/05/03/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 03.05.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/04/27/gastrofest-v-mogileve-tzhvzhik-hashlama-gvezeli-zastole-po-armyanski-ostavivshee-samye-priyatnye-vpechatleniya
+      «Гастрофест» в Могилеве: тжвжик, хашлама, гвезели: застолье по-армянски, оставившее самые приятные впечатления 27.04.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/04/26/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 26.04.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/04/25/gastrofest-v-mogileve-puteshestvie-po-sicilii-vmeste-s-picceriej-pan-picca-udalos-na-slavu
+      «Гастрофест» в Могилеве: путешествие по Сицилии вместе с пиццерией «Пан Пицца» удалось на славу 25.04.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/04/24/gastrofest-v-mogileve-restoran-chajhana-rahmat-vyzyvaet-zhelanie-voskliknut-bis
+      «Гастрофест» в Могилеве. Ресторан «Чайхана Рахмат» вызывает желание воскликнуть: «Бис!» 24.04.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/04/22/gastrofest-v-mogileve-v-restorane-101-set-dlya-lyubitelej-ostryh-oshushenij
+      «Гастрофест» в Могилеве: в ресторане «101» – сет для любителей острых ощущений 22.04.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/04/19/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 19.04.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/04/18/gastrofest-v-mogileve-blagodarya-gastrobaru-cokol-ya-teper-znayu-vkus-ostrova-madejra
+      «Гастрофест» в Могилеве: благодаря гастробару «Цоколь» я теперь знаю «вкус» острова Мадейра 18.04.2024
+      запросы: гастрофест
+- https://magilev.by/news/2024/04/04/sedmoj-gastrofest-startuet-v-mogileve-18-aprelya
+      Седьмой «Гастрофест» стартует в Могилеве 18 апреля 04.04.2024
+      запросы: гастрофест
+- https://magilev.by/news/2023/12/18/sekret-samogo-vkusnogo-salata-ot-shef-povara-mogilevskogo-gastrobara-cokol-s-receptom
+      Рецепт самого вкусного салата от шеф-повара могилевского гастробара «Цоколь» 18.12.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/12/01/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 01.12.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/11/30/gastrofest-v-mogileve-set-ot-povarov-chajhany-rahmat-zashel-na-ura-zhal-katlama-slishkom-bystro-zakonchilas
+      «Гастрофест» в Могилеве: сет от поваров чайханы «Рахмат» зашел на ура, жаль катлама слишком быстро закончилась 30.11.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/11/28/teper-znayu-kak-za-35-rublej-horosho-posidet-v-restorane-zhizn-glazami-mogilevchan
+      «Теперь знаю, как за 35 рублей хорошо посидеть в ресторане». Жизнь глазами могилевчан 28.11.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/11/16/gastrofest-v-mogileve-desert-v-gastrobare-cokol-pesnya-kak-i-tartar-iz-telyatiny
+      «Гастрофест» в Могилеве: десерт в гастробаре «Цоколь» – песня, как и тартар из телятины 16.11.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/10/13/reklama-na-13-oktyabrya-festival-oktyabrfest-v-mogileve-chem-ugoshaet-i-udivlyaet-gastrobar-cokol
+      Фестиваль «Октябрьфэст» в Могилеве: чем угощает и удивляет гастробар «Цоколь» 13.10.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/09/18/sledyashim-za-figuroj-nash-desert-pridetsya-po-dushe-chem-udivlyaet-mogilevskoe-kafe-stan-na-kofejnom-festivale
+      «Следящим за фигурой наш десерт придется по душе». Чем удивляет могилевское кафе «Станъ» на кофейном фестивале? 18.09.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/08/15/s-chem-edyat-koul-slou-poobedali-v-mogilevskom-restorane-myasnik-za-10-rublej-70-kopeek
+      С чем едят Коул-Слоу? Пообедали в могилевском ресторане «Мясникъ» за 10 рублей 70 копеек 15.08.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/06/29/festival-belorusskoj-kuhni-v-mogileve-posle-obeda-ot-santy-marii-v-samyj-raz-idti-na-pokos-ili-bratsya-za-topor
+      Фестиваль белорусской кухни в Могилеве: после обеда от «Санты Марии» в самый раз идти на покос или браться за топор 29.06.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/06/28/festival-belorusskoj-kuhni-v-mogileve-kak-my-eli-i-ne-seli-papin-dranik-v-restorane-myasnik
+      Фестиваль белорусской кухни в Могилеве: как мы ели и не съели «папин драник» в ресторане «Мясникъ» 28.06.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/06/27/festival-belorusskoj-kuhni-v-mogileve-kak-my-v-cokole-degustirovali-lazanki-i-shkvarki-ot-hudozhnika
+      Фестиваль белорусской кухни в Могилеве: как мы в «Цоколе» дегустировали лазанки и шкварки от… художника 27.06.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/05/12/mogilevchane-otdali-golosa-3-luchshim-zavedeniyam-uchastnikam-gastrofesta-v-gorode-tak-kto-zhe-pobedil
+      Могилевчане отдали голоса 3 лучшим заведениям-участникам «Гастрофеста» в городе. Так кто же победил? 12.05.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/05/02/gastrofest-v-mogileve-puteshestvie-po-kavkazu-s-komandoj-bbq-cafe-udalos-na-troechku-s-plyusom
+      «Гастрофест» в Могилеве: путешествие по Кавказу с командой «BBQ CAFE» удалось на «троечку с плюсом» 02.05.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/05/01/gastrofest-v-mogileve-led-i-plamya-v-kafe-bistro-van-gog
+      Гастрофест в Могилеве: лед и пламя в кафе-бистро «Ван Гог» 01.05.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/04/30/gastrofst-v-mogileve-peredo-mnoj-vyrosla-gora-edy-vo-vremya-uzhina-v-restorane-myasnik
+      «Гастрофест» в Могилеве: «Передо мной выросла гора еды» во время ужина в ресторане «Мясникъ» 30.04.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/04/29/gastrofest-v-mogileve-chtob-ya-tak-zhil-chto-eli-hobbity-elfy-i-gnomy-v-knige-tolkina-vlastelin-kolec
+      «Гастрофест в Могилеве». Чтоб я так жил! Что ели хоббиты, эльфы и гномы в книге Толкина «Властелин колец» 29.04.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/04/27/gastrofest-v-mogileve-priznayus-ya-vsegda-gotov-golosovat-za-aziatskij-plov12
+      «Гастрофест» в Могилеве: «Признаюсь, я всегда готов голосовать за азиатский плов!» 27.04.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/04/26/v-mogileve-stalo-strashno-tolko-doma-kosti-bednogo-zhivotnogo-v-kachestve-posudy-v-restorane-101
+      «Гастрофест» в Могилеве. Страшно красиво: кости бедного животного в качестве посуды в ресторане «101» 26.04.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/04/24/gastrofest-v-mogileve-mark-twain-povarami-mogilevskogo-burger-bara-depo-ostalsya-by-dovolen
+      «Гастрофест» в Могилеве: Марк Твен поварами бургер бара «Депо» остался бы доволен 24.04.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/04/21/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 21.04.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/04/21/gastrofest-v-mogileve-roll-pod-prikrytiem-ili-kak-sochetayut-nesochetaemoe-v-sel-i-sel
+      «Гастрофест» в Могилеве. Ролл под прикрытием, или Как сочетают несочетаемое в «Сел и съел» 21.04.2023
+      запросы: гастрофест
+- https://magilev.by/news/2023/01/03/kofemany-grustnaya-novost-anonsirovannyj-ranee-gastrofest-kofe-ne-sostoitsya-v-mogileve
+      Кофеманы, грустная новость. Анонсированный ранее «Gastrofest. Кофе» не состоится в Могилеве 03.01.2023
+      запросы: гастрофест
+- https://magilev.by/news/2022/12/01/gastrofest-v-mogileve-nado-bylo-byt-kitom-ili-delfinom
+      «Гастрофест» в Могилеве: надо было быть китом или дельфином. Посетили ресторан «Бирария» 01.12.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/11/30/gastrofest-v-mogileve-kazus-povara-v-prigotovlenii-deserta-i-makarony-v-tomatnom-souse-v-restorane-level-11
+      «Гастрофест» в Могилеве: казус повара при приготовлении десерта и макароны в томатном соусе в ресторане Level 11 30.11.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/11/26/odnazhdy-v-mogileve-s-borshom-shnicelem-i-kompotom
+      Однажды в Могилеве. Недовесы, пережары, недосыпы, недовары… Столовки времен СССР 26.11.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/11/25/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 25.11.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/11/25/dlya-gruzinskogo-zastolya-net-takogo-ponyatiya-kak-vremya-gastrofest-v-mogileve
+      «Для грузинского застолья нет такого понятия, как время»: «Гастрофест» в Могилеве 25.11.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/11/23/gastrofest-v-mogileve-miks-vkusov-s-salatom-iz-bityh-ogurcov-ili-idealnyj-variant-dlya-romanticheskogo-uzhina-na-dvoih
+      «Гастрофест» в Могилеве. Микс вкусов с салатом из «битых» огурцов в ресторане «101», или Идеальный вариант для романтического ужина на двоих 23.11.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/11/18/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 18.11.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/11/03/gurmany-vy-gotovy-chetvertyj-gastrofest-startuet-v-mogileve-uzhe-17-noyabrya
+      Гурманы, вы готовы? Четвертый «Гастрофест» стартует в Могилеве уже 17 ноября 03.11.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/09/08/den-goroda-v-minske-budut-prazdnovat-10-sentyabrya-programma-pochemu-stoit-poehat
+      День города в Минске будут праздновать 10 сентября. Программа + почему стоит поехать 08.09.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/05/23/itogi-gastrofesta-v-mogileve-opredeleny-tri-luchshih-zavedeniya
+      Итоги «Гастрофеста» в Могилеве. Определены три лучших заведения 23.05.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/05/15/segodnya-poslednij-den-gastrofesta-vspominaem-vse-zavedeniya-gde-my-pobyvali
+      Сегодня последний день «Гастрофеста». Вспоминаем все заведения, где мы побывали 15.05.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/05/13/kuda-shodit-v-mogileve-v-blizhajshie-vyhodnye-nash-gid
+      Куда сходить в Могилеве в ближайшие выходные: наш гид 13.05.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/05/13/gastrofest-v-mogileve-i-elvis-vas-vstrechaet-u-poroga
+      «Гастрофест» в Могилеве. И Элвис вас встречает у порога… 13.05.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/05/10/golyj-dali-na-shvabre-i-tunec-pod-sousom-ocenili-set-v-gastrobare-cokol
+      «Гастрофест» в Могилеве. Голый Дали на швабре и тунец под соусом. Оценили сет в гастробаре «Цоколь» 10.05.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/05/08/moj-kot-eto-est-vkusno-mnogo-tretij-den-ne-mozhem-spravitsya-glavnoe-zharenyj-banan
+      «Гастрофест» в Могилеве. Мой кот это тоже ест! Вкусно, много! А на закуску – жареный банан 08.05.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/05/07/konceptualnoe-kulinarnoe-iskusstvo-ot-van-goga-set-kotoryj-nuzhno-perezhit
+      «Гастрофест» в Могилеве. Концептуальное кулинарное искусство от «Ван Гога». Сет, который нужно пережить 07.05.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/05/03/nino-katamadze-prava-gruzinskaya-kuhnya-ne-dlya-teh-kto-sidit-na-diete-znakomimsya-s-restoranom-uchastnikom-kulinarnogo-festivalya-gastrofest
+      Грузинская кухня не для фанатов диет. Знакомимся с рестораном-участником кулинарного фестиваля «Гастрофест» 03.05.2022
+      запросы: гастрофест
+- https://magilev.by/news/2022/04/18/34-rublya-za-obed-ili-uzhin-ocherednoj-gastrofest-startuet-v-mogileve-28-aprelya
+      34 рубля за обед или ужин. Очередной «Гастрофест» стартует в Могилеве 28 апреля 18.04.2022
+      запросы: гастрофест
+- https://magilev.by/news/2021/12/08/uspeh-gastrofesta-dlya-uchastnika-v-nalichii-v-sete-blyuda-iz-myasa-mnenie
+      «Продали более 600 тематических сетов, поток посетителей возрос». В ресторанах Могилева рассказали впечатления о прошедшем «Гастрофесте» 08.12.2021
+      запросы: гастрофест
+- https://magilev.by/news/2021/12/01/rasstoyanie-ot-mogileva-do-pragi-povaram-sokratit-ne-udalos-nash-korrespondent-provel-vecher-v-restorane-uchastnike-kulinarnogo-festivalya-gastrofest
+      «Расстояние от Могилева до Праги поварам сократить не удалось». Обзор еще одного ресторана-участника кулинарного фестиваля «Гастрофест» 01.12.2021
+      запросы: гастрофест
+- https://magilev.by/news/2021/11/30/ispytano-na-sebe-gastronomicheskaya-simfoniya-v-norvezhskom-stile-s-dobavleniem-langustina-s-seldereevym-pyure-i-maslom-hvoi
+      Лангустин с сельдереевым пюре и маслом хвои: продолжаем посещать рестораны «Гастрофеста» и дегустировать блюда разных стран 30.11.2021
+      запросы: гастрофест
+- https://magilev.by/news/2021/11/29/esli-restoran-ne-ochen-to-nikakoj-gastrofest-ne-pomozhet-prodolzhaem-ocenivat-kuhni-mira-na-gastronomicheskom-festivale-v-mogileve
+      «Если ресторан не очень, то никакой «Гастрофест» не поможет…» Трое скептиков отправились в ирландский паб 29.11.2021
+      запросы: гастрофест
+- https://magilev.by/news/2021/11/27/-hinkali-zharenye-i-salat-pryamo-iz-tbilisi-prodolzhaem-degustirovat-kuhni-mira-na-gastrofeste-v-mogileve
+      Хинкали жареные и салат «прямо из Тбилиси». Продолжаем дегустировать кухни мира на «Гастрофесте» в Могилеве 27.11.2021
+      запросы: гастрофест
+- https://magilev.by/news/2021/11/22/ispytano-na-sebe-ot-banki-tushenki-k-kurice-kachchatore
+      Испытано на себе: от банки тушенки – к курице Каччаторе. Как наш журналист побывал на «Гастрофесте» в Могилеве 22.11.2021
+      запросы: гастрофест

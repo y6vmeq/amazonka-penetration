@@ -1,0 +1,75 @@
+{
+ "number": 229,
+ "url": "https://komkur.info/component/search/?searchword=%D0%9A%D0%BE%D0%BB%D0%B5%D1%82%D1%82&searchphrase=exact&ordering=newest&limit=0",
+ "title": "Результаты поиска: Колетт - komkur.info",
+ "at": "2026-11-15T17:05:23.352Z",
+ "html": "raw/229_komkur-info_komkur-search-kolett.html",
+ "txt": "raw/229_komkur-info_komkur-search-kolett.txt",
+ "sha256": "9b70bbca31e5264fc26b8b857d64900db12027739ee0a0372fe689b0a65a530f",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/component/finder/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:cd19a83bc8bc4614347f054dca815359"
+    ]
+   },
+   {
+    "id": "searchForm",
+    "cls": "",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "select:select-one:ordering"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 652
+ },
+ "extra": {
+  "name": "komkur-search_kolett",
+  "status": 200,
+  "requested": "https://komkur.info/component/search/?searchword=%D0%9A%D0%BE%D0%BB%D0%B5%D1%82%D1%82&searchphrase=exact&ordering=newest&limit=0",
+  "site": "komkur.info",
+  "query": "Колетт",
+  "summary": "Результаты поиска: найдено 0 элементов.",
+  "links": [
+   {
+    "href": "https://yandex.by/maps/-/CDQK58zQ",
+    "text": "ул. Московская, 42, г. Бобруйск, Беларусь, 213826"
+   }
+  ],
+  "next": []
+ }
+}

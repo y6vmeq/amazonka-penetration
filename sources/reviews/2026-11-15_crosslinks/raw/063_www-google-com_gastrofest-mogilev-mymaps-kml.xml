@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Могилев - Республиканский Gastrofest.Craft</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Слой без названия</name>
+      <Placemark>
+        <name>Чайхана «Рахмат»</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhIDuislGe-8GHtsG33u1fnWsIPdliaGLSN9GXqMlZDZXGqbNDKkqpneXmzTUiKtbdTHjV9tPWLobGAInYCfVIdxv4vAN9_52YNGw7Apgq-Q9IkEz8kkWHHU5tyh3IyU2RFABViMXlgo38vU_iXkpoC95ri3Kzx7owA8Of3bWZi2njhn73PScfVhA6X6r5ixExFAZ0yLafC2YuU2AvVkezkWeEPfj37-q4ii4LRMHm5vnPPkJJTeNg8i6U?fife=s16383" height="200" width="auto" /><br><br>Фестивальный сет:<br>Салат из баклажанов и перца<br>Битые огурцы<br>Оливки<br>Жареный арахис<br>Запеченный картофель<br>Маринованный лук<br>Чучвара по-дунгански<br>Люля-курица<br>Люля-баранина<br>Шашлык из курицы<br>Гренки<br>Соус «Шашлычный»<br>Соус «Катык»<br><br>Вес сета: 1320 г.<br>_________________________________________________<br>39 BYN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhIDuislGe-8GHtsG33u1fnWsIPdliaGLSN9GXqMlZDZXGqbNDKkqpneXmzTUiKtbdTHjV9tPWLobGAInYCfVIdxv4vAN9_52YNGw7Apgq-Q9IkEz8kkWHHU5tyh3IyU2RFABViMXlgo38vU_iXkpoC95ri3Kzx7owA8Of3bWZi2njhn73PScfVhA6X6r5ixExFAZ0yLafC2YuU2AvVkezkWeEPfj37-q4ii4LRMHm5vnPPkJJTeNg8i6U?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.3385333,53.9029702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>INARI</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZidvp6eYq1zD8M8_AWnj8jzJD5wcOJYmHuJ1sMG1C3qRszuax7P6NxR2GEsxC5-jDc8GhZOoT8nynyz6TBGTiMsO6GYQO0CRIRWqVXAVIdI9hcydJed1naBQXAcc0DnS5x12zY94Z2ZRscMnEan1mVcHhiFls2k4eju1i_JKjkSBtWqfUkmY3KmeV2UF96VMG2kJqr9BpRu0D-C-HIh47MMrzLBqQ5YR9MKdBjArDb7ywzZPJ7qeOSF63U?fife=s16383" height="200" width="auto" /><br><br>Фестивальный сет:<br>Ролл-Дог в темпуре с охотничьей колбаской<br>Морской окунь в темпуре<br>Мидии запеченные в сливочно-чесночном соусе, подаются с чиабаттой<br>Шарики Аранчини с форелью<br>Жареный арахис<br>Кукуруза на гриле<br>Фирменный соус INARI<br>Остро-сладкий соус<br>Маринованный лук<br><br>Вес сета: 1300 г.<br>_________________________________________________<br>39 BYN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZidvp6eYq1zD8M8_AWnj8jzJD5wcOJYmHuJ1sMG1C3qRszuax7P6NxR2GEsxC5-jDc8GhZOoT8nynyz6TBGTiMsO6GYQO0CRIRWqVXAVIdI9hcydJed1naBQXAcc0DnS5x12zY94Z2ZRscMnEan1mVcHhiFls2k4eju1i_JKjkSBtWqfUkmY3KmeV2UF96VMG2kJqr9BpRu0D-C-HIh47MMrzLBqQ5YR9MKdBjArDb7ywzZPJ7qeOSF63U?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.3383279,53.9092317,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ресторан 101</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiL5vjAkzis-SJHDOjl7IEVrRd48cL48ODYS53HcVmEds3KnV71rpFYIHyEsOGt46C1Ghy-ieICkdsGq2N1259Zt3HYAh-55pqwWLNBBUU8e2roTGfhycdOUGYX6IwrC1bK1Gz-vW0zQxQPyk0l2U99NEGSV8YTfRDlZIgwM23mPjra796fUmOGutwdKQd_OKxvkmUXO7R4wDObL2up0mZg6idQEk-N8ACb0G-YvIl7CxvdZMq9cyYIovE?fife=s16383" height="200" width="auto" /><br><br>Фестивальный сет:<br>Пинса Дьябло с охотничьими колбасками и перцем халапеньо<br>Пикантные куриные крылышки в томатном соусе<br>Томленые свиные ребра в соусе барбекю<br>Чизбургер с цыпленком<br>Бургер с говядиной и салатом коул слоу<br>Картофель фри<br>Фирменный пикантный соус<br><br>Вес сета: 1300 г.<br>_________________________________________________<br>39 BYN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiL5vjAkzis-SJHDOjl7IEVrRd48cL48ODYS53HcVmEds3KnV71rpFYIHyEsOGt46C1Ghy-ieICkdsGq2N1259Zt3HYAh-55pqwWLNBBUU8e2roTGfhycdOUGYX6IwrC1bK1Gz-vW0zQxQPyk0l2U99NEGSV8YTfRDlZIgwM23mPjra796fUmOGutwdKQd_OKxvkmUXO7R4wDObL2up0mZg6idQEk-N8ACb0G-YvIl7CxvdZMq9cyYIovE?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.3353179,53.8995519,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Эдисон Бар</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi7DwHqXlu1YO6fHHkOeoDOIMzX87jxnmC1XouUbRatHUFdjHnZGZO-PA_CB29pVJx0PdMZ9s6ST1pGpGsnnp5DkAAzQilU3HmTT_bmxfm9QOGfBJXw9e0Mt7MlR5HVnebzlU8j1c0uj22SOPWbsVGao286oxRiOuBjXDV_eBctblAjQQwZGkJAUoGzZt1Ors4_5ri-oWFZpGT6esaARQiAeXr0FeLmrEvUfopITCVGUd7AAqDZ3uUhMCw?fife=s16383" height="200" width="auto" /><br><br>Фестивальный сет:<br>Хот-дог с кукурузой, обжаренной с сыром<br>Куриный бургер с копченым сыром<br>Кесадилья с говяжьим фаршем<br>Колбаски XXL<br>Уши свиные копченые<br>Начос из лаваша<br>Картофель фри<br>Луковые кольца<br>Картофельные шарики<br>Куриные крылышки терияки<br>Соус сладкий чили<br>Соус барбекю<br>Соус сырный<br><br>Вес сета: 1635 г.<br>_________________________________________________<br>39 BYN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi7DwHqXlu1YO6fHHkOeoDOIMzX87jxnmC1XouUbRatHUFdjHnZGZO-PA_CB29pVJx0PdMZ9s6ST1pGpGsnnp5DkAAzQilU3HmTT_bmxfm9QOGfBJXw9e0Mt7MlR5HVnebzlU8j1c0uj22SOPWbsVGao286oxRiOuBjXDV_eBctblAjQQwZGkJAUoGzZt1Ors4_5ri-oWFZpGT6esaARQiAeXr0FeLmrEvUfopITCVGUd7AAqDZ3uUhMCw?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.3336168,53.8957291,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Рестобар "[исключено]"]]></name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgHac_jWeLiRkx07B-EncKklA_oKnu5AJI-YFu0pxhcTptQ5eN3EGGMNYERtBHbO383aS6m5W5fAOWLDmL_1NgLc7uvoMecjo2PGDjeRWmh-kmnO7gs9Jod4y1XntVUITMd6GOGJz7rjptNtsKXO2scXCKrL4TRW83zJaqSn79FSL8oB0g1FJ5dylJyismYp3ZsuncFfvHVpADke-EqdwkThk4SivXAmqcirGlBgXuG9P0q4DDhzSanY4Q?fife=s16383" height="200" width="auto" /><br><br>Фестивальный сет:<br>Говяжий тартар на бородинских чипсах<br>Бекон ролл с цыпленком<br>Бургер с луковым мармеладом<br>Сырные пишме<br>Луковые кольца<br>Картофельные чипсы<br>Маринованные томаты<br>Коул слоу<br>Соус барбекю<br>Соус медовый ранч<br>Соево-чесночный соуч<br>Имбирь, васаби<br><br>Вес сета: 1100 г.<br>_________________________________________________<br>39 BYN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgHac_jWeLiRkx07B-EncKklA_oKnu5AJI-YFu0pxhcTptQ5eN3EGGMNYERtBHbO383aS6m5W5fAOWLDmL_1NgLc7uvoMecjo2PGDjeRWmh-kmnO7gs9Jod4y1XntVUITMd6GOGJz7rjptNtsKXO2scXCKrL4TRW83zJaqSn79FSL8oB0g1FJ5dylJyismYp3ZsuncFfvHVpADke-EqdwkThk4SivXAmqcirGlBgXuG9P0q4DDhzSanY4Q?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.3123862,53.9261301,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Гастробар Цоколь</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhfWYa55UWru6_VdwRyUdgLdELGU7liM-Sgh46FU3hBPooswWoTTE4HnH5ApL0_7KJJmvF3ck53QogXeAeR4VK5zV5YJyNo7tVKkjkLDCz53hxuaALRo8_mmDAHHjJlS-E7luZeDd7IzTzs7j-LxPAJOLL-toR6tuP2BH8ddQr7Q8HlHwMhgUj-hyZznQXbJ5FU_AWIKL4MCTfNF0Sa8yuaPmRFPzvNlCLDLjVVW-C2xh84Xbj7CfdU8Io?fife=s16383" height="200" width="auto" /><br><br>Фестивальный сет:<br>Тартар из соленой грудинки с обожженным хлебом и соусом на темном пиве<br>Суши-дог с креветками и огурчиками кимчи<br>Глазированный окорочок с пивной корочкой и баварская тушеная капуста с горчичным соусом<br>Пивная меренга с бородинской крошкой, злаками и ганашем дор блю<br><br>Вес сета: 990 г.<br>_________________________________________________<br>39 BYN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhfWYa55UWru6_VdwRyUdgLdELGU7liM-Sgh46FU3hBPooswWoTTE4HnH5ApL0_7KJJmvF3ck53QogXeAeR4VK5zV5YJyNo7tVKkjkLDCz53hxuaALRo8_mmDAHHjJlS-E7luZeDd7IzTzs7j-LxPAJOLL-toR6tuP2BH8ddQr7Q8HlHwMhgUj-hyZznQXbJ5FU_AWIKL4MCTfNF0Sa8yuaPmRFPzvNlCLDLjVVW-C2xh84Xbj7CfdU8Io?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.3328113,53.9014901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Рестобар «Луна»</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi5jDW8jj59fjMjaymor0hqOHSWEjxtutYpSUpSDCROI6-XuTgyC3AnCFG0cbRVPKm-kM31cUlmcYdYXABs6sI_aP70B3vVGWCk1_1_oT-GsTvYo1WLCBvD0zXifdC9UWh-bYybYfRlh57AFwQlJ-BDZ_RqY8-Yxz-MXtZFmfPTiTrwBDNGXFzEGhLlqUFIQBEEJxrDJ8HEPoy-X-Ms5p89DT7RJWIcly8TfG284eS2BL_8s1-q8xnGpf0?fife=s16383" height="200" width="auto" /><br><br>Фестивальный сет:<br>Пармская ветчина<br>Куриное сырокопченое филе<br>Арахис соленый с паприкой<br>Начос<br>Сыр копченый<br>Картофель фри<br>Луковые кольца<br>Гренки с сыром<br>Плечики куриные запеченные<br>Кальмар в темпуре<br>Колбаски охотничьи<br>Тортильи тартар<br>Слоеные палочки с беконом<br>Сырные палочки из лаваша в темпуре<br>Соус фирменный<br>Соус сырный<br>Соус сладкий чили<br><br>Вес сета: 1490 г.<br>_________________________________________________<br>39 BYN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi5jDW8jj59fjMjaymor0hqOHSWEjxtutYpSUpSDCROI6-XuTgyC3AnCFG0cbRVPKm-kM31cUlmcYdYXABs6sI_aP70B3vVGWCk1_1_oT-GsTvYo1WLCBvD0zXifdC9UWh-bYybYfRlh57AFwQlJ-BDZ_RqY8-Yxz-MXtZFmfPTiTrwBDNGXFzEGhLlqUFIQBEEJxrDJ8HEPoy-X-Ms5p89DT7RJWIcly8TfG284eS2BL_8s1-q8xnGpf0?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.3366559,53.89828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Рестобар Амазонка</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZj84FCJ9fyZjgYJuL75J2dQ5Sp1ja5UheUfUfg8LwDDgjohFTKrlN2ZL29dcYhwx5J_N7BaxzBKGx2-SDFDT9nRxw3An21ucch5pbd1PFvkHCqtw3Jb3tNv6LD97NJcOfmDNqEtDxH-R65iPXPHvcIQkYtyjquWNVBHb9sqAXUoH7UgMSaHthwpqIqAi2XNGpoOGb1mJDkVk8_flkFt1Q8aCVt0wePtoqrkscFpTDwqVGqzLOAjw5vPw1I?fife=s16383" height="200" width="auto" /><br><br>Фестивальный сет:<br>"От светлого к тёмному"<br>Фритюр-микс «Золотая классика» (сырные шарики, сочные наггетсы, чесночные гренки с сыром, пикантная морковь по-корейски и два фирменных соуса: сырный и чесночный)<br>Дуэт бургеров «Контраст вкусов»:<br>- бургер с рваной свининой и острым соусом шрирача<br>- бургер с рваной свининой и соусом BBQ<br>Свиные рёбрышки гриль с соусом BBQ, подаются с картофельными дольками по-деревенски и порцией насыщенного дымного соуса<br><br>Вес сета: 1425 г.<br>_________________________________________________<br>39 BYN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZj84FCJ9fyZjgYJuL75J2dQ5Sp1ja5UheUfUfg8LwDDgjohFTKrlN2ZL29dcYhwx5J_N7BaxzBKGx2-SDFDT9nRxw3An21ucch5pbd1PFvkHCqtw3Jb3tNv6LD97NJcOfmDNqEtDxH-R65iPXPHvcIQkYtyjquWNVBHb9sqAXUoH7UgMSaHthwpqIqAi2XNGpoOGb1mJDkVk8_flkFt1Q8aCVt0wePtoqrkscFpTDwqVGqzLOAjw5vPw1I?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.3394751,53.9011724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Смак.BY</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhSEK5ytCXFkmU6YiJMvr_caR3A169n3F2LyRMhHZQCGPWKuV0lq3KHkd0QGalXFlXSMy6dvAmKfuQWFWbDO8l2p48Sef628aXWMVfQkGFopOkBe_WxpC3PgygsXYK-1r1_F7ycca3oRVSvvPH5_H8UdNVMYSk8O3h0ItmE5-7K7HBGZl_7uReOQY-v7ajO34eBnoFviRmsFr1b_7S79OA7DKIBI24vAaCDbk9JwfvlAXT5EcLcasWvoAs?fife=s16383" height="200" width="auto" /><br><br>Фестивальный сет:<br>Бульба пицца с курицей и шампиньонами<br>Картофельные клецки с пармезаном<br>Драники с форелью, красной икрой и крем-чизом<br>Груша в винном соусе с кешью и пломбиром<br><br>Вес сета: 1200 г.<br>_________________________________________________<br>39 BYN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhSEK5ytCXFkmU6YiJMvr_caR3A169n3F2LyRMhHZQCGPWKuV0lq3KHkd0QGalXFlXSMy6dvAmKfuQWFWbDO8l2p48Sef628aXWMVfQkGFopOkBe_WxpC3PgygsXYK-1r1_F7ycca3oRVSvvPH5_H8UdNVMYSk8O3h0ItmE5-7K7HBGZl_7uReOQY-v7ajO34eBnoFviRmsFr1b_7S79OA7DKIBI24vAaCDbk9JwfvlAXT5EcLcasWvoAs?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.3396666,53.9023959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ресторан Хинкальня </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjdPQlHRvRXIfdyHoMTd72af3X6-pnixrFte4OQU3DqVeookGo8QrGsyJO9PppxX7WV4SpDCFY6UtV6N5Lq1POrTY2JZZ73sRJWsZUULx6emeFc7gHdzNEScBxQXNn9MydvPYTo4IQTdOV67j_XGnqPz5y_Eqwm20pZW26pKegVdpUo3n8O2duHPZ5kCLB58YXniq4hg891fOX37hj2NSv6u88OBCqFIOV6I_s_MMdMft2o5nUe2TyOt8U?fife=s16383" height="200" width="auto" /><br><br>Фестивальный сет:<br>Сет «Сухой Закон»<br>«Кранч-Бочка» (2 порции)<br>Салат из свежей капусты, моркови и лука, с майонезной заправкой и хрустящими сухариками<br>«Запретный Круг»<br>Хачапури с пеперони и сливочным сыром сулугуни<br>«Конфискат»<br>Ассорти из пивных закусок: жареные хинкали, крылья BBQ, хрустящие луковые кольца, картофель фри, маринованный лук, сырный соус и соус BBQ<br><br>Вес сета: 1520 г.<br>_________________________________________________<br>39 BYN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjdPQlHRvRXIfdyHoMTd72af3X6-pnixrFte4OQU3DqVeookGo8QrGsyJO9PppxX7WV4SpDCFY6UtV6N5Lq1POrTY2JZZ73sRJWsZUULx6emeFc7gHdzNEScBxQXNn9MydvPYTo4IQTdOV67j_XGnqPz5y_Eqwm20pZW26pKegVdpUo3n8O2duHPZ5kCLB58YXniq4hg891fOX37hj2NSv6u88OBCqFIOV6I_s_MMdMft2o5nUe2TyOt8U?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.339757,53.9024093,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

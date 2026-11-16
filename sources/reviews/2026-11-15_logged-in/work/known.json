@@ -1,0 +1,1959 @@
+{
+ "threads_codes": [
+  "DSpj2nsjLxX",
+  "DTFz-MQDfTF",
+  "DTj-HCVgkye",
+  "DTkFQaciLX-",
+  "DTlc-snDL7p",
+  "DTnRgRCDMTI",
+  "DTnnS5vgqtR",
+  "DTqCyiRiH2B",
+  "DTu26IECJM2",
+  "DUIcTVPiMXW",
+  "DUIdZ89iE8l",
+  "DUiad6TiHfx",
+  "DUkoavPjvVZ",
+  "DUsrm-GiKHu",
+  "DVQcpEbDLRA",
+  "DVVxFFsDATm",
+  "DVVxibdjCpK",
+  "DVxx6DZDEUK",
+  "DWQozuVFSTR",
+  "DYw6NKljOuQ",
+  "DYwu5v6jMml",
+  "DYwuwzCjPv0",
+  "DZ4_1W-DOxG",
+  "DZ4_1cQDHvr",
+  "DaKuau2DNLY",
+  "DaUqoo5kXbv",
+  "DcTJAUXiOWO",
+  "DcTJw9tDCLu",
+  "DcTL69LDMkX",
+  "DcTk5nHiBEV",
+  "Dd_mtCYCujP",
+  "De_5Cv0jEXr",
+  "Dew6fTKjRzk",
+  "Dewwg_XCJii",
+  "DexEPohkXkR",
+  "DexLtiLEfbH",
+  "DexM--ukXi1",
+  "DexNDIXkTZ-",
+  "DexNIw8EYKa",
+  "DexNKV0EVff",
+  "DexOivMEcY2",
+  "DfMmflAlx8n",
+  "DfMtMjsjRdL",
+  "Dfm-Cm9DFhI",
+  "Dfm00xWjq6O",
+  "Dfmpin6Ctpv",
+  "DfmpipbCkYG",
+  "Dfmpiq3CjWu",
+  "Dfmyc7ugvV6",
+  "DfnBNjEkZU8",
+  "DfnBv7bEZ3y",
+  "DfnCBMLDByL",
+  "DfnEVbuFT3S",
+  "DfnK_oniuWA",
+  "DfnKo4fipYu",
+  "DfnL7qdjJrb",
+  "DfnLxYJDTat",
+  "DfnMVISii_-",
+  "DfnSVahClB4",
+  "DfnWDxvjqId",
+  "DfndLj4DHlS",
+  "DfoJBXSDAqF",
+  "DfoOsawCgHt",
+  "DfoTxdDjRtA",
+  "DfoXLSOjKPH",
+  "DfoYZK5EUoo",
+  "DfoZD7cgKgx",
+  "DfobgriDb_g",
+  "DfobsgWCono",
+  "Dfobt2gCt6i",
+  "DfodG5Eiqu0",
+  "Dfoh8htDNyb",
+  "DfojPvoivas",
+  "Dfojgh2DF5H",
+  "DfpSfqaiP39",
+  "DfpTWw5DJM5",
+  "Dfq-XucEQca",
+  "Dfq-XvYESyA",
+  "Dfq-XveEWh5",
+  "Dfq-YE2EWpt",
+  "Dfr-PK2EV4v",
+  "Dfr3nYoCuDR",
+  "Dfr4ISIEVc-",
+  "Dfr4ITzkVio",
+  "Dfr8tD9DJMR",
+  "DfrASW4jlMh",
+  "DfrAYoeCBS1",
+  "DfrAnnnEe3r",
+  "DfrCACCEQ5i",
+  "DfrCPW2jqyt",
+  "DfrD57VkaOv",
+  "DfrF5wJEXjF",
+  "DfrFrW4gpnh",
+  "DfrHnFSiE9G",
+  "DfrHnUrjQ5w",
+  "DfrI2h9iIPm",
+  "DfrImxfkbRe",
+  "DfrIy85EYx-",
+  "DfrJzNFDISM",
+  "DfrJzNxjI8B",
+  "DfrJzRgDMi7",
+  "DfrLGyZjetR",
+  "DfrMiFgEbie",
+  "DfrQNsxALQM",
+  "DfrUfrBERHh",
+  "DfrZH_2Drli",
+  "DfrbuFJDMMW",
+  "Dfrcf5WCI3T",
+  "DfrkvGejKtS",
+  "DfrlrgCkVbv",
+  "DfrlrgOkbQO",
+  "DfrlrgykfGf",
+  "DfrlrhCERBQ",
+  "DfrmeALEf45",
+  "DfrmonJCtdG",
+  "DfrmuvVEdUV",
+  "Dfrnh-WCvBL",
+  "Dfrnq9xgGWT",
+  "DfroHlRina9",
+  "Dfrp4DUCBYs",
+  "DfrplSCCM1i",
+  "Dfrq-6jkRpl",
+  "Dfrq39qkde6",
+  "DfrqYOkEXcV",
+  "DfrqZHqiH82",
+  "DfrqaugkTRy",
+  "Dfrqc3UiBzx",
+  "DfrqelsEa7y",
+  "Dfrqh7yiqOK",
+  "Dfrqi3ekSKU",
+  "DfrqnGJkSar",
+  "DfrqsRMiD1p",
+  "Dfrqua2kV0G",
+  "DfrrAI0iiMj",
+  "DfrrAIvCqsB",
+  "DfrrAL3CqFi",
+  "DfrrECKEe2H",
+  "DfrrEspkZKz",
+  "DfrrGAcESZ_",
+  "DfrrWFCihxx",
+  "DfrsCMmCAA4",
+  "DfrsZFcDaKC",
+  "Dfrt13ajcoW",
+  "Dfrt8XGAO7n",
+  "DfrtV4aEWM1",
+  "DfrtbVOkSKg",
+  "DfruBBUjWSt",
+  "DfruC_OkXTY",
+  "DfruH6JgG48",
+  "DfrunDXjEix",
+  "Dfrw8UpDXbV",
+  "DfrwUXxiJ6i",
+  "Dfrxk_sjMoQ",
+  "DfsDkxTESCq",
+  "DfsEQjPDBQc",
+  "DfsF8-riHlT",
+  "DfsF8OtiLdj",
+  "DfsF8_rCIhk",
+  "DfsF8sDiIBS",
+  "DfsFl-7iHEg",
+  "DfsFzpWCGlK",
+  "DfsG-41iPJu",
+  "DfsGu1wCC0p",
+  "DfsH1eMiFBk",
+  "DfsH9uSDGQm",
+  "DfsHhuEjD16",
+  "DfsI2kciBq2",
+  "DfsIOPOEb3-",
+  "DfsIjhEiFBf",
+  "DfsInUyiKmW",
+  "DfsIo-cEa3m",
+  "DfsIypmiEhV",
+  "DfsJ3e0iPLj",
+  "DfsJC48EZh3",
+  "DfsJGJBiJ2e",
+  "DfsJOktAuSY",
+  "DfsJh9OCOiW",
+  "DfsJjQsCCvo",
+  "DfsJnyBiOGY",
+  "DfsJyUkERNN",
+  "DfsK21OiLuH",
+  "DfsK2wvCL5d",
+  "DfsKBzRiIfA",
+  "DfsLecViDag",
+  "DfsMNNQjk4w",
+  "DfsMiosCJwR",
+  "DfsMy9xkfqT",
+  "DfsNismEUer",
+  "DfsNofUCGlD",
+  "DfsOIQdDO2V",
+  "DfsOMVMiIeR",
+  "DfsOsqLnO44",
+  "DfsP1uLDG4W",
+  "DfsPWF8DBZU",
+  "DfsPa_GiAGT",
+  "DfsPtPRDWFo",
+  "DfsPtebkXLO",
+  "DfsQHYaDJwD",
+  "DfsQR_TiDUF",
+  "DfsQaTBESDF",
+  "DfsQm3tHFAV",
+  "DfsR5NGiMbS",
+  "DfsR8nxiHC9",
+  "DfsRC5eHHOk",
+  "DfsR_ZSFcP4",
+  "DfsRd0RCDYf",
+  "DfsRdJ_CMXB",
+  "DfsRjcsCEhR",
+  "DfsSFCIkTPd",
+  "DfsSMK_DNkm",
+  "DfsSn8HAoPS",
+  "DfsSu9pFTPH",
+  "DfsTJvsDtfF",
+  "DfsU-SQCG7v",
+  "DfsV9qAjCIK",
+  "DfsVEsVCFwZ",
+  "DfsViqFjlAI",
+  "DfsViqnDul-",
+  "DfsVsUaiBbx",
+  "DfsW-fxjN7o",
+  "DfsWFMvFTuf",
+  "DfsWH8YDBxg",
+  "DfsWU0YjsGz",
+  "DfsWdWoiM6y",
+  "DfsWvzCCohC",
+  "DfsWxEZiJTx",
+  "DfsXIkpCHNH",
+  "DfsZekZFVE-",
+  "Dfsb2nJkRMz",
+  "DfsbW7GgmQK",
+  "DfsfEvKFqb7",
+  "DfsfH_uDY7D",
+  "Dfsmh9KiiGO",
+  "DfstWs_FYXH",
+  "DfsubhgDG0B",
+  "Dft-mhCDdlf",
+  "Dft4uxnkawf",
+  "Dft62BHij4v",
+  "Dft6chRCFuY",
+  "DftNs_hiGPu",
+  "DftU_VmjLu7",
+  "DftUqxljYUL",
+  "DftXDHSjUi8",
+  "DftZiEqjN94",
+  "DftetxiCvhu",
+  "Dftfr7eCCyZ",
+  "DfthySojYkl",
+  "DftlrdGCN1k",
+  "Dftlw2AEeaW",
+  "Dftmb9VDck6",
+  "Dftt9YDjgph",
+  "Dftt_L4Di36",
+  "Dftta7IjI9e",
+  "DftuAuCjgul",
+  "DftuQSOjhWz",
+  "DftvxTlAENp",
+  "DftyC9XCO7E",
+  "Dfu14rLCEu2",
+  "Dfu19m7DN_8",
+  "Dfu2GZPiIu_",
+  "Dfu2LY2DLYu",
+  "Dfu2hbvimxT",
+  "Dfu31I5ip6D",
+  "Dfu38mpjKLO",
+  "Dfu69rnja6F",
+  "Dfu6P9sEZc4",
+  "Dfu6XJCDQ0T",
+  "Dfu6Y8JDEYU",
+  "Dfu6fYLkcn7",
+  "Dfu6j5rDLzo",
+  "Dfu6sj9jItb",
+  "Dfu7J2AjNWP",
+  "Dfu8RX-jSTL",
+  "Dfu8joMjCtk",
+  "Dfu8oteDY2r",
+  "Dfu8v1CjICx",
+  "Dfu9M6hmERg",
+  "Dfu9NBajO4M",
+  "Dfu9Z_CjYmS",
+  "Dfu9Zt_DCnZ",
+  "Dfu9gzUDOPy",
+  "DfuCOetjt0Z",
+  "DfuEh9ajb-t",
+  "DfuGbXTEdIv",
+  "DfuJSwjiN-k",
+  "DfuJT6aCPJe",
+  "DfuK15GEQAi",
+  "DfuME6OCAif",
+  "DfuNtiODCEo",
+  "DfuRQCNDE_W",
+  "Dfui0vPCLs4",
+  "DfuuRGijHrQ",
+  "DfuxGC7jF7N",
+  "DfuxGCgjPMg",
+  "DfuxGCqDJMa",
+  "DfuxGCzjKsE",
+  "DfuxGDUDEPV",
+  "DfuxGEQjOL-",
+  "DfuxGGsjHfR",
+  "DfuylPECEnp",
+  "Dfuz64uDF5J",
+  "DfvAx2nCMd-",
+  "DfvB-jZiOtv",
+  "DfvBCpuDJfA",
+  "DfvBQoyiDJ8",
+  "DfvBYFdCFj_",
+  "DfvD7grDR3Z",
+  "DfvDBp5DEa6",
+  "DfvE25iDYOg",
+  "DfvE9hZjKZn",
+  "DfvEBNojI9Z",
+  "DfvEPqhjWk2",
+  "DfvEdKRjDy3",
+  "DfvEiDcEf9S",
+  "DfvEokRDK1S",
+  "DfvEymBjKy6",
+  "DfvFUAZDQZy",
+  "DfvFxgukRoJ",
+  "DfvFzZfkTwM",
+  "DfvGChxjJsa",
+  "DfvGhOPCqXC",
+  "DfvGpa0CNyk",
+  "DfvGqrAgHUx",
+  "DfvH79ejFZX",
+  "DfvHHK3jEIN",
+  "DfvJZypAIjV",
+  "DfvK7KzjAm3",
+  "DfwN9msiNxx",
+  "DfwNjSvDWtU",
+  "DfwNyUjDTdk",
+  "DfwOHpdCK4w",
+  "DfwPPzBlr8X",
+  "DfwQNeLiPXF",
+  "DfwSGIMDAFo",
+  "DfwTaLHiNH_",
+  "DfwqokTAOCY",
+  "Dfwr_gRgjo6"
+ ],
+ "ig_comment_pks": [
+  "17847167622595009",
+  "17870052267405730",
+  "17874301644642633",
+  "17889307245150733",
+  "17892332868441037",
+  "17894202114684209",
+  "17896098561615689",
+  "17902606614607788",
+  "17912680710586188",
+  "17913394371489076",
+  "17915978622503548",
+  "17922405231460101",
+  "17935827474134611",
+  "17938337936936697",
+  "17940478065122355",
+  "17945004267174858",
+  "17948664341765552",
+  "17954850657340570",
+  "17959113063111000",
+  "17969275350203197",
+  "17970833813613990",
+  "17970961832992628",
+  "17971162445994122",
+  "17987110457386709",
+  "17992686755962498",
+  "17996079965069846",
+  "17997505260103814",
+  "17998075481482569",
+  "17998688448028881",
+  "18000151989107502",
+  "18001819823781347",
+  "18006770592007593",
+  "18011597450648179",
+  "18012540134995552",
+  "18021590338906718",
+  "18023236682928728",
+  "18026052554712625",
+  "18029932256371769",
+  "18031204070732356",
+  "18037628174340155",
+  "18038399551836721",
+  "18039152959565574",
+  "18041014924779688",
+  "18051113218941270",
+  "18052934549371834",
+  "18056748734656154",
+  "18058452815804649",
+  "18062764142222934",
+  "18068950231588875",
+  "18069581612149969",
+  "18070969555625628",
+  "18072568096618621",
+  "18073840193366900",
+  "18075100529202154",
+  "18076066661744128",
+  "18078195847964448",
+  "18081953744125196",
+  "18082294232367358",
+  "18082850315562948",
+  "18083431466512542",
+  "18085023476070207",
+  "18089422789945482",
+  "18097544972028699",
+  "18097790861107613",
+  "18097806713100910",
+  "18097942486932035",
+  "18100804436103842",
+  "18104334875379140",
+  "18108081907339446",
+  "18108608443799586",
+  "18110874998217398",
+  "18111456674625524",
+  "18112352753627547",
+  "18114032630184052",
+  "18115934227850216",
+  "18118275097494108",
+  "18118611541555735",
+  "18124250767526085",
+  "18125525347505345",
+  "18128560222916532",
+  "18128600332904467",
+  "18129142300919533",
+  "18130237900554352",
+  "18133560925751139",
+  "18136815113499202",
+  "18138589231640972",
+  "18140422741727812",
+  "18143571382618865",
+  "18146082865585453",
+  "18161793793393076",
+  "18169443859475049",
+  "18179174788451182",
+  "18183132085453580",
+  "18194995429398562",
+  "18223617592353182",
+  "18227282515742420",
+  "18231262276175846",
+  "18265716190156496",
+  "18300886084282166",
+  "18301586221207485",
+  "18331794088197937",
+  "18391797574031851",
+  "18416466976089882",
+  "18426392341030169",
+  "18541562617026773",
+  "18550421155034864",
+  "18577176610074946",
+  "18643557232013908",
+  "18661641904027895"
+ ],
+ "ig_posts": {
+  "DfZejAqjGTZ": {
+   "n_comments_collected": 5,
+   "user": "gastrofest.mogilev",
+   "iso": "2026-11-06T11:15:51.000Z"
+  },
+  "Dfr6x4-sni_": {
+   "n_comments_collected": 0,
+   "user": "gastrofest.mogilev",
+   "iso": null
+  },
+  "DfolTC2sl5J": {
+   "n_comments_collected": 0,
+   "user": "gastrofest.mogilev",
+   "iso": null
+  },
+  "DfhVI_UjMdT": {
+   "n_comments_collected": 11,
+   "user": "gastrofest.mogilev",
+   "iso": "2026-11-09T12:27:35.000Z"
+  },
+  "DfW6fl9jJ_r": {
+   "n_comments_collected": 0,
+   "user": "gastrofest.mogilev",
+   "iso": null
+  },
+  "DfUqcjOjGL_": {
+   "n_comments_collected": 0,
+   "user": "gastrofest.mogilev",
+   "iso": null
+  },
+  "DfUDcocjAI8": {
+   "n_comments_collected": 0,
+   "user": "gastrofest.mogilev",
+   "iso": null
+  },
+  "DfSFt_8jPb7": {
+   "n_comments_collected": 0,
+   "user": "gastrofest.mogilev",
+   "iso": null
+  },
+  "DfRbAigDOwE": {
+   "n_comments_collected": 0,
+   "user": "gastrofest.mogilev",
+   "iso": null
+  },
+  "DfPnEB_DBdk": {
+   "n_comments_collected": 0,
+   "user": "gastrofest.mogilev",
+   "iso": null
+  },
+  "DfPGJOrjBmY": {
+   "n_comments_collected": 0,
+   "user": "gastrofest.mogilev",
+   "iso": null
+  },
+  "DfZeenKMuJs": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfZeeu2MAVA": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfZeev-MroW": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfZeeyUMcbe": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfZeezlMXL1": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfZee1Zs-4_": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfZee2-sEPX": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfZee4jsOjS": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfZee69M3bp": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfhVIWysCZj": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfhVIZ_MowS": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfhVIb4M-t_": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfhVIdNswWZ": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfhVIeBsW6z": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfhVIgrMDNc": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfcD-erswIn": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfcD-mvM4pQ": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfcD-o1MMPk": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfcD-qUMN3N": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfcD-sPsCLq": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfcD-umMHPo": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfcD-uvs620": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfcD-wBs2R4": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfcD-xUMlfY": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfcD-zjMWQ_": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfcD-6lMTzk": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DTPz0eagr40": {
+   "n_comments_collected": 3,
+   "user": "kornilina_blog",
+   "iso": "2026-01-08T10:59:06.000Z"
+  },
+  "DPEWZgdguXO": {
+   "n_comments_collected": 0,
+   "user": "kornilina_blog",
+   "iso": null
+  },
+  "DJl2Sx6s-ya": {
+   "n_comments_collected": 0,
+   "user": "kornilina_blog",
+   "iso": null
+  },
+  "DX9qPMAixzx": {
+   "n_comments_collected": 0,
+   "user": "kornilina_blog",
+   "iso": null
+  },
+  "DSHx6g0gkdQ": {
+   "n_comments_collected": 0,
+   "user": "kornilina_blog",
+   "iso": null
+  },
+  "Dfr0oJPR80F": {
+   "n_comments_collected": 0,
+   "user": "kornilina_blog",
+   "iso": null
+  },
+  "Dfoxtw-RoAY": {
+   "n_comments_collected": 0,
+   "user": "kornilina_blog",
+   "iso": null
+  },
+  "Dfomlw-Efh2": {
+   "n_comments_collected": 0,
+   "user": "kornilina_blog",
+   "iso": null
+  },
+  "DfjfL_3RqTA": {
+   "n_comments_collected": 0,
+   "user": "kornilina_blog",
+   "iso": null
+  },
+  "DfZq-BIxGMq": {
+   "n_comments_collected": 0,
+   "user": "kornilina_blog",
+   "iso": null
+  },
+  "DfXTHEwidt5": {
+   "n_comments_collected": 0,
+   "user": "kornilina_blog",
+   "iso": null
+  },
+  "DfWoGeyRZnm": {
+   "n_comments_collected": 0,
+   "user": "kornilina_blog",
+   "iso": null
+  },
+  "DfU1g48RELm": {
+   "n_comments_collected": 0,
+   "user": "kornilina_blog",
+   "iso": null
+  },
+  "DSMkmSviDz6": {
+   "n_comments_collected": 1,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2025-12-13T08:14:37.000Z"
+  },
+  "DfpbpVNtnex": {
+   "n_comments_collected": 12,
+   "user": "koroche__mogilev",
+   "iso": "2026-11-12T15:59:51.000Z"
+  },
+  "DfHRi2fkY7q": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-10-30T09:35:54.000Z"
+  },
+  "De9GkdokdbY": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-10-26T10:47:36.000Z"
+  },
+  "DVjBhMliFPC": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-03-09T15:00:00.000Z"
+  },
+  "DdtFRFsEcyg": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-09-25T08:56:58.000Z"
+  },
+  "DWg24zxsLvf": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-03-30T15:20:00.000Z"
+  },
+  "DdRBo1hoBcX": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-09-14T11:26:44.000Z"
+  },
+  "Da0brVRI5Ks": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-07-15T15:54:15.000Z"
+  },
+  "DV88TuYiDjw": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-03-16T16:35:00.000Z"
+  },
+  "DaFK7JioeUa": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-06-27T07:23:18.000Z"
+  },
+  "DfpLCIyOM-X": {
+   "n_comments_collected": 0,
+   "user": "smak.by_mogilev",
+   "iso": null
+  },
+  "DfUjLpviz89": {
+   "n_comments_collected": 0,
+   "user": "vadim.lyahoi",
+   "iso": null
+  },
+  "DeebfZ4iogi": {
+   "n_comments_collected": 0,
+   "user": "vadim.lyahoi",
+   "iso": null
+  },
+  "DeREUXVinZB": {
+   "n_comments_collected": 0,
+   "user": "vadim.lyahoi",
+   "iso": null
+  },
+  "DTQW6IzDZZi": {
+   "n_comments_collected": 0,
+   "user": "koroche__mogilev",
+   "iso": null
+  },
+  "Dfr6v3Qt8zK": {
+   "n_comments_collected": 0,
+   "user": "koroche__mogilev",
+   "iso": null
+  },
+  "DfomJZotQWq": {
+   "n_comments_collected": 0,
+   "user": "koroche__mogilev",
+   "iso": null
+  },
+  "Dfh0pDSNtZU": {
+   "n_comments_collected": 0,
+   "user": "koroche__mogilev",
+   "iso": null
+  },
+  "DffV7a2NxBg": {
+   "n_comments_collected": 0,
+   "user": "koroche__mogilev",
+   "iso": null
+  },
+  "DfXYpn6NEJW": {
+   "n_comments_collected": 12,
+   "user": "koroche__mogilev",
+   "iso": "2026-11-05T15:47:03.000Z"
+  },
+  "DfULztTNAqR": {
+   "n_comments_collected": 0,
+   "user": "koroche__mogilev",
+   "iso": null
+  },
+  "DfSORy1xiil": {
+   "n_comments_collected": 0,
+   "user": "koroche_gomel",
+   "iso": null
+  },
+  "DfSOkHoNVNE": {
+   "n_comments_collected": 0,
+   "user": "koroche__mogilev",
+   "iso": null
+  },
+  "DfKO4kJodul": {
+   "n_comments_collected": 0,
+   "user": "koroche_gomel",
+   "iso": null
+  },
+  "DfH8iQNtfSs": {
+   "n_comments_collected": 0,
+   "user": "koroche__mogilev",
+   "iso": null
+  },
+  "DTu2Z_8iPLu": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-01-20T12:15:52.000Z"
+  },
+  "DCGm8SNI-aU": {
+   "n_comments_collected": 12,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2024-11-08T08:29:19.000Z"
+  },
+  "DPtd7lwCNRv": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2025-10-12T13:18:46.000Z"
+  },
+  "DTDmtjeiE4Z": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DRKMsGECPxz": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2025-11-17T13:31:52.000Z"
+  },
+  "DRETOzXiKvK": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2025-11-15T06:33:43.000Z"
+  },
+  "CxgZtl-o7H7": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DN0zRxD0CDm": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2025-08-26T16:35:30.000Z"
+  },
+  "DScY6EojBf2": {
+   "n_comments_collected": 1,
+   "user": "eatandmeet.go",
+   "iso": "2025-12-19T11:37:18.000Z"
+  },
+  "DVOiolLDE-y": {
+   "n_comments_collected": 0,
+   "user": "eatandmeet.go",
+   "iso": null
+  },
+  "DOoCOlJDEqP": {
+   "n_comments_collected": 0,
+   "user": "eatandmeet.go",
+   "iso": null
+  },
+  "DbxSkLIsVHu": {
+   "n_comments_collected": 0,
+   "user": "eatandmeet.go",
+   "iso": null
+  },
+  "Da-D9PPsHkF": {
+   "n_comments_collected": 0,
+   "user": "eatandmeet.go",
+   "iso": null
+  },
+  "DakX5iqMe0u": {
+   "n_comments_collected": 0,
+   "user": "eatandmeet.go",
+   "iso": null
+  },
+  "DaAM1_TsJgl": {
+   "n_comments_collected": 0,
+   "user": "eatandmeet.go",
+   "iso": null
+  },
+  "DZRuAdSMhE-": {
+   "n_comments_collected": 0,
+   "user": "eatandmeet.go",
+   "iso": null
+  },
+  "DY_8qegsqPj": {
+   "n_comments_collected": 0,
+   "user": "eatandmeet.go",
+   "iso": null
+  },
+  "DWwLlk4NX_j": {
+   "n_comments_collected": 0,
+   "user": "eatandmeet.go",
+   "iso": null
+  },
+  "DWtslQsNmhn": {
+   "n_comments_collected": 0,
+   "user": "eatandmeet.go",
+   "iso": null
+  },
+  "DWte1jjjKe5": {
+   "n_comments_collected": 0,
+   "user": "eatandmeet.go",
+   "iso": null
+  },
+  "DWrIbsZs9d3": {
+   "n_comments_collected": 0,
+   "user": "eatandmeet.go",
+   "iso": null
+  },
+  "DV_BpUhRn6N": {
+   "n_comments_collected": 1,
+   "user": "vidosy_mogilev",
+   "iso": "2026-03-17T12:00:00.000Z"
+  },
+  "Dfu5Wp2uYdg": {
+   "n_comments_collected": 0,
+   "user": "vidosy_mogilev",
+   "iso": null
+  },
+  "DfunMRJuohh": {
+   "n_comments_collected": 0,
+   "user": "vidosy_mogilev",
+   "iso": null
+  },
+  "Dfo8Cq8uKfW": {
+   "n_comments_collected": 0,
+   "user": "vidosy_mogilev",
+   "iso": null
+  },
+  "Dfv-tl6jqWR": {
+   "n_comments_collected": 0,
+   "user": "vidosy_mogilev",
+   "iso": null
+  },
+  "Dfv9jBcPhef": {
+   "n_comments_collected": 0,
+   "user": "zhiva_doroga",
+   "iso": null
+  },
+  "DftY1H3vldl": {
+   "n_comments_collected": 0,
+   "user": "zhiva_doroga",
+   "iso": null
+  },
+  "Dfr5A6WOTHj": {
+   "n_comments_collected": 0,
+   "user": "vidosy_mogilev",
+   "iso": null
+  },
+  "DfrO32IseE9": {
+   "n_comments_collected": 0,
+   "user": "bobruisk.news",
+   "iso": null
+  },
+  "Dfrmi2ZRb_M": {
+   "n_comments_collected": 0,
+   "user": "poznai_belarus_ilya",
+   "iso": null
+  },
+  "DfrWl5gkans": {
+   "n_comments_collected": 0,
+   "user": "tic.mogilev",
+   "iso": null
+  },
+  "DfrGSitulT8": {
+   "n_comments_collected": 0,
+   "user": "probobruisk",
+   "iso": null
+  },
+  "DfrSVHJOIh6": {
+   "n_comments_collected": 0,
+   "user": "vidosy_mogilev",
+   "iso": null
+  },
+  "CydDQwlIVR9": {
+   "n_comments_collected": 7,
+   "user": "zatestilmogilev",
+   "iso": "2023-10-16T09:07:39.000Z"
+  },
+  "DfrqfSERmgn": {
+   "n_comments_collected": 0,
+   "user": "zatestilmogilev",
+   "iso": null
+  },
+  "Dfo-x-sxtFC": {
+   "n_comments_collected": 0,
+   "user": "zatestilmogilev",
+   "iso": null
+  },
+  "DfhSp64hAH1": {
+   "n_comments_collected": 0,
+   "user": "zatestilmogilev",
+   "iso": null
+  },
+  "Dfb7uNph81b": {
+   "n_comments_collected": 0,
+   "user": "zatestilmogilev",
+   "iso": null
+  },
+  "DfXcOcFoqE4": {
+   "n_comments_collected": 0,
+   "user": "zatestilmogilev",
+   "iso": null
+  },
+  "DfU5yPDkQSJ": {
+   "n_comments_collected": 0,
+   "user": "zatestilmogilev",
+   "iso": null
+  },
+  "DfRlg6RhoO6": {
+   "n_comments_collected": 0,
+   "user": "zatestilmogilev",
+   "iso": null
+  },
+  "DfMss_ghm_F": {
+   "n_comments_collected": 0,
+   "user": "zatestilmogilev",
+   "iso": null
+  },
+  "DfKBg6ghQzV": {
+   "n_comments_collected": 0,
+   "user": "zatestilmogilev",
+   "iso": null
+  },
+  "DfJ06B9B9Vd": {
+   "n_comments_collected": 0,
+   "user": "zatestilmogilev",
+   "iso": null
+  },
+  "DfGyA3xhyBn": {
+   "n_comments_collected": 0,
+   "user": "zatestilmogilev",
+   "iso": null
+  },
+  "De_Xm0ohoRP": {
+   "n_comments_collected": 0,
+   "user": "zatestilmogilev",
+   "iso": null
+  },
+  "DJPVvEXNvBo": {
+   "n_comments_collected": 1,
+   "user": "koroche__mogilev",
+   "iso": "2025-05-04T17:17:46.000Z"
+  },
+  "DD9erVVop0U": {
+   "n_comments_collected": 0,
+   "user": "mogilev_online",
+   "iso": "2024-12-24T12:10:37.000Z"
+  },
+  "DfrxgnGgNZ0": {
+   "n_comments_collected": 0,
+   "user": "mogilev_online",
+   "iso": null
+  },
+  "DfhfGVdgA5u": {
+   "n_comments_collected": 0,
+   "user": "mogilev_online",
+   "iso": null
+  },
+  "Dfr2lLOgO5x": {
+   "n_comments_collected": 0,
+   "user": "mogilev_online",
+   "iso": null
+  },
+  "DfrwIxcAt3g": {
+   "n_comments_collected": 0,
+   "user": "mogilev_online",
+   "iso": null
+  },
+  "DfrtdYUg02Y": {
+   "n_comments_collected": 0,
+   "user": "mogilev_online",
+   "iso": null
+  },
+  "DfrmVWrgcFn": {
+   "n_comments_collected": 0,
+   "user": "mogilev_online",
+   "iso": null
+  },
+  "DfrjS7ZAPT9": {
+   "n_comments_collected": 0,
+   "user": "mogilev_online",
+   "iso": null
+  },
+  "DfrX14_APUZ": {
+   "n_comments_collected": 0,
+   "user": "mogilev_online",
+   "iso": null
+  },
+  "DfrMrDTANVA": {
+   "n_comments_collected": 0,
+   "user": "mogilev_online",
+   "iso": null
+  },
+  "DfrMeTxA5eT": {
+   "n_comments_collected": 0,
+   "user": "mogilev_online",
+   "iso": null
+  },
+  "DfrKLV4gPyd": {
+   "n_comments_collected": 0,
+   "user": "mogilev_online",
+   "iso": null
+  },
+  "DfrGg8eAByv": {
+   "n_comments_collected": 0,
+   "user": "mogilev_online",
+   "iso": null
+  },
+  "DD9erBEI6fD": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DD9erBDoXB_": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DD9erBZIIn3": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DD9erBEIVFQ": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DD9erBCouvJ": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DD9erBEIk7k": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DD9erBComwi": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DD9erBEINur": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DD9erBEInqo": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DD9erBEIL3Q": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DSIJ6hjjPYy": {
+   "n_comments_collected": 7,
+   "user": "vikilinki",
+   "iso": "2025-12-11T15:03:03.000Z"
+  },
+  "Dfr3L6-s1oq": {
+   "n_comments_collected": 0,
+   "user": "vikilinki",
+   "iso": null
+  },
+  "DfpvsIhxgbT": {
+   "n_comments_collected": 0,
+   "user": "vikilinki",
+   "iso": null
+  },
+  "DfVKKu6sFme": {
+   "n_comments_collected": 0,
+   "user": "vikilinki",
+   "iso": null
+  },
+  "DfSwV8PDKc6": {
+   "n_comments_collected": 0,
+   "user": "vikilinki",
+   "iso": null
+  },
+  "DfPAf6vMyMV": {
+   "n_comments_collected": 0,
+   "user": "vikilinki",
+   "iso": null
+  },
+  "DfKWedvsWvf": {
+   "n_comments_collected": 0,
+   "user": "vikilinki",
+   "iso": null
+  },
+  "DfIHgu0siZd": {
+   "n_comments_collected": 0,
+   "user": "vikilinki",
+   "iso": null
+  },
+  "DfHN04gNl1m": {
+   "n_comments_collected": 0,
+   "user": "mamago.by",
+   "iso": null
+  },
+  "DeziX0NMUyv": {
+   "n_comments_collected": 0,
+   "user": "vikilinki",
+   "iso": null
+  },
+  "DfF0gI4MYkE": {
+   "n_comments_collected": 0,
+   "user": "vikilinki",
+   "iso": null
+  },
+  "DXYr6CrjLYk": {
+   "n_comments_collected": 0,
+   "user": "vikilinki",
+   "iso": null
+  },
+  "De9D1ApMpgf": {
+   "n_comments_collected": 0,
+   "user": "vikilinki",
+   "iso": null
+  },
+  "Cza3gcVIYU8": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DWoYqG7DOoj": {
+   "n_comments_collected": 4,
+   "user": "gastrofest.mogilev",
+   "iso": "2026-04-02T13:30:27.000Z"
+  },
+  "DfwnsShMSjq": {
+   "n_comments_collected": 0,
+   "user": "gastrofest.mogilev",
+   "iso": null
+  },
+  "DWoYp5rDJeU": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DWoYp5qjCdV": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DWoYp5qjH7t": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DWoYp5rDI9q": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DWoYp5rDEBr": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DWoYp5rDN2W": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DWoYp5rDBbJ": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DRtzCqpiIAE": {
+   "n_comments_collected": 11,
+   "user": "koko_by",
+   "iso": "2025-12-01T09:21:10.000Z"
+  },
+  "DfwfqDKiPVT": {
+   "n_comments_collected": 0,
+   "user": "koko_by",
+   "iso": null
+  },
+  "Dft_1kFIM19": {
+   "n_comments_collected": 0,
+   "user": "koko_by",
+   "iso": null
+  },
+  "DfrdtnutH6d": {
+   "n_comments_collected": 0,
+   "user": "koko_by",
+   "iso": null
+  },
+  "DfrRv7Oo60a": {
+   "n_comments_collected": 0,
+   "user": "koko_by",
+   "iso": null
+  },
+  "DfpUNdpoLW_": {
+   "n_comments_collected": 0,
+   "user": "koko_by",
+   "iso": null
+  },
+  "Dfo_e5LIkxG": {
+   "n_comments_collected": 0,
+   "user": "koko_by",
+   "iso": null
+  },
+  "Dfogu5KIb9b": {
+   "n_comments_collected": 0,
+   "user": "koko_by",
+   "iso": null
+  },
+  "DfmH_UTIWXf": {
+   "n_comments_collected": 0,
+   "user": "koko_by",
+   "iso": null
+  },
+  "DfkW0n5IT5F": {
+   "n_comments_collected": 0,
+   "user": "koko_by",
+   "iso": null
+  },
+  "DfhQ5Gfol30": {
+   "n_comments_collected": 0,
+   "user": "koko_by",
+   "iso": null
+  },
+  "Dfg-z_IoSKn": {
+   "n_comments_collected": 0,
+   "user": "koko_by",
+   "iso": null
+  },
+  "DffOX-joxjp": {
+   "n_comments_collected": 0,
+   "user": "koko_by",
+   "iso": null
+  },
+  "DY4PkCRIa-R": {
+   "n_comments_collected": 1,
+   "user": "amazonka_restobar_minsk",
+   "iso": "2026-05-28T10:21:57.000Z"
+  },
+  "DejRCZEoDIR": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_minsk",
+   "iso": null
+  },
+  "DfmnVVyodEY": {
+   "n_comments_collected": 3,
+   "user": "amazonka_restobar_minsk",
+   "iso": "2026-11-11T13:44:10.000Z"
+  },
+  "DfmnEx0o6pk": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_minsk",
+   "iso": "2026-11-11T13:41:03.000Z"
+  },
+  "Dfh4G02oFQe": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_minsk",
+   "iso": null
+  },
+  "De9mV3mM_BL": {
+   "n_comments_collected": 0,
+   "user": "irinakirinas",
+   "iso": null
+  },
+  "DUAukJ9COKO": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_minsk",
+   "iso": null
+  },
+  "DXFE0HJM33t": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_minsk",
+   "iso": null
+  },
+  "DeQ_xO-IIbi": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_minsk",
+   "iso": null
+  },
+  "DZezsumouQe": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_minsk",
+   "iso": null
+  },
+  "Dd8Nf6Bojju": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_minsk",
+   "iso": null
+  },
+  "DaUrESaIA7s": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_minsk",
+   "iso": null
+  },
+  "DfHRh7lxORZ": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfHRh-ex453": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfHRiCAxqI5": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfHRiFRx0dx": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfHRiI8xtVL": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfHRiMERAO7": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DfHRiPwRCnM": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "De9GjXgx5MG": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "De9GjY3xZn2": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "De9GjYixA5P": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "De9GjciRI6r": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "De9Gjc3xUvD": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "De9GjcSxx8e": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "De9GjcNR4fX": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "De9Gjc0x_ML": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "De9GjeCRDT3": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DVYr0XfiEf5": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DVYr0XfiGkn": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DdtFQQ0xTjd": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DdtFQRNxb4X": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DV8eSnlCCfM": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DV8eSnpiHJU": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "DaUqa2Vx5rx": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-07-03T07:48:12.000Z"
+  },
+  "DfM-U6gg-nk": {
+   "n_comments_collected": 0,
+   "user": "lukyanova_yelizaveta",
+   "iso": "2026-11-01T14:44:49.000Z"
+  },
+  "DfM4jwegBHo": {
+   "n_comments_collected": 0,
+   "user": "lukyanova_yelizaveta",
+   "iso": null
+  },
+  "DbGO7jGABTl": {
+   "n_comments_collected": 0,
+   "user": "lukyanova_yelizaveta",
+   "iso": null
+  },
+  "Da5U8xmoPg5": {
+   "n_comments_collected": 1,
+   "user": "the_diaanaa",
+   "iso": "2026-07-17T13:32:43.000Z"
+  },
+  "DYooUcVI7xe": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-05-22T08:50:49.000Z"
+  },
+  "DX9egZGoE5Y": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-05-05T14:38:34.000Z"
+  },
+  "DXrPoLKsyUU": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-04-28T12:40:00.000Z"
+  },
+  "DXFDtqpsDdv": {
+   "n_comments_collected": 2,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-04-13T16:45:00.000Z"
+  },
+  "DWtL1TdCPB2": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_minsk",
+   "iso": "2026-04-04T10:15:46.000Z"
+  },
+  "DWo5MZYiN7E": {
+   "n_comments_collected": 3,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2026-04-02T18:28:19.000Z"
+  },
+  "DeoyrfNoYg-": {
+   "n_comments_collected": 0,
+   "user": "the_diaanaa",
+   "iso": null
+  },
+  "DfwUOI4snOL": {
+   "n_comments_collected": 0,
+   "user": "the_diaanaa",
+   "iso": null
+  },
+  "DfsfgPAoR0P": {
+   "n_comments_collected": 0,
+   "user": "the_diaanaa",
+   "iso": null
+  },
+  "DfsLCoJoVNb": {
+   "n_comments_collected": 0,
+   "user": "the_diaanaa",
+   "iso": null
+  },
+  "DfpjY3cIieU": {
+   "n_comments_collected": 0,
+   "user": "lash_master.ekaterina",
+   "iso": null
+  },
+  "Dfpib4DNE7d": {
+   "n_comments_collected": 0,
+   "user": "vseznaika.mogilev",
+   "iso": null
+  },
+  "Dfl9dufuGkE": {
+   "n_comments_collected": 0,
+   "user": "the_diaanaa",
+   "iso": null
+  },
+  "Dfkxsjtuj7z": {
+   "n_comments_collected": 0,
+   "user": "the_diaanaa",
+   "iso": null
+  },
+  "DfkvICbODw-": {
+   "n_comments_collected": 0,
+   "user": "the_diaanaa",
+   "iso": null
+  },
+  "DfiUmfxuAxX": {
+   "n_comments_collected": 0,
+   "user": "the_diaanaa",
+   "iso": null
+  },
+  "DfefylMu4ei": {
+   "n_comments_collected": 0,
+   "user": "the_diaanaa",
+   "iso": null
+  },
+  "DfXw8p6uXzq": {
+   "n_comments_collected": 0,
+   "user": "the_diaanaa",
+   "iso": null
+  },
+  "CwJZX6YorC3": {
+   "n_comments_collected": 0,
+   "user": "amazonka_restobar_mogilev",
+   "iso": "2023-08-20T00:47:16.000Z"
+  },
+  "C8X1LJToFgG": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "C8X0wE_I2jx": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "CvCYnJLtsSi": {
+   "n_comments_collected": 2,
+   "user": "obzor_rb",
+   "iso": "2023-07-23T10:54:32.000Z"
+  },
+  "DfccsoCsL6G": {
+   "n_comments_collected": 0,
+   "user": "obzor_rb",
+   "iso": null
+  },
+  "DfU4s3qsJdc": {
+   "n_comments_collected": 0,
+   "user": "obzor_rb",
+   "iso": null
+  },
+  "DdeEuN1smWh": {
+   "n_comments_collected": 0,
+   "user": "obzor_rb",
+   "iso": null
+  },
+  "Dc8H7QusxQz": {
+   "n_comments_collected": 0,
+   "user": "obzor_rb",
+   "iso": null
+  },
+  "Dc3amDZMzgn": {
+   "n_comments_collected": 0,
+   "user": "obzor_rb",
+   "iso": null
+  },
+  "DcQaLpKDHdj": {
+   "n_comments_collected": 0,
+   "user": "obzor_rb",
+   "iso": null
+  },
+  "DcQZfZ6MhUh": {
+   "n_comments_collected": 0,
+   "user": "obzor_rb",
+   "iso": null
+  },
+  "DcJGEK8s485": {
+   "n_comments_collected": 0,
+   "user": "jula_hoola",
+   "iso": null
+  },
+  "DbyiH62M0DI": {
+   "n_comments_collected": 0,
+   "user": "obzor_rb",
+   "iso": null
+  },
+  "DZDVt9psnk0": {
+   "n_comments_collected": 0,
+   "user": "obzor_rb",
+   "iso": null
+  },
+  "DYt5piisEQ2": {
+   "n_comments_collected": 0,
+   "user": "obzor_rb",
+   "iso": null
+  },
+  "DYslHZqszLO": {
+   "n_comments_collected": 0,
+   "user": "obzor_rb",
+   "iso": null
+  },
+  "CvCYnEBtoMs": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "CvCYbHsuW1P": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "CvCYbIwvASN": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "CvCYbIsPIyC": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "CvCYnD3Nsuz": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "CvCYb1wLQTD": {
+   "n_comments_collected": 0,
+   "user": null,
+   "iso": null
+  },
+  "C5TFSglo8Mg": {
+   "n_comments_collected": 4,
+   "user": "slivkiby_mogilev",
+   "iso": "2024-04-03T11:52:38.000Z"
+  },
+  "Dfm567RDqvY": {
+   "n_comments_collected": 0,
+   "user": "slivkiby_mogilev",
+   "iso": null
+  },
+  "Dfu3S7djt23": {
+   "n_comments_collected": 0,
+   "user": "slivkiby_mogilev",
+   "iso": null
+  },
+  "DfsGTenO3dD": {
+   "n_comments_collected": 0,
+   "user": "slivkiby_mogilev",
+   "iso": null
+  },
+  "DfotunbujHq": {
+   "n_comments_collected": 0,
+   "user": "slivkiby_mogilev",
+   "iso": null
+  },
+  "DfkVFVQOBxH": {
+   "n_comments_collected": 0,
+   "user": "slivkiby_mogilev",
+   "iso": null
+  },
+  "Dfh7TXvu4j5": {
+   "n_comments_collected": 0,
+   "user": "slivkiby_mogilev",
+   "iso": null
+  },
+  "DffIZYpOp5A": {
+   "n_comments_collected": 0,
+   "user": "slivkiby_mogilev",
+   "iso": null
+  },
+  "DfclCEduHI1": {
+   "n_comments_collected": 0,
+   "user": "slivkiby_mogilev",
+   "iso": null
+  },
+  "DfZ9Ng_OLge": {
+   "n_comments_collected": 0,
+   "user": "slivkiby_mogilev",
+   "iso": null
+  },
+  "DfWpaENuIgk": {
+   "n_comments_collected": 0,
+   "user": "slivkiby_mogilev",
+   "iso": null
+  },
+  "DfU1S3JO-uz": {
+   "n_comments_collected": 0,
+   "user": "slivkiby_mogilev",
+   "iso": null
+  },
+  "DfSQ-z0OlAm": {
+   "n_comments_collected": 0,
+   "user": "slivkiby_mogilev",
+   "iso": null
+  },
+  "C4AjswlIFrt": {
+   "n_comments_collected": 0,
+   "user": "amazonka_mogilev_",
+   "iso": null
+  },
+  "C3H3b5fIrE7": {
+   "n_comments_collected": 0,
+   "user": "amazonka_mogilev_",
+   "iso": null
+  },
+  "Cvsc4v3ohxg": {
+   "n_comments_collected": 0,
+   "user": "amazonka_mogilev_",
+   "iso": null
+  },
+  "CpxJLt3ITSH": {
+   "n_comments_collected": 0,
+   "user": "amazonka_mogilev_",
+   "iso": null
+  },
+  "Cpw-S1wog_6": {
+   "n_comments_collected": 0,
+   "user": "amazonka_mogilev_",
+   "iso": null
+  },
+  "Cpuf0ylIpYn": {
+   "n_comments_collected": 0,
+   "user": "amazonka_mogilev_",
+   "iso": null
+  },
+  "Cpm_Fm1IEla": {
+   "n_comments_collected": 0,
+   "user": "amazonka_mogilev_",
+   "iso": null
+  },
+  "Cpm-5MsIzax": {
+   "n_comments_collected": 0,
+   "user": "amazonka_mogilev_",
+   "iso": null
+  },
+  "Cpm-uOGIFPM": {
+   "n_comments_collected": 0,
+   "user": "amazonka_mogilev_",
+   "iso": null
+  },
+  "CpfS59MI3_C": {
+   "n_comments_collected": 0,
+   "user": "amazonka_mogilev_",
+   "iso": null
+  },
+  "Cpch7hOIGUn": {
+   "n_comments_collected": 0,
+   "user": "amazonka_mogilev_",
+   "iso": null
+  },
+  "CpcZm8sIWlI": {
+   "n_comments_collected": 0,
+   "user": "amazonka_mogilev_",
+   "iso": null
+  },
+  "DeqzFy8ItZj": {
+   "n_comments_collected": 0,
+   "user": "colette_mogilev",
+   "iso": null
+  },
+  "DcSzsgWoX41": {
+   "n_comments_collected": 0,
+   "user": "colette_mogilev",
+   "iso": null
+  },
+  "DbxVrxaI_j7": {
+   "n_comments_collected": 0,
+   "user": "colette_mogilev",
+   "iso": null
+  },
+  "DaSGmoZiAkr": {
+   "n_comments_collected": 0,
+   "user": "colette_mogilev",
+   "iso": null
+  },
+  "DZ66JIwomGk": {
+   "n_comments_collected": 0,
+   "user": "colette_mogilev",
+   "iso": null
+  },
+  "DXZr6YxCEd_": {
+   "n_comments_collected": 0,
+   "user": "anrijunior",
+   "iso": null
+  },
+  "DXZkY-3igSL": {
+   "n_comments_collected": 0,
+   "user": "makson.lebedev",
+   "iso": null
+  },
+  "DXG9-TmiFof": {
+   "n_comments_collected": 0,
+   "user": "colette_mogilev",
+   "iso": null
+  },
+  "DWnwnxACB-6": {
+   "n_comments_collected": 0,
+   "user": "colette_mogilev",
+   "iso": null
+  },
+  "DWbmwnrjKMP": {
+   "n_comments_collected": 0,
+   "user": "gastrofest.mogilev",
+   "iso": null
+  },
+  "DWGZHMBDTru": {
+   "n_comments_collected": 0,
+   "user": "koroche__mogilev",
+   "iso": null
+  },
+  "DV26sXmCDUn": {
+   "n_comments_collected": 0,
+   "user": "colette_mogilev",
+   "iso": null
+  },
+  "DbQV4ExM2oU": {
+   "n_comments_collected": 0,
+   "user": "_creativva_",
+   "iso": null
+  },
+  "DYxbZmINhMa": {
+   "n_comments_collected": 0,
+   "user": "a_djulay",
+   "iso": null
+  }
+ }
+}

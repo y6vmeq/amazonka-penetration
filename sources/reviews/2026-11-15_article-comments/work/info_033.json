@@ -1,0 +1,47 @@
+{
+ "number": 33,
+ "url": "https://mycity.by/news/obshchestvo/13990-gorodskoj-gastrofestival-projdet-v-mogileve-s-20-sentyabrya-po-4-oktyabrya",
+ "title": "Городской гастрофестиваль пройдет в Могилеве с 20 сентября по 4 октября",
+ "at": "2026-11-15T14:14:40.657Z",
+ "html": "raw/033_mycity-by_mycity-13990-gastrofestival-20-sentyabrya.html",
+ "txt": "raw/033_mycity-by_mycity-13990-gastrofestival-20-sentyabrya.txt",
+ "sha256": "16800633eacb2532dc14a54de96782b54e490d108d35bb6dec2ae193e13f899c",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [
+   {
+    "src": "https://yastatic.net/share/ya-share-cnt.html?url=https%3A%2F%2Fmycity.by%2Fnews%2Fobshchestvo%2F13990-gorodskoj-gastrofestival-projdet-v-mogileve-s-20-sentyabrya-po-4-oktyabrya&services=vkontakte,twitter,odnoklassniki,moimir",
+    "id": "",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [
+   "https://vk.com/js/api/openapi.js?130"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline form-search",
+    "action": "/news/obshchestvo",
+    "fields": [
+     "input:search:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 2530
+ },
+ "extra": {
+  "name": "mycity_13990_gastrofestival-20-sentyabrya",
+  "status": 200,
+  "requested": "https://mycity.by/news/obshchestvo/13990-gorodskoj-gastrofestival-projdet-v-mogileve-s-20-sentyabrya-po-4-oktyabrya",
+  "pre": null
+ }
+}

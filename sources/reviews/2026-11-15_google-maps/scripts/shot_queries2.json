@@ -1,0 +1,45 @@
+{
+ "groups": [
+  [
+   "google-maps-040",
+   "google-maps-049",
+   "google-maps-050",
+   "google-maps-051",
+   "google-maps-053"
+  ],
+  [
+   "google-maps-063",
+   "google-maps-064",
+   "google-maps-065",
+   "google-maps-067",
+   "google-maps-071"
+  ],
+  [
+   "google-maps-072",
+   "google-maps-077",
+   "google-maps-078",
+   "google-maps-080",
+   "google-maps-081"
+  ],
+  [
+   "google-maps-082",
+   "google-maps-083",
+   "google-maps-084",
+   "google-maps-085",
+   "google-maps-086"
+  ],
+  [
+   "google-maps-087",
+   "google-maps-088",
+   "google-maps-089",
+   "google-maps-090"
+  ]
+ ],
+ "queries": [
+  "волшебно OR администратору OR впечатляет OR обслуживанием OR доброжелательные",
+  "незабываемые OR замечательный OR теперь OR контактные OR расслабляющая",
+  "интересный OR внимательный OR неконфликтные OR фотографироваться OR воскресенье",
+  "администраторы OR интересные OR достойное OR поздоровались OR замечательные",
+  "подсвечено OR интересное OR александру OR сфоткаться OR \"посмотреть животных\""
+ ]
+}

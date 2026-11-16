@@ -1,0 +1,23 @@
+mogculture: http=200 bytes=401216 title='ВКонтакте | ВКонтакте' | id=202389635 members=761 name='Культурный Могилев' desc='Мы расскажем не только о самых интересных событиях, которые проходят в Могилеве и Могилевской области, но и проведем вас за кулисы театров и концертных залов, познакомим с талантливыми людьми и докаже'
+podslyshano_mogilev: http=200 bytes=356090 title='ВКонтакте | ВКонтакте' | id=54026420 members=40786 name='Подслушано Могилёв' desc='Подслушано Могилев - это невероятный микс самых интересных новостей и истории из жизни города глазами сотен тысяч Могилевчан. У нас вы найдете смешные истории, откровения, знакомые ситуации нашего гор'
+typical_mogilev: http=200 bytes=250701 title='ВКонтакте | ВКонтакте' | id=67277758 members=9 name='....г' desc=''
+mogilev_online: http=200 bytes=247076 title='ВКонтакте | ВКонтакте' | id=118870909 members=0 name='Могилев Online' desc='Мы очень надеемся, что публикации станут интересными для всех!) \\n\\nУ нас Вы можете почитать #новости@mogilev_online\\nпросмотреть #видео@mogilev_online  #фото@mogilev_online\\nпроголосовать #опросы@mog'
+mogilevonline: http=200 bytes=301436 title='ВКонтакте | ВКонтакте' | id=47508346 members=3 name='MOGILEVonLINE' desc='Все о Могилеве\\nКуда сходить\\nГде посидеть\\nЧто посмотреть'
+moymogilev: http=200 bytes=237979 title='ВКонтакте | ВКонтакте' | group-json not found; id-guess=club229780192
+mogilevnews: http=200 bytes=441490 title='ВКонтакте | ВКонтакте' | id=127001059 members=5435 name='MogilevNews  - новости Могилева' desc='События и люди Могилева и области | Новости портала MogilevNews\\nИнформационное агентство \\"Могилевские ведомости\\"'
+mogilev_news: http=200 bytes=212255 title='ВКонтакте | ВКонтакте' | id=164379230 members=1 name='Могилёв' desc='Актуальные новости Могилева'
+mogilev24: http=200 bytes=199262 title='ВКонтакте | ВКонтакте' | id=67128808 members=0 name='я люблю Могилев' desc=''
+blacklist_mogilev: http=200 bytes=341112 title='ВКонтакте | ВКонтакте' | id=144847946 members=3159 name='Черный список | Могилёв' desc='Черный список | Могилев - это список всего, что не нравится жителям нашего города: свинство, хамство, грубость, обман, халатность, безалаберность, тараканы, дороги, взятки и т.д. \\n\\nКто мы?\\nМы иници'
+mogilev_life: http=200 bytes=211166 title='ВКонтакте | ВКонтакте' | id=28809092 members=2 name='…|Офицальная группа Вмогилеве the best|…' desc='Могилёв- лучший город в мире, всё\\nлучшее в городе (лучшие девушки,\\nлучшие парни,лучший отдых и всё самое\\nThe BESTовское)\\n-- ---- --- --- ---- --- --- ---- --- --- ---- --- --- ---- --- --- ---- --'
+overhear_mogilev: http=200 bytes=250312 title='ВКонтакте | ВКонтакте' | id=59631981 members=1 name='Подслушано | Могилёв' desc='Здесь вы можете поделиться любыми секретами и ситуациями из жизни, имеющими то или иное отношение к Могилёву. Анонимность гарантируется.'
+mogilev: http=200 bytes=246343 title='ВКонтакте | ВКонтакте' | group-json not found; id-guess=club229780192
+mogilev_city: http=200 bytes=215024 title='ВКонтакте | ВКонтакте' | id=45915399 members=0 name='&#9829;Могилёв&#9829;' desc='Только для тех кто из Могилёва!!!'
+mogilev_otzyvy: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+rabota_mogilev: http=200 bytes=249377 title='ВКонтакте | ВКонтакте' | id=69843043 members=1 name='л' desc=''
+mogilev_rabota: http=200 bytes=202024 title='ВКонтакте | ВКонтакте' | id=110751992 members=510 name='Работа для школьников и студентов – Могилёв.' desc='Все свежие вакансии для студентов и молодёжи из Могилёва. У нас вы найдете подработку для подростков из Могилёва в свободное время на дому сидя в интернете. Также есть возможность подзаработать в вече'
+public48957354: http=200 bytes=479450 title='ВКонтакте | ВКонтакте' | id=48957354 members=7510 name=None desc='Нетипичные стороны городской жизни! Подписывайтесь и произойдет чудо. Делайте репосты, чтобы друзья были в курсе! Предлагайте новости!'
+amazonka_restobar_mogilev: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+amazonka_restobar: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+amazonkarestobar: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+smakby_mogilev: http=404 bytes=13002 title=None | group-json not found; id-guess=None
+smak.by_mogilev: http=404 bytes=13002 title=None | group-json not found; id-guess=None

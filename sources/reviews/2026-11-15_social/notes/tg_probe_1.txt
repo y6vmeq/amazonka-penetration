@@ -1,0 +1,38 @@
+mogilevnews: none (http=200)
+mogilev_news: CHANNEL title='Ll' counters=[] last=2023-11-18T18:55:43+00:00 desc=None
+mogilevonline: CHANNEL title='МогилевОнлайн' counters=[('19K', 'subscribers'), ('53.3K', 'photos'), ('5.31K', 'videos'), ('36.9K', 'links')] last=2026-11-15T09:02:48+00:00 desc='Бот для связи с редакцией портала «МогилевОнлайн»: @MogilevOnlineBot . Отправьте сюда информацию, фото или видео — и редакция быстро получит ваше сообщение. Наш прекрасный, как ограненный бриллиант, Инстаграм: instagram.com/mogilev_online'
+mogilev_online: CHANNEL title='Mogilev_online 🇧🇾' counters=[('3', 'subscribers')] last=2026-11-11T11:50:59+00:00 desc=None
+mogilev_region: none (http=200)
+mogilevcity: none (http=200)
+mogilev_city: CHANNEL title='Mogilev city 💖' counters=[('1', 'subscriber')] last=2024-03-11T08:05:08+00:00 desc='💖 ~Здесь можно найти друзей~ 💖 💖 ~договариваться погулять~ 💖 💖 ~заходи, мы будем рады~ 💖'
+typical_mogilev: none (http=200)
+tipichniy_mogilev: none (http=200)
+tipmogilev: none (http=200)
+podslushano_mogilev: CHANNEL title='Подслушано Могилев' counters=[('225', 'subscribers'), ('11.4K', 'photos'), ('552', 'videos'), ('1', 'file'), ('272', 'links')] last=2026-11-13T14:05:15+00:00 desc='Публикуем новости, ЧП, истории и откровения из жизни города. Подписывайтесь! Мы в ВК: https://vk.com/podslyshano_mogilev Мы в Threads: https://www.threads.com/@podslushano.mogilev'
+podslushanomogilev: CHANNEL title='Подслушано Могилёв' counters=[] last=2025-12-24T06:24:33+00:00 desc='Новости твоего города 🌆 Самые свежие новости, ЧП города Могилёва 🤟'
+mogilev_chat: NO-PREVIEW title='МОГИЛЕВ | ЛАЙФ | ЧАТ | ОБЩЕНИЕ | ЗНАКОМСТВА' extra='6 681 members, 12 online' desc='Добро пожаловать! БЕЛАРУСЬ: Чат г.Могилева Общаемся: - без спама, флуда и рекламы; - без каких-либо оскорблений; - без эротики и порнографии. Живём дружно=)'
+mogilevchat: none (http=200)
+mogilev24: CHANNEL title='Могилёв 24' counters=[('2', 'subscribers')] last=2025-08-16T15:51:25+00:00 desc=None
+lifemogilev: CHANNEL title='My Life 👻' counters=[('35', 'subscribers'), ('14', 'photos'), ('5', 'videos')] last=2026-04-08T18:40:36+00:00 desc='Парень из могилева 🏛'
+life_mogilev: CHANNEL title='Новости Могилева' counters=[('7', 'subscribers'), ('8', 'photos'), ('3', 'links')] last=2025-12-29T08:33:29+00:00 desc='Все о жизни Могилёва без лишнего пафоса Админ / Реклама - @kirillkhaletsky'
+chp_mogilev: none (http=200)
+chpmogilev: CHANNEL title='Могилев 24/7' counters=[('6.18K', 'subscribers'), ('1.14K', 'photos'), ('599', 'videos'), ('763', 'links')] last=2026-11-14T09:45:31+00:00 desc='Новости Могилева и не только Предлагайте свои фото/видео сюда: @chp_mogilev_bot'
+rabota_mogilev: none (http=200)
+afisha_mogilev: CHANNEL title='AFISHA_MOGILEV' counters=[('45', 'subscribers'), ('39', 'photos'), ('7', 'links')] last=2025-06-16T12:51:54+00:00 desc='🔥 Всё события Могилёва! 🔥 ▫️ Мастер-классы ▫️ Выставки ▫️ Ретриты ▫️ Вечеринки Подписывайся и будь в курсе!'
+mycityby: CHANNEL title='MyCity.by' counters=[('361', 'subscribers'), ('13.1K', 'photos'), ('219', 'videos'), ('4.74K', 'links')] last=2026-11-13T13:23:48+00:00 desc='Новости Могилева'
+mogilevby: none (http=200)
+mogilev_by: NO-PREVIEW title='Могилёв 💯 Общение 💪😎' extra='561 members, 20 online' desc=None
+mogilev: CHANNEL title='Могилев. Главное!' counters=[('47.8K', 'subscribers'), ('9.05K', 'photos'), ('4.22K', 'videos'), ('9.98K', 'links')] last=2026-11-15T09:16:18+00:00 desc='Главный новостной telegram-канал Могилева Реклама 👉 @glavnoebel 🔈 Предложить новость — @suggestmogilevbot'
+vmogileve: CHANNEL title='в могилёве НЕ любят' counters=[('2', 'subscribers'), ('1', 'link')] last=2025-12-05T22:14:34+00:00 desc=None
+mogilev_life: none (http=200)
+mogilevlife: none (http=200)
+mogilove: CHANNEL title='"Вестник Могилева" - новости Могилева' counters=[('3.05K', 'subscribers'), ('49.5K', 'photos'), ('6.3K', 'videos'), ('7', 'files'), ('18.6K', 'links')] last=2026-11-15T09:31:01+00:00 desc='Мы знаем обо всем, что происходит в Могилеве. Хотим оперативно и достоверно делиться этим с вами! vestnikmogileva.by'
+mogiloveby: none (http=200)
+mogculture: none (http=200)
+kulturny_mogilev: none (http=200)
+vechmogilev: none (http=200)
+vecherniy_mogilev: none (http=200)
+mogilev_today: none (http=200)
+mogilevtoday: none (http=200)
+mogilev_live: none (http=200)
+mogilevlive: CHANNEL title='Могилёв LIVE | Новости города на Днепре' counters=[('4', 'subscribers'), ('4', 'photos'), ('2', 'links')] last=2026-03-31T15:34:07+00:00 desc='Могилёв — город с богатой историей, уютной атмосферой и активными жителями. Мы рассказываем о том, как здесь живут, что меняется и что волнует могилёвчан. Подписывайся, чтобы быть в курсе событий Могилёва!'

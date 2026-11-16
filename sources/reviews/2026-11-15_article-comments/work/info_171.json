@@ -1,0 +1,144 @@
+{
+ "number": 171,
+ "url": "https://t.me/moymogilev/56100?embed=1&discussion=1&comments_limit=100",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:32:49.638Z",
+ "html": "raw/171_t-me_tg-moymogilev-56100-discussion.html",
+ "txt": "raw/171_t-me_tg-moymogilev-56100-discussion.txt",
+ "sha256": "64f8bbf6c25b2e489985e43143deb7bcf76a063f54c81737fcf728b878cb52b0",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 10,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_widget body_widget_discussion emoji_image force_userpic nodark name_nocolor",
+    "textLen": 75,
+    "text": "1 comment on this post Marina Фото не соответствует Apr 2 LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_header_wrap",
+    "textLen": 22,
+    "text": "1 comment on this post"
+   },
+   {
+    "tag": "H3",
+    "id": "",
+    "cls": "tgme_post_discussion_header",
+    "textLen": 22,
+    "text": "1 comment on this post"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion js-message_history",
+    "textLen": 34,
+    "text": "Marina Фото не соответствует Apr 2"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 34,
+    "text": " Marina Фото не соответствует "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 21,
+    "text": "Фото не соответствует"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_footer",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "FORM",
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login_btn accent_bghover js-login_btn",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/discussion-widget.js?10",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "action": "",
+    "fields": [
+     "input:hidden:peer",
+     "input:hidden:top_msg_id",
+     "input:hidden:discussion_hash"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 75
+ },
+ "extra": {
+  "name": "tg_moymogilev_56100_discussion",
+  "status": 200,
+  "requested": "https://t.me/moymogilev/56100?embed=1&discussion=1&comments_limit=100",
+  "channel": "moymogilev",
+  "post": 56100,
+  "tgDiscussion": {
+   "url": "https://t.me/moymogilev/56100?embed=1&discussion=1&comments_limit=100",
+   "at": "2026-11-15T14:32:49.637Z",
+   "header": "1 comment on this post",
+   "error": "",
+   "comments": [
+    {
+     "id": "19567",
+     "author": "Marina",
+     "authorHref": "",
+     "text": "Фото не соответствует",
+     "dateText": "Apr 2",
+     "datetime": "2026-04-02T14:48:10+00:00",
+     "url": "https://t.me/moymogilev/56100?comment=19567",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    }
+   ],
+   "moreLeft": false,
+   "moreState": [
+    "tme_messages_more accent_bghover js-messages_more autoload hide|after=19567|before="
+   ],
+   "bodyText": "1 comment on this post\nMarina\nФото не соответствует\nApr 2\nLOG IN TO COMMENT"
+  }
+ }
+}

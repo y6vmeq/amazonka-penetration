@@ -1,0 +1,292 @@
+{
+ "number": 100,
+ "url": "https://t.me/mogilev/16489?embed=1&discussion=1&comments_limit=100",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:31:17.899Z",
+ "html": "raw/100_t-me_tg-mogilev-16489-discussion.html",
+ "txt": "raw/100_t-me_tg-mogilev-16489-discussion.txt",
+ "sha256": "9cb90e27ea83300fe0a5c57a87a354838ac5fb9157e5968156cc95f298af6612",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 22,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_widget body_widget_discussion emoji_image force_userpic nodark name_nocolor",
+    "textLen": 450,
+    "text": "5 comments on this post Роман Степченко А где увидеть меню? Sep 17 Deleted Account о я там работать буду в субботу Sep 17 Deleted Account Роман Степченко А где "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_header_wrap",
+    "textLen": 23,
+    "text": "5 comments on this post"
+   },
+   {
+    "tag": "H3",
+    "id": "",
+    "cls": "tgme_post_discussion_header",
+    "textLen": 23,
+    "text": "5 comments on this post"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion js-message_history",
+    "textLen": 408,
+    "text": "Роман Степченко А где увидеть меню? Sep 17 Deleted Account о я там работать буду в субботу Sep 17 Deleted Account Роман Степченко А где увидеть меню? Наверное в"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 41,
+    "text": " Роман Степченко А где увидеть меню? "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 19,
+    "text": "А где увидеть меню?"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 53,
+    "text": " Deleted Account о я там работать буду в субботу "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 31,
+    "text": "о я там работать буду в субботу"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply user-color-default js-reply_to",
+    "textLen": 35,
+    "text": "Роман Степченко А где увидеть меню?"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 19,
+    "text": "А где увидеть меню?"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 49,
+    "text": " Deleted Account Наверное в самих заведениях "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 27,
+    "text": "Наверное в самих заведениях"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 91,
+    "text": " Anji Мы мешок картошки купили за 40р:))) 40кг, будем дома квестить. Жарим, парим..... "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 80,
+    "text": "Мы мешок картошки купили за 40р:))) 40кг, будем дома квестить. Жарим, парим....."
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply user-color-default js-reply_to",
+    "textLen": 85,
+    "text": "Anji Мы мешок картошки купили за 40р:))) 40кг, будем дома квестить. Жарим, парим....."
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 80,
+    "text": "Мы мешок картошки купили за 40р:))) 40кг, будем дома квестить. Жарим, парим....."
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 43,
+    "text": " Vint(Виктор) А сколько в мешке кг?!🤔 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 24,
+    "text": "А сколько в мешке кг?!🤔"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_footer",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "FORM",
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login_btn accent_bghover js-login_btn",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/discussion-widget.js?10",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "action": "",
+    "fields": [
+     "input:hidden:peer",
+     "input:hidden:top_msg_id",
+     "input:hidden:discussion_hash"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 450
+ },
+ "extra": {
+  "name": "tg_mogilev_16489_discussion",
+  "status": 200,
+  "requested": "https://t.me/mogilev/16489?embed=1&discussion=1&comments_limit=100",
+  "channel": "mogilev",
+  "post": 16489,
+  "tgDiscussion": {
+   "url": "https://t.me/mogilev/16489?embed=1&discussion=1&comments_limit=100",
+   "at": "2026-11-15T14:31:17.898Z",
+   "header": "5 comments on this post",
+   "error": "",
+   "comments": [
+    {
+     "id": "158089",
+     "author": "Роман Степченко",
+     "authorHref": "",
+     "text": "А где увидеть меню?",
+     "dateText": "Sep 17",
+     "datetime": "2026-09-17T15:27:45+00:00",
+     "url": "https://t.me/mogilev/16489?comment=158089",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "158111",
+     "author": "Deleted Account",
+     "authorHref": "",
+     "text": "о я там работать буду в субботу",
+     "dateText": "Sep 17",
+     "datetime": "2026-09-17T17:44:38+00:00",
+     "url": "https://t.me/mogilev/16489?comment=158111",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "158128",
+     "author": "Deleted Account",
+     "authorHref": "",
+     "text": "Наверное в самих заведениях",
+     "dateText": "Sep 17",
+     "datetime": "2026-09-17T18:09:03+00:00",
+     "url": "https://t.me/mogilev/16489?comment=158128",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "158338",
+     "author": "Anji",
+     "authorHref": "https://t.me/ANJILLS",
+     "text": "Мы мешок картошки купили за 40р:))) 40кг, будем дома квестить. Жарим, парим.....",
+     "dateText": "Sep 20",
+     "datetime": "2026-09-20T08:13:27+00:00",
+     "url": "https://t.me/mogilev/16489?comment=158338",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "158705",
+     "author": "Vint(Виктор)",
+     "authorHref": "",
+     "text": "А сколько в мешке кг?!🤔",
+     "dateText": "Sep 23",
+     "datetime": "2026-09-23T03:24:01+00:00",
+     "url": "https://t.me/mogilev/16489?comment=158705",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    }
+   ],
+   "moreLeft": false,
+   "moreState": [
+    "tme_messages_more accent_bghover js-messages_more autoload hide|after=158705|before="
+   ],
+   "bodyText": "5 comments on this post\nРоман Степченко\nА где увидеть меню?\nSep 17\nDeleted Account\nо я там работать буду в субботу\nSep 17\nDeleted Account\nРоман Степченко\nА где увидеть меню?\nНаверное в самих заведениях\nSep 17\nAnji\nМы мешок картошки купили за 40р:))) 40кг, будем дома квестить. Жарим, парим.....\nSep 2"
+  }
+ }
+}

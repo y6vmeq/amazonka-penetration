@@ -1,0 +1,16 @@
+records=14 ok=2 loose=0 partial=5 missing=0 no-raw=0 image=0 snippet=7 empty=0 format_errors=0 reply_problems=0
+
+employer-001 | текст: PARTIAL | ответ: - | текст найден на 100%
+employer-002 | текст: OK | ответ: -
+employer-003 | текст: SNIPPET | ответ: -
+employer-004 | текст: SNIPPET | ответ: -
+employer-005 | текст: SNIPPET | ответ: -
+employer-006 | текст: SNIPPET | ответ: -
+employer-007 | текст: SNIPPET | ответ: -
+employer-008 | текст: SNIPPET | ответ: -
+employer-009 | текст: SNIPPET | ответ: -
+employer-011 | текст: OK | ответ: -
+employer-013 | текст: PARTIAL | ответ: - | текст найден на 100%
+employer-014 | текст: PARTIAL | ответ: - | текст найден на 100%
+employer-015 | текст: PARTIAL | ответ: - | текст найден на 100%
+employer-016 | текст: PARTIAL | ответ: - | текст найден на 100%

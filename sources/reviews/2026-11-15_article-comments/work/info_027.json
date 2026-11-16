@@ -1,0 +1,440 @@
+{
+ "number": 27,
+ "url": "https://people.onliner.by/2022/01/12/peshehodnaja-mogilev",
+ "title": "Узнали, что есть интересного на могилевской пешеходке",
+ "at": "2026-11-15T14:12:12.234Z",
+ "html": "raw/027_people-onliner-by_onliner-2022-01-12-peshehodnaja-mogilev.html",
+ "txt": "raw/027_people-onliner-by_onliner-2022-01-12-peshehodnaja-mogilev.txt",
+ "sha256": "cbd915787d95c90c42a1d2e807b4f150e8aeac11429c8a2f66a45ef0e94f4414",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 57,
+  "commentElements": [
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "b-main-navigation__dropdown-news-preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "b-main-navigation__dropdown-news-preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "b-main-navigation__dropdown-news-preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "b-main-navigation__dropdown-news-preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "b-main-navigation__dropdown-news-preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "b-main-navigation__dropdown-news-preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "b-main-navigation__dropdown-news-preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "b-main-navigation__dropdown-news-preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "b-main-navigation__dropdown-news-preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "b-main-navigation__dropdown-news-preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "b-main-navigation__dropdown-news-preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "b-main-navigation__dropdown-news-preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-header__preview",
+    "textLen": 79,
+    "text": "25 098 12 января 2022 в 18:00 Источник: Яков Журбин. Фото: Максим Малиновский"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news-media__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "news-widget__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "news-widget__preview",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "news-widget__preview",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [
+   {
+    "src": "https://people.onliner.by/sdapi/catalog/search/iframe?referrer=https://people.onliner.by/2022/01/12/peshehodnaja-mogilev",
+    "id": "",
+    "cls": "modal-iframe"
+   },
+   {
+    "src": "https://chats.onliner.by/helper-iframe",
+    "id": "",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [
+   "на витебской «пешеходке» SSD Crucial BX500 240GB CT240BX500SSD1 410 отзывов 240 ГБ, 2.5\", SATA 3.0, контроллер Silicon Motion SM2258XT, микросхемы 3D TLC NAND, последовательный д",
+   "-шуруповерт Metabo PowerMaxx BS Basic 600080500 (с 2-мя АКБ 2 Ah) 149 отзывов питание: аккумуляторный, Li-ion, 12 В, 2 АКБ в комплекте, 2 А·ч, 1400 об/мин, макс. крутящий момент 3",
+   "е Держатель для смартфона Xiaomi Mi Wireless Car Charger WCJ02ZM 26 отзывов шарнирная конструкция, крепление устройства: зажим, установка в вентрешетку, зарядка беспроводная 11"
+  ],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 11877
+ },
+ "extra": {
+  "status": 200,
+  "commentInHtml": false
+ }
+}

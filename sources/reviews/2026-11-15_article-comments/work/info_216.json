@@ -1,0 +1,73 @@
+{
+ "number": 216,
+ "url": "https://magilev.by/news/2026/03/04/kulinarnyj-festival-lepshy-gust-magilyova-s-16-marta-kto-uchastvuet-i-chto-v-menyu",
+ "title": "Кулинарный фестиваль «Лепшы густ Магiлёва» с 16 марта: кто участвует и что в меню | magilev.by",
+ "at": "2026-11-15T15:32:43.988Z",
+ "html": "raw/216_magilev-by_magilev-2026-03-04-kulinarnyj-festival-lepshy-gust-magily.html",
+ "txt": "raw/216_magilev-by_magilev-2026-03-04-kulinarnyj-festival-lepshy-gust-magily.txt",
+ "sha256": "7a1e2d9c0a13acf08a6deb5d9fb7c7ddafcec170a0a3f06f4ae78ef743898796",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "b b_detail-before-comments b_visible",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [
+   {
+    "src": "",
+    "id": "",
+    "cls": ""
+   },
+   {
+    "src": "about:blank",
+    "id": "",
+    "cls": ""
+   },
+   {
+    "src": "about:blank",
+    "id": "",
+    "cls": ""
+   },
+   {
+    "src": "about:blank",
+    "id": "",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "sf1",
+    "cls": "search-form search-form_hidden",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   },
+   {
+    "id": "sf2",
+    "cls": "search-form search-form_hidden header__main-search",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 7050
+ },
+ "extra": {
+  "name": "magilev_2026-03-04_kulinarnyj-festival-lepshy-gust-magily",
+  "status": 200,
+  "requested": "https://magilev.by/news/2026/03/04/kulinarnyj-festival-lepshy-gust-magilyova-s-16-marta-kto-uchastvuet-i-chto-v-menyu",
+  "pre": null
+ }
+}

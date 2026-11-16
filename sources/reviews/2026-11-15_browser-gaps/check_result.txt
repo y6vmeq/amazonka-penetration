@@ -1,0 +1,32 @@
+records=30 ok=29 loose=0 partial=0 missing=0 no-raw=0 image=0 snippet=1 empty=0 format_errors=0 reply_problems=0
+
+browser-gaps-001 | текст: OK | ответ: -
+browser-gaps-002 | текст: OK | ответ: -
+browser-gaps-003 | текст: OK | ответ: -
+browser-gaps-004 | текст: SNIPPET | ответ: -
+browser-gaps-005 | текст: OK | ответ: -
+browser-gaps-007 | текст: OK | ответ: -
+browser-gaps-008 | текст: OK | ответ: -
+browser-gaps-009 | текст: OK | ответ: -
+browser-gaps-010 | текст: OK | ответ: -
+browser-gaps-011 | текст: OK | ответ: -
+browser-gaps-012 | текст: OK | ответ: -
+browser-gaps-013 | текст: OK | ответ: -
+browser-gaps-014 | текст: OK | ответ: -
+browser-gaps-015 | текст: OK | ответ: -
+browser-gaps-016 | текст: OK | ответ: -
+browser-gaps-017 | текст: OK | ответ: -
+browser-gaps-018 | текст: OK | ответ: -
+browser-gaps-019 | текст: OK | ответ: -
+browser-gaps-020 | текст: OK | ответ: -
+browser-gaps-021 | текст: OK | ответ: -
+browser-gaps-022 | текст: OK | ответ: -
+browser-gaps-023 | текст: OK | ответ: -
+browser-gaps-024 | текст: OK | ответ: -
+browser-gaps-025 | текст: OK | ответ: -
+browser-gaps-026 | текст: OK | ответ: -
+browser-gaps-027 | текст: OK | ответ: -
+browser-gaps-028 | текст: OK | ответ: -
+browser-gaps-029 | текст: OK | ответ: -
+browser-gaps-030 | текст: OK | ответ: -
+browser-gaps-031 | текст: OK | ответ: -

@@ -1,0 +1,61 @@
+{
+ "number": 256,
+ "url": "https://komkur.info/money/draniki-pod-shapochkoj-i-nezhnejshie-blinchiki-prodegustirovali-set-ot-mogilevskogo-restobara-colette",
+ "title": "Драники «под шапочкой» и нежнейшие блинчики: продегустировали сет от могилевского рестобара Colette.",
+ "at": "2026-11-15T17:09:05.201Z",
+ "html": "raw/256_komkur-info_komkur-new-draniki-pod-shapochkoj-i-nezhnejshie-bli.html",
+ "txt": "raw/256_komkur-info_komkur-new-draniki-pod-shapochkoj-i-nezhnejshie-bli.txt",
+ "sha256": "f17214f3996e1ca279bfa6dd62e2c666c5766aa930c622ee64e781504521398a",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [
+   {
+    "src": "https://yastatic.net/safeframe-bundles/0.89/1-1-0/render.html",
+    "id": "id8736",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [
+   ".2024 г. Могилев, на фестивале еды в рестобаре Colette. Восторженные отзывы знакомых о здешних блинчиках слышала не раз. Но попробовать их все как-то не доводилось. И увидев это б"
+  ],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:cd19a83bc8bc4614347f054dca815359"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 6977
+ },
+ "extra": {
+  "name": "komkur_new_draniki-pod-shapochkoj-i-nezhnejshie-bli",
+  "status": 200,
+  "requested": "https://komkur.info/money/draniki-pod-shapochkoj-i-nezhnejshie-blinchiki-prodegustirovali-set-ot-mogilevskogo-restobara-colette",
+  "pre": null
+ }
+}

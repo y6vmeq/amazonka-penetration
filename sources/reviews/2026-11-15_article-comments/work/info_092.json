@@ -1,0 +1,432 @@
+{
+ "number": 92,
+ "url": "https://t.me/mogilev/8636?embed=1&discussion=1&comments_limit=100",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:31:06.399Z",
+ "html": "raw/092_t-me_tg-mogilev-8636-discussion.html",
+ "txt": "raw/092_t-me_tg-mogilev-8636-discussion.txt",
+ "sha256": "e2cfde1c839d7ed0251b18dc39fdfae1a995e3dd428ff6a6db21296bec551bde",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 30,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_widget body_widget_discussion emoji_image force_userpic nodark name_nocolor",
+    "textLen": 748,
+    "text": "10 comments on this post Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о события"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_header_wrap",
+    "textLen": 24,
+    "text": "10 comments on this post"
+   },
+   {
+    "tag": "H3",
+    "id": "",
+    "cls": "tgme_post_discussion_header",
+    "textLen": 24,
+    "text": "10 comments on this post"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion js-message_history",
+    "textLen": 705,
+    "text": "Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области мо"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 195,
+    "text": " Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области м"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 171,
+    "text": "🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggest"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 50,
+    "text": " vontx FNX В районе переезда дождь начинается "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 34,
+    "text": "В районе переезда дождь начинается"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 36,
+    "text": " vontx FNX На автовокзале ветер "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 20,
+    "text": "На автовокзале ветер"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 29,
+    "text": " vontx FNX И дождь пошел "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 13,
+    "text": "И дождь пошел"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 26,
+    "text": " Deleted Account Люди "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 4,
+    "text": "Люди"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 55,
+    "text": " Deleted Account У кого уже начинает гром гриметь? "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 33,
+    "text": "У кого уже начинает гром гриметь?"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 33,
+    "text": " Толян Почему беспринципная? "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 21,
+    "text": "Почему беспринципная?"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 35,
+    "text": " Deleted Account Че происходит "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 13,
+    "text": "Че происходит"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 62,
+    "text": " Deleted Account У меня погремел чуть чуть и опять солнце "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 40,
+    "text": "У меня погремел чуть чуть и опять солнце"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply user-color-default js-reply_to",
+    "textLen": 29,
+    "text": "Deleted Account Че происходит"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 13,
+    "text": "Че происходит"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 55,
+    "text": " Толян Беспринципная кража, вообще-то,совершена 👌 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 43,
+    "text": "Беспринципная кража, вообще-то,совершена 👌"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_footer",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "FORM",
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login_btn accent_bghover js-login_btn",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/discussion-widget.js?10",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [
+   "10 comments on this post Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о собы"
+  ],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "action": "",
+    "fields": [
+     "input:hidden:peer",
+     "input:hidden:top_msg_id",
+     "input:hidden:discussion_hash"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 748
+ },
+ "extra": {
+  "name": "tg_mogilev_8636_discussion",
+  "status": 200,
+  "requested": "https://t.me/mogilev/8636?embed=1&discussion=1&comments_limit=100",
+  "channel": "mogilev",
+  "post": 8636,
+  "tgDiscussion": {
+   "url": "https://t.me/mogilev/8636?embed=1&discussion=1&comments_limit=100",
+   "at": "2026-11-15T14:31:06.398Z",
+   "header": "10 comments on this post",
+   "error": "",
+   "comments": [
+    {
+     "id": "67855",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilevglavnoebot",
+     "text": "🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot",
+     "dateText": "Jul 11, 2025",
+     "datetime": "2025-07-11T09:23:58+00:00",
+     "url": "https://t.me/mogilev/8636?comment=67855",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "67864",
+     "author": "vontx FNX",
+     "authorHref": "https://t.me/vontxxfn",
+     "text": "В районе переезда дождь начинается",
+     "dateText": "Jul 11, 2025",
+     "datetime": "2025-07-11T09:51:31+00:00",
+     "url": "https://t.me/mogilev/8636?comment=67864",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "67865",
+     "author": "vontx FNX",
+     "authorHref": "https://t.me/vontxxfn",
+     "text": "На автовокзале ветер",
+     "dateText": "Jul 11, 2025",
+     "datetime": "2025-07-11T09:52:58+00:00",
+     "url": "https://t.me/mogilev/8636?comment=67865",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "67866",
+     "author": "vontx FNX",
+     "authorHref": "https://t.me/vontxxfn",
+     "text": "И дождь пошел",
+     "dateText": "Jul 11, 2025",
+     "datetime": "2025-07-11T09:53:12+00:00",
+     "url": "https://t.me/mogilev/8636?comment=67866",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "❤1"
+     ],
+     "media": []
+    },
+    {
+     "id": "67870",
+     "author": "Deleted Account",
+     "authorHref": "",
+     "text": "Люди",
+     "dateText": "Jul 11, 2025",
+     "datetime": "2025-07-11T09:59:37+00:00",
+     "url": "https://t.me/mogilev/8636?comment=67870",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "67871",
+     "author": "Deleted Account",
+     "authorHref": "",
+     "text": "У кого уже начинает гром гриметь?",
+     "dateText": "Jul 11, 2025",
+     "datetime": "2025-07-11T09:59:50+00:00",
+     "url": "https://t.me/mogilev/8636?comment=67871",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "67873",
+     "author": "Толян",
+     "authorHref": "",
+     "text": "Почему беспринципная?",
+     "dateText": "Jul 11, 2025",
+     "datetime": "2025-07-11T10:08:31+00:00",
+     "url": "https://t.me/mogilev/8636?comment=67873",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "67874",
+     "author": "Deleted Account",
+     "authorHref": "",
+     "text": "Че происходит",
+     "dateText": "Jul 11, 2025",
+     "datetime": "2025-07-11T10:12:58+00:00",
+     "url": "https://t.me/mogilev/8636?comment=67874",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "67875",
+     "author": "Deleted Account",
+     "authorHref": "",
+     "text": "У меня погремел чуть чуть и опять солнце",
+     "dateText": "Jul 11, 2025",
+     "datetime": "2025-07-11T10:13:16+00:00",
+     "url": "https://t.me/mogilev/8636?comment=67875",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "67899",
+     "author": "Толян",
+     "authorHref": "",
+     "text": "Беспринципная кража, вообще-то,совершена 👌",
+     "dateText": "Jul 11, 2025",
+     "datetime": "2025-07-11T10:22:45+00:00",
+     "url": "https://t.me/mogilev/8636?comment=67899",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    }
+   ],
+   "moreLeft": false,
+   "moreState": [
+    "tme_messages_more accent_bghover js-messages_more autoload hide|after=67899|before="
+   ],
+   "bodyText": "10 comments on this post\nМогилев. Главное!\n🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot\nJul 11, 2025\nvontx FNX\nВ районе переезда дождь начинается\nJul 11, 2025\nvontx FNX\nНа а"
+  }
+ }
+}

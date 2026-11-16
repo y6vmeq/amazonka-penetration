@@ -1,0 +1,28 @@
+records=26 ok=20 loose=6 partial=0 missing=0 no-raw=0 image=0 snippet=0 empty=0 format_errors=0 reply_problems=0
+
+social-001 | текст: LOOSE | ответ: -
+social-002 | текст: LOOSE | ответ: -
+social-003 | текст: OK | ответ: -
+social-004 | текст: OK | ответ: -
+social-005 | текст: OK | ответ: -
+social-006 | текст: OK | ответ: -
+social-007 | текст: OK | ответ: -
+social-008 | текст: OK | ответ: -
+social-009 | текст: OK | ответ: -
+social-010 | текст: LOOSE | ответ: -
+social-011 | текст: OK | ответ: -
+social-012 | текст: OK | ответ: -
+social-013 | текст: LOOSE | ответ: -
+social-014 | текст: LOOSE | ответ: -
+social-015 | текст: OK | ответ: -
+social-016 | текст: LOOSE | ответ: -
+social-017 | текст: OK | ответ: -
+social-018 | текст: OK | ответ: -
+social-019 | текст: OK | ответ: -
+social-020 | текст: OK | ответ: -
+social-021 | текст: OK | ответ: -
+social-022 | текст: OK | ответ: -
+social-023 | текст: OK | ответ: -
+social-024 | текст: OK | ответ: -
+social-025 | текст: OK | ответ: -
+social-026 | текст: OK | ответ: -

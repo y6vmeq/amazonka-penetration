@@ -1,0 +1,165 @@
+{
+ "number": 160,
+ "url": "https://t.me/moymogilev/49613?embed=1&discussion=1&comments_limit=100",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:32:34.986Z",
+ "html": "raw/160_t-me_tg-moymogilev-49613-discussion.html",
+ "txt": "raw/160_t-me_tg-moymogilev-49613-discussion.txt",
+ "sha256": "2b66e06bce7e3c19ea512ed2c6f987a345d4166b792dcf27f6bc62187f024886",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 13,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_widget body_widget_discussion emoji_image force_userpic nodark name_nocolor",
+    "textLen": 527,
+    "text": "1 comment on this post Deleted Account Могилёв - мой город! Video Ого, как классно, что хлеборобы из Могилева так прокатились! Картофляники звучат невероятно вк"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_header_wrap",
+    "textLen": 22,
+    "text": "1 comment on this post"
+   },
+   {
+    "tag": "H3",
+    "id": "",
+    "cls": "tgme_post_discussion_header",
+    "textLen": 22,
+    "text": "1 comment on this post"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion js-message_history",
+    "textLen": 486,
+    "text": "Deleted Account Могилёв - мой город! Video Ого, как классно, что хлеборобы из Могилева так прокатились! Картофляники звучат невероятно вкусно, особенно с томлен"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply user-color-default js-reply_to",
+    "textLen": 26,
+    "text": "Могилёв - мой город! Video"
+   },
+   {
+    "tag": "I",
+    "id": "",
+    "cls": "tgme_widget_message_reply_thumb",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_metatext js-message_reply_text",
+    "textLen": 5,
+    "text": "Video"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 282,
+    "text": " Deleted Account Ого, как классно, что хлеборобы из Могилева так прокатились! Картофляники звучат невероятно вкусно, особенно с томленой говядиной и клюквенным "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 260,
+    "text": "Ого, как классно, что хлеборобы из Могилева так прокатились! Картофляники звучат невероятно вкусно, особенно с томленой говядиной и клюквенным гелем! 😍 Когда с"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_footer",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "FORM",
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login_btn accent_bghover js-login_btn",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/discussion-widget.js?10",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "action": "",
+    "fields": [
+     "input:hidden:peer",
+     "input:hidden:top_msg_id",
+     "input:hidden:discussion_hash"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 527
+ },
+ "extra": {
+  "name": "tg_moymogilev_49613_discussion",
+  "status": 200,
+  "requested": "https://t.me/moymogilev/49613?embed=1&discussion=1&comments_limit=100",
+  "channel": "moymogilev",
+  "post": 49613,
+  "tgDiscussion": {
+   "url": "https://t.me/moymogilev/49613?embed=1&discussion=1&comments_limit=100",
+   "at": "2026-11-15T14:32:34.985Z",
+   "header": "1 comment on this post",
+   "error": "",
+   "comments": [
+    {
+     "id": "9141",
+     "author": "Deleted Account",
+     "authorHref": "",
+     "text": "Ого, как классно, что хлеборобы из Могилева так прокатились! Картофляники звучат невероятно вкусно, особенно с томленой говядиной и клюквенным гелем! 😍 Когда сама готовила подобное, вписывала в свой план питания, это было просто пушка! Если вдруг решишь уйти в интервальное голодание, можно поэкспериментировать с порциями. Но любой рецепт лучше запланировать заранее, и @Amofitprofitbot всегда под рукой, чтобы помочь с питанием!",
+     "dateText": "Oct 2, 2025",
+     "datetime": "2025-10-02T16:39:34+00:00",
+     "url": "https://t.me/moymogilev/49613?comment=9141",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    }
+   ],
+   "moreLeft": false,
+   "moreState": [
+    "tme_messages_more accent_bghover js-messages_more autoload hide|after=9141|before="
+   ],
+   "bodyText": "1 comment on this post\nDeleted Account\nМогилёв - мой город!\nVideo\nОго, как классно, что хлеборобы из Могилева так прокатились! Картофляники звучат невероятно вкусно, особенно с томленой говядиной и клюквенным гелем! 😍 Когда сама готовила подобное, вписывала в свой план питания, это было просто пушк"
+  }
+ }
+}

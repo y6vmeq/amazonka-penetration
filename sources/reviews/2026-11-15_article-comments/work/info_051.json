@@ -1,0 +1,241 @@
+{
+ "number": 51,
+ "url": "https://t.me/mogilev/7506?embed=1&discussion=1&comments_limit=100",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:27:14.652Z",
+ "html": "raw/051_t-me_tg-mogilev-7506-discussion.html",
+ "txt": "raw/051_t-me_tg-mogilev-7506-discussion.txt",
+ "sha256": "48652f1218dabef7fe6e4f55c4fa771f848cab5a4df9db3a0511c0c548b19dfa",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 16,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_widget body_widget_discussion emoji_image force_userpic nodark name_nocolor",
+    "textLen": 526,
+    "text": "4 comments on this post Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_header_wrap",
+    "textLen": 23,
+    "text": "4 comments on this post"
+   },
+   {
+    "tag": "H3",
+    "id": "",
+    "cls": "tgme_post_discussion_header",
+    "textLen": 23,
+    "text": "4 comments on this post"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion js-message_history",
+    "textLen": 484,
+    "text": "Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области мо"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 195,
+    "text": " Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области м"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 171,
+    "text": "🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggest"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 107,
+    "text": " Светлана Самое простое убрать просрочку это если по истечении срока годности не пробивается штрих код "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 92,
+    "text": "Самое простое убрать просрочку это если по истечении срока годности не пробивается штрих код"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 103,
+    "text": " Александр Самое простое, закрыть магазины, и потом все будет норм., просрочки и тд и тп не будет. "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 87,
+    "text": "Самое простое, закрыть магазины, и потом все будет норм., просрочки и тд и тп не будет."
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 29,
+    "text": " Микки хлебцы это жестко "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 17,
+    "text": "хлебцы это жестко"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_footer",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "FORM",
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login_btn accent_bghover js-login_btn",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/discussion-widget.js?10",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [
+   "4 comments on this post Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о собы"
+  ],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "action": "",
+    "fields": [
+     "input:hidden:peer",
+     "input:hidden:top_msg_id",
+     "input:hidden:discussion_hash"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 526
+ },
+ "extra": {
+  "name": "tg_mogilev_7506_discussion",
+  "status": 200,
+  "requested": "https://t.me/mogilev/7506?embed=1&discussion=1&comments_limit=100",
+  "tgDiscussion": {
+   "url": "https://t.me/mogilev/7506?embed=1&discussion=1&comments_limit=100",
+   "at": "2026-11-15T14:27:14.652Z",
+   "header": "4 comments on this post",
+   "error": "",
+   "comments": [
+    {
+     "id": "55821",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilevglavnoebot",
+     "text": "🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot",
+     "dateText": "May 15, 2025",
+     "datetime": "2025-05-15T14:00:36+00:00",
+     "url": "https://t.me/mogilev/7506?comment=55821",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "55825",
+     "author": "Светлана",
+     "authorHref": "",
+     "text": "Самое простое убрать просрочку это если по истечении срока годности не пробивается штрих код",
+     "dateText": "May 15, 2025",
+     "datetime": "2025-05-15T14:49:10+00:00",
+     "url": "https://t.me/mogilev/7506?comment=55825",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "❤1",
+      "👎1"
+     ],
+     "media": []
+    },
+    {
+     "id": "55832",
+     "author": "Александр",
+     "authorHref": "https://t.me/Rantor1983",
+     "text": "Самое простое, закрыть магазины, и потом все будет норм., просрочки и тд и тп не будет.",
+     "dateText": "May 15, 2025",
+     "datetime": "2025-05-15T15:11:38+00:00",
+     "url": "https://t.me/mogilev/7506?comment=55832",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "👍2"
+     ],
+     "media": []
+    },
+    {
+     "id": "55846",
+     "author": "Микки",
+     "authorHref": "https://t.me/Bulka4ik",
+     "text": "хлебцы это жестко",
+     "dateText": "May 15, 2025",
+     "datetime": "2025-05-15T16:22:45+00:00",
+     "url": "https://t.me/mogilev/7506?comment=55846",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [
+      "👍2"
+     ],
+     "media": []
+    }
+   ],
+   "moreLeft": false,
+   "moreState": [
+    "tme_messages_more accent_bghover js-messages_more autoload hide|after=55846|before="
+   ],
+   "bodyText": "4 comments on this post\nМогилев. Главное!\n🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot\nMay 15, 2025\nСветлана\nСамое простое убрать просрочку это если по истечении срока годно"
+  }
+ }
+}

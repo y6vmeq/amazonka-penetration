@@ -1,0 +1,47 @@
+{
+ "number": 34,
+ "url": "https://mycity.by/news/obshchestvo/6703-gastrofest-v-mogileve-12-zavedenij-uchastnikov-i-sety-bolshe-kilogramma-pochti-vse-rasskazyvaem-i-pokazyvaem",
+ "title": "Gastrofest в Могилеве: 12 заведений-участников и сеты больше килограмма (почти все). Рассказываем и показываем",
+ "at": "2026-11-15T14:14:49.392Z",
+ "html": "raw/034_mycity-by_mycity-6703-gastrofest-12-zavedenij.html",
+ "txt": "raw/034_mycity-by_mycity-6703-gastrofest-12-zavedenij.txt",
+ "sha256": "9a883f1eadfd7432731291afb52382c8b0a7b997ea21741c40878396ccea45e5",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [
+   {
+    "src": "https://yastatic.net/share/ya-share-cnt.html?url=https%3A%2F%2Fmycity.by%2Fnews%2Fobshchestvo%2F6703-gastrofest-v-mogileve-12-zavedenij-uchastnikov-i-sety-bolshe-kilogramma-pochti-vse-rasskazyvaem-i-pokazyvaem&services=vkontakte,twitter,odnoklassniki,moimir",
+    "id": "",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [
+   "https://vk.com/js/api/openapi.js?130"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline form-search",
+    "action": "/news/obshchestvo",
+    "fields": [
+     "input:search:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 7437
+ },
+ "extra": {
+  "name": "mycity_6703_gastrofest-12-zavedenij",
+  "status": 200,
+  "requested": "https://mycity.by/news/obshchestvo/6703-gastrofest-v-mogileve-12-zavedenij-uchastnikov-i-sety-bolshe-kilogramma-pochti-vse-rasskazyvaem-i-pokazyvaem",
+  "pre": null
+ }
+}

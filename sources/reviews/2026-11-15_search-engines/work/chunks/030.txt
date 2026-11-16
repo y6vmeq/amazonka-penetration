@@ -1,0 +1,33 @@
+>> Y|0|"Амазонка" Могилев долги поставщики закрыли|n=13|rel=9|note=о долгах, поставщиках и закрытии ничего: обычные страницы заведения; в выдаче также фитнес-клубы и магазин белья «Амазонка» (другие объекты)
+>> Y|1|"Амазонка" Могилев долги поставщики закрыли|n=9|rel=2|note=о долгах ничего; в основном тёзки
+>> Y|0|amazonkarestobar|n=10|rel=10
+[cc45f9fc] amin fetch
+Амазонка рестобар — Рестораны, Минск — DOSUG.BY
+https://dosug.by/katalog/eda/restoranyi/amazonka-restobar
+Амазонка рестобар — рестораны в Минске. Адрес: ул. Карла Маркса, 21. Меню и цены, часы работы, телефоны, фото и отзывы.
+
+>> Y|1|amazonkarestobar|n=10|rel=9
+[ea3142fb] am fetch
+Экзотический рестобар в Могилеве на продажу
+https://www.beboss.by/Hub/ekzoticheskiy-restobar-v-mogileve
+Штат сотрудников сформирован. Необходимое оборудование в собственности. Инстаграм: www.instagram.com/amazonka_restobar.
+# то же объявление о продаже бизнеса, что на b4y.by
+
+[4059bb46] am fetch
+Экзотический рестобар в Могилеве на продажу - Bizzona.by
+https://bizzona.by/Article/ekzoticheskiy-restobar-v-mogileve
+Штат сотрудников сформирован. Необходимое оборудование в собственности. Инстаграм: www.instagram.com/amazonka_restobar.
+# то же объявление о продаже бизнеса, что на b4y.by
+
+[dcaf5bd1] am fetch
+Amazonka Restobar | 8 029 247-85-69 | Могилёв
+https://www.bizkontakte.com/BY/amazonka-restobar-8-029-247-85-69
+Связаться с Amazonka Restobar можно по номеру телефона 8 029 247-85-69. Основная категория Amazonka Restobar – Бары, пабы и таверны.
+# телефон 8 029 247-85-69 при названии заведения (в справочнике checko.ru тот же номер указан у ООО «АмазонкаГрупп»)
+
+>> Y|0|#amazonkarestobar|n=10|rel=10|note=та же выдача, что по запросу без решётки
+>> Y|1|#amazonkarestobar|n=10|rel=9
+[c6393ffe] am fetch
+На фестивале еды «Зімовы смак»: рестобар «Амазонка»...
+https://komkur.info/money/na-festivale-edy-zimovy-smak-restobar-amazonka-i-udivil-i-vkusno-nakormil
+С 18 по 28 января в Могилеве проходит фестиваль еды «Зімовы смак». Стоимость сета – 35 рублей у всех девяти участников.

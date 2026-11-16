@@ -1,0 +1,46 @@
+// Поиск по сайтам через их собственные страницы поиска (без входа). Задание { name, url, site, query }.
+// Страница открывается, снимается разметка (extra.links — ссылки с заголовками из области выдачи,
+// extra.summary — строка сайта о числе найденного). В ответ возвращаются только числа.
+async (page) => {
+  const context = page.context();
+  let collector = null;
+  for (const candidate of context.pages()) {
+    const flag = await candidate.evaluate(() => window.__isCollector === true).catch(() => false);
+    if (flag) { collector = candidate; break; }
+  }
+  if (!collector) return { error: 'collector tab not found' };
+  const worker = context.pages().find((candidate) => candidate !== collector) || await context.newPage();
+  const jobs = await collector.evaluate(() => window.__jobs || []);
+  await collector.evaluate(() => { window.__dumps = window.__dumps || []; });
+  const results = [];
+  for (const job of jobs) {
+    const result = { n: job.name };
+    try {
+      const response = await worker.goto(job.url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+      result.s = response ? response.status() : null;
+      await worker.waitForLoadState('load', { timeout: 20000 }).catch(() => {});
+      await worker.waitForTimeout(job.wait || 1500);
+      const dump = await worker.evaluate(async (extra) => {
+        const text = document.body ? document.body.innerText : '';
+        const summary = (text.match(/[^\n]*(найдено|результат\w* поиска|ничего не найдено|не дал результатов|по запросу)[^\n]*/i) || [''])[0].trim().slice(0, 200);
+        const links = [...document.querySelectorAll('a[href]')]
+          .map((anchor) => ({ href: anchor.href, text: (anchor.innerText || '').replace(/\s+/g, ' ').trim() }))
+          .filter((link) => link.text.length >= 25 && /^https?:/.test(link.href));
+        const next = [...document.querySelectorAll('a[href]')].filter((anchor) => /^(далее|вперед|вперёд|следующая|next|»|›|>)$/i.test((anchor.innerText || '').trim()) || /pagination-next|pnext/.test(anchor.className + ' ' + (anchor.parentElement ? anchor.parentElement.className : ''))).map((anchor) => anchor.href);
+        extra.summary = summary;
+        extra.links = links;
+        extra.next = next.slice(0, 3);
+        return window.__ac.dump(extra);
+      }, { name: job.name, status: result.s, requested: job.url, site: job.site, query: job.query });
+      await collector.evaluate((item) => { window.__dumps.push(item); }, dump);
+      result.sum = dump.extra.summary.slice(0, 80);
+      result.links = dump.extra.links.length;
+      result.next = dump.extra.next.length;
+      result.len = dump.text.length;
+    } catch (error) {
+      result.error = String(error).slice(0, 200);
+    }
+    results.push(result);
+  }
+  return results;
+}

@@ -1,0 +1,609 @@
+﻿<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Новости</title>
+    <link href="/assets/5aaf25d2/css/bootstrap.css?v=1731306808" rel="stylesheet">
+<link href="/assets/dd526018/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css?v=1559026175" rel="stylesheet">
+<link href="/assets/1b44cbfd/css/font-awesome.min.css?v=1559026175" rel="stylesheet">
+<link href="/css/template.css?v=1720420839" rel="stylesheet">
+<link href="/css/effects.css?v=1715843203" rel="stylesheet">
+<link href="/css/uikit.almost-flat.css?v=1719554857" rel="stylesheet">
+<link href="/css/style.css?v=1720422151" rel="stylesheet">
+<link href="/css/main.css?v=1731651227" rel="stylesheet">
+<link href="/css/panel-style.css?v=1581586058" rel="stylesheet">
+<link href="/css/slider.css?v=1576051188" rel="stylesheet">    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="wF0kEovbrF_MHsiEcBD8p_mFgS4bR9hEbLEZIyYDi7uqCRBRs7SVLYdtr_c2fY3uoLPEGSgeuw0f4UtKSVbg8Q==">
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter50514382 = new Ya.Metrika2({
+                    id:50514382,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/50514382" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<style>
+#sp-main-body-wrapper img {
+    height: auto !important;
+}
+</style>
+<!-- /Yandex.Metrika counter -->
+
+</head>
+<div id="panel-vision" class="no-vision" style="z-index:12412412;">
+    <div class="settings-vision">
+        <div class="settings-name">Изображения</div>
+        <div class="settings-item" onclick="setImageVisible(true)">
+            <img class="settings-item-image" src="http://reacenter.by/templates/yoo_lava/images/panel-vision/Image 2.png">
+            <div class="settings-item-name">Включить</div>
+        </div>
+        <div class="settings-item" onclick="setImageVisible(false)">
+            <img class="settings-item-image" src="http://reacenter.by/templates/yoo_lava/images/panel-vision/no-image.png">
+            <div class="settings-item-name">Выключить</div>
+        </div>
+    </div>
+    <div class="settings-vision">
+        <div class="settings-name">Цвет</div>
+        <div class="settings-item" onclick="setBackgroundColor('white')">
+            <div class="settings-item-indication">А</div>
+            <div class="settings-item-name">Белый</div>
+        </div>
+        <div class="settings-item" onclick="setBackgroundColor('black')">
+            <div class="settings-item-indication" id="indication-black">А</div>
+            <div class="settings-item-name">Чёрный</div>
+        </div>
+        <div class="settings-item" onclick="setBackgroundColor('blue')">
+            <div class="settings-item-indication" id="indication-blue">А</div>
+            <div class="settings-item-name">Синий</div>
+        </div>
+    </div>
+    <div class="settings-vision">
+        <div class="settings-name">Стиль текста</div>
+        <div class="settings-item" onclick="setFontType(1)">
+            <div class="settings-item-indication" id="indication-serif">А</div>
+            <div class="settings-item-name">С засечками</div>
+        </div>
+        <div class="settings-item" onclick="setFontType(2)">
+            <div class="settings-item-indication" id="indication-sans-serif">А</div>
+            <div class="settings-item-name">Без засечек</div>
+        </div>
+    </div>
+    <div class="settings-vision">
+        <div class="settings-name">Размер текста</div>
+        <div class="settings-item" id="settings-font-size">
+            <select id="sts" onchange="setFontSize(this.value); setFontParagraph(parseInt(this.value)+8); setLetterSpacing(parseInt(this.value)-14);">
+                <option value="14">Маленький</option>
+                <option value="15">Средний</option>
+                <option value="16">Большой</option>
+            </select>
+        </div>
+    </div>
+    <div id="settings-panel-active" onclick="setPanelVisible(false)">Обычная версия сайта</div>
+</div>
+<body>
+    <div class="wrap">
+
+    <nav id="sp-header-wrapper" class="navbar-inverse navbar-fixed-top navbar" role="navigation">
+                        <section id="sp-toolbar-wrapper" class=" hidden-phone">
+                            <div class="container">
+                                <div class="row-fluid" id="toolbar">
+                                    <div id="sp-toolbar-l" class="span6">	
+                                        <div class="module ">	
+                                            <div class="mod-wrapper clearfix">		
+                                                <div class="mod-content clearfix">	
+                                                    <div class="mod-inner clearfix">
+                                                        <div class="custom">
+                                                        <div class="logo-wrapper">
+                    <a href="/site/index"><div class="logo"><img src="/img/rb.png" alt=""></div></a>
+                    <div class="logo-text">
+                        <div class="logo-text_big">
+                        Департамент государственной инспекции труда
+                        </div>
+                        <div class="logo-text_small">
+                        Министерства труда и социальной защиты Республики Беларусь
+                        </div>
+                    </div>
+                </div>
+                                                            <!--<a href="https://xn--80abnmycp7evc.xn--90ais/">Электронные обращения</a>  |  
+                                                            <a href="http://git.gov.by/page/30-let-na-straje-ohrani-truda">Нам 30 лет!</a>  |  -->
+                                                            <div class="container-text">
+																<div class="text1">Горячая линия</div>
+																<div class="text">
+																<img src="/img/icon_phone.png">  (017) 360-41-23
+																</div>
+																<div class="tel">
+																	<img src="/img/icon_clock_little.png">  8.00-13.00
+																</div>
+															</div>  
+                                                            
+
+<span class="language-config" style=" text-align: right; float: right; margin: 0; font-size: 13px; margin-top:15px; color:rgb(35, 39, 45)">
+<a class="search-button" data-toggle="modal" style="color:rgb(35, 39, 45);" data-target="#w1"><img src="/img/Search (2).png" alt=""></a>
+<div id="w1" class="fade modal" role="dialog" tabindex="-1">
+<div class="modal-dialog ">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+</div>
+<div class="modal-body">
+    <div class="search-form" >
+        <form class="form-inlin" action="/ru/search/view/index" method="get">        <div class="form-group" style="width: 500px;">
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="q" placeholder="Введите ваш вопрос">
+            </div>
+            <div class="col-md-2" ц>
+                <button type="submit" class="btn btn-primary btn-search"><i class="glyphicon glyphicon-search"></i> Найти</button>            </div>
+        </div>
+        <div class="clearfix"></div>
+
+        </form>    </div>
+
+</div>
+
+</div>
+</div>
+</div> 
+<a onclick="setPanelVisible(true)" class="hide-eye" style="color:rgb(35, 39, 45); text-decoration:none">
+<img src="/img/Frame 17 (2).png" alt="">    <span style=" font-size: 18px;"></span>
+</a>
+<div class="lang-container">
+                <a href="/by/article/index?page=49&amp;per-page=10" style="color:white; text-decoration:none;font-size: 17px;">Бел</a>        </div>
+<a style=" text-align: right;" href="' . Url::to(['/appeal/appeal', 'slug' => 'elektronnye-obrasenia-grazdan']) . '">
+</a>
+</span>
+
+                                                            
+                                                        </div>
+                                                        <div class="mobile-application">
+                            <a href="/mobile/departament-1.apk">
+                            <!-- <img src="/img/icon-android.svg">-->
+                                <div class="mobile-text">
+                                    
+                                    <p>Скачать приложение</p>
+                                </div>
+                            </a>
+                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                
+                                </div>
+                            </div>
+                        </section>
+                        <div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sp-header-wrapper-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button></div><div id="sp-header-wrapper-collapse" class="collapse navbar-collapse">    <ul id="w2" class="navbar-nav navbar-right nav"><li><a href="/ru/site/index">Главная</a></li>
+<li class="dropdown"><a class="dropdown-toggle" href="/ru/page/about" data-toggle="dropdown">О Департаменте <span class="caret"></span></a><ul id="w3" class="dropdown-menu"><li><a href="/ru/page/polozenie-o-departamente-gosudarstvennoj-inspekcii-truda" tabindex="-1">Положение о Департаменте государственной инспекции труда</a></li>
+<li><a href="/ru/page/rukovodstvo" tabindex="-1">Руководство</a></li>
+<li><a href="/ru/page/administrativnye-procedury" tabindex="-1">Административные процедуры</a></li>
+<li><a href="/ru/page/istoria" tabindex="-1">Летопись становления государственной инспекции труда</a></li>
+<li><a href="/ru/page/30-let-na-straje-ohrani-truda" tabindex="-1">Нам 30 лет!</a></li>
+<li><a href="/ru/page/nagrady-i-blagodarnosti" tabindex="-1">Награды и высшие благодарности</a></li></ul></li>
+<li class="active"><a href="/ru/article/index">Новости</a></li>
+<li><a href="/ru/testname?slug=index">Проверь себя</a></li>
+<li><a href="/ru/page/kontakty">Контакты</a></li>
+<li><a href="https://xn--80abnmycp7evc.xn--90ais/">Электронные обращения</a></li></ul>    </div></div></nav>
+        <div class="wrap-padding">
+
+        
+        
+        <!-- Example of your ads placing -->
+        
+        <section id="sp-breadcrumb-wrapper">
+    <div class="container">
+        <div class="row-fluid" id="breadcrumb">
+            <div id="sp-breadcrumb" style="float:left; padding-left:10px">
+                <ul class="breadcrumb">
+                    <li>
+                        <span class="divider"></span>
+                        <span>Новости</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sp-main-body-wrapper">
+    <div class="container2">
+        <section class="blog ">	
+    <div id="w0" class="list-view"><div class="summary">Показаны записи <b>481-490</b> из <b>1 521</b>.</div>
+<div data-key="1582">
+
+<div class="article-item row">
+    <div class="col-xs-12">
+        
+        <div class="article-content">
+                            <img class="article-thumb img-rounded pull-left rightmargin-sm" src="http://storage.git.gov.by/source/1/IsJDt-4D4eDKQppIyBYBCVtlU7xzqlzD.jpg?w=100&amp;s=5f3c8c04bcc5ad9204c52fa1289a1701" alt="">                        <div class="article-meta">
+            <span class="article-date">
+                18 апр. 2025 г.            </span>
+        </div>
+
+        <h3 class="article-title text-justify">
+            <a href="/ru/article/ceminar-sovesanie-po-voprosam-ohrany-truda-na-oao-gomselmas">Cеминар-совещание по вопросам охраны труда на ОАО «Гомсельмаш»</a>        </h3>
+
+            <div class="article-text text-justify">
+                Начальник отдела надзора за соблюдением законодательства об охране труда Гомельского областного управления Департамента государств...            </div>
+
+        </div>
+        <a href="/ru/article/ceminar-sovesanie-po-voprosam-ohrany-truda-na-oao-gomselmas" style="color:black; text-decoration:underline;font-size: 18px;">Читать далее</a>    </div>
+
+</div>
+
+</div>
+<div data-key="1581">
+
+<div class="article-item row">
+    <div class="col-xs-12">
+        
+        <div class="article-content">
+                            <img class="article-thumb img-rounded pull-left rightmargin-sm" src="http://storage.git.gov.by/source/1/RPCHnMdD-TJf7_4p25Q-Lw_o75XcvoXn.jpg?w=100&amp;s=88a5edca94da234b06c3a28b1ee0a8c1" alt="">                        <div class="article-meta">
+            <span class="article-date">
+                17 апр. 2025 г.            </span>
+        </div>
+
+        <h3 class="article-title text-justify">
+            <a href="/ru/article/mobilnaa-gruppa-v-soligorskom-rajone852">Мобильная группа в Солигорском районе</a>        </h3>
+
+            <div class="article-text text-justify">
+                Главный государственный инспектор Слуцкого межрайонного отдела Минского областного управления Департамента Францкевич И.А. в рамка...            </div>
+
+        </div>
+        <a href="/ru/article/mobilnaa-gruppa-v-soligorskom-rajone852" style="color:black; text-decoration:underline;font-size: 18px;">Читать далее</a>    </div>
+
+</div>
+
+</div>
+<div data-key="1580">
+
+<div class="article-item row">
+    <div class="col-xs-12">
+        
+        <div class="article-content">
+                            <img class="article-thumb img-rounded pull-left rightmargin-sm" src="http://storage.git.gov.by/source/1/RgAmDJ_MYn-EqvFD5Z3JP0Bru1gO-qTE.jpg?w=100&amp;s=68bb472178189554f9ff51ea402c784f" alt="">                        <div class="article-meta">
+            <span class="article-date">
+                17 апр. 2025 г.            </span>
+        </div>
+
+        <h3 class="article-title text-justify">
+            <a href="/ru/article/obucausij-kurs-po-voprosu-provedenia-i-oformlenia-rezultatov-rassledovania-nescastnyh-slucaev-na-proizvodstve">Обучающий курс по вопросу проведения и оформления результатов расследования несчастных случаев на производстве</a>        </h3>
+
+            <div class="article-text text-justify">
+                Государственным инспектором труда Могилевского областного управления Департамента государственной инспекции труда Теремовым А.Н. д...            </div>
+
+        </div>
+        <a href="/ru/article/obucausij-kurs-po-voprosu-provedenia-i-oformlenia-rezultatov-rassledovania-nescastnyh-slucaev-na-proizvodstve" style="color:black; text-decoration:underline;font-size: 18px;">Читать далее</a>    </div>
+
+</div>
+
+</div>
+<div data-key="1579">
+
+<div class="article-item row">
+    <div class="col-xs-12">
+        
+        <div class="article-content">
+                            <img class="article-thumb img-rounded pull-left rightmargin-sm" src="http://storage.git.gov.by/source/1/jMMmPVIXlS7BkEDcTGB2WSV__hXOCceZ.jpg?w=100&amp;s=a57981d650df61b016b26ce2a2b3cd4a" alt="">                        <div class="article-meta">
+            <span class="article-date">
+                17 апр. 2025 г.            </span>
+        </div>
+
+        <h3 class="article-title text-justify">
+            <a href="/ru/article/obucausij-seminar-provodimyj-v-verhnedvinskom-rajispolkome">Обучающий семинар, проводимый в Верхнедвинском райисполкоме </a>        </h3>
+
+            <div class="article-text text-justify">
+                В рамках мероприятий «Неделя нулевого травматизма» начальник Полоцкого межрайонного отдела Витебского областного управления Кривко...            </div>
+
+        </div>
+        <a href="/ru/article/obucausij-seminar-provodimyj-v-verhnedvinskom-rajispolkome" style="color:black; text-decoration:underline;font-size: 18px;">Читать далее</a>    </div>
+
+</div>
+
+</div>
+<div data-key="1578">
+
+<div class="article-item row">
+    <div class="col-xs-12">
+        
+        <div class="article-content">
+                            <img class="article-thumb img-rounded pull-left rightmargin-sm" src="http://storage.git.gov.by/source/1/yIGZC2bBuU2fNPUueoOEJ2JebxG_y6Zh.jpg?w=100&amp;s=9fc60a914bd4de65c112e38ea2d29c39" alt="">                        <div class="article-meta">
+            <span class="article-date">
+                17 апр. 2025 г.            </span>
+        </div>
+
+        <h3 class="article-title text-justify">
+            <a href="/ru/article/obucausij-seminar-v-uz-datlovskaa-centralnaa-rajonnaa-bolnica">Обучающий семинар в УЗ «Дятловская центральная районная больница»</a>        </h3>
+
+            <div class="article-text text-justify">
+                В учреждении здравоохранения «Дятловская центральная районная больница» проведен обучающий семинар по вопросам охраны труда с рабо...            </div>
+
+        </div>
+        <a href="/ru/article/obucausij-seminar-v-uz-datlovskaa-centralnaa-rajonnaa-bolnica" style="color:black; text-decoration:underline;font-size: 18px;">Читать далее</a>    </div>
+
+</div>
+
+</div>
+<div data-key="1577">
+
+<div class="article-item row">
+    <div class="col-xs-12">
+        
+        <div class="article-content">
+                            <img class="article-thumb img-rounded pull-left rightmargin-sm" src="http://storage.git.gov.by/source/1/4-9ZVCeFbEk4AbmlLqWEZQxxhYysKzak.jpg?w=100&amp;s=b42dc111ea211bdd7a5b6d9330130709" alt="">                        <div class="article-meta">
+            <span class="article-date">
+                16 апр. 2025 г.            </span>
+        </div>
+
+        <h3 class="article-title text-justify">
+            <a href="/ru/article/seminar-v-otkrytom-akcionernom-obsestve-vitebskhlebprom">Семинар в открытом акционерном обществе “Витебскхлебпром”</a>        </h3>
+
+            <div class="article-text text-justify">
+                Заместитель начальника Витебского областного управления Департамента государственной инспекции труда Министерства труда и социальн...            </div>
+
+        </div>
+        <a href="/ru/article/seminar-v-otkrytom-akcionernom-obsestve-vitebskhlebprom" style="color:black; text-decoration:underline;font-size: 18px;">Читать далее</a>    </div>
+
+</div>
+
+</div>
+<div data-key="1576">
+
+<div class="article-item row">
+    <div class="col-xs-12">
+        
+        <div class="article-content">
+                            <img class="article-thumb img-rounded pull-left rightmargin-sm" src="http://storage.git.gov.by/source/1/eUcyJMhQPhycs6LfiwyY4T8JfMAWapBN.jpg?w=100&amp;s=b681b00e88d11d5ea664e94484ad0c84" alt="">                        <div class="article-meta">
+            <span class="article-date">
+                16 апр. 2025 г.            </span>
+        </div>
+
+        <h3 class="article-title text-justify">
+            <a href="/ru/article/kollektiv-gomelskogo-oblastnogo-upravlenia-departamenta-prinal-ucastie-v-respublikanskom-subbotnike">Коллектив Гомельского областного управления Департамента принял участие в Республиканском субботнике </a>        </h3>
+
+            <div class="article-text text-justify">
+                Коллектив Гомельского областного управления Департамента во главе с начальником управления Александром Ятченко принял участие в ре...            </div>
+
+        </div>
+        <a href="/ru/article/kollektiv-gomelskogo-oblastnogo-upravlenia-departamenta-prinal-ucastie-v-respublikanskom-subbotnike" style="color:black; text-decoration:underline;font-size: 18px;">Читать далее</a>    </div>
+
+</div>
+
+</div>
+<div data-key="1575">
+
+<div class="article-item row">
+    <div class="col-xs-12">
+        
+        <div class="article-content">
+                            <img class="article-thumb img-rounded pull-left rightmargin-sm" src="http://storage.git.gov.by/source/1/QJgiPoNpstUldzPNlBSDdnCi1BrJH3GO.jpg?w=100&amp;s=e4feffa54055b4a04b6ec3af233737ff" alt="">                        <div class="article-meta">
+            <span class="article-date">
+                16 апр. 2025 г.            </span>
+        </div>
+
+        <h3 class="article-title text-justify">
+            <a href="/ru/article/den-ohrany-truda-v-filiale-dobrusskaa-bumaznaa-fabrika-geroj-truda-oao-ukh-bellorusskie-oboi">День  охраны труда в филиале "Добрушская бумажная фабрика "Герой труда" ОАО "УКХ "Беллорусские обои"</a>        </h3>
+
+            <div class="article-text text-justify">
+                Беленький М.Ю., заместитель начальника отдела надзора за
+соблюдением законодательства об охране труда Гомельского областного управ...            </div>
+
+        </div>
+        <a href="/ru/article/den-ohrany-truda-v-filiale-dobrusskaa-bumaznaa-fabrika-geroj-truda-oao-ukh-bellorusskie-oboi" style="color:black; text-decoration:underline;font-size: 18px;">Читать далее</a>    </div>
+
+</div>
+
+</div>
+<div data-key="1574">
+
+<div class="article-item row">
+    <div class="col-xs-12">
+        
+        <div class="article-content">
+                            <img class="article-thumb img-rounded pull-left rightmargin-sm" src="http://storage.git.gov.by/source/1/2QE8hE8_SAIf9vtwT31hAQtRytO01LBV.jpg?w=100&amp;s=d00869716294c233d69af9d9a1ee7f9c" alt="">                        <div class="article-meta">
+            <span class="article-date">
+                15 апр. 2025 г.            </span>
+        </div>
+
+        <h3 class="article-title text-justify">
+            <a href="/ru/article/grodnenskoe-oblastnoe-upravlenie-prinalo-ucastie-v-akcii-daj-lesu-novuu-zizn">Гродненское областное управление приняло участие в акции «Дай лесу новую жизнь»</a>        </h3>
+
+            <div class="article-text text-justify">
+                Гродненское
+областное управление в апреле 2025 года в рамках акции «Дай лесу новую жизнь»
+приняло участие в посадке саженцев в Гож...            </div>
+
+        </div>
+        <a href="/ru/article/grodnenskoe-oblastnoe-upravlenie-prinalo-ucastie-v-akcii-daj-lesu-novuu-zizn" style="color:black; text-decoration:underline;font-size: 18px;">Читать далее</a>    </div>
+
+</div>
+
+</div>
+<div data-key="1573">
+
+<div class="article-item row">
+    <div class="col-xs-12">
+        
+        <div class="article-content">
+                            <img class="article-thumb img-rounded pull-left rightmargin-sm" src="http://storage.git.gov.by/source/1/LwCXs66-rcJpv6RujeaA9IQ85GayqaLi.jpg?w=100&amp;s=701aa7e6d4637b67848c625ad1c0a762" alt="">                        <div class="article-meta">
+            <span class="article-date">
+                14 апр. 2025 г.            </span>
+        </div>
+
+        <h3 class="article-title text-justify">
+            <a href="/ru/article/baranovicskij-mezrajonnyj-otdel-prisoedinilsa-k-edinomu-dnu-ozelenenia"> Барановичский межрайонный отдел присоединился к Единому дню озеленения</a>        </h3>
+
+            <div class="article-text text-justify">
+                Барановичский межрайонный отдел Брестского областного управления Департамента государственнойинспекции труда присоединился к Едино...            </div>
+
+        </div>
+        <a href="/ru/article/baranovicskij-mezrajonnyj-otdel-prisoedinilsa-k-edinomu-dnu-ozelenenia" style="color:black; text-decoration:underline;font-size: 18px;">Читать далее</a>    </div>
+
+</div>
+
+</div>
+<ul class="pagination"><li class="prev"><a href="/ru/article/index?page=48&amp;per-page=10" data-page="47">&laquo;</a></li>
+<li><a href="/ru/article/index?page=44&amp;per-page=10" data-page="43">44</a></li>
+<li><a href="/ru/article/index?page=45&amp;per-page=10" data-page="44">45</a></li>
+<li><a href="/ru/article/index?page=46&amp;per-page=10" data-page="45">46</a></li>
+<li><a href="/ru/article/index?page=47&amp;per-page=10" data-page="46">47</a></li>
+<li><a href="/ru/article/index?page=48&amp;per-page=10" data-page="47">48</a></li>
+<li class="active"><a href="/ru/article/index?page=49&amp;per-page=10" data-page="48">49</a></li>
+<li><a href="/ru/article/index?page=50&amp;per-page=10" data-page="49">50</a></li>
+<li><a href="/ru/article/index?page=51&amp;per-page=10" data-page="50">51</a></li>
+<li><a href="/ru/article/index?page=52&amp;per-page=10" data-page="51">52</a></li>
+<li><a href="/ru/article/index?page=53&amp;per-page=10" data-page="52">53</a></li>
+<li class="next"><a href="/ru/article/index?page=50&amp;per-page=10" data-page="49">&raquo;</a></li></ul></div>        </section>
+    </div>
+</section>
+   </div>
+</div>
+
+<section id="sp-bottom-2-wrapper">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="col-md-2">
+                <div class="logo-footer">
+                    <div class="logo">
+                        <img src="/img/rb.png" />
+                    </div>
+                    <div class="logo-text">
+                        <a href="https://president.gov.by/">
+                            Президент                            <p>
+                                Республики Беларусь                            </p></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="logo-footer">
+                    <div class="logo">
+                        <img src="/img/rb.png" />
+                    </div>
+                    <div class="logo-text">
+                        <a href="https://www.government.by/">Совет Министров Республики Беларусь</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="logo-footer">
+                    <div class="logo">
+                        <img src="/img/gerb.png" />
+                    </div>
+                    <div class="logo-text">
+                        <a href="https://mintrud.gov.by/ru">Министерство труда и социальной защиты Республики Беларусь</a>
+                    </div>
+                </div>
+            </div>
+<div class="col-md-2">
+                <div class="logo-footer">
+                    <div class="logo">
+                        <img src="/img/kach.png" />
+                    </div>
+                    <div class="logo-text">
+                        <a href="https://xn----7sbgfh2alwzdhpc0c.xn--90ais/">    Портал                            <p>
+                                рейтинговой оценки                            </p></a>
+                    </div>
+                </div>
+            </div>
+<div class="col-md-2">
+                <div class="logo-footer">
+                    <div class="logo">
+                        <img src="/img/89b_work.png" />
+                    </div>
+                    <div class="logo-text">
+                        <a href="https://pravo.by/">
+                                                             Национальный                             <p>
+                                правовой интернет-портал                            </p></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-2" style="display:none">
+                <ul class="arrow">
+                    <li style="text-align: center;">
+                        <!-- Yandex.Metrika informer -->
+                        <a href="https://metrika.yandex.ru/stat/?id=52485877&amp;from=informer" target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/52485877/3_1_FFFFFFFF_EFEFEFFF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="52485877" data-lang="ru" /></a>
+                        <!-- /Yandex.Metrika informer -->
+
+                        <!-- Yandex.Metrika counter -->
+                        <script type="text/javascript">
+                            (function(m, e, t, r, i, k, a) {
+                                m[i] = m[i] || function() {
+                                    (m[i].a = m[i].a || []).push(arguments)
+                                };
+                                m[i].l = 1 * new Date();
+                                k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+                            })
+                            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+                            ym(52485877, "init", {
+                                id: 52485877,
+                                clickmap: true,
+                                trackLinks: true,
+                                accurateTrackBounce: true,
+                                webvisor: true
+                            });
+                        </script>
+                        <noscript>
+                            <div><img src="https://mc.yandex.ru/watch/52485877" style="position:absolute; left:-9999px; margin-top: 20px;" alt="" /></div>
+                        </noscript>
+                        <!-- /Yandex.Metrika counter -->
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-md-12 text-center" style="width:100%">
+<div class="footer_text">
+<p>Разработка <img src="/img/logo_cit.svg" class="logo_cit" title="ЦИТ Минтруда и соцзащиты"><a href="https://cit-mintrud.by/" 
+                    title="Центр информационных технологий Министерства труда и социальной защиты Республики Беларусь">ЦИТ Минтруда и соцзащиты</a>
+</p>
+
+</div>
+</div>
+
+        </div>
+    </div>
+</section>
+</div>
+<script src="/assets/98e4f38e/jquery.js?v=1559026175"></script>
+<script src="/assets/5aaf25d2/js/bootstrap.js?v=1559026175"></script>
+<script src="/assets/54252964/yii.js?v=1559026175"></script>
+<!--[if lt IE 9]>
+<script src="/assets/c00cea6f/dist/html5shiv.min.js?v=1559026175"></script>
+<![endif]-->
+<script src="/js/app.js?v=1516623106"></script>
+<script src="/js/panelVision.js?v=1582116449"></script>
+<script src="/js/slider.js?v=1662023612"></script>
+<script type="text/javascript">jQuery(function ($) {
+jQuery('#w1').modal({"show":false});
+});</script></body>
+</html>

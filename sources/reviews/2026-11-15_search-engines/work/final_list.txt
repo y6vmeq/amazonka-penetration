@@ -1,0 +1,150 @@
+TOTAL 143
+status [('unverified-snippet', 44), ('verified-raw', 99)]
+venue x status [(('amazonka-minsk', 'unverified-snippet'), 2), (('amazonka-minsk', 'verified-raw'), 10), (('amazonka-mogilev', 'unverified-snippet'), 34), (('amazonka-mogilev', 'verified-raw'), 76), (([исключено]-mogilev', 'verified-raw'), 1), (('legal-entity', 'unverified-snippet'), 5), (('legal-entity', 'verified-raw'), 6), (('smak-by', 'unverified-snippet'), 2), (('smak-by', 'verified-raw'), 5), (('unclear', 'unverified-snippet'), 1), (('unclear', 'verified-raw'), 1)]
+platform [('firmi.by', 23), ('magilev.by', 12), ('just-eat.by', 10), ('threads', 10), ('gorodwiki.ru', 9), ('instagram', 9), ('komkur.info', 8), ('vk', 7), ('mogilev.in', 5), ('clever.by', 4), ('restaurantguru.ru', 4), ('slivki.by', 4), ('rabota.by', 3), ('krasnopolie.cge.by', 3), ('mcge.by', 3), ('tiktok', 3), ('gastrofest.by', 2), ('spr.by', 2), ('hh.ru', 2), ('kartapokupok.by', 2), ('ok', 2), ('b4y.by', 1), ('contragent.by', 1), ('pointer.by', 1), ('relax.by', 1), ('hotskidki.by', 1), ('buyer.by', 1), ('millhouse.by', 1), ('restoplace.ws', 1), ('bizinspect.by', 1), ('persik.by', 1), ('koko.by', 1), ('mart.gov.by', 1), ('mogilev-region.gov.by', 1), ('checko.ru', 1), ('bizarkhiv.com', 1), ('pixnoy.com', 1)]
+kind [('review', 55), ('other', 22), ('article', 21), ('post', 14), ('video', 9), ('official', 8), ('vacancy', 7), ('comment', 7)]
+sentiment [('neutral', 69), ('negative', 60), ('mixed', 10), ('positive', 4)]
+topics [('other', 51), ('food-quality', 40), ('service', 38), ('delivery', 22), ('sanitary', 14), ('billing', 13), ('booking-events', 12), ('staff-labor', 12), ('alcohol', 9), ('premises-building', 6), ('hookah-smoking', 4), ('ads-unlicensed', 4), ('receipt', 2), ('minors', 2), ('fire-safety', 1), ('management-response', 1), ('food-poisoning', 1), ('noise-night', 1), ('money-debts', 1)]
+
+001 V amazonka-mogilev | just-eat.by | review | negative | delivery,food-quality | Анна | 2026-09-19 | Заказали на дом 2 цезаря и пиццу карбонару. / По итогу приве
+002 V amazonka-mogilev | just-eat.by | review | negative | delivery,food-quality | Елизавета | 2026-09-17 | Делали заказ в первый раз , и очень огорчилась , пицца приех
+003 V amazonka-mogilev | just-eat.by | review | negative | delivery,food-quality | Александр | 2026-02-11 | Делал первый раз заказ в данном заведении / Доставка задержа
+004 V amazonka-mogilev | just-eat.by | review | negative | delivery,service | Дарья | 2025-12-25 | Делала первый раз заказ в этом заведение Заказала 2 пиццу с 
+005 V amazonka-mogilev | just-eat.by | review | negative | food-quality | Лев | 2025-02-24 | Я заказал два супа Том ям и два салата «Цезарь». / В супе я 
+006 V amazonka-mogilev | just-eat.by | review | negative | food-quality | Василий | 2025-02-17 | Самое главное конечно это прям сильно пересоленные котлеты. 
+007 V amazonka-mogilev | just-eat.by | review | negative | food-quality,delivery | янина андреевна | 2024-07-31 | отвратительно! карбонара не соответствует картинке, вафля с 
+008 V amazonka-mogilev | just-eat.by | review | negative | delivery,food-quality | Виталий | 2024-06-22 | Долгожданный заказ доставили в ночное время с опозданием на 
+009 V amazonka-mogilev | mogilev.in | review | negative | delivery,food-quality | None | 2026-09-19 | Заказали на дом 2 цезаря и пиццу карбонару. По итогу привезл
+010 V amazonka-mogilev | mogilev.in | review | negative | delivery,service | None | 2026-01-10 | Ждать заказ до 2 часов ночи, это просто ужас. Сделали заказ 
+011 V amazonka-mogilev | mogilev.in | review | mixed | sanitary,other | None | 2023-11-27 | Недавно на Ленинской появилось новое заведение со своей фишк
+012 V amazonka-mogilev | firmi.by | review | negative | hookah-smoking,fire-safety,service | Иван | 2025-10-07 | Я в этот бар пришёл с друзьями в первый раз (один друг реком
+013 V amazonka-mogilev | firmi.by | review | negative | service | Настя | 2025-07-12 | Ужасное обслуживание. Еда готовится более часа, не смотря на
+014 V amazonka-mogilev | firmi.by | review | negative | delivery,food-quality,service | Владимир | 2025-06-13 | Заказал еду, привезли не тот заказ через 2 с половиной часа,
+015 V amazonka-mogilev | firmi.by | review | negative | service,food-quality,hookah-smoking | Вероника | 2024-09-30 | Не рекомендую, если хотите хорошо провести вечер. Работа не 
+016 V amazonka-mogilev | firmi.by | review | negative | service,food-quality,sanitary | Татьяна | 2024-08-26 | Сначала при заказе началось, что какие-то ингредиенты у них 
+017 V amazonka-mogilev | firmi.by | review | negative | alcohol,receipt,service | Иван | 2024-08-08 | Заказали бурбон Джим Бим и пепси. Ждали 20 минут, сходил нап
+018 V amazonka-mogilev | firmi.by | review | negative | service | Dr Gagy | 2024-06-22 | Напитков нет, пиццы нет, время ожидания 30-40. Девушки вежли
+019 V amazonka-mogilev | firmi.by | review | negative | service,other | Полина | 2024-05-16 | Официанты делают вид, что там не работают. Прождала 15 минут
+020 V amazonka-mogilev | firmi.by | review | negative | sanitary,billing,service,food-quality,alcohol | Денис | 2024-04-24 | Единица ещё завышенная оценка! Начну с малого: в туалете даж
+021 V amazonka-mogilev | firmi.by | review | negative | service | Артём | 2024-04-19 | Очень разнообразное меню, но очень не организована работа. Ж
+022 V amazonka-mogilev | firmi.by | review | negative | booking-events,service,food-quality | Наталья | 2024-01-14 | Была в рестобаре 26.01.24 во время зимнего гастрофеста, что 
+023 V amazonka-mogilev | firmi.by | review | negative | service,billing,management-response | Иван | 2023-12-28 | Идея хорошая! / Но / Обслуживание ужасное! / В пивной тарелк
+024 V amazonka-mogilev | firmi.by | review | negative | food-quality,service,billing | Ирина | 2023-11-25 | Заходили попробовать гастро сет, порции маленькие, еда безвк
+025 V amazonka-mogilev | firmi.by | review | negative | booking-events,service,alcohol,food-quality | Александра | 2023-11-23 | Отвратительное обслуживание, бронировали заранее столик, нич
+026 V amazonka-mogilev | firmi.by | review | negative | booking-events,service,delivery | Mad | 2023-11-21 | Первый случай. / Бронировали столик на гастрофест. Приготови
+027 V amazonka-mogilev | firmi.by | review | negative | sanitary,food-quality,service | Андрей | 2023-11-19 | Остались недовольны заведением. Попалась железка в блюде. К 
+028 V amazonka-mogilev | firmi.by | review | negative | food-quality,service | Нейм | 2023-11-15 | Ужасное место… Отвратительное всё и еда, и атмосфера, и обсл
+029 V amazonka-mogilev | firmi.by | review | negative | service,food-quality | The | 2023-10-27 | Время приготовления блюд просто заоблочное: мы ждали лапшу б
+030 V amazonka-mogilev | firmi.by | review | negative | sanitary,service,food-quality | Alesya | 2023-08-16 | Добрый день! Пару недель назад была в месте, купилась на кра
+031 V amazonka-mogilev | firmi.by | review | positive | other | kilroy | 2024-01-07 | Узнали о месте от знакомых и были приятно удивлены атмосферо
+032 V amazonka-mogilev | firmi.by | review | positive | other | Елена | 2025-11-04 | Это не просто ресто-бар, это настоящее приключение! Атмосфер
+033 V amazonka-mogilev | firmi.by | review | positive | other | Анастасия | 2023-11-09 | Одно из немногих действительно вкусных мест в Могилёве. Прек
+034 V amazonka-mogilev | firmi.by | review | positive | other | Жанна | 2024-03-11 | Очень понравилось обслуживание. Вежливые ребята. Уютная атмо
+035 V amazonka-mogilev | gorodwiki.ru | review | negative | service,food-quality,alcohol | Mihail | 2025-06-15 | Обслуживание не о чём, долго стоят пустые тарелки на столе, 
+036 V amazonka-mogilev | gorodwiki.ru | review | negative | billing,alcohol,food-quality,service | Анастасия | 2025-05-13 | Были в кафе «Амазонка» на GASTROFEST / Обслуживание ужасное,
+037 V amazonka-mogilev | gorodwiki.ru | review | negative | delivery,food-quality | Екатерина | 2024-12-03 | Была несколько раз. Были небольшие «но», которые пропускалис
+038 V amazonka-mogilev | gorodwiki.ru | review | negative | delivery,service | Вероника | 2024-11-09 | ОТВРАТИТЕЛЬНО! Заказывали доставку на дом, заказ был сделан 
+039 V amazonka-mogilev | gorodwiki.ru | review | mixed | service,hookah-smoking,minors | Марина | 2024-11-08 | В кафе очень приятная атмосфера, еда нормальная на вкус, про
+040 V unclear | gorodwiki.ru | review | negative | food-quality,billing | uihkggvvc | 2024-06-19 | Были в ресторане «Амазонка рестобар» в Орше на ул. Островско
+041 V amazonka-mogilev | gorodwiki.ru | review | negative | food-quality,service | Карина | 2024-06-16 | 29.06 заказала брауни с апельсиновым мороженым и капучино. Н
+042 V amazonka-mogilev | gorodwiki.ru | review | negative | service,food-quality,food-poisoning | Арина | 2024-05-30 | Заведение не понравилось. Официанты некомпетентны, очень мол
+043 V amazonka-mogilev | gorodwiki.ru | review | negative | service,food-quality | Стас | 2024-02-04 | Прождали заказ около часа. Заказ состоял из чая и горячего ш
+044 V amazonka-mogilev | clever.by | review | negative | delivery | Яна Зычкова | 2026-02-21 | Не очень
+045 V amazonka-mogilev | clever.by | review | mixed | delivery,service | id392566 | 2025-09-10 | Время доставки: 1 час 20 минут / Курьер хамил. Мало того что
+046 V amazonka-mogilev | clever.by | review | negative | delivery,service | Али Яя | 2024-11-07 | Заказываем во второй раз.... В первый все было хорошо,но сей
+047 V amazonka-mogilev | clever.by | review | negative | delivery,food-quality | Женя Женя | 2024-10-12 | Время доставки: Обещали доставить за 60-90 минут, доставили 
+048 V amazonka-mogilev | restaurantguru.ru | review | negative | service,alcohol,food-quality | Александр | год назад | Отвратительное заведение, был там дважды, один около года на
+049 V amazonka-mogilev | restaurantguru.ru | review | negative | sanitary,service,hookah-smoking,food-quality | Роман | 2 года назад | В зале не убрано и пахнет гарью. Четверо официанток не могут
+050 V amazonka-mogilev | slivki.by | review | negative | billing,service | None | 2026-01-12 | Отказались принимать заказ по промокоду (уже купленному)ссыл
+051 V amazonka-mogilev | b4y.by | other | neutral | other | None | 2026-08-28 | Продается экзотический рестобар в Могилеве. Готовый прибыльн
+052 V amazonka-mogilev | komkur.info | article | mixed | food-quality | Елена ПАСКИР | 2024-11-29 | Впечатление от риса с цыпленком оказалось слегка подпорчено 
+053 V amazonka-mogilev | komkur.info | article | neutral | other | Елена ПАСКИР | 2024-11-29 | В «Амазонке» я хотела побывать уже давно – наслышана не толь
+054 V amazonka-mogilev | komkur.info | article | neutral | other | Елена ПАСКИР | 2024-11-29 | В первом зале две дамы вели оживленный разговор за чашечкой 
+055 V amazonka-mogilev | magilev.by | article | neutral | booking-events | Ирина ПОЛОВИКОВА | 2024-12-12 | Не откажут в рестобаре «Амазонка» и в организации банкетного
+056 V amazonka-mogilev | magilev.by | article | neutral | other | Ирина ПОЛОВИКОВА | 2024-12-12 | Главная «изюминка» рестобара – террариумы с рептилиями. Прич
+057 V amazonka-mogilev | magilev.by | article | mixed | service,booking-events,food-quality | Ольга ВИР | 2024-07-02 | Несмотря на то, что сет был заказан 4 дня назад и подтвержде
+058 V amazonka-mogilev | magilev.by | article | neutral | other | Ольга ВИР | 2024-07-02 | В назначенный вечер среды я пришла в рестобар. В одном из дв
+059 V legal-entity | slivki.by | other | neutral | other | None | None | г. Могилев , ул. Ленинская, д. 38 Время работы: вс-чт: 12:00
+060 V legal-entity | contragent.by | other | neutral | other | None | None | Полное наименование Лукьянова Елизавета Максимовна Статус ЕГ
+061 V legal-entity | pointer.by | other | neutral | other | None | None | Предприятие ООО "АмазонкаГрупп" зарегистрировано в Едином го
+063 V amazonka-minsk | just-eat.by | other | neutral | other | None | None | Изготовитель продукции: ООО "АмазонкаГрупп" УНП 791349254, г
+064 V smak-by | relax.by | other | neutral | premises-building | None | None | ОДО «Найсус» Юридический адрес: Беларусь, Могилевская област
+065 V smak-by | hotskidki.by | other | neutral | ads-unlicensed | None | None | Смак.BY Фестивальный сет Бульба пицца с курицей и шампиньона
+066 V smak-by | magilev.by | article | neutral | ads-unlicensed | None | 2026-11-03 | Адрес: ул. Буденного, 13/44 Вес сета: 1200 гр. Состав сета: 
+067 V amazonka-minsk | buyer.by | other | neutral | other | None | None | Продажа готового бизнеса: уникальный рестобар «Amazonka» в и
+068 V amazonka-mogilev | millhouse.by | other | neutral | premises-building | None | 2026-08-27 | Продажа квартиры на 1 этаже, ул.Ленинская, 38. Уникальное пр
+069 V amazonka-mogilev | gastrofest.by | other | neutral | booking-events,delivery,billing,noise-night | None | None | Рестобар Амазонка 39 byn Фестивальный сет "От светлого к тём
+070 V smak-by | gastrofest.by | other | neutral | ads-unlicensed,booking-events,delivery | None | None | Смак.BY 39 byn Фестивальный сет Бульба пицца с курицей и шам
+071 V amazonka-mogilev | magilev.by | article | neutral | other | Саша ДАРИЧ | 2023-10-11 | В заведении имеется два зала. В первом слева от входа стоят 
+072 V amazonka-mogilev | magilev.by | article | neutral | other | Саша ДАРИЧ | 2023-10-11 | Сделав заказ, пошла посмотреть на рептилий. – Может хотите к
+073 V smak-by | magilev.by | article | neutral | premises-building | Ольга Вир | 2026-09-23 | Полезная информация: Адрес: ул. Ленинская, 44 Телефоны для б
+074 V legal-entity | slivki.by | review | negative | booking-events,service | Агнесса | 2024-04-26 | Планируешь, бронируешь , а тебе за 2 часа до мероприятия зво
+075 V legal-entity | slivki.by | other | neutral | other | None | None | г. Могилев , ул. Первомайская, д. 29 Время работы: вс-чт: 20
+076 V amazonka-mogilev | mogilev.in | other | neutral | other | None | None | Рестобар в центре города. Европейская и японская кухня, обед
+077 V amazonka-mogilev | mogilev.in | other | neutral | other | None | None | Адрес: 212030 г. Могилев, ул. Ленинская, 38 Время работы: Пт
+078 V amazonka-mogilev | restoplace.ws | other | neutral | booking-events | None | None | Забронировать стол в Амазонка рестобар онлайн Амазонка ресто
+079 V legal-entity | bizinspect.by | other | neutral | other | None | None | Реквизиты ИП Устинова Елизавета Максимовна Наименование ИП У
+080 V amazonka-minsk | persik.by | other | neutral | minors,other | None | 10 Окт 2026 - 31 Дек 2026 | Хотите увидеть змей и других удивительных рептилий совсем бл
+081 V amazonka-mogilev | magilev.by | article | neutral | other | Ирина ПОЛОВИКОВА | 2024-12-12 | это экзотические обитатели нескольких террариумов, расположе
+082 V amazonka-mogilev | magilev.by | article | neutral | other | Ирина ПОЛОВИКОВА | 2024-12-12 | Кстати, рестобар «Амазонка», кроме всего прочего, носит стат
+083 V amazonka-mogilev | komkur.info | article | mixed | booking-events,service | Ольга ВИР | 2023-11-27 | Без ложки дегтя тоже не обошлось. В 17.30 к нам подошел офиц
+084 V amazonka-mogilev | komkur.info | article | neutral | other | Ольга ВИР | 2023-11-27 | Гостей вечером было много. Свободных мест после 17.00 не ост
+085 V amazonka-mogilev | komkur.info | article | neutral | other | Ольга ВИР | 2023-11-27 | Фишка экзотического заведения – рептилии, с которыми можно п
+086 V amazonka-mogilev | komkur.info | article | neutral | other | Ольга ВИР | 2023-11-27 | Полезная информация: Адрес: ул. Ленинская, 38. Телефон для б
+087 V amazonka-mogilev | komkur.info | article | neutral | other | Евгений БУЛОВА | 2024-01-27 | И уж последним удивительным штрихом посещения «Амазонки» ста
+088 V amazonka-mogilev | magilev.by | article | neutral | other | Саша Дарич | 2026-03-17 | После чудесного обеда оставалось только подержать на руках к
+089 V amazonka-mogilev | magilev.by | article | neutral | other | Саша ДАРИЧ | 2026-06-23 | В «Амазонке» вместе с первыми теплыми днями открылась летняя
+090 V amazonka-minsk | restaurantguru.ru | review | negative | food-quality,billing | Тимей П. | месяц назад | Ставлю 2 звезды за ящериц и приятный интерьер. По части кухн
+091 V amazonka-minsk | restaurantguru.ru | review | negative | booking-events,service,food-quality | Олег П | 2 месяца назад | Посетили это место в пятницу вечером. Гастрофест... Полное р
+092 V amazonka-minsk | koko.by | article | mixed | premises-building,billing,food-quality | None | 2025-12-01 | КАК ВНУТРИ Атмосфера пластиковых джунглей со множеством терр
+093 V amazonka-minsk | spr.by | review | negative | delivery,receipt,food-quality,billing | Кристина Щербо | 2026-05-09 | Нечаянно сделала заказ на Яндекс Доставке. Мне через минуту 
+094 V amazonka-minsk | spr.by | review | negative | service | Анна М. | 2026-05-16 | Зашли с девочками в это заведение 16 мая. Людей в заведении 
+095 V amazonka-mogilev | rabota.by | vacancy | neutral | staff-labor | АмазонкаГрупп | 2026-04-20 | Обязанности: / Обслуживание посетителей / Соблюдение стандар
+096 V amazonka-mogilev | hh.ru | vacancy | neutral | staff-labor,other | АмазонкаГрупп | 2026-05-17 | Обязанности: / Контроль за качеством обслуживания, порядка н
+097 V amazonka-mogilev | rabota.by | vacancy | neutral | staff-labor | АмазонкаГрупп | 2025-07-10 | Приглашаем администратора в наш рестобар в центре города / В
+098 V amazonka-minsk | hh.ru | vacancy | neutral | staff-labor,other | АмазонкаГрупп | 2026-06-07 | Обязанности: / Работа с платформами доставки / Подбор и адап
+099 V amazonka-minsk | rabota.by | vacancy | neutral | staff-labor | АмазонкаГрупп | 2026-06-07 | Обязанности: / Организация бесперебойной работы ресторана / 
+100 S amazonka-mogilev | threads | comment | negative | billing | ledi_alissa_ | None | Заголовок результата: Нас то же пытались обсчитать, а потом 
+101 S amazonka-mogilev | threads | comment | negative | other | draichukov | None | Заголовок результата: У них подвязки блатные🤣🤣🤣🤣 / Сниппет: 
+102 S amazonka-mogilev | threads | comment | neutral | money-debts | _lady_juls | None | Заголовок результата: А есть какие-то доказательства веществ
+103 S amazonka-mogilev | threads | post | negative | other,ads-unlicensed | vitafox86 | None | Заголовок результата: Я вообще удивлена, как до сих пор «Ама
+104 S amazonka-mogilev | threads | comment | negative | other,delivery | lukreziabordzia | None | Заголовок результата: Ясно, чем. Раньше это называли кумовст
+105 S amazonka-mogilev | threads | post | neutral | other | katsukitsu | None | Заголовок результата: В тредсах вижу травлю бара Амазонка. Ф
+106 S amazonka-mogilev | threads | post | neutral | other | katsukitsu | None | Заголовок результата: Кицу Кацу (@katsukitsu) / Сниппет: В т
+107 S amazonka-mogilev | threads | post | neutral | alcohol | amazonka_restobar_mogilev | 10 месяцев назад | Заголовок результата: Вызов от «Амазонки»! Смелость, которая
+108 S amazonka-mogilev | vk | post | negative | staff-labor | None | None | Заголовок результата: Могилев, ресто-бар Амазонка, Ленинская
+109 S amazonka-mogilev | vk | comment | neutral | staff-labor | None | None | Заголовок результата: Могилев, ресто-бар Амазонка, Ленинская
+110 S amazonka-mogilev | instagram | video | mixed | food-quality | kornilina_blog | 10 месяцев назад | Заголовок результата: АМАЗОНКА»: рестобар с контактными репт
+111 S unclear | instagram | comment | negative | food-quality | None | 5 месяцев назад | Заголовок результата: Ждем Вас в рестобаре «Амазонка» Режим 
+112 S amazonka-minsk | instagram | video | mixed | billing | koko_by | 11 месяцев назад | Заголовок результата: это цены, за Том Ям хотят 36р/450г, в 
+113 S amazonka-mogilev | instagram | post | neutral | alcohol | amazonka_restobar_mogilev | 12 месяцев назад | Заголовок результата: AMAZONKA RESTOBAR | Амазонка — место, 
+114 S amazonka-mogilev | vk | post | mixed | food-quality | None | 2024-11 | Заголовок результата: «Гастрофест» в могилеве: суп в «Амазон
+115 S amazonka-mogilev | krasnopolie.cge.by | official | negative | sanitary | None | 2024-04-16 | Заголовок результата: Информация по объектам торговли и обще
+116 S amazonka-mogilev | instagram | video | neutral | other | koroche__mogilev | 1 год назад | Заголовок результата: В рестобаре «Амазонка» вас ждет незабы
+117 S amazonka-mogilev | vk | post | negative | sanitary,staff-labor | None | None | Заголовок результата: Могилев, ресто-бар Амазонка, Ленинская
+118 S amazonka-mogilev | vk | post | negative | sanitary,staff-labor | None | None | Заголовок результата: Могилев, ресто-бар Амазонка, Ленинская
+119 S amazonka-mogilev | mcge.by | official | neutral | sanitary | None | None | Заголовок результата: Информация по объектам торговли и обще
+120 S legal-entity | kartapokupok.by | other | neutral | other | None | None | Заголовок результата: Кафе «Амазонка». Рассрочка по Карте по
+121 S legal-entity | kartapokupok.by | other | neutral | other | None | None | Заголовок результата: Кафе «Амазонка». Рассрочка по Карте по
+122 S legal-entity | mart.gov.by | official | neutral | other | None | None | Заголовок результата: Список ОБО и СХ Вид ОБО Наименование О
+123 S smak-by | mogilev-region.gov.by | official | neutral | premises-building | None | None | Заголовок результата: Объекты питания | Могилевский областно
+124 S legal-entity | checko.ru | other | neutral | other | None | None | Заголовок результата: ООО "АмазонкаГрупп" - УНП 791349254 - 
+125 S legal-entity | bizarkhiv.com | other | neutral | other | None | None | Заголовок результата: Xs bar | 8 029 247-85-69 | Могилёв / С
+126 S amazonka-mogilev | vk | vacancy | neutral | staff-labor | None | None | Заголовок результата: Приглашаем АДМИНИСТРАТОРА в рестобар..
+127 S amazonka-mogilev | instagram | vacancy | neutral | staff-labor | None | None | Заголовок результата: AMAZONKA приглашает в команду! 🦎 Откры
+128 S amazonka-mogilev | instagram | post | neutral | billing,delivery,booking-events | None | None | Заголовок результата: GASTROFEST в МОГИЛЁВЕ | 📍Рестобар Амаз
+129 S amazonka-mogilev | instagram | video | neutral | other | amazonka_restobar_mogilev | 1 год назад | Заголовок результата: AMAZONKA RESTOBAR | Путешествие по рек
+130 S smak-by | threads | post | neutral | premises-building | anastacia_zarovskaya | None | Заголовок результата: Делитесь ,кто куда пойдет на гастрофес
+131 S amazonka-mogilev | pixnoy.com | post | neutral | alcohol | amazonka_restobar_mogilev | None | Заголовок результата: AMAZONKA RESTOBAR (@amazonka_restobar_
+132 S amazonka-mogilev | ok | post | neutral | other | None | None | Заголовок результата: Побывали в могилевском рестобаре «Амаз
+133 S amazonka-mogilev | tiktok | video | neutral | other | obzoorby | 11 месяцев назад | Заголовок результата: РЕСТОБАР С РЕПТИЛИЯМИ В «Амазонке» мож
+134 S amazonka-mogilev | instagram | video | neutral | other | zatestilmogilev | 3 года назад | Заголовок результата: Лаунж-Бар, в котором можно пообедать с
+135 S amazonka-mogilev | tiktok | video | neutral | other | None | None | Заголовок результата: Гастрофест Могилев Амазонка | TikTok /
+136 S amazonka-mogilev | ok | video | neutral | food-quality | None | 2024-11-01 | Заголовок результата: Видео Амазонка Рестобар 4 день ОКТЯБРЬ
+137 S amazonka-mogilev | tiktok | video | neutral | delivery,food-quality | myfoodloving | None | Заголовок результата: Продолжаем пробовать гастросеты от зав
+138 S amazonka-minsk | threads | post | neutral | other | testiminsk | None | Заголовок результата: А вы знали, что прямо в центре Минска,
+139 S amazonka-mogilev | krasnopolie.cge.by | official | negative | sanitary | None | None | Заголовок результата: Информация по объектам торговли и обще
+140 S amazonka-mogilev | mcge.by | official | neutral | sanitary | None | None | Заголовок результата: Информация по объектам торговли и обще
+141 S amazonka-mogilev | mcge.by | official | negative | sanitary | None | None | Заголовок результата: Информация по объектам торговли и обще
+142 S amazonka-mogilev | krasnopolie.cge.by | official | negative | sanitary | None | None | Заголовок результата: Информация по объектам торговли и обще
+143 S amazonka-mogilev | vk | comment | neutral | staff-labor | None | None | Заголовок результата: Могилев, ресто-бар Амазонка, Ленинская

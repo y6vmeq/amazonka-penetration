@@ -1,0 +1,32 @@
+{
+ "number": 292,
+ "url": "https://people.onliner.by/sdapi/catalog/search/iframe?referrer=https://people.onliner.by/",
+ "title": "Поиск",
+ "at": "2026-11-15T17:15:09.564Z",
+ "html": "raw/292_people-onliner-by_onliner-search-gastrofest-mogilev.html",
+ "txt": "raw/292_people-onliner-by_onliner-search-gastrofest-mogilev.txt",
+ "sha256": "813166253641f85b79e16465904b09c83037210b0df3eab41d4efd9d38f70c93",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 194
+ },
+ "extra": {
+  "name": "onliner-search_gastrofest-mogilev",
+  "status": 200,
+  "requested": "https://people.onliner.by/ (поле «Поиск в Новостях»)",
+  "site": "people.onliner.by",
+  "query": "гастрофест Могилев",
+  "period": "В любом разделе | За все время | Сначала релевантные",
+  "activeTab": "в новостях",
+  "links": [],
+  "summary": "гастрофест Могилев Ничего не найдено в каталоге в новостях на барахолке на форуме В любом разделе За все время Сначала релевантные Только с видео 0 товаров в с"
+ }
+}

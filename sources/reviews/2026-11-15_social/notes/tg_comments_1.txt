@@ -1,0 +1,105 @@
+@@ https://t.me/moymogilev/13893 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/085_t-me_tg-moymogilev-13893-comments.html
+@@ https://t.me/moymogilev/13943 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/086_t-me_tg-moymogilev-13943-comments.html
+@@ https://t.me/moymogilev/14083 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/087_t-me_tg-moymogilev-14083-comments.html
+@@ https://t.me/moymogilev/16770 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/088_t-me_tg-moymogilev-16770-comments.html
+@@ https://t.me/moymogilev/16892 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/089_t-me_tg-moymogilev-16892-comments.html
+@@ https://t.me/moymogilev/23313 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/090_t-me_tg-moymogilev-23313-comments.html
+@@ https://t.me/moymogilev/29549 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/091_t-me_tg-moymogilev-29549-comments.html
+@@ https://t.me/moymogilev/31621 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/092_t-me_tg-moymogilev-31621-comments.html
+@@ https://t.me/moymogilev/31778 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/093_t-me_tg-moymogilev-31778-comments.html
+@@ https://t.me/moymogilev/42177 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/094_t-me_tg-moymogilev-42177-comments.html
+@@ https://t.me/moymogilev/42697 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/095_t-me_tg-moymogilev-42697-comments.html
+@@ https://t.me/moymogilev/43556 | http=200 | header='Comments on this post' | comments_cnt=0 | parsed=0 | unavailable=False | more=None | raw/096_t-me_tg-moymogilev-43556-comments.html
+@@ https://t.me/moymogilev/43674 | http=200 | header='Comments on this post' | comments_cnt=0 | parsed=0 | unavailable=False | more=None | raw/097_t-me_tg-moymogilev-43674-comments.html
+@@ https://t.me/moymogilev/44670 | http=200 | header='Comments on this post' | comments_cnt=0 | parsed=0 | unavailable=False | more=None | raw/098_t-me_tg-moymogilev-44670-comments.html
+@@ https://t.me/moymogilev/55191 | http=200 | header='Comments on this post' | comments_cnt=0 | parsed=0 | unavailable=False | more=None | raw/099_t-me_tg-moymogilev-55191-comments.html
+@@ https://t.me/moymogilev/56449 | http=200 | header='2 comments on this post' | comments_cnt=2 | parsed=2 | unavailable=False | more=20660 | raw/100_t-me_tg-moymogilev-56449-comments.html
+  - [2026-04-16T08:07:59+00:00] 'наташа' (https://t.me/moymogilev/56449?comment=20659) reply_to=None media=[]
+      'А где гурманофф?'
+  - [2026-04-16T08:08:47+00:00] 'Ника' (https://t.me/moymogilev/56449?comment=20660) reply_to=None media=[]
+      'До этого были ещё посты с участниками гастрофеста'
+@@ https://t.me/moymogilev/59486 | http=200 | header='1 comment on this post' | comments_cnt=1 | parsed=1 | unavailable=False | more=24517 | raw/101_t-me_tg-moymogilev-59486-comments.html
+  - [2026-06-09T06:06:02+00:00] '❖ƬʜᴇГлебヅ♥️🛩️🥋' (https://t.me/moymogilev/59486?comment=24517) reply_to=None media=[]
+      'Бывает'
+@@ https://t.me/moymogilev/64457 | http=200 | header='Comments on this post' | comments_cnt=0 | parsed=0 | unavailable=False | more=None | raw/102_t-me_tg-moymogilev-64457-comments.html
+@@ https://t.me/moymogilev/66759 | http=200 | header='Comments on this post' | comments_cnt=0 | parsed=0 | unavailable=False | more=None | raw/103_t-me_tg-moymogilev-66759-comments.html
+@@ https://t.me/mogilev/5553 | http=200 | header='1 comment on this post' | comments_cnt=1 | parsed=1 | unavailable=False | more=41635 | raw/104_t-me_tg-mogilev-5553-comments.html
+  - [2025-01-23T12:11:08+00:00] 'Могилев. Главное!' (https://t.me/mogilev/5553?comment=41635) reply_to=None media=[]
+      '🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot'
+@@ https://t.me/mogilev/7426 | http=200 | header='2 comments on this post' | comments_cnt=2 | parsed=2 | unavailable=False | more=55095 | raw/105_t-me_tg-mogilev-7426-comments.html
+  - [2025-05-10T15:03:35+00:00] 'Могилев. Главное!' (https://t.me/mogilev/7426?comment=54930) reply_to=None media=[]
+      '🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot'
+  - [2025-05-11T02:48:39+00:00] 'Jack' (https://t.me/mogilev/7426?comment=55095) reply_to=None media=[]
+      'А по факту - нечего есть. За эти деньги 4 шавухи можно взять и наесться.'
+@@ https://t.me/mogilev/7506 | http=200 | header='4 comments on this post' | comments_cnt=4 | parsed=4 | unavailable=False | more=55846 | raw/106_t-me_tg-mogilev-7506-comments.html
+  - [2025-05-15T14:00:36+00:00] 'Могилев. Главное!' (https://t.me/mogilev/7506?comment=55821) reply_to=None media=[]
+      '🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot'
+  - [2025-05-15T14:49:10+00:00] 'Светлана' (https://t.me/mogilev/7506?comment=55825) reply_to=None media=[]
+      'Самое простое убрать просрочку это если по истечении срока годности не пробивается штрих код'
+  - [2025-05-15T15:11:38+00:00] 'Александр' (https://t.me/mogilev/7506?comment=55832) reply_to=None media=[]
+      'Самое простое, закрыть магазины, и потом все будет норм., просрочки и тд и тп не будет.'
+  - [2025-05-15T16:22:45+00:00] 'Микки' (https://t.me/mogilev/7506?comment=55846) reply_to=None media=[]
+      'хлебцы это жестко'
+@@ https://t.me/mogilev/7876 | http=200 | header='3 comments on this post' | comments_cnt=3 | parsed=3 | unavailable=False | more=58616 | raw/107_t-me_tg-mogilev-7876-comments.html
+  - [2025-06-06T12:33:50+00:00] 'Могилев. Главное!' (https://t.me/mogilev/7876?comment=58590) reply_to=None media=[]
+      '🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot'
+  - [2025-06-06T12:36:10+00:00] 'ファイル' (https://t.me/mogilev/7876?comment=58592) reply_to=None media=[]
+      'амазонка лучшая🥲\n  \n    Please open Telegram to view this comment\n    VIEW IN TELEGRAM'
+  - [2025-06-06T17:24:35+00:00] 'Танюша' (https://t.me/mogilev/7876?comment=58616) reply_to=None media=[]
+      'Все хороши кроме Амазонки.'
+@@ https://t.me/mogilev/7878 | http=200 | header='1 comment on this post' | comments_cnt=1 | parsed=1 | unavailable=False | more=58601 | raw/108_t-me_tg-mogilev-7878-comments.html
+  - [2025-06-06T14:26:04+00:00] 'Могилев. Главное!' (https://t.me/mogilev/7878?comment=58601) reply_to=None media=[]
+      '🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot'
+@@ https://t.me/mogilev/12545 | http=200 | header='6 comments on this post' | comments_cnt=6 | parsed=6 | unavailable=False | more=113077 | raw/109_t-me_tg-mogilev-12545-comments.html
+  - [2026-03-06T14:00:45+00:00] 'Могилев. Главное!' (https://t.me/mogilev/12545?comment=113035) reply_to=None media=[]
+      '⚡️ За ваши фото, видео, новости и истории, связанные с Могилёвом, дарим подарки, сертификаты и многое другое!\n\nПишите в редакцию → @suggestmogilevbot'
+  - [2026-03-06T14:02:12+00:00] 'Throne | @coast' (https://t.me/mogilev/12545?comment=113036) reply_to=None media=[]
+      'о блин, надо сходить'
+  - [2026-03-06T14:37:05+00:00] 'Artsiom' (https://t.me/mogilev/12545?comment=113042) reply_to=None media=[]
+      'Там все равно столько не съесть, если только половину забрать домой.'
+  - [2026-03-06T16:10:12+00:00] 'Лиза Заельцовская' (https://t.me/mogilev/12545?comment=113051) reply_to=None media=[]
+      '1 сет рассчитан на двоих человек'
+  - [2026-03-06T16:10:56+00:00] 'Лиза Заельцовская' (https://t.me/mogilev/12545?comment=113052) reply_to=None media=[]
+      'а где можно посмотреть состав сетов?'
+  - [2026-03-06T18:21:12+00:00] 'Светлана Рахманова' (https://t.me/mogilev/12545?comment=113077) reply_to=None media=[]
+      'Очень хотим попробовать с мамой, но, к сожалению, мама не может ходить. А заказать доставку можно будет?'
+@@ https://t.me/mogilev/12930 | http=200 | header='1 comment on this post' | comments_cnt=1 | parsed=1 | unavailable=False | more=118364 | raw/110_t-me_tg-mogilev-12930-comments.html
+  - [2026-03-31T16:33:25+00:00] 'Могилев. Главное!' (https://t.me/mogilev/12930?comment=118364) reply_to=None media=[]
+      '⚡️ За ваши фото, видео, новости и истории, связанные с Могилёвом, дарим подарки, сертификаты и многое другое!\n\nПишите в редакцию → @suggestmogilevbot'
+@@ https://t.me/mogilev/14252 | http=200 | header='1 comment on this post' | comments_cnt=1 | parsed=1 | unavailable=False | more=137227 | raw/111_t-me_tg-mogilev-14252-comments.html
+  - [2026-06-08T17:19:19+00:00] 'Могилев. Главное!' (https://t.me/mogilev/14252?comment=137227) reply_to=None media=[]
+      '⚡️ За ваши фото, видео, новости и истории, связанные с Могилёвом, дарим подарки, сертификаты и многое другое!\n\nПишите в редакцию → @suggestmogilevbot'
+@@ https://t.me/mogilev/16489 | http=200 | header='5 comments on this post' | comments_cnt=5 | parsed=5 | unavailable=False | more=158705 | raw/112_t-me_tg-mogilev-16489-comments.html
+  - [2026-09-17T15:27:45+00:00] 'Роман Степченко' (https://t.me/mogilev/16489?comment=158089) reply_to=None media=[]
+      'А где увидеть меню?'
+  - [2026-09-17T17:44:38+00:00] 'Deleted Account' (https://t.me/mogilev/16489?comment=158111) reply_to=None media=[]
+      'о я там работать буду в субботу'
+  - [2026-09-17T18:09:03+00:00] 'Deleted Account' (https://t.me/mogilev/16489?comment=158128) reply_to=None media=[]
+      'Наверное в самих заведениях'
+  - [2026-09-20T08:13:27+00:00] 'Anji' (https://t.me/mogilev/16489?comment=158338) reply_to=None media=[]
+      'Мы мешок картошки купили за 40р:))) 40кг, будем дома квестить. Жарим, парим.....'
+  - [2026-09-23T03:24:01+00:00] 'Vint(Виктор)' (https://t.me/mogilev/16489?comment=158705) reply_to=None media=[]
+      'А сколько в мешке кг?!🤔'
+@@ https://t.me/mogilev/16549 | http=200 | header='1 comment on this post' | comments_cnt=1 | parsed=1 | unavailable=False | more=158366 | raw/113_t-me_tg-mogilev-16549-comments.html
+  - [2026-09-20T15:04:38+00:00] 'Денис' (https://t.me/mogilev/16549?comment=158366) reply_to=None media=[]
+      'А как же Васильки?'
+@@ https://t.me/mogilevonline/101680 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/114_t-me_tg-mogilevonline-101680-comments.html
+@@ https://t.me/mogilevonline/101696 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/115_t-me_tg-mogilevonline-101696-comments.html
+@@ https://t.me/mogilevonline/102493 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/116_t-me_tg-mogilevonline-102493-comments.html
+@@ https://t.me/mogilevonline/115347 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/117_t-me_tg-mogilevonline-115347-comments.html
+@@ https://t.me/mogilevonline/116482 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/118_t-me_tg-mogilevonline-116482-comments.html
+@@ https://t.me/mogilevonline/117530 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/119_t-me_tg-mogilevonline-117530-comments.html
+@@ https://t.me/mogilevonline/119625 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/120_t-me_tg-mogilevonline-119625-comments.html
+@@ https://t.me/mogilevonline/124458 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/121_t-me_tg-mogilevonline-124458-comments.html
+@@ https://t.me/mogilove/46968 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/122_t-me_tg-mogilove-46968-comments.html
+@@ https://t.me/mogilove/59350 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/123_t-me_tg-mogilove-59350-comments.html
+@@ https://t.me/mogilove/59396 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/124_t-me_tg-mogilove-59396-comments.html
+@@ https://t.me/podslushano_mogilev/5945 | http=200 | header='Comments on this post' | comments_cnt=0 | parsed=0 | unavailable=False | more=None | raw/125_t-me_tg-podslushano-mogilev-5945-comments.html
+@@ https://t.me/mycityby/6920 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/126_t-me_tg-mycityby-6920-comments.html
+@@ https://t.me/mycityby/7340 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/127_t-me_tg-mycityby-7340-comments.html
+@@ https://t.me/mycityby/8324 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/128_t-me_tg-mycityby-8324-comments.html
+@@ https://t.me/mycityby/9719 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/129_t-me_tg-mycityby-9719-comments.html
+@@ https://t.me/mycityby/12201 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/130_t-me_tg-mycityby-12201-comments.html
+@@ https://t.me/mycityby/13061 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/131_t-me_tg-mycityby-13061-comments.html
+@@ https://t.me/mycityby/13798 | http=200 | header=None | comments_cnt=None | parsed=0 | unavailable=True | more=None | raw/132_t-me_tg-mycityby-13798-comments.html
+@@ https://t.me/moymogilev/66497 | http=200 | header='Comments on this post' | comments_cnt=0 | parsed=0 | unavailable=False | more=None | raw/133_t-me_tg-moymogilev-66497-comments.html

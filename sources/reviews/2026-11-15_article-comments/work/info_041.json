@@ -1,0 +1,35 @@
+{
+ "number": 41,
+ "url": "https://vk.ru/challenge.html?tid=kB7KRw7yuk4MwabDavUv2TMv-cc7Jw&hash429=_snAr0Ue7pEno35FcVKP5o9mq2SFsyttVyL3uri3jF3AHF8WJdYggI6GsaRlwTvrvuK-itrO3nR6k7omwpzqw-BHHAgPxjt4wmajRtfE0XLvb_9XAh1KaiF6UZGEXgS7rH4CcfdQUIdtsG2i&sign=_iOL_VchU53CyouXiNZpBQ&back=https%3A%2F%2Fvk.ru%2Fwall-202389635_32320&origin=&lang_id=",
+ "title": "Проверяем, что вы не робот",
+ "at": "2026-11-15T14:23:56.700Z",
+ "html": "raw/041_vk-ru_vk-proverka-ne-robot-wall-202389635-32320.html",
+ "txt": "raw/041_vk-ru_vk-proverka-ne-robot-wall-202389635-32320.txt",
+ "sha256": "2004c0d4d533c78b8edb6a6960f6891142a9661ab138526ec0d492aab443db20",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 92
+ },
+ "extra": {
+  "name": "vk_proverka-ne-robot_wall-202389635_32320",
+  "status": 200,
+  "requested": "https://vk.com/wall-202389635_32320",
+  "vk": {
+   "url": "https://vk.ru/challenge.html?tid=kB7KRw7yuk4MwabDavUv2TMv-cc7Jw&hash429=_snAr0Ue7pEno35FcVKP5o9mq2SFsyttVyL3uri3jF3AHF8WJdYggI6GsaRlwTvrvuK-itrO3nR6k7omwpzqw-BHHAgPxjt4wmajRtfE0XLvb_9XAh1KaiF6UZGEXgS7rH4CcfdQUIdtsG2i&sign=_iOL_VchU53CyouXiNZpBQ&back=https%3A%2F%2Fvk.ru%2Fwall-202389635_32320&origin=&lang_id=",
+   "title": "Проверяем, что вы не робот",
+   "at": "2026-11-15T14:23:56.699Z",
+   "loginWall": [],
+   "post": null,
+   "comments": [],
+   "moreButtonsLeft": []
+  }
+ }
+}

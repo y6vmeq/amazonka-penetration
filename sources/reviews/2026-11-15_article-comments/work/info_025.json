@@ -1,0 +1,59 @@
+{
+ "number": 25,
+ "url": "https://komkur.info/money/gastrofest-v-mogileve-udivitelno-vkusno-iskristo-i-ostro-nakormili-v-restobare-amazonka",
+ "title": "«Гастрофест» в Могилеве: «удивительно вкусно, искристо и остро» накормили в рестобаре «Амазонка»",
+ "at": "2026-11-15T14:08:18.031Z",
+ "html": "raw/025_komkur-info_komkur-2023-11-27-gastrofest-iskristo.html",
+ "txt": "raw/025_komkur-info_komkur-2023-11-27-gastrofest-iskristo.txt",
+ "sha256": "f3b3d2661e14177d88e823aef0319a76c65e990683de97aee851b75880d815fc",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [
+   {
+    "src": "https://yastatic.net/safeframe-bundles/0.89/1-1-0/render.html",
+    "id": "id1345",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:c151fad9762a8a8d60b3bd3c028c7629"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 7382
+ },
+ "extra": {
+  "name": "komkur_2023-11-27_gastrofest-iskristo",
+  "status": 200,
+  "requested": "https://komkur.info/money/gastrofest-v-mogileve-udivitelno-vkusno-iskristo-i-ostro-nakormili-v-restobare-amazonka",
+  "pre": null
+ }
+}

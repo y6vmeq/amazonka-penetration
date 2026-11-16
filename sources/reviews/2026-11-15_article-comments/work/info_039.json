@@ -1,0 +1,38 @@
+{
+ "number": 39,
+ "url": "https://mycity.by/afisha/1896-respublikanskij-festival-gastrofest-craft",
+ "title": "Республиканский фестиваль Gastrofest.Craft",
+ "at": "2026-11-15T14:20:21.033Z",
+ "html": "raw/039_mycity-by_mycity-afisha-1896-gastrofest-craft.html",
+ "txt": "raw/039_mycity-by_mycity-afisha-1896-gastrofest-craft.txt",
+ "sha256": "26ec32b77c91c61a48414b6602217c2fab9652f53e1503330c0fce7ab600a687",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [
+   "https://vk.com/js/api/openapi.js?130"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline form-search",
+    "action": "/afisha",
+    "fields": [
+     "input:search:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 5554
+ },
+ "extra": {
+  "status": 200
+ }
+}

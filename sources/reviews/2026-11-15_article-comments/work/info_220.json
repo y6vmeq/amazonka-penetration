@@ -1,0 +1,63 @@
+{
+ "number": 220,
+ "url": "https://magilev.by/news/2026/06/08/festival-edy-vkus-leta-s-22-iyunya-startuet-v-mogileve-kto-uchastvuet-i-chto-v-menyu",
+ "title": "Фестиваль еды «Вкус лета» с 22 июня стартует в Могилеве. Кто участвует и что в меню? | magilev.by",
+ "at": "2026-11-15T15:33:21.474Z",
+ "html": "raw/220_magilev-by_magilev-2026-06-08-festival-edy-vkus-leta-s-22-iyunya-sta.html",
+ "txt": "raw/220_magilev-by_magilev-2026-06-08-festival-edy-vkus-leta-s-22-iyunya-sta.txt",
+ "sha256": "337d3c240d5d34919e1600e1a628d9835547a8fb1ce844c0251bc8f9691cf34f",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "b b_detail-before-comments b_visible",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-7674021519504941&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1794756795&plat=3%3A16%2C4%3A16%2C9%3A32%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=",
+    "id": "aswift_0",
+    "cls": ""
+   },
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/html/r20261112/r20190131/zrt_lookup_fy2021.html",
+    "id": "google_esf",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "sf1",
+    "cls": "search-form search-form_hidden",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   },
+   {
+    "id": "sf2",
+    "cls": "search-form search-form_hidden header__main-search",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 9072
+ },
+ "extra": {
+  "name": "magilev_2026-06-08_festival-edy-vkus-leta-s-22-iyunya-sta",
+  "status": 200,
+  "requested": "https://magilev.by/news/2026/06/08/festival-edy-vkus-leta-s-22-iyunya-startuet-v-mogileve-kto-uchastvuet-i-chto-v-menyu",
+  "pre": null
+ }
+}

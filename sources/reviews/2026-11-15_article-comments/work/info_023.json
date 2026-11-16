@@ -1,0 +1,59 @@
+{
+ "number": 23,
+ "url": "https://komkur.info/money/gastrofest-v-mogileve-sup-v-amazonke-na-lyubitelya",
+ "title": "«Гастрофест» в Могилеве: суп в «Амазонке» – на любителя",
+ "at": "2026-11-15T14:08:02.401Z",
+ "html": "raw/023_komkur-info_komkur-2024-11-29-sup-na-lyubitelya.html",
+ "txt": "raw/023_komkur-info_komkur-2024-11-29-sup-na-lyubitelya.txt",
+ "sha256": "fc6ff727ce29256cfd9517ee5f66f90b6e7fe5b1898da341fc4c51626fb467fa",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [
+   {
+    "src": "https://yastatic.net/safeframe-bundles/0.89/1-1-0/render.html",
+    "id": "id7667",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:c151fad9762a8a8d60b3bd3c028c7629"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 6642
+ },
+ "extra": {
+  "name": "komkur_2024-11-29_sup-na-lyubitelya",
+  "status": 200,
+  "requested": "https://komkur.info/money/gastrofest-v-mogileve-sup-v-amazonke-na-lyubitelya",
+  "pre": null
+ }
+}

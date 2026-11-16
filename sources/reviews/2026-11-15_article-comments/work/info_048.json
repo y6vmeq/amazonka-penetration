@@ -1,0 +1,65 @@
+{
+ "number": 48,
+ "url": "https://t.me/magilev/13716?embed=1&mode=tme",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:27:09.754Z",
+ "html": "raw/048_t-me_tg-magilev-13716-post.html",
+ "txt": "raw/048_t-me_tg-magilev-13716-post.txt",
+ "sha256": "8a34e675eba04ccbb9d096e6f0076a7b990a8c24750d2ad8cb9d927d2628b5f9",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 835
+ },
+ "extra": {
+  "name": "tg_magilev_13716_post",
+  "status": 200,
+  "requested": "https://t.me/magilev/13716?embed=1&mode=tme",
+  "tgPost": {
+   "url": "https://t.me/magilev/13716?embed=1&mode=tme",
+   "at": "2026-11-15T14:27:09.754Z",
+   "error": "",
+   "post": {
+    "id": "13716",
+    "author": "Magilev.by",
+    "authorHref": "https://t.me/magilev",
+    "text": "🔸Санэпидемиологи проверили в Могилеве магазины и точки общепита - результаты не сильно радостные🤷‍♀👇\n\nПросрочка обнаружена даже в популярном баре «Амазонка» на Ленинской. Там с истекшим сроком хранения был томатный соус и… вино на сумму 110 рублей.\n\nКак водится, в списке -  «Светофор». В магазине на Гомельском шоссе, 62а продавали 15,5 кг непригодной к употреблению колбасы.\n\nПродукты с истекшим сроком годности нашли также в 3 «Еврооптах». На Терехина, 6а - почти килограмм готового салата, на Каштановой - больше килограмма куриного полуфабриката, на Перекопской, 1 - просроченная рыбная продукция.\n\nВ магазине «Петруха-маркет» на Симонова обнаружились хлебцы с истекшим сроком годности.\n\n✔️Подписывайтесь и делитесь 👉 @magilev",
+    "dateText": "May 15, 2025 at 13:47",
+    "datetime": "2025-05-15T11:47:52+00:00",
+    "url": "https://t.me/magilev/13716",
+    "replyTo": null,
+    "forwardedFrom": "",
+    "views": "904",
+    "metaText": "edited  May 15, 2025 at 13:47",
+    "signature": "",
+    "reactions": [
+     "😱5",
+     "❤2",
+     "👎2",
+     "👍1",
+     "🤔1",
+     "🤩1"
+    ],
+    "media": [
+     {
+      "type": "photo",
+      "src": "https://cdn4.telesco.pe/file/sTl1-Ut0bLm2RPZ1dq4LtL5Dpq_ykZ2sdT55eQKeOepYvQ_7v4mc_plq92kqbWK9-Ora2q-u8LFnjYdyLzWysDA7wfzLbT5-eCxnM2HuLZqoVVB4uVc7K5efv8hd3Q2Emp-9-KP_5orEsRuttEZDXhCy7lK_bt43EUtjKiHaE9K53SUUq2YX_RpnXJgIpGunUezUDetQIvPqVQnxkAf9urWxzJwTQk92oREGTTre50oZ5QHoM1TrpC4O7LXt2ULu8yWEnNzC-9eveCsBKzfjFSj-WCem9-ss3iERXMlBua1Hdk_9gkkjn0mm9WTv5V4I-OnrmcIv4PYFNdKr8_v4hg.jpg",
+      "href": "https://t.me/magilev/13716"
+     }
+    ]
+   },
+   "repliesText": "",
+   "bodyText": "Magilev.by\n🔸Санэпидемиологи проверили в Могилеве магазины и точки общепита - результаты не сильно радостные🤷‍♀👇\n\nПросрочка обнаружена даже в популярном баре «Амазонка» на Ленинской. Там с истекшим сроком хранения был томатный соус и… вино на сумму 110 рублей.\n\nКак водится, в списке - «Светофор». В магазине на Гомельском шоссе, 62а продавали 15,5 кг непригодной к употреблению колбасы.\n\nПродукты "
+  }
+ }
+}

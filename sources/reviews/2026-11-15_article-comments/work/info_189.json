@@ -1,0 +1,63 @@
+{
+ "number": 189,
+ "url": "https://magilev.by/news/2023/08/31/v-mogileve-s-7-sentyabrya-startuet-kofejnyj-festival-pro-coffee-kakie-sety-predlagayut-10-zavedenij-uchastnikov",
+ "title": "В Могилеве с 7 сентября стартует кофейный фестиваль PRO COFFEE. Какие сеты предлагают 10 заведений-участников? | magilev.by",
+ "at": "2026-11-15T15:28:41.233Z",
+ "html": "raw/189_magilev-by_magilev-2023-08-31-v-mogileve-s-7-sentyabrya-startuet-kof.html",
+ "txt": "raw/189_magilev-by_magilev-2023-08-31-v-mogileve-s-7-sentyabrya-startuet-kof.txt",
+ "sha256": "3924c0019ae5baf91812fcf28b59180e238717ac161df1b03db90fa6b98af9fc",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "b b_detail-before-comments b_visible",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-7674021519504941&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1794756514&plat=3%3A16%2C4%3A16%2C9%3A32%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=",
+    "id": "aswift_0",
+    "cls": ""
+   },
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/html/r20261112/r20190131/zrt_lookup_fy2021.html",
+    "id": "google_esf",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "sf1",
+    "cls": "search-form search-form_hidden",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   },
+   {
+    "id": "sf2",
+    "cls": "search-form search-form_hidden header__main-search",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 7473
+ },
+ "extra": {
+  "name": "magilev_2023-08-31_v-mogileve-s-7-sentyabrya-startuet-kof",
+  "status": 200,
+  "requested": "https://magilev.by/news/2023/08/31/v-mogileve-s-7-sentyabrya-startuet-kofejnyj-festival-pro-coffee-kakie-sety-predlagayut-10-zavedenij-uchastnikov",
+  "pre": null
+ }
+}

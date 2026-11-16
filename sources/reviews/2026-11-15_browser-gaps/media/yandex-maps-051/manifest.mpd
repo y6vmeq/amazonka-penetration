@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" minBufferTime="PT5.000S" mediaPresentationDuration="PT6.033S">
+    <BaseURL>https://strm-fra-01.strm.yandex.net/lid=293/</BaseURL>
+    <BaseURL>https://strm-ams28.strm.yandex.net/lid=294/</BaseURL>
+    <BaseURL>https://strm-rad-26.strm.yandex.net/lid=310/</BaseURL>
+    <BaseURL>https://strm-fra-01.strm.yandex.net/lid=328/</BaseURL>
+    <Period>
+        <AdaptationSet contentType="video" mimeType="video/mp4" segmentAlignment="true" maxWidth="1280" maxHeight="720" maxFrameRate="30" startWithSAP="1">
+            <SupplementalProperty schemeIdUri="urn:mpeg:yandex:labels:quality" value="1280x720@3147625:720p,1024x576@2101272:576p,854x480@1275771:480p,640x360@742316:360p,426x240@525795:240p,256x144@208953:144p"></SupplementalProperty>
+            <Representation id="vid5" codecs="avc1.64001f" width="1280" height="720" frameRate="30" sar="1:1" bandwidth="3147625" scanType="progressive">
+                <SegmentTemplate timescale="1000" media="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=f660237d51a5b233d4499d523093245e2a7ee81377dc19f3da2d62264bcc9925,abcID=1238,chID=vplc3e5cm3yjfdqx32ya,fps=30.00,label=720p,pfx,stream_type=DASH,ts=6afd299a,vbrt=3147,vcodec=h264,vh=720,vw=1280/vid5/fragment-$Number$-v1.m4s?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" initialization="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=f660237d51a5b233d4499d523093245e2a7ee81377dc19f3da2d62264bcc9925,abcID=1238,chID=vplc3e5cm3yjfdqx32ya,fps=30.00,label=720p,pfx,stream_type=DASH,ts=6afd299a,vbrt=3147,vcodec=h264,vh=720,vw=1280/vid5/init-v1.mp4?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" startNumber="1">
+                    <SegmentTimeline>
+                        <S d="5000"></S>
+                        <S d="1033"></S>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="vid4" codecs="avc1.64001f" width="1024" height="576" frameRate="30" sar="1:1" bandwidth="2101272" scanType="progressive">
+                <SegmentTemplate timescale="1000" media="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=96a8100b92940900e48a15b0a4bf1577a911db48fa7117ac07b01f0b71d1171b,abcID=1238,chID=vplc3e5cm3yjfdqx32ya,fps=30.00,label=576p,pfx,stream_type=DASH,ts=6afd299a,vbrt=2101,vcodec=h264,vh=576,vw=1024/vid4/fragment-$Number$-v1.m4s?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" initialization="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=96a8100b92940900e48a15b0a4bf1577a911db48fa7117ac07b01f0b71d1171b,abcID=1238,chID=vplc3e5cm3yjfdqx32ya,fps=30.00,label=576p,pfx,stream_type=DASH,ts=6afd299a,vbrt=2101,vcodec=h264,vh=576,vw=1024/vid4/init-v1.mp4?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" startNumber="1">
+                    <SegmentTimeline>
+                        <S d="5000"></S>
+                        <S d="1033"></S>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="vid3" codecs="avc1.64001e" width="854" height="480" frameRate="30" sar="1:1" bandwidth="1275771" scanType="progressive">
+                <SegmentTemplate timescale="1000" media="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=53d170041ee04e98ca6ee3508438916a2cf4f4a5c02a898dad48139c7456628f,abcID=1238,chID=vplc3e5cm3yjfdqx32ya,fps=30.00,label=480p,pfx,stream_type=DASH,ts=6afd299a,vbrt=1275,vcodec=h264,vh=480,vw=854/vid3/fragment-$Number$-v1.m4s?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" initialization="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=53d170041ee04e98ca6ee3508438916a2cf4f4a5c02a898dad48139c7456628f,abcID=1238,chID=vplc3e5cm3yjfdqx32ya,fps=30.00,label=480p,pfx,stream_type=DASH,ts=6afd299a,vbrt=1275,vcodec=h264,vh=480,vw=854/vid3/init-v1.mp4?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" startNumber="1">
+                    <SegmentTimeline>
+                        <S d="5000"></S>
+                        <S d="1033"></S>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="vid2" codecs="avc1.64001e" width="640" height="360" frameRate="30" sar="1:1" bandwidth="742316" scanType="progressive">
+                <SegmentTemplate timescale="1000" media="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=cb7c77103f67c2ce2a47fa7a8abf2ebc3014980927fdf090147afe1762932f94,abcID=1238,chID=vplc3e5cm3yjfdqx32ya,fps=30.00,label=360p,pfx,stream_type=DASH,ts=6afd299a,vbrt=742,vcodec=h264,vh=360,vw=640/vid2/fragment-$Number$-v1.m4s?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" initialization="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=cb7c77103f67c2ce2a47fa7a8abf2ebc3014980927fdf090147afe1762932f94,abcID=1238,chID=vplc3e5cm3yjfdqx32ya,fps=30.00,label=360p,pfx,stream_type=DASH,ts=6afd299a,vbrt=742,vcodec=h264,vh=360,vw=640/vid2/init-v1.mp4?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" startNumber="1">
+                    <SegmentTimeline>
+                        <S d="5000"></S>
+                        <S d="1033"></S>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="vid1" codecs="avc1.640014" width="426" height="240" frameRate="30" sar="1:1" bandwidth="525795" scanType="progressive">
+                <SegmentTemplate timescale="1000" media="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=943e728630a13bf120f2c0b0b3a8541f52a42cf20ffb320bbf0bdf38391afb16,abcID=1238,chID=vplc3e5cm3yjfdqx32ya,fps=30.00,label=240p,pfx,stream_type=DASH,ts=6afd299a,vbrt=525,vcodec=h264,vh=240,vw=426/vid1/fragment-$Number$-v1.m4s?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" initialization="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=943e728630a13bf120f2c0b0b3a8541f52a42cf20ffb320bbf0bdf38391afb16,abcID=1238,chID=vplc3e5cm3yjfdqx32ya,fps=30.00,label=240p,pfx,stream_type=DASH,ts=6afd299a,vbrt=525,vcodec=h264,vh=240,vw=426/vid1/init-v1.mp4?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" startNumber="1">
+                    <SegmentTimeline>
+                        <S d="5000"></S>
+                        <S d="1033"></S>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="vid0" codecs="avc1.64000c" width="256" height="144" frameRate="30" sar="1:1" bandwidth="208953" scanType="progressive">
+                <SegmentTemplate timescale="1000" media="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=5de3652f7be493c7b1a8e931e73873e12124c4bd8b08d8bdf81e1e7429809675,abcID=1238,chID=vplc3e5cm3yjfdqx32ya,fps=30.00,label=144p,pfx,stream_type=DASH,ts=6afd299a,vbrt=208,vcodec=h264,vh=144,vw=256/vid0/fragment-$Number$-v1.m4s?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" initialization="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=5de3652f7be493c7b1a8e931e73873e12124c4bd8b08d8bdf81e1e7429809675,abcID=1238,chID=vplc3e5cm3yjfdqx32ya,fps=30.00,label=144p,pfx,stream_type=DASH,ts=6afd299a,vbrt=208,vcodec=h264,vh=144,vw=256/vid0/init-v1.mp4?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" startNumber="1">
+                    <SegmentTimeline>
+                        <S d="5000"></S>
+                        <S d="1033"></S>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet contentType="audio" mimeType="audio/mp4" segmentAlignment="true" lang="und" label="Undefined" startWithSAP="1">
+            <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+            <Representation id="aid0" codecs="mp4a.40.2" bandwidth="198934" audioSamplingRate="44100">
+                <SegmentTemplate timescale="1000" media="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=5469144e34746d5edc8b157821b3c1fbb3a19043d6271f817ecf8e8dd97b3160,abcID=1238,abrt=194,ach=2,acodec=aac,chID=vplc3e5cm3yjfdqx32ya,lang=und,pfx,stream_type=DASH,ts=6afd299a/aid0/fragment-$Number$-a1.m4s?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" initialization="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=5469144e34746d5edc8b157821b3c1fbb3a19043d6271f817ecf8e8dd97b3160,abcID=1238,abrt=194,ach=2,acodec=aac,chID=vplc3e5cm3yjfdqx32ya,lang=und,pfx,stream_type=DASH,ts=6afd299a/aid0/init-a1.mp4?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" startNumber="1">
+                    <SegmentTimeline>
+                        <S d="5000"></S>
+                        <S d="1033"></S>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="aid1" codecs="mp4a.40.2" bandwidth="130430" audioSamplingRate="44100">
+                <SegmentTemplate timescale="1000" media="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=89d81b633b19cc644d61faa32e6cb6cd1519cc89223e7780ca9ed35a1588e046,abcID=1238,abrt=127,ach=2,acodec=aac,chID=vplc3e5cm3yjfdqx32ya,lang=und,pfx,stream_type=DASH,ts=6afd299a/aid1/fragment-$Number$-a1.m4s?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" initialization="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=89d81b633b19cc644d61faa32e6cb6cd1519cc89223e7780ca9ed35a1588e046,abcID=1238,abrt=127,ach=2,acodec=aac,chID=vplc3e5cm3yjfdqx32ya,lang=und,pfx,stream_type=DASH,ts=6afd299a/aid1/init-a1.mp4?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" startNumber="1">
+                    <SegmentTimeline>
+                        <S d="5000"></S>
+                        <S d="1033"></S>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="aid2" codecs="mp4a.40.2" bandwidth="98345" audioSamplingRate="44100">
+                <SegmentTemplate timescale="1000" media="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=0a11989724c42fc65f560ff4506ddfd076174f12e4f3aac22d2804a759672a02,abcID=1238,abrt=96,ach=2,acodec=aac,chID=vplc3e5cm3yjfdqx32ya,lang=und,pfx,stream_type=DASH,ts=6afd299a/aid2/fragment-$Number$-a1.m4s?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" initialization="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=0a11989724c42fc65f560ff4506ddfd076174f12e4f3aac22d2804a759672a02,abcID=1238,abrt=96,ach=2,acodec=aac,chID=vplc3e5cm3yjfdqx32ya,lang=und,pfx,stream_type=DASH,ts=6afd299a/aid2/init-a1.mp4?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" startNumber="1">
+                    <SegmentTimeline>
+                        <S d="5000"></S>
+                        <S d="1033"></S>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="aid3" codecs="mp4a.40.2" bandwidth="66286" audioSamplingRate="44100">
+                <SegmentTemplate timescale="1000" media="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=23e0a0413130edfd1f44d5e5a886829584f3f20a81cbb69d340173ffa22fc058,abcID=1238,abrt=64,ach=2,acodec=aac,chID=vplc3e5cm3yjfdqx32ya,lang=und,pfx,stream_type=DASH,ts=6afd299a/aid3/fragment-$Number$-a1.m4s?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" initialization="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=23e0a0413130edfd1f44d5e5a886829584f3f20a81cbb69d340173ffa22fc058,abcID=1238,abrt=64,ach=2,acodec=aac,chID=vplc3e5cm3yjfdqx32ya,lang=und,pfx,stream_type=DASH,ts=6afd299a/aid3/init-a1.mp4?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" startNumber="1">
+                    <SegmentTimeline>
+                        <S d="5000"></S>
+                        <S d="1033"></S>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="aid4" codecs="mp4a.40.2" bandwidth="34609" audioSamplingRate="44100">
+                <SegmentTemplate timescale="1000" media="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=62ef0869f7705bb4c91e656c8274c2be276082997ca4374434b8a04bd3527934,abcID=1238,abrt=33,ach=2,acodec=aac,chID=vplc3e5cm3yjfdqx32ya,lang=und,pfx,stream_type=DASH,ts=6afd299a/aid4/fragment-$Number$-a1.m4s?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" initialization="vod/vh-maps-social-ugc-unit-converted/vod-content/vplvzufzumgbfkso4i7c/81407468-b6bf-4d2f-a57d-94859e001c17/kaltura/desc_8b3dbf70bd04fdbdbddc2086a81ecc04/x/ysign1=62ef0869f7705bb4c91e656c8274c2be276082997ca4374434b8a04bd3527934,abcID=1238,abrt=33,ach=2,acodec=aac,chID=vplc3e5cm3yjfdqx32ya,lang=und,pfx,stream_type=DASH,ts=6afd299a/aid4/init-a1.mp4?source_index=0&amp;vpuid=wkb0k57ra9&amp;vsid=fbd01919bdcd9ecde4bd027a46f86f13304672c20b9bxWEBx5519x1794741919" startNumber="1">
+                    <SegmentTimeline>
+                        <S d="5000"></S>
+                        <S d="1033"></S>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+    </Period>
+</MPD>

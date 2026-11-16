@@ -1,0 +1,76 @@
+{
+ "number": 52,
+ "url": "https://t.me/magilev/12057?embed=1&mode=tme",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:27:16.404Z",
+ "html": "raw/052_t-me_tg-magilev-12057-post.html",
+ "txt": "raw/052_t-me_tg-magilev-12057-post.txt",
+ "sha256": "32525fd05735e6cd3440a8cd0f662f7781f717e334c1b9838f9788d51ecccf2e",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 994
+ },
+ "extra": {
+  "name": "tg_magilev_12057_post",
+  "status": 200,
+  "requested": "https://t.me/magilev/12057?embed=1&mode=tme",
+  "tgPost": {
+   "url": "https://t.me/magilev/12057?embed=1&mode=tme",
+   "at": "2026-11-15T14:27:16.403Z",
+   "error": "",
+   "post": {
+    "id": "12057",
+    "author": "Magilev.by",
+    "authorHref": "https://t.me/magilev",
+    "text": "🔹Наш корреспондент сходила в рестобар «Амазонка» и осталась в хорошем смысле впечатлена...\n\nГлавная «изюминка» рестобара – террариумы с рептилиями🐍  Причем за агамами, гекконом и полозами можно не только наблюдать, но и подержать их в руках, на собственном опыте убедившись, что они – настоящие милашки!😍\n\n🍴Днем это своего рода семейное заведение, ориентированное в первую очередь на родителей с детьми. А ближе к вечеру и до самого закрытия (в рестобар в будние дни работает до 3 часов ночи и до 5 – по выходным дням) основными посетителями становятся молодые могилевчане: пары и компании. Гости приходят сюда не просто поесть, а хорошо провести время. Здесь есть целая коллекция настольных игр – от популярной Монополии до классических шахмат и русского лото (для детей тоже масса интересностей)...\n\n>>>>>Полный обзор рестобара «Амазонка» - ЧИТАЙТЕ ПО ССЫЛКЕ \n\n✔️Подписывайтесь и делитесь 👉 @magilev",
+    "dateText": "Dec 12, 2024 at 15:32",
+    "datetime": "2024-12-12T14:32:42+00:00",
+    "url": "https://t.me/magilev/12057",
+    "replyTo": null,
+    "forwardedFrom": "",
+    "views": "1.04K",
+    "metaText": "Dec 12, 2024 at 15:32",
+    "signature": "",
+    "reactions": [
+     "👍10",
+     "❤1",
+     "👎1",
+     "🔥1"
+    ],
+    "media": [
+     {
+      "type": "video",
+      "src": "https://cdn4.telesco.pe/file/2bc5c57440.mp4?token=Fy-kH7LQNqFmd7g0KGSaFfcpXGjOjBCbAeuaKGpBgzCT7foWNaqRZkiZdWjbo2-qYd0WcEC0Nf0B5VXwX2Hmjcz4MBsgR4CLhzLW6J6g-ARLmxh6nsK6D0OTKlUl6Wmsw6umv8sy3Fwh-3Q71EKjBJNkpvK6awcr06znU2dHHXXWPU5-G-hAe1eFLwdfs6HS5ozk58lqoWUfyYaAYjauIupmBg7o4vO_r7J5kNkToBExVOzq54i_M9y_U7TG5iGeNVaAqGMuq7YstFZPVG7qMaGP_FfEqHmNaGmrIloQI2lertFy9juAX4abW08iRlNyRIGqJwvKuiThRXOAeAuV7Q",
+      "thumb": "https://cdn4.telesco.pe/file/W1OQhVmMQbwn87VGuKWxU2V5NWIyauyaxWYuLCJmutBDy8T1VpikZQjn8M4JJFQeNzUCjQgl_zHzOUWaaCUKUw5uvu-udfNnXIed4WBJZD4FfK2Q4Xwr7YMpIC1L3k0rHpGr9xr4hFjpjn3NriShdbw-XBdyRfeGOFwTiNZ_fd-aoobEdr4rygx8PC2CDSg1jiz1Vdr5Gj0PzP0eRCiDrssA0MPttL2sit3BZ__3_u2gS6WlrUeKTDASU4RUsr7fqrshgrNnbGfFTlOYylNSoIlbQR6HniMECa_CcPefiqRFrQuEF57DXfaCW9wTY4F3g46cHf4KeCPuVtoNyOtoXA",
+      "href": "https://t.me/magilev/12057",
+      "duration": "0:58"
+     },
+     {
+      "type": "video",
+      "src": "https://cdn4.telesco.pe/file/2bc5c57440.mp4?token=Fy-kH7LQNqFmd7g0KGSaFfcpXGjOjBCbAeuaKGpBgzCT7foWNaqRZkiZdWjbo2-qYd0WcEC0Nf0B5VXwX2Hmjcz4MBsgR4CLhzLW6J6g-ARLmxh6nsK6D0OTKlUl6Wmsw6umv8sy3Fwh-3Q71EKjBJNkpvK6awcr06znU2dHHXXWPU5-G-hAe1eFLwdfs6HS5ozk58lqoWUfyYaAYjauIupmBg7o4vO_r7J5kNkToBExVOzq54i_M9y_U7TG5iGeNVaAqGMuq7YstFZPVG7qMaGP_FfEqHmNaGmrIloQI2lertFy9juAX4abW08iRlNyRIGqJwvKuiThRXOAeAuV7Q",
+      "thumb": "",
+      "href": "",
+      "duration": ""
+     },
+     {
+      "type": "not-supported",
+      "text": "This media is not supported in your browser"
+     }
+    ]
+   },
+   "repliesText": "",
+   "bodyText": "Magilev.by\n0:58\n🔹Наш корреспондент сходила в рестобар «Амазонка» и осталась в хорошем смысле впечатлена...\n\nГлавная «изюминка» рестобара – террариумы с рептилиями🐍 Причем за агамами, гекконом и полозами можно не только наблюдать, но и подержать их в руках, на собственном опыте убедившись, что они – настоящие милашки!😍\n\n🍴Днем это своего рода семейное заведение, ориентированное в первую очередь "
+  }
+ }
+}

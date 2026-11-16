@@ -1,0 +1,197 @@
+{
+ "number": 95,
+ "url": "https://t.me/mogilev/10571?embed=1&discussion=1&comments_limit=100",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:31:10.732Z",
+ "html": "raw/095_t-me_tg-mogilev-10571-discussion.html",
+ "txt": "raw/095_t-me_tg-mogilev-10571-discussion.txt",
+ "sha256": "a6a5da702c7a369da208fd92aece1464fcc1103cb2b05ba9d7031b48bcd9f58d",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 15,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_widget body_widget_discussion emoji_image force_userpic nodark name_nocolor",
+    "textLen": 582,
+    "text": "2 comments on this post Могилев. Главное! Могилев. Главное! 🔥 Стали известны сеты, которые будут участвовать в «Gastrofest» с 13 по 30 ноября в Могилеве Всего "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_header_wrap",
+    "textLen": 23,
+    "text": "2 comments on this post"
+   },
+   {
+    "tag": "H3",
+    "id": "",
+    "cls": "tgme_post_discussion_header",
+    "textLen": 23,
+    "text": "2 comments on this post"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion js-message_history",
+    "textLen": 540,
+    "text": "Могилев. Главное! Могилев. Главное! 🔥 Стали известны сеты, которые будут участвовать в «Gastrofest» с 13 по 30 ноября в Могилеве Всего участвуют 10 заведений: "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply user-color-default js-reply_to",
+    "textLen": 273,
+    "text": "Могилев. Главное! 🔥 Стали известны сеты, которые будут участвовать в «Gastrofest» с 13 по 30 ноября в Могилеве Всего участвуют 10 заведений: • Ресторан «101» -"
+   },
+   {
+    "tag": "I",
+    "id": "",
+    "cls": "tgme_widget_message_reply_thumb",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 255,
+    "text": "🔥 Стали известны сеты, которые будут участвовать в «Gastrofest» с 13 по 30 ноября в Могилеве Всего участвуют 10 заведений: • Ресторан «101» - пер.Пожарный, 6Б "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 195,
+    "text": " Могилев. Главное! 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области м"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 171,
+    "text": "🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggest"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 58,
+    "text": " Юрий, Если Вам не нравится, кушайте дома макароны 😊 "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 46,
+    "text": "Если Вам не нравится, кушайте дома макароны 😊"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_footer",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "FORM",
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login_btn accent_bghover js-login_btn",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/discussion-widget.js?10",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [
+   "йская, 31 • Рестобар «Луна» - ул.Ленинская, 22 • Бар «Карчма на… 🚫 В комментариях запрещены оскорбления и спам. Прислать интересные и красивые фото-видео, а также сообщить о собы"
+  ],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "action": "",
+    "fields": [
+     "input:hidden:peer",
+     "input:hidden:top_msg_id",
+     "input:hidden:discussion_hash"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 582
+ },
+ "extra": {
+  "name": "tg_mogilev_10571_discussion",
+  "status": 200,
+  "requested": "https://t.me/mogilev/10571?embed=1&discussion=1&comments_limit=100",
+  "channel": "mogilev",
+  "post": 10571,
+  "tgDiscussion": {
+   "url": "https://t.me/mogilev/10571?embed=1&discussion=1&comments_limit=100",
+   "at": "2026-11-15T14:31:10.732Z",
+   "header": "2 comments on this post",
+   "error": "",
+   "comments": [
+    {
+     "id": "89430",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilevglavnoebot",
+     "text": "🚫 В комментариях запрещены оскорбления и спам.\n\nПрислать интересные и красивые фото-видео, а также сообщить о событиях в Могилеве и области можно здесь @suggestmogilevbot",
+     "dateText": "Nov 7, 2025",
+     "datetime": "2025-11-07T12:01:14+00:00",
+     "url": "https://t.me/mogilev/10571?comment=89430",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "89605",
+     "author": "Юрий,",
+     "authorHref": "https://t.me/yuniiolaev",
+     "text": "Если Вам не нравится, кушайте дома макароны 😊",
+     "dateText": "Nov 8, 2025",
+     "datetime": "2025-11-08T08:46:19+00:00",
+     "url": "https://t.me/mogilev/10571?comment=89605",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    }
+   ],
+   "moreLeft": false,
+   "moreState": [
+    "tme_messages_more accent_bghover js-messages_more autoload hide|after=89605|before="
+   ],
+   "bodyText": "2 comments on this post\nМогилев. Главное!\nМогилев. Главное!\n🔥 Стали известны сеты, которые будут участвовать в «Gastrofest» с 13 по 30 ноября в Могилеве Всего участвуют 10 заведений: • Ресторан «101» - пер.Пожарный, 6Б • Чайхана «Рахмат» - ул.Первомайская, 31 • Рестобар «Луна» - ул.Ленинская, 22 • "
+  }
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "number": 225,
+ "url": "https://komkur.info/component/search/?searchword=%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%2C%2038&searchphrase=exact&ordering=newest&limit=0",
+ "title": "Результаты поиска: Ленинская, 38 - komkur.info",
+ "at": "2026-11-15T17:05:10.206Z",
+ "html": "raw/225_komkur-info_komkur-search-leninskaya-38.html",
+ "txt": "raw/225_komkur-info_komkur-search-leninskaya-38.txt",
+ "sha256": "b81577aa9b45f89e17d11509de0beae85e6cef9633dede7ee8f333bcc9d9ada4",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/component/finder/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:cd19a83bc8bc4614347f054dca815359"
+    ]
+   },
+   {
+    "id": "searchForm",
+    "cls": "",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "select:select-one:ordering"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 652
+ },
+ "extra": {
+  "name": "komkur-search_leninskaya-38",
+  "status": 200,
+  "requested": "https://komkur.info/component/search/?searchword=%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%2C%2038&searchphrase=exact&ordering=newest&limit=0",
+  "site": "komkur.info",
+  "query": "Ленинская, 38",
+  "summary": "Результаты поиска: найдено 0 элементов.",
+  "links": [
+   {
+    "href": "https://yandex.by/maps/-/CDQK58zQ",
+    "text": "ул. Московская, 42, г. Бобруйск, Беларусь, 213826"
+   }
+  ],
+  "next": []
+ }
+}

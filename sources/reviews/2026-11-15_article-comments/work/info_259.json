@@ -1,0 +1,59 @@
+{
+ "number": 259,
+ "url": "https://komkur.info/money/belorusskoe-blyudo-no-khrustit-po-frantsuzski-otsenili-festivalnyj-set-ot-restorana-colette",
+ "title": "«Белорусское блюдо, но хрустит по-французски». Оценили фестивальный сет от ресторана «Colette»",
+ "at": "2026-11-15T17:09:31.044Z",
+ "html": "raw/259_komkur-info_komkur-new-belorusskoe-blyudo-no-khrustit-po-frants.html",
+ "txt": "raw/259_komkur-info_komkur-new-belorusskoe-blyudo-no-khrustit-po-frants.txt",
+ "sha256": "c83b823044e9962b68e5fe29dd5a9a03db594e4fb4e363023d9312e6198c740e",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [
+   {
+    "src": "https://yastatic.net/safeframe-bundles/0.89/1-1-0/render.html",
+    "id": "id2060",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:cd19a83bc8bc4614347f054dca815359"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 5734
+ },
+ "extra": {
+  "name": "komkur_new_belorusskoe-blyudo-no-khrustit-po-frants",
+  "status": 200,
+  "requested": "https://komkur.info/money/belorusskoe-blyudo-no-khrustit-po-frantsuzski-otsenili-festivalnyj-set-ot-restorana-colette",
+  "pre": null
+ }
+}

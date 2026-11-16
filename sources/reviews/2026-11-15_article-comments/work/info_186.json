@@ -1,0 +1,72 @@
+{
+ "number": 186,
+ "url": "https://magilev.by/news/2023/06/22/ne-gastrofest-no-pohozhe-v-mogileve-nedelyu-budet-prohodit-festival-belorusskoj-kuhni",
+ "title": "Не «Гастрофест», но похоже. В Могилеве неделю проходит фестиваль белорусской кухни (дополняется) | magilev.by",
+ "at": "2026-11-15T15:28:16.736Z",
+ "html": "raw/186_magilev-by_magilev-2023-06-22-ne-gastrofest-no-pohozhe-v-mogileve-ne.html",
+ "txt": "raw/186_magilev-by_magilev-2023-06-22-ne-gastrofest-no-pohozhe-v-mogileve-ne.txt",
+ "sha256": "363ff313b0368ad5aa59e5424331e9dafba2efe5abb038c7e9e62b3ef32c5901",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "b b_detail-before-comments b_visible",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-7674021519504941&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1794756491&plat=3%3A16%2C4%3A16%2C9%3A32%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=",
+    "id": "aswift_0",
+    "cls": ""
+   },
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/html/r20261112/r20190131/zrt_lookup_fy2021.html",
+    "id": "google_esf",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [
+   "ран «101» Пер. Пожарный, 6/2 Бар «Барнео» (ресторан «Цоколь») - наш отзыв на сет ресторана «Цоколь» можно прочесть ЗДЕСЬ Ул. Дзержинского, 19 Ресторан «Винтаж» - наш отзыв на с",
+   "» можно прочесть ЗДЕСЬ Ул. Дзержинского, 19 Ресторан «Винтаж» - наш отзыв на сет ресторана «Винтаж» можно прочесть ЗДЕСЬ Ул. Первомайская, 29 Кафе «Станъ» - наш отзыв на сет ка",
+   "интаж» можно прочесть ЗДЕСЬ Ул. Первомайская, 29 Кафе «Станъ» - наш отзыв на сет кафе «Станъ» можно прочесть ЗДЕСЬ Пер. Комиссариатский, 5 Бар «Луна» Ул. Ленинская, 22 Кафе «",
+   " Кафе «Подкова» ул. Первомайская 12/2 Ресторан «Санта Мария» - наш отзыв на сет ресторана «Санта Мария» можно прочесть ЗДЕСЬ ул. Симонова, 69Г Кафе «Модерн» Ул. Ленинская, 15",
+   "нова, 69Г Кафе «Модерн» Ул. Ленинская, 15 Ресторан «Мясникъ» - наш отзыв на сет ресторана «Мясникъ» можно прочесть ЗДЕСЬ ул. Первомайская, 23 Кафе «Рестобар «Колетт» - наш отз",
+   "о прочесть ЗДЕСЬ ул. Первомайская, 23 Кафе «Рестобар «Колетт» - наш отзыв на сет кафе «Рестобар «Колетт» можно прочесть ЗДЕСЬ Ул. Ленинская, 44 ЧТУП «Торгосактив» мини-кафе в с",
+   "беды Ул.Первомайская, 22А (цокольный этаж) Кафе «Шпаркі Лось» - наш отзыв на сет кафе «Шпаркі Лось» можно прочесть ЗДЕСЬ *Заведения, которые уже выложили меню в соцсети или оно ",
+   "в столовой от мясокомбината ПРО ЕДУ СКОЛЬКО СТОИТ БОБРУЙСК Предвзятый отзыв на обед в столовой «Красного пищевика» в Бобруйске за 6,6 рубля ПРО ЕДУ СКОЛЬКО СТОИТ «Почувствовал себя"
+  ],
+  "forms": [
+   {
+    "id": "sf1",
+    "cls": "search-form search-form_hidden",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   },
+   {
+    "id": "sf2",
+    "cls": "search-form search-form_hidden header__main-search",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 5747
+ },
+ "extra": {
+  "name": "magilev_2023-06-22_ne-gastrofest-no-pohozhe-v-mogileve-ne",
+  "status": 200,
+  "requested": "https://magilev.by/news/2023/06/22/ne-gastrofest-no-pohozhe-v-mogileve-nedelyu-budet-prohodit-festival-belorusskoj-kuhni",
+  "pre": null
+ }
+}

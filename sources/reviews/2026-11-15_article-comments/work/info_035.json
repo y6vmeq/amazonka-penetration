@@ -1,0 +1,79 @@
+{
+ "number": 35,
+ "url": "https://olo.by/blog/kafe-i-kofeyni/isporchennoe-vino-v-bare-i-ne-tolko-sanstanciya-mogileva-opublikovala-spisok-obektov-gde-nashli-proshli-prosrochku-168",
+ "title": "Испорченное вино в баре и не только: санстанция Могилёва опубликовала список объектов, где нашли прошли просрочку",
+ "at": "2026-11-15T14:16:38.261Z",
+ "html": "raw/035_olo-by_olo-by-isporchennoe-vino-v-bare.html",
+ "txt": "raw/035_olo-by_olo-by-isporchennoe-vino-v-bare.txt",
+ "sha256": "f1c9ae3a55ae3ea90659c2b032d327d06b7a3bff326f80311e865ee69a32d667",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "module-comments",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [
+   "у почти 88 рублей. https://mogilev.online/2025/05/15/323331.html Комментарии Добавлять комментарии могут только авторизованные пользователи! «Дружной компанией». Кондитеры и ",
+   " https://mogilev.online/2025/05/15/323331.html Комментарии Добавлять комментарии могут только авторизованные пользователи! «Дружной компанией». Кондитеры и работники школьной сто"
+  ],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-ajax-live-search",
+    "action": "https://olo.by/belarus",
+    "fields": [
+     "input:text:search"
+    ]
+   },
+   {
+    "id": "",
+    "cls": "modal-geo-options-form",
+    "action": "",
+    "fields": []
+   },
+   {
+    "id": "ref: <Node>",
+    "cls": "modal-complaint-form",
+    "action": "",
+    "fields": [
+     "textarea:textarea:text",
+     "input:hidden:id",
+     "input:hidden:action_complain",
+     "input:hidden:csrf_token"
+    ]
+   },
+   {
+    "id": "",
+    "cls": "modal-user-story-image-form",
+    "action": "",
+    "fields": [
+     "input:file:story_media"
+    ]
+   },
+   {
+    "id": "",
+    "cls": "modal-user-story-video-form",
+    "action": "",
+    "fields": [
+     "input:file:story_media"
+    ]
+   }
+  ],
+  "textareas": 1,
+  "bodyTextLength": 1718
+ },
+ "extra": {
+  "status": 200,
+  "moduleComments": "<div class=\"module-comments\">\n                                         </div>",
+  "around": "<noindex> <div class=\"module-comments\"> </div> </noindex>"
+ }
+}

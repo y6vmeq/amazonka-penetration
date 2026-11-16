@@ -1,0 +1,159 @@
+{
+ "number": 233,
+ "url": "https://komkur.info/component/search/?searchword=%D0%B3%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%82&searchphrase=exact&ordering=newest&limit=0",
+ "title": "Результаты поиска: гастрофест - komkur.info",
+ "at": "2026-11-15T17:05:32.151Z",
+ "html": "raw/233_komkur-info_komkur-search-gastrofest.html",
+ "txt": "raw/233_komkur-info_komkur-search-gastrofest.txt",
+ "sha256": "87bc34d58408a4541d2a81506067e53fce16b45c97b86ea3b7e52d68e58dc685",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/component/finder/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:cd19a83bc8bc4614347f054dca815359"
+    ]
+   },
+   {
+    "id": "searchForm",
+    "cls": "",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "select:select-one:ordering"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 7368
+ },
+ "extra": {
+  "name": "komkur-search_gastrofest",
+  "status": 200,
+  "requested": "https://komkur.info/component/search/?searchword=%D0%B3%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%82&searchphrase=exact&ordering=newest&limit=0",
+  "site": "komkur.info",
+  "query": "гастрофест",
+  "summary": "Результаты поиска: найдено 21 элементов.",
+  "links": [
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-vmeste-s-gurmanoff-pobyvali-v-gostyakh-u-babushki-i-ugostilis-nastoyashchim-bigosom-i-machankoj-s-gusem",
+    "text": "«Гастрофест» в Могилеве: вместе с «Гурманофф» побывали в гостях у бабушки и угостились настоящим бигосом и мачанкой с гусем"
+   },
+   {
+    "href": "https://komkur.info/news/uncategorised/v-mogileve-nazvany-3-luchshikh-zavedeniya-pobediteli-gastrofesta-za-nikh-otdali-golosa-mogilevchane",
+    "text": "В Могилеве названы 3 лучших заведения – победители «Гастрофеста»: за них отдали голоса могилевчане"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-kyufta-pakhlava-i-sup-bez-myasa-no-navaristyj-chajkhana-rakhmat-snova-poradovala",
+    "text": "«Гастрофест» в Могилеве. Кюфта, пахлава и суп без мяса, но наваристый: чайхана «Рахмат» снова порадовала"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-set-v-restorane-101-podojdet-dlya-budnichnogo-obeda",
+    "text": "«Гастрофест» в Могилеве: сет в ресторане «101» подойдет для будничного обеда"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-ekler-s-forelyu-i-pyure-gertsoginya-ot-bara-edison-dlya-tsenitelej-vkusnoj-edy",
+    "text": "«Гастрофест» в Могилеве: эклер с форелью и пюре Герцогиня от бара «Эдисон» для ценителей вкусной еды"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-set-s-vidom-na-gorod-ot-gastrobara-tsokol-s-dubajskim-shokoladom-vprikusku",
+    "text": "«Гастрофест» в Могилеве: сет с видом на город от гастробара «Цоколь» с дубайским шоколадом вприкуску"
+   },
+   {
+    "href": "https://komkur.info/money/chem-budut-udivlyat-mogilevskie-zavedeniya-na-devyatom-gastrofeste-on-projdet-s-15-maya-po-1-iyunya",
+    "text": "Чем будут удивлять могилевские заведения на девятом «Гастрофесте»? Он пройдет с 15 мая по 1 июня"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-vozvrashchaetsya-v-mogilev-v-seredine-maya-sety-ot-restoranov-goroda-budut-stoit-45-rublej",
+    "text": "«Гастрофест» возвращается в Могилев в середине мая: сеты от ресторанов города будут стоить 45 рублей"
+   },
+   {
+    "href": "https://komkur.info/obshchestvo/nazvana-trojka-luchshikh-zavedenij-uchastnikov-vosmogo-gastrofesta-v-mogileve-kto-v-chisle-pobeditelej",
+    "text": "Названа тройка лучших заведений-участников восьмого «Гастрофеста» в Могилеве. Кто в числе победителей?"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-sup-v-amazonke-na-lyubitelya",
+    "text": "«Гастрофест» в Могилеве: суп в «Амазонке» – на любителя"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-aziatskoe-puteshestvie-dlya-gurmanov-v-belom-lise",
+    "text": "«Гастрофест» в Могилеве: азиатское путешествие для гурманов в «Белом лисе»"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-eshche-by-raz-skhodila-v-restoran-101-tolko-radi-supchika",
+    "text": "«Гастрофест» в Могилеве: еще бы раз сходила в ресторан «101» только ради супчика"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-tertyukha-i-gulbishnik-v-karchme-na-shklo-skim-bazary",
+    "text": "Гастрофест в Могилеве: тертюха и гульбишник в «Карчме на Шклоўскiм базары»"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-1-5-kg-vkusnoj-italii-v-parmezane",
+    "text": "Гастрофест в Могилеве: 1,5 кг вкусной Италии в «Пармезане»"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-salat-v-restorane-khinkalnya-razocharoval-no-situatsiyu-spasli-khachapuri-i-tsyplenok-v-slivochno-klyukvennom-souse",
+    "text": "«Гастрофест» в Могилеве: салат в ресторане «Хинкальня» разочаровал, но ситуацию спасли хачапури и цыпленок в сливочно-клюквенном соусе"
+   },
+   {
+    "href": "https://komkur.info/money/prosto-poest-da-a-vot-dushevno-posidet-vryad-li-poluchitsya-kak-my-na-gastrofest-v-mogilevskij-sushi-bar-dve-palochki-skhodili",
+    "text": "«Просто поесть – да, а вот душевно посидеть вряд ли получится»: как мы на «Гастрофест» в могилевский суши-бар «Две палочки» сходили"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-v-chajkhane-rakhmat-mnogo-myasa-i-potryasayushchij-tykvenno-orekhovyj-pirog-gurmany-otsenyat",
+    "text": "«Гастрофест» в Могилеве: в чайхане «Рахмат» много мяса и потрясающий тыквенно-ореховый пирог. Гурманы оценят!"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-tumannye-gastronomicheskie-spektakli-s-pannoj-kottoj-v-vuali-ot-tsokolya",
+    "text": "«Гастрофест» в Могилеве: «туманные» гастрономические спектакли с панной-коттой в вуали от «Цоколя»"
+   },
+   {
+    "href": "https://komkur.info/money/vosmoj-gastrofest-v-mogileve-posmotrite-kakie-sety-po-43-rublya-predlagayut-zavedeniya-uchastniki",
+    "text": "Восьмой «Гастрофест» в Могилеве: посмотрите, какие сеты по 43 рубля предлагают заведения-участники"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-tomlenye-gribochki-v-sedobnoj-misochke-ot-kafe-grilnik",
+    "text": "«Гастрофест» в Могилеве: томленые грибочки в съедобной мисочке от кафе «Грильник»"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-ne-dranikami-edinymi-bogata-belorusskaya-kukhnya-dokazal-gastrobar-tsokol",
+    "text": "«Гастрофест» в Могилеве: не драниками едиными богата белорусская кухня – доказал гастробар «Цоколь»"
+   },
+   {
+    "href": "https://yandex.by/maps/-/CDQK58zQ",
+    "text": "ул. Московская, 42, г. Бобруйск, Беларусь, 213826"
+   }
+  ],
+  "next": []
+ }
+}

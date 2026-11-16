@@ -1,0 +1,59 @@
+{
+ "number": 258,
+ "url": "https://komkur.info/money/zakuski-k-pivu-dlya-lyubitelej-fastfuda-degustatsiya-seta-ot-restobara-colette-na-oktyabrfeste",
+ "title": "Закуски к пиву для любителей фастфуда. Дегустация сета от рестобара Colette на «Октябрьфесте»",
+ "at": "2026-11-15T17:09:23.039Z",
+ "html": "raw/258_komkur-info_komkur-new-zakuski-k-pivu-dlya-lyubitelej-fastfuda.html",
+ "txt": "raw/258_komkur-info_komkur-new-zakuski-k-pivu-dlya-lyubitelej-fastfuda.txt",
+ "sha256": "1241a5790e5580eef28588e5feacc6033c35e60e97f9cfe1049d469766c2d430",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [
+   {
+    "src": "https://yastatic.net/safeframe-bundles/0.89/1-1-0/render.html",
+    "id": "id7959",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:cd19a83bc8bc4614347f054dca815359"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 6102
+ },
+ "extra": {
+  "name": "komkur_new_zakuski-k-pivu-dlya-lyubitelej-fastfuda",
+  "status": 200,
+  "requested": "https://komkur.info/money/zakuski-k-pivu-dlya-lyubitelej-fastfuda-degustatsiya-seta-ot-restobara-colette-na-oktyabrfeste",
+  "pre": null
+ }
+}

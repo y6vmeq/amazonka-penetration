@@ -1,0 +1,59 @@
+{
+ "number": 261,
+ "url": "https://komkur.info/obshchestvo/nazvana-trojka-luchshikh-zavedenij-uchastnikov-vosmogo-gastrofesta-v-mogileve-kto-v-chisle-pobeditelej",
+ "title": "Названа тройка лучших заведений-участников восьмого «Гастрофеста» в Могилеве. Кто в числе победителей?",
+ "at": "2026-11-15T17:09:51.129Z",
+ "html": "raw/261_komkur-info_komkur-new-nazvana-trojka-luchshikh-zavedenij-uchas.html",
+ "txt": "raw/261_komkur-info_komkur-new-nazvana-trojka-luchshikh-zavedenij-uchas.txt",
+ "sha256": "f0f5dc92495e95db02c3aa3dc241828cec28c6221874b62ddb5033673203f5e1",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [
+   {
+    "src": "https://yastatic.net/safeframe-bundles/0.89/1-1-0/render.html",
+    "id": "id2635",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/obshchestvo",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/obshchestvo",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:cd19a83bc8bc4614347f054dca815359"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 2263
+ },
+ "extra": {
+  "name": "komkur_new_nazvana-trojka-luchshikh-zavedenij-uchas",
+  "status": 200,
+  "requested": "https://komkur.info/obshchestvo/nazvana-trojka-luchshikh-zavedenij-uchastnikov-vosmogo-gastrofesta-v-mogileve-kto-v-chisle-pobeditelej",
+  "pre": null
+ }
+}

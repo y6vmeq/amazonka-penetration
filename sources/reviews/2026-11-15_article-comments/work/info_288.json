@@ -1,0 +1,32 @@
+{
+ "number": 288,
+ "url": "https://people.onliner.by/sdapi/catalog/search/iframe?referrer=https://people.onliner.by/",
+ "title": "Поиск",
+ "at": "2026-11-15T17:14:54.650Z",
+ "html": "raw/288_people-onliner-by_onliner-search-restobar-mogilev.html",
+ "txt": "raw/288_people-onliner-by_onliner-search-restobar-mogilev.txt",
+ "sha256": "3ed2c5184a1951dd5c0d064d13e3e8e396617c492243d84362c321e4b5067b14",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 192
+ },
+ "extra": {
+  "name": "onliner-search_restobar-mogilev",
+  "status": 200,
+  "requested": "https://people.onliner.by/ (поле «Поиск в Новостях»)",
+  "site": "people.onliner.by",
+  "query": "рестобар Могилев",
+  "period": "В любом разделе | За все время | Сначала релевантные",
+  "activeTab": "в новостях",
+  "links": [],
+  "summary": "рестобар Могилев Ничего не найдено в каталоге в новостях на барахолке на форуме В любом разделе За все время Сначала релевантные Только с видео 0 товаров в сра"
+ }
+}

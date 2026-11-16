@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zoon.ru для вас недоступен, к сожалению</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,maximum-scale=1,initial-scale=1,user-scalable=0">
+	<style nonce="D789AC2F31DB2F8F9EDD08B802895145">
+		html {
+			height: 100%;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Roboto', sans-serif;
+			text-align: left;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.captcha-button {
+			padding: 6px 16px;
+			cursor: pointer;
+			font-family: "Roboto", Arial, Helvetica, sans-serif;
+			font-size: 16px;
+			line-height: 24px;
+			color: #2c2d36;
+			border-radius: 6px;
+			outline: none;
+			border: none;
+			background-color: #f4f5f8;
+		}
+
+		.captcha-button:hover {
+			background-color: #eff0f5;
+		}
+
+		.captcha-container {
+			display: flex;
+			align-items: stretch;
+			justify-content: center;
+			max-width: 900px;
+		}
+
+		.captcha-logo {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex: 1 0 400px;
+			height: 370px;
+			background: url('/images/outgoing_bkg.png');
+			background-size: cover;
+		}
+
+		.captcha-main {
+			flex-basis: 450px;
+			padding: 40px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			border-left: 1px solid #e8e8e8;
+		}
+
+		[dir="rtl"] .captcha-main {
+			border-right: 1px solid #e8e8e8;
+			border-left: none;
+			text-align: right;
+		}
+
+		.captcha-main-text {
+			font-size: 16px;
+			line-height: 24px;
+			margin-top: 20px;
+		}
+
+		.captcha-main-btn {
+			margin-top: 32px;
+		}
+
+		@media (max-width: 720px) {
+
+			.captcha-main {
+				border: 0;
+				padding: 20px;
+			}
+
+			.captcha-container {
+				flex-wrap: wrap;
+			}
+
+			.captcha-logo {
+				width: 100%;
+				flex-basis: 300px;
+			}
+
+			.captcha-button {
+				width: 100%;
+			}
+		}
+
+		#captcha-error {
+			color: red;
+		}
+		#captcha-spinner {
+			text-align: center;
+		}
+
+		.captcha-hidden {
+			display: none;
+		}
+	</style>
+
+</head>
+<body %rtl>
+
+<div class="captcha-wrapper">
+	<div class="captcha-container">
+		<div class="captcha-logo">
+			<img
+				src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjIiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCA2MiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCB4MT0iNzcuMzQzMTM1NiUiIHkxPSI1MCUiIHgyPSIyMS44MTEyNjczJSIgeTI9IjUwJSIgaWQ9ImxnIj4KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzYzMzlGNSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjM0QzRjU1IiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPHBhdGggZmlsbD0idXJsKCNsZykiIGQ9Ik0wLjU0NDQ0NDQ0NCwwLjk5NjU5NDE2IEwxMy40NTU1NTU2LDAuOTk2NTk0MTYgQzEzLjc1NjI0MzksMC45OTY1OTQxNiAxNCwxLjI0MDM1MDI0IDE0LDEuNTQxMDM4NiBMMTQsNC4wOCBDMTQsNC40MTgxOTQ2MSAxMy44NTMyNDUyLDQuNzM4NDA2NzkgMTMuNTk3NzYxMyw0Ljk2IEw2LjM3Nzc3Nzc4LDExIEwxMy40NTU1NTU2LDExIEMxMy43NTYyNDM5LDExIDE0LDExLjIzOTMxMTcgMTQsMTEuNTQgTDE0LDE0LjQ1NDc5ODcgQzE0LDE0Ljc1NTQ4NyAxMy43NTYyNDM5LDE0Ljk5OTI0MzEgMTMuNDU1NTU1NiwxNC45OTkyNDMxIEwwLjU0NDQ0NDQ0NCwxNC45OTkyNDMxIEMwLjI0Mzc1NjA4MSwxNC45OTkyNDMxIDAsMTQuNzU1NDg3IDAsMTQuNDU0Nzk4NyBMMCwxMS45MiBDMCwxMS41ODE4MDUzIDAuMTQ2NzU0Nzc0LDExLjI2MTU5MzIgMC40MDIyMzg3MTMsMTEuMDQgTDcuNjIyMjIyMjIsNSBMMC41NDQ0NDQ0NDQsNSBDMC4yNDM3NTYwODEsNSAwLDQuNzUwNjg4MzYgMCw0LjQ1IEwwLDEuNTQxMDM4NiBDMCwxLjI0MDM1MDI0IDAuMjQzNzU2MDgxLDAuOTk2NTk0MTYgMC41NDQ0NDQ0NDQsMC45OTY1OTQxNiBaIE0yMywwLjUgQzI0LjQ5Mjg2OTIsMC41IDI1LjgyMzgyNTUsMC44MzU3MTAyODMgMjYuOTM0OTM2NywxLjQ0OTE5ODM0IEMyOC4wNDYwNDc4LDIuMDYyNjg2NCAyOC45MzczMTM2LDIuOTUzOTUyMjMgMjkuNTUwODAxNyw0LjA2NTA2MzM0IEMzMC4xNjQyODk3LDUuMTc2MTc0NDUgMzAuNSw2LjUwNzEzMDgzIDMwLjUsOCBDMzAuNSw5LjQ5Mjg2OTE1IDMwLjE2NDI4OTcsMTAuODIzODI1NSAyOS41NTA4MDE3LDExLjkzNDkzNjcgQzI4LjkzNzMxMzYsMTMuMDQ2MDQ3OCAyOC4wNDYwNDc4LDEzLjkzNzMxMzYgMjYuOTM0OTM2NywxNC41NTA4MDE3IEMyNS44MjM4MjU1LDE1LjE2NDI4OTcgMjQuNDkyODY5MiwxNS41IDIzLDE1LjUgQzIxLjUwNzEzMDksMTUuNSAyMC4xNzYxNzQ1LDE1LjE2NDI4OTcgMTkuMDY1MDYzNCwxNC41NTA4MDE3IEMxNy45NTM5NTIyLDEzLjkzNzMxMzYgMTcuMDYyNjg2NCwxMy4wNDYwNDc4IDE2LjQ0OTE5ODQsMTEuOTM0OTM2NyBDMTUuODM1NzEwMywxMC44MjM4MjU1IDE1LjUsOS40OTI4NjkxNSAxNS41LDggQzE1LjUsNi41MDcxMzA4MyAxNS44MzU3MTAzLDUuMTc2MTc0NDUgMTYuNDQ5MTk4NCw0LjA2NTA2MzM0IEMxNy4wNjI2ODY0LDIuOTUzOTUyMjMgMTcuOTUzOTUyMiwyLjA2MjY4NjQgMTkuMDY1MDYzNCwxLjQ0OTE5ODM0IEMyMC4xNzYxNzQ1LDAuODM1NzEwMjgzIDIxLjUwNzEzMDksMC41IDIzLDAuNSBaIE0yMyw0LjUgQzIyLjI4NTg4MTEsNC41IDIxLjY1ODk1MjUsNC42NTA4NDkyNCAyMS4xNDA0MzQsNC45MzEzMjgxIEMyMC42MjE5MTU1LDUuMjExODA2OTYgMjAuMjExODA3LDUuNjIxOTE1NDUgMTkuOTMxMzI4MSw2LjE0MDQzMzk3IEMxOS42NTA4NDkyLDYuNjU4OTUyNDkgMTkuNSw3LjI4NTg4MTA0IDE5LjUsOCBDMTkuNSw4LjcxNDExODkzIDE5LjY1MDg0OTIsOS4zNDEwNDc1NCAxOS45MzEzMjgxLDkuODU5NTY2MDMgQzIwLjIxMTgwNywxMC4zNzgwODQ1IDIwLjYyMTkxNTUsMTAuNzg4MTkzIDIxLjE0MDQzNCwxMS4wNjg2NzE5IEMyMS42NTg5NTI1LDExLjM0OTE1MDggMjIuMjg1ODgxMSwxMS41IDIzLDExLjUgQzIzLjcxNDExODksMTEuNSAyNC4zNDEwNDc1LDExLjM0OTE1MDggMjQuODU5NTY2LDExLjA2ODY3MTkgQzI1LjM3ODA4NDUsMTAuNzg4MTkzIDI1Ljc4ODE5MywxMC4zNzgwODQ1IDI2LjA2ODY3MTksOS44NTk1NjYwMyBDMjYuMzQ5MTUwOCw5LjM0MTA0NzU0IDI2LjUsOC43MTQxMTg5MyAyNi41LDggQzI2LjUsNy4yODU4ODEwNCAyNi4zNDkxNTA4LDYuNjU4OTUyNDkgMjYuMDY4NjcxOSw2LjE0MDQzMzk3IEMyNS43ODgxOTMsNS42MjE5MTU0NSAyNS4zNzgwODQ1LDUuMjExODA2OTYgMjQuODU5NTY2LDQuOTMxMzI4MSBDMjQuMzQxMDQ3NSw0LjY1MDg0OTI0IDIzLjcxNDExODksNC41IDIzLDQuNSBaIE0zOSwwLjUgQzQwLjQ5Mjg2OTIsMC41IDQxLjgyMzgyNTUsMC44MzU3MTAyODMgNDIuOTM0OTM2NywxLjQ0OTE5ODM0IEM0NC4wNDYwNDc4LDIuMDYyNjg2NCA0NC45MzczMTM2LDIuOTUzOTUyMjMgNDUuNTUwODAxNyw0LjA2NTA2MzM0IEM0Ni4xNjQyODk3LDUuMTc2MTc0NDUgNDYuNSw2LjUwNzEzMDgzIDQ2LjUsOCBDNDYuNSw5LjQ5Mjg2OTE1IDQ2LjE2NDI4OTcsMTAuODIzODI1NSA0NS41NTA4MDE3LDExLjkzNDkzNjcgQzQ0LjkzNzMxMzYsMTMuMDQ2MDQ3OCA0NC4wNDYwNDc4LDEzLjkzNzMxMzYgNDIuOTM0OTM2NywxNC41NTA4MDE3IEM0MS44MjM4MjU1LDE1LjE2NDI4OTcgNDAuNDkyODY5MiwxNS41IDM5LDE1LjUgQzM3LjUwNzEzMDksMTUuNSAzNi4xNzYxNzQ1LDE1LjE2NDI4OTcgMzUuMDY1MDYzNCwxNC41NTA4MDE3IEMzMy45NTM5NTIyLDEzLjkzNzMxMzYgMzMuMDYyNjg2NCwxMy4wNDYwNDc4IDMyLjQ0OTE5ODQsMTEuOTM0OTM2NyBDMzEuODM1NzEwMywxMC44MjM4MjU1IDMxLjUsOS40OTI4NjkxNSAzMS41LDggQzMxLjUsNi41MDcxMzA4MyAzMS44MzU3MTAzLDUuMTc2MTc0NDUgMzIuNDQ5MTk4NCw0LjA2NTA2MzM0IEMzMy4wNjI2ODY0LDIuOTUzOTUyMjMgMzMuOTUzOTUyMiwyLjA2MjY4NjQgMzUuMDY1MDYzNCwxLjQ0OTE5ODM0IEMzNi4xNzYxNzQ1LDAuODM1NzEwMjgzIDM3LjUwNzEzMDksMC41IDM5LDAuNSBaIE0zOSw0LjUgQzM4LjI4NTg4MTEsNC41IDM3LjY1ODk1MjUsNC42NTA4NDkyNCAzNy4xNDA0MzQsNC45MzEzMjgxIEMzNi42MjE5MTU1LDUuMjExODA2OTYgMzYuMjExODA3LDUuNjIxOTE1NDUgMzUuOTMxMzI4MSw2LjE0MDQzMzk3IEMzNS42NTA4NDkyLDYuNjU4OTUyNDkgMzUuNSw3LjI4NTg4MTA0IDM1LjUsOCBDMzUuNSw4LjcxNDExODkzIDM1LjY1MDg0OTIsOS4zNDEwNDc1NCAzNS45MzEzMjgxLDkuODU5NTY2MDMgQzM2LjIxMTgwNywxMC4zNzgwODQ1IDM2LjYyMTkxNTUsMTAuNzg4MTkzIDM3LjE0MDQzNCwxMS4wNjg2NzE5IEMzNy42NTg5NTI1LDExLjM0OTE1MDggMzguMjg1ODgxMSwxMS41IDM5LDExLjUgQzM5LjcxNDExODksMTEuNSA0MC4zNDEwNDc1LDExLjM0OTE1MDggNDAuODU5NTY2LDExLjA2ODY3MTkgQzQxLjM3ODA4NDUsMTAuNzg4MTkzIDQxLjc4ODE5MywxMC4zNzgwODQ1IDQyLjA2ODY3MTksOS44NTk1NjYwMyBDNDIuMzQ5MTUwOCw5LjM0MTA0NzU0IDQyLjUsOC43MTQxMTg5MyA0Mi41LDggQzQyLjUsNy4yODU4ODEwNCA0Mi4zNDkxNTA4LDYuNjU4OTUyNDkgNDIuMDY4NjcxOSw2LjE0MDQzMzk3IEM0MS43ODgxOTMsNS42MjE5MTU0NSA0MS4zNzgwODQ1LDUuMjExODA2OTYgNDAuODU5NTY2LDQuOTMxMzI4MSBDNDAuMzQxMDQ3NSw0LjY1MDg0OTI0IDM5LjcxNDExODksNC41IDM5LDQuNSBaIE02Mi4wMDE3MDI5LDEuNTQyNzcwOTUgTDYyLjAwMTcwMjksMTQuNDU0NTc5OSBDNjIuMDAxNzAyOSwxNC43NTUyODQ1IDYxLjc1NzkzMzYsMTQuOTk5MDUzOCA2MS40NTcyMjksMTQuOTk5MDUzOCBMNTguOTIsMTQuOTk5MDUzOCBDNTguNTgxODIyMSwxNC45OTkwNTM4IDU4LjI2MTYwNDIsMTQuODUyMzIxNCA1OC4wNCwxNC41OTY4NjkxIEw1Miw3LjM3Nzc0NDE0IEw1MiwxNC40NTQ1Nzk5IEM1MiwxNC43NTUyODQ1IDUxLjc1MDcwNDYsMTQuOTk5MDUzOCA1MS40NSwxNC45OTkwNTM4IEw0OC41NDI3NzEsMTQuOTk5MDUzOCBDNDguMjQyMDY2NCwxNC45OTkwNTM4IDQ3Ljk5ODI5NzEsMTQuNzU1Mjg0NSA0Ny45OTgyOTcxLDE0LjQ1NDU3OTkgTDQ3Ljk5ODI5NzEsMS41NDI3NzA5NSBDNDcuOTk4Mjk3MSwxLjI0MjA2NjM0IDQ4LjI0MjA2NjQsMC45OTgyOTcwOCA0OC41NDI3NzEsMC45OTgyOTcwOCBMNTEuMDgsMC45OTgyOTcwOCBDNTEuNDE4MjQ3OSwwLjk5ODI5NzA4IDUxLjczODM5MzgsMS4xNDUwOTAwNyA1MS45NiwxLjQwMDYzMzM0IEw1OCw4LjYyMjI1NTg1IEw1OCwxLjU0Mjc3MDk1IEM1OCwxLjI0MjA2NjM0IDU4LjIzOTI5NTQsMC45OTgyOTcwOCA1OC41NCwwLjk5ODI5NzA4IEw2MS40NTcyMjksMC45OTgyOTcwOCBDNjEuNzU3OTMzNiwwLjk5ODI5NzA4IDYyLjAwMTcwMjksMS4yNDIwNjYzNCA2Mi4wMDE3MDI5LDEuNTQyNzcwOTUgWiI+PC9wYXRoPgo8L3N2Zz4="
+				alt="Zoon.ru"
+				height="176.0"
+				width="475.0"
+			/>
+		</div>
+		<div class="captcha-main">
+			<div class="captcha-main-text">Мы проверяем, что вы не робот, через несколько секунд вы&nbsp;будете перенаправлены на&nbsp;сайт.</div>
+			<div class="captcha-main-btn">
+				<div id="captcha-error"></div>
+				<div id="cfcaptcha" class="captcha-hidden" style="min-height: 70px;"></div>
+			</div>
+			<div id="captcha-spinner">
+				<svg width="24" height="24" stroke="#000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><style>.spinner_V8m1{transform-origin:center;animation:spinner_zKoa 2s linear infinite}.spinner_V8m1 circle{stroke-linecap:round;animation:spinner_YpZS 1.5s ease-in-out infinite}@keyframes spinner_zKoa{100%{transform:rotate(360deg)}}@keyframes spinner_YpZS{0%{stroke-dasharray:0 150;stroke-dashoffset:0}47.5%{stroke-dasharray:42 150;stroke-dashoffset:-16}95%,100%{stroke-dasharray:42 150;stroke-dashoffset:-59}}</style><g class="spinner_V8m1"><circle cx="12" cy="12" r="9.5" fill="none" stroke-width="3"></circle></g></svg>
+			</div>
+		</div>
+	</div>
+</div>
+<script nonce="D789AC2F31DB2F8F9EDD08B802895145">
+
+function hideSpinner() {
+	document.getElementById('captcha-spinner').classList.add('captcha-hidden');
+}
+function unhideSpinner() {
+	document.getElementById('captcha-spinner').classList.remove('captcha-hidden');
+}
+
+function hideCaptcha() {
+	document.getElementById('cfcaptcha').classList.add('captcha-hidden');
+}
+function unhideCaptcha() {
+	document.getElementById('cfcaptcha').classList.remove('captcha-hidden');
+}
+
+// Set when this page is rendered inside the full-page iframe of a lego site
+// (captcha_lego.html): the captcha provider only knows zoon.ru, but the
+// captcha state lives on the lego site's connection, so requests and the
+// final reload are relayed through the parent page.
+var captchaParentOrigin = '';
+var captchaRequests = {};
+var captchaRequestId = 0;
+
+window.addEventListener('message', function (event) {
+	if (!captchaParentOrigin || event.origin !== captchaParentOrigin || event.source !== window.parent) {
+		return;
+	}
+	var data = event.data || {};
+	var request = captchaRequests[data.id];
+	if (data.type !== 'captcha-response' || !request) {
+		return;
+	}
+	delete captchaRequests[data.id];
+	if (data.timeout) {
+		request.onTimeout();
+	} else {
+		request.onDone(data.status, String(data.responseText));
+	}
+});
+
+function captchaRequest(method, path, body, timeout, onTimeout, onDone) {
+	if (captchaParentOrigin) {
+		var id = ++captchaRequestId;
+		captchaRequests[id] = {onTimeout: onTimeout, onDone: onDone};
+		window.parent.postMessage({type: 'captcha-request', id: id, method: method, path: path, body: body, timeout: timeout}, captchaParentOrigin);
+		return;
+	}
+
+	var r = new XMLHttpRequest();
+	r.timeout = timeout;
+	r.ontimeout = onTimeout;
+	r.onreadystatechange = function(){
+		if (r.readyState === XMLHttpRequest.DONE) {
+			onDone(r.status, r.responseText);
+		}
+	};
+	r.open(method, path, true);
+	r.setRequestHeader('Content-Type', 'text/plain');
+	r.send(body);
+}
+
+function reloadPageDelayed() {
+	unhideSpinner();
+	setTimeout(function() {
+		if (captchaParentOrigin) {
+			window.parent.postMessage({type: 'captcha-reload'}, captchaParentOrigin);
+		} else {
+			window.location.reload();
+		}
+	}, 2000);
+}
+
+var captchaType = 'cfcaptcha';
+var isYandexCaptcha = captchaType === 'smartcaptcha';
+
+// Widget errors never reach /captcha_solve (e.g. turnstile 110200 on a domain not allowed for the sitekey),
+// so report them separately; each code once per page load, as the widget may retry in a loop.
+var reportedErrors = {};
+function reportCaptchaError(code) {
+	code = String(code);
+	if (reportedErrors[code]) {
+		return;
+	}
+	reportedErrors[code] = true;
+	console.log("Captcha widget error", code);
+	try {
+		captchaRequest('POST', '/captcha_error', code, 5000, function () {}, function () {});
+	} catch (e) {
+	}
+}
+
+var scriptLoaded = false;
+setTimeout(function() {
+	if (!scriptLoaded) {
+		reportCaptchaError('script-load-error');
+	}
+}, 20000);
+
+var widgetId = null;
+function resetCaptcha() {
+	if (isYandexCaptcha) {
+		window.smartCaptcha.reset(widgetId);
+	} else {
+		turnstile.reset(widgetId);
+	}
+}
+
+function removeCaptcha() {
+	if (isYandexCaptcha) {
+		window.smartCaptcha.destroy(widgetId);
+	} else {
+		turnstile.remove(widgetId);
+	}
+}
+
+function renderCaptcha() {
+	hideSpinner();
+	unhideCaptcha();
+	if (widgetId !== null) {
+		resetCaptcha();
+		return;
+	}
+
+	if (isYandexCaptcha) {
+		widgetId = window.smartCaptcha.render(document.getElementById('cfcaptcha'), {
+			sitekey: '0x4AAAAAAAKBnXNdBBSr2ltd',
+			callback: onCaptchaToken,
+		});
+		window.smartCaptcha.subscribe(widgetId, 'network-error', function() {
+			reportCaptchaError('ya-network-error');
+		});
+		window.smartCaptcha.subscribe(widgetId, 'javascript-error', function() {
+			reportCaptchaError('ya-javascript-error');
+		});
+		return;
+	}
+
+	widgetId = turnstile.render('#cfcaptcha', {
+		sitekey: '0x4AAAAAAAKBnXNdBBSr2ltd',
+		theme: 'light',
+		callback: onCaptchaToken,
+		'error-callback': reportCaptchaError,
+	});
+};
+
+function onCaptchaToken(token) {
+	hideCaptcha();
+	unhideSpinner();
+
+	captchaRequest('POST', '/captcha_solve', token, 5000, function () {
+		console.log("Captcha solve request timed out, reloading page");
+		reloadPageDelayed();
+	}, function (status, responseText) {
+		if (status === 200) {
+			console.log("Captcha solve request succeeded, polling for result");
+			pollCaptcha();
+		} else {
+			try {
+				var response = JSON.parse(responseText);
+			} catch (e) {
+				console.log("Captcha solve request failed with status", status, "and invalid JSON response, reloading page");
+				reloadPageDelayed();
+				return;
+			}
+			console.log("Captcha solve request failed with status", status, "and response", response);
+			if (response && response["retry"]) {
+				renderCaptcha();
+			} else if (response && response["error-codes"]) {
+				hideSpinner();
+				removeCaptcha();
+				document.getElementById("captcha-error").innerText = response["error-codes"].join(", ");
+			} else {
+				renderCaptcha();
+			}
+		}
+	});
+};
+
+function pollCaptcha() {
+	captchaRequest('GET', '/captcha_check', null, 3000, function () {
+		console.log("Captcha poll request timed out, reloading page");
+		reloadPageDelayed();
+	}, function (status, responseText) {
+		if (status !== 200) {
+			console.log("Captcha poll request failed with status", status, "reloading page");
+			reloadPageDelayed();
+		} else {
+			try {
+				var response = JSON.parse(responseText);
+			} catch (e) {
+				console.log("Captcha poll request succeeded with invalid JSON response, reloading page");
+				reloadPageDelayed();
+				return;
+			}
+			console.log("Got captcha poll response:", response);
+
+			var needs_captcha = response && response["needs_captcha"];
+			var captcha_passed = response && response["captcha_passed"];
+
+			if (needs_captcha) {
+				if (captcha_passed) {
+					unhideSpinner();
+
+					// If we need captcha but already passed it, poll again
+					setTimeout(function() {
+						pollCaptcha();
+					}, 1000);
+					return;
+				}
+
+				// Otherwise render captcha
+				renderCaptcha();
+			} else {
+				reloadPageDelayed();
+			}
+		}
+	});
+};
+
+window.onloadCallback = function() {
+	scriptLoaded = true;
+	pollCaptcha();
+};
+</script>
+<script nonce="D789AC2F31DB2F8F9EDD08B802895145" src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadCallback" defer></script>
+
+
+</body>
+</html>
+																		<!-- -->
+																		<!-- -->
+																		<!-- -->
+																		<!-- -->
+																		<!-- -->
+																		<!-- -->
+																		<!-- -->
+																		<!-- -->
+																		<!-- -->
+																		<!-- -->
+																		<!-- -->
+																		<!-- -->
+																		<!-- -->
+																		<!-- -->
+																		<!-- -->

@@ -1,0 +1,363 @@
+{
+ "site": "komkur.info",
+ "queries": [
+  {
+   "query": "Амазонк",
+   "file": "raw/223_komkur-info_komkur-search-amazonk.html",
+   "summary": "Результаты поиска: найдено 4 элементов.",
+   "article_links_on_page": 4,
+   "name": "komkur-search_amazonk"
+  },
+  {
+   "query": "рестобар",
+   "file": "raw/224_komkur-info_komkur-search-restobar.html",
+   "summary": "Результаты поиска: найдено 14 элементов.",
+   "article_links_on_page": 14,
+   "name": "komkur-search_restobar"
+  },
+  {
+   "query": "Ленинская, 38",
+   "file": "raw/225_komkur-info_komkur-search-leninskaya-38.html",
+   "summary": "Результаты поиска: найдено 0 элементов.",
+   "article_links_on_page": 0,
+   "name": "komkur-search_leninskaya-38"
+  },
+  {
+   "query": "Смак.BY",
+   "file": "raw/226_komkur-info_komkur-search-smak-by.html",
+   "summary": "Результаты поиска: найдено 0 элементов.",
+   "article_links_on_page": 0,
+   "name": "komkur-search_smak-by"
+  },
+  {
+   "query": "Смак бай",
+   "file": "raw/227_komkur-info_komkur-search-smak-baj.html",
+   "summary": "Результаты поиска: найдено 0 элементов.",
+   "article_links_on_page": 0,
+   "name": "komkur-search_smak-baj"
+  },
+  {
+   "query": "Буденного, 13",
+   "file": "raw/228_komkur-info_komkur-search-budennogo-13.html",
+   "summary": "Результаты поиска: найдено 0 элементов.",
+   "article_links_on_page": 0,
+   "name": "komkur-search_budennogo-13"
+  },
+  {
+   "query": "Колетт",
+   "file": "raw/229_komkur-info_komkur-search-kolett.html",
+   "summary": "Результаты поиска: найдено 0 элементов.",
+   "article_links_on_page": 0,
+   "name": "komkur-search_kolett"
+  },
+  {
+   "query": "Colette",
+   "file": "raw/230_komkur-info_komkur-search-colette.html",
+   "summary": "Результаты поиска: найдено 5 элементов.",
+   "article_links_on_page": 5,
+   "name": "komkur-search_colette"
+  },
+  {
+   "query": "гастрофест",
+   "file": "raw/233_komkur-info_komkur-search-gastrofest.html",
+   "summary": "Результаты поиска: найдено 21 элементов.",
+   "article_links_on_page": 20,
+   "name": "komkur-search_gastrofest"
+  }
+ ],
+ "urls": [
+  {
+   "url": "https://komkur.info/money/v-mogilevskom-restobare-amazonka-mozhno-poderzhat-v-rukakh-gekkona-sest-sup-s-osminozhkami-i-zakazat-rimskuyu-pitstsu",
+   "text": "В могилевском рестобаре «Амазонка» можно подержать в руках геккона, съесть суп с осьминожками и заказать римскую пиццу",
+   "queries": [
+    "Амазонк",
+    "рестобар"
+   ],
+   "in_all": true
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-sup-v-amazonke-na-lyubitelya",
+   "text": "«Гастрофест» в Могилеве: суп в «Амазонке» – на любителя",
+   "queries": [
+    "Амазонк",
+    "гастрофест"
+   ],
+   "in_all": true
+  },
+  {
+   "url": "https://komkur.info/money/na-festivale-edy-zimovy-smak-restobar-amazonka-i-udivil-i-vkusno-nakormil",
+   "text": "На фестивале еды «Зімовы смак»: рестобар «Амазонка» и удивил, и вкусно накормил",
+   "queries": [
+    "Амазонк",
+    "рестобар"
+   ],
+   "in_all": true
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-udivitelno-vkusno-iskristo-i-ostro-nakormili-v-restobare-amazonka",
+   "text": "«Гастрофест» в Могилеве: «удивительно вкусно, искристо и остро» накормили в рестобаре «Амазонка»",
+   "queries": [
+    "Амазонк",
+    "рестобар"
+   ],
+   "in_all": true
+  },
+  {
+   "url": "https://komkur.info/money/festival-edy-zimovy-smak-v-resto-bare-colette-rebenok-i-pitstsa-ochen-sovmestimye-komponenty",
+   "text": "Фестиваль еды «Зімовы смак» в рестобаре «Colette»: «Ребенок и пицца – очень совместимые компоненты»",
+   "queries": [
+    "рестобар",
+    "Colette"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/festival-edy-v-mogileve-zimovy-smak-v-restobare-luna-i-vkusno-i-dushevno",
+   "text": "Фестиваль еды в Могилеве «Зімовы смак»: в рестобаре «Луна» и вкусно, и душевно",
+   "queries": [
+    "рестобар"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/v-mogileve-prodaetsya-populyarnyj-u-zolotoj-molodezhi-restobar-cherchill-tsena-udivlyaet",
+   "text": "В Могилеве продается популярный у золотой молодежи рестобар «Черчилль» – цена удивляет",
+   "queries": [
+    "рестобар"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/draniki-pod-shapochkoj-i-nezhnejshie-blinchiki-prodegustirovali-set-ot-mogilevskogo-restobara-colette",
+   "text": "Драники «под шапочкой» и нежнейшие блинчики: продегустировали сет от могилевского рестобара Colette.",
+   "queries": [
+    "рестобар",
+    "Colette"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/glintvejn-na-mogilevskom-festivale-edy-zimovy-smak-podayut-v-edinstvennom-zavedenii-v-restobare-colette",
+   "text": "Глинтвейн на могилевском фестивале еды «Зімовы смак» подают в единственном заведении – в рестобаре Colette",
+   "queries": [
+    "рестобар",
+    "Colette"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/vot-kak-u-nas-po-belorusski-ugoshchayut-chem-vpechatlil-restobar-edison-na-festivale-edy-zimovy-smak",
+   "text": "«Вот как у нас по-белорусски угощают!» Чем впечатлил рестобар «Эдисон» на фестивале еды «Зімовы смак».",
+   "queries": [
+    "рестобар"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/festival-edy-v-mogileve-zimovy-smak-skazhu-kratko-ochen-vkusno-i-sytno-pouzhinali-v-restobare-luna",
+   "text": "Фестиваль еды в Могилеве «Зімовы смак»: скажу кратко – очень вкусно и сытно поужинали в рестобаре «Луна»",
+   "queries": [
+    "рестобар"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-samoj-vkusnoj-v-restobare-edison-kak-ni-stranno-okazalas-pasta-pesto",
+   "text": "«Гастрофест» в Могилеве: самой вкусной в рестобаре «Эдисон», как ни странно, оказалась паста «Песто»",
+   "queries": [
+    "рестобар"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/zakuski-k-pivu-dlya-lyubitelej-fastfuda-degustatsiya-seta-ot-restobara-colette-na-oktyabrfeste",
+   "text": "Закуски к пиву для любителей фастфуда. Дегустация сета от рестобара Colette на «Октябрьфесте»",
+   "queries": [
+    "рестобар",
+    "Colette"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-aziatskoe-puteshestvie-dlya-gurmanov-v-belom-lise",
+   "text": "«Гастрофест» в Могилеве: азиатское путешествие для гурманов в «Белом лисе»",
+   "queries": [
+    "рестобар",
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/oktyabrfest-v-mogileve-na-lunu-za-belorusskim-setom",
+   "text": "«Октябрьфест» в Могилеве: на «Луну» за белорусским сетом",
+   "queries": [
+    "рестобар"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/belorusskoe-blyudo-no-khrustit-po-frantsuzski-otsenili-festivalnyj-set-ot-restorana-colette",
+   "text": "«Белорусское блюдо, но хрустит по-французски». Оценили фестивальный сет от ресторана «Colette»",
+   "queries": [
+    "Colette"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/novosti-bobrujska/drevnerusskij-shlem-najden-v-bobrujske-na-beregu-bereziny",
+   "text": "Древнерусский шлем найден в Бобруйске на берегу Березины!",
+   "queries": [],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/vox-populi/archi-moya-karera-nachalas-v-belarusi",
+   "text": "Арчи: «Моя карьера началась в Беларуси»",
+   "queries": [],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-vmeste-s-gurmanoff-pobyvali-v-gostyakh-u-babushki-i-ugostilis-nastoyashchim-bigosom-i-machankoj-s-gusem",
+   "text": "«Гастрофест» в Могилеве: вместе с «Гурманофф» побывали в гостях у бабушки и угостились настоящим бигосом и мачанкой с гусем",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-kyufta-pakhlava-i-sup-bez-myasa-no-navaristyj-chajkhana-rakhmat-snova-poradovala",
+   "text": "«Гастрофест» в Могилеве. Кюфта, пахлава и суп без мяса, но наваристый: чайхана «Рахмат» снова порадовала",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-set-v-restorane-101-podojdet-dlya-budnichnogo-obeda",
+   "text": "«Гастрофест» в Могилеве: сет в ресторане «101» подойдет для будничного обеда",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-ekler-s-forelyu-i-pyure-gertsoginya-ot-bara-edison-dlya-tsenitelej-vkusnoj-edy",
+   "text": "«Гастрофест» в Могилеве: эклер с форелью и пюре Герцогиня от бара «Эдисон» для ценителей вкусной еды",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-set-s-vidom-na-gorod-ot-gastrobara-tsokol-s-dubajskim-shokoladom-vprikusku",
+   "text": "«Гастрофест» в Могилеве: сет с видом на город от гастробара «Цоколь» с дубайским шоколадом вприкуску",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/chem-budut-udivlyat-mogilevskie-zavedeniya-na-devyatom-gastrofeste-on-projdet-s-15-maya-po-1-iyunya",
+   "text": "Чем будут удивлять могилевские заведения на девятом «Гастрофесте»? Он пройдет с 15 мая по 1 июня",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-vozvrashchaetsya-v-mogilev-v-seredine-maya-sety-ot-restoranov-goroda-budut-stoit-45-rublej",
+   "text": "«Гастрофест» возвращается в Могилев в середине мая: сеты от ресторанов города будут стоить 45 рублей",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/obshchestvo/nazvana-trojka-luchshikh-zavedenij-uchastnikov-vosmogo-gastrofesta-v-mogileve-kto-v-chisle-pobeditelej",
+   "text": "Названа тройка лучших заведений-участников восьмого «Гастрофеста» в Могилеве. Кто в числе победителей?",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-eshche-by-raz-skhodila-v-restoran-101-tolko-radi-supchika",
+   "text": "«Гастрофест» в Могилеве: еще бы раз сходила в ресторан «101» только ради супчика",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-tertyukha-i-gulbishnik-v-karchme-na-shklo-skim-bazary",
+   "text": "Гастрофест в Могилеве: тертюха и гульбишник в «Карчме на Шклоўскiм базары»",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-1-5-kg-vkusnoj-italii-v-parmezane",
+   "text": "Гастрофест в Могилеве: 1,5 кг вкусной Италии в «Пармезане»",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-salat-v-restorane-khinkalnya-razocharoval-no-situatsiyu-spasli-khachapuri-i-tsyplenok-v-slivochno-klyukvennom-souse",
+   "text": "«Гастрофест» в Могилеве: салат в ресторане «Хинкальня» разочаровал, но ситуацию спасли хачапури и цыпленок в сливочно-клюквенном соусе",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/prosto-poest-da-a-vot-dushevno-posidet-vryad-li-poluchitsya-kak-my-na-gastrofest-v-mogilevskij-sushi-bar-dve-palochki-skhodili",
+   "text": "«Просто поесть – да, а вот душевно посидеть вряд ли получится»: как мы на «Гастрофест» в могилевский суши-бар «Две палочки» сходили",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-v-chajkhane-rakhmat-mnogo-myasa-i-potryasayushchij-tykvenno-orekhovyj-pirog-gurmany-otsenyat",
+   "text": "«Гастрофест» в Могилеве: в чайхане «Рахмат» много мяса и потрясающий тыквенно-ореховый пирог. Гурманы оценят!",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-tumannye-gastronomicheskie-spektakli-s-pannoj-kottoj-v-vuali-ot-tsokolya",
+   "text": "«Гастрофест» в Могилеве: «туманные» гастрономические спектакли с панной-коттой в вуали от «Цоколя»",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/vosmoj-gastrofest-v-mogileve-posmotrite-kakie-sety-po-43-rublya-predlagayut-zavedeniya-uchastniki",
+   "text": "Восьмой «Гастрофест» в Могилеве: посмотрите, какие сеты по 43 рубля предлагают заведения-участники",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-tomlenye-gribochki-v-sedobnoj-misochke-ot-kafe-grilnik",
+   "text": "«Гастрофест» в Могилеве: томленые грибочки в съедобной мисочке от кафе «Грильник»",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  },
+  {
+   "url": "https://komkur.info/money/gastrofest-v-mogileve-ne-dranikami-edinymi-bogata-belorusskaya-kukhnya-dokazal-gastrobar-tsokol",
+   "text": "«Гастрофест» в Могилеве: не драниками едиными богата белорусская кухня – доказал гастробар «Цоколь»",
+   "queries": [
+    "гастрофест"
+   ],
+   "in_all": false
+  }
+ ]
+}

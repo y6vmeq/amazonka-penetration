@@ -1,0 +1,107 @@
+{
+ "number": 286,
+ "url": "https://people.onliner.by/sdapi/catalog/search/iframe?referrer=https://people.onliner.by/",
+ "title": "Поиск",
+ "at": "2026-11-15T17:14:47.294Z",
+ "html": "raw/286_people-onliner-by_onliner-search-kolett.html",
+ "txt": "raw/286_people-onliner-by_onliner-search-kolett.txt",
+ "sha256": "bd27fbddce8af5cb8233f914bd3049cf9eb3fe1be8de7d2c479cf9a105d2db50",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 7,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 4,
+    "text": "ЛЮДИ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 4,
+    "text": "ЛЮДИ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 10,
+    "text": "ТЕХНОЛОГИИ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "button-style button-style_adscititious button-style_small button-style_noreflex news__button news__button_comments",
+    "textLen": 3,
+    "text": "153"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 10,
+    "text": "ТЕХНОЛОГИИ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 10,
+    "text": "ТЕХНОЛОГИИ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 10,
+    "text": "ТЕХНОЛОГИИ"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 3071
+ },
+ "extra": {
+  "name": "onliner-search_kolett",
+  "status": 200,
+  "requested": "https://people.onliner.by/ (поле «Поиск в Новостях»)",
+  "site": "people.onliner.by",
+  "query": "Колетт",
+  "period": "В любом разделе | За все время | Сначала релевантные",
+  "activeTab": "в новостях",
+  "links": [
+   {
+    "href": "https://people.onliner.by/2017/04/22/rotshildy",
+    "text": "Ротшильды, Лурье и «Шелл». Как в Беларусь приходили крупнейшие в мире нефтяные компании и банки"
+   },
+   {
+    "href": "https://people.onliner.by/2024/09/21/rok-bar-v-minske",
+    "text": "В Минске на новом месте открыли популярный рок-бар. Мы сходили на открытие"
+   },
+   {
+    "href": "https://tech.onliner.by/2026/11/13/generalnyj-direktor-nvidia-dzhensen-xuang-podal-v-otstavku-iz-za-skandalov-s-izmenami",
+    "text": "Дженсена Хуанга уволили из NVIDIA — его обвиняют в трех внебрачных связях"
+   },
+   {
+    "href": "https://tech.onliner.by/2020/11/20/videokarty-geforce-rtx-3000-eshhe-neskolko-mesyacev-budut-v-deficite",
+    "text": "Видеокарты GeForce RTX 3000 еще несколько месяцев будут в дефиците"
+   },
+   {
+    "href": "https://tech.onliner.by/2021/04/26/oscar-2021",
+    "text": "Триумф «Земли кочевников» и провал «Чикагской семерки». Вся драма «Оскара-2021»"
+   },
+   {
+    "href": "https://tech.onliner.by/2022/04/18/kak-ximik-izobrel-teflon",
+    "text": "Для сковородок и атомных бомб. Как химик случайно изобрел тефлон"
+   }
+  ],
+  "summary": "Колетт в каталоге в новостях на барахолке на форуме В любом разделе За все время Сначала релевантные Только с видео ЛЮДИ Ротшильды, Лурье и «Шелл». Как в Бел"
+ }
+}

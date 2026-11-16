@@ -1,0 +1,45 @@
+{
+ "number": 289,
+ "url": "https://people.onliner.by/sdapi/catalog/search/iframe?referrer=https://people.onliner.by/",
+ "title": "Поиск",
+ "at": "2026-11-15T17:14:58.300Z",
+ "html": "raw/289_people-onliner-by_onliner-search-leninskaya-38.html",
+ "txt": "raw/289_people-onliner-by_onliner-search-leninskaya-38.txt",
+ "sha256": "74e08855596c037ed018d5c9caabe2122892930d6e166582b33460a60d619f19",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 4,
+    "text": "ЛЮДИ"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 536
+ },
+ "extra": {
+  "name": "onliner-search_leninskaya-38",
+  "status": 200,
+  "requested": "https://people.onliner.by/ (поле «Поиск в Новостях»)",
+  "site": "people.onliner.by",
+  "query": "Ленинская, 38",
+  "period": "В любом разделе | За все время | Сначала релевантные",
+  "activeTab": "в новостях",
+  "links": [
+   {
+    "href": "https://people.onliner.by/2022/01/12/peshehodnaja-mogilev",
+    "text": "Кофейня с тиром и много долгоиграющих баров. Узнали, что есть интересного на могилевской пешеходке"
+   }
+  ],
+  "summary": "Ленинская, 38 в каталоге в новостях на барахолке на форуме В любом разделе За все время Сначала релевантные Только с видео ЛЮДИ Кофейня с тиром и много долго"
+ }
+}

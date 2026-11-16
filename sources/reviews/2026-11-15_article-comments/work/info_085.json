@@ -1,0 +1,195 @@
+{
+ "number": 85,
+ "url": "https://t.me/s/mogilev?q=%D0%93%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%82",
+ "title": "Могилев. Главное! – Telegram",
+ "at": "2026-11-15T14:29:45.099Z",
+ "html": "raw/085_t-me_tg-search-mogilev-gastrofest.html",
+ "txt": "raw/085_t-me_tg-search-mogilev-gastrofest.txt",
+ "sha256": "1f79f9309103fe3dbdc2a5a3f706215008439ada4aac566b39402064bcddb7f4",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 6,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_webpreview emoji_image thin_box_shadow tme_mode twallpaper",
+    "textLen": 2289,
+    "text": "Могилев. Главное! @mogilev 47.8K Subscribers 9.05K Photos 4.22K Videos 9.98K Links Главный новостной telegram-канал Могилева Реклама 👉 @glavnoebel 🔈 Предложит"
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "tgme_widget_message_link_preview",
+    "textLen": 283,
+    "text": "Telegram Могилев. Главное! 🍽 С 15 мая по 1 июня по всей Беларуси пройдет Gastrofest В Могилеве принимают участие 8 заведений: • Гастробар «Цоколь» — ул. Дзержи"
+   },
+   {
+    "tag": "I",
+    "id": "",
+    "cls": "link_preview_right_image",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "link_preview_site_name accent_color",
+    "textLen": 8,
+    "text": "Telegram"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "link_preview_title",
+    "textLen": 17,
+    "text": "Могилев. Главное!"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "link_preview_description",
+    "textLen": 256,
+    "text": "🍽 С 15 мая по 1 июня по всей Беларуси пройдет Gastrofest В Могилеве принимают участие 8 заведений: • Гастробар «Цоколь» — ул. Дзержинского, 19 • Бар «Эдисон» —"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://telegram.org/js/jquery.min.js",
+   "https://telegram.org/js/jquery-ui.min.js",
+   "https://telegram.org/js/tgwallpaper.min.js?3",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68",
+   "https://telegram.org/js/telegram-web.js?14"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_header_search_form has_value",
+    "action": "/s/mogilev",
+    "fields": [
+     "input:text:q"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 2289
+ },
+ "extra": {
+  "name": "tg-search_mogilev_gastrofest",
+  "status": 200,
+  "requested": "https://t.me/s/mogilev?q=%D0%93%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%82",
+  "channel": "mogilev",
+  "query": "Гастрофест",
+  "page": 1,
+  "tgSearch": {
+   "channelTitle": "Могилев. Главное!",
+   "counters": "47.8K Subscribers\n9.05K Photos\n4.22K Videos\n9.98K Links",
+   "messages": [
+    {
+     "id": "mogilev/5553",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilev",
+     "text": "В Могилеве пройдет Гастрофест мировой кухни ⠀\n\nГородской гастрофестиваль пройдет с 28 января по 9 февраля под тематикой «Зiмовы смак. Кухня замежных сяброў».\n\nВ нем примут участие 12 заведений, которые представят особые сеты блюд по фиксированной цене — 40 рублей.\n\n🌮 Участники фестиваля:\n\n• Барнео (улица Дзержинского, 19)\n• Ресторан 101 (переулок Пожарный, 6б)\n• Чайхана Рахмат (улица Первомайская, 31)\n• Бар Луна (улица Ленинская, 22)\n• Карчма на Шкловском базаре (улица Буденного, 13/44)\n• Санта Мария (улица Симонова, 69Г)\n• Рестобар Колетт (улица Буденного, 13/44)\n• Амазонка (улица Ленинская, 38)\n• Эдисон-Бар (улица Ленинская, 11)\n• Грильник (улица Чехова, 8)\n• Две палочки (улица Ленинская, 8)\n• Турист (проспект Пушкинский, 6)\n\n6️⃣ Подписывайтесь!",
+     "dateText": "13:11",
+     "datetime": "2025-01-23T12:11:04+00:00",
+     "url": "https://t.me/mogilev/5553",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "9.88K",
+     "metaText": "13:11",
+     "signature": "",
+     "reactions": [
+      "👍51",
+      "❤10",
+      "😍3",
+      "💋3",
+      "🎄2"
+     ],
+     "media": [
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/XkP386Ssk80Ns8s9ztHDCBqcg7-Km5OIxijPeTPpX77mHU00isKDgeYCk2g-iZdY5ARjzXij3a6rHkO-vxQrd4gUICdsVlToAd6-v_ncrNsUDZwmU5I6xivbfA30FX-7wNNR8PVxWIqS8ny3RGUCWPC9MAY-kAYdKubyraYMO9RP6yPNpiG1sMHiu_p4IrA9VTt-C_lCV-fqgODatG-pUIK4URvtXoMy04bFbcIqWKW48yvKjo9N4CkMfMKQ_qbQhn73jh1jxS7MKij5ERmQOmpYRUTpofXiw2SQtXs-pjQ293cSDqRA0UGnffBJ0S7s-kIVljT7iPe0bs2ueIvclA.jpg",
+       "href": "https://t.me/mogilev/5553"
+      },
+      {
+       "type": "not-supported",
+       "text": "Please open Telegram to view this post"
+      }
+     ]
+    },
+    {
+     "id": "mogilev/7876",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilev",
+     "text": "🎉 Могилевчане выбрали своих фаворитов на прошедшем «Гастрофесте»\n\nВ топ-3 лучших заведения попали:\n🔸Гастробар «Цоколь»\n🔸Рестобар «Амазонка»\n🔸Бар «Эдисон»\n\nВажно отметить, что на «Гастрофесте» не присуждаются конкретные места, поэтому все три заведения по праву считаются лучшими.\n\nЮбилейный, десятый «Гастрофест», пройдет в Могилеве с 13 по 30 ноября.\n\n6️⃣ Подписывайтесь!",
+     "dateText": "14:33",
+     "datetime": "2025-06-06T12:33:47+00:00",
+     "url": "https://t.me/mogilev/7876",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "8.95K",
+     "metaText": "14:33",
+     "signature": "",
+     "reactions": [
+      "❤16",
+      "👍8",
+      "😁4",
+      "❤‍🔥1",
+      "🎄1"
+     ],
+     "media": [
+      {
+       "type": "link-preview",
+       "href": "https://t.me/mogilev/7426",
+       "title": "Могилев. Главное!",
+       "text": "🍽 С 15 мая по 1 июня по всей Беларуси пройдет GastrofestВ Могилеве принимают участие 8 заведений:• Гастробар «Цоколь» — ул. Дзержинского, 19• Бар «Эдисон» — ул. Ленинская, 11• Ресто-бар «Амазонка» — ул. Ленинская, 38• Ресторан 101 — пер. Пожарный,…",
+       "image": "https://cdn4.telesco.pe/file/Ej2W4zheYAriOBauVJcIwKdQbefydNNEYsH9AwdxI2MNTvKukRWzOqza_R14PKvu73XGw1oWvvFxjShuOMbtVOLChE7bwCDjB3eWr0QPD8T-LafKbVQCnrmJRis-B9pN7yKu6y7i-pQegj9oGW7L--XG6GcgNoE6WlKOaOW0dyAAZCT6BA2BqUFEy3BXag7e5yWULyO_cYmDXkJKKk2-5L0LKZAOEz4qk2ZJgKzkb4gk99ZLwejQX9dukWlCiyvlFLanHULvSEk-KD7--H7kduirolLymZwmjjpZEFbUxfbXq_TxLCoauNleTPctNeLYzL31wsS04rfrdE8qEOpYMQ.jpg"
+      },
+      {
+       "type": "not-supported",
+       "text": "Please open Telegram to view this post"
+      }
+     ]
+    },
+    {
+     "id": "mogilev/11174",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilev",
+     "text": "🎉 Могилевчане выбрали своих фаворитов на прошедшем «Гастрофесте»\n\nВ топ-3 лучших заведения попали:\n• Гастробар «Цоколь»\n• Рестобар «Гурманофф»\n• Бар «Эдисон»\n\nНа «Гастрофесте» не присуждаются конкретные места, поэтому все три заведения по праву считаются лучшими.\n\nСледующий «Гастрофест» пройдет в Могилеве с 9 по 26 апреля.\n\n1️⃣ Подписывайтесь!",
+     "dateText": "10:03",
+     "datetime": "2025-12-11T09:03:38+00:00",
+     "url": "https://t.me/mogilev/11174",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "12.8K",
+     "metaText": "10:03",
+     "signature": "",
+     "reactions": [
+      "❤44",
+      "🔥11",
+      "🎉4",
+      "👀3",
+      "🥰1",
+      "🤩1"
+     ],
+     "media": [
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/CyR_9ixNwhZ8ZYNheiBwuseADv_-5UgsoH4SDY1p5MRGoqh3xZ5mHEEqwjlAXTE9DMGtDr8TJZM92Q49Khu_1gwCmp9kIuQMJe1w91mucf45HdGSYCVCLgTh-lEfaVyOBZmb2tlBEjRbcpyFoI3fMftvF8fq9R7xQbmQjKI9vfaZYUXRx4T_GfCAVHt9P5ZyqtLxWugGeG_o9VmxGL7HuVNw3puq8l-8CLDnmAgQUpJTyCFijIkLjGag-3uKd67UXE6_5tsQkz7qEBUUI-RQ4VpO_2wPal1kUVIDlrPGH2RhcPmFP3e4WWX_jETsFejuQcaUxOTP46022GjjLau3Bg.jpg",
+       "href": "https://t.me/mogilev/11174"
+      },
+      {
+       "type": "not-supported",
+       "text": "Please open Telegram to view this post"
+      }
+     ]
+    }
+   ],
+   "empty": "",
+   "moreHref": ""
+  }
+ }
+}

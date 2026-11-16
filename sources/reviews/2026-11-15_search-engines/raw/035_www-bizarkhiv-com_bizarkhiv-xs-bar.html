@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Quick security check</title>
+<style>
+:root{color-scheme:light dark}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+background:#fff;color:#1a1a1a;
+font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:24rem;padding:2rem;text-align:center}
+h1{font-size:1.375rem;font-weight:600;margin:0 0 .5rem}
+p{margin:0 0 1.5rem;color:#555}
+#w{display:flex;justify-content:center;min-height:65px}
+#s{margin:1rem 0 0;font-size:.875rem;min-height:1.25rem}
+#s.e{color:#c00}
+@media(prefers-color-scheme:dark){
+body{background:#161616;color:#f0f0f0}p{color:#aaa}#s.e{color:#ff6b6b}}
+</style>
+</head>
+<body>
+<main>
+<h1>Quick security check</h1>
+<p>Please confirm you’re human to continue.</p>
+<div id="w"></div>
+<p id="s" role="status" aria-live="polite"></p>
+</main>
+<script>
+window.__cgInit=function(){
+  var w=document.getElementById('w'),s=document.getElementById('s');
+  var VERIFYING="Verifying…",FAILED="Verification failed. Please try again.",CG="cg:www.bizarkhiv.com:PL:BY|1794741022465.R_CHF0mj7eK7P2dSoMyKY7W9S4Dz4zO8TuvO9PR-zg4",PG="886e053454c713fa74d3|1794741022465.PXScCCbTsR0eRkWcuGEfUaMUfikBo_OCL4-gSnhAYAA";
+  function render(){
+    w.innerHTML='';
+    turnstile.render('#w',{sitekey:"0x4AAAAAAENSsKIhmPWpAFfB",callback:function(token){
+      s.className='';s.textContent=VERIFYING;
+      fetch('/api/captcha-game/solve',{method:'POST',headers:{'content-type':'application/json'},
+        body:JSON.stringify({token:token,cg:CG,pg:PG})})
+        .then(function(r){return r.ok?r.json():null})
+        .then(function(d){
+          if(d&&d.ok){location.reload();return}
+          s.className='e';s.textContent=FAILED;render();
+        })
+        .catch(function(){s.className='e';s.textContent=FAILED;render()});
+    }});
+  }
+  render();
+};
+</script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=__cgInit&render=explicit" async defer></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5adcf1df89ded9d',t:'MTc5NDc0MTAyMg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5adcf1df89ded9d',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

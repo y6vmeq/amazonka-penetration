@@ -1,0 +1,65 @@
+{
+ "number": 221,
+ "url": "https://magilev.by/news/2026/06/23/festival-edy-vkus-leta-volna-letnih-emocij-v-gorshochke-s-pticej-ot-resto-bara-colette",
+ "title": "Фестиваль еды «Вкус лета»: волна летних эмоций в горшочке с птицей от ресто-бара «Colette» | magilev.by",
+ "at": "2026-11-15T15:33:27.661Z",
+ "html": "raw/221_magilev-by_magilev-2026-06-23-festival-edy-vkus-leta-volna-letnih-em.html",
+ "txt": "raw/221_magilev-by_magilev-2026-06-23-festival-edy-vkus-leta-volna-letnih-em.txt",
+ "sha256": "ee619c0f0484d194dfb683cac24ef7427be9166b1a8fc95fb700899c711e4043",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "b b_detail-before-comments b_visible",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-7674021519504941&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1794756803&plat=3%3A16%2C4%3A16%2C9%3A32%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=",
+    "id": "aswift_0",
+    "cls": ""
+   },
+   {
+    "src": "https://pagead2.googlesyndication.com/pagead/html/r20261112/r20190131/zrt_lookup_fy2021.html",
+    "id": "google_esf",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [
+   "льствие, мы продолжили прогулку, делясь впечатлениями от съеденного и обсуждая дельнейшие планы. И поймали себя на мысли, что устроили для себя маленький праздник лета именно благо"
+  ],
+  "forms": [
+   {
+    "id": "sf1",
+    "cls": "search-form search-form_hidden",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   },
+   {
+    "id": "sf2",
+    "cls": "search-form search-form_hidden header__main-search",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 8310
+ },
+ "extra": {
+  "name": "magilev_2026-06-23_festival-edy-vkus-leta-volna-letnih-em",
+  "status": 200,
+  "requested": "https://magilev.by/news/2026/06/23/festival-edy-vkus-leta-volna-letnih-emocij-v-gorshochke-s-pticej-ot-resto-bara-colette",
+  "pre": null
+ }
+}

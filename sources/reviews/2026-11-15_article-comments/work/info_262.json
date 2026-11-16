@@ -1,0 +1,59 @@
+{
+ "number": 262,
+ "url": "https://komkur.info/money/vosmoj-gastrofest-v-mogileve-posmotrite-kakie-sety-po-43-rublya-predlagayut-zavedeniya-uchastniki",
+ "title": "Восьмой «Гастрофест» в Могилеве: посмотрите, какие сеты по 43 рубля предлагают заведения-участники",
+ "at": "2026-11-15T17:10:01.561Z",
+ "html": "raw/262_komkur-info_komkur-new-vosmoj-gastrofest-v-mogileve-posmotrite.html",
+ "txt": "raw/262_komkur-info_komkur-new-vosmoj-gastrofest-v-mogileve-posmotrite.txt",
+ "sha256": "f8754d3c04ab52808112dd6b588f81da2b7712799124cec330ccc3e189f2915f",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [
+   {
+    "src": "https://yastatic.net/safeframe-bundles/0.89/1-1-0/render.html",
+    "id": "id4948",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:cd19a83bc8bc4614347f054dca815359"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 6676
+ },
+ "extra": {
+  "name": "komkur_new_vosmoj-gastrofest-v-mogileve-posmotrite",
+  "status": 200,
+  "requested": "https://komkur.info/money/vosmoj-gastrofest-v-mogileve-posmotrite-kakie-sety-po-43-rublya-predlagayut-zavedeniya-uchastniki",
+  "pre": null
+ }
+}

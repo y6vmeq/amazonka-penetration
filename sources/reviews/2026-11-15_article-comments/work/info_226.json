@@ -1,0 +1,75 @@
+{
+ "number": 226,
+ "url": "https://komkur.info/component/search/?searchword=%D0%A1%D0%BC%D0%B0%D0%BA.BY&searchphrase=exact&ordering=newest&limit=0",
+ "title": "Результаты поиска: Смак.BY - komkur.info",
+ "at": "2026-11-15T17:05:15.379Z",
+ "html": "raw/226_komkur-info_komkur-search-smak-by.html",
+ "txt": "raw/226_komkur-info_komkur-search-smak-by.txt",
+ "sha256": "d44e0d8bfceb635465a548d9b6bf3531808db149a62b485c14bb9f236fae52c7",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/component/finder/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:cd19a83bc8bc4614347f054dca815359"
+    ]
+   },
+   {
+    "id": "searchForm",
+    "cls": "",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "select:select-one:ordering"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 652
+ },
+ "extra": {
+  "name": "komkur-search_smak-by",
+  "status": 200,
+  "requested": "https://komkur.info/component/search/?searchword=%D0%A1%D0%BC%D0%B0%D0%BA.BY&searchphrase=exact&ordering=newest&limit=0",
+  "site": "komkur.info",
+  "query": "Смак.BY",
+  "summary": "Результаты поиска: найдено 0 элементов.",
+  "links": [
+   {
+    "href": "https://yandex.by/maps/-/CDQK58zQ",
+    "text": "ул. Московская, 42, г. Бобруйск, Беларусь, 213826"
+   }
+  ],
+  "next": []
+ }
+}

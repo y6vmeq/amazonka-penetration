@@ -1,0 +1,73 @@
+{
+ "number": 205,
+ "url": "https://magilev.by/news/2024/12/09/nazvana-trojka-luchshih-zavedenij-uchastnikov-vosmogo-gastrofesta-v-mogileve-kto-v-chisle-pobeditelej",
+ "title": "Названа тройка лучших заведений-участников восьмого «Гастрофеста» в Могилеве. Кто в числе победителей? | magilev.by",
+ "at": "2026-11-15T15:31:08.844Z",
+ "html": "raw/205_magilev-by_magilev-2024-12-09-nazvana-trojka-luchshih-zavedenij-ucha.html",
+ "txt": "raw/205_magilev-by_magilev-2024-12-09-nazvana-trojka-luchshih-zavedenij-ucha.txt",
+ "sha256": "c6a2b91d1931905ce2ea981a6f3ca2de5e24597e89e6738618fa5e84d36aed5e",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "b b_detail-before-comments b_visible",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [
+   {
+    "src": "",
+    "id": "",
+    "cls": ""
+   },
+   {
+    "src": "about:blank",
+    "id": "",
+    "cls": ""
+   },
+   {
+    "src": "about:blank",
+    "id": "",
+    "cls": ""
+   },
+   {
+    "src": "about:blank",
+    "id": "",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "sf1",
+    "cls": "search-form search-form_hidden",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   },
+   {
+    "id": "sf2",
+    "cls": "search-form search-form_hidden header__main-search",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 5402
+ },
+ "extra": {
+  "name": "magilev_2024-12-09_nazvana-trojka-luchshih-zavedenij-ucha",
+  "status": 200,
+  "requested": "https://magilev.by/news/2024/12/09/nazvana-trojka-luchshih-zavedenij-uchastnikov-vosmogo-gastrofesta-v-mogileve-kto-v-chisle-pobeditelej",
+  "pre": null
+ }
+}

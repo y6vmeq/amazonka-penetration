@@ -1,0 +1,23 @@
+{
+ "url": "https://clever.by/mogilev/colette/",
+ "captured_at": "2026-11-15T11:43:21.777Z",
+ "title": "Colette в Могилёве – меню и цены кафе, забронировать столик",
+ "data": {
+  "h1": "Рестобар Colette",
+  "address_line": "Могилёв, ул. Будённого, 13/44",
+  "updated_marks": [
+   "обновлено 31.07.2026",
+   "обновлено 11.10.2026"
+  ],
+  "has_legal_block": false,
+  "ld": [
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@id\":\"https:\\/\\/clever.by\\/mogilev\\/\",\"name\":\"Кафе и рестораны Могилёва\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https:\\/\\/clever.by\\/mogilev\\/colette\\/\",\"name\":\"Рестобар Colette\"}}]}",
+   "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"FoodEstablishment\",\"name\":\"Colette\",\"url\":\"colette\",\"image\":[\"https:\\/\\/clever.by\\/source\\/photos\\/2023\\/03\\/02\\/3d9cfd85314b3b975c2793aebaaf8940.jpg\",\"https:\\/\\/clever.by\\/source\\/photos\\/2023\\/03\\/02\\/be57b7163131784ddb6cc6161ff963a5.jpg\",\"https:\\/\\/clever.by\\/source\\/photos\\/2023\\/03\\/02\\/4393266f91dd1bd1db62b71c5bbafc27.jpg\",\"https:\\/\\/clever.by\\/source\\/photos\\/2023\\/03\\/02\\/cd35df25c586da246b4aff3410602884.jpg\"],\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":5,\"bestRating\":5,\"worstRating\":1,\"reviewCount\":\"1\"}}"
+  ],
+  "review_dates": [
+   "27.06.2025 00:27",
+   "06.02.2025 01:16",
+   "25.06.2023 14:10"
+  ]
+ }
+}

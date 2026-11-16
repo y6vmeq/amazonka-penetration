@@ -1,0 +1,70 @@
+{
+ "file": "yandex-maps-051.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.8629612326622009,
+ "duration": 6.0371875,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.62,
+   "text": "Do you like it just keeps me this time?",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.22,
+     "word": " Do",
+     "p": 0.1386585384607315
+    },
+    {
+     "start": 0.22,
+     "end": 0.44,
+     "word": " you",
+     "p": 0.9896005392074585
+    },
+    {
+     "start": 0.44,
+     "end": 0.84,
+     "word": " like",
+     "p": 0.43816906213760376
+    },
+    {
+     "start": 0.84,
+     "end": 1.08,
+     "word": " it",
+     "p": 0.7538877129554749
+    },
+    {
+     "start": 1.08,
+     "end": 1.34,
+     "word": " just",
+     "p": 0.47348159551620483
+    },
+    {
+     "start": 1.34,
+     "end": 1.6,
+     "word": " keeps",
+     "p": 0.6917694211006165
+    },
+    {
+     "start": 1.6,
+     "end": 1.84,
+     "word": " me",
+     "p": 0.9848873019218445
+    },
+    {
+     "start": 1.84,
+     "end": 2.24,
+     "word": " this",
+     "p": 0.16971740126609802
+    },
+    {
+     "start": 2.24,
+     "end": 2.62,
+     "word": " time?",
+     "p": 0.940334677696228
+    }
+   ]
+  }
+ ]
+}

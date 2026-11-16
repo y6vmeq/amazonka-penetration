@@ -1,0 +1,420 @@
+{
+ "number": 61,
+ "url": "https://t.me/s/mogilev?q=%D0%9A%D0%BE%D0%BB%D0%B5%D1%82%D1%82",
+ "title": "Могилев. Главное! – Telegram",
+ "at": "2026-11-15T14:28:26.597Z",
+ "html": "raw/061_t-me_tg-search-mogilev-kolett.html",
+ "txt": "raw/061_t-me_tg-search-mogilev-kolett.txt",
+ "sha256": "da9603147a660002d15b8ba78d2d0906ef5867a5a2e236ce3e32cf1722eb1351",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 6,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_webpreview emoji_image thin_box_shadow tme_mode twallpaper",
+    "textLen": 7367,
+    "text": "Могилев. Главное! @mogilev 47.8K Subscribers 9.05K Photos 4.22K Videos 9.98K Links Главный новостной telegram-канал Могилева Реклама 👉 @glavnoebel 🔈 Предложит"
+   },
+   {
+    "tag": "A",
+    "id": "",
+    "cls": "tgme_widget_message_link_preview",
+    "textLen": 281,
+    "text": "Telegram Могилев. Главное! С 24 июня по 6 июля в Могилёве пройдет городской кулинарный фестиваль «Пачастунак па-магiлёўскi» В фестивале примут участие следующие"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "link_preview_site_name accent_color",
+    "textLen": 8,
+    "text": "Telegram"
+   },
+   {
+    "tag": "I",
+    "id": "",
+    "cls": "link_preview_image",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "link_preview_title",
+    "textLen": 17,
+    "text": "Могилев. Главное!"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "link_preview_description",
+    "textLen": 254,
+    "text": "С 24 июня по 6 июля в Могилёве пройдет городской кулинарный фестиваль «Пачастунак па-магiлёўскi» В фестивале примут участие следующие заведения: — ресторан «Вин"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://telegram.org/js/jquery.min.js",
+   "https://telegram.org/js/jquery-ui.min.js",
+   "https://telegram.org/js/tgwallpaper.min.js?3",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68",
+   "https://telegram.org/js/telegram-web.js?14"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_header_search_form has_value",
+    "action": "/s/mogilev",
+    "fields": [
+     "input:text:q"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 7367
+ },
+ "extra": {
+  "name": "tg-search_mogilev_kolett",
+  "status": 200,
+  "requested": "https://t.me/s/mogilev?q=%D0%9A%D0%BE%D0%BB%D0%B5%D1%82%D1%82",
+  "channel": "mogilev",
+  "query": "Колетт",
+  "tgSearch": {
+   "channelTitle": "Могилев. Главное!",
+   "counters": "47.8K Subscribers\n9.05K Photos\n4.22K Videos\n9.98K Links",
+   "messages": [
+    {
+     "id": "mogilev/5553",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilev",
+     "text": "В Могилеве пройдет Гастрофест мировой кухни ⠀\n\nГородской гастрофестиваль пройдет с 28 января по 9 февраля под тематикой «Зiмовы смак. Кухня замежных сяброў».\n\nВ нем примут участие 12 заведений, которые представят особые сеты блюд по фиксированной цене — 40 рублей.\n\n🌮 Участники фестиваля:\n\n• Барнео (улица Дзержинского, 19)\n• Ресторан 101 (переулок Пожарный, 6б)\n• Чайхана Рахмат (улица Первомайская, 31)\n• Бар Луна (улица Ленинская, 22)\n• Карчма на Шкловском базаре (улица Буденного, 13/44)\n• Санта Мария (улица Симонова, 69Г)\n• Рестобар Колетт (улица Буденного, 13/44)\n• Амазонка (улица Ленинская, 38)\n• Эдисон-Бар (улица Ленинская, 11)\n• Грильник (улица Чехова, 8)\n• Две палочки (улица Ленинская, 8)\n• Турист (проспект Пушкинский, 6)\n\n6️⃣ Подписывайтесь!",
+     "dateText": "13:11",
+     "datetime": "2025-01-23T12:11:04+00:00",
+     "url": "https://t.me/mogilev/5553",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "9.88K",
+     "metaText": "13:11",
+     "signature": "",
+     "reactions": [
+      "👍51",
+      "❤10",
+      "😍3",
+      "💋3",
+      "🎄2"
+     ],
+     "media": [
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/XkP386Ssk80Ns8s9ztHDCBqcg7-Km5OIxijPeTPpX77mHU00isKDgeYCk2g-iZdY5ARjzXij3a6rHkO-vxQrd4gUICdsVlToAd6-v_ncrNsUDZwmU5I6xivbfA30FX-7wNNR8PVxWIqS8ny3RGUCWPC9MAY-kAYdKubyraYMO9RP6yPNpiG1sMHiu_p4IrA9VTt-C_lCV-fqgODatG-pUIK4URvtXoMy04bFbcIqWKW48yvKjo9N4CkMfMKQ_qbQhn73jh1jxS7MKij5ERmQOmpYRUTpofXiw2SQtXs-pjQ293cSDqRA0UGnffBJ0S7s-kIVljT7iPe0bs2ueIvclA.jpg",
+       "href": "https://t.me/mogilev/5553"
+      },
+      {
+       "type": "not-supported",
+       "text": "Please open Telegram to view this post"
+      }
+     ]
+    },
+    {
+     "id": "mogilev/7878",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilev",
+     "text": "С 24 июня по 6 июля в Могилёве пройдет городской кулинарный фестиваль «Пачастунак па-магiлёўскi» \n\nВ фестивале примут участие следующие заведения: \n— ресторан «Винтаж» (ул.Первомайская, 29-2);\n— бар «Барнео» (зал «Цоколь»; ул.Дзержинского, 19);\n— ресторан «Ресторан 101» (пер.Пожарный, 6б);\n— ресторан «Чайхана» (ул.Первомайская, 31);\n— бар «Луна» (ул.Ленинская, 22);\n— бар «Карчма на Шклоўскiм базары» (ул.Буденного, 13/44);\n— ресторан «Санта Мария» (ул.Симонова, 69Г);\n— кафе «Рестобар «Колетт» (ул.Буденного, 13/44);\n— кафе «Рестобар «Амазонка» (ул.Ленинская, 38);\n— кафе «Две палочки» (ул.Ленинская, 8);\n— кафе «Грильник» (ул.Чехова, 8);\n— бар «Луч» (ул.Ленинская, 15);\n— мини-кафе «Барбекю ля фонтана» (сквер 40 лет Победы);\n— ресторан «Рестобар «Белый лис» (ул.Первомайская, 31а);\n— кафе «Тандыр» (ул.Первомайская, 34а).\n\nСтоимость сета фиксированная — 40 руб.\n\n6️⃣ Подписывайтесь!",
+     "dateText": "16:26",
+     "datetime": "2025-06-06T14:26:00+00:00",
+     "url": "https://t.me/mogilev/7878",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "9.85K",
+     "metaText": "16:26",
+     "signature": "",
+     "reactions": [
+      "❤31",
+      "👍19",
+      "🔥3",
+      "😁3",
+      "👏2",
+      "🎉1",
+      "🎄1"
+     ],
+     "media": [
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/b73hEbgbegW4mkvfiHD-9fdYabO-gSb4Kd6Z0tnZFj9u0AgRUozQ6t1mBL6o8nMTr8wrsXrslmX-wA9yDMDWY_9Nu-ILuEouHQyAwWKsx72PL7mH3p9BqNOKWFMSxhgj8Ac3zr0IQIO57hLYrg0DBED-bFiKTCPjNEK07pMj0XH4VjOGXy7bK2qX-Q1EvCjfpssLcGI32sLKCSRiojId99oQ0wFU9viI8q0h6MjVyp0IwNckn93YSkip2Zifq-Wc3InuC2m_Qfvr2Ar26S_sdVAv_juH_qUsU5-naDJVbfME5dn6aD1QOC_JcjSYRo3E9GCSY1B91ORdp5jjkLtRLw.jpg",
+       "href": "https://t.me/mogilev/7878"
+      },
+      {
+       "type": "not-supported",
+       "text": "Please open Telegram to view this post"
+      }
+     ]
+    },
+    {
+     "id": "mogilev/8206",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilev",
+     "text": "Напоминаем, что с сегодняшнего дня начался фестиваль «Пачастунак па-магiлёўскi» \n\nВ заведениях, участвующих в этом событии, можно заказать сеты за фиксированную цену — 40 рублей. Фестиваль продлится до 6 июля.\n\n6️⃣ Подписывайтесь!",
+     "dateText": "15:24",
+     "datetime": "2025-06-24T13:24:12+00:00",
+     "url": "https://t.me/mogilev/8206",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "11.8K",
+     "metaText": "15:24",
+     "signature": "",
+     "reactions": [
+      "❤20",
+      "👍8",
+      "🔥4"
+     ],
+     "media": [
+      {
+       "type": "link-preview",
+       "href": "https://t.me/mogilev/7878",
+       "title": "Могилев. Главное!",
+       "text": "С 24 июня по 6 июля в Могилёве пройдет городской кулинарный фестиваль «Пачастунак па-магiлёўскi» В фестивале примут участие следующие заведения: — ресторан «Винтаж» (ул.Первомайская, 29-2);— бар «Барнео» (зал «Цоколь»; ул.Дзержинского, 19);— ресторан…",
+       "image": "https://cdn4.telesco.pe/file/Y12kpYfDAp4rPQlUmmUtH840GVBuaOAx3uFYVIsRSJ9yFQTziOmINMiLXa7W0kRP1NY7zohgq-wPLquELOWY5HAghN0iVyktfiJ1YurJSXMIUS1MPFYZk6zY1vx0D3P434j-5xDMrpBkCIT0SP0F-TDts-qdexr3X5yp4f9Rv8LETNRuT_caewab2jTkA8lOudXDqJU-z4LiVdMy2YlG-HRYTcPF4IMVacrfkBTWz8V9d_LfA4152X3rTx_T55F7MpMLyo7LgRDebEId-SXH_kf0JODQf8wnk6B993jSgARJwkvErmyOgfgkGDZrehFsWawvWYfbttkUYjO0rNb7AQ.jpg"
+      },
+      {
+       "type": "not-supported",
+       "text": "Please open Telegram to view this post"
+      }
+     ]
+    },
+    {
+     "id": "mogilev/10180",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilev",
+     "text": "🔥 С 20 октября по 2 ноября состоится городской кулинарный фестиваль «Могилев pro Осень»\n\nУчастниками фестиваля станут 13 заведений: \n• ресторан «Винтаж» (улица Первомайская, 29-2);\n• бар «Барнео» (зал «Цоколь», улица Дзержинского, 19);\n• ресторан «Ресторан 101» (переулок Пожарный, 6б);\n• ресторан «Чайхана» (улица Первомайская, 31);\n• бар «Луна» (улица Ленинская, 22);\n• бар «Карчма на Шклоўскiм базары» (улица Буденного, 13/44);\n• ресторан «Санта Мария» (улица Симонова, 69Г);\n• кафе «Рестобар Колетт» (улица Буденного, 13/44);\n• кафе «Две палочки» (улица Ленинская, 8);\n• бар «Луч» (улица Ленинская, 15);\n• пиццерия «Пармезан» (улица Первомайская, 34);\n• мини-кафе «Барбекю ля фонтана» (сквер 40-летия Победы);\n• кафе «Эдисон Бар» (улица Ленинская, 11).\n\nСтоимость сета составит 40 рублей.\n\n6️⃣ Подписывайтесь!",
+     "dateText": "14:06",
+     "datetime": "2025-10-14T12:06:16+00:00",
+     "url": "https://t.me/mogilev/10180",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "14.1K",
+     "metaText": "14:06",
+     "signature": "",
+     "reactions": [
+      "🔥40",
+      "❤20",
+      "❤‍🔥7",
+      "😁3",
+      "🤩2",
+      "🤣1",
+      "🍓1"
+     ],
+     "media": [
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/SWEH44CNkf6AmMz2l0cbLIl_uqdbiu0nHQTY991ZHZHthDJs-GA66IWsSvm1Fx7LfomR03HIE7fyf9rBIJqBjWpdWMeZDaCV8uRU3PwnML-5kuWfVWC8eawFuv5cuqrIfjsJimGFGEl0Q4w9FAtq8nBU2g4QsjWU2se_0GfuOgIskG19d74jrK_PHBCzKDjHCZBmmluSG60VBaKdlpSLyVt0ZS8FvcBp90RjMJmleJrGnIlbQiuJUdIZCF8c9EtXOA9dqtv-UxvctgY4cnVJLBeI9nFB3c-_d1iqinGEMI0Zofp1IBlBFCc9RbgUpqIQzL4deWVyPygz-wK91QTC1Q.jpg",
+       "href": "https://t.me/mogilev/10180"
+      },
+      {
+       "type": "not-supported",
+       "text": "Please open Telegram to view this post"
+      }
+     ]
+    },
+    {
+     "id": "mogilev/10287",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilev",
+     "text": "🔥 В городе стартовал фестиваль «Могилев pro осень» \n\nУчаствуют 13 заведений:\n• Гастробар «Цоколь» (улица Дзержинского, 19);\n• ресторан «Санта Мария» (улица Симонова, 69Г);\n• кафе «Рестобар Колетт» (улица Буденного, 13/44);\n• бар «Луч» (улица Ленинская, 15);\n• кафе «Эдисон Бар» (улица Ленинская, 11).\n• мини-кафе «Барбекю ля фонтана» (сквер 40-летия Победы);\n• пиццерия «Пармезан» (улица Первомайская, 34);\n• ресторан «Винтаж» (улица Первомайская, 29-2);\n• ресторан «Ресторан 101» (переулок Пожарный, 6б);\n• ресторан «Чайхана» (улица Первомайская, 31);\n• бар «Луна» (улица Ленинская, 22);\n• бар «Карчма на Шклоўскiм базары» (улица Буденного, 13/44);\n• кафе «Две палочки» (улица Ленинская, 8);\n\nФестиваль продлится до 2 ноября. Стоимость сетов фиксированная - 40 рублей.\n\n6️⃣ Подписывайтесь!",
+     "dateText": "17:31",
+     "datetime": "2025-10-21T15:31:50+00:00",
+     "url": "https://t.me/mogilev/10287",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "13.8K",
+     "metaText": "17:31",
+     "signature": "",
+     "reactions": [
+      "❤43",
+      "👍21",
+      "🔥8",
+      "🌚2",
+      "🍓1"
+     ],
+     "media": [
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/TlqPyp1qg1VpsmgWJbc_tN_Nl3Nln9jRXD3B4I7mgkqzDXDMf90IfGP5Y9KS1VUzX4XlWNArwUrDklVGnIoETI1qMLE-xVKU02hqT-YMJZK86Z7YQdhWCeRCCzjQv-iDIHehAMo8YnS7mDmT-BxNykFSZ6nDZlfTGV8hU5CSt84C40R8mZijHSwIFX9iGHXaGR7qA5Ojz7cA_CCjEtXW5yVtZgU3o9EnTcnfaCJv3hXEEGTDUpnhVz8Yqo0GOWT6U4KT1HDVFP4-vm7fE3qJvSc0IGFr6_qDZ6tgTMhRogHrGEilQefT7tiok7nGqwXm1CVUGnKYvfv61_JcIqxdsg.jpg",
+       "href": "https://t.me/mogilev/10287?single"
+      },
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/CkjWMfVfbuMGUE8Zxax4DcsSHRGKC3kiOIriAkRRW0CjPnJ3s_V9ghwR43TiG2jq2QolvBrL80FftG_FvGF69ozR5xcFyQba5pyeqzNEPnZjIFK1kE_laLSAJctqLkgccJiNV2EQRvDi0HUhAJf4giuZzyMFoRkzoc5BCG2VLtMUjCtbAX2xJZXGiOyKhF7g2FNdg8t7fP7L_Xb5v3bJhgVoQMiUQHlVksmFm58HzOa3nyKXpmdlTdJ3Wez8jzL4ua_X4_HXfSLb_QA5Ytlu2GfRbVj0p3ip42fpFXreSbdTPC6p-5XGSyqoocMF3UfAXHf9r7lUX0ZYucaatsV1rA.jpg",
+       "href": "https://t.me/mogilev/10288?single"
+      },
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/cplU0VcjX1G2T_hxs5z2bNR4XyICYUjtEXrVkodsaAS1l-gkMTyr88YFoC8T8Y_1n3Y7YCDFnNTKjocXZIIUHQ2rFND-IbI5zzEs8o8Z73Y5GS3lj9I9n3JrkHCBVUrpmvNvmn5BYGT_eBCnWVUYec_7NPTqFmQzAaj1xvCG0twTcPyChkk0HvYaXVz-uzKV9Td7hvXaEqVd0Nr4Yxid_wAbuwoJMyNcTv4TcN0W9llXQ8RjthTa1oW65OWSnkvd7EuAXm67sSizoEF88KAteLp813ABrMFnhlHYRJ3CPIRNbWPI7nM_Nk5lmZoEtoeC8UUT7_KGU5xb7_tjq6npsQ.jpg",
+       "href": "https://t.me/mogilev/10289?single"
+      },
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/gdwZdTEnkxI0fNBnv8eLy6bnav4tN4xgJoKRlMcCdY0jc_ByOFnZWUvoNHGqDMi1AkkhS0ydPdoT6UB-OiMrh6HwHdO8hkm5jxbY1SHOa1Wko5BlH_tjGjGVexdr5hGXzq64dmWfvkdgoQSsxG7Vq8W8hqRO5oYF977HZXpVP2k3sg7mR1e4WoBMXIrWZmmC3yrTj-rAHcRSkDSeJVjuSr9mY4tiQjmFMybdZ4By21Q0xQPvXaHkq2EcKYBRBLCtwo7YT_eu4FGTpzh7cLc36IAIBaB0Cf_Q-r4BTLEbe7s6tZN8vysPFc_d8RSK93FOR9SPc0sO5asYf_Tsd_54eA.jpg",
+       "href": "https://t.me/mogilev/10290?single"
+      },
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/nK_uelhtsRLu8J5t_jrjchKcR1KGrb1iO16fP8tnbA3GB_wnT0tsiXYiXnTje8aeaw1OkpZHHzXCHWvaXmxibyNGoIR5SzQL6MBjbB_BRZgwOqYBCcAHa8HFW0hqXzog8ntnx2bzD_SD4041QqihfSKGy9iEffs_9WoHR_k3XcnNJnF3KPC0JtW2OxWt3dE4yFmExp6n_vDuptn9IRIeNAqzad54ggpY9_5oz9KzkeVBIfdA8BzAprpoKRSt4RDrS5D9-W1DDBdxmmf5yLHlUPztHVNPnpY-IfPPtgNeRsV44yQiUzUXFtL5qWnNUGY0sQt7mpYSuqUz5j930miSrg.jpg",
+       "href": "https://t.me/mogilev/10291?single"
+      },
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/AIRMtILt2eZQEqnm4lBabuwevhg0SfWKYr6b7ElB0TdDYlLPPFygLqysqv32Dq_jbzyx2nmfMayi_J7lj4RwkmMO_gBvG1MG1Es9xSUmM6cEjoBrNKsy4StzQNcwEhPJEKwqB0aTcLLnw_Kzq4dSMR8ka8QFffpxbNEVlxpPiUQncIn-pD3asvpMWIM_eDDq_FgtmYTcuLbphnTzn3U8U_tGhcINO5caHl2J4GsqMZvbF_E-nMs9cwblsnJhcnabDpJyzxjluXEBZbBxSgWasS-T4dsnWEGEPwxyecjnGiXm3RiclapW4vqET5JPvMd0_Cr8rJzud46VYdthBo7Rug.jpg",
+       "href": "https://t.me/mogilev/10292?single"
+      },
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/kL8rJzxUclLJDhhEyypXwga742qJgC-lx_c7hayL4ykkddj8VqlpJWO4df52wEPEfxoZwh-CWdLbEqwkxMM5qZYbxzJ7swM3qj0pN8zKwGWTRXGmexdgrgXmuAPSQmJXjiXAwz7Rqt9JeV5I1oZOEbBk7TTSVMzN7JGWqbYktYu7sFUGhe8AvASIsFOrKIuPbzoldLuyKEvld0uJpKUc3_bCzJ6PzP2twYnB4g-kb9xQOnjuRaok49wzKVu9hr9UyZVHDOynnjZgTXTrEd5I-3EvAo76c0-xj3UURvyeQdUwqtShsVyu6_62vJx7cv1-Sx1fErcbc89BT2uV8ufhrA.jpg",
+       "href": "https://t.me/mogilev/10293?single"
+      },
+      {
+       "type": "not-supported",
+       "text": "Please open Telegram to view this post"
+      }
+     ]
+    },
+    {
+     "id": "mogilev/12545",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilev",
+     "text": "🍝 В Могилёве с 16 по 29 марта пройдёт гастрофестиваль «Лепшы густ Магілёва» ⠀\n\nВ нём примут участие 9 заведений. Цена сетов фиксированная — 45 рублей.\n\nУчастники фестиваля:\n• Бар «Барнео» / зал «Цоколь» (улица Дзержинского, 19)\n• Ресторан «101» (переулок Пожарный, 6б)\n• Ресторан «Чайхана Рахмат» (улица Первомайская, 31)\n• Бар «Карчма на Шклоўскім базары» (улица Буденного, 13/44)\n• Ресторан «Санта Мария» (улица Симонова, 69г)\n• Кафе «Рестобар Колетт» (улица Буденного, 13/44)\n• Кафе «Рестобар Амазонка» (улица Ленинская, 38)\n• Кафе «Тандыр» (улица Первомайская, 34а)\n• Бар «Луч» (улица Ленинская, 15).\n\n1️⃣ Подписывайтесь!",
+     "dateText": "15:00",
+     "datetime": "2026-03-06T14:00:41+00:00",
+     "url": "https://t.me/mogilev/12545",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "12.7K",
+     "metaText": "15:00",
+     "signature": "",
+     "reactions": [
+      "❤56",
+      "👍21",
+      "🔥6",
+      "👀4",
+      "🥰3",
+      "😁1",
+      "😴1",
+      "🎄1"
+     ],
+     "media": [
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/mIuZl78WD8V1dUPLtC0rGcV0455xprgFUsMDCd5gggzCijLHP9G_QZJHv6p1-RP5V92x1SkhL_jn12joysMCXaP8iJNxAWfSOcC77zxJo_7ubmgEyK6MWTTZSAFHTrD6HbPwXFwVsv-L3hx4lwxlR0-zlM83IrLHZNEt9nI0NYnPsVFw8M9KvBZ78F0gtHyUwoZwcq54kj2mDMAzwPSmJA6jzH9maSnPLzObntLwKuF5XkVY4Auq0Rr3p-DXhWRr4a-AWuyHo4mEZFHEfupuGeMNQ-yUeC0glFsdRxZ825pxhl6MkZr7H0lBgdzQ6sfLULgbB-mHz5z98nsvt9J-Rw.jpg",
+       "href": "https://t.me/mogilev/12545"
+      },
+      {
+       "type": "not-supported",
+       "text": "Please open Telegram to view this post"
+      }
+     ]
+    },
+    {
+     "id": "mogilev/14252",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilev",
+     "text": "🍽 С 22 июня по 5 июля в состоится городской гастрономический фестиваль «Вкус лета»\n\nВ фестивале участвуют 14 заведений:\n— бар «Барнео» (зал «Цоколь»; ул.Дзержинского, 19);\n— ресторан «Винтаж» (ул.Первомайская,29);\n— «Ресторан 101» (пер.Пожарный, 6б);\n— ресторан «Чайхана Рахмат» (ул.Первомайская,31);\n— бар «Карчма на Шклоўскiм базары» (ул.Буденного, 13/82);\n— бар «Луна» (ул.Ленинская, 22);\n— «Рестобар «Колетт» (ул.Буденного, 13/44);\n— «Рестобар «Амазонка» (ул.Ленинская, 38);\n— кафе «Тандыр» (ул.Первомайская, 34а);\n— бар «Луч» (ул.Ленинская, 15);\n— кафе «Эдисон» (ул.Ленинская, 11);\n— кафе «Сябры» (пл.Славы, 2);\n— «Кафе-пиццерия «Пармезан» (ул.Первомайская, 34/1);\n— бар «На углях» (ул.Чехова, 8).\n\nСтоимость сетов фиксированная — 45 рублей.\n\n💫 Подписывайтесь!",
+     "dateText": "19:16",
+     "datetime": "2026-06-08T17:16:56+00:00",
+     "url": "https://t.me/mogilev/14252",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "14K",
+     "metaText": "edited  19:16",
+     "signature": "",
+     "reactions": [
+      "❤59",
+      "👍16",
+      "❤‍🔥6",
+      "🥰4",
+      "🥴1"
+     ],
+     "media": [
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/TBGuaELFetbkoo1M2szot-2eXFb2t80guLjmvwH2oA5WYlsr77dBXEdlzJ0Fh8qSJ1owNZkYaXyFiV7cBEr2zA5hDtrgf7wdT5-qxaXnLZHvFVTNn7s9Op2N9KcBp50lNQJQG_nQQFVAhhGeHYcmRrLIkT-x6-xAejui9YXLTBs_S91whx_ER6MXf1_HhKZR3yq5D2vgR0UwdlN5QGUGPNjVsRZ5To39fCsx7vTBP8zos0OWbEbKpY1xNFZMfhL6wSVfoNrwKeCRArJvTKl36SutShgJgygQAH5PcYKomizgRyzaPI9btNN5wzWVGp18Kxz81F4Xx364Fp75PrQmWA.jpg",
+       "href": "https://t.me/mogilev/14252"
+      },
+      {
+       "type": "not-supported",
+       "text": "Please open Telegram to view this post"
+      }
+     ]
+    },
+    {
+     "id": "mogilev/16489",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilev",
+     "text": "🍽 С 20 сентября по 4 октября в Могилеве пройдет «Бульба-фэст»\n\nВ фестивале участвуют 12 заведений:\n• Ресторан «Винтаж» — ул. Первомайская, 29\n• Бар «Барнео» — ул. Дзержинского, 19 (зал «Цоколь»)\n• Ресторан «Санта-Мария» — ул. Симонова, 69Г\n• «Ресторан 101» — Пожарный переулок, 6Б\n• Ресторан «Чайхана Рахмат» — ул. Первомайская, 31\n• Бар «Карчма на Шклоўскiм базары» — ул. Буденного, 13/82\n• Рестобар «Колетт» — ул. Буденного, 13/44\n• Рестобар «Амазонка» — ул. Ленинская, 38\n• Бар «Луч» — ул. Ленинская, 15\n• Кафе «Депо» — ул. Ленинская, 27-1\n• Кафе-пиццерия «Пармезан» — ул. Первомайская, 34/1\n• Кафе «Тандыр» — ул. Первомайская, 34А\n﻿\nСтоимость сетов фиксированная — 40 рублей.\n\n💫 Подписывайтесь!",
+     "dateText": "14:44",
+     "datetime": "2026-09-17T12:44:01+00:00",
+     "url": "https://t.me/mogilev/16489",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "13K",
+     "metaText": "14:44",
+     "signature": "",
+     "reactions": [
+      "❤‍🔥39",
+      "❤24",
+      "🔥12",
+      "👍6",
+      "😐3",
+      "✍1",
+      "👏1",
+      "🎉1",
+      "🤩1",
+      "🤗1"
+     ],
+     "media": [
+      {
+       "type": "photo",
+       "src": "https://cdn4.telesco.pe/file/RL5BKSZaiM66vS8-IUHQH84BfEv5m1yP81kM4zYIlCM19RxXVm5RUYRaDND0LQLTc8bKLUzdmZQG0z6f8eIaQonGs_4gU91qXG1nNAnyUFbW6TFCeJi_5f_Sd1nITmrCCcgS8cZyNw9LuWWWwPGX8xOWvwz28Iga8WLv0v9KBX2uEwzEDQBNPo5R128kJ6PtvCmQMnY-ARgVTqNbDaQ50nJAHyxz6brjvAky2seQQ0D0765q8kITzJDrEt6VdqG0WBbc5TisvYaD5OebDAiBKD_eTVhopzjI8gEpKdgrN_mUvGmmPHYK83Y4TBVZQ7BWinUswVa-yqD2IYjt9E9YNg.jpg",
+       "href": "https://t.me/mogilev/16489"
+      },
+      {
+       "type": "not-supported",
+       "text": "Please open Telegram to view this post"
+      }
+     ]
+    },
+    {
+     "id": "mogilev/16549",
+     "author": "Могилев. Главное!",
+     "authorHref": "https://t.me/mogilev",
+     "text": "🥔 C 20 сентября по 4 октября в Могилёве пройдет городской гастрофестиваль «Бульба-фэст»\n\nУчастие примут 12 заведений:\n• ресторан «Винтаж»; \n• бар «Барнео»;\n• ресторан «Санта-Мария»; \n• «Ресторан 101»; \n• ресторан «Чайхана Рахмат»; \n• бар «Карчма на Шклоўскiм базары»; \n• «Рестобар «Колетт»; \n• «Рестобар «Амазонка»; \n•  бар «Луч»; \n•  кафе «Депо»; \n•  «Кафе-пиццерия «Пармезан»; \n•  кафе «Тандыр».\n\nСтоимость сета блюд фиксированная — 40 рублей.\n\n1️⃣ Подписывайтесь!",
+     "dateText": "17:25",
+     "datetime": "2026-09-19T15:25:59+00:00",
+     "url": "https://t.me/mogilev/16549",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "15K",
+     "metaText": "17:25",
+     "signature": "",
+     "reactions": [
+      "❤46",
+      "👍13",
+      "❤‍🔥10",
+      "👀6",
+      "🔥5",
+      "🌚1"
+     ],
+     "media": [
+      {
+       "type": "not-supported",
+       "text": "Please open Telegram to view this post"
+      }
+     ]
+    }
+   ],
+   "empty": ""
+  }
+ }
+}

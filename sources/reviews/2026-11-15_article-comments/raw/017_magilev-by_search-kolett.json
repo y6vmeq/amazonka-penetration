@@ -1,0 +1,44 @@
+{
+ "query": "Колетт",
+ "finalUrl": "https://magilev.by/search/?query=%D0%9A%D0%BE%D0%BB%D0%B5%D1%82%D1%82",
+ "waitedMs": 900,
+ "stop": "нет кнопки «Вперед»",
+ "captchaFrames": [
+  "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdY-8QUAAAAAMKjt1mjAiBx1gpq_QIuUx9bLQ2k&co=aHR0cHM6Ly9tYWdpbGV2LmJ5OjQ0Mw..&hl=ru&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=xp918hya1d34"
+ ],
+ "pages": [
+  {
+   "page": 1,
+   "at": "2026-11-15T14:05:12.243Z",
+   "url": "https://magilev.by/search/?query=%D0%9A%D0%BE%D0%BB%D0%B5%D1%82%D1%82",
+   "items": [
+    {
+     "href": "https://magilev.by/news/2026/11/15/chislo-milliarderov-v-mire-sokratilos-vsemu-vinoj-lyubovnicy-dzhensena-huanga",
+     "text": "Число миллиардеров в мире сократилось – всему виной любовницы Дженсена Хуанга 15.11.2026"
+    },
+    {
+     "href": "https://magilev.by/news/2024/11/01/belorusskoe-blyudo-no-hrustit-po-francuzski-ocenili-festivalnyj-set-ot-restorana-colette",
+     "text": "«Белорусское блюдо, но хрустит по-французски». Оценили фестивальный сет от ресторана «Colette» 01.11.2024"
+    },
+    {
+     "href": "https://magilev.by/news/2023/09/19/kofejnyj-festival-v-mogileve-dolce-vita-v-restobare-kolett",
+     "text": "Кофейный фестиваль в Могилеве: Dolce Vita в рестобаре «Колетт» 19.09.2023"
+    },
+    {
+     "href": "https://magilev.by/news/2023/08/10/neozhidanno-samoe-dorogoe-v-obedennom-menyu-molochnyj-koktejl-testiruem-mogilevskij-restobar-kolett",
+     "text": "Неожиданно: самое дорогое в обеденном меню – молочный коктейль. Тестируем могилевский рестобар «Колетт» 10.08.2023"
+    },
+    {
+     "href": "https://magilev.by/news/2023/06/30/festival-belorusskoj-kuhni-v-mogileve-eda-krasivaya-no-bez-sharma-v-kafe-restobar-kolett",
+     "text": "Фестиваль белорусской кухни в Могилеве: еда красивая, но без шарма в кафе «Рестобар «Колетт» 30.06.2023"
+    },
+    {
+     "href": "https://magilev.by/news/2023/06/22/ne-gastrofest-no-pohozhe-v-mogileve-nedelyu-budet-prohodit-festival-belorusskoj-kuhni",
+     "text": "Не «Гастрофест», но похоже. В Могилеве неделю проходит фестиваль белорусской кухни (дополняется) 22.06.2023"
+    }
+   ],
+   "text": "Искать\nЧисло миллиардеров в мире сократилось – всему виной любовницы Дженсена Хуанга\n15.11.2026\n«Белорусское блюдо, но хрустит по-французски». Оценили фестивальный сет от ресторана «Colette»\n01.11.2024\nКофейный фестиваль в Могилеве: Dolce Vita в рестобаре «Колетт»\n19.09.2023\nНеожиданно: самое дорогое в обеденном меню – молочный коктейль. Тестируем могилевский рестобар «Колетт»\n10.08.2023\nФестиваль белорусской кухни в Могилеве: еда красивая, но без шарма в кафе «Рестобар «Колетт»\n30.06.2023\nНе «Гастрофест», но похоже. В Могилеве неделю проходит фестиваль белорусской кухни (дополняется)\n22.06.2023",
+   "html": "<div class=\"search-page__form\"><div id=\"search-form-root\"><div class=\"_root_1ir2g_1\"><ul class=\"_root_n6j9z_1 _hidden_n6j9z_8\"></ul><form class=\"_form_1ir2g_7\"><input class=\"_root_1h2nr_1 _input_1ir2g_13\" placeholder=\"Введите текст для поиска\" minlength=\"3\" maxlength=\"255\" type=\"text\" value=\"Колетт\" name=\"query\"><button class=\"button button_primary\">Искать</button></form><div class=\"_list_1ir2g_20\"><article class=\"_card_1ir2g_55\"><div class=\"_card__imgwr_1ir2g_67\"><a href=\"/news/2026/11/15/chislo-milliarderov-v-mire-sokratilos-vsemu-vinoj-lyubovnicy-dzhensena-huanga\"><img class=\"_card__img_1ir2g_67\" alt=\"Число миллиардеров в мире сократилось – всему виной любовницы Дженсена Хуанга\" src=\"https://media.magilev.by/gYEgAAAAAAEuguUlgXI/list-305.webp\"></a></div><main class=\"_card__main_1ir2g_80\"><a href=\"/news/2026/11/15/chislo-milliarderov-v-mire-sokratilos-vsemu-vinoj-lyubovnicy-dzhensena-huanga\"><h3 class=\"_card__title_1ir2g_87\">Число миллиардеров в мире сократилось – всему виной любовницы Дженсена Хуанга</h3></a><time datetime=\"2026-11-15T12:00:00Z\" class=\"_card__created_1ir2g_94\">15.11.2026</time></main></article><article class=\"_card_1ir2g_55\"><div class=\"_card__imgwr_1ir2g_67\"><a href=\"/news/2024/11/01/belorusskoe-blyudo-no-hrustit-po-francuzski-ocenili-festivalnyj-set-ot-restorana-colette\"><img class=\"_card__img_1ir2g_67\" alt=\"«Белорусское блюдо, но хрустит по-французски». Оценили фестивальный сет от ресторана «Colette»\" src=\"https://media.magilev.by/gVKQAAAAAADRZOF4BaA/list-305.webp\"></a></div><main class=\"_card__main_1ir2g_80\"><a href=\"/news/2024/11/01/belorusskoe-blyudo-no-hrustit-po-francuzski-ocenili-festivalnyj-set-ot-restorana-colette\"><h3 class=\"_card__title_1ir2g_87\">«Белорусское блюдо, но хрустит по-французски». Оценили фестивальный сет от ресторана «Colette»</h3></a><time datetime=\"2024-11-01T09:00:00Z\" class=\"_card__created_1ir2g_94\">01.11.2024</time></main></article><article class=\"_card_1ir2g_55\"><div class=\"_card__imgwr_1ir2g_67\"><a href=\"/news/2023/09/19/kofejnyj-festival-v-mogileve-dolce-vita-v-restobare-kolett\"><img class=\"_card__img_1ir2g_67\" alt=\"Кофейный фестиваль в Могилеве: Dolce Vita в рестобаре «Колетт»\" src=\"https://media.magilev.by/gTkAAAAAAADCsKF4BpM/list-305.webp\"></a></div><main class=\"_card__main_1ir2g_80\"><a href=\"/news/2023/09/19/kofejnyj-festival-v-mogileve-dolce-vita-v-restobare-kolett\"><h3 class=\"_card__title_1ir2g_87\">Кофейный фестиваль в Могилеве: Dolce Vita в рестобаре «Колетт»</h3></a><time datetime=\"2023-09-19T06:10:00Z\" class=\"_card__created_1ir2g_94\">19.09.2023</time></main></article><article class=\"_card_1ir2g_55\"><div class=\"_card__imgwr_1ir2g_67\"><a href=\"/news/2023/08/10/neozhidanno-samoe-dorogoe-v-obedennom-menyu-molochnyj-koktejl-testiruem-mogilevskij-restobar-kolett\"><img class=\"_card__img_1ir2g_67\" alt=\"Неожиданно: самое дорогое в обеденном меню – молочный коктейль. Тестируем могилевский рестобар «Колетт»\" src=\"https://media.magilev.by/gTaQAAAAAADBTaFkBCo/list-305.webp\"></a></div><main class=\"_card__main_1ir2g_80\"><a href=\"/news/2023/08/10/neozhidanno-samoe-dorogoe-v-obedennom-menyu-molochnyj-koktejl-testiruem-mogilevskij-restobar-kolett\"><h3 class=\"_card__title_1ir2g_87\">Неожиданно: самое дорогое в обеденном меню – молочный коктейль. Тестируем могилевский рестобар «Колетт»</h3></a><time datetime=\"2023-08-10T14:00:34Z\" class=\"_card__created_1ir2g_94\">10.08.2023</time></main></article><article class=\"_card_1ir2g_55\"><div class=\"_card__imgwr_1ir2g_67\"><a href=\"/news/2023/06/30/festival-belorusskoj-kuhni-v-mogileve-eda-krasivaya-no-bez-sharma-v-kafe-restobar-kolett\"><img class=\"_card__img_1ir2g_67\" alt=\"Фестиваль белорусской кухни в Могилеве: еда красивая, но без шарма в кафе «Рестобар «Колетт»\" src=\"https://media.magilev.by/gTQAAAAAAAC_cqF4BZQ/list-305.webp\"></a></div><main class=\"_card__main_1ir2g_80\"><a href=\"/news/2023/06/30/festival-belorusskoj-kuhni-v-mogileve-eda-krasivaya-no-bez-sharma-v-kafe-restobar-kolett\"><h3 class=\"_card__title_1ir2g_87\">Фестиваль белорусской кухни в Могилеве: еда красивая, но без шарма в кафе «Рестобар «Колетт»</h3></a><time datetime=\"2023-06-30T15:00:00Z\" class=\"_card__created_1ir2g_94\">30.06.2023</time></main></article><article class=\"_card_1ir2g_55\"><div class=\"_card__imgwr_1ir2g_67\"><a href=\"/news/2023/06/22/ne-gastrofest-no-pohozhe-v-mogileve-nedelyu-budet-prohodit-festival-belorusskoj-kuhni\"><img class=\"_card__img_1ir2g_67\" alt=\"Не «Гастрофест», но похоже. В Могилеве неделю проходит фестиваль белорусской кухни (дополняется)\" src=\"https://media.magilev.by/gTOAAAAAAAC_G2FQA1Y/list-305.webp\"></a></div><main class=\"_card__main_1ir2g_80\"><a href=\"/news/2023/06/22/ne-gastrofest-no-pohozhe-v-mogileve-nedelyu-budet-prohodit-festival-belorusskoj-kuhni\"><h3 class=\"_card__title_1ir2g_87\">Не «Гастрофест», но похоже. В Могилеве неделю проходит фестиваль белорусской кухни (дополняется)</h3></a><time datetime=\"2023-06-22T14:26:36Z\" class=\"_card__created_1ir2g_94\">22.06.2023</time></main></article></div></div></div></div>"
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "number": 164,
+ "url": "https://t.me/moymogilev/51028?embed=1&discussion=1&comments_limit=100",
+ "title": "Telegram Widget",
+ "at": "2026-11-15T14:32:40.320Z",
+ "html": "raw/164_t-me_tg-moymogilev-51028-discussion.html",
+ "txt": "raw/164_t-me_tg-moymogilev-51028-discussion.txt",
+ "sha256": "a6603fcb175468fa3ec031ff6054e2be35b6a422612a622bce909be6e47ce968",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 12,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_widget body_widget_discussion emoji_image force_userpic nodark name_nocolor",
+    "textLen": 205,
+    "text": "2 comments on this post Анна Буторина О, а мы сами такие улитки готовили. Не зашло. Жареное салко получше будет. Nov 6, 2025 edited Отдых в Беларуси 🏰 Прощай ф"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_header_wrap",
+    "textLen": 23,
+    "text": "2 comments on this post"
+   },
+   {
+    "tag": "H3",
+    "id": "",
+    "cls": "tgme_post_discussion_header",
+    "textLen": 23,
+    "text": "2 comments on this post"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion js-message_history",
+    "textLen": 163,
+    "text": "Анна Буторина О, а мы сами такие улитки готовили. Не зашло. Жареное салко получше будет. Nov 6, 2025 edited Отдых в Беларуси 🏰 Прощай фигура! 🤦🏼‍♀️ Nov 6, 20"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 94,
+    "text": " Анна Буторина О, а мы сами такие улитки готовили. Не зашло. Жареное салко получше будет. "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 74,
+    "text": "О, а мы сами такие улитки готовили. Не зашло. Жареное салко получше будет."
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_reply_template js-reply_tpl",
+    "textLen": 48,
+    "text": " Отдых в Беларуси 🏰 Прощай фигура! 🤦🏼‍♀️ "
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_widget_message_text js-message_reply_text",
+    "textLen": 22,
+    "text": "Прощай фигура! 🤦🏼‍♀️"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_footer",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "FORM",
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "tgme_post_discussion_login_btn accent_bghover js-login_btn",
+    "textLen": 17,
+    "text": "LOG IN TO COMMENT"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://oauth.tg.dev/js/telegram-widget.js?24",
+   "https://telegram.org/js/discussion-widget.js?10",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_post_discussion_new_message_form js-new_message_form",
+    "action": "",
+    "fields": [
+     "input:hidden:peer",
+     "input:hidden:top_msg_id",
+     "input:hidden:discussion_hash"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 205
+ },
+ "extra": {
+  "name": "tg_moymogilev_51028_discussion",
+  "status": 200,
+  "requested": "https://t.me/moymogilev/51028?embed=1&discussion=1&comments_limit=100",
+  "channel": "moymogilev",
+  "post": 51028,
+  "tgDiscussion": {
+   "url": "https://t.me/moymogilev/51028?embed=1&discussion=1&comments_limit=100",
+   "at": "2026-11-15T14:32:40.320Z",
+   "header": "2 comments on this post",
+   "error": "",
+   "comments": [
+    {
+     "id": "11175",
+     "author": "Анна Буторина",
+     "authorHref": "https://t.me/askela_17",
+     "text": "О, а мы сами такие улитки готовили. Не зашло. Жареное салко получше будет.",
+     "dateText": "Nov 6, 2025",
+     "datetime": "2025-11-06T10:53:10+00:00",
+     "url": "https://t.me/moymogilev/51028?comment=11175",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    },
+    {
+     "id": "11212",
+     "author": "Отдых в Беларуси 🏰",
+     "authorHref": "https://t.me/VisitToBelarus",
+     "text": "Прощай фигура! 🤦🏼‍♀️",
+     "dateText": "Nov 6, 2025",
+     "datetime": "2025-11-06T15:48:41+00:00",
+     "url": "https://t.me/moymogilev/51028?comment=11212",
+     "replyTo": null,
+     "forwardedFrom": "",
+     "views": "",
+     "metaText": "",
+     "signature": "",
+     "reactions": [],
+     "media": []
+    }
+   ],
+   "moreLeft": false,
+   "moreState": [
+    "tme_messages_more accent_bghover js-messages_more autoload hide|after=11212|before="
+   ],
+   "bodyText": "2 comments on this post\nАнна Буторина\nО, а мы сами такие улитки готовили. Не зашло. Жареное салко получше будет.\nNov 6, 2025  edited\nОтдых в Беларуси 🏰\nПрощай фигура! 🤦🏼‍♀️\nNov 6, 2025\nLOG IN TO COMMENT"
+  }
+ }
+}

@@ -1,0 +1,262 @@
+{
+ "url": "https://kartapokupok.by/ru/stores/store_select/?category=324305&city=4057",
+ "captured_at": "2026-11-15T11:03:19.713Z",
+ "title": "Наши партнеры в городе | Белгазпромбанк",
+ "data": {
+  "selected_city": "Могилев",
+  "selected_category": "Кафе, рестораны, продукты",
+  "partners_count": 61,
+  "partners": [
+   {
+    "href": "/ru/stores/store_select/aribion_181387/?city=4057",
+    "name": "Арибион"
+   },
+   {
+    "href": "/ru/stores/store_select/amazonka_180704/?city=4057",
+    "name": "АМАЗОНКА"
+   },
+   {
+    "href": "/ru/stores/store_select/khutorok_172714/?city=4057",
+    "name": "Хуторок"
+   },
+   {
+    "href": "/ru/stores/store_select/mogoteks_15415/?city=4057",
+    "name": "Моготекс"
+   },
+   {
+    "href": "/ru/stores/store_select/mimino_161004/?city=4057",
+    "name": "Мимино"
+   },
+   {
+    "href": "/ru/stores/store_select/bremen_166919/?city=4057",
+    "name": "Бремен"
+   },
+   {
+    "href": "/ru/stores/store_select/van-gog_166869/?city=4057",
+    "name": "Ван Гог"
+   },
+   {
+    "href": "/ru/stores/store_select/konditerskaya-madlen_166870/?city=4057",
+    "name": "Кондитерская \"Мадлен\""
+   },
+   {
+    "href": "/ru/stores/store_select/edison_167428/?city=4057",
+    "name": "Эдисон"
+   },
+   {
+    "href": "/ru/stores/store_select/tsokol_172482/?city=4057",
+    "name": "Цоколь"
+   },
+   {
+    "href": "/ru/stores/store_select/turist-_162777/?city=4057",
+    "name": "Турист"
+   },
+   {
+    "href": "/ru/stores/store_select/mogilevturist_162776/?city=4057",
+    "name": "Могилевтурист"
+   },
+   {
+    "href": "/ru/stores/store_select/bar-v-gostinitse-turist_162773/?city=4057",
+    "name": "Бар в гостинице Турист"
+   },
+   {
+    "href": "/ru/stores/store_select/lakomka_162775/?city=4057",
+    "name": "Лакомка"
+   },
+   {
+    "href": "/ru/stores/store_select/gradus_96005/?city=4057",
+    "name": "Градус"
+   },
+   {
+    "href": "/ru/stores/store_select/svezhan_179056/?city=4057",
+    "name": "Свежан"
+   },
+   {
+    "href": "/ru/stores/store_select/smart-coffee_178388/?city=4057",
+    "name": "Smart Coffee"
+   },
+   {
+    "href": "/ru/stores/store_select/tsentralnaya-kofeynya_178176/?city=4057",
+    "name": "Центральная кофейня"
+   },
+   {
+    "href": "/ru/stores/store_select/mak-by_177747/?city=4057",
+    "name": "Mak.by"
+   },
+   {
+    "href": "/ru/stores/store_select/barbekkyu_159381/?city=4057",
+    "name": "Барбеккю"
+   },
+   {
+    "href": "/ru/stores/store_select/parmezan_6793/?city=4057",
+    "name": "Пармезан"
+   },
+   {
+    "href": "/ru/stores/store_select/belladzhio_6792/?city=4057",
+    "name": "Белладжио"
+   },
+   {
+    "href": "/ru/stores/store_select/parmezan-_168024/?city=4057",
+    "name": "Пармезан"
+   },
+   {
+    "href": "/ru/stores/store_select/shava-bro_177050/?city=4057",
+    "name": "Шава БРО"
+   },
+   {
+    "href": "/ru/stores/store_select/kofe-in_176654/?city=4057",
+    "name": "Кофе in"
+   },
+   {
+    "href": "/ru/stores/store_select/pecherskoe-predmeste_175680/?city=4057",
+    "name": "Печерское предместье"
+   },
+   {
+    "href": "/ru/stores/store_select/svoya-kofeynya_174647/?city=4057",
+    "name": "Своя кофейня"
+   },
+   {
+    "href": "/ru/stores/store_select/royal-club_174567/?city=4057",
+    "name": "ROYAL CLUB"
+   },
+   {
+    "href": "/ru/stores/store_select/star-food_174566/?city=4057",
+    "name": "STAR FOOD"
+   },
+   {
+    "href": "/ru/stores/store_select/neko-sushi_174107/?city=4057",
+    "name": "Нэко суши"
+   },
+   {
+    "href": "/ru/stores/store_select/contrabanda_169309/?city=4057",
+    "name": "CONTRABANDA"
+   },
+   {
+    "href": "/ru/stores/store_select/veselye-samurai_168603/?city=4057",
+    "name": "Веселые самураи"
+   },
+   {
+    "href": "/ru/stores/store_select/contrabanda_166881/?city=4057",
+    "name": "Contrabanda"
+   },
+   {
+    "href": "/ru/stores/store_select/pitstsa-mario_166635/?city=4057",
+    "name": "Пицца Марио"
+   },
+   {
+    "href": "/ru/stores/store_select/russkiy-dom_166383/?city=4057",
+    "name": "Русский дом"
+   },
+   {
+    "href": "/ru/stores/store_select/karchma-na-shklo-skim-bazary_164096/?city=4057",
+    "name": "Карчма на Шклоўскім базары"
+   },
+   {
+    "href": "/ru/stores/store_select/mogilev_127206/?city=4057",
+    "name": "Могилев"
+   },
+   {
+    "href": "/ru/stores/store_select/pizza-smile_171864/?city=4057",
+    "name": "Pizza Smile"
+   },
+   {
+    "href": "/ru/stores/store_select/myata_162213/?city=4057",
+    "name": "Мята"
+   },
+   {
+    "href": "/ru/stores/store_select/zelenka_173847/?city=4057",
+    "name": "Zеленка"
+   },
+   {
+    "href": "/ru/stores/store_select/fudzhi_173475/?city=4057",
+    "name": "Фуджи"
+   },
+   {
+    "href": "/ru/stores/store_select/romashka_172587/?city=4057",
+    "name": "Ромашка"
+   },
+   {
+    "href": "/ru/stores/store_select/karamelnaya-sova_172349/?city=4057",
+    "name": "Карамельная Сова"
+   },
+   {
+    "href": "/ru/stores/store_select/vasya-sushi_171989/?city=4057",
+    "name": "Вася, Суши"
+   },
+   {
+    "href": "/ru/stores/store_select/palermo_171223/?city=4057",
+    "name": "Палермо"
+   },
+   {
+    "href": "/ru/stores/store_select/kapibara_170755/?city=4057",
+    "name": "Капибара"
+   },
+   {
+    "href": "/ru/stores/store_select/mini-kafe_170645/?city=4057",
+    "name": "Мини-кафе"
+   },
+   {
+    "href": "/ru/stores/store_select/mini-kafe_170627/?city=4057",
+    "name": "Мини-кафе"
+   },
+   {
+    "href": "/ru/stores/store_select/ip-kapuza-p-v_170507/?city=4057",
+    "name": "ИП Капуза П.В."
+   },
+   {
+    "href": "/ru/stores/store_select/kofeynya_170285/?city=4057",
+    "name": "Кофейня"
+   },
+   {
+    "href": "/ru/stores/store_select/snovskiy_166141/?city=4057",
+    "name": "Сновский"
+   },
+   {
+    "href": "/ru/stores/store_select/vkusnyy_166143/?city=4057",
+    "name": "Вкусный"
+   },
+   {
+    "href": "/ru/stores/store_select/chp-galanova-i-i-_166142/?city=4057",
+    "name": "ЧП \"Галанова И.И.\""
+   },
+   {
+    "href": "/ru/stores/store_select/gril_165462/?city=4057",
+    "name": "Гриль"
+   },
+   {
+    "href": "/ru/stores/store_select/tandyr_165389/?city=4057",
+    "name": "Тандыр"
+   },
+   {
+    "href": "/ru/stores/store_select/sportivnye-attraktsiony_165344/?city=4057",
+    "name": "Спортивные аттракционы"
+   },
+   {
+    "href": "/ru/stores/store_select/barbekyu_165066/?city=4057",
+    "name": "Барбекю"
+   },
+   {
+    "href": "/ru/stores/store_select/shtopor_6452/?city=4057",
+    "name": "Штопор"
+   },
+   {
+    "href": "/ru/stores/store_select/u-syabrov_18099/?city=4057",
+    "name": "У сябров"
+   },
+   {
+    "href": "/ru/stores/store_select/gabrovo_12964/?city=4057",
+    "name": "Габрово"
+   },
+   {
+    "href": "/ru/stores/store_select/pan-bulban_11637/?city=4057",
+    "name": "«Пан Бульбан»"
+   }
+  ],
+  "partners_matching_amazonka": [
+   {
+    "href": "/ru/stores/store_select/amazonka_180704/?city=4057",
+    "name": "АМАЗОНКА"
+   }
+  ]
+ }
+}

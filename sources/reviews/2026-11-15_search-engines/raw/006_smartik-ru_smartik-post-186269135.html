@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Проверка безопасности — smartik.ru</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{display:flex;justify-content:center;align-items:center;min-height:100vh;
+  font-family:system-ui,-apple-system,sans-serif;background:#f0f2f5;color:#333}
+.w{background:#fff;border-radius:12px;padding:40px 32px;text-align:center;
+  max-width:400px;width:90%;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+h1{font-size:18px;font-weight:600;margin-bottom:8px}
+p{font-size:14px;color:#666;margin-bottom:24px}
+button{width:100%;padding:14px 24px;font-size:16px;font-weight:500;
+  border:none;border-radius:8px;cursor:pointer;transition:all .2s;
+  background:#e0e0e0;color:#999}
+button.ready{background:#2563eb;color:#fff}
+button.ready:hover{background:#1d4ed8}
+button:disabled{cursor:not-allowed}
+.f{font-size:12px;color:#aaa;margin-top:20px}
+noscript p{color:#c00;font-weight:500}
+.err{display:none;color:#c00;font-size:14px;margin-top:16px}
+</style>
+</head>
+<body>
+<div class="w">
+  <h1>Проверка безопасности</h1>
+  <p>Для продолжения нажмите кнопку</p>
+  <button id="btn" disabled>Подождите... 2</button>
+  <div id="err" class="err">Не удалось пройти проверку. Попробуйте обновить страницу.</div>
+  <noscript><p>Для продолжения необходимо включить JavaScript.</p></noscript>
+  <div class="f">smartik.ru</div>
+</div>
+<script>
+(function(){
+  var T='1794740038.d252fbbc35cab49b.05131ce0c37ac8a21cdcf93ad5630389';
+  var btn=document.getElementById('btn');
+  var errEl=document.getElementById('err');
+  var moved=false;
+  var ready=false;
+  var countdown=2;
+  var startTime=Date.now();
+
+  // Detect headless Chrome / automation
+  if(navigator.webdriver){
+    btn.style.display='none';
+    errEl.style.display='block';
+    errEl.textContent='Автоматический доступ запрещён.';
+    return;
+  }
+
+  var retries=0;
+  try{retries=parseInt(sessionStorage.getItem('_scc')||'0',10)}catch(e){}
+  if(retries>=3){
+    btn.style.display='none';
+    errEl.style.display='block';
+    errEl.textContent='Слишком много попыток. Попробуйте позже.';
+    return;
+  }
+
+  document.addEventListener('mousemove',function(){moved=true},{once:true});
+  document.addEventListener('touchstart',function(){moved=true},{once:true});
+
+  var iv=setInterval(function(){
+    countdown--;
+    if(countdown>0){
+      btn.textContent='Подождите... '+countdown;
+    }else{
+      clearInterval(iv);
+      btn.textContent='Продолжить';
+      btn.disabled=false;
+      btn.classList.add('ready');
+      ready=true;
+    }
+  },1000);
+
+  btn.addEventListener('click',function(e){
+    if(!ready)return;
+    if(!e.isTrusted){
+      errEl.style.display='block';
+      return;
+    }
+    if(Date.now()-startTime<1500){
+      errEl.style.display='block';
+      return;
+    }
+    try{sessionStorage.setItem('_scc',String(retries+1))}catch(e){}
+    document.cookie='_sc='+T+';path=/;max-age=86400;SameSite=Lax;Secure';
+    location.reload();
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,231 @@
+{
+ "url": "https://lkfl.portal.nalog.gov.by/debtor/",
+ "captured_at": "2026-11-15T11:24:52.038Z",
+ "title": "ГРП. Сведения о субъектах хозяйствования, имеющие задолженность перед бюджетом",
+ "data": {
+  "inputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "name": "",
+    "id": "",
+    "placeholder": "УНП",
+    "value": "",
+    "disabled": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "name": "",
+    "id": "",
+    "placeholder": "Наименование",
+    "value": "",
+    "disabled": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "name": "",
+    "id": "",
+    "placeholder": "Дата",
+    "value": "01.11.2026",
+    "disabled": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "name": "",
+    "id": "",
+    "placeholder": "Область",
+    "value": "",
+    "disabled": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "name": "",
+    "id": "",
+    "placeholder": "ИМНС",
+    "value": "",
+    "disabled": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "name": "",
+    "id": "",
+    "placeholder": "",
+    "value": "25 записей",
+    "disabled": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "",
+    "id": "gwt-uid-48",
+    "placeholder": "",
+    "value": false,
+    "disabled": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "name": "",
+    "id": "",
+    "placeholder": "",
+    "value": "Текущая страница",
+    "disabled": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "value": "",
+    "disabled": false
+   }
+  ],
+  "iframes": [
+   "javascript:''",
+   "",
+   ""
+  ],
+  "note": "Поля формы и кнопка «Поиск» отключены, пока не отмечена галочка «Я не робот». Галочка не нажималась, поиск не выполнялся."
+ }
+}

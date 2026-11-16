@@ -1,0 +1,1 @@
+Файл 198_core-justbel-info_justbel-api-liquidation-control.json удалён агентом official 15.11.2026: контрольный запрос без фильтра к core.justbel.info (проверка, что сервис отвечает; itemsCount 392214, последние публикации от 13.11.2026) содержал данные посторонних лиц. URL, время и SHA-256 остались в manifest.jsonl.

@@ -1,0 +1,32 @@
+{
+ "number": 282,
+ "url": "https://people.onliner.by/sdapi/catalog/search/iframe?referrer=https://people.onliner.by/",
+ "title": "Поиск",
+ "at": "2026-11-15T17:14:33.455Z",
+ "html": "raw/282_people-onliner-by_onliner-search-amazonka-restobar.html",
+ "txt": "raw/282_people-onliner-by_onliner-search-amazonka-restobar.txt",
+ "sha256": "710e01e962b495d56aa575724c4e8e891cce0e5f3a04af454acdd733efd59573",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 193
+ },
+ "extra": {
+  "name": "onliner-search_amazonka-restobar",
+  "status": 200,
+  "requested": "https://people.onliner.by/ (поле «Поиск в Новостях»)",
+  "site": "people.onliner.by",
+  "query": "Амазонка рестобар",
+  "period": "В любом разделе | За все время | Сначала релевантные",
+  "activeTab": "в новостях",
+  "links": [],
+  "summary": "Амазонка рестобар Ничего не найдено в каталоге в новостях на барахолке на форуме В любом разделе За все время Сначала релевантные Только с видео 0 товаров в ср"
+ }
+}

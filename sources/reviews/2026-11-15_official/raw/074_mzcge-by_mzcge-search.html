@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>УЗ "Могилёвский зональный центр гигиены и эпидемиологии"</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <style>
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+    overflow-x: hidden !important;
+}
+body { display: flex; flex-direction: column; min-height: 100vh; }
+.main-content { flex: 1 0 auto; }
+
+.parallax {
+    background: linear-gradient(90deg, #d9ece0 0%, #f4faf6 40%, #ffffff 50%, #f4faf6 60%, #d9ece0 100%);
+    min-height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    color: #555555;
+    padding-top: 130px;
+    padding-bottom: 40px;
+}
+
+/* ===== ШАПКА ===== */
+.site-header {
+    background: #f7f9f8;
+    position: fixed; top: 0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border-bottom: 1px solid #e8ece9;
+}
+.header-top {
+    max-width: 1200px; margin: 0 auto;
+    padding: 12px 20px;
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 14px;
+}
+.header-top .brand {
+    font-weight: 700; color: #333; font-size: 16px;
+    text-decoration: none; line-height: 1.3;
+    flex: 1 1 auto; min-width: 200px;
+}
+.header-top .brand:hover { color: #4CAF50; }
+.header-right { display: flex; align-items: center; gap: 8px; flex: 0 0 auto; }
+.header-right a {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 38px; height: 38px; border-radius: 50%;
+    background: #eef3f0; color: #4CAF50; text-decoration: none; font-size: 16px;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+.header-right a:hover { background: #4CAF50; color: #fff; transform: translateY(-1px); }
+.burger {
+    display: none; background: transparent;
+    border: 1px solid #d9e3dd; border-radius: 8px;
+    padding: 8px 12px; color: #4CAF50; font-size: 20px; cursor: pointer;
+}
+.main-nav { background: #f7f9f8; border-top: 1px solid #eef3f0; }
+.nav-inner {
+    max-width: 1200px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: center;
+    padding: 0 20px; flex-wrap: wrap; row-gap: 0;
+}
+.nav-item { position: relative; }
+.nav-item > a {
+    display: flex; align-items: center; gap: 6px;
+    padding: 14px 18px; color: #555; text-decoration: none;
+    font-size: 14px; font-weight: 600;
+    border-bottom: 3px solid transparent;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+    white-space: nowrap;
+}
+.nav-item > a .caret {
+    border-top: none !important; width: auto !important; height: auto !important;
+    margin: 0 !important; color: #555; opacity: 0.7; font-size: 10px;
+    display: inline-block; transition: transform 0.2s;
+}
+.nav-item:hover > a {
+    color: #2e7d32; border-bottom-color: #4CAF50; background: #fafdfb;
+}
+.nav-item:hover > a .caret { transform: rotate(180deg); color: #2e7d32; }
+.mega-panel {
+    position: absolute; top: 100%; left: 50%;
+    transform: translateX(-50%) translateY(8px);
+    background: #fff; border: 1px solid #e8ecf0;
+    border-radius: 0 0 14px 14px;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.10);
+    padding: 20px 24px; min-width: 560px;
+    opacity: 0; visibility: hidden; pointer-events: none;
+    transition: opacity 0.22s ease, transform 0.22s ease, visibility 0.22s;
+    z-index: 200;
+    display: grid; grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 6px 24px;
+}
+.nav-item:hover .mega-panel {
+    opacity: 1; visibility: visible; pointer-events: auto;
+    transform: translateX(-50%) translateY(0);
+}
+.mega-panel.single { grid-template-columns: 1fr; min-width: 300px; }
+.mega-col-title {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 1px;
+    color: #4CAF50; font-weight: 700;
+    margin: 4px 0 8px; padding-bottom: 6px; border-bottom: 1px solid #eef3f0;
+}
+.mega-link {
+    display: block; padding: 8px 12px; color: #555; text-decoration: none;
+    font-size: 13px; border-left: 3px solid transparent; border-radius: 6px;
+    transition: background 0.15s, border-color 0.15s, color 0.15s; line-height: 1.4;
+}
+.mega-link:hover { background: #f1faf3; border-left-color: #4CAF50; color: #2e7d32; }
+
+/* ===== Ссылки ===== */
+a:focus { text-decoration: none; color: #555555; }
+a:link { color: #555555; background-color: transparent; text-decoration: none; }
+a:visited { color: #555555; background-color: transparent; text-decoration: none; }
+a:hover { color: #4CAF50; background-color: transparent; text-decoration: none; }
+a:active { color: red; background-color: transparent; text-decoration: none; }
+
+/* ===== Хлебные крошки ===== */
+.breadcrumb {
+    background-color: transparent; padding: 8px 0;
+    margin-bottom: 20px; font-size: 13px;
+}
+.breadcrumb > li > a { color: #4CAF50; text-decoration: none; }
+.breadcrumb > li > a:hover { color: #2e7d32; text-decoration: underline; }
+.breadcrumb > .active { color: #555; }
+
+/* ===== Полная ширина ===== */
+.full-width-bg {
+    width: 100vw !important; position: relative;
+    left: 50%; right: 50%;
+    margin-left: -50vw !important; margin-right: -50vw !important;
+}
+
+/* ===== ФУТЕР ===== */
+.myFooter h4 { text-decoration: none; }
+.myFooter a { color: #333333; text-decoration: none; }
+.myFooter a:hover, .myFooter a:focus { text-decoration: none; color: #4CAF50; }
+.myFooter .social-networks { text-align: center; padding-top: 30px; padding-bottom: 38px; }
+.myFooter .fa {
+    font-size: 30px; margin-right: 15px; margin-left: 20px;
+    background-color: #ffffff; color: #4CAF50; border-radius: 51%;
+    padding: 10px; height: 50px; width: 50px; text-align: center; line-height: 31px;
+    text-decoration: none; transition: color 0.2s, background 0.2s;
+}
+.myFooter .fa-telegram:hover { color: #249bd7; }
+.myFooter .fa-instagram:hover { color: #125688; }
+.footer-contacts-single {
+    margin: 20px auto 0; padding: 16px 22px;
+    background: rgba(255, 255, 255, 0.65); border-radius: 12px; border-left: 4px solid #4CAF50;
+}
+.footer-contacts-single .fc-line {
+    display: flex; align-items: flex-start; gap: 10px; padding: 8px 0;
+    font-size: 14px; line-height: 1.5; color: #333333;
+    border-bottom: 1px dashed #cfdcd4;
+}
+.footer-contacts-single .fc-line:last-child { border-bottom: none; }
+.footer-contacts-single .fc-icon {
+    color: #4CAF50; font-size: 15px; flex-shrink: 0; margin-top: 2px;
+    width: 20px; text-align: center;
+}
+.footer-contacts-single .fc-label { font-weight: 700; color: #2e7d32; flex-shrink: 0; }
+.footer-contacts-single .fc-text { color: #333333; word-break: break-word; }
+.footer-contacts-single .fc-text a { color: #4CAF50; text-decoration: none; }
+.footer-contacts-single .fc-text a:hover { text-decoration: underline; }
+.footer-contacts-single .parent-org-link { color: #333333; text-decoration: none; font-weight: 400; }
+.footer-contacts-single .parent-org-link:hover { color: #4CAF50; text-decoration: underline; }
+
+/* ============================================================ */
+/* CONTENT                                                       */
+/* ============================================================ */
+.content-page-title {
+    font-size: 22px; font-weight: 700; color: #2e7d32;
+    margin: 0 0 18px; padding-left: 14px;
+    border-left: 5px solid #4CAF50;
+}
+
+/* Карточка поиска */
+.search-card {
+    background: #fff;
+    border: 1px solid #e8ecf0;
+    border-left: 5px solid #4CAF50;
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+}
+.search-card .sc-title {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 16px; font-weight: 700; color: #2e7d32;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eef3f0;
+}
+.search-card .sc-title .sc-icon {
+    width: 32px; height: 32px; flex: 0 0 32px;
+    border-radius: 50%; background: #e8f5e9; color: #4CAF50;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 14px;
+}
+/* Google CSE — стилизация контейнера */
+.search-card .gsc-control-cse,
+.search-card .gsc-control-wrapper-cse {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+.search-card .gsc-input-box {
+    border-radius: 8px !important;
+    border-color: #dde5e1 !important;
+}
+.search-card .gsc-search-button-v2 {
+    border-radius: 8px !important;
+    background: #4CAF50 !important;
+    border-color: #4CAF50 !important;
+}
+.search-card .gsc-search-button-v2:hover { background: #388E3C !important; }
+.search-card .gsc-results .gsc-webResult.gsc-result {
+    border-left: 3px solid #4CAF50;
+    padding-left: 10px;
+    margin-bottom: 14px;
+}
+.search-card .gsc-results .gs-title,
+.search-card .gsc-results .gs-title b {
+    color: #2e7d32 !important;
+}
+.search-card .gsc-results .gs-snippet {
+    color: #555 !important;
+    font-size: 13px !important;
+    line-height: 1.55 !important;
+}
+
+/* Карточка карты */
+.map-card {
+    background: #fff;
+    border: 1px solid #e8ecf0;
+    border-left: 5px solid #4CAF50;
+    border-radius: 14px;
+    padding: 14px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+}
+.map-card .map-wrap {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #eef3f0;
+}
+.map-card .map-wrap iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    border: 0;
+}
+
+@media (max-width: 480px) {
+    .content-page-title { font-size: 18px; }
+    .search-card { padding: 14px; }
+    .search-card .sc-title { font-size: 14px; }
+    .map-card { padding: 10px; }
+}
+
+/* ===== АДАПТИВ ШАПКИ ===== */
+@media (max-width: 992px) {
+    .parallax { padding-top: 130px; }
+    .header-top .brand { font-size: 14px; }
+    .burger { display: inline-flex; }
+    .main-nav { display: none; }
+    .main-nav.open { display: block; }
+    .nav-inner { flex-direction: column; align-items: stretch; padding: 0; flex-wrap: nowrap; }
+    .nav-item { width: 100%; }
+    .nav-item > a {
+        border-bottom: 1px solid #eef3f0;
+        border-left: 4px solid transparent;
+        justify-content: space-between; white-space: normal;
+    }
+    .nav-item:hover > a { border-bottom-color: #eef3f0; border-left-color: #4CAF50; }
+    .nav-item.open > a { border-left-color: #4CAF50; color: #2e7d32; }
+    .nav-item.open > a .caret { transform: rotate(180deg); }
+    .mega-panel {
+        position: static; transform: none; box-shadow: none;
+        border: none; border-radius: 0; padding: 10px 18px 14px;
+        min-width: auto; grid-template-columns: 1fr;
+        opacity: 1; visibility: visible; pointer-events: auto;
+        display: none; background: #fafdfb;
+    }
+    .nav-item:hover .mega-panel { transform: none; }
+    .nav-item.open .mega-panel { display: grid; }
+    .mega-col-title { margin-top: 10px; }
+}
+
+@media (max-width: 768px) {
+    .myFooter .fa {
+        font-size: 24px; margin-right: 10px; margin-left: 10px;
+        padding: 8px; height: 42px; width: 42px; line-height: 26px;
+    }
+    iframe { height: 200px !important; }
+}
+
+@media (max-width: 480px) {
+    .parallax { padding-top: 150px; }
+    .header-top .brand { font-size: 12px; min-width: 150px; }
+    .header-right a { width: 34px; height: 34px; font-size: 14px; }
+    .footer-contacts-single { padding: 12px 16px; margin: 16px 12px 0; }
+    .footer-contacts-single .fc-line { font-size: 13px; flex-wrap: wrap; gap: 6px; }
+    .myFooter .fa {
+        font-size: 20px; margin-right: 8px; margin-left: 8px;
+        padding: 6px; height: 36px; width: 36px; line-height: 24px;
+    }
+}
+
+  </style>
+  <meta name="google-site-verification" content="wQXrmiEJt5O4IJOvy-BDcuLGITU52_RqVXIcazPKLoA" />
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<div class="main-content">
+
+  <header class="site-header">
+    <div class="header-top">
+      <a href="../menu_exec.html" class="brand">УЗ "Могилёвский зональный центр гигиены и эпидемиологии"</a>
+      <div class="header-right">
+        <button class="burger" id="burger" aria-label="Меню">☰</button>
+        <a data-toggle="modal" href="#myModale" title="Выбор языка"><i class="fa fa-globe"></i></a>
+        <a href="search.html" title="Поиск по сайту"><i class="fa fa-search"></i></a>
+        <a href="#" class="bvi-open" title="Версия для слабовидящих"><i class="fa fa-eye"></i></a>
+      </div>
+    </div>
+
+    <nav class="main-nav" id="mainNav">
+      <div class="nav-inner">
+
+        <div class="nav-item">
+          <a href="#">О центре <span class="caret">▼</span></a>
+          <div class="mega-panel">
+            <div>
+              <div class="mega-col-title">Информация</div>
+              <a href="functions.html" class="mega-link">О задаче и функциях учреждения</a>
+              <a href="outline_history_organization.html" class="mega-link">Исторический очерк о центре</a>
+              <a href="history_100.html" class="mega-link">Об истории организации и становления санитарного дела</a>
+              <a href="branch.html" class="mega-link">Структурные подразделения</a>
+              <a href="in_tape_branch.html" class="mega-link">Информационные ленты структурных подразделений</a>
+            </div>
+            <div>
+              <div class="mega-col-title">Коллектив</div>
+              <a href="apersonal.html" class="mega-link">Административно-управленческий персонал</a>
+              <a href="vacancies.html" class="mega-link">Вакансии</a>
+              <a href="primary_trade_union_organization.html" class="mega-link">Первичная профсоюзная организация</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="#">Документы <span class="caret">▼</span></a>
+          <div class="mega-panel single">
+            <div>
+              <a href="document.html" class="mega-link">Документы</a>
+              <a href="aproced.html" class="mega-link">Административные процедуры</a>
+              <a href="../news/info_knd.html" class="mega-link">Контрольная (надзорная) деятельность</a>
+              <a href="public_health_risk_assessment.html" class="mega-link">Оценка риска для здоровья населения</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="#">Обращения <span class="caret">▼</span></a>
+          <div class="mega-panel">
+            <div>
+              <div class="mega-col-title">Для граждан</div>
+              <a href="citizen_appeals.html" class="mega-link">Обращения граждан и юридических лиц</a>
+              <a href="question_answer.html" class="mega-link">Задайте свой вопрос здесь</a>
+            </div>
+            <div>
+              <div class="mega-col-title">Прямая связь</div>
+              <a href="dirhotline.html" class="mega-link">Горячие и прямые телефонные линии</a>
+              <a href="anti_corruption_commission.html" class="mega-link">Комиссия по противодействию коррупции</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="#">Профилактика <span class="caret">▼</span></a>
+          <div class="mega-panel">
+            <div>
+              <div class="mega-col-title">Здоровье населения</div>
+              <a href="../health/healthy_lifestyle.html" class="mega-link">Здоровый образ жизни</a>
+              <a href="healthy_cities_towns.html" class="mega-link">Здоровые города и посёлки</a>
+              <a href="respiratory_diseases.html" class="mega-link">Профилактика ОРИ и гриппа</a>
+            </div>
+            <div>
+              <div class="mega-col-title">Обучение</div>
+              <a href="hygienic_trainings.html" class="mega-link">Гигиеническое обучение населения</a>
+              <a href="cybercrime_prevention.html" class="mega-link">Профилактика киберпреступности</a>
+              <a href="single_information_day.html" class="mega-link">Единый день информирования</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="#">Информация <span class="caret">▼</span></a>
+          <div class="mega-panel single">
+            <div>
+              <a href="information_tape.html" class="mega-link">Полезная информация</a>
+              <a href="in_tape_branch.html" class="mega-link">Информационные ленты структурных подразделений</a>
+              <a href="sd_goals_new.html" class="mega-link">Цели устойчивого развития</a>
+              <a href="applicant.html" class="mega-link">Абитуриенту</a>
+              <a href="personal-data-advice.html" class="mega-link">Советы по защите персональных данных</a>
+              <a href="linksy.html" class="mega-link">Ссылки</a>
+              <a href="contact.html" class="mega-link">Контакты</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="../services/servise.html">Услуги</a>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <div class="parallax">
+    <div class="container">
+      <ul class="breadcrumb">
+        <li><a href="../menu_exec.html">О центре</a></li>
+        <li class="active">Поиск по сайту</li>
+      </ul>
+
+      <h3 class="content-page-title">Поиск по сайту</h3>
+
+      <!-- ===== Поиск (Google CSE) ===== -->
+      <div class="search-card">
+        <div class="sc-title">
+          <span class="sc-icon"><i class="fa fa-search"></i></span>
+          <span>Что вы хотите найти?</span>
+        </div>
+
+        <div>
+          <script>
+            (function() {
+              var cx = '77ec4e08b70824b3f';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:search></gcse:search>
+        </div>
+      </div>
+
+      <!-- ===== Карта ===== -->
+      <div class="map-card">
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1175.1084810765722!2d30.3095451254533!3d53.910120404028476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1488801808304"
+            allowfullscreen="allowfullscreen"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="full-width-bg" style="background-color: #e8f0ea; color: #333333;">
+    <div class="container" style="padding-top: 20px; padding-bottom: 20px;">
+      <div class="row">
+        <div class="col-sm-12">
+           <p><div align="center" style="color:#333333; padding: 10px;">Учреждение здравоохранения "Могилёвский зональный центр гигиены и эпидемиологии"</div></p>
+        </div>
+      </div>
+      <div class="footer-contacts-single">
+        <div class="fc-line">
+            <span class="fc-icon glyphicon glyphicon-map-marker"></span>
+            <span class="fc-label">Адрес:</span>
+            <span class="fc-text">212022, Республика Беларусь, г. Могилёв, ул. Лазаренко, 66</span>
+        </div>
+        <div class="fc-line">
+            <span class="fc-icon glyphicon glyphicon-earphone"></span>
+            <span class="fc-label">Телефон/факс:</span>
+            <span class="fc-text">8 (0222) 62-74-68</span>
+        </div>
+        <div class="fc-line">
+            <span class="fc-icon glyphicon glyphicon-envelope"></span>
+            <span class="fc-label">E-mail:</span>
+            <span class="fc-text"><a href="mailto:mzcge@cge.by">mzcge@cge.by</a></span>
+        </div>
+        <div class="fc-line">
+            <span class="fc-icon glyphicon glyphicon-time"></span>
+            <span class="fc-label">Режим работы:</span>
+            <span class="fc-text">Пн–Пт: 8:00 – 17:00 · Обед: 13:00 – 14:00 · Сб, Вс — выходные</span>
+        </div>
+        <div class="fc-line">
+            <span class="fc-icon glyphicon glyphicon-link"></span>
+            <span class="fc-label">Вышестоящая организация:</span>
+            <span class="fc-text">
+                <a href="https://mcge.by/" target="_blank" rel="noopener" class="parent-org-link">
+                    Могилевский областной центр гигиены, эпидемиологии и общественного здоровья
+                </a>
+            </span>
+        </div>
+      </div>
+      <div style="padding: 0 15px;">
+        <iframe style="border:0; height: 240px; width: 100%; margin-top: 30px; margin-bottom: 10px;"
+        src="https://yandex.ru/map-widget/v1/-/CCUyJMec0B"></iframe>
+      </div>
+      <div class="myFooter">
+        <div class="social-networks">
+          <a href="https://www.instagram.com/mogilevzcge/?hl=ru" class="twitter"><i class="fa fa-instagram"></i></a>
+          <a href="https://t.me/uzmzcge" title="Telegram-канал Могилевского ЗонЦГЭ" class="telegram"><i class="fa fa-telegram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="full-width-bg" style="background-color: #2e3a35; color: #d2d1d1; margin-top: auto;">
+  <footer class="container text-center" style="padding-top: 15px; padding-bottom: 15px;">
+      <p>© 2009-2026 Copyright: УЗ "МЗЦГЭ" </p>
+      <a href="#myPage" title="НАВЕРХ" style="color: #d2d1d1;">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>НАВЕРХ</p>
+  </footer>
+</div>
+
+ <div class="modal fade" id="myModale">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header"><h4 class="modal-title"></h4></div>
+        <div class="modal-body">
+          <div id="google_translate_element" style="display:block"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть выбор языка</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: "ru"}, "google_translate_element");
+  }
+</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script>
+  (function () {
+    var burger = document.getElementById('burger');
+    var mainNav = document.getElementById('mainNav');
+    if (burger && mainNav) {
+      burger.addEventListener('click', function () { mainNav.classList.toggle('open'); });
+    }
+    document.querySelectorAll('.nav-item > a').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        if (window.innerWidth <= 992) {
+          var item = link.parentElement;
+          var panel = item.querySelector('.mega-panel');
+          if (panel) {
+            e.preventDefault();
+            item.classList.toggle('open');
+          }
+        }
+      });
+    });
+  })();
+</script>
+
+<script src="../assets/bvi.min.js"></script>
+<script>
+  new isvek.Bvi();
+</script>
+
+</body>
+</html>

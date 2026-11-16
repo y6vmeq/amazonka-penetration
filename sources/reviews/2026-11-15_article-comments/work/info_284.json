@@ -1,0 +1,133 @@
+{
+ "number": 284,
+ "url": "https://people.onliner.by/sdapi/catalog/search/iframe?referrer=https://people.onliner.by/",
+ "title": "Поиск",
+ "at": "2026-11-15T17:14:40.407Z",
+ "html": "raw/284_people-onliner-by_onliner-search-smak-by.html",
+ "txt": "raw/284_people-onliner-by_onliner-search-smak-by.txt",
+ "sha256": "c6798e8720ce13f63aaac648a071b15b7d9b43ce986bfc48830fd673654924ad",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 9,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 4,
+    "text": "ЛЮДИ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 12,
+    "text": "НЕДВИЖИМОСТЬ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 10,
+    "text": "ТЕХНОЛОГИИ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 5,
+    "text": "СПОРТ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 7,
+    "text": "КОШЕЛЕК"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 5,
+    "text": "СПОРТ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 10,
+    "text": "ТЕХНОЛОГИИ"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 7,
+    "text": "КОШЕЛЕК"
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "news__preview",
+    "textLen": 10,
+    "text": "ТЕХНОЛОГИИ"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [],
+  "textareas": 0,
+  "bodyTextLength": 4651
+ },
+ "extra": {
+  "name": "onliner-search_smak-by",
+  "status": 200,
+  "requested": "https://people.onliner.by/ (поле «Поиск в Новостях»)",
+  "site": "people.onliner.by",
+  "query": "Смак.BY",
+  "period": "В любом разделе | За все время | Сначала релевантные",
+  "activeTab": "в новостях",
+  "links": [
+   {
+    "href": "https://people.onliner.by/2012/11/23/meks",
+    "text": "В Мексике объявился хоррор-режиссер из Беларуси, который скрывает имя и носит маску"
+   },
+   {
+    "href": "https://realt.onliner.by/2014/02/17/brasil",
+    "text": "В Бразилии построили модульный микродом площадью 26 квадратных метров"
+   },
+   {
+    "href": "https://tech.onliner.by/2018/04/18/nasa-57",
+    "text": "Инженер NASA: «Первым человеком на Марсе должна быть женщина»"
+   },
+   {
+    "href": "https://sport.onliner.by/2026/05/11/tennisnye-xuligany",
+    "text": "Скандалят и ломают ракетки. Этих игроков считают главными хулиганами современного тенниса"
+   },
+   {
+    "href": "https://money.onliner.by/2026/07/28/visa-sokratit-okolo-2600-rabochix-mest-generalnyj-direktor-xochet-reorganizovat-kompaniyu",
+    "text": "Visa сократит около 2,6 тысячи рабочих мест — генеральный директор хочет реорганизовать компанию"
+   },
+   {
+    "href": "https://sport.onliner.by/2026/04/29/25-luchshix-sportivnyx-filmov",
+    "text": "25 лучших спортивных фильмов XXI века: рейтинг читателей Onlíner"
+   },
+   {
+    "href": "https://tech.onliner.by/2009/12/10/apple_mbpro_13",
+    "text": "Обзор ноутбука Apple MacBook Pro 13”"
+   },
+   {
+    "href": "https://money.onliner.by/2025/12/07/istoriya-saxara",
+    "text": "История сахара — не сладкая, а настоящая"
+   },
+   {
+    "href": "https://tech.onliner.by/2017/11/01/cinema-november-2",
+    "text": "Бэтмен, Рагнарек и Пуаро. Кинопремьеры ноября"
+   }
+  ],
+  "summary": "Смак.BY в каталоге в новостях на барахолке на форуме В любом разделе За все время Сначала релевантные Только с видео ЛЮДИ В Мексике объявился хоррор-режиссер"
+ }
+}

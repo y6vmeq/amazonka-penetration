@@ -1,0 +1,131 @@
+{
+ "number": 224,
+ "url": "https://komkur.info/component/search/?searchword=%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%B1%D0%B0%D1%80&searchphrase=exact&ordering=newest&limit=0",
+ "title": "Результаты поиска: рестобар - komkur.info",
+ "at": "2026-11-15T17:04:50.096Z",
+ "html": "raw/224_komkur-info_komkur-search-restobar.html",
+ "txt": "raw/224_komkur-info_komkur-search-restobar.txt",
+ "sha256": "00b04e6f261d5f3d08d93854f6fbb0e40ea9df71d035308c2ba65146f41084bc",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/component/finder/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:cd19a83bc8bc4614347f054dca815359"
+    ]
+   },
+   {
+    "id": "searchForm",
+    "cls": "",
+    "action": "/component/search/",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "input:radio:searchphrase",
+     "select:select-one:ordering"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 5089
+ },
+ "extra": {
+  "name": "komkur-search_restobar",
+  "status": 200,
+  "requested": "https://komkur.info/component/search/?searchword=%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%B1%D0%B0%D1%80&searchphrase=exact&ordering=newest&limit=0",
+  "site": "komkur.info",
+  "query": "рестобар",
+  "summary": "Результаты поиска: найдено 14 элементов.",
+  "links": [
+   {
+    "href": "https://komkur.info/money/festival-edy-zimovy-smak-v-resto-bare-colette-rebenok-i-pitstsa-ochen-sovmestimye-komponenty",
+    "text": "Фестиваль еды «Зімовы смак» в рестобаре «Colette»: «Ребенок и пицца – очень совместимые компоненты»"
+   },
+   {
+    "href": "https://komkur.info/money/festival-edy-v-mogileve-zimovy-smak-v-restobare-luna-i-vkusno-i-dushevno",
+    "text": "Фестиваль еды в Могилеве «Зімовы смак»: в рестобаре «Луна» и вкусно, и душевно"
+   },
+   {
+    "href": "https://komkur.info/money/v-mogilevskom-restobare-amazonka-mozhno-poderzhat-v-rukakh-gekkona-sest-sup-s-osminozhkami-i-zakazat-rimskuyu-pitstsu",
+    "text": "В могилевском рестобаре «Амазонка» можно подержать в руках геккона, съесть суп с осьминожками и заказать римскую пиццу"
+   },
+   {
+    "href": "https://komkur.info/money/v-mogileve-prodaetsya-populyarnyj-u-zolotoj-molodezhi-restobar-cherchill-tsena-udivlyaet",
+    "text": "В Могилеве продается популярный у золотой молодежи рестобар «Черчилль» – цена удивляет"
+   },
+   {
+    "href": "https://komkur.info/money/draniki-pod-shapochkoj-i-nezhnejshie-blinchiki-prodegustirovali-set-ot-mogilevskogo-restobara-colette",
+    "text": "Драники «под шапочкой» и нежнейшие блинчики: продегустировали сет от могилевского рестобара Colette."
+   },
+   {
+    "href": "https://komkur.info/money/na-festivale-edy-zimovy-smak-restobar-amazonka-i-udivil-i-vkusno-nakormil",
+    "text": "На фестивале еды «Зімовы смак»: рестобар «Амазонка» и удивил, и вкусно накормил"
+   },
+   {
+    "href": "https://komkur.info/money/glintvejn-na-mogilevskom-festivale-edy-zimovy-smak-podayut-v-edinstvennom-zavedenii-v-restobare-colette",
+    "text": "Глинтвейн на могилевском фестивале еды «Зімовы смак» подают в единственном заведении – в рестобаре Colette"
+   },
+   {
+    "href": "https://komkur.info/money/vot-kak-u-nas-po-belorusski-ugoshchayut-chem-vpechatlil-restobar-edison-na-festivale-edy-zimovy-smak",
+    "text": "«Вот как у нас по-белорусски угощают!» Чем впечатлил рестобар «Эдисон» на фестивале еды «Зімовы смак»."
+   },
+   {
+    "href": "https://komkur.info/money/festival-edy-v-mogileve-zimovy-smak-skazhu-kratko-ochen-vkusno-i-sytno-pouzhinali-v-restobare-luna",
+    "text": "Фестиваль еды в Могилеве «Зімовы смак»: скажу кратко – очень вкусно и сытно поужинали в рестобаре «Луна»"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-samoj-vkusnoj-v-restobare-edison-kak-ni-stranno-okazalas-pasta-pesto",
+    "text": "«Гастрофест» в Могилеве: самой вкусной в рестобаре «Эдисон», как ни странно, оказалась паста «Песто»"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-udivitelno-vkusno-iskristo-i-ostro-nakormili-v-restobare-amazonka",
+    "text": "«Гастрофест» в Могилеве: «удивительно вкусно, искристо и остро» накормили в рестобаре «Амазонка»"
+   },
+   {
+    "href": "https://komkur.info/money/zakuski-k-pivu-dlya-lyubitelej-fastfuda-degustatsiya-seta-ot-restobara-colette-na-oktyabrfeste",
+    "text": "Закуски к пиву для любителей фастфуда. Дегустация сета от рестобара Colette на «Октябрьфесте»"
+   },
+   {
+    "href": "https://komkur.info/money/gastrofest-v-mogileve-aziatskoe-puteshestvie-dlya-gurmanov-v-belom-lise",
+    "text": "«Гастрофест» в Могилеве: азиатское путешествие для гурманов в «Белом лисе»"
+   },
+   {
+    "href": "https://komkur.info/money/oktyabrfest-v-mogileve-na-lunu-za-belorusskim-setom",
+    "text": "«Октябрьфест» в Могилеве: на «Луну» за белорусским сетом"
+   },
+   {
+    "href": "https://yandex.by/maps/-/CDQK58zQ",
+    "text": "ул. Московская, 42, г. Бобруйск, Беларусь, 213826"
+   }
+  ],
+  "next": []
+ }
+}

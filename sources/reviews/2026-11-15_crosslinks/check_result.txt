@@ -1,0 +1,28 @@
+records=26 ok=15 loose=6 partial=0 missing=0 no-raw=0 image=0 snippet=5 empty=0 format_errors=0 reply_problems=0
+
+crosslinks-001 | текст: OK | ответ: -
+crosslinks-002 | текст: OK | ответ: -
+crosslinks-003 | текст: LOOSE | ответ: -
+crosslinks-004 | текст: LOOSE | ответ: -
+crosslinks-005 | текст: LOOSE | ответ: -
+crosslinks-006 | текст: OK | ответ: -
+crosslinks-007 | текст: OK | ответ: -
+crosslinks-010 | текст: OK | ответ: -
+crosslinks-011 | текст: OK | ответ: -
+crosslinks-012 | текст: OK | ответ: -
+crosslinks-013 | текст: OK | ответ: -
+crosslinks-014 | текст: LOOSE | ответ: -
+crosslinks-015 | текст: OK | ответ: -
+crosslinks-016 | текст: LOOSE | ответ: -
+crosslinks-017 | текст: OK | ответ: -
+crosslinks-018 | текст: OK | ответ: -
+crosslinks-019 | текст: OK | ответ: -
+crosslinks-020 | текст: SNIPPET | ответ: -
+crosslinks-021 | текст: SNIPPET | ответ: -
+crosslinks-022 | текст: SNIPPET | ответ: -
+crosslinks-023 | текст: SNIPPET | ответ: -
+crosslinks-024 | текст: OK | ответ: -
+crosslinks-025 | текст: OK | ответ: -
+crosslinks-026 | текст: OK | ответ: -
+crosslinks-027 | текст: LOOSE | ответ: -
+crosslinks-028 | текст: SNIPPET | ответ: -

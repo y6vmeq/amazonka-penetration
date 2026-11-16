@@ -1,0 +1,59 @@
+{
+ "number": 257,
+ "url": "https://komkur.info/money/glintvejn-na-mogilevskom-festivale-edy-zimovy-smak-podayut-v-edinstvennom-zavedenii-v-restobare-colette",
+ "title": "Глинтвейн на могилевском фестивале еды «Зімовы смак» подают в единственном заведении – в рестобаре Colette",
+ "at": "2026-11-15T17:09:13.801Z",
+ "html": "raw/257_komkur-info_komkur-new-glintvejn-na-mogilevskom-festivale-edy-z.html",
+ "txt": "raw/257_komkur-info_komkur-new-glintvejn-na-mogilevskom-festivale-edy-z.txt",
+ "sha256": "5d8ab0a8aa3ceea83441beb3a32892360642406004c373b0673f459e945929d8",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 0,
+  "commentElements": [],
+  "iframes": [
+   {
+    "src": "https://yastatic.net/safeframe-bundles/0.89/1-1-0/render.html",
+    "id": "id7649",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:searchword",
+     "input:hidden:task",
+     "input:hidden:option",
+     "input:hidden:Itemid"
+    ]
+   },
+   {
+    "id": "login-form",
+    "cls": "form-inline",
+    "action": "/money",
+    "fields": [
+     "input:text:username",
+     "input:password:password",
+     "input:checkbox:remember",
+     "input:hidden:option",
+     "input:hidden:task",
+     "input:hidden:return",
+     "input:hidden:cd19a83bc8bc4614347f054dca815359"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 5462
+ },
+ "extra": {
+  "name": "komkur_new_glintvejn-na-mogilevskom-festivale-edy-z",
+  "status": 200,
+  "requested": "https://komkur.info/money/glintvejn-na-mogilevskom-festivale-edy-zimovy-smak-podayut-v-edinstvennom-zavedenii-v-restobare-colette",
+  "pre": null
+ }
+}

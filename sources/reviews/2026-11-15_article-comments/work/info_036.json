@@ -1,0 +1,190 @@
+{
+ "number": 36,
+ "url": "https://web.archive.org/web/20250612190333/https://mogilev.online/2025/05/15/323331.html",
+ "title": "Шесть магазинов и один бар — санстанция представила список объектов в Могилеве и районе, где нашлись просроченные продукты",
+ "at": "2025-06-12T19:04:06.108Z",
+ "html": "raw/036_web-archive-org_mogilev-online-323331-web-archive-20250612.html",
+ "txt": "raw/036_web-archive-org_mogilev-online-323331-web-archive-20250612.txt",
+ "sha256": "6eee44a037b0a4bd7ee084c38975a4f32ed95c3e82096f9c8e5a311a416a3c9b",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 21,
+  "commentElements": [
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "wpdmi-columns post-comments",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   },
+   {
+    "tag": "SPAN",
+    "id": "",
+    "cls": "tolstoycomments-cc",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [
+   {
+    "src": "https://static.addtoany.com/menu/sm.21.html#type=page&event=load&url=https%3A%2F%2Fmogilev.online%2F2025%2F05%2F15%2F323331.html&referrer=",
+    "id": "a2apage_sm_ifr",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "searchform",
+    "cls": "searchform",
+    "action": "https://mogilev.online/",
+    "fields": [
+     "input:text:s",
+     "input:submit:searchsubmit"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 5239
+ },
+ "extra": {
+  "status": 200,
+  "requested": "https://mogilev.online/2025/05/15/323331.html",
+  "note": "копия веб-архива от 12.06.2025; живой сайт не открывается (DNS)"
+ }
+}

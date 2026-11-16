@@ -1,0 +1,73 @@
+{
+ "number": 187,
+ "url": "https://magilev.by/news/2023/06/30/festival-belorusskoj-kuhni-v-mogileve-eda-krasivaya-no-bez-sharma-v-kafe-restobar-kolett",
+ "title": "Фестиваль белорусской кухни в Могилеве: еда красивая, но без шарма в кафе «Рестобар «Колетт» | magilev.by",
+ "at": "2026-11-15T15:28:24.354Z",
+ "html": "raw/187_magilev-by_magilev-2023-06-30-festival-belorusskoj-kuhni-v-mogileve.html",
+ "txt": "raw/187_magilev-by_magilev-2023-06-30-festival-belorusskoj-kuhni-v-mogileve.txt",
+ "sha256": "4530943811f41ef4721ab16785452b5a263e5feb1df54593a82693c09b5d5dc4",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "DIV",
+    "id": "",
+    "cls": "b b_detail-before-comments b_visible",
+    "textLen": 0,
+    "text": ""
+   }
+  ],
+  "iframes": [
+   {
+    "src": "",
+    "id": "",
+    "cls": ""
+   },
+   {
+    "src": "about:blank",
+    "id": "",
+    "cls": ""
+   },
+   {
+    "src": "about:blank",
+    "id": "",
+    "cls": ""
+   },
+   {
+    "src": "about:blank",
+    "id": "",
+    "cls": ""
+   }
+  ],
+  "widgetScripts": [],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "sf1",
+    "cls": "search-form search-form_hidden",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   },
+   {
+    "id": "sf2",
+    "cls": "search-form search-form_hidden header__main-search",
+    "action": "/search/",
+    "fields": [
+     "input:search:query"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 7691
+ },
+ "extra": {
+  "name": "magilev_2023-06-30_festival-belorusskoj-kuhni-v-mogileve",
+  "status": 200,
+  "requested": "https://magilev.by/news/2023/06/30/festival-belorusskoj-kuhni-v-mogileve-eda-krasivaya-no-bez-sharma-v-kafe-restobar-kolett",
+  "pre": null
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "number": 72,
+ "url": "https://t.me/s/moymogilev?q=%D0%A1%D0%BC%D0%B0%D0%BA%20%D0%B1%D0%B0%D0%B9",
+ "title": "Могилёв - мой город! – Telegram",
+ "at": "2026-11-15T14:28:44.758Z",
+ "html": "raw/072_t-me_tg-search-moymogilev-smak-baj.html",
+ "txt": "raw/072_t-me_tg-search-moymogilev-smak-baj.txt",
+ "sha256": "1b9e4c25ec924c2bb7e995dfeadd5f58ca61dfb45aafc0d74180d01c4a0cee56",
+ "sha_match": true,
+ "info": {
+  "commentElementCount": 1,
+  "commentElements": [
+   {
+    "tag": "BODY",
+    "id": "",
+    "cls": "widget_frame_base tgme_webpreview emoji_image thin_box_shadow tme_mode twallpaper",
+    "textLen": 380,
+    "text": "Могилёв - мой город! @moymogilev 23.2K Subscribers 51.2K Photos 10.3K Videos 24.4K Links ГЛАВНЫЙ ПОРТАЛ МОГИЛЕВА Говорим просто и понятно о важном! 📸 Присылайт"
+   }
+  ],
+  "iframes": [],
+  "widgetScripts": [
+   "https://telegram.org/js/jquery.min.js",
+   "https://telegram.org/js/jquery-ui.min.js",
+   "https://telegram.org/js/tgwallpaper.min.js?3",
+   "https://telegram.org/js/tgsticker.js?32",
+   "https://telegram.org/js/widget-frame.js?68",
+   "https://telegram.org/js/telegram-web.js?14"
+  ],
+  "inlineWidgetHints": [],
+  "mentions": [],
+  "forms": [
+   {
+    "id": "",
+    "cls": "tgme_header_search_form has_value",
+    "action": "/s/moymogilev",
+    "fields": [
+     "input:text:q"
+    ]
+   }
+  ],
+  "textareas": 0,
+  "bodyTextLength": 380
+ },
+ "extra": {
+  "name": "tg-search_moymogilev_smak-baj",
+  "status": 200,
+  "requested": "https://t.me/s/moymogilev?q=%D0%A1%D0%BC%D0%B0%D0%BA%20%D0%B1%D0%B0%D0%B9",
+  "channel": "moymogilev",
+  "query": "Смак бай",
+  "tgSearch": {
+   "channelTitle": "Могилёв - мой город!",
+   "counters": "23.2K Subscribers\n51.2K Photos\n10.3K Videos\n24.4K Links",
+   "messages": [],
+   "empty": "No posts found"
+  }
+ }
+}
