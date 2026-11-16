@@ -9,7 +9,9 @@
 | Файл или папка | Что это |
 |---|---|
 | [gorispolkom_amazonka_zdanie-fasad-reklama__a.json](gorispolkom_amazonka_zdanie-fasad-reklama__a.json) | Данные JSON, 32 КБ |
+| [gorispolkom_amazonka_zdanie-fasad-reklama__a2.json](gorispolkom_amazonka_zdanie-fasad-reklama__a2.json) | Данные JSON, 22 КБ |
 | [gorispolkom_amazonka_zdanie-fasad-reklama__b.json](gorispolkom_amazonka_zdanie-fasad-reklama__b.json) | Данные JSON, 37 КБ |
+| [gorispolkom_amazonka_zdanie-fasad-reklama__b2.json](gorispolkom_amazonka_zdanie-fasad-reklama__b2.json) | Данные JSON, 24 КБ |
 | [gorispolkom_smak-by_torgovlya__a.json](gorispolkom_smak-by_torgovlya__a.json) | Данные JSON, 44 КБ |
 | [gorispolkom_smak-by_torgovlya__b.json](gorispolkom_smak-by_torgovlya__b.json) | Данные JSON, 47 КБ |
 | [nalogovaya_amazonka__a.json](nalogovaya_amazonka__a.json) | Данные JSON, 34 КБ |

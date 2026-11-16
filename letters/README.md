@@ -8,7 +8,7 @@
 
 | Файл или папка | Что это |
 |---|---|
-| [_review/](_review/) | Проверка писем · файлов: 40 |
+| [_review/](_review/) | Проверка писем · файлов: 43 |
 | [_src/](_src/) | Описания приложений к письмам · файлов: 12 |
 | [STANDART.md](STANDART.md) | Стандарт обращения: структура, обязательные формулировки, критерии оценки |
 | [_build_docx.sh](_build_docx.sh) | Пересобирает приложения и файлы Word с условным заявителем |
@@ -28,13 +28,13 @@
 | [nalogovaya_amazonka-smak-by.md](nalogovaya_amazonka-smak-by.md) | ПРОЕКТ. Обращение в налоговую инспекцию: приём оплаты и продавец в рестобаре «Амазонка» и при продаже блюд под названием «Смак.BY» |
 | [nalogovaya_amazonka-smak-by_prilozhenie-1.md](nalogovaya_amazonka-smak-by_prilozhenie-1.md) | Приложение 1 к заявлению о проверке порядка приёма средств платежа в рестобаре «Амазонка» и при продаже блюд под названием «Смак.BY»: перечень публикаций и отзывов |
 | [nalogovaya_amazonka.md](nalogovaya_amazonka.md) | ПРОЕКТ. Обращение в налоговую инспекцию (П5): приём оплаты, кассовое оборудование и платёжные терминалы в рестобаре «Амазонка» |
-| [nalogovaya_amazonka_prilozhenie-1.md](nalogovaya_amazonka_prilozhenie-1.md) | Приложение 1 к заявлению о рассмотрении сведений о порядке приёма средств платежа в рестобаре «Амазонка» (г. Могилёв, ул. Ленинская, 38): перечень отзывов |
+| [nalogovaya_amazonka_prilozhenie-1.md](nalogovaya_amazonka_prilozhenie-1.md) | Приложение 1: перечень отзывов о порядке приёма средств платежа в рестобаре «Амазонка» (г. Могилёв, ул. Ленинская, 38) |
 | [nalogovaya_smak-by.md](nalogovaya_smak-by.md) | ПРОЕКТ. Обращение в налоговую инспекцию (П9, срочное): кто принимает оплату и как при продаже блюд под названием «Смак.BY» |
-| [nalogovaya_smak-by_prilozhenie-1.md](nalogovaya_smak-by_prilozhenie-1.md) | Приложение 1 к заявлению о рассмотрении сведений о порядке приёма средств платежа при продаже блюд под названием «Смак.BY» (г. Могилёв, ул. Будённого, 13/44): перечень п… |
+| [nalogovaya_smak-by_prilozhenie-1.md](nalogovaya_smak-by_prilozhenie-1.md) | Приложение 1: перечень публикаций о продаже блюд под названием «Смак.BY» (г. Могилёв, ул. Будённого, 13/44) |
 | [prirodoohrana_amazonka_zhivotnye.md](prirodoohrana_amazonka_zhivotnye.md) | ПРОЕКТ. Обращение в природоохранный орган (П4): дикие животные в зале рестобара «Амазонка», их показ посетителям и передача в руки |
-| [prirodoohrana_amazonka_zhivotnye_prilozhenie-1.md](prirodoohrana_amazonka_zhivotnye_prilozhenie-1.md) | Приложение 1 к заявлению о рассмотрении сведений о содержании диких животных в рестобаре «Амазонка»: перечень публикаций |
+| [prirodoohrana_amazonka_zhivotnye_prilozhenie-1.md](prirodoohrana_amazonka_zhivotnye_prilozhenie-1.md) | Приложение 1: перечень публикаций о животных в рестобаре «Амазонка» (г. Могилёв, ул. Ленинская, 38) |
 | [sanitarnaya-sluzhba_amazonka.md](sanitarnaya-sluzhba_amazonka.md) | ПРОЕКТ. Заявление в санитарную службу о рестобаре «Амазонка» (письмо П1) |
-| [sanitarnaya-sluzhba_amazonka_prilozhenie-1.md](sanitarnaya-sluzhba_amazonka_prilozhenie-1.md) | Приложение 1 к заявлению о рассмотрении сведений о соблюдении санитарно-эпидемиологических требований в рестобаре «Амазонка» (г. Могилёв, ул. Ленинская, 38): перечень пу… |
+| [sanitarnaya-sluzhba_amazonka_prilozhenie-1.md](sanitarnaya-sluzhba_amazonka_prilozhenie-1.md) | Приложение 1: перечень публикаций заведения и посетителей |
 | [sanitarnaya-sluzhba_smak-by.md](sanitarnaya-sluzhba_smak-by.md) | ПРОЕКТ. Обращение в санитарную службу о заведении «Смак.BY»: продажа блюд до открытия, работы в помещении, помещение (П6) |
 | [sanitarnaya-sluzhba_smak-by_prilozhenie-1.md](sanitarnaya-sluzhba_smak-by_prilozhenie-1.md) | Приложение 1 к заявлению о продаже блюд под названием «Смак.BY»: перечень публикаций |
 | [shablon_zhaloba-na-otvet.md](shablon_zhaloba-na-otvet.md) | Шаблон жалобы в вышестоящую организацию на ответ, который не отвечает на вопросы |
