@@ -1,33 +1,18 @@
 #!/usr/bin/env bash
-# Отправляет коммиты текущей ветки в GitHub — только если репозиторий закрыт для посторонних.
+# Отправляет коммиты текущей ветки в GitHub по одному, от старого к новому.
 #
-#   bash tools/git_push_checked.sh
+#   bash tools/git_push.sh
 #
-# Перед отправкой каждого коммита проверяет без входа, что репозиторий не виден: API отвечает 404,
-# адрес git — 401. Если он открыт, отправка не делается (в проекте чужие персональные данные и
-# проекты жалоб; правило — в CLAUDE.md, раздел «Резервная копия в GitHub»).
-# Коммиты уходят по одному, от старого к новому: GitHub не принимает отправку больше 2 ГБ.
+# По одному — потому что GitHub не принимает отправку больше 2 ГБ, а первая копия проекта весила больше.
 # Адрес репозитория берётся из настроек git (git remote get-url origin), в файлах проекта его нет.
+# Видимость репозитория скрипт не проверяет: по решению владельца от 16.11.2026 репозиторий открытый
+# (CLAUDE.md, раздел «Резервная копия в GitHub»).
 set -uo pipefail
 cd "$(dirname "$0")/.."
 export GIT_TERMINAL_PROMPT=0
 export GCM_INTERACTIVE=never
 
-url=$(git remote get-url origin)
-path=$(printf '%s' "$url" | sed -E 's#^(https://github\.com/|git@github\.com:)##; s#\.git$##')
-if [ -z "$path" ] || [ "$path" = "$url" ]; then
-  echo "не удалось разобрать адрес репозитория GitHub"; exit 2
-fi
 branch=$(git rev-parse --abbrev-ref HEAD)
-
-closed() {
-  local api smart
-  api=$(curl -s -o /dev/null -w "%{http_code}" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/$path")
-  smart=$(curl -s -o /dev/null -w "%{http_code}" "https://github.com/$path.git/info/refs?service=git-upload-pack")
-  echo "  видимость без входа: API $api, git $smart"
-  [ "$api" = "404" ] && [ "$smart" = "401" ]
-}
-
 remote_head=$(git ls-remote origin "refs/heads/$branch" 2>/dev/null | cut -f1)
 if [ -n "$remote_head" ]; then
   if ! git cat-file -e "$remote_head" 2>/dev/null; then
@@ -46,10 +31,6 @@ count=0
 for commit in $commits; do
   short=$(git rev-parse --short "$commit")
   echo "== $short | $(git log -1 --format=%s "$commit" | cut -c1-80)"
-  if ! closed; then
-    echo "ОСТАНОВКА: репозиторий виден без входа. Отправка не сделана; видимость меняет владелец репозитория."
-    exit 3
-  fi
   if ! git push origin "$commit:refs/heads/$branch" 2>&1 | tr '\r' '\n' | grep -v -E '^(Writing|Counting|Compressing|Enumerating|Delta) objects: +[0-9]+% ' | tail -n 8; then :; fi
   if [ "$(git ls-remote origin "refs/heads/$branch" | cut -f1)" != "$commit" ]; then
     echo "  повтор по HTTP/1.1"
