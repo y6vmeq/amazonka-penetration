@@ -4,9 +4,12 @@
     python -I -X utf8 tools/letter_appendix.py <описание.json> <приложение.md>
 
 Описание — JSON: {"title": "...", "note": "...", "items": [{"id": "yandex-maps-063",
-"phrases": ["..."], "field": "text" | "reply", "about": "..."}, ...]}.
+"phrases": ["..."], "field": "text" | "reply", "about": "...", "date": "..."}, ...]}.
 
 Для каждой записи берутся из sources/reviews/ALL.jsonl площадка, дата и адрес публикации.
+Необязательное поле "date" заменяет дату в графе «Дата публикации»: оно нужно, когда выдержка взята
+из ответа заведения (у ответа своя дата) или когда на странице дата показана относительно
+(«год назад»): тогда писать так, как на странице, с датой сбора. Дата записи при этом не меняется.
 Каждая выдержка должна дословно содержаться в тексте записи (или в ответе заведения,
 если field = "reply"); иначе программа останавливается. Имена авторов в приложение не идут.
 """
@@ -23,6 +26,18 @@ PLATFORMS = {
     "instagram": "Instagram",
     "mogilev.in": "mogilev.in",
     "mcge.by": "сайт областного центра гигиены",
+    "tiktok": "TikTok",
+    "telegram": "Telegram",
+    "vk": "ВКонтакте",
+    "ok": "Одноклассники",
+    "youtube": "YouTube",
+    "restoplace": "сервис бронирования Restoplace",
+    "restoplace.ws": "сервис бронирования Restoplace",
+    "mogilev.gov.by": "сайт Могилёвского горисполкома",
+    "lenadm-mogilev.gov.by": "сайт администрации Ленинского района г. Могилёва",
+    "mzcge.by": "сайт Могилёвского зонального центра гигиены и эпидемиологии",
+    "grp.nalog.gov.by": "Государственный реестр плательщиков (сервис МНС)",
+    "gastrofest.by": "сайт фестиваля Gastrofest",
 }
 MONTHS = "января февраля марта апреля мая июня июля августа сентября октября ноября декабря".split()
 
@@ -70,7 +85,7 @@ def main():
         media = record.get("media") or []
         platform = PLATFORMS.get(record.get("platform"), str(record.get("platform")))
         out.append(
-            f"| {number} | {platform} | {human_date(record.get('date_iso'))} | {record.get('url')} | {quotes} | "
+            f"| {number} | {platform} | {norm(item.get('date')) or human_date(record.get('date_iso'))} | {record.get('url')} | {quotes} | "
             f"{item.get('about', '')} | {item.get('media_note') or (str(len(media)) if media else '—')} | {item['id']} |"
         )
     out += ["", "Графа «Запись в базе» — внутренняя: перед подачей её убрать. Выдержки перенесены программой из сохранённых копий страниц; орфография авторов сохранена.", ""]

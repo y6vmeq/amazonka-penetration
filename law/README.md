@@ -8,7 +8,7 @@
 
 | Файл или папка | Что это |
 |---|---|
-| [texts/](texts/) | Сохранённые тексты нормативных актов · файлов: 513 |
+| [texts/](texts/) | Сохранённые тексты нормативных актов · файлов: 542 |
 | [_analysis_amazonka-animals.md](_analysis_amazonka-animals.md) | Предварительный разбор: животные в зале «Амазонки» |
 | [_analysis_amazonka-building-facade.md](_analysis_amazonka-building-facade.md) | Предварительный разбор: здание, перестройки, фасад и летняя терраса «Амазонки» (Ленинская, 38) |
 | [_analysis_amazonka-capacity-exits-fire.md](_analysis_amazonka-capacity-exits-fire.md) | Предварительный разбор: вместимость, выходы, пожарная безопасность и ночной режим «Амазонки» (Ленинская, 38) |
