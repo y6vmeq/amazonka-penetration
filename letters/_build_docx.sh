@@ -16,10 +16,11 @@ LETTERS=(
   gorispolkom_amazonka_zdanie-fasad-reklama
   gorispolkom_amazonka_torgovlya
   prirodoohrana_amazonka_zhivotnye
-  nalogovaya_amazonka-smak-by
+  nalogovaya_amazonka
   sanitarnaya-sluzhba_smak-by
   gorispolkom_smak-by_raboty-okna-vhod
   gorispolkom_smak-by_torgovlya
+  nalogovaya_smak-by
 )
 
 for name in "${LETTERS[@]}"; do
