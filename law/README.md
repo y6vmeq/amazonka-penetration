@@ -8,7 +8,7 @@
 
 | Файл или папка | Что это |
 |---|---|
-| [texts/](texts/) | Сохранённые тексты нормативных актов · файлов: 323 |
+| [texts/](texts/) | Сохранённые тексты нормативных актов · файлов: 504 |
 | [_analysis_amazonka-animals.md](_analysis_amazonka-animals.md) | Предварительный разбор: животные в зале «Амазонки» |
 | [_analysis_amazonka-building-facade.md](_analysis_amazonka-building-facade.md) | Предварительный разбор: здание, перестройки, фасад и летняя терраса «Амазонки» (Ленинская, 38) |
 | [_analysis_amazonka-capacity-exits-fire.md](_analysis_amazonka-capacity-exits-fire.md) | Предварительный разбор: вместимость, выходы, пожарная безопасность и ночной режим «Амазонки» (Ленинская, 38) |
@@ -34,6 +34,7 @@
 | [psm-331-2021_perechni-letnie-ploshchadki.md](psm-331-2021_perechni-letnie-ploshchadki.md) | Постановление Совета Министров № 331: перечни мест для летних площадок — выписки |
 | [psm-363-2021_torgovyi-reestr.md](psm-363-2021_torgovyi-reestr.md) | Положение о Торговом реестре (постановление Совета Министров № 363) — выписки: число мест, изменение сведений |
 | [psm-395-2021_naruzhnaya-reklama-razresheniya.md](psm-395-2021_naruzhnaya-reklama-razresheniya.md) | Постановление Совета Министров № 395: наружная реклама — когда нужно разрешение, вывески, здания-ценности |
+| [razresheniya_kto-razreshil.md](razresheniya_kto-razreshil.md) | Кто разрешил: документы государственных органов, которые закон требует от объекта общественного питания, — перечень с нормами |
 | [reshenie-mgik-13-9-2026_glavnye-ulicy-fasady.md](reshenie-mgik-13-9-2026_glavnye-ulicy-fasady.md) | Решение Могилёвского горисполкома № 13-9: главные улицы и запрет конструкций на фасадах — выписка |
 | [reshenie-mgik-4-23-2023_naruzhnaya-reklama-na-cennostyah.md](reshenie-mgik-4-23-2023_naruzhnaya-reklama-na-cennostyah.md) | Решение Могилёвского горисполкома № 4-23: вывески и наружная реклама на зданиях-ценностях — выписки |
 | [sanpin-12-2017_obshchepit.md](sanpin-12-2017_obshchepit.md) | СанПиН «Санитарно-эпидемиологические требования для объектов общественного питания» — выписки по действующей редакции |
@@ -41,6 +42,7 @@
 | [sn-3.02.01-2019_residential.md](sn-3.02.01-2019_residential.md) | СН 3.02.01-2019 «Жилые здания» — выписки |
 | [sp-obshchepit_PROEKT.md](sp-obshchepit_PROEKT.md) | Строительные правила «Здания и помещения объектов общественного питания» — выписки из ПРОЕКТА |
 | [ukaz-498-2007_kuda-obrashchatsya.md](ukaz-498-2007_kuda-obrashchatsya.md) | Указ Президента № 498: в какой орган обращение попадает сначала — выписка |
+| [ukaz-510-2009_kontrol-nadzor.md](ukaz-510-2009_kontrol-nadzor.md) | Контрольная (надзорная) деятельность: Указ Президента № 227 (с 01.01.2026 заменил Указ № 510) — выписка |
 | [ukaz-527-2007_otchisleniya-za-vozdeistvie-na-cennost.md](ukaz-527-2007_otchisleniya-za-vozdeistvie-na-cennost.md) | Указ Президента № 527: отчисления за деятельность, которая воздействует на историко-культурную ценность, — выписка |
 | [zakon-128-z_torgovlya-obshchepit.md](zakon-128-z_torgovlya-obshchepit.md) | Закон о торговле и общественном питании (№ 128-З) — выписки: режим работы, Торговый реестр, летние площадки |
 | [zakon-213-z_licenzirovanie-alkogol-tabak.md](zakon-213-z_licenzirovanie-alkogol-tabak.md) | Закон «О лицензировании» (№ 213-З) — выписки: розничная торговля алкоголем и табаком |

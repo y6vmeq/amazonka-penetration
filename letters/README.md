@@ -8,22 +8,35 @@
 
 | Файл или папка | Что это |
 |---|---|
-| [_src/](_src/) | Описания приложений к письмам · файлов: 4 |
+| [_review/](_review/) | Проверка писем · файлов: 4 |
+| [_src/](_src/) | Описания приложений к письмам · файлов: 10 |
+| [STANDART.md](STANDART.md) | Стандарт обращения: структура, обязательные формулировки, критерии оценки |
 | [_build_docx.sh](_build_docx.sh) | Пересобирает приложения и файлы Word с условным заявителем |
 | [gorispolkom_amazonka_fasad-vyveska-terrasa.docx](gorispolkom_amazonka_fasad-vyveska-terrasa.docx) | Документ Word, 40 КБ |
 | [gorispolkom_amazonka_fasad-vyveska-terrasa.md](gorispolkom_amazonka_fasad-vyveska-terrasa.md) | ПРОЕКТ. Обращение в Могилёвский горисполком: фасад, вывеска, летняя терраса и работы в помещении рестобара «Амазонка» |
+| [gorispolkom_amazonka_torgovlya_prilozhenie-1.md](gorispolkom_amazonka_torgovlya_prilozhenie-1.md) | Приложение 1 к заявлению о торговой стороне работы рестобара «Амазонка» (г. Могилёв, ул. Ленинская, 38): перечень публикаций и отзывов с дословными выдержками |
+| [gorispolkom_amazonka_zdanie-fasad-reklama.md](gorispolkom_amazonka_zdanie-fasad-reklama.md) | ПРОЕКТ. Обращение в Могилёвский горисполком: здание-ценность, перестройки, вывеска, конструкции на фасаде и рекламные щиты рестобара «Амазонка» (письмо П2) |
+| [gorispolkom_amazonka_zdanie-fasad-reklama_prilozhenie-1.md](gorispolkom_amazonka_zdanie-fasad-reklama_prilozhenie-1.md) | Приложение 1 к заявлению о здании, вывеске, конструкциях на фасаде и выносных рекламных конструкциях рестобара «Амазонка» (г. Могилёв, ул. Ленинская, 38): перечень публи… |
 | [gorispolkom_smak-by_raboty-fasad-torgovlya.docx](gorispolkom_smak-by_raboty-fasad-torgovlya.docx) | Документ Word, 41 КБ |
 | [gorispolkom_smak-by_raboty-fasad-torgovlya.md](gorispolkom_smak-by_raboty-fasad-torgovlya.md) | ПРОЕКТ. Обращение в Могилёвский горисполком: работы в помещении и на фасаде, продажа блюд под названием «Смак.BY» до открытия |
 | [gorispolkom_smak-by_raboty-fasad-torgovlya_prilozhenie-1.md](gorispolkom_smak-by_raboty-fasad-torgovlya_prilozhenie-1.md) | Приложение 1 к обращению о работах в помещении и продаже блюд под названием «Смак.BY»: перечень публикаций |
+| [gorispolkom_smak-by_raboty-okna-vhod.md](gorispolkom_smak-by_raboty-okna-vhod.md) | ПРОЕКТ. Обращение в Могилёвский горисполком (П7): работы в помещении «Смак.BY», замена окон, вход на месте окон фасада, строительные материалы во дворе |
+| [gorispolkom_smak-by_raboty-okna-vhod_prilozhenie-1.md](gorispolkom_smak-by_raboty-okna-vhod_prilozhenie-1.md) | Приложение 1 к заявлению о проверке работ в помещении дома по ул. Будённого, 13/44 в г. Могилёве (заведение «Смак.BY»): перечень публикаций |
+| [gorispolkom_smak-by_torgovlya_prilozhenie-1.md](gorispolkom_smak-by_torgovlya_prilozhenie-1.md) | Приложение 1 к заявлению о проверке продажи наборов блюд под названием «Смак.BY»: перечень публикаций |
 | [mchs_amazonka_pozharnaya-bezopasnost.docx](mchs_amazonka_pozharnaya-bezopasnost.docx) | Документ Word, 41 КБ |
 | [mchs_amazonka_pozharnaya-bezopasnost.md](mchs_amazonka_pozharnaya-bezopasnost.md) | ПРОЕКТ. Обращение в органы государственного пожарного надзора о проверке рестобара «Амазонка» |
 | [mchs_amazonka_pozharnaya-bezopasnost_prilozhenie-1.md](mchs_amazonka_pozharnaya-bezopasnost_prilozhenie-1.md) | Приложение 1 к обращению о проверке пожарной безопасности рестобара «Амазонка»: перечень публикаций |
+| [nalogovaya_amazonka-smak-by.md](nalogovaya_amazonka-smak-by.md) | ПРОЕКТ. Обращение в налоговую инспекцию: приём оплаты и продавец в рестобаре «Амазонка» и при продаже блюд под названием «Смак.BY» |
+| [nalogovaya_amazonka-smak-by_prilozhenie-1.md](nalogovaya_amazonka-smak-by_prilozhenie-1.md) | Приложение 1 к заявлению о проверке порядка приёма средств платежа в рестобаре «Амазонка» и при продаже блюд под названием «Смак.BY»: перечень публикаций и отзывов |
+| [prirodoohrana_amazonka_zhivotnye.md](prirodoohrana_amazonka_zhivotnye.md) | ПРОЕКТ. Обращение в природоохранный орган (П4): дикие животные в зале рестобара «Амазонка», их показ посетителям и передача в руки |
+| [prirodoohrana_amazonka_zhivotnye_prilozhenie-1.md](prirodoohrana_amazonka_zhivotnye_prilozhenie-1.md) | Приложение 1 к заявлению о проверке содержания диких животных в рестобаре «Амазонка»: перечень публикаций |
 | [sanitarnaya-sluzhba_amazonka.docx](sanitarnaya-sluzhba_amazonka.docx) | Документ Word, 42 КБ |
-| [sanitarnaya-sluzhba_amazonka.md](sanitarnaya-sluzhba_amazonka.md) | ПРОЕКТ. Обращение в санитарную службу о проверке рестобара «Амазонка» |
-| [sanitarnaya-sluzhba_amazonka_prilozhenie-1.md](sanitarnaya-sluzhba_amazonka_prilozhenie-1.md) | Приложение 1 к обращению о проверке рестобара «Амазонка»: перечень публикаций посетителей |
+| [sanitarnaya-sluzhba_amazonka.md](sanitarnaya-sluzhba_amazonka.md) | ПРОЕКТ. Заявление в санитарную службу о проверке рестобара «Амазонка» (письмо П1) |
+| [sanitarnaya-sluzhba_amazonka_prilozhenie-1.md](sanitarnaya-sluzhba_amazonka_prilozhenie-1.md) | Приложение 1 к заявлению о проверке рестобара «Амазонка» (г. Могилёв, ул. Ленинская, 38): перечень публикаций заведения и посетителей |
 | [sanitarnaya-sluzhba_smak-by.docx](sanitarnaya-sluzhba_smak-by.docx) | Документ Word, 41 КБ |
-| [sanitarnaya-sluzhba_smak-by.md](sanitarnaya-sluzhba_smak-by.md) | ПРОЕКТ. Обращение в санитарную службу: продажа блюд под названием «Смак.BY» до открытия заведения |
-| [sanitarnaya-sluzhba_smak-by_prilozhenie-1.md](sanitarnaya-sluzhba_smak-by_prilozhenie-1.md) | Приложение 1 к обращению о продаже блюд под названием «Смак.BY»: перечень публикаций |
+| [sanitarnaya-sluzhba_smak-by.md](sanitarnaya-sluzhba_smak-by.md) | ПРОЕКТ. Обращение в санитарную службу о заведении «Смак.BY»: продажа блюд до открытия, работы в помещении, помещение (П6) |
+| [sanitarnaya-sluzhba_smak-by_prilozhenie-1.md](sanitarnaya-sluzhba_smak-by_prilozhenie-1.md) | Приложение 1 к заявлению о проверке продажи блюд под названием «Смак.BY»: перечень публикаций |
+| [shablon_zhaloba-na-otvet.md](shablon_zhaloba-na-otvet.md) | Шаблон жалобы в вышестоящую организацию на ответ, который не отвечает на вопросы |
 
 [← Путеводитель по проекту](../README.md)
 <!-- dir-readme:end -->

@@ -20,6 +20,7 @@
 | [kartoteka_fetch.py](kartoteka_fetch.py) | Выгружает сведения по УНП через API kartoteka.by (нужен действующий токен) |
 | [letter_appendix.py](letter_appendix.py) | Собирает приложение к обращению: перечень публикаций с дословными выдержками. |
 | [letter_quotes_check.py](letter_quotes_check.py) | Сверяет цитаты «…» из проекта обращения с сохранёнными источниками. |
+| [letter_standard_check.py](letter_standard_check.py) | Проверяет проект обращения на соответствие стандарту letters/STANDART.md (форма и обязательные блоки). |
 | [letter_to_docx.py](letter_to_docx.py) | Оформляет проект обращения из letters/&lt;имя&gt;.md как документ Word. |
 | [md_quotes_check.py](md_quotes_check.py) | Проверяет цитаты в кавычках-ёлочках из файла .md по сохранённым текстам актов. |
 | [md_to_docx.py](md_to_docx.py) | Переводит рабочий файл Markdown (заголовки, абзацы, примечания «&gt;», таблицы, списки) в документ Word. |
@@ -30,6 +31,7 @@
 | [pdf_text.py](pdf_text.py) | Извлекает текст из PDF в файл UTF-8 с пометками страниц. |
 | [quotes_check.py](quotes_check.py) | Проверяет, что цитаты из нормативных актов дословно есть в сохранённых текстах. |
 | [readme_links_check.py](readme_links_check.py) | Проверяет ссылки в путеводителе по проекту, журнале изменений и описаниях папок. |
+| [review_summary.py](review_summary.py) | Сводит замечания и оценки проверяющих по набору обращений в одну таблицу. |
 | [reviews_check.py](reviews_check.py) | Проверяет папку сбора отзывов: формат reviews.jsonl и дословность цитат. |
 | [reviews_merge.py](reviews_merge.py) | Сводит записи всех папок сбора отзывов в общий перечень. |
 | [save_agent_messages.py](save_agent_messages.py) | Сохраняет на диск сообщения субагентов из записи сеанса Claude Code. |

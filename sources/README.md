@@ -10,7 +10,7 @@
 |---|---|
 | [instagram/](instagram/) | Публикации Instagram · файлов: 234 |
 | [kartoteka/](kartoteka/) | Сведения реестров через сервис kartoteka.by · файлов: 16 |
-| [official/](official/) | Государственные сайты · файлов: 215 |
+| [official/](official/) | Государственные сайты · файлов: 221 |
 | [onsite/](onsite/) | Материалы осмотра и покупки · пока пусто |
 | [reviews/](reviews/) | Сплошной сбор отзывов и публикаций · файлов: 9218 |
 | [telegram/](telegram/) | Материалы из Telegram · файлов: 289 |
