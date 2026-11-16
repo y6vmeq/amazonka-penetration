@@ -1,0 +1,12 @@
+# Учётные данные в копию не входят (токен API kartoteka.by)
+config/kartoteka.env
+
+# Временные и служебные файлы
+__pycache__/
+*.pyc
+.playwright-mcp/
+~$*
+*.tmp
+*.crdownload
+desktop.ini
+Thumbs.db
