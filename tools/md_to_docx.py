@@ -110,13 +110,31 @@ def add_field(paragraph, instruction, size=8):
 def column_widths(rows, usable_cm):
     """Ширина столбцов по длине текста: узкие столбцы (номера) не раздуваются."""
     count = len(rows[0])
-    weights = []
+    weights, minimum = [], []
     for column in range(count):
-        lengths = [len(row[column]) for row in rows if column < len(row)]
+        cells = [row[column] for row in rows if column < len(row)]
+        lengths = [len(cell) for cell in cells]
         longest, average = max(lengths), sum(lengths) / len(lengths)
         weights.append(2.7 if longest <= 4 else max(6.0, average ** 0.62 + longest ** 0.35))
+        # столбец не уже своего самого длинного слова: иначе Word рвёт слово посреди (адреса страниц не в счёт)
+        words = [part for cell in cells for part in re.split(r"[\s/]+", re.sub(r"[*`«»()\[\];:,.]", " ", cell))
+                 if part and len(part) <= 28 and "://" not in cell[max(0, cell.find(part) - 8):cell.find(part) + 1]]
+        minimum.append(min(0.19 * max((len(word) for word in words), default=1) + 0.45, usable_cm / count * 1.5))
     total = sum(weights)
-    return [usable_cm * weight / total for weight in weights]
+    widths = [usable_cm * weight / total for weight in weights]
+    for _ in range(count * 3):
+        short = [index for index in range(count) if widths[index] < minimum[index] - 1e-6]
+        donors = [index for index in range(count) if widths[index] > minimum[index] + 0.05]
+        need = sum(minimum[index] - widths[index] for index in short)
+        spare = sum(widths[index] - minimum[index] for index in donors)
+        if not short or not donors or spare <= 0:
+            break
+        take = min(need, spare)
+        for index in donors:
+            widths[index] -= take * (widths[index] - minimum[index]) / spare
+        for index in short:
+            widths[index] += take * (minimum[index] - widths[index]) / need
+    return widths
 
 
 def add_table(document, rows, usable_cm):

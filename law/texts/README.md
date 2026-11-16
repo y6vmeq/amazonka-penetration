@@ -14,7 +14,7 @@
 | [heritage-92/](heritage-92/) | Охрана историко-культурного наследия · файлов: 7 |
 | [letters-2026-11-16/](letters-2026-11-16/) | Тексты актов для набора обращений от 16.11.2026 · файлов: 170 |
 | [sanitary-obshchepit/](sanitary-obshchepit/) | Санитарные и пожарные требования для общепита: сборка выписок · файлов: 13 |
-| [trade-ads-smoking/](trade-ads-smoking/) | Торговля, реклама, курение, обращения, местные акты · файлов: 88 |
+| [trade-ads-smoking/](trade-ads-smoking/) | Торговля, реклама, курение, обращения, местные акты · файлов: 91 |
 | [PROEKT_SP_zdaniya-i-pomeshcheniya-obshchepita.txt](PROEKT_SP_zdaniya-i-pomeshcheniya-obshchepita.txt) | Текст, 184 КБ |
 | [PROEKT_SP_zdaniya-i-pomeshcheniya-obshchepita_stn-by.pdf](PROEKT_SP_zdaniya-i-pomeshcheniya-obshchepita_stn-by.pdf) | Документ PDF, 892 КБ |
 | [PSM_164_2026-04-03_pereustroystvo-pereplanirovka.pdf](PSM_164_2026-04-03_pereustroystvo-pereplanirovka.pdf) | Документ PDF, 187 КБ |

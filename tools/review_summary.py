@@ -28,6 +28,7 @@ from pathlib import Path
 CRITERIA = [f"К{n}" for n in range(1, 9)]
 SEVERITIES = ["критическое", "существенное", "мелкое"]
 THRESHOLD = 9.5
+EVALUATORS = 2
 CLOSED = ("исправлено", "отклонено", "частично")
 
 
@@ -53,6 +54,15 @@ def load(folder):
 
 def number(value):
     return "—" if value is None else str(value).replace(".", ",")
+
+
+def state(lowest, evaluators):
+    """Состояние письма: принято — только при двух и более оценщиках и оценках не ниже порога."""
+    if lowest is None:
+        return "итоговой оценки нет"
+    if lowest < THRESHOLD:
+        return "на доработке"
+    return "принято" if evaluators >= EVALUATORS else f"оценил {evaluators} из {EVALUATORS} — ждём остальных"
 
 
 def score_line(label, scores):
@@ -106,7 +116,7 @@ def main():
                 if lowest is not None:
                     lowest_all.append(lowest)
             lowest = min(lowest_all) if lowest_all else None
-            verdict = "принято" if lowest is not None and lowest >= THRESHOLD else "на доработке"
+            verdict = state(lowest, len(final))
             lines += ["", f"Наименьшая итоговая оценка: **{number(lowest)}** — {verdict}."]
             totals.append((letter, lowest, len(final)))
         else:
@@ -115,8 +125,7 @@ def main():
         lines.append("")
     lines += ["## Итог по набору", "", "| Письмо | Оценщиков | Наименьшая итоговая оценка | Состояние |", "|---|---|---|---|"]
     for letter, lowest, count in totals:
-        state = "итоговой оценки нет" if lowest is None else ("принято" if lowest >= THRESHOLD else "на доработке")
-        lines.append(f"| {letter} | {count} | {number(lowest)} | {state} |")
+        lines.append(f"| {letter} | {count} | {number(lowest)} | {state(lowest, count)} |")
     graded = [lowest for _, lowest, _ in totals if lowest is not None]
     if graded and len(graded) == len(totals):
         lines += ["", f"**Наименьшая итоговая оценка по всему набору: {number(min(graded))}.** Порог приёмки — 9,5 по каждому критерию у каждого оценщика."]

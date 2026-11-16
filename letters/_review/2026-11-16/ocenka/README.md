@@ -21,6 +21,7 @@
 | [sanitarnaya-sluzhba_amazonka__a.json](sanitarnaya-sluzhba_amazonka__a.json) | Данные JSON, 36 КБ |
 | [sanitarnaya-sluzhba_amazonka__b.json](sanitarnaya-sluzhba_amazonka__b.json) | Данные JSON, 35 КБ |
 | [sanitarnaya-sluzhba_smak-by__a.json](sanitarnaya-sluzhba_smak-by__a.json) | Данные JSON, 35 КБ |
+| [sanitarnaya-sluzhba_smak-by__b.json](sanitarnaya-sluzhba_smak-by__b.json) | Данные JSON, 47 КБ |
 
 [← Папка выше](../README.md) · [Путеводитель по проекту](../../../../README.md)
 <!-- dir-readme:end -->
