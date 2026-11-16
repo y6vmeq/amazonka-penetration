@@ -87,6 +87,10 @@ def main():
     rule = "|---|" + "---|" * (len(CRITERIA) + 1)
     totals = []
     for letter in sorted(by_letter):
+        if "/_archive/" in letter or not Path(letter).is_file():
+            # прежний проект, заменённый новыми письмами: в приёмку не идёт
+            lines += [f"## {letter}", "", "Прежний проект, заменён новыми письмами набора (замечания по нему учтены в них); в приёмку не идёт.", ""]
+            continue
         lines += [f"## {letter}", "", "| Роль | Круг | Критических | Существенных | Мелких | Закрыто |", "|---|---|---|---|---|---|"]
         working, final = [], {}
         for review in sorted(by_letter[letter], key=lambda item: (item["_role"], item["_round"])):
