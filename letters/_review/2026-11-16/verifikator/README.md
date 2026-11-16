@@ -8,6 +8,14 @@
 
 | Файл или папка | Что это |
 |---|---|
+| [_p1-2/](_p1-2/) | Вспомогательная подпапка · файлов: 2 |
+| [_p2/](_p2/) | Вспомогательная подпапка · файлов: 2 |
+| [_p3/](_p3/) | Вспомогательная подпапка · файлов: 2 |
+| [_p4/](_p4/) | Вспомогательная подпапка · файлов: 2 |
+| [_p5-p9/](_p5-p9/) | Вспомогательная подпапка · файлов: 2 |
+| [_p6-2/](_p6-2/) | Вспомогательная подпапка · файлов: 2 |
+| [_p7/](_p7/) | Вспомогательная подпапка · файлов: 2 |
+| [_p8/](_p8/) | Вспомогательная подпапка · файлов: 2 |
 | [gorispolkom_amazonka_torgovlya.json](gorispolkom_amazonka_torgovlya.json) | Данные JSON, 48 КБ |
 | [gorispolkom_amazonka_zdanie-fasad-reklama.json](gorispolkom_amazonka_zdanie-fasad-reklama.json) | Данные JSON, 39 КБ |
 | [gorispolkom_smak-by_raboty-okna-vhod.json](gorispolkom_smak-by_raboty-okna-vhod.json) | Данные JSON, 46 КБ |

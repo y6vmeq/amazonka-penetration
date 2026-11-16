@@ -8,30 +8,26 @@
 
 | Файл или папка | Что это |
 |---|---|
-| [gorispolkom_amazonka_zdanie-fasad-reklama__a.json](gorispolkom_amazonka_zdanie-fasad-reklama__a.json) | Данные JSON, 32 КБ |
-| [gorispolkom_amazonka_zdanie-fasad-reklama__a2.json](gorispolkom_amazonka_zdanie-fasad-reklama__a2.json) | Данные JSON, 22 КБ |
-| [gorispolkom_amazonka_zdanie-fasad-reklama__b.json](gorispolkom_amazonka_zdanie-fasad-reklama__b.json) | Данные JSON, 37 КБ |
-| [gorispolkom_amazonka_zdanie-fasad-reklama__b2.json](gorispolkom_amazonka_zdanie-fasad-reklama__b2.json) | Данные JSON, 24 КБ |
-| [gorispolkom_smak-by_raboty-okna-vhod__a.json](gorispolkom_smak-by_raboty-okna-vhod__a.json) | Данные JSON, 36 КБ |
-| [gorispolkom_smak-by_raboty-okna-vhod__b.json](gorispolkom_smak-by_raboty-okna-vhod__b.json) | Данные JSON, 57 КБ |
-| [gorispolkom_smak-by_torgovlya__a.json](gorispolkom_smak-by_torgovlya__a.json) | Данные JSON, 44 КБ |
-| [gorispolkom_smak-by_torgovlya__b.json](gorispolkom_smak-by_torgovlya__b.json) | Данные JSON, 47 КБ |
-| [nalogovaya_amazonka__a.json](nalogovaya_amazonka__a.json) | Данные JSON, 34 КБ |
-| [nalogovaya_amazonka__a2.json](nalogovaya_amazonka__a2.json) | Данные JSON, 27 КБ |
-| [nalogovaya_amazonka__b.json](nalogovaya_amazonka__b.json) | Данные JSON, 31 КБ |
-| [nalogovaya_amazonka__b2.json](nalogovaya_amazonka__b2.json) | Данные JSON, 22 КБ |
-| [nalogovaya_smak-by__a.json](nalogovaya_smak-by__a.json) | Данные JSON, 31 КБ |
-| [nalogovaya_smak-by__a2.json](nalogovaya_smak-by__a2.json) | Данные JSON, 25 КБ |
-| [nalogovaya_smak-by__b.json](nalogovaya_smak-by__b.json) | Данные JSON, 29 КБ |
-| [nalogovaya_smak-by__b2.json](nalogovaya_smak-by__b2.json) | Данные JSON, 21 КБ |
-| [prirodoohrana_amazonka_zhivotnye__a.json](prirodoohrana_amazonka_zhivotnye__a.json) | Данные JSON, 38 КБ |
-| [prirodoohrana_amazonka_zhivotnye__a2.json](prirodoohrana_amazonka_zhivotnye__a2.json) | Данные JSON, 18 КБ |
-| [prirodoohrana_amazonka_zhivotnye__b.json](prirodoohrana_amazonka_zhivotnye__b.json) | Данные JSON, 50 КБ |
-| [prirodoohrana_amazonka_zhivotnye__b2.json](prirodoohrana_amazonka_zhivotnye__b2.json) | Данные JSON, 25 КБ |
-| [sanitarnaya-sluzhba_amazonka__a.json](sanitarnaya-sluzhba_amazonka__a.json) | Данные JSON, 36 КБ |
-| [sanitarnaya-sluzhba_amazonka__b.json](sanitarnaya-sluzhba_amazonka__b.json) | Данные JSON, 35 КБ |
-| [sanitarnaya-sluzhba_smak-by__a.json](sanitarnaya-sluzhba_smak-by__a.json) | Данные JSON, 35 КБ |
-| [sanitarnaya-sluzhba_smak-by__b.json](sanitarnaya-sluzhba_smak-by__b.json) | Данные JSON, 47 КБ |
+| [_p1-a/](_p1-a/) | Вспомогательная подпапка · файлов: 3 |
+| [_p1-b/](_p1-b/) | Вспомогательная подпапка · файлов: 4 |
+| [_p2-a/](_p2-a/) | Вспомогательная подпапка · файлов: 3 |
+| [_p2-b/](_p2-b/) | Вспомогательная подпапка · файлов: 4 |
+| [_p3-a/](_p3-a/) | Вспомогательная подпапка · файлов: 4 |
+| [_p3-b/](_p3-b/) | Вспомогательная подпапка · файлов: 4 |
+| [_p4-a/](_p4-a/) | Вспомогательная подпапка · файлов: 3 |
+| [_p4-b/](_p4-b/) | Вспомогательная подпапка · файлов: 4 |
+| [_p5-a/](_p5-a/) | Вспомогательная подпапка · файлов: 4 |
+| [_p5-b/](_p5-b/) | Вспомогательная подпапка · файлов: 4 |
+| [_p6-a/](_p6-a/) | Вспомогательная подпапка · файлов: 4 |
+| [_p6-b/](_p6-b/) | Вспомогательная подпапка · файлов: 4 |
+| [_p7-a/](_p7-a/) | Вспомогательная подпапка · файлов: 4 |
+| [_p7-b/](_p7-b/) | Вспомогательная подпапка · файлов: 4 |
+| [_p8-a/](_p8-a/) | Вспомогательная подпапка · файлов: 4 |
+| [_p8-b/](_p8-b/) | Вспомогательная подпапка · файлов: 4 |
+| [_p9-a/](_p9-a/) | Вспомогательная подпапка · файлов: 4 |
+| [_p9-b/](_p9-b/) | Вспомогательная подпапка · файлов: 4 |
+
+Ещё файлов: 51 (json — 51). Они видны в списке файлов папки.
 
 [← Папка выше](../README.md) · [Путеводитель по проекту](../../../../README.md)
 <!-- dir-readme:end -->

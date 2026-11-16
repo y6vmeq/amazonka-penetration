@@ -2,6 +2,10 @@
 
 Составлена программой `tools/review_summary.py` по файлам проверяющих; руками не править.
 
+## letters/_archive/2026-11-15/nalogovaya_amazonka-smak-by.md
+
+Прежний проект, заменён новыми письмами набора (замечания по нему учтены в них); в приёмку не идёт.
+
 ## letters/gorispolkom_amazonka_torgovlya.md
 
 | Роль | Круг | Критических | Существенных | Мелких | Закрыто |
@@ -110,20 +114,6 @@
 | ocenka-b, круг 3 | 9,5 | 9,5 | 9,5 | 9,5 | 9,5 | 9,5 | 9,5 | 9,5 | 9,5 |
 
 Наименьшая итоговая оценка: **9,5** — принято.
-
-## letters/nalogovaya_amazonka-smak-by.md
-
-| Роль | Круг | Критических | Существенных | Мелких | Закрыто |
-|---|---|---|---|---|---|
-| opponent | 1 | 2 | 11 | 10 | 23 из 23 |
-
-Рабочие оценки (прежние редакции письма, в приёмку не идут):
-
-| Оценивающий | К1 | К2 | К3 | К4 | К5 | К6 | К7 | К8 | Наименьшая |
-|---|---|---|---|---|---|---|---|---|---|
-| opponent | — | — | 8,0 | — | 6,5 | 7,0 | — | 6,0 | 6,0 |
-
-Итоговой оценки ещё нет.
 
 ## letters/nalogovaya_amazonka.md
 
@@ -272,11 +262,10 @@
 | letters/gorispolkom_amazonka_zdanie-fasad-reklama.md | 2 | 9,5 | принято |
 | letters/gorispolkom_smak-by_raboty-okna-vhod.md | 2 | 9,5 | принято |
 | letters/gorispolkom_smak-by_torgovlya.md | 2 | 9,5 | принято |
-| letters/nalogovaya_amazonka-smak-by.md | 0 | — | итоговой оценки нет |
 | letters/nalogovaya_amazonka.md | 2 | 9,5 | принято |
 | letters/nalogovaya_smak-by.md | 2 | 9,5 | принято |
 | letters/prirodoohrana_amazonka_zhivotnye.md | 2 | 9,5 | принято |
 | letters/sanitarnaya-sluzhba_amazonka.md | 2 | 9,5 | принято |
 | letters/sanitarnaya-sluzhba_smak-by.md | 2 | 9,5 | принято |
 
-Итоговая оценка есть у 9 писем из 10. Порог приёмки — 9,5 по каждому критерию у каждого оценщика.
+**Наименьшая итоговая оценка по всему набору: 9,5.** Порог приёмки — 9,5 по каждому критерию у каждого оценщика.

@@ -8,6 +8,11 @@
 
 | Файл или папка | Что это |
 |---|---|
+| [_p1/](_p1/) | Вспомогательная подпапка · файлов: 2 |
+| [_p2/](_p2/) | Вспомогательная подпапка · файлов: 2 |
+| [_p4/](_p4/) | Вспомогательная подпапка · файлов: 2 |
+| [_p5/](_p5/) | Вспомогательная подпапка · файлов: 2 |
+| [_p6/](_p6/) | Вспомогательная подпапка · файлов: 2 |
 | [gorispolkom_amazonka_zdanie-fasad-reklama.json](gorispolkom_amazonka_zdanie-fasad-reklama.json) | Данные JSON, 56 КБ |
 | [nalogovaya_amazonka-smak-by.json](nalogovaya_amazonka-smak-by.json) | Данные JSON, 46 КБ |
 | [prirodoohrana_amazonka_zhivotnye.json](prirodoohrana_amazonka_zhivotnye.json) | Данные JSON, 55 КБ |
