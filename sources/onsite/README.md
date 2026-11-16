@@ -8,3 +8,11 @@
 - Что именно снять и записать — в памятке [strategy/2026-11-15_pamyatka_osmotr-i-pokupka.md](../../strategy/2026-11-15_pamyatka_osmotr-i-pokupka.md).
 
 Пока материалов нет.
+
+<!-- dir-readme:start -->
+## Что в этой папке
+
+Других файлов в папке пока нет.
+
+[← Папка выше](../README.md) · [Путеводитель по проекту](../../README.md)
+<!-- dir-readme:end -->
