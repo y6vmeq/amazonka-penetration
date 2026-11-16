@@ -8,7 +8,7 @@
 
 | Файл или папка | Что это |
 |---|---|
-| [_review/](_review/) | Проверка писем · файлов: 43 |
+| [_review/](_review/) | Проверка писем · файлов: 51 |
 | [_src/](_src/) | Описания приложений к письмам · файлов: 12 |
 | [STANDART.md](STANDART.md) | Стандарт обращения: структура, обязательные формулировки, критерии оценки |
 | [_build_docx.sh](_build_docx.sh) | Пересобирает приложения и файлы Word с условным заявителем |
@@ -22,7 +22,7 @@
 | [gorispolkom_smak-by_raboty-okna-vhod.md](gorispolkom_smak-by_raboty-okna-vhod.md) | ПРОЕКТ. Обращение в Могилёвский горисполком (П7): работы в помещении «Смак.BY», замена окон, вход на месте окон фасада, строительные материалы во дворе |
 | [gorispolkom_smak-by_raboty-okna-vhod_prilozhenie-1.md](gorispolkom_smak-by_raboty-okna-vhod_prilozhenie-1.md) | Приложение 1: перечень публикаций к заявлению о рассмотрении сведений о работах в помещении дома по ул. Будённого, 13/44 в г. Могилёве (заведение «Смак.BY») |
 | [gorispolkom_smak-by_torgovlya.md](gorispolkom_smak-by_torgovlya.md) | ПРОЕКТ. Обращение в Могилёвский горисполком (П8): продажа наборов блюд «Смак.BY» до открытия заведения — Торговый реестр и форма общественного питания, сведения о продав… |
-| [gorispolkom_smak-by_torgovlya_prilozhenie-1.md](gorispolkom_smak-by_torgovlya_prilozhenie-1.md) | Приложение 1 к заявлению о продаже наборов блюд под названием «Смак.BY» (г. Могилёв, ул. Будённого, 13/44): перечень публикаций |
+| [gorispolkom_smak-by_torgovlya_prilozhenie-1.md](gorispolkom_smak-by_torgovlya_prilozhenie-1.md) | Приложение 1: перечень публикаций с датами, адресами и дословными выдержками (продажа наборов блюд под названием «Смак.BY», г. Могилёв, ул. Будённого, 13/44) |
 | [mchs_amazonka_pozharnaya-bezopasnost.md](mchs_amazonka_pozharnaya-bezopasnost.md) | ПРОЕКТ. Обращение в органы государственного пожарного надзора о проверке рестобара «Амазонка» |
 | [mchs_amazonka_pozharnaya-bezopasnost_prilozhenie-1.md](mchs_amazonka_pozharnaya-bezopasnost_prilozhenie-1.md) | Приложение 1 к обращению о проверке пожарной безопасности рестобара «Амазонка»: перечень публикаций |
 | [nalogovaya_amazonka-smak-by.md](nalogovaya_amazonka-smak-by.md) | ПРОЕКТ. Обращение в налоговую инспекцию: приём оплаты и продавец в рестобаре «Амазонка» и при продаже блюд под названием «Смак.BY» |
@@ -36,7 +36,7 @@
 | [sanitarnaya-sluzhba_amazonka.md](sanitarnaya-sluzhba_amazonka.md) | ПРОЕКТ. Заявление в санитарную службу о рестобаре «Амазонка» (письмо П1) |
 | [sanitarnaya-sluzhba_amazonka_prilozhenie-1.md](sanitarnaya-sluzhba_amazonka_prilozhenie-1.md) | Приложение 1: перечень публикаций заведения и посетителей |
 | [sanitarnaya-sluzhba_smak-by.md](sanitarnaya-sluzhba_smak-by.md) | ПРОЕКТ. Обращение в санитарную службу о заведении «Смак.BY»: продажа блюд до открытия, работы в помещении, помещение (П6) |
-| [sanitarnaya-sluzhba_smak-by_prilozhenie-1.md](sanitarnaya-sluzhba_smak-by_prilozhenie-1.md) | Приложение 1 к заявлению о продаже блюд под названием «Смак.BY»: перечень публикаций |
+| [sanitarnaya-sluzhba_smak-by_prilozhenie-1.md](sanitarnaya-sluzhba_smak-by_prilozhenie-1.md) | Приложение 1: Перечень публикаций |
 | [shablon_zhaloba-na-otvet.md](shablon_zhaloba-na-otvet.md) | Шаблон жалобы в вышестоящую организацию на ответ, который не отвечает на вопросы |
 
 Ещё файлов: 13 (docx — 13). Они видны в списке файлов папки.

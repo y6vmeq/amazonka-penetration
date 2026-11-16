@@ -19,7 +19,7 @@
 | [nalogovaya_smak-by_prilozhenie-1.json](nalogovaya_smak-by_prilozhenie-1.json) | Данные JSON, 3 КБ |
 | [prirodoohrana_amazonka_zhivotnye_prilozhenie-1.json](prirodoohrana_amazonka_zhivotnye_prilozhenie-1.json) | Данные JSON, 27 КБ |
 | [sanitarnaya-sluzhba_amazonka_prilozhenie-1.json](sanitarnaya-sluzhba_amazonka_prilozhenie-1.json) | Данные JSON, 27 КБ |
-| [sanitarnaya-sluzhba_smak-by_prilozhenie-1.json](sanitarnaya-sluzhba_smak-by_prilozhenie-1.json) | Данные JSON, 9 КБ |
+| [sanitarnaya-sluzhba_smak-by_prilozhenie-1.json](sanitarnaya-sluzhba_smak-by_prilozhenie-1.json) | Данные JSON, 11 КБ |
 
 [← Папка выше](../README.md) · [Путеводитель по проекту](../../README.md)
 <!-- dir-readme:end -->
