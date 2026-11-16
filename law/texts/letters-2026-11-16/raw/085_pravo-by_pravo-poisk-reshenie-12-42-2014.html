@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+<head>
+    <title>Поиск актов в Национальном реестре правовых актов</title>    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="поиск, реестр, НПА," />
+<meta name="description" content="Удобный поиск правовых актов в Национальном реестре правовых актов Республики Беларусь" />
+<link href="/bitrix/cache/css/s1/inner/template_71e01db9f76104be275f4e58e4be3674/template_71e01db9f76104be275f4e58e4be3674_v1.css?178782291519978" type="text/css"  data-template-style="true" rel="stylesheet" />
+<script src="/bitrix/js/main/jquery/jquery-1.12.4.min.js?173537809897163"></script>
+
+<script  src="/bitrix/cache/js/s1/inner/template_fef3f776e723ed912610653c9d226e84/template_fef3f776e723ed912610653c9d226e84_v1.js?17854916496263"></script>
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="viewport" id="viewport" content="width=device-width, user-scalable=no">
+
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.pravo.by/natsionalnyy-reestr/poisk-v-reestre/" />
+    <meta property="og:title" content="Поиск актов в Национальном реестре правовых актов" />
+	<meta property="og:image" content="https://pravo.by/upload/og_pravo.jpg" />
+	<meta property="og:image:height" content="200" />
+    <meta property="og:image:width" content="382" />
+	
+	<meta property="og:description" content="Удобный поиск правовых актов в Национальном реестре правовых актов Республики Беларусь" />
+    
+    <!-- <link rel="stylesheet" media="screen" href="/local/templates/.default/css/screen.css">
+    <link rel="stylesheet" media="screen" href="/local/templates/.default/css/adaptive.css"> -->
+	<link rel="stylesheet" media="screen" href="/local/templates/.default/css/screen_adaptive.css?v=210023062024">
+    <link rel="stylesheet" media="screen" href="/local/templates/.default/css/jquery.datetimepicker.min.css?v=22072021">
+	<!--[if gte IE 9]>
+        <style type="text/css">.gradient {filter: none;}</style>
+    <![endif]-->
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" media="screen" href="/local/templates/.default/css/ie.css">
+        <script type="text/javascript" src="/local/templates/.default/js/html5shiv.min.js"></script>
+
+
+    <![endif]-->
+
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(30383037, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        ecommerce:"dataLayer"
+   });
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/30383037" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-5XYPR4JB2S"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-5XYPR4JB2S');
+	</script>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-TRWH5FG');</script>
+	<!-- End Google Tag Manager -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRWH5FG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="wrap">
+
+<header class="l-header">
+    <div class="h-in">
+        <div class="lang lang-mobile">
+            <a href="https://pravo.by" class="active">Ru</a>
+            <a href="https://law.by">En</a>
+        </div>
+        <div class="h-sidemenu"><span></span></div>
+        <div class="h-search-mobile"><i class="ico-search"></i></div>
+        <div class="h-col h-logo">
+            <a href="/" class="h-logo__img"><img src="/local/templates/.default/i/logo-main.png"></a>
+        </div>
+        <div class="h-col h-col__search">
+            <div class="h-title"><span>Национальный правовой <nobr>Интернет-портал</nobr> Республики&nbsp;Беларусь</span></div>
+			<div class="h-logo__text"><span>основной государственный информационный ресурс в&nbsp;области права</span></div>
+            <div id="searchPane" class="h-search">
+                <div class="h-search__form">
+                    <div class="h-search-close"><span></span></div>
+                    <input type="text" name="search" class="h-search__text" placeholder="Поиск" id="querytxt" value="">
+                    <div class="input-bg-lightblue"></div>
+                    <div class="h-search__submit ico-search" id="searchButton"></div>
+                    <div id="searchArea" class="h-search__select"><span>Поиск</span>
+                        <select name="where" id="searchwhere">
+                            <option value="portal">по Порталу</option>
+                            <option value="etalon">в ЭТАЛОН-ONLINE</option>
+                            <option value="nacreestr">в Национальном реестре</option>
+                            <option value="projects">в проектах законов</option>
+                            <!--<option value="bankresh">в судебных решениях</option>-->
+							<option value="tbd">в правовых актах по темам</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-col h-col__links">
+            <div class="lang">
+                <a href="https://pravo.by" class="active">Ru</a>
+                <a href="https://law.by">En</a>
+            </div>
+            <ul class="h-links-list">
+
+            
+<li>
+    <a target="_blank" href="https://etalonline.by" class="h-link">
+        <span class="h-link__image" style="background-image: url('/upload/images/etalon-oline_170.png');"></span>
+        <span class="h-link__title">Все законодательство<br>в актуальном состоянии</span>
+        <span class="h-link__count">
+            <b>41</b>
+            <span>документов включено <br>13 ноября</span>
+        </span>
+    </a>
+</li>
+
+<li>
+    <a href="/ofitsialnoe-opublikovanie/novye-postupleniya/" class="h-link">
+        <span class="h-link__image" style="background-image: url('/local/templates/.default/i/h-link2.png');"></span>
+        <span class="h-link__title">Официальное<br>опубликование</span>
+        <span class="h-link__count"><b> 29 </b><span>актов опубликовано <br> 14 ноября</span>
+        </span>
+    </a>
+</li>
+
+
+<li>
+    <a href="/natsionalnyy-reestr/novye-postupleniya/" class="h-link">
+        <span class="h-link__image" style="background-image: url('/local/templates/.default/i/h-link1.png');"></span>
+        <span class="h-link__title">Национальный реестр<br>правовых актов</span>
+        <span class="h-link__count"><b>
+            24</b>
+            <span>актов зарегистрировано<br>сегодня            </span>
+        </span>
+    </a>
+</li>
+
+                <!--<li></li>-->
+            </ul>
+        </div>
+    </div>
+</header>
+
+<section class="layout">
+    <div class="l-main-wrap">
+	
+        <div class="l-main-content l-main_bg">
+
+			<div class="gotop_wrapper">
+				<div class="gotop"></div>
+			</div>
+
+            <div class="usercontent">
+
+				<div class="b-print"><a target="_blank" href="/natsionalnyy-reestr/poisk-v-reestre/?num_pr=12-42&date_pr=15.05.2014&print=1" title="Версия для печати"><i class="ico-print"></i><span>Версия для печати</span></a></div>
+
+                <div class="backnav">
+
+				
+				<a href="/" title="Главная" itemprop="url">
+					<span itemprop="title">Главная</span>
+				</a>
+
+				/
+				<a href="/natsionalnyy-reestr/" title="Национальный реестр" itemprop="url">
+					<span itemprop="title">Национальный реестр</span>
+				</a>/ <b>Поиск в реестре</b>
+			</div>
+                <div class="l-main__header">
+					 
+					<h1>Поиск в реестре</h1>
+					<script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="https://yastatic.net/share2/share.js"></script>
+<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,twitter,linkedin,viber,telegram"></div>				
+            	</div><p class="plabel">Национальный реестр Портал (Поиск) |reestr</p>
+
+<section class="search-form">
+
+  <div class="popup-select" style="display: none;">
+    <div class="popup-select__header">
+      <div class="b-close popup-select__close"><span></span></div>
+      <span>Раздел реестра</span>
+    </div>
+    <div class="popup-select__in">
+    </div>
+  </div>
+
+      <table id="searchdocs">
+        <tr>
+         <td><div>Вид <i class="ico-tip search-form-tip" title="Необходимо ввести не менее трех символов из названия вида акта и выбрать значение из полученного списка. Поддерживается поиск по нескольким видам акта."></i></div></td>
+            <td>
+             <div class="suggest">
+                <input type="text" class="ajaxsearch" id="restr1" autocomplete="off" placeholder="Введите не менее трех символов из названия вида акта"></input>
+                 <div id="akt_list" class="suggest__select"></div>
+                 <div id="akt_add" class="suggest__result">
+					                    <!-- <xsl:for-each select="$akt1">
+                         <xsl:variable name="e1" select="@str" />
+                         <xsl:for-each select="$akt2/record[@code=$e1]">
+                             <div code="{@code}">
+                              <img src="/public/i/icons/ico-close.png" onclick="RA_Akt_Del(this)" />
+                                 <span><xsl:value-of select="@name" disable-output-escaping="yes" /></span>
+                             </div>
+                         </xsl:for-each>
+                     </xsl:for-each> -->
+                 </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+             <div>Орган принятия (издания) <i class="ico-tip search-form-tip" title="Необходимо ввести не менее трех символов из названия органа принятия (издания) и выбрать значение из полученного списка. Поддерживается поиск по нескольким органам принятия."></i></div>
+            </td>
+            <td>
+              <div class="suggest">
+                <input type="text" class="ajaxsearch" id="restr2" placeholder="Введите не менее трех символов из названия органа принятия"></input>
+                <div id="organ_list" class="suggest__select"></div>
+                <div id="organ_add" class="suggest__result">
+					                    <!-- <xsl:for-each select="$tmp1">
+                        <xsl:variable name="eee" select="@str" />
+                        <xsl:for-each select="$tmp2/record[@code=$eee]">
+                            <div code="{@code}"><img src="/public/i/icons/ico-close.png" onclick="RA_Organ_Del(this)" />
+                                <xsl:value-of select="@name" disable-output-escaping="yes" />
+                            </div>
+                        </xsl:for-each>
+                    </xsl:for-each> -->
+                </div>
+                </div>
+                <div id="akt_kind_switch" class="suggest__logic">
+					<input type="radio" value="0" checked="checked" name="organ_mode"><span>ИЛИ (поиск по документам принятым любым органом из списка)</span></input>
+					<br/>
+					<input type="radio" value="1" name="organ_mode" >
+					<span>И (поиск по документам принятым всеми органам из списка)</span></input>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+         <td>
+             <div>Дата принятия (издания) <i class="ico-tip search-form-tip" title="Необходимо ввести дату принятия либо интервал дат в следующем формате: ДД.ММ.ГГГГ"></i></div>
+            </td>
+         <td>
+          <ul class="toggle-list">
+           <li class="toggle__switch">
+            <div class="toggler ">
+             	<a href="#" class="ts-date active" title="Дата"><i class="ico-time"></i></a>
+             	<div class="toggler__bar"><b></b></div>
+             	<a href="#" class="ts-range" title="Диапазон дат"><i class="ico-calendar"></i></a>
+            </div>
+           </li>
+			  <li class="toggle__date" style="display: list-item;">
+            	<div><input type="text" value="15.05.2014" id="date_pr" class="dt mask-date"></input></div>
+           </li>
+           <li class="toggle__range" style="display: none !important">
+            <div>
+             <div class="table">
+              <div class="cell"><input type="text" value="" id="date_pr_start" class="dt mask-date"></input></div>
+              <div class="cell">—</div>
+              <div class="cell"><input type="text" value="" id="date_pr_end" class="dt mask-date"></input></div>
+             </div>
+            </div>
+           </li>
+          </ul>
+         </td>
+        </tr>
+
+        <tr>
+            <td><div>Номер принятия (издания)</div></td>
+            <td>
+                <input type="text" value="12-42" id="num_pr"></input>
+            </td>
+        </tr>
+        <tr>
+            <td><div>Название</div></td>
+            <td>
+                <input type="text" value="" id="p0"></input>
+            </td>
+        </tr>
+        <tr>
+            <td><div>Раздел реестра</div></td>
+            <td>
+                <div class="custom-select" style="display: none;"></div>
+                <div class="select">
+                 <select id="r_sect">
+                     <option value=""></option>
+																					<option value="01" 
+																	>
+									1. Конституция Республики Беларусь, решения республиканского референдума								</option>
+															<option value="02" 
+																	>
+									2. Акты Всебелорусского народного собрания								</option>
+															<option value="03" 
+																	>
+									3. Указы Президента Республики Беларусь								</option>
+															<option value="04" 
+																	>
+									4. Распоряжения Президента Республики Беларусь								</option>
+															<option value="05" 
+																	>
+									5. Законы Республики Беларусь								</option>
+															<option value="06" 
+																	>
+									6. Постановления Совета Министров Республики Беларусь								</option>
+															<option value="07" 
+																	>
+									7. Постановления палат Национального собрания Республики Беларусь								</option>
+															<option value="08" 
+																	>
+									8. Акты Конституционного Суда Республики Беларусь								</option>
+															<option value="09" 
+																	>
+									9. Постановления Пленума Верховного Суда Республики Беларусь								</option>
+															<option value="10" 
+																	>
+									10. Нормативные правовые акты государственных органов (организаций), подчиненных (подотчетных) Президенту Республики Беларусь								</option>
+															<option value="11" 
+																	>
+									11. Нормативные правовые акты министерств, иных республиканских органов государственного управления								</option>
+															<option value="12" 
+																	>
+									12. Международные договоры Республики Беларусь								</option>
+															<option value="13" 
+																	>
+									13. Технические нормативные правовые акты								</option>
+															<option value="14" 
+																	>
+									14. Решения местных референдумов								</option>
+															<option value="15" 
+																	>
+									15. Нормативные правовые акты областных, Минского городского Советов депутатов								</option>
+															<option value="16" 
+																	>
+									16. Нормативные правовые акты облисполкомов, Минского горисполкома								</option>
+															<option value="17" 
+																	>
+									17. Нормативные правовые акты Советов депутатов базового территориального уровня								</option>
+															<option value="18" 
+																	>
+									18. Нормативные правовые акты исполнительных и распорядительных органов базового территориального уровня								</option>
+															<option value="19" 
+																	>
+									19. Иные правовые акты Республики Беларусь, носящие нормативный характер								</option>
+															<option value="20" 
+																	>
+									20. Распоряжения Главы Администрации Президента Республики Беларусь								</option>
+															<option value="21" 
+																	>
+									21. Распоряжения Премьер-министра Республики Беларусь								</option>
+													                     <!-- <xsl:for-each select="//root/block[@step='2']/record">
+                         <option value="{@code}">
+                             <xsl:if test="WJG:Request('r_sect')=@code">
+                                 <xsl:attribute name="selected">selected</xsl:attribute>
+                             </xsl:if>
+                             <xsl:value-of select="@name" disable-output-escaping="yes" />
+                         </option>
+                     </xsl:for-each> -->
+                 </select>
+                </div>
+            </td>
+        </tr>
+
+<!-- if (!DateTime::createFromFormat('d/m/Y', $string)) -->
+  
+        <tr>
+            <td>
+             <div>Дата регистрации в реестре <i class="ico-tip search-form-tip" title="Необходимо ввести дату регистрации либо интервал дат в следующем формате: ДД.ММ.ГГГГ"></i></div>
+            </td>
+            <td>
+             <ul class="toggle-list">
+              <li class="toggle__switch">
+               <div class="toggler ">
+                <a href="#" class="ts-date active" title="Дата"><i class="ico-time"></i></a>
+                <div class="toggler__bar"><b></b></div>
+                <a href="#" class="ts-range" title="Диапазон дат"><i class="ico-calendar"></i></a>
+               </div>
+              </li>
+              <li class="toggle__date" style="display: list-item;">
+               <div><input type="text" value="" id="r_date" class="dt mask-date"></input></div>
+              </li>
+              <li class="toggle__range" style="display: none !important">
+               <div>
+                <div class="table">
+                 <div class="cell"><input type="text" value="" id="r_date_start" class="dt mask-date"></input></div>
+                 <div class="cell">—</div>
+                 <div class="cell"><input type="text" value="" id="r_date_end" class="dt mask-date"></input></div>
+                </div>
+               </div>
+              </li>
+             </ul>
+             <input type="text" value="" id="r_num" style="display:none;"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+             <div>Дата опубликования на портале <i class="ico-tip search-form-tip" title="Необходимо ввести дату опубликования либо интервал дат в следующем формате: ДД.ММ.ГГГГ"></i></div>
+            </td>
+            <td>
+             <ul class="toggle-list">
+              <li class="toggle__switch">
+               <div class="toggler ">
+                <a href="#" class="ts-date active" title="Дата"><i class="ico-time"></i></a>
+                <div class="toggler__bar"><b></b></div>
+                <a href="#" class="ts-range" title="Диапазон дат"><i class="ico-calendar"></i></a>
+               </div>
+              </li>
+              <li class="toggle__date"  style="display: list-item;">
+               <div><input type="text" value="" id="p_date" class="dt mask-date"></input></div>
+              </li>
+              <li class="toggle__range"  style="display: none !important">
+               <div>
+                <div class="table">
+                 <div class="cell"><input type="text" value="" id="p_date_start" class="dt mask-date"></input></div>
+                 <div class="cell">—</div>
+                 <div class="cell"><input type="text" value="" id="p_date_end" class="dt mask-date"></input></div>
+                </div>
+               </div>
+              </li>
+             </ul>
+            </td>
+        </tr>
+        <tfoot>
+         <tr>
+          <td></td>
+          <td><div>
+           <a href="/natsionalnyy-reestr/pomoshch/" class="link-help">Помощь</a>
+           <button id="reestrGo" class="button button_search">Поиск</button>
+           <button id="reestrClear" class="button button_white button_cleanup">Очистить</button>
+          </div></td>
+         </tr>
+        </tfoot>
+ </table>
+    <hr>
+    <div class="l-main__header">
+        <h2 style="font-size: 30px">Поиск по регистрационному номеру</h2>
+    </div>
+    <table id="searchnum" class="map searchnum" cellspacing="0" cellpadding="6" border="0">
+        <tr>
+            <td><div style="margin-top: 0px;">Регистрационный номер в реестре (2/1742, 6-4/55020, 8.2/1870)</div></td>
+            <td>
+                <input type="text" value="" id="p1"></input>
+            </td>
+        </tr>
+        <tfoot>
+         <tr>
+          <td></td>
+          <td><div>
+           <button id="reestrGo2" class="button button_search">Поиск по рег.номеру</button>
+          </div></td>
+         </tr>
+        </tfoot>
+    </table>
+
+</section>
+
+	<h3 id="paging">Количество найденных документов: 1</h3>
+
+	
+	<div class="doc">
+		<dl>
+			<dt>
+				9/64701				<br/>
+				(09.06.2014)
+			</dt>
+			<dd>
+				<a href="/document/?guid=3961&amp;p0=R914m0064701" target="_blank">О некоторых вопросах установки индивидуальных антенн и иных конструкций</a>.
+				<br/>
+				<i>Решение Могилевского городского исполнительного комитета от 15 мая 2014 г. № 12-42</i>
+			</dd>
+		</dl>
+	</div>
+
+                    <!-- если внутренняя -->
+                                            <script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="https://yastatic.net/share2/share.js"></script>
+<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,twitter,linkedin,viber,telegram"></div>
+                    
+
+                </div>
+
+        </div>
+        
+
+		<div id="contBanner">
+
+						
+
+		</div>
+
+		<div id="dictionary__help" class="dictionary__help"></div>
+    </div>
+
+    <aside class="l-aside">
+        <header class="l-aside-header">
+            <div class="h-logo">
+                <a href="/" class="h-logo__img"><img src="/local/templates/.default/i/logo-main.png"></a>
+            </div>
+            <div class="l-aside-close"><span></span></div>
+        </header>
+
+                    
+    <ul class="inmenu">
+        <li><a href="/natsionalnyy-reestr/" class="inmenu__switch-link"><i class="inmenu__switch"><span></span></i><span>Национальный реестр правовых актов</span></a>
+                            <ul class="inmenu__list">
+                                                                    <li ><a href="/natsionalnyy-reestr/natsionalnyy-reestr-pravovykh-aktov-respubliki-belarus/"><span>Общие сведения</span></a>
+
+                                                    </li>
+
+                                                                    <li ><a href="/natsionalnyy-reestr/novye-postupleniya/"><span>Новые поступления</span></a>
+
+                                                    </li>
+
+                                                                    <li class="active"><a href="/natsionalnyy-reestr/poisk-v-reestre/"><span>Поиск в реестре</span></a>
+
+                                                    </li>
+
+                                                                    <li ><a href="/natsionalnyy-reestr/podpisatsya-na-rassylku/"><span>Подписки</span></a>
+
+                                                    </li>
+
+                                    </ul>
+            
+        </li>
+    </ul>
+
+            
+<ul class="sidemenu sidemenu__inner">
+
+        	
+	
+					<li>
+                <a href="/novosti/" class="root-item">
+                    <i class="menu-ico-news"> </i>
+                    <span>Новости</span></a>
+				<ul>
+		
+	
+	
+        	
+	
+		
+							<li><a href="/novosti/obshchestvenno-politicheskie-i-v-oblasti-prava/">Общественно-политические</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/novosti/novosti-pravo-by/">Новости PRAVO.BY</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/novosti/infografika-prava/">Инфографика</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/novosti/analitika/">Аналитика</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/novosti/video/">Видео</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/novosti/rassylki/">Подписки</a></li>
+			
+		
+	
+	
+        			</ul></li>	
+	
+					<li>
+                <a href="/natsionalnyy-reestr/" class="root-item">
+                    <i class="menu-ico-peripteral"> </i>
+                    <span>Национальный реестр правовых актов</span></a>
+				<ul>
+		
+	
+	
+        	
+	
+		
+							<li><a href="/natsionalnyy-reestr/natsionalnyy-reestr-pravovykh-aktov-respubliki-belarus/">Общие сведения</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/natsionalnyy-reestr/novye-postupleniya/">Новые поступления</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li class="item-selected"><a href="/natsionalnyy-reestr/poisk-v-reestre/">Поиск в реестре</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/natsionalnyy-reestr/podpisatsya-na-rassylku/">Подписки</a></li>
+			
+		
+	
+	
+        			</ul></li>	
+	
+					<li>
+                <a href="/ofitsialnoe-opublikovanie/" class="root-item">
+                    <i class="menu-ico-web"> </i>
+                    <span>Официальное опубликование</span></a>
+				<ul>
+		
+	
+	
+        	
+	
+		
+							<li><a href="/ofitsialnoe-opublikovanie/obshchie-svedeniya-o-poryadke-ofitsialnogo-opublikovaniya-i-obnarodovaniya-pravovykh-aktov/">Общие сведения</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/ofitsialnoe-opublikovanie/novye-postupleniya/">Новые поступления</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/ofitsialnoe-opublikovanie/poisk/">Поиск</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/ofitsialnoe-opublikovanie/arkhiv/">Архив</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/ofitsialnoe-opublikovanie/ofitsialnoe-periodicheskoe-pechatnoe-izdanie-natsionalnyy-reestr-pravovykh-aktov-respubliki-belarus/">Официальное периодическое печатное издание...</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/ofitsialnoe-opublikovanie/podpisatsya-na-rassylku/">Подписки</a></li>
+			
+		
+	
+	
+        			</ul></li>	
+	
+					<li>
+                <a href="/register-of-digital-indicators/" class="root-item">
+                    <i class="menu-ico-ercp"> </i>
+                    <span>Единый реестр цифровых&nbsp;показателей</span></a>
+				<ul>
+		
+	
+	
+        	
+	
+		
+							<li><a href="/register-of-digital-indicators/index.php">Общие сведения</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/register-of-digital-indicators/poisk-v-reestre/">Поиск в реестре</a></li>
+			
+		
+	
+	
+        			</ul></li>	
+	
+					<li>
+                <a href="/gosudarstvo-i-pravo/" class="root-item">
+                    <i class="menu-ico-institute"> </i>
+                    <span>Государство и право</span></a>
+				<ul>
+		
+	
+	
+        	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/obshchie-svedeniya-ob-organizatsii-gosudarstvennoy-vlasti-v-respublike-belarus-i-o-natsionalnoy-prav/">Общие сведения</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/prezident-respubliki-belarus/">Президент</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/vsebelorusskoe-narodnoe-sobranie/">Всебелорусское народное собрание</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/parlament-natsionalnoe-sobranie-respubliki-belarus/">Парламент</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/sovet-ministrov-respubliki-belarus/">Правительство</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/sudebnaya-sistema/">Судебная система</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/prokuratura-respubliki-belarus/">Прокуратура</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/administratsiya-prezidenta-respubliki-belarus/">Администрация Президента Республики Беларусь</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/komitet-gosudarstvennogo-kontrolya-respubliki-belarus/">Комитет государственного контроля</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/mestnoe-upravlenie-i-samoupravlenie-v-respublike-belarus/">Местное управление и самоуправление</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/gosudarstvennaya-simvolika/">Государственная символика</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/gosudarstvennye-prazdniki/">Государственные праздники</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/nauka-i-obrazovanie/">Правовая наука</a></li>
+			
+		
+	
+	
+        			</ul></li>	
+	
+					<li>
+                <a href="/pravovaya-informatsiya/" class="root-item">
+                    <i class="menu-ico-court"> </i>
+                    <span>Правовая информация</span></a>
+				<ul>
+		
+	
+	
+        	
+	
+		
+							<li><a href="/pravovaya-informatsiya/normativnye-dokumenty/">Нормативные документы</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/pravovaya-informatsiya/pravovye-akty-po-temam/">Правовые акты по темам</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/pravovaya-informatsiya/normotvorcheskaya-deyatelnost/">Нормотворческая деятельность</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/pravovaya-informatsiya/pravovaya-informatizatsiya-/">Государственная система правовой информации</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/pravovaya-informatsiya/pomniki-gistoryi-prava-belarusi/">История права в документах</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/pravovaya-informatsiya/edinyy-pravovoy-klassifikator/">Единый правовой классификатор</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/pravovaya-informatsiya/informatsionno-analiticheskiy-resurs-yuridicheskoy-terminologii">Юридический словарь</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/pravovaya-informatsiya/pechatnye-izdaniya/">Печатные издания</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/pravovaya-informatsiya/dostup-k-pravovoy-informatsii/">Доступ к правовой информации</a></li>
+			
+		
+	
+	
+        			</ul></li>	
+	
+					<li>
+                <a href="/bank-dannykh-proektov-zakonov-respubliki-belarus/" class="root-item">
+                    <i class="menu-ico-scales"> </i>
+                    <span>Проекты законов</span></a>
+				<ul>
+		
+	
+	
+        	
+	
+		
+							<li><a href="/bank-dannykh-proektov-zakonov-respubliki-belarus/bank-dannykh-proektov-zakonov-respubliki-belarus/">Общие сведения</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/bank-dannykh-proektov-zakonov-respubliki-belarus/poisk-v-banke-dannykh-proektov-zakonov-respubliki-belarus/">Поиск в банке данных</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/bank-dannykh-proektov-zakonov-respubliki-belarus/bank-dannykh-proektov-zakonov-kak-iskat/">Помощь</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/bank-dannykh-proektov-zakonov-respubliki-belarus/podpiska">Подписки</a></li>
+			
+		
+	
+	
+        			</ul></li>	
+	
+					<li>
+                <a href="/o-portale/" class="root-item">
+                    <i class="menu-ico-info"> </i>
+                    <span>О портале</span></a>
+				<ul>
+		
+	
+	
+        	
+	
+		
+							<li><a href="/o-portale/o-portale/">Общие сведения</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/o-portale/dostup-k-portalu/">Доступ к порталу</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/o-portale/informatsiya-dlya-kontaktov/">Контакты</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/o-portale/bannery/">Баннеры</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/o-portale/reklama-na-portale">Реклама на портале</a></li>
+			
+		
+	
+	
+        	
+	
+		
+							<li><a href="/o-portale/karta-sayta/">Карта сайта</a></li>
+			
+		
+	
+	
+
+	</ul></li>
+</ul>
+<div class="menu-clear-left"></div>
+
+        
+				    <section class="l-banners">
+                                <a href="/pravovaya-informatsiya/normativnye-dokumenty/konstitutsiya-respubliki-belarus/" title="Обновленная Конституция Республики Беларусь" >
+                <img class="konstitucija2022"  src="/upload/iblock/083/k1hstrnhcsfmttxl4756jg8eqrcigx8u.jpg" />
+            </a>
+                                <a href="/pravovaya-informatsiya/normotvorcheskaya-deyatelnost/pravovye-akty-po-teme/" title="План подготовки проектов НПА" >
+                <img class="planiproektovnpa"  src="/upload/iblock/318/twwaeyyi2edvbzaiz0dtbeqwjnva8rs8.jpg" />
+            </a>
+            </section>
+
+                    <section class="l-banners">
+                                <a href="/pravovaya-informatsiya/normativnye-dokumenty/konstitutsiya-respubliki-belarus/" title="Конституция Республики Беларусь" >
+                <img class="konstitutsiya"  src="/upload/iblock/498/498c162b19db53a2b3208e923cb17c98.jpg" />
+            </a>
+                                <a href="/pravovaya-informatsiya/normativnye-dokumenty/kodeksy-respubliki-belarus/" title="Кодексы Республики Беларусь" >
+                <img class="kodeksyrb"  src="/upload/iblock/5b0/5b097b07b212bc22fe21de577ac77f7c.jpg" />
+            </a>
+                                <a href="/pravovaya-informatsiya/pravovye-akty-po-temam/osnovnye-akty-programmnogo-kharaktera-imeyushchie-prioritetnoe-politicheskoe-sotsialnoe-i-ekonomiche/" title="БД Акты программного характера" >
+                <img class="aktyprogharak"  src="/upload/iblock/8e5/8e54db9bd013f21fc53d84dbaaeb0831.jpg" />
+            </a>
+                                <a href="/pravovaya-informatsiya/pravovye-akty-po-temam/bank-dannykh-administrativnye-protsedury/pravovye-akty/" title="БД Административные процедуры" >
+                <img class="bdadminproceduri"  src="/upload/iblock/13c/13cb86c84e20347b70821ad8273898cc.jpg" />
+            </a>
+                                <a href="/pravovaya-informatsiya/pravovye-akty-po-temam/bank-dannykh-gosudarstvennye-organy/pravovye-akty/" title="БД Государственные органы" >
+                <img class="bdgosorgany"  src="/upload/iblock/cf1/cf1c4b804498d77fad1e8eaf19169cd1.jpg" />
+            </a>
+            </section>
+
+		<div id="l_cloned_banner">
+						    <section class="r-banners">
+                                <div>
+                <p>
+                    <a title="ОАО «Белорусский банк развития и реконструкции «Белинвестбанк»" target="_blank" href="https://www.belinvestbank.by/business/finance/kredit-na-razvitie-biznesa-v-regionax">
+                        <img class="belinvestbank" alt="ОАО «Белорусский банк развития и реконструкции «Белинвестбанк»" src="/upload/iblock/20c/x8ytrmsa74pt6c0zvdr7nrt8n5virka4.jpg" />
+                    </a>
+                </p>
+            </div>
+                                <div>
+                <p>
+                    <a title="2026 Год белорусской женщины"  href="https://pravo.by/document/?guid=12551&p0=P32600001">
+                        <img class="" alt="2026 Год белорусской женщины" src="/upload/iblock/3d4/3713vs98trl2io4hnnkl05ladkb1lsb0.png" />
+                    </a>
+                </p>
+            </div>
+            </section>
+
+		
+		</div>
+
+    </aside>
+
+    <aside class="r-aside">
+		<div id="r_banner">
+						    <section class="r-banners">
+                                <div>
+                <p>
+                    <a title="ОАО «Белорусский банк развития и реконструкции «Белинвестбанк»" target="_blank" href="https://www.belinvestbank.by/business/finance/kredit-na-razvitie-biznesa-v-regionax">
+                        <img class="belinvestbank" alt="ОАО «Белорусский банк развития и реконструкции «Белинвестбанк»" src="/upload/iblock/20c/x8ytrmsa74pt6c0zvdr7nrt8n5virka4.jpg" />
+                    </a>
+                </p>
+            </div>
+                                <div>
+                <p>
+                    <a title="2026 Год белорусской женщины"  href="https://pravo.by/document/?guid=12551&p0=P32600001">
+                        <img class="" alt="2026 Год белорусской женщины" src="/upload/iblock/3d4/3713vs98trl2io4hnnkl05ladkb1lsb0.png" />
+                    </a>
+                </p>
+            </div>
+            </section>
+
+		</div>
+        <section>
+            <div class="newslist newslist_pravo">
+    <div class="r-header">Новости pravo.by</div>
+            <div class="newslist__item">
+            <a href="/novosti/novosti-pravo-by/2026/november/95877/">Экологическая экспертиза, оценка воздействия на окружающую среду и стратегическая экологическая оценка – изменения с 1 января 2027 г.</a>
+            <span class="news-card__date">16 ноября 2026</span>
+        </div>
+            <div class="newslist__item">
+            <a href="/novosti/novosti-pravo-by/2026/november/95872/">Что стоит учитывать при ведении деятельности в сфере агроэкотуризма? Разъяснение экспертов – 20 ноября в прямом эфире на вебинаре НЦЗПИ</a>
+            <span class="news-card__date">16 ноября 2026</span>
+        </div>
+            <div class="newslist__item">
+            <a href="/novosti/novosti-pravo-by/2026/november/95844/">Маломерные суда. МЧС обновлены программы подготовки судоводителей</a>
+            <span class="news-card__date">13 ноября 2026</span>
+        </div>
+            <div class="newslist__item">
+            <a href="/novosti/novosti-pravo-by/2026/november/95798/">Открыт правовой мониторинг постановления по вопросу представления банками сведений по счетам физлиц. Принимайте участие!</a>
+            <span class="news-card__date">13 ноября 2026</span>
+        </div>
+            <div class="newslist__item">
+            <a href="/novosti/novosti-pravo-by/2026/november/95843/">Минсельхозпрод определил, как будет оцениваться эффективность использования господдержки АПК</a>
+            <span class="news-card__date">12 ноября 2026</span>
+        </div>
+            <div class="newslist__item">
+            <a href="/novosti/novosti-pravo-by/2026/november/95836/">Инвентаризация и оформление паспорта перевозки отходов производства. Уточнен порядок</a>
+            <span class="news-card__date">12 ноября 2026</span>
+        </div>
+    
+    <footer class="nl-footer">
+        <a href="/novosti/novosti-pravo-by/rss/" class="button" target="_blank"><i class="ico-rss"></i><span>RSS</span></a>
+        <a href="/novosti/novosti-pravo-by/" class="button button_white">Архив</a>
+    </footer>
+</div>        </section>
+
+				
+
+        
+    <section class="r-promo-links">
+        <div class="r-header r-header_hidden">Нужен заголовок</div>
+        <div>
+        
+            <a target="_blank" href="https://forumpravo.by/publichnoe-obsuzhdenie-proektov-npa/forum15/"><span>Общественное обсуждение проектов НПА</span></a>
+        
+            <a target="_blank" href="/natsionalnyy-reestr/novye-postupleniya/"><span>Национальный реестр правовых актов</span></a>
+        
+            <a target="_blank" href="/ofitsialnoe-opublikovanie/novye-postupleniya/"><span>Официальное опубликование</span></a>
+        
+            <a target="_blank" href="https://etalonline.by/"><span>Банки данных правовой информации</span></a>
+        
+            <a target="_blank" href="https://multilang.pravo.by/"><span>Юридический словарь</span></a>
+        
+            <a target="_blank" href="https://forumpravo.by/pravovoy-monitoring/forum35/"><span>Правовой мониторинг</span></a>
+                </div>
+    </section>
+                
+
+    </aside>
+</section>
+
+<footer class="l-footer">
+    <div class="l-footer__in">
+        <div class="h-logo">
+            <a href="/" class="h-logo__img"><img src="/local/templates/.default/i/logo-main.png"></a>
+        </div>
+        <div class="socials footer__socials">
+            <a href="http://vk.com/pravoby" target="_blank" class="social-vk"></a>
+			<a href="https://www.facebook.com/pravoby" target="_blank" class="social-fb"></a>
+			<a href="http://ok.ru/pravoby" target="_blank" class="social-ok"></a>
+			<a href="https://www.instagram.com/nczpi.by?igsh=MW1rdHRmdGNqNWwyNg" target="_blank" class="social-instagram"></a>
+			<!--<a href="https://twitter.com/NCPIGOVBY" target="_blank" class="social-tw"></a>
+			<a href="https://invite.viber.com/?g2=AQAMTKedUOIXu0oRqPMQ0RkZBISzYX9Dk29Q6HnC8z%2B6FF1P1ZyzKNTr%2F6l76d%2F6&lang=ru" target="_blank" class="social-vb"></a>-->
+			<a href="https://telegram.me/pravoby" target="_blank" class="social-tg"></a>
+        </div>
+
+        <a class="footer__sitemap" href="/o-portale/karta-sayta/">Карта сайта</a>
+
+        <div class="footer__center">
+            
+<ul class="footer__menu">
+
+			<li><a href="/novosti/">Новости</a></li>
+		
+			<li><a href="/novosti/novosti-pravo-by/">Новости Pravo.by</a></li>
+		
+			<li><a href="/novosti/analitika/">Аналитика</a></li>
+		
+			<li><a href="/novosti/infografika-prava/">Инфографика права</a></li>
+		
+			<li><a href="/ofitsialnoe-opublikovanie/">Официальное опубликование</a></li>
+		
+			<li><a href="/pravovaya-informatsiya/">Правовая информация</a></li>
+		
+			<li><a href="/gosudarstvo-i-pravo/">Государство и право</a></li>
+		
+			<li><a href="/bank-dannykh-proektov-zakonov-respubliki-belarus/">Проекты законов</a></li>
+		
+			<li><a href="/o-portale/">О портале</a></li>
+		
+
+</ul>
+                        <div class="f-banners">
+    <ul>
+                    <li>
+            <a href="https://president.gov.by/" title="Официальный Интернет-портал Президента Республики Беларусь" target="_blank">
+                <img class="president" src="/upload/iblock/6b9/6b953f37a31289206bd373b654817619.png" alt="Официальный Интернет-портал Президента Республики Беларусь" />
+            </a>
+        </li>
+                    <li>
+            <a href="https://mir.pravo.by/" title="Детский правовой сайт" target="_blank">
+                <img class="detskiiSait" src="/upload/iblock/021/jd5881z22at1glj49noqwo4ubrj5z6y5.jpg" alt="Детский правовой сайт" />
+            </a>
+        </li>
+                    <li>
+            <a href="https://forumpravo.by/" title="Правовой форум Беларуси" target="_blank">
+                <img class="pravovoiForum" src="/upload/iblock/b74/0kmp15iuxs3tkuzeb855xnq4asdz8fq7.jpg" alt="Правовой форум Беларуси" />
+            </a>
+        </li>
+                    <li>
+            <a href="http://journal.pravo.by/" title="Журнал «Право.by»" target="_blank">
+                <img class="journalPravoBy" src="/upload/iblock/ac7/ac7a7f0fd06826a0606908e92006fc71.jpg" alt="Журнал «Право.by»" />
+            </a>
+        </li>
+                    <li>
+            <a href="http://www.belarus.by/ru/" title="Официальный сайт Республики Беларусь" target="_blank">
+                <img class="saitRB" src="/upload/iblock/45a/45ac462d0ab4c0b8fdacd8b02e0ef5a8.jpg" alt="Официальный сайт Республики Беларусь" />
+            </a>
+        </li>
+                    <li>
+            <a href="http://belta.by/" title="БЕЛТА" target="_blank">
+                <img class="belta" src="/upload/iblock/0f3/0f3ca6067a955ba113718f739b7576c3.jpg" alt="БЕЛТА" />
+            </a>
+        </li>
+                    <li>
+            <a href="https://www.youtube.com/@nczpibelarus" title="Канал НЦЗПИ на YouTube" target="_blank">
+                <img class="KanalNCZPI" src="/upload/iblock/296/f2gpmvw8vv3rrwmzv4a5xoh9u11ejuy0.jpg" alt="Канал НЦЗПИ на YouTube" />
+            </a>
+        </li>
+        </ul>
+</div>
+        </div>
+<a href="http://astronim.com" target="_blank" class="developer"><span>Дизайн и программирование</span> — <img src="/local/templates/.default/i/astronim.png" alt=""></a>
+
+<div class="copyright">
+	 При использовании материалов активная гиперссылка на pravo.by (право бай) обязательна.<br>
+ <br>
+ <a href="/o-portale/informatsiya-dlya-kontaktov/">Контактная информация по вопросам наполнения pravo.by</a>.<br>
+ <br>
+ <a href="/politika-v-otnoshenii-obrabotki-cookie-fajlov/" class="cookie-footer-link">
+	Политика обработки файлов cookie </a> <br>
+ <a href="#" id="cookie-setting-link" class="cookie-footer-link">
+	Настройки обработки файлов cookie </a> <br>
+	 ©&nbsp;<a target="_blank" href="https://center.gov.by/">Национальный центр законодательства и правовой информации Республики Беларусь</a>, 2003-2026
+</div>
+ <br>    </div>
+</footer>
+</div>
+<!--    COOKIE BANNER    -->
+<div class="cookie-container">
+    <div class="cookie-banner" id="main-form">
+        <p>Для обеспечения удобства пользователей данный сайт использует файлы cookie</p>
+        <div class="buttons">
+            <div class="cookie-button" id="accept-all"><div>ПРИНЯТЬ ВСЕ</div></div>
+            <div class="cookie-button" id="reject-all"><div>ОТКЛОНИТЬ ВСЕ <br /><span>(кроме&nbspнеобходимых)</span></div></div>
+        </div>
+        <div class="cookie-settings-link" id="settings"><a href="#">Настроить</a></div>
+        <div class="cookie-link-doc"><a href="/politika-v-otnoshenii-obrabotki-cookie-fajlov/">Политика в отношении обработки cookie-файлов на сайте</a></div>
+    </div>
+    <div class="cookie-banner" id="settings-form">
+        <h3>Настройка обработки файлов cookie</h3>
+        <span>
+            Вы можете настроить, какие типы файлов cookie будут сохраняться на Вашем устройстве, за исключением необходимых cookie, без которых невозможно функционирование сайта. Полное или частичное отключение cookie может привести к ограничению доступа к функционалу сайта
+        </span>
+        <div class="checboxes">
+            <input type="checkbox" id="technical" class="customCheckbox" disabled checked> <label for="technical">Необходимые (технические)</label>
+            <input type="checkbox" id="functional" class="customCheckbox" checked> <label for="functional">Функциональные</label>
+            <input type="checkbox" id="analytical" class="customCheckbox" checked> <label for="analytical">Аналитические</label>
+        </div>
+        <div class="buttons">
+            <div class="cookie-button large-button" id="accept-selected"><div>СОХРАНИТЬ</div></div>
+            <div class="cookie-button large-button"  id="close"><div>ЗАКРЫТЬ</div></div>
+        </div>
+        <div class="cookie-link-doc"><a href="/politika-v-otnoshenii-obrabotki-cookie-fajlov/">Политика в отношении обработки cookie-файлов на сайте</a></div>
+    </div>
+</div>
+<!--    END COOKIE BANNER    -->
+<link href="https://fonts.googleapis.com/css?family=Arimo|Open+Sans:400,600,700|PT+Sans:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+<script src="/local/templates/.default/js/jquery.min.js"></script>
+<script src="/local/templates/.default/js/lib/chosen.jquery.min.js"></script>
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+    <script type="text/javascript" src="/local/templates/.default/js/lib/selectivizr-min.js"></script>
+    <script type="text/javascript" src="/local/templates/.default/js/lib/PIE_IE678.js"></script>
+    <link rel="stylesheet" media="screen" href="/local/templates/.default/css/ie8.css">
+<![endif]-->
+<script type="text/javascript" src="/local/templates/.default/js/extra.js"></script>
+<script type="text/javascript" src="/local/templates/.default/js/lib/share42/share42.js"></script>
+<script type="text/javascript" src="/local/templates/.default/js/common.js?2216"></script>
+<script type="text/javascript" src="/local/templates/.default/js/lib/jquery.datetimepicker.full.min.js"></script>
+<script type="text/javascript" src="/local/templates/.default/js/lib/addclear.min.js"></script>
+<script type="text/javascript" src="/local/templates/.default/js/addtocopy.js"></script>
+<script type="text/javascript" src="/local/templates/.default/audio_player/js/howler.core.js"></script>
+<script type="text/javascript" src="/local/templates/.default/audio_player/js/player.js"></script>
+
+<link rel="stylesheet" media="screen" href="/local/templates/.default/css/fonts.css">
+<link rel="stylesheet" media="screen" href="/local/templates/.default/css/animate.css">
+<link rel="stylesheet" media="print" href="/local/templates/.default/css/print.css">
+
+<script type="text/javascript" src="/mistakes/mistakes.js"></script>
+<link href="/mistakes/mistakes.css" rel="stylesheet" type="text/css" />
+
+</body>
+</html>
