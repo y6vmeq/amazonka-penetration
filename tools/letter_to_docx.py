@@ -33,6 +33,8 @@ FEMININE = re.compile(r"\((?:ей|ла|лась|а)\)")
 BRACKETS = re.compile(r"\[[^\[\]]+\]")
 VARIANT = re.compile(r"^\*\*Вариант (\d+)\.\*\*\s*(.*)$")
 NUMBERED = re.compile(r"^(\d+)[.)]\s+(.*)$")
+SECTION = re.compile(r"^\*\*((?:I{1,3}|IV|V|VI{0,2})\. [^*]+)\*\*$")  # заголовок раздела письма: «**II. Обстоятельства**»
+QUESTION = re.compile(r"^(?:\*\*)?(В\d+)\.(?:\*\*)?\s+(.*)$")  # вопрос «В1. …»
 
 
 def options(argv):
@@ -189,9 +191,42 @@ def build(source, target, opts):
     add_text(heading, letter[title_index][3:].strip(), bold=True)
 
     tail_start = None  # с абзаца «Приложения:» текст держится вместе с подписью, чтобы она не осталась одна на странице
-    for line in body:
-        text = line.strip()
+    position, subtitle_checked = 0, False
+    while position < len(body):
+        text = body[position].strip()
+        position += 1
         if not text:
+            continue
+        if not subtitle_checked:
+            # строка под названием («о проверке …», «на ответ …») — подзаголовок по центру
+            subtitle_checked = True
+            if re.match(r"^(?:о|об|на) ", text):
+                heading.paragraph_format.space_after = Pt(2)
+                subtitle = document.add_paragraph()
+                subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                subtitle.paragraph_format.space_after = Pt(12)
+                add_text(subtitle, fill(text, opts), bold=True)
+                continue
+        if base.TABLE_ROW.match(text):
+            rows = [text]
+            while position < len(body) and base.TABLE_ROW.match(body[position].strip()):
+                rows.append(body[position].strip())
+                position += 1
+            cells = [[fill(cell, opts).replace(OPEN, "").replace(CLOSE, "") for cell in row] for row in parse_table(rows)]
+            base.add_table(document, cells, 16.5)
+            continue
+        if text.startswith(">"):
+            text = text.lstrip("> ").strip()
+            if not text:
+                continue
+        section_title = SECTION.match(text)
+        if section_title:
+            paragraph = body_paragraph(document, section_title.group(1), indent=False, align=WD_ALIGN_PARAGRAPH.LEFT, before=14, after=4, bold=True)
+            paragraph.paragraph_format.keep_with_next = True
+            continue
+        question = QUESTION.match(text)
+        if question:
+            body_paragraph(document, "**" + question.group(1) + ".** " + fill(question.group(2), opts), before=3)
             continue
         if re.match(r"^\[дата\]\s+\[личная подпись\]$", text):
             paragraph = document.add_paragraph()

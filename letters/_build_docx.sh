@@ -1,17 +1,41 @@
 #!/usr/bin/env bash
-# Собирает приложения и файлы Word всех проектов обращений с условным заявителем.
-# Запуск из корня проекта: bash letters/_build_docx.sh
-# Условный заявитель (Иванов Иван Иванович) подставляется только в файлы .docx; исходники .md остаются с пустыми полями.
+# Пересобирает приложения и файлы Word набора обращений от 16.11.2026 (стандарт — letters/STANDART.md).
+#
+#   bash letters/_build_docx.sh
+#
+# Заявитель в файлах Word условный (Иванов Иван Иванович): подставленное выделено жёлтым, вверху пометка
+# «ПРОЕКТ, не для подачи». Исходник каждого письма — файл .md с пустыми полями заявителя.
+# Приложения с перечнями публикаций собираются из описаний letters/_src/<имя>_prilozhenie-N.json;
+# выдержки сверяются со сводом sources/reviews/ALL.jsonl, и при расхождении сборка останавливается.
 set -euo pipefail
-
+cd "$(dirname "$0")/.."
 WHO=(--applicant "Иванов Иван Иванович" --applicant-gen "Иванова Ивана Ивановича" --signature "И. И. Иванов")
-CGE="Адресат — первый из двух вариантов (городской центр гигиены); второй вариант — областной центр: 212011, г. Могилёв, ул. Гришина, 82."
 
-python -I -X utf8 tools/letter_appendix.py letters/_src/sanitarnaya-sluzhba_amazonka_prilozhenie-1.json letters/sanitarnaya-sluzhba_amazonka_prilozhenie-1.md
-python -I -X utf8 tools/letter_appendix.py letters/_src/sanitarnaya-sluzhba_smak-by_prilozhenie-1.json letters/sanitarnaya-sluzhba_smak-by_prilozhenie-1.md
-python -I -X utf8 tools/letter_appendix.py letters/_src/gorispolkom_smak-by_prilozhenie-1.json letters/gorispolkom_smak-by_raboty-fasad-torgovlya_prilozhenie-1.md
+LETTERS=(
+  sanitarnaya-sluzhba_amazonka
+  gorispolkom_amazonka_zdanie-fasad-reklama
+  gorispolkom_amazonka_torgovlya
+  prirodoohrana_amazonka_zhivotnye
+  nalogovaya_amazonka-smak-by
+  sanitarnaya-sluzhba_smak-by
+  gorispolkom_smak-by_raboty-okna-vhod
+  gorispolkom_smak-by_torgovlya
+)
 
-python -I -X utf8 tools/letter_to_docx.py letters/sanitarnaya-sluzhba_amazonka.md letters/sanitarnaya-sluzhba_amazonka.docx "${WHO[@]}" --variant 1 --appendix letters/sanitarnaya-sluzhba_amazonka_prilozhenie-1.md --note "$CGE"
-python -I -X utf8 tools/letter_to_docx.py letters/gorispolkom_amazonka_fasad-vyveska-terrasa.md letters/gorispolkom_amazonka_fasad-vyveska-terrasa.docx "${WHO[@]}"
-python -I -X utf8 tools/letter_to_docx.py letters/sanitarnaya-sluzhba_smak-by.md letters/sanitarnaya-sluzhba_smak-by.docx "${WHO[@]}" --variant 1 --appendix letters/sanitarnaya-sluzhba_smak-by_prilozhenie-1.md --note "$CGE"
-python -I -X utf8 tools/letter_to_docx.py letters/gorispolkom_smak-by_raboty-fasad-torgovlya.md letters/gorispolkom_smak-by_raboty-fasad-torgovlya.docx "${WHO[@]}" --appendix letters/gorispolkom_smak-by_raboty-fasad-torgovlya_prilozhenie-1.md
+for name in "${LETTERS[@]}"; do
+  if [ ! -f "letters/$name.md" ]; then
+    echo "пропущено (нет файла): letters/$name.md"
+    continue
+  fi
+  appendices=()
+  for spec in letters/_src/"$name"_prilozhenie-*.json; do
+    [ -f "$spec" ] || continue
+    target="letters/$(basename "${spec%.json}").md"
+    python -I -X utf8 tools/letter_appendix.py "$spec" "$target"
+    appendices+=(--appendix "$target")
+  done
+  python -I -X utf8 tools/letter_to_docx.py "letters/$name.md" "letters/$name.docx" "${WHO[@]}" --variant 1 ${appendices[@]+"${appendices[@]}"}
+done
+
+# шаблон жалобы на ответ: без приложений
+python -I -X utf8 tools/letter_to_docx.py letters/shablon_zhaloba-na-otvet.md letters/shablon_zhaloba-na-otvet.docx "${WHO[@]}"
