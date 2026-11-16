@@ -1,0 +1,57 @@
+Всего запросов через tools/fetch_raw.py: 132
+  html.duckduckgo.com: нет ответа: curl: (35) Recv failure: Connection was reset × 1
+  krasnopolie.cge.by: нет ответа: curl: (35) Recv failure: Connection was reset × 2
+  masheka.by: 200 × 13
+  mcge.by: нет ответа: curl: (35) Recv failure: Connection was reset × 18; нет ответа: curl: (56) Recv failure: Connection was reset × 1
+  mcgetest.cge.by: нет ответа: curl: (35) Recv failure: Connection was reset × 1
+  mogilev.online: нет ответа: curl: (6) Could not resolve host: mogilev.online × 1
+  olo.by: 200 × 1
+  t.me: 200 × 80
+  web.archive.org: 200 × 6; 503 × 5; 429 × 2
+  www.bing.com: 200 × 1
+
+Прямые попытки открыть сайты санитарной службы (по одной на адрес):
+  13:58:00 UTC  https://mcge.by/archives/2007  ->  curl: (35) Recv failure: Connection was reset
+  14:06:52 UTC  https://mcge.by/archives/1786  ->  curl: (35) Recv failure: Connection was reset
+  14:07:12 UTC  https://mcge.by/archives/2133  ->  curl: (35) Recv failure: Connection was reset
+  14:07:32 UTC  https://mcge.by/archives/2392  ->  curl: (35) Recv failure: Connection was reset
+  14:07:53 UTC  https://mcge.by/archives/2591  ->  curl: (35) Recv failure: Connection was reset
+  14:08:13 UTC  https://mcge.by/archives/2678  ->  curl: (35) Recv failure: Connection was reset
+  14:08:34 UTC  https://mcge.by/archives/3891  ->  curl: (35) Recv failure: Connection was reset
+  14:08:54 UTC  https://mcge.by/archives/4051  ->  curl: (35) Recv failure: Connection was reset
+  14:09:14 UTC  https://mcge.by/archives/4193  ->  curl: (35) Recv failure: Connection was reset
+  14:09:35 UTC  https://mcge.by/archives/4401  ->  curl: (35) Recv failure: Connection was reset
+  14:09:55 UTC  https://mcge.by/archives/4981  ->  curl: (35) Recv failure: Connection was reset
+  14:10:15 UTC  https://mcge.by/archives/5467  ->  curl: (35) Recv failure: Connection was reset
+  14:10:36 UTC  https://mcge.by/archives/5505  ->  curl: (35) Recv failure: Connection was reset
+  14:10:56 UTC  https://mcge.by/archives/5762  ->  curl: (35) Recv failure: Connection was reset
+  14:11:16 UTC  https://mcge.by/archives/5967  ->  curl: (35) Recv failure: Connection was reset
+  14:11:37 UTC  https://mcge.by/archives/6013  ->  curl: (35) Recv failure: Connection was reset
+  14:11:57 UTC  https://mcge.by/archives/6382  ->  curl: (35) Recv failure: Connection was reset
+  14:12:17 UTC  https://mcge.by/archives/6484  ->  curl: (35) Recv failure: Connection was reset
+  14:12:21 UTC  https://krasnopolie.cge.by/  ->  curl: (35) Recv failure: Connection was reset
+  14:12:40 UTC  https://krasnopolie.cge.by/информация-по-объектам-торговли-и-общ-6/  ->  curl: (35) Recv failure: Connection was reset
+  14:13:00 UTC  https://mcgetest.cge.by/  ->  curl: (35) Recv failure: Connection was reset
+  14:58:59 UTC  http://mcge.by/archives/2007  ->  curl: (56) Recv failure: Connection was reset
+
+Обращения к веб-архиву (по времени):
+  14:01:42 UTC  копия страницы  429  wa-mcge-2007-20260810  (620 байт)
+  14:18:43 UTC  справка CDX     503  wa-cdx-cge-domain-informatsiya-po-obektam  (11832 байт)
+  14:20:01 UTC  справка CDX     200  wa-cdx-krasnopolie-all  (3 байт)
+  14:21:19 UTC  справка CDX     200  wa-cdx-mcge-all  (3 байт)
+  14:22:30 UTC  справка CDX     503  wa-cdx-mcge-all-2  (11832 байт)
+  14:24:24 UTC  справка CDX     200  wa-cdx-mcge-date-all-captures  (25518 байт)
+  14:25:34 UTC  справка CDX     503  wa-cdx-mcge-category-all-captures  (11832 байт)
+  14:27:05 UTC  справка CDX     200  wa-cdx-mcge-wp-json  (67016 байт)
+  14:28:31 UTC  справка CDX     200  wa-cdx-mcge-feed  (2011 байт)
+  14:36:59 UTC  справка CDX     200  wa-cdx-mcge-post-6xxx  (1835 байт)
+  14:38:09 UTC  справка CDX     503  wa-cdx-mcge-category-r-gig  (11832 байт)
+  14:39:20 UTC  справка CDX     503  wa-cdx-mcge-archives-all-captures  (11832 байт)
+  16:55:18 UTC  копия страницы  429  wa-mcge-5467-20260517  (620 байт)
+  Итого: запросов копий страниц 2, из них отказов 429 — 2, успешных — 0; справочных запросов CDX 11, из них 200 — 6, 503 — 5, 429 — 0
+
+Сплошной просмотр t.me/s/mogilevoblcge: страниц 390, записи 981–9447; самая ранняя запись 2023-12-07, самая поздняя 2026-11-14
+Сплошной просмотр t.me/s/uzmzcge: страниц 146, записи 429–3872; самая ранняя запись 2023-10-11, самая поздняя 2026-11-13
+Поиск названий в предпросмотре телеграм-каналов (канал: слово = число записей в выдаче):
+  mogilevoblcge: Амазонка = 0; Ленинская, 38 = 0; XS = 0; Колетт = 0; Colette = 0; Найсус = 0; Буденного, 13 = 0; Смак = 0
+  uzmzcge: Амазонка = 0; Ленинская, 38 = 0; XS = 0; Колетт = 0; Colette = 0; Найсус = 0; Буденного, 13 = 0; Смак = 0

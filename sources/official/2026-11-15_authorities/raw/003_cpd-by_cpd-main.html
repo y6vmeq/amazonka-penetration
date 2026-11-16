@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title data-ru="Перенаправление" data-en="Redirect">Перенаправление</title>
+    <meta charset="UTF-8" />
+    <!--link rel="stylesheet" href="styles.css"> -->
+	<link href="https://webstub.g-cloud.by/styles.css" rel="stylesheet" type="text/css" />
+	
+  </head>
+  <body>
+    <div class="language-switch">
+      <button class="language-button" id="languageButton">
+        🌐 English / Русский
+      </button>
+    </div>
+
+    <div class="container">
+      <h1 data-ru="🔗 Перенаправление" data-en="🔗 Redirect">
+        🔗 Перенаправление
+      </h1>
+
+      <div
+        class="subtitle"
+        data-ru="Нажмите кнопку ниже для перехода на запрашиваемую страницу"
+        data-en="Click the button below to visit requested page"
+      >
+        Нажмите кнопку ниже для перехода на целевую страницу
+      </div>
+
+      <div class="countdown-container">
+        <div
+          class="countdown-text"
+          data-ru="Кнопка станет доступна через:"
+          data-en="Button will be available in:"
+        >
+          Кнопка станет доступна через:
+        </div>
+        <div class="countdown" id="countdown">5</div>
+      </div>
+
+      <div class="step">
+        <div class="step-number">1</div>
+        <span
+          data-ru="Ожидание активации кнопки"
+          data-en="Waiting for button activation"
+        >
+          Ожидание активации кнопки
+        </span>
+      </div>
+
+      <div class="step">
+        <div class="step-number">2</div>
+        <span
+          data-ru="Нажмите кнопку для продолжения"
+          data-en="Click the button to continue"
+        >
+          Нажмите кнопку для продолжения
+        </span>
+      </div>
+
+      <div class="step">
+        <div class="step-number">3</div>
+        <span
+          data-ru="Перенаправление"
+          data-en="Redirecting"
+        >
+          Отправка данных и перенаправление
+        </span>
+      </div>
+
+      <button class="redirect-button" id="redirectButton">
+        <span data-ru="Начать перенаправление" data-en="Start Redirect">
+          Начать перенаправление
+        </span>
+      </button>
+
+      <div class="status-message" id="statusMessage">
+      </div>
+
+      <div class="info-box">
+        <div
+          class="info-title"
+          data-ru="📊 Информация о запросе:"
+          data-en="📊 Request Information:"
+        >
+          📊 Информация о запросе:
+        </div>
+        <div class="info-content">
+          <div>
+            <strong data-ru="Запрашиваемый URL:" data-en="Destination URL:">Запрашиваемый URL::</strong>
+		   	<span id="destinationURL">Загрузка...</span>
+          </div>
+		  <div>
+            <strong data-ru="Веб-сайт:" data-en="Website:">Веб-сайт:</strong>
+			<span id="website"> cpd.by/ </span>
+          </div>		  
+		  <div>
+            <strong style="opacity: 0;" data-ru="Пользователь:" data-en="User:">Пользователь:</strong>
+			<span style="opacity: 0;" id="user"> 83.168.72.253 </span>
+          </div>		  
+		  <div>
+            <strong style="opacity: 0;" data-ru="Категория:" data-en="Category:">Категория:</strong>
+			<span style="opacity: 0;" id="category"> ssl_cpd.by </span>
+          </div>		  
+          <div>
+            <strong data-ru="Время запроса:" data-en="Request Time:"
+              >Время запроса:</strong
+            >
+            <span id="currentTime">-</span>
+          </div>
+          <div>
+          </div>
+          <div>
+            <strong data-ru="Язык системы:" data-en="System Language:"
+              >Язык системы:</strong
+            >
+            <span id="detectedLanguage">-</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function detectUserLanguage() {
+        const browserLang = navigator.language || navigator.userLanguage;
+        const userLang = browserLang.toLowerCase();
+        
+        const russianLanguages = [
+          'ru',
+          'ru-ru',
+          'ru-ua',
+          'ru-by',
+          'ru-kz',
+          'ru-md',
+          'be',
+          'uk',
+          'kk',
+        ];
+        const isRussian = russianLanguages.some((lang) =>
+          userLang.startsWith(lang)
+        );
+
+        return isRussian ? 'ru' : 'en';
+      }
+
+      function setLanguage(lang) {
+        document.documentElement.lang = lang;
+        document.querySelectorAll('[data-ru], [data-en]').forEach((element) => {
+          if (
+            element.id === 'redirectButton' &&
+            element.classList.contains('loading')
+          ) {
+            return;
+          }
+
+          const text = element.getAttribute(`data-${lang}`);
+          if (text && element.tagName !== 'BUTTON') {
+            element.textContent = text;
+          }
+          
+          if (
+            element.tagName === 'BUTTON' &&
+            element.querySelector('span[data-ru]')
+          ) {
+            const span = element.querySelector('span');
+            const spanText = span.getAttribute(`data-${lang}`);
+            if (spanText) {
+              span.textContent = spanText;
+            }
+          }
+        });
+
+        const langButton = document.getElementById('languageButton');
+        if (lang === 'ru') {
+          langButton.textContent = '🌐 English / Русский';
+        } else {
+          langButton.textContent = '🌐 Русский / English';
+        }
+		
+        const detectedLangElement = document.getElementById('detectedLanguage');
+        if (detectedLangElement) {
+          detectedLangElement.textContent =
+            lang === 'ru' ? 'Русский' : 'English';
+        }
+        localStorage.setItem('preferredLanguage', lang);
+      }
+
+      
+      function updateRedirectButtonText(lang, isInLoadingState = false) {
+        const redirectButton = document.getElementById('redirectButton');
+
+        if (isInLoadingState) {
+      
+          const loadingText =
+            lang === 'ru' ? 'Обработка запроса...' : 'Processing request...';
+
+      
+          const loader = redirectButton.querySelector('.loader');
+          if (loader) {
+      
+            const textNode = Array.from(redirectButton.childNodes).find(
+              (node) =>
+                node.nodeType === Node.TEXT_NODE && node.textContent.trim()
+            );
+            if (textNode) {
+              textNode.textContent = ' ' + loadingText;
+            }
+          }
+        } else {
+      
+          const buttonText =
+            lang === 'ru'
+              ? 'Перейти на запрашиваемую страницу'
+              : 'Go to requested page';
+
+      
+          const span = redirectButton.querySelector('span');
+          if (span) {
+            span.textContent = buttonText;
+          } else {
+      
+            const newSpan = document.createElement('span');
+            newSpan.textContent = buttonText;
+            newSpan.setAttribute('data-ru', 'Перейти на запрашиваемую страницу');
+            newSpan.setAttribute('data-en', 'Go to requested page');
+            redirectButton.innerHTML = '';
+            redirectButton.appendChild(newSpan);
+          }
+        }
+      }      
+
+      function toggleLanguage() {
+        const currentLang = document.documentElement.lang;
+        const newLang = currentLang === 'ru' ? 'en' : 'ru';
+        
+		document.documentElement.lang = newLang;       
+        document.querySelectorAll('[data-ru], [data-en]').forEach((element) => {
+          if (element.id === 'redirectButton') return;
+
+          const text = element.getAttribute(`data-${newLang}`);
+          if (text && element.tagName !== 'BUTTON') {
+            element.textContent = text;
+          }
+        });
+
+        const langButton = document.getElementById('languageButton');
+        if (newLang === 'ru') {
+          langButton.textContent = '🌐 English / Русский';
+        } else {
+          langButton.textContent = '🌐 Русский / English';
+        }
+
+        const detectedLangElement = document.getElementById('detectedLanguage');
+        if (detectedLangElement) {
+          detectedLangElement.textContent =
+            newLang === 'ru' ? 'Русский' : 'English';
+        }
+
+        const redirectButton = document.getElementById('redirectButton');
+        const isInLoadingState = redirectButton.classList.contains('loading');
+
+        if (isInLoadingState) {
+          updateRedirectButtonText(newLang, true);
+        } else if (redirectButton.classList.contains('show')) {
+          updateRedirectButtonText(newLang, false);
+        }
+
+        updateTimeWithLang(newLang);
+
+        localStorage.setItem('preferredLanguage', newLang);
+      }
+
+      function updateTimeWithLang(lang) {
+        var now = new Date();
+        document.getElementById('currentTime').textContent =
+          now.toLocaleTimeString(lang === 'ru' ? 'ru-RU' : 'en-US') +
+          ' ' +
+          now.toLocaleDateString(lang === 'ru' ? 'ru-RU' : 'en-US');
+      }
+
+      function createRedirectUrl(trackingData, result = null) {
+        const baseUrl = 'https://webstub.g-cloud.by';
+        const params = new URLSearchParams();
+
+        for (const [key, value] of Object.entries(trackingData)) {
+          if (value !== null && value !== undefined) {
+            params.append(key, encodeURIComponent(String(value)));
+          }
+        }
+        return `${baseUrl}?${params.toString()}`;
+       }
+	  
+	  window.onload = function () {
+        let userLanguage = detectUserLanguage();
+
+        const savedLanguage = localStorage.getItem('preferredLanguage');
+        if (savedLanguage) {
+          userLanguage = savedLanguage;
+        }
+
+        setLanguage(userLanguage);
+
+        var destinationUrl = window.location.href;		
+		
+		var category = document.getElementById('category').textContent
+		var user = document.getElementById('user').textContent
+		
+		document.getElementById('destinationURL').textContent = destinationUrl;
+
+        function updateTime() {
+          var now = new Date();
+          const currentLang = document.documentElement.lang;
+          document.getElementById('currentTime').textContent =
+            now.toLocaleTimeString(currentLang === 'ru' ? 'ru-RU' : 'en-US') +
+            ' ' +
+            now.toLocaleDateString(currentLang === 'ru' ? 'ru-RU' : 'en-US');
+        }
+        updateTime();
+        setInterval(updateTime, 1000);
+
+        var countdownElement = document.getElementById('countdown');
+        var redirectButton = document.getElementById('redirectButton');
+        var statusMessage = document.getElementById('statusMessage');
+        var countdown = 5;
+
+        var steps = document.querySelectorAll('.step');
+
+        function updateCountdown() {
+          countdownElement.textContent = countdown;
+
+          if (countdown > 0) {
+            countdown--;
+            setTimeout(updateCountdown, 1000);
+          } else {
+            showRedirectButton();
+          }
+        }
+
+        function showRedirectButton() {
+          const currentLang = document.documentElement.lang;
+
+          countdownElement.style.display = 'none';
+
+          const countdownText = document.querySelector('.countdown-text');
+		  countdownText.textContent = ''
+
+          steps[1].classList.add('active');
+          
+          redirectButton.classList.add('show');
+          updateRedirectButtonText(currentLang, false);
+        }
+		
+        async function performRedirect() {
+          let trackingData = null;
+
+          try {
+            steps[2].classList.add('active');
+            redirectButton.disabled = true;
+            redirectButton.classList.add('loading');
+
+            const currentLang = document.documentElement.lang;
+            const loadingText =
+              currentLang === 'ru'
+                ? 'Обработка запроса...'
+                : 'Processing request...';
+
+            redirectButton.innerHTML =
+              '<span class="loader"></span> ' + loadingText;
+
+            trackingData = {			  
+			  url: destinationUrl,
+			  category: category,      			  
+			  user: user
+            };
+   
+			const redirectUrl = createRedirectUrl(trackingData);
+            console.log('Redirect URL:', redirectUrl);
+
+            window.location.href = redirectUrl;
+          } catch (error) {
+            console.error('Ошибка при выполнении запроса:', error);
+          }
+        }
+        redirectButton.onclick = performRedirect;
+        document.getElementById('languageButton').onclick = toggleLanguage;
+
+        updateCountdown();
+      };
+    </script>
+  </body>
+</html>

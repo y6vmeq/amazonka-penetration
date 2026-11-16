@@ -1,0 +1,10 @@
+quotes=8 ok=8 loose=0 partial=0 missing=0 no-raw=0 image=0 empty=0 format_errors=0
+
+mk92-p6 | п. 6, часть шестая | OK
+mk92-p8 | п. 8 | OK
+mk92-p11 | п. 11 | OK
+mk92-p13-a | п. 13, абзац третий | OK
+mk92-p13-b | п. 13, абзац шестой | OK
+mk92-p13-c | п. 13, абзац восьмой | OK
+mk92-d1-leninskaya38 | дадатак 1, строка 1, перечень адресов | OK
+mk92-d6-budennogo13 | дадатак 6, строка 3 | OK

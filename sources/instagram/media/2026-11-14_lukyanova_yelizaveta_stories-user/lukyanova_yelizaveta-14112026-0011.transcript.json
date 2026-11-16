@@ -1,0 +1,28 @@
+{
+ "file": "lukyanova_yelizaveta-14112026-0011.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.5334275960922241,
+ "duration": 7.8265625,
+ "segments": [
+  {
+   "start": 1.42,
+   "end": 1.84,
+   "text": "Thank you.",
+   "words": [
+    {
+     "start": 1.42,
+     "end": 1.62,
+     "word": " Thank",
+     "p": 0.42975130677223206
+    },
+    {
+     "start": 1.62,
+     "end": 1.84,
+     "word": " you.",
+     "p": 0.9976341724395752
+    }
+   ]
+  }
+ ]
+}

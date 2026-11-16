@@ -1,0 +1,40 @@
+{
+ "file": "lukyanova_yelizaveta-14112026-0003.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.25893306732177734,
+ "duration": 57.7494375,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 0.66,
+   "text": "What do you do?",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.32,
+     "word": " What",
+     "p": 0.019334936514496803
+    },
+    {
+     "start": 0.32,
+     "end": 0.38,
+     "word": " do",
+     "p": 0.19495756924152374
+    },
+    {
+     "start": 0.38,
+     "end": 0.54,
+     "word": " you",
+     "p": 0.9223871231079102
+    },
+    {
+     "start": 0.54,
+     "end": 0.66,
+     "word": " do?",
+     "p": 0.5285312533378601
+    }
+   ]
+  }
+ ]
+}

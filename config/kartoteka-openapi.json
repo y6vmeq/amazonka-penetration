@@ -1,0 +1,2752 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Kartoteka API",
+        "description": "Kartoteka registry-data API.\n\nBelarusian registry data — keyed by 9-digit UNP. Pulls EGR, MNS, court, bankruptcy, debtors, certs, trades, and more.\n\n**Response envelope.** All responses share the shape:\n\n```\n{ \"success\": bool, \"data\": ..., \"total\"?: int, \"errors\"?: [string|int] }\n```\n\n**HTTP status is always 200**, including for errors. Clients must inspect the `success` field — never rely on the HTTP status code.\n\n**Authentication.** Pass an API token as the `access-token` query parameter on every request. Tokens are issued in the kartoteka.by personal cabinet.\n\n**Rate limit.** 5 requests per second per access-token.\n\n**Errors.** When `success` is false, the `errors` field contains a list of human-readable strings. The most common messages clients should expect:\n\n| Source | Message |\n|--------|---------|\n| Authentication | `Your request was made with invalid access token.` |\n| Rate limit (UNP, daily) | `Reg Number tariff limit exceeded` |\n| Rate limit (monthly) | `Tariff full limit exceeded` |\n| Rate limit (5 req/sec) | `Too many connections in a second` |\n| Tariff missing API access | `Bad tariff` |\n| Validation | `Reg Number {value} is not correct`, `Reg Number {value} is found twice`, `Incorrect UNP`, `Too many Reg Numbers. You can send maximum N numbers in one request` |\n| Not found | `The requested resource was not found.` |\n| Anything else | `Server error. Please try later` |",
+        "contact": {
+            "name": "Kartoteka support",
+            "email": "support@kartoteka.by"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "https://oldapi.kartoteka.by",
+            "description": "Production"
+        },
+        {
+            "url": "https://oldapidv.kartoteka.by",
+            "description": "Dev / staging"
+        },
+        {
+            "url": "http://localhost:8003",
+            "description": "Local development"
+        }
+    ],
+    "paths": {
+        "/account/limit": {
+            "get": {
+                "tags": [
+                    "Belarus"
+                ],
+                "summary": "Текущие лимиты использования тарифа",
+                "description": "Возвращает остатки месячного и суточного лимитов запросов по текущему access-token. Не учитывается в счёте тарифных запросов.",
+                "operationId": "accountLimit",
+                "responses": {
+                    "200": {
+                        "description": "Стандартный конверт. Поле `data` содержит объект `Limits`.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ApiResponse"
+                                        },
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "$ref": "#/components/schemas/Limits"
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "accessToken": []
+                    }
+                ]
+            }
+        },
+        "/bankruptcy/{unp}": {
+            "get": {
+                "tags": [
+                    "Belarus"
+                ],
+                "summary": "Дело о банкротстве по контрагенту",
+                "description": "Возвращает данные дела о банкротстве: реквизиты, адреса, ключевые даты процесса, управляющего, судебные решения и публичные объявления.",
+                "operationId": "bankruptcyIndex",
+                "parameters": [
+                    {
+                        "name": "unp",
+                        "in": "path",
+                        "description": "УНП контрагента (9 цифр).",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{9}$",
+                            "example": "400051902"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Стандартный конверт. Поле `data` содержит объект `BankruptcyData`. Если дела нет — `data` равно `[]`.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ApiResponse"
+                                        },
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "$ref": "#/components/schemas/BankruptcyData"
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "accessToken": []
+                    }
+                ]
+            }
+        },
+        "/banks-guarantees/{unp}": {
+            "get": {
+                "tags": [
+                    "Belarus"
+                ],
+                "summary": "Банковские гарантии по контрагенту",
+                "description": "Постраничный список банковских гарантий, в которых контрагент выступал принципалом, инструктирующей стороной или бенефициаром.",
+                "operationId": "banksGuaranteesIndex",
+                "parameters": [
+                    {
+                        "name": "unp",
+                        "in": "path",
+                        "description": "УНП контрагента (9 цифр).",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{9}$",
+                            "example": "400051902"
+                        }
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "Номер страницы (с 1).",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "default": 1,
+                            "minimum": 1
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Стандартный конверт + `total`. Поле `data` содержит массив `BankGuarantee`.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ApiResponse"
+                                        },
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "$ref": "#/components/schemas/BankGuarantee"
+                                                    }
+                                                },
+                                                "total": {
+                                                    "description": "Общее число гарантий в выборке.",
+                                                    "type": "integer"
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "accessToken": []
+                    }
+                ]
+            }
+        },
+        "/cert-of-comp/{unp}": {
+            "get": {
+                "tags": [
+                    "Belarus"
+                ],
+                "summary": "Реестр аттестатов соответствия по контрагенту",
+                "description": "Возвращает аттестаты соответствия (с категорией, сроками действия и видами деятельности) для указанного УНП.",
+                "operationId": "certOfCompIndex",
+                "parameters": [
+                    {
+                        "name": "unp",
+                        "in": "path",
+                        "description": "УНП контрагента (9 цифр).",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{9}$",
+                            "example": "100008115"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Стандартный конверт. Поле `data` содержит массив `CertOfCompItem`. Если аттестатов нет — массив пустой.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ApiResponse"
+                                        },
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "$ref": "#/components/schemas/CertOfCompItem"
+                                                    }
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "accessToken": []
+                    }
+                ]
+            }
+        },
+        "/certs/{unp}": {
+            "get": {
+                "tags": [
+                    "Belarus"
+                ],
+                "summary": "Сертификаты и декларации соответствия по контрагенту",
+                "description": "Постраничный список сертификатов и деклараций, где контрагент выступает изготовителем или заявителем.",
+                "operationId": "certsIndex",
+                "parameters": [
+                    {
+                        "name": "unp",
+                        "in": "path",
+                        "description": "УНП контрагента (9 цифр).",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{9}$",
+                            "example": "400051902"
+                        }
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "Номер страницы (с 1).",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "default": 1,
+                            "minimum": 1
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Стандартный конверт + `total`. Поле `data` содержит массив `CertItem`.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ApiResponse"
+                                        },
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "$ref": "#/components/schemas/CertItem"
+                                                    }
+                                                },
+                                                "total": {
+                                                    "description": "Общее число записей в выборке.",
+                                                    "type": "integer"
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "accessToken": []
+                    }
+                ]
+            }
+        },
+        "/checks/{unp}": {
+            "get": {
+                "tags": [
+                    "Belarus"
+                ],
+                "summary": "Сведения по проверкам контрагента",
+                "description": "Возвращает записи сводного плана проверок: причины, периоды, контролирующие органы. Постраничный список.",
+                "operationId": "checksIndex",
+                "parameters": [
+                    {
+                        "name": "unp",
+                        "in": "path",
+                        "description": "УНП контрагента (9 цифр).",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{9}$",
+                            "example": "400051902"
+                        }
+                    },
+                    {
+                        "name": "p",
+                        "in": "query",
+                        "description": "Номер страницы (с 1).",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "minimum": 1,
+                            "example": 1
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Стандартный конверт. Поле `data` содержит массив `CheckItem`.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ApiResponse"
+                                        },
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "$ref": "#/components/schemas/CheckItem"
+                                                    }
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "accessToken": []
+                    }
+                ]
+            }
+        },
+        "/court/writ/{unp}": {
+            "get": {
+                "tags": [
+                    "Belarus"
+                ],
+                "summary": "Приказное производство по контрагенту",
+                "description": "Постраничный список дел приказного производства, где контрагент участвовал как должник или взыскатель.",
+                "operationId": "courtWrit",
+                "parameters": [
+                    {
+                        "name": "unp",
+                        "in": "path",
+                        "description": "УНП контрагента (9 цифр).",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{9}$",
+                            "example": "400051902"
+                        }
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "Номер страницы (с 1).",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "default": 1,
+                            "minimum": 1
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Стандартный конверт + `total`. Поле `data` содержит массив `CourtWrit`.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ApiResponse"
+                                        },
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "$ref": "#/components/schemas/CourtWrit"
+                                                    }
+                                                },
+                                                "total": {
+                                                    "description": "Общее число дел в выборке.",
+                                                    "type": "integer"
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "accessToken": []
+                    }
+                ]
+            }
+        },
+        "/egr/{unp}": {
+            "get": {
+                "tags": [
+                    "Belarus"
+                ],
+                "summary": "Государственный реестр МНС / ЕГР по контрагенту",
+                "description": "Запись из государственного реестра по 9-значному УНП.",
+                "operationId": "egrIndex",
+                "parameters": [
+                    {
+                        "name": "unp",
+                        "in": "path",
+                        "description": "УНП контрагента (9 цифр).",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{9}$",
+                            "example": "400051902"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Стандартный конверт. Поле `data` содержит объект `EgrInfo`.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ApiResponse"
+                                        },
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "$ref": "#/components/schemas/EgrInfo"
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "accessToken": []
+                    }
+                ]
+            }
+        },
+        "/debtors/{unp}": {
+            "get": {
+                "tags": [
+                    "Belarus"
+                ],
+                "summary": "Задолженность перед бюджетом по контрагенту",
+                "description": "Возвращает даты, на которые контрагент числился должником перед бюджетом (МНС и ОАИС).",
+                "operationId": "debtorsIndex",
+                "parameters": [
+                    {
+                        "name": "unp",
+                        "in": "path",
+                        "description": "УНП контрагента (9 цифр).",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{9}$",
+                            "example": "192928427"
+                        }
+                    },
+                    {
+                        "name": "p",
+                        "in": "query",
+                        "description": "Номер страницы (с 1). По умолчанию пагинация отключена и возвращаются все записи.",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "minimum": 1,
+                            "example": 1
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Стандартный конверт. Поле `data` содержит массив `ImnsDebtorRecord`. Если задолженностей нет — массив пустой.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ApiResponse"
+                                        },
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "$ref": "#/components/schemas/ImnsDebtorRecord"
+                                                    }
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "accessToken": []
+                    }
+                ]
+            }
+        },
+        "/monitoring/week": {
+            "get": {
+                "tags": [
+                    "Belarus"
+                ],
+                "summary": "Нотификации пользователя за неделю",
+                "description": "Возвращает события (добавления/изменения) по контрагентам, добавленным пользователем в мониторинг, за последние 7 суток. Идентификация пользователя — по `access-token`. Результат кэшируется на 1 час.",
+                "operationId": "monitoringWeek",
+                "responses": {
+                    "200": {
+                        "description": "Стандартный конверт. Поле `data` содержит массив `MonitoringNotification`.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ApiResponse"
+                                        },
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "$ref": "#/components/schemas/MonitoringNotification"
+                                                    }
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "accessToken": []
+                    }
+                ]
+            }
+        },
+        "/search/{query}": {
+            "get": {
+                "tags": [
+                    "Belarus"
+                ],
+                "summary": "Полнотекстовый поиск контрагентов",
+                "description": "Поиск компаний по подстроке наименования / адреса / УНП. Использует Sphinx-индекс.",
+                "operationId": "searchIndex",
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "path",
+                        "description": "Поисковая строка.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "example": "белтелеком"
+                        }
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "Номер страницы (с 0).",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "default": 0,
+                            "minimum": 0
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Размер страницы.",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "default": 100,
+                            "maximum": 100,
+                            "minimum": 1
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Стандартный конверт. Поле `data` содержит массив `SearchResult`.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ApiResponse"
+                                        },
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "$ref": "#/components/schemas/SearchResult"
+                                                    }
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "accessToken": []
+                    }
+                ]
+            }
+        },
+        "/service-register/{unp}": {
+            "get": {
+                "tags": [
+                    "Belarus"
+                ],
+                "summary": "Реестр бытовых услуг по контрагенту",
+                "description": "Возвращает записи реестра бытовых услуг для указанного УНП (адрес, форма собственности, сфера деятельности, режим работы, сайт и пр.).",
+                "operationId": "serviceRegisterIndex",
+                "parameters": [
+                    {
+                        "name": "unp",
+                        "in": "path",
+                        "description": "УНП контрагента (9 цифр).",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{9}$",
+                            "example": "400051902"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Стандартный конверт. Поле `data` содержит массив `ServiceRegisterRecord`. Если записей нет — массив пустой.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ApiResponse"
+                                        },
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "$ref": "#/components/schemas/ServiceRegisterRecord"
+                                                    }
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "accessToken": []
+                    }
+                ]
+            }
+        },
+        "/summary/{unp}": {
+            "get": {
+                "tags": [
+                    "Belarus"
+                ],
+                "summary": "Сводная информация по контрагенту",
+                "description": "Денормализованный снимок данных по УНП: МНС/ЕГР, суды, банкротство, долги перед бюджетом и ФСЗН, проверки, сертификаты, тендеры, банковские гарантии, торговые марки и пр.",
+                "operationId": "summaryIndex",
+                "parameters": [
+                    {
+                        "name": "unp",
+                        "in": "path",
+                        "description": "УНП контрагента (9 цифр).",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{9}$",
+                            "example": "400051902"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Стандартный конверт. См. описание `ApiResponse`. Поле `data` содержит `SummaryData`.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ApiResponse"
+                                        },
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "$ref": "#/components/schemas/SummaryData"
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "accessToken": []
+                    }
+                ]
+            }
+        },
+        "/trades/{unp}": {
+            "get": {
+                "tags": [
+                    "Belarus"
+                ],
+                "summary": "Торговый реестр по контрагенту",
+                "description": "Постраничный список торговых объектов контрагента, включённых в Торговый реестр (формат, ассортимент, адрес, контакты, режим работы и пр.).",
+                "operationId": "tradesIndex",
+                "parameters": [
+                    {
+                        "name": "unp",
+                        "in": "path",
+                        "description": "УНП контрагента (9 цифр).",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{9}$",
+                            "example": "400051902"
+                        }
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "Номер страницы (с 1).",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "default": 1,
+                            "minimum": 1
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Стандартный конверт + `total`. Поле `data` содержит массив `TradeRegisterRecord`.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ApiResponse"
+                                        },
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "$ref": "#/components/schemas/TradeRegisterRecord"
+                                                    }
+                                                },
+                                                "total": {
+                                                    "description": "Общее число записей в выборке.",
+                                                    "type": "integer"
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "accessToken": []
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "ApiResponse": {
+                "description": "Standard response envelope. HTTP status is always 200; use `success` to detect errors.",
+                "required": [
+                    "success"
+                ],
+                "properties": {
+                    "success": {
+                        "description": "True for successful requests, false when `errors` is populated.",
+                        "type": "boolean"
+                    },
+                    "data": {
+                        "description": "Endpoint-specific payload. Empty array on error."
+                    },
+                    "total": {
+                        "description": "Total result count for paginated endpoints. Absent for non-paginated responses.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "errors": {
+                        "description": "Human-readable error messages. Present only when `success` is false. See the top-level description for the catalog of expected messages.",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "Limits": {
+                "description": "Лимиты использования тарифа.",
+                "properties": {
+                    "full_limit": {
+                        "description": "Лимит запросов в месяц.",
+                        "type": "integer"
+                    },
+                    "day_limit": {
+                        "description": "Лимит запросов в сутки.",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "SearchResult": {
+                "description": "One company hit from full-text search.",
+                "properties": {
+                    "reg_number": {
+                        "description": "УНП (9 цифр).",
+                        "type": "integer"
+                    },
+                    "name": {
+                        "description": "Полное наименование компании.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "short_name": {
+                        "description": "Краткое наименование компании.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "brands_history": {
+                        "description": "Список прошлых брендовых наименований через \",\".",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "reg_date": {
+                        "description": "Дата регистрации в ИМНС.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "date_of_elimination": {
+                        "description": "Дата исключения из ИМНС.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "status": {
+                        "description": "Текущий статус.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "address": {
+                        "description": "Юридический адрес. Пустая строка для индивидуальных предпринимателей.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "is_ip": {
+                        "description": "Признак индивидуального предпринимателя (0 — юр. лицо, иное значение — ИП).",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "EgrInfo": {
+                "description": "Запись государственного реестра МНС / ЕГР по контрагенту.",
+                "properties": {
+                    "unp": {
+                        "description": "УНП (9 цифр).",
+                        "type": "integer"
+                    },
+                    "short_name": {
+                        "description": "Краткое наименование.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "name": {
+                        "description": "Полное наименование.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "address": {
+                        "description": "Юридический адрес.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "imns": {
+                        "description": "Код ИМНС.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "imns_title": {
+                        "description": "Наименование ИМНС.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "reg_date": {
+                        "description": "Дата регистрации МНС.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "status": {
+                        "description": "Статус.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "date_of_elimination": {
+                        "description": "Дата ликвидации.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "elimination_description": {
+                        "description": "Комментарий ликвидации.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "checks": {
+                        "description": "Есть информация в канале «Проверки».",
+                        "type": "boolean"
+                    },
+                    "risk_date": {
+                        "description": "Дата добавления в реестр лжепредпринимателей.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "risk_reason": {
+                        "description": "Основания включения в реестр.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "bankruptcy": {
+                        "description": "Есть информация в канале «Банкротства».",
+                        "type": "boolean"
+                    },
+                    "imns_debtor": {
+                        "description": "Есть информация в канале «Задолженность перед бюджетом».",
+                        "type": "boolean"
+                    },
+                    "capital": {
+                        "description": "Уставной капитал.",
+                        "type": "integer",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "MonitoringNotification": {
+                "description": "Уведомление об изменении в мониторинге контрагента, добавленного пользователем в наблюдение.",
+                "properties": {
+                    "unp": {
+                        "description": "УНП контрагента в наблюдении.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "channel": {
+                        "description": "Код наименования канала.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "notify_at": {
+                        "description": "Дата нотификации (Y-m-d H:i:s).",
+                        "type": "string",
+                        "format": "date-time",
+                        "nullable": true
+                    },
+                    "comment": {
+                        "description": "Краткое сообщение.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "public_data_list": {
+                        "description": "Массив дополнительных данных. На каждый канал свой набор. Ключи и значения на кириллице. Пример: {\"Тип ЦБ\":\"Корпоративные облигации (BON)\",\"Кол-во ЦБ\":124,\"Сумма в валюте платежа\":\"246 636.00 BYN\",\"Дата\":\"25.09.2017\",\"Вид сделки\":\"Купля-продажа\",\"Статус\":\"Зарегистрирована\"}.",
+                        "type": "object",
+                        "nullable": true,
+                        "additionalProperties": true
+                    }
+                },
+                "type": "object"
+            },
+            "ImnsDebtorRecord": {
+                "description": "Запись о задолженности перед бюджетом (МНС / ОАИС). Объединяет источники `data_dolg_imns` и `data_dolg_mns_oais`.",
+                "properties": {
+                    "unp": {
+                        "description": "УНП должника.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "date": {
+                        "description": "По состоянию на дату.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "CheckItem": {
+                "description": "Запись из сводного плана проверок (государственный орган контроля).",
+                "properties": {
+                    "unp": {
+                        "description": "УНП проверяемого контрагента.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "title": {
+                        "description": "Наименование.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "reason_to_check": {
+                        "description": "Причина назначения проверки.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "year": {
+                        "description": "Год проведения проверки.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "month": {
+                        "description": "Месяц проведения проверки.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "plan_number": {
+                        "description": "№ пункта плана.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "gos_acceptor": {
+                        "description": "Государственный орган, утвердивший сводный план проверок.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "gos_check_unp": {
+                        "description": "УНП контролирующего (надзорного) органа.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "gos_check_title": {
+                        "description": "Наименование контролирующего (надзорного) органа.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "gos_agent_phone": {
+                        "description": "Контактный телефон исполнителя.",
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "CertsContactsInfo": {
+                "description": "Контакты изготовителя или заявителя по сертификату/декларации.",
+                "properties": {
+                    "phones": {
+                        "description": "Номера телефонов.",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "emails": {
+                        "description": "Электронная почта.",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "type": "object"
+            },
+            "CertItem": {
+                "description": "Запись о сертификате или декларации соответствия.",
+                "properties": {
+                    "code": {
+                        "description": "Код типа сертификата.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "doc_id": {
+                        "description": "Номер документа.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "type": {
+                        "description": "Тип документа.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "status": {
+                        "description": "Статус документа.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "status_code": {
+                        "description": "Статус (код).",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "manufacturer_name": {
+                        "description": "Наименование изготовителя.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "manufacturer_reg_number": {
+                        "description": "УНП изготовителя.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "manufacturer_address": {
+                        "description": "Адрес изготовителя.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "manufacturer_contacts": {
+                        "description": "Контакты изготовителя.",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/CertsContactsInfo"
+                        }
+                    },
+                    "declarant_name": {
+                        "description": "Наименование заявителя.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "declarant_reg_number": {
+                        "description": "УНП заявителя.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "declarant_address": {
+                        "description": "Адрес заявителя.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "declarant_contacts": {
+                        "description": "Контакты заявителя.",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/CertsContactsInfo"
+                        }
+                    },
+                    "start_date": {
+                        "description": "Дата регистрации сертификата.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "end_date": {
+                        "description": "Дата окончания действия сертификата.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "brand_name": {
+                        "description": "Марка объекта.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "commodity_code": {
+                        "description": "Код товара по ТН ВЭД ЕАЭС.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "product": {
+                        "description": "Наименование продукта.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "product_id": {
+                        "description": "Идентификатор продукта (тип, марка, модель).",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "product_details": {
+                        "description": "Иные сведения о продукции, обеспечивающие её идентификацию.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "product_additional_text": {
+                        "description": "Информация об использовании продукции (условия, срок хранения, срок службы, ресурс).",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "product_info": {
+                        "description": "Наименование документа, в соответствии с которым изготовлена продукция.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "product_info_doc": {
+                        "description": "Номер документа, в соответствии с которым изготовлена продукция.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "products_instance": {
+                        "description": "Наименования группы одинаковых единиц продукции.",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "type": "object"
+            },
+            "TradeRegisterRecord": {
+                "description": "Запись из Торгового реестра по торговому объекту контрагента.",
+                "properties": {
+                    "contacts_sh": {
+                        "description": "Контакты субъекта хозяйствования.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "address_sh": {
+                        "description": "Адрес субъекта хозяйствования.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "object_type": {
+                        "description": "Тип объекта.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "domain": {
+                        "description": "Наименование объекта / доменное имя интернет-магазина.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "trade_mark": {
+                        "description": "Название торговой сети, сети общественного питания (при наличии).",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "trade_format": {
+                        "description": "Вид розничного торгового объекта по формату.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "trade_goods_type": {
+                        "description": "Вид розничного торгового объекта по ассортименту реализуемых товаров.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "trade_place_type": {
+                        "description": "Вид розничного торгового объекта по месту расположения.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "official_trade_object": {
+                        "description": "Фирменный торговый объект.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "trade_sq": {
+                        "description": "Торговая площадь.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "trade_catering_type": {
+                        "description": "Тип объекта общественного питания (при наличии).",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "trade_catering_class": {
+                        "description": "Класс объекта общественного питания (при наличии).",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "trade_catering_spec": {
+                        "description": "Специализация объекта общественного питания (при наличии).",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "catering_places": {
+                        "description": "Количество мест в объекте общественного питания (ед.).",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "shoping_center_spec": {
+                        "description": "Специализация торгового центра.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "market_type": {
+                        "description": "Тип рынка.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "market_spec": {
+                        "description": "Специализация рынка.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "retail_form": {
+                        "description": "Форма розничной торговли.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "object_area": {
+                        "description": "Область объекта.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "object_district": {
+                        "description": "Район объекта.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "settlement_type": {
+                        "description": "Тип населённого пункта.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "settlement": {
+                        "description": "Населённый пункт объекта.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "street": {
+                        "description": "Улица.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "building": {
+                        "description": "Здание.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "room": {
+                        "description": "Помещение.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "contacts": {
+                        "description": "Контакты объекта.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "worktime": {
+                        "description": "Время работы.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "goods_classes": {
+                        "description": "Класс товаров.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "goods_subclasses": {
+                        "description": "Подгруппы товаров.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "trade_number": {
+                        "description": "Регистрационный номер в Торговом реестре.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "inclusion_date": {
+                        "description": "Дата включения сведений в Торговый реестр.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "actual": {
+                        "description": "false — исключён из ТР, true — находится в ТР.",
+                        "type": "boolean"
+                    }
+                },
+                "type": "object"
+            },
+            "ServiceRegisterRecord": {
+                "description": "Запись из реестра бытовых услуг (субъект, оказывающий бытовые услуги).",
+                "properties": {
+                    "subject_type": {
+                        "description": "Тип субъекта.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "full_name": {
+                        "description": "Полное наименование субъекта хозяйствования.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "kind_of_subject": {
+                        "description": "Вид субъекта.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "region": {
+                        "description": "Область.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "area": {
+                        "description": "Район.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "village": {
+                        "description": "Сельсовет.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "city": {
+                        "description": "Город.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "street": {
+                        "description": "Улица.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "house": {
+                        "description": "Дом.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "building": {
+                        "description": "Здание.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "room": {
+                        "description": "Помещение.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "index": {
+                        "description": "Почтовый индекс.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "patterns_of_ownership": {
+                        "description": "Форма собственности.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "reg_date": {
+                        "description": "Дата решения о гос. регистрации.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "reg_org": {
+                        "description": "Наименование регистрирующего органа.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "scope": {
+                        "description": "Сфера деятельности.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "stop_date": {
+                        "description": "Дата прекращения деятельности.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "include_date": {
+                        "description": "Дата включения в реестр.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "website": {
+                        "description": "Вебсайт.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "services": {
+                        "description": "Услуги.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "description": {
+                        "description": "Примечание.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "starts_at": {
+                        "description": "Начало рабочего дня.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "ends_at": {
+                        "description": "Конец рабочего дня.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "working_days": {
+                        "description": "Рабочие дни.",
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "CertOfCompItem": {
+                "description": "Аттестат соответствия (реестр аттестатов).",
+                "properties": {
+                    "cert_number": {
+                        "description": "Номер аттестата.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "category": {
+                        "description": "Категория.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "cert_start": {
+                        "description": "Дата выдачи.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "cert_end": {
+                        "description": "Дата окончания действия.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "end_description": {
+                        "description": "Причина прекращения действия.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "actions": {
+                        "description": "Виды деятельности по аттестату.",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "BankGuarantee": {
+                "description": "Запись о банковской гарантии.",
+                "properties": {
+                    "g_number": {
+                        "description": "Номер банковской гарантии.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "bank_name": {
+                        "description": "Наименование банка.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "g_date": {
+                        "description": "Дата выдачи банковской гарантии.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "introduction_date": {
+                        "description": "Дата вступления в силу банковской гарантии.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "increment_number": {
+                        "description": "Порядковый номер изменения и (или) дополнения.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "modification_date": {
+                        "description": "Дата внесения изменения и (или) дополнения.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "changes_introduction_date": {
+                        "description": "Дата вступления в силу изменений и (или) дополнений, внесённых в текст банковской гарантии.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "end_date": {
+                        "description": "Дата прекращения действия банковской гарантии.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "cause": {
+                        "description": "Причины прекращения действия банковской гарантии.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "actual_end_date": {
+                        "description": "Фактическая дата прекращения действия банковской гарантии.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "introduction_info": {
+                        "description": "Информация о вступлении в силу банковской гарантии либо изменений и (или) дополнений, и (или) сроке действия.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "principal_info": {
+                        "description": "Информация о принципале.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "princ_unp": {
+                        "description": "УНП принципала.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "instructor_info": {
+                        "description": "Информация об инструктирующей стороне.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "instructor_unp": {
+                        "description": "УНП инструктирующей стороны.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "beneficiary_info": {
+                        "description": "Информация о бенефициаре.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "beneficiary_unp": {
+                        "description": "УНП бенефициара.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "currency": {
+                        "description": "Валюта банковской гарантии.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "sum": {
+                        "description": "Денежная сумма банковской гарантии (в единицах валюты с точностью до 0,01).",
+                        "type": "number",
+                        "format": "float",
+                        "nullable": true
+                    },
+                    "full_sum": {
+                        "description": "Полная сумма.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "additional_info": {
+                        "description": "Дополнительная информация о банковской гарантии.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "purpose": {
+                        "description": "Целевое назначение.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "industry": {
+                        "description": "Отраслевой классификатор принадлежности.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "guarantee_form": {
+                        "description": "Форма выдачи банковской гарантии.",
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "BankruptcyManager": {
+                "description": "Управляющий по делу о банкротстве.",
+                "properties": {
+                    "surname": {
+                        "description": "Фамилия.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "name": {
+                        "description": "Имя.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "third_name": {
+                        "description": "Отчество.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "birth_date": {
+                        "description": "Дата рождения.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "birth_place": {
+                        "description": "Место рождения.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "unp": {
+                        "description": "Регистрационный номер.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "availability": {
+                        "description": "Готовность принять дело.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "correspondence_address": {
+                        "description": "Адрес для корреспонденции.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "work_telephone": {
+                        "description": "Рабочий телефон.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "email": {
+                        "description": "Емэйл.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "fax": {
+                        "description": "Факс.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "website": {
+                        "description": "Сайт.",
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "BankruptcyJudgment": {
+                "description": "Судебное решение по делу о банкротстве.",
+                "properties": {
+                    "judgment_type_value": {
+                        "description": "Тип судебного решения.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "date": {
+                        "description": "Дата.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "full_text_html": {
+                        "description": "Полный текст.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "additional_info": {
+                        "description": "Дополнительная информация.",
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "BankruptcyMessage": {
+                "description": "Объявление по делу о банкротстве.",
+                "properties": {
+                    "date_time": {
+                        "description": "Дата.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "message_type": {
+                        "description": "Сообщение.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "pdf_file": {
+                        "description": "Ссылка на pdf файл (только для зарегистрированных пользователей kartoteka.by).",
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "BankruptcyData": {
+                "description": "Дело о банкротстве по контрагенту: реквизиты, адреса, ключевые даты, управляющий, судебные решения и объявления.",
+                "properties": {
+                    "status": {
+                        "description": "Статус дела о банкротстве.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "email": {
+                        "description": "Емэйл.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "legal_index": {
+                        "description": "Индекс юридического адреса.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "legal_city": {
+                        "description": "Город юридического адреса.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "legal_address": {
+                        "description": "Юридический адрес.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "actual_index": {
+                        "description": "Индекс фактического адреса.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "actual_city": {
+                        "description": "Город фактического адреса.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "actual_address": {
+                        "description": "Фактический адрес.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "deal_number": {
+                        "description": "Номер дела.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "court": {
+                        "description": "Наименование суда.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "declarant_type": {
+                        "description": "Ликвидатор.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "declarant_name": {
+                        "description": "Ф.И.О. ликвидатора.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "telephone": {
+                        "description": "Телефон.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "date_start": {
+                        "description": "Дата начала производства по делу.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "date_close": {
+                        "description": "Дата прекращения производства по делу.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "close_reason": {
+                        "description": "Причина прекращения дела.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "date_receivership": {
+                        "description": "Дата начала конкурсного производства и подготовки дела к судебному разбирательству.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "date_protection_start": {
+                        "description": "Дата начала защитного периода.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "date_protection_end": {
+                        "description": "Дата окончания защитного периода.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "date_exclusion": {
+                        "description": "Дата исключения должника из ЕГР.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "date_start_process": {
+                        "description": "Постановление суда об открытии ликвидационного производства.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "date_finish_pocess": {
+                        "description": "Дата завершения, установленная судом.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "start_process_type": {
+                        "description": "Вид начала процесса.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "manager": {
+                        "$ref": "#/components/schemas/BankruptcyManager"
+                    },
+                    "judgments": {
+                        "description": "Судебные решения.",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/BankruptcyJudgment"
+                        }
+                    },
+                    "messages": {
+                        "description": "Объявления.",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/BankruptcyMessage"
+                        }
+                    }
+                },
+                "type": "object"
+            },
+            "CourtWrit": {
+                "description": "Дело приказного производства.",
+                "properties": {
+                    "debtor_unp": {
+                        "description": "УНП должника.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "creditor_unp": {
+                        "description": "УНП взыскателя.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "court": {
+                        "description": "Наименование суда.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "judge": {
+                        "description": "Судья.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "deal_number": {
+                        "description": "Номер дела.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "date": {
+                        "description": "Дата возбуждения приказного производства.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "result": {
+                        "description": "Последнее процессуальное решение.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "debt": {
+                        "description": "Сумма долга.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "creditor": {
+                        "description": "Взыскатель.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "debtor": {
+                        "description": "Должник.",
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "EgrChange": {
+                "properties": {
+                    "egr_status_name": {
+                        "description": "Статус ЕГР.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "egr_name": {
+                        "description": "Наименование контрагента.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "egr_short_name": {
+                        "description": "Короткое наименование контрагента.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "egr_brand_name": {
+                        "description": "Фирменное наименование юридического лица.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "actual": {
+                        "description": "Актуальность данных.",
+                        "type": "boolean"
+                    }
+                },
+                "type": "object"
+            },
+            "EgrSubjectHistoryItem": {
+                "properties": {
+                    "date": {
+                        "description": "Дата.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "info": {
+                        "description": "Информация субъекта хозяйствования.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "actual_date": {
+                        "description": "Актуальность информации на дату.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "WritSummary": {
+                "properties": {
+                    "creditor": {
+                        "description": "Кол-во дел, где контрагент участвовал в качестве взыскателя.",
+                        "type": "integer"
+                    },
+                    "debtor": {
+                        "description": "Кол-во дел, где контрагент участвовал в качестве должника.",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "CourtSessionsSummary": {
+                "properties": {
+                    "creditor": {
+                        "description": "Кол-во дел, где контрагент участвовал в качестве взыскателя.",
+                        "type": "integer"
+                    },
+                    "debtor": {
+                        "description": "Кол-во дел, где контрагент участвовал в качестве должника.",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "ExecutorySummary": {
+                "properties": {
+                    "debtor": {
+                        "description": "Кол-во дел, где контрагент участвовал в качестве должника.",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "ImnsDebtorsItem": {
+                "properties": {
+                    "city": {
+                        "description": "Город.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "date": {
+                        "description": "Дата на которую была задолженность.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "ImnsDebtorsInMonthItem": {
+                "properties": {
+                    "mns_code": {
+                        "description": "Код ИМНС.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "date": {
+                        "description": "Дата на которую была задолженность.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "SocialSecurityFoundItem": {
+                "properties": {
+                    "sum": {
+                        "description": "Сумма долга.",
+                        "type": "number",
+                        "format": "float",
+                        "nullable": true
+                    },
+                    "date": {
+                        "description": "Дата на которую была задолженность.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "BankruptcySummary": {
+                "properties": {
+                    "deal_number": {
+                        "description": "Номер дела.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "process_code": {
+                        "description": "Код процесса.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "process_name": {
+                        "description": "Наименование процесса банкротства.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "start_date": {
+                        "description": "Дата начала процесса банкротства.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "close_date": {
+                        "description": "Дата окончания процесса банкротства.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "status": {
+                        "description": "Статус процесса банкротства.",
+                        "type": "boolean"
+                    }
+                },
+                "type": "object"
+            },
+            "RiskSummary": {
+                "properties": {
+                    "reason": {
+                        "description": "Причина включения в реестр.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "date": {
+                        "description": "Дата включения в реестр.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "LiquidationSummary": {
+                "properties": {
+                    "decision_date": {
+                        "description": "Дата принятия решения о ликвидации.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "liq_fio": {
+                        "description": "Ф.И.О. ликвидатора.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "liq_address": {
+                        "description": "Адрес ликвидатора.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "liq_phone": {
+                        "description": "Телефон ликвидатора.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "decision_term": {
+                        "description": "Срок принятия претензий с момента опубликования (мес).",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "publish_date": {
+                        "description": "Дата опубликования сведений о ликвидации.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "current_status": {
+                        "description": "Текущее состояние.",
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "ChecksSummaryItem": {
+                "properties": {
+                    "checks_in_month": {
+                        "description": "Количество проверок за месяц.",
+                        "type": "integer"
+                    },
+                    "month": {
+                        "description": "Месяц проверки.",
+                        "type": "integer"
+                    },
+                    "year": {
+                        "description": "Год проверки.",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "DisqualifiedProvidersSummary": {
+                "properties": {
+                    "description": {
+                        "description": "Дата и основание включения в список.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "exc_description": {
+                        "description": "Дата и основание исключения из списка.",
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "CertsSummaryItem": {
+                "properties": {
+                    "code": {
+                        "description": "Код типа сертификации.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "type": {
+                        "description": "Тип сертификации.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "quantity": {
+                        "description": "Количество сертификатов.",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "CharterCapitalChangesSummary": {
+                "properties": {
+                    "new_charter_capital": {
+                        "description": "Сумма измененного уставного капитала.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "decree_date": {
+                        "description": "Дата постановления.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "publish_date": {
+                        "description": "Дата публикации.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "TradeStats": {
+                "properties": {
+                    "quantity": {
+                        "description": "Количество договоров.",
+                        "type": "integer"
+                    },
+                    "sum_byn": {
+                        "description": "Общая сумма (BYN).",
+                        "type": "number",
+                        "format": "float"
+                    }
+                },
+                "type": "object"
+            },
+            "TradesSummary": {
+                "properties": {
+                    "customer": {
+                        "$ref": "#/components/schemas/TradeStats"
+                    },
+                    "provider": {
+                        "$ref": "#/components/schemas/TradeStats"
+                    }
+                },
+                "type": "object"
+            },
+            "BanksGuaranteesSummary": {
+                "properties": {
+                    "principal": {
+                        "description": "Гарантии в качестве принципала.",
+                        "type": "integer"
+                    },
+                    "beneficiary": {
+                        "description": "Гарантии в качестве бенефициара.",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "BelcciSummary": {
+                "properties": {
+                    "manager": {
+                        "description": "Руководитель.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "email": {
+                        "description": "E-mail.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "site": {
+                        "description": "Вебсайт.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "phone": {
+                        "description": "Телефон.",
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "FezSummary": {
+                "properties": {
+                    "name": {
+                        "description": "Наименование СЭЗ.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "project": {
+                        "description": "Наименование проекта.",
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "AuctionsSummaryItem": {
+                "properties": {
+                    "status": {
+                        "description": "Статус закупки.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "quantity": {
+                        "description": "Количество закупок.",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "TrademarksSummary": {
+                "properties": {
+                    "quantity": {
+                        "description": "Количество торговых марок.",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "CertsOfConfSummary": {
+                "properties": {
+                    "quantity": {
+                        "description": "Количество аттестатов.",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "SummaryData": {
+                "description": "Сводная информация по контрагенту: денормализованный снимок из МНС, ЕГР, судебных, фискальных и торговых реестров.\n\nКоды egr_status_code: 1 — действующий, 2 — исключен из ЕГР, 3 — в процессе ликвидации, 4 — процедура банкротства, 5 — реорганизация, 10 — приостановлена деятельность, 11 — утрата правоспособности.",
+                "properties": {
+                    "unp": {
+                        "description": "УНП.",
+                        "type": "integer"
+                    },
+                    "name": {
+                        "description": "Наименование.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "short_name": {
+                        "description": "Полное наименование.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "address": {
+                        "description": "Юридический адрес.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "mns_reg_date": {
+                        "description": "Дата регистрации в МНС.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "status_mns": {
+                        "description": "Статус МНС.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "elimination_date": {
+                        "description": "Дата ликвидации.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "elimination_description": {
+                        "description": "Причина ликвидации.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "imns_code": {
+                        "description": "Код ИМНС.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "imns_name": {
+                        "description": "Наименование МНС.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "charter_capital": {
+                        "description": "Уставной фонд.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "charter_capital_currency": {
+                        "description": "Код валюты уставного фонда.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "ambargo": {
+                        "description": "Запрет на отчуждение доли.",
+                        "type": "boolean"
+                    },
+                    "egr_reg_ogr_code": {
+                        "description": "Код регистрирующего органа.",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "egr_reg_ogr_name": {
+                        "description": "Наименование регистрирующего органа.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "egr_reg_date": {
+                        "description": "Дата регистрации в ЕГР.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "egr_elimination_date": {
+                        "description": "Дата исключения из ЕГР.",
+                        "type": "string",
+                        "format": "date",
+                        "nullable": true
+                    },
+                    "egr_status_code": {
+                        "description": "Код статуса ЕГР (см. описание схемы).",
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "egr_status_name": {
+                        "description": "Статус ЕГР.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "egr_name": {
+                        "description": "Наименование по ЕГР.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "egr_short_name": {
+                        "description": "Краткое наименование по ЕГР.",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "egr_brand_name": {
+                        "description": "Фирменное наименование (русский).",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "egr_name_bel": {
+                        "description": "Наименование по ЕГР (белорусский).",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "egr_short_name_bel": {
+                        "description": "Краткое наименование по ЕГР (белорусский).",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "egr_brand_name_bel": {
+                        "description": "Фирменное наименование (белорусский).",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "egr_changes": {
+                        "description": "Изменения в ЕГР.",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/EgrChange"
+                        }
+                    },
+                    "egr_subject_history": {
+                        "description": "История субъекта хозяйствования.",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/EgrSubjectHistoryItem"
+                        }
+                    },
+                    "writ": {
+                        "$ref": "#/components/schemas/WritSummary"
+                    },
+                    "court_sessions": {
+                        "$ref": "#/components/schemas/CourtSessionsSummary"
+                    },
+                    "executory": {
+                        "$ref": "#/components/schemas/ExecutorySummary"
+                    },
+                    "imns_debtors": {
+                        "description": "Долги перед бюджетом за 1-е число.",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/ImnsDebtorsItem"
+                        }
+                    },
+                    "imns_debtors_in_month": {
+                        "description": "Долги перед бюджетом в течение месяца.",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/ImnsDebtorsInMonthItem"
+                        }
+                    },
+                    "social_security_found": {
+                        "description": "Задолженность перед ФСЗН.",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/SocialSecurityFoundItem"
+                        }
+                    },
+                    "bankruptcy": {
+                        "$ref": "#/components/schemas/BankruptcySummary"
+                    },
+                    "risk": {
+                        "$ref": "#/components/schemas/RiskSummary"
+                    },
+                    "liquidation": {
+                        "$ref": "#/components/schemas/LiquidationSummary"
+                    },
+                    "checks": {
+                        "description": "Сведения по проверкам.",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/ChecksSummaryItem"
+                        }
+                    },
+                    "disqualified_providers": {
+                        "$ref": "#/components/schemas/DisqualifiedProvidersSummary"
+                    },
+                    "certs": {
+                        "description": "Сертификаты и декларации.",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/CertsSummaryItem"
+                        }
+                    },
+                    "charter_capital_changes": {
+                        "$ref": "#/components/schemas/CharterCapitalChangesSummary"
+                    },
+                    "trades": {
+                        "$ref": "#/components/schemas/TradesSummary"
+                    },
+                    "banks_guarantees": {
+                        "$ref": "#/components/schemas/BanksGuaranteesSummary"
+                    },
+                    "belcci": {
+                        "$ref": "#/components/schemas/BelcciSummary"
+                    },
+                    "fez": {
+                        "$ref": "#/components/schemas/FezSummary"
+                    },
+                    "auctions": {
+                        "description": "Госзаказы.",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/AuctionsSummaryItem"
+                        }
+                    },
+                    "trademarks": {
+                        "$ref": "#/components/schemas/TrademarksSummary"
+                    },
+                    "certs_of_conf": {
+                        "$ref": "#/components/schemas/CertsOfConfSummary"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "securitySchemes": {
+            "accessToken": {
+                "type": "apiKey",
+                "description": "API token issued in the kartoteka.by personal cabinet. Pass on every request as ?access-token=...",
+                "name": "access-token",
+                "in": "query"
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Belarus",
+            "description": "Belarusian registry data — keyed by 9-digit UNP. Covers EGR/МНС, court proceedings, bankruptcy, debtors, certificates, trades, monitoring, account limits, and client club."
+        }
+    ]
+}
