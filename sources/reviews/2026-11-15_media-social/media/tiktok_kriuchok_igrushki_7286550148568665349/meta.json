@@ -1,0 +1,86 @@
+{
+ "page_url": "https://www.tiktok.com/@kriuchok_igrushki/video/7286550148568665349",
+ "captured_at": "2026-11-15T11:17:48.562Z",
+ "id": "7286550148568665349",
+ "desc": "Шикарнейшее место, волшебная атмосфера для любителей рептилий. В восторге остались все, именниница с Елизоветой вообще растоваться не хотели, очень змейке понравились евины волосы))) #amazonka_restobar могилев",
+ "createTime": "1696532164",
+ "createTimeISO": "2023-10-05T18:56:04.000Z",
+ "author": {
+  "uniqueId": "kriuchok_igrushki",
+  "nickname": "kriuchok_igrushki"
+ },
+ "stats": {
+  "diggCount": 21,
+  "shareCount": 0,
+  "commentCount": 5,
+  "playCount": 245,
+  "collectCount": "0"
+ },
+ "statsV2": {
+  "diggCount": "21",
+  "shareCount": "0",
+  "commentCount": "5",
+  "playCount": "245",
+  "collectCount": "0",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7081787615490115585",
+  "title": "Magical Fantasy",
+  "authorName": "Dmitriy Sevostyanov",
+  "original": false,
+  "duration": 60
+ },
+ "challenges": [
+  "amazonka_restobar"
+ ],
+ "textExtra": [
+  {
+   "hashtag": "amazonka_restobar",
+   "user": null
+  }
+ ],
+ "contents": [
+  "Шикарнейшее место, волшебная атмосфера для любителей рептилий. В восторге остались все, именниница с Елизоветой вообще растоваться не хотели, очень змейке понравились евины волосы)))",
+  "#amazonka_restobar могилев"
+ ],
+ "stickersOnItem": [],
+ "locationCreated": "BY",
+ "textLanguage": "ru",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 30,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "7671498",
+  "variants": [
+   {
+    "gear": "normal_540_0",
+    "codec": "h264",
+    "bitrate": 2012790,
+    "w": 576,
+    "h": 1024,
+    "size": "7671498"
+   },
+   {
+    "gear": "lowest_540_0",
+    "codec": "h264",
+    "bitrate": 724904,
+    "w": 576,
+    "h": 1024,
+    "size": "2762884"
+   }
+  ],
+  "subtitles": []
+ }
+}

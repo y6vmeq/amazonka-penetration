@@ -1,0 +1,125 @@
+{
+ "page_url": "https://www.tiktok.com/@vlada__unikorn/video/7286371102518004997",
+ "captured_at": "2026-11-15T11:17:27.823Z",
+ "id": "7286371102518004997",
+ "desc": "@Amazonkarestobar #змеи #любовь❤ #моеморе #дочаспапой #жизньлучшевсех #хочувреко #могилев #amazonkarestobar ",
+ "createTime": "1696490477",
+ "createTimeISO": "2023-10-05T07:21:17.000Z",
+ "author": {
+  "uniqueId": "vlada__unikorn",
+  "nickname": "vlada"
+ },
+ "stats": {
+  "diggCount": 15,
+  "shareCount": 0,
+  "commentCount": 0,
+  "playCount": 656,
+  "collectCount": "0"
+ },
+ "statsV2": {
+  "diggCount": "15",
+  "shareCount": "0",
+  "commentCount": "0",
+  "playCount": "656",
+  "collectCount": "0",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7431924653631277072",
+  "title": "Иордан",
+  "authorName": "MONA",
+  "original": false,
+  "duration": 60
+ },
+ "challenges": [
+  "змеи",
+  "любовь❤",
+  "моеморе",
+  "дочаспапой",
+  "жизньлучшевсех",
+  "хочувреко",
+  "могилев",
+  "amazonkarestobar"
+ ],
+ "textExtra": [
+  {
+   "hashtag": null,
+   "user": "amazonka_restobar"
+  },
+  {
+   "hashtag": "змеи",
+   "user": null
+  },
+  {
+   "hashtag": "любовь❤",
+   "user": null
+  },
+  {
+   "hashtag": "моеморе",
+   "user": null
+  },
+  {
+   "hashtag": "дочаспапой",
+   "user": null
+  },
+  {
+   "hashtag": "жизньлучшевсех",
+   "user": null
+  },
+  {
+   "hashtag": "хочувреко",
+   "user": null
+  },
+  {
+   "hashtag": "могилев",
+   "user": null
+  },
+  {
+   "hashtag": "amazonkarestobar",
+   "user": null
+  }
+ ],
+ "contents": [
+  "@Amazonkarestobar #змеи #любовь❤ #моеморе #дочаспапой #жизньлучшевсех #хочувреко #могилев #amazonkarestobar "
+ ],
+ "stickersOnItem": [],
+ "locationCreated": "BY",
+ "textLanguage": "un",
+ "isAd": false,
+ "brandOrganicType": "1001",
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 47,
+  "width": 576,
+  "height": 1280,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "7278429",
+  "variants": [
+   {
+    "gear": "normal_540_0",
+    "codec": "h264",
+    "bitrate": 1229827,
+    "w": 576,
+    "h": 1280,
+    "size": "7278429"
+   },
+   {
+    "gear": "lowest_540_0",
+    "codec": "h264",
+    "bitrate": 481951,
+    "w": 576,
+    "h": 1280,
+    "size": "2852308"
+   }
+  ],
+  "subtitles": []
+ }
+}

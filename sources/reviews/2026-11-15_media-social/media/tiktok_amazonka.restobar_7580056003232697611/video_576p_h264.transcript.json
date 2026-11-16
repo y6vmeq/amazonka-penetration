@@ -1,0 +1,64 @@
+{
+ "file": "video_576p_h264.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.9172636270523071,
+ "duration": 10.5665,
+ "segments": [
+  {
+   "start": 0.75,
+   "end": 4.77,
+   "text": "In your own way, I guess you will.",
+   "words": [
+    {
+     "start": 0.75,
+     "end": 1.09,
+     "word": " In",
+     "p": 0.40676242113113403
+    },
+    {
+     "start": 1.09,
+     "end": 1.43,
+     "word": " your",
+     "p": 0.9841012358665466
+    },
+    {
+     "start": 1.43,
+     "end": 2.11,
+     "word": " own",
+     "p": 0.9954570531845093
+    },
+    {
+     "start": 2.11,
+     "end": 2.63,
+     "word": " way,",
+     "p": 0.9995328187942505
+    },
+    {
+     "start": 2.97,
+     "end": 3.19,
+     "word": " I",
+     "p": 0.9960676431655884
+    },
+    {
+     "start": 3.19,
+     "end": 4.13,
+     "word": " guess",
+     "p": 0.9963382482528687
+    },
+    {
+     "start": 4.13,
+     "end": 4.47,
+     "word": " you",
+     "p": 0.998199462890625
+    },
+    {
+     "start": 4.47,
+     "end": 4.77,
+     "word": " will.",
+     "p": 0.39267274737358093
+    }
+   ]
+  }
+ ]
+}

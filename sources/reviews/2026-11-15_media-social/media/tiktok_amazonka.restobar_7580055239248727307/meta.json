@@ -1,0 +1,70 @@
+{
+ "page_url": "https://www.tiktok.com/@amazonka.restobar/video/7580055239248727307",
+ "captured_at": "2026-11-15T11:22:47.786Z",
+ "id": "7580055239248727307",
+ "desc": "📍Ленинская, 38",
+ "createTime": "1764869147",
+ "createTimeISO": "2025-12-04T17:25:47.000Z",
+ "author": {
+  "uniqueId": "amazonka.restobar",
+  "nickname": "Amazonka.mogilev"
+ },
+ "stats": {
+  "diggCount": 25,
+  "shareCount": 0,
+  "commentCount": 0,
+  "playCount": 646,
+  "collectCount": "0"
+ },
+ "statsV2": {
+  "diggCount": "25",
+  "shareCount": "0",
+  "commentCount": "0",
+  "playCount": "646",
+  "collectCount": "0",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7580055247114259211",
+  "title": "оригинальный звук",
+  "authorName": "Amazonka.mogilev",
+  "original": true,
+  "duration": 11
+ },
+ "challenges": [],
+ "textExtra": [],
+ "contents": [
+  "📍Ленинская, 38"
+ ],
+ "stickersOnItem": [],
+ "locationCreated": "BY",
+ "textLanguage": "ru",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 11,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "1232369",
+  "variants": [
+   {
+    "gear": "normal_540_0",
+    "codec": "h264",
+    "bitrate": 896268,
+    "w": 576,
+    "h": 1024,
+    "size": "1232369"
+   }
+  ],
+  "subtitles": []
+ }
+}

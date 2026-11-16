@@ -1,0 +1,92 @@
+{
+ "page_url": "https://www.tiktok.com/@krasotka_19985/video/7386156966718082310",
+ "captured_at": "2026-11-15T11:20:59.286Z",
+ "id": "7386156966718082310",
+ "desc": "#моилюбимые #нупогуляеми #рек #рестобарАмазонка ",
+ "createTime": "1719723686",
+ "createTimeISO": "2024-06-30T05:01:26.000Z",
+ "author": {
+  "uniqueId": "krasotka_19985",
+  "nickname": "krasotka_by"
+ },
+ "stats": {
+  "diggCount": 11,
+  "shareCount": 0,
+  "commentCount": 0,
+  "playCount": 113,
+  "collectCount": "0"
+ },
+ "statsV2": {
+  "diggCount": "11",
+  "shareCount": "0",
+  "commentCount": "0",
+  "playCount": "113",
+  "collectCount": "0",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7162148859291666433",
+  "title": "Улыбайтесь почаще",
+  "authorName": "Ветта Венская",
+  "original": false,
+  "duration": 60
+ },
+ "challenges": [
+  "моилюбимые",
+  "нупогуляеми",
+  "рек",
+  "рестобарамазонка"
+ ],
+ "textExtra": [
+  {
+   "hashtag": "моилюбимые",
+   "user": null
+  },
+  {
+   "hashtag": "нупогуляеми",
+   "user": null
+  },
+  {
+   "hashtag": "рек",
+   "user": null
+  },
+  {
+   "hashtag": "рестобарамазонка",
+   "user": null
+  }
+ ],
+ "contents": [
+  "#моилюбимые #нупогуляеми #рек #рестобарАмазонка "
+ ],
+ "stickersOnItem": [],
+ "locationCreated": "BY",
+ "textLanguage": "un",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 15,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "1352733",
+  "variants": [
+   {
+    "gear": "normal_540_0",
+    "codec": "h264",
+    "bitrate": 719825,
+    "w": 576,
+    "h": 1024,
+    "size": "1352733"
+   }
+  ],
+  "subtitles": []
+ }
+}

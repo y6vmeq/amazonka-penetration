@@ -1,0 +1,68 @@
+{
+ "page_url": "https://www.tiktok.com/@amazonka_restobar/video/7200035269565828358",
+ "captured_at": "2026-11-15T11:22:30.201Z",
+ "id": "7200035269565828358",
+ "desc": "",
+ "createTime": "1676388851",
+ "createTimeISO": "2023-02-14T15:34:11.000Z",
+ "author": {
+  "uniqueId": "amazonka_restobar",
+  "nickname": "Amazonkarestobar"
+ },
+ "stats": {
+  "diggCount": 1,
+  "shareCount": 0,
+  "commentCount": 0,
+  "playCount": 146,
+  "collectCount": "0"
+ },
+ "statsV2": {
+  "diggCount": "1",
+  "shareCount": "0",
+  "commentCount": "0",
+  "playCount": "146",
+  "collectCount": "0",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7024066396766914562",
+  "title": "Dirty Thoughts",
+  "authorName": "Chloe Adams",
+  "original": false,
+  "duration": 58
+ },
+ "challenges": [],
+ "textExtra": [],
+ "contents": [],
+ "stickersOnItem": [],
+ "locationCreated": "BY",
+ "textLanguage": "un",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 7,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "1919187",
+  "variants": [
+   {
+    "gear": "normal_540_0",
+    "codec": "h264",
+    "bitrate": 2002542,
+    "w": 576,
+    "h": 1024,
+    "size": "1919187"
+   }
+  ],
+  "subtitles": []
+ }
+}

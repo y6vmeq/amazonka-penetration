@@ -1,0 +1,76 @@
+{
+ "page_url": "https://www.tiktok.com/@amazonka_restobar/video/7153284087883582726",
+ "captured_at": "2026-11-15T11:22:18.538Z",
+ "id": "7153284087883582726",
+ "desc": "",
+ "createTime": "1665503744",
+ "createTimeISO": "2022-10-11T15:55:44.000Z",
+ "author": {
+  "uniqueId": "amazonka_restobar",
+  "nickname": "Amazonkarestobar"
+ },
+ "stats": {
+  "diggCount": 14,
+  "shareCount": 1,
+  "commentCount": 0,
+  "playCount": 3804,
+  "collectCount": "1"
+ },
+ "statsV2": {
+  "diggCount": "14",
+  "shareCount": "1",
+  "commentCount": "0",
+  "playCount": "3804",
+  "collectCount": "1",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7141308321704856325",
+  "title": "SEVILLA",
+  "authorName": "Thrife",
+  "original": false,
+  "duration": 7
+ },
+ "challenges": [],
+ "textExtra": [],
+ "contents": [],
+ "stickersOnItem": [],
+ "locationCreated": "BY",
+ "textLanguage": "un",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 7,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "1872410",
+  "variants": [
+   {
+    "gear": "normal_540_0",
+    "codec": "h264",
+    "bitrate": 1920420,
+    "w": 576,
+    "h": 1024,
+    "size": "1872410"
+   },
+   {
+    "gear": "lowest_540_0",
+    "codec": "h264",
+    "bitrate": 667414,
+    "w": 576,
+    "h": 1024,
+    "size": "650729"
+   }
+  ],
+  "subtitles": []
+ }
+}

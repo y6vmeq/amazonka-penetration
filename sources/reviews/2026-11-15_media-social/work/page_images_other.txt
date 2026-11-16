@@ -1,0 +1,357 @@
+===== raw/018_komkur-info_komkur-2024-12-12-gekkon.html https://komkur.info/money/v-mogilevskom-restobare-amazonka-mozhno-poderzhat-v-rukakh-gekkona-sest-sup-s-osminozhkami-i-zakazat-rimskuyu-pitstsu/
+   img:src | https://komkur.info/templates/komkur2020/images/logo.svg?v=1 | Коммерческий курьер |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/topbar/news.png | Категории |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/topbar/advs.png | Объявления |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/topbar/gallery.png | Фоторепортажи |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/topbar/catalog.png | Каталог |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/topbar/contacts.png | Контакты |  | NonexNone
+   img:src | https://komkur.info/images/2024/polovikova/ng-yarmarka-grin/novogodnij-trollejbus/pozhar-chausy/amazonka/d26228be9bcf2b716f49b271b0bc8b30.jpg | В могилевском рестобаре «Амазонка» можно подержать в руках г | caption | NonexNone
+   img:src | https://komkur.info/images/2024/polovikova/ng-yarmarka-grin/novogodnij-trollejbus/pozhar-chausy/amazonka/49d70e77541734d677c84938a352f02a.jpg | 7 декабря 2024 г. Могилев, рестобар «Амазонка». |  | 900x675
+   img:src | https://komkur.info/images/2024/polovikova/ng-yarmarka-grin/novogodnij-trollejbus/pozhar-chausy/amazonka/c172a540025a0402c24f8348f3627570.jpg | 7 декабря 2024 г. Могилев, рестобар «Амазонка». |  | 900x675
+   img:src | https://komkur.info/images/2024/polovikova/ng-yarmarka-grin/novogodnij-trollejbus/pozhar-chausy/amazonka/9df13aab3de6c7eedd3013e3292700ce.jpg | 7 декабря 2024 г. Могилев, рестобар «Амазонка». |  | 900x675
+   img:src | https://komkur.info/images/2024/polovikova/ng-yarmarka-grin/novogodnij-trollejbus/pozhar-chausy/amazonka/8eaf2934a9122f80f3d58126a5efe9c0.jpg | 7 декабря 2024 г. Могилев, рестобар «Амазонка». |  | 900x675
+   img:src | https://komkur.info/images/2024/polovikova/ng-yarmarka-grin/novogodnij-trollejbus/pozhar-chausy/amazonka/e9686bdb1045fffae5cfef60a489db00.jpg | 7 декабря 2024 г. Могилев, рестобар «Амазонка». |  | 900x675
+   img:src | https://komkur.info/images/2024/polovikova/ng-yarmarka-grin/novogodnij-trollejbus/pozhar-chausy/amazonka/c767ac0cd49bddacf42ddfb41bb90f22.jpg | 7 декабря 2024 г. Могилев, рестобар «Амазонка». |  | 900x675
+   img:src | https://komkur.info/images/2024/polovikova/ng-yarmarka-grin/novogodnij-trollejbus/pozhar-chausy/amazonka/083bafc66d553609bab831b54afba2e0.jpg | 7 декабря 2024 г. Могилев, рестобар «Амазонка». |  | 900x372
+   img:src | https://komkur.info/images/2024/polovikova/ng-yarmarka-grin/novogodnij-trollejbus/pozhar-chausy/amazonka/dbc77a09895d3b11de056006639f2a80.jpg | 7 декабря 2024 г. Могилев, рестобар «Амазонка». |  | 900x675
+   img:src | https://komkur.info/images/2024/polovikova/ng-yarmarka-grin/novogodnij-trollejbus/pozhar-chausy/amazonka/db667c3264068d0a1ac83f70cab37943.jpg | Фото: Инстаграм заведения. |  | 900x506
+   img:src | https://komkur.info/images/2024/polovikova/ng-yarmarka-grin/novogodnij-trollejbus/pozhar-chausy/amazonka/2ea340e2f004a679ae51f94101e76a33.jpg | Фото: Инстаграм заведения. |  | 900x506
+   img:src | https://komkur.info/images/2024/polovikova/ng-yarmarka-grin/novogodnij-trollejbus/pozhar-chausy/amazonka/3890d2897a69fe72748af80d76d838a0.jpg | Фото: Инстаграм заведения. |  | 900x506
+   img:src | https://komkur.info/images/2024/polovikova/ng-yarmarka-grin/novogodnij-trollejbus/pozhar-chausy/amazonka/f91794e24621ac91d03efce1e2db18f7.jpg | Фото: Инстаграм заведения. |  | 900x506
+   img:src | https://komkur.info/images/2024/polovikova/ng-yarmarka-grin/novogodnij-trollejbus/pozhar-chausy/amazonka/64060a49ce99cab44d6b93a8cbfd33f3.jpg | Фото: Инстаграм заведения. |  | 900x506
+   img:src | https://komkur.info/images/2024/polovikova/ng-yarmarka-grin/novogodnij-trollejbus/pozhar-chausy/amazonka/04bf9dce0a2afcf3c0afe5ad5394a096.jpg | 7 декабря 2024 г. Могилев, рестобар «Амазонка». |  | 900x675
+   img:src | https://komkur.info/templates/komkur2020/images/svg/social_instagram.svg | Instagram — Новости Бобруйска @bobruisk.news |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/svg/social_telegram.svg | Telegram — Новости Бобруйска |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/svg/social_tiktok.svg | TikTok — Новости Бобруйска |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/svg/social_vk.svg | VK — Новости Бобруйска |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/svg/social_ok.svg | OK — Новости Бобруйска |  | NonexNone
+   img:src | https://komkur.info/i/202210/preview/uts_paper_000.jpg | Продаем старые газеты |  | NonexNone
+   img:src | https://komkur.info/i/202304/preview/stol_stoikav3.jpg | Продаем стойку-стол |  | NonexNone
+   img:src | https://komkur.info/i/201911/preview/mebel_furn.jpg | rb |  | NonexNone
+   img:src | https://komkur.info/templates//images/270x300.jpg | rb |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/map_red.jpg | Расположение редакции |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/pays.png | Платежные системы |  | NonexNone
+   img:src | https://mc.yandex.ru/watch/26269794 |  |  | NonexNone
+   css:background | https://komkur.info/images/2026/11/suslov/butik-avto/eaf46476ce59ec9d09e4de906b719d3a.jpg |  |  | NonexNone
+===== raw/019_komkur-info_komkur-2024-11-29-sup.html https://komkur.info/money/gastrofest-v-mogileve-sup-v-amazonke-na-lyubitelya
+   img:src | https://komkur.info/templates/komkur2020/images/logo.svg?v=1 | Коммерческий курьер |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/topbar/news.png | Категории |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/topbar/advs.png | Объявления |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/topbar/gallery.png | Фоторепортажи |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/topbar/catalog.png | Каталог |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/topbar/contacts.png | Контакты |  | NonexNone
+   img:src | https://komkur.info/images/2024/11/amazonka/be0be942a6a62c5d45294b45b00542a3.jpg | «Гастрофест» в Могилеве: суп в «Амазонке» – на любителя | caption | NonexNone
+   img:src | https://komkur.info/images/2aed0de8876c648bf3fb2c7a24edc50d.jpg | Ноябрь 2024. Могилев. Рестобар «Амазонка». Фото автора. |  | 900x1200
+   img:src | https://komkur.info/images/2024/11/amazonka/fb965e13bf927518547f15a44ae21821.jpg | 27.11.2024 г. Могилев, рестобар «Амазонка». |  | 900x675
+   img:src | https://komkur.info/images/2024/11/amazonka/34c467aacb67010f5e334ca6229525ab.jpg | 27.11.2024 г. Могилев, рестобар «Амазонка». |  | 900x675
+   img:src | https://komkur.info/images/2024/11/amazonka/0bc8c95c66d6b53cc7abf7c3eff2f61f.jpg | 27.11.2024 г. Могилев, рестобар «Амазонка». |  | 900x675
+   img:src | https://komkur.info/images/2024/11/amazonka/e27adc8d5c072fe94a699af14268885a.jpg | 27.11.2024 г. Могилев, рестобар «Амазонка». |  | 900x675
+   img:src | https://komkur.info/images/2024/11/amazonka/81356e25f4b0df67326a646bac5b83eb.jpg | 27.11.2024 г. Могилев, рестобар «Амазонка». |  | 900x1200
+   img:src | https://komkur.info/images/2024/11/amazonka/e98bd8d33ddb02a71e2eafe058fd7acf.jpg | 27.11.2024 г. Могилев, рестобар «Амазонка». |  | 900x1200
+   img:src | https://komkur.info/images/2024/11/amazonka/af07229361a525f1fa0a3c43ad95d27d.jpg | 27.11.2024 г. Могилев, рестобар «Амазонка». |  | 900x689
+   img:src | https://komkur.info/templates/komkur2020/images/svg/social_instagram.svg | Instagram — Новости Бобруйска @bobruisk.news |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/svg/social_telegram.svg | Telegram — Новости Бобруйска |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/svg/social_tiktok.svg | TikTok — Новости Бобруйска |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/svg/social_vk.svg | VK — Новости Бобруйска |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/svg/social_ok.svg | OK — Новости Бобруйска |  | NonexNone
+   img:src | https://komkur.info/i/202210/preview/uts_paper_000.jpg | Продаем старые газеты |  | NonexNone
+   img:src | https://komkur.info/i/202304/preview/stol_stoikav3.jpg | Продаем стойку-стол |  | NonexNone
+   img:src | https://komkur.info/i/201911/preview/mebel_furn.jpg | rb |  | NonexNone
+   img:src | https://komkur.info/templates//images/270x300.jpg | rb |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/map_red.jpg | Расположение редакции |  | NonexNone
+   img:src | https://komkur.info/templates/komkur2020/images/pays.png | Платежные системы |  | NonexNone
+   img:src | https://mc.yandex.ru/watch/26269794 |  |  | NonexNone
+   css:background | https://komkur.info/images/2026/11/suslov/butik-avto/eaf46476ce59ec9d09e4de906b719d3a.jpg |  |  | NonexNone
+===== raw/020_mogilev-in_mogilev-in-amazonka-card.html https://mogilev.in/cafe/amazonka_bar/
+   img:src | https://mc.yandex.ru/watch/44235139?ut=noindex |  |  | NonexNone
+   img:src | https://mogilev.in/source/front/widgets/panel/i/logo-mogilev.svg?v6 | Бизнес-портал Могилёва – Mogilev.in |  | NonexNone
+   img:src | https://mogilev.in/source/front/widgets/footer/i/mogilev.svg?v6 |  | footer__logo-img | NonexNone
+===== raw/021_mogilev-in_mogilev-in-rev3561.html https://mogilev.in/cafe/amazonka_bar/rev3561/
+   img:src | https://mc.yandex.ru/watch/44235139?ut=noindex |  |  | NonexNone
+   img:src | https://mogilev.in/source/front/widgets/panel/i/logo-mogilev.svg?v6 | Бизнес-портал Могилёва – Mogilev.in |  | NonexNone
+   img:src | https://mogilev.in/source/photos/2026/09/19/img-4209.jpeg |  | album-img | NonexNone
+   img:src | https://mogilev.in/source/front/widgets/footer/i/mogilev.svg?v6 |  | footer__logo-img | NonexNone
+   css:background | https://mogilev.in/source/photos/2026/08/13/rosting-komp.png |  |  | NonexNone
+===== raw/022_mogilev-in_mogilev-in-rev3445.html https://mogilev.in/cafe/amazonka_bar/rev3445/
+   img:src | https://mc.yandex.ru/watch/44235139?ut=noindex |  |  | NonexNone
+   img:src | https://mogilev.in/source/front/widgets/panel/i/logo-mogilev.svg?v6 | Бизнес-портал Могилёва – Mogilev.in |  | NonexNone
+   img:src | https://mogilev.in/source/front/widgets/footer/i/mogilev.svg?v6 |  | footer__logo-img | NonexNone
+   css:background | https://mogilev.in/source/photos/2026/08/13/rosting-komp.png |  |  | NonexNone
+===== raw/023_mogilev-in_mogilev-in-rev2949.html https://mogilev.in/cafe/amazonka_bar/rev2949/
+   img:src | https://mc.yandex.ru/watch/44235139?ut=noindex |  |  | NonexNone
+   img:src | https://mogilev.in/source/front/widgets/panel/i/logo-mogilev.svg?v6 | Бизнес-портал Могилёва – Mogilev.in |  | NonexNone
+   img:src | https://mogilev.in/source/photos/2023/11/25/screenshot-20231125-174550.jpg |  | album-img | NonexNone
+   img:src | https://mogilev.in/source/front/widgets/footer/i/mogilev.svg?v6 |  | footer__logo-img | NonexNone
+   css:background | https://mogilev.in/source/photos/2026/08/13/rosting-komp.png |  |  | NonexNone
+   css:background | https://mogilev.in/source/photos/app/b_c291cmNlL3Bob3Rvcy8yMDIwLzAzLzA3L28tMWUycmF2Y3Z0MWZydXRocTFtajY4MWFkOHY3LmpwZw==_100x100_75975a6955.jpg |  |  | NonexNone
+===== raw/024_mogilev-in_mogilev-in-news-13566.html https://mogilev.in/news/13566/
+   img:src | https://mc.yandex.ru/watch/44235139?ut=noindex |  |  | NonexNone
+   img:src | https://mogilev.in/source/front/widgets/panel/i/logo-mogilev.svg?v6 | Бизнес-портал Могилёва – Mogilev.in |  | NonexNone
+   img:src | https://mogilev.in/source/photos/2026/11/05/restobar-luna.jpg |  | album-img | NonexNone
+   img:src | https://mogilev.in/source/photos/2026/11/05/gastrobar-tsokol.jpg |  | album-img | NonexNone
+   img:src | https://mogilev.in/source/photos/2026/11/05/inari.jpg |  | album-img | NonexNone
+   img:src | https://mogilev.in/source/photos/2026/11/05/chayhana-rahmat.jpg |  | album-img | NonexNone
+   img:src | https://mogilev.in/source/photos/2026/11/05/restoran-101.jpg |  | album-img | NonexNone
+   img:src | https://mogilev.in/source/photos/2026/11/05/edison-bar.jpg |  | album-img | NonexNone
+   img:src | https://mogilev.in/source/photos/2026/11/05/restoran-gruzinskoy-kuhni-hinkalnya.jpg |  | album-img | NonexNone
+   img:src | https://mogilev.in/source/photos/2026/11/05/amazonka-restobar.jpg |  | album-img | NonexNone
+   img:src | https://mogilev.in/source/photos/2026/11/05/smak.jpg |  | album-img | NonexNone
+   img:src | https://mogilev.in/source/front/widgets/footer/i/mogilev.svg?v6 |  | footer__logo-img | NonexNone
+   css:background | https://mogilev.in/source/photos/2026/08/13/rosting-komp.png |  |  | NonexNone
+===== raw/025_b4y-by_b4y-21181.html https://b4y.by/product/21181
+   img:src | https://b4y.by/storage/settings/01M142KP6J1VGQ6Z8SFEA00KYH.png | b4y.by | logo-img | NonexNone
+   img:src | https://b4y.by/storage/ads/18/03/2024/fU5q5nlFrzBzspHRf0e5IMN1C.jpg | Экзотический рестобар в Могилеве | w-100 main-img | NonexNone
+   img:src | https://b4y.by/storage/banners/01M6E083JRW45SZVRAHTTWF0Q9.jpg | Anai | banner-responsive | NonexNone
+   img:src | https://b4y.by/storage/banners/01M2R27YYW1JVCSH3SARZETJBK.jpeg | инста | banner-responsive | NonexNone
+   img:src | https://b4y.by/storage/ads/14/04/2025/2uYkAhwTMzg1Jlg4DvlxDKAVe.jpg | Кафе на трассе Питер–Одесса | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/14/04/2025/kXoAHSnDJQMkuUWYBbqfigljx.jpg | Кафе на трассе Питер–Одесса | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/14/04/2025/p2BJ760zQwU2zd1OTLMu2MzNW.jpg | Кафе на трассе Питер–Одесса | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/14/04/2025/Bnict7kXsC5MXHvKpiWVwffKG.jpg | Кафе на трассе Питер–Одесса | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/14/04/2025/M37LVLAa5GCVzfiqGheCMTSVJ.jpg | Кафе на трассе Питер–Одесса | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/14/04/2025/aR0ZLgvL5YuIpe2FKfomi7MjT.jpg | Кафе на трассе Питер–Одесса | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/22/09/2023/pCKfDAHYLGdDmFEXFllyOlvbs.jpg | Пиццерия «Green Garden» в Солигорске | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/18/08/2025/Abg4TLir6B2MFvUYA1BkH7Uwe.jpg | Ресторанный бизнес — кафе в Мяделе в собственности | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/18/08/2025/6Svgb7Z2SD8goBpQ62zF65UUl.jpg | Ресторанный бизнес — кафе в Мяделе в собственности | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/18/08/2025/f1E0tEcTYOgtxprD3othb1gQ2.jpg | Ресторанный бизнес — кафе в Мяделе в собственности | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/18/08/2025/19025y5iyP9gHDstnXfr9Nfo2.jpg | Ресторанный бизнес — кафе в Мяделе в собственности | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/18/08/2025/OzVHIm6kXavybpruP3lvfTpuX.jpg | Ресторанный бизнес — кафе в Мяделе в собственности | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/18/08/2025/1yftelAdBMsHLD2KUOQFj5aTX.jpg | Ресторанный бизнес — кафе в Мяделе в собственности | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/18/08/2025/IoTsZ6SfERFOiY0gZHmjZOasg.jpg | Ресторанный бизнес — кафе в Мяделе в собственности | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/18/08/2025/JCSkRfwm8zzLzWJyJLTJqLvhQ.jpg | Ресторанный бизнес — кафе в Мяделе в собственности | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/18/08/2025/WwMfhK3Z8vTodLHbOHdecPjrA.jpg | Ресторанный бизнес — кафе в Мяделе в собственности | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/18/08/2025/S8Fc704ZHHVIYGposJas5bBDV.jpg | Ресторанный бизнес — кафе в Мяделе в собственности | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/30/01/2026/01KG7AG46MMG3GH2V04NFGTDNC.jpg | Островок на фуд-корте | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/30/01/2026/01KG7AG46NNR4FPBTPCSTA7R4F.jpg | Островок на фуд-корте | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/30/01/2026/01KG7AG46NNR4FPBTPCSTA7R4G.jpg | Островок на фуд-корте | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/30/01/2026/01KG7AG46PKJ6NK0CPN0X263J3.jpg | Островок на фуд-корте | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/30/01/2026/01KG7AG46Q12CQQKT8RPV0D6SX.jpg | Островок на фуд-корте | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/30/01/2026/01KG7AG46Q12CQQKT8RPV0D6SY.jpg | Островок на фуд-корте | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/19/06/2026/01KVG4PV8RSKJE41RSJ5226XB1.jpg | Сеть из 2 действующих объектов общепита | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/19/06/2026/01KVG4PV8TBJ7M4RVVN4GJQP55.jpg | Сеть из 2 действующих объектов общепита | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/19/06/2026/01KVG4PV8VBMT7WSJ1PRKJFG6H.jpg | Сеть из 2 действующих объектов общепита | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/19/06/2026/01KVG4PV8VBMT7WSJ1PRKJFG6J.jpg | Сеть из 2 действующих объектов общепита | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/19/06/2026/01KVG4PV8WH7444YNGKDR7NKEJ.jpg | Сеть из 2 действующих объектов общепита | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/19/06/2026/01KVG4PV8XC93CTXPY7QN12W0M.jpg | Сеть из 2 действующих объектов общепита | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/19/06/2026/01KVG4PV8Y3EW1T1VFEWRVR6CX.jpg | Сеть из 2 действующих объектов общепита | w-100 | NonexNone
+   img:src | https://b4y.by/storage/ads/19/06/2026/01KVG4PV90S4ER71BHKBK4C4GV.jpg | Сеть из 2 действующих объектов общепита | w-100 | NonexNone
+   img:src | https://b4y.by/storage/settings/01M142KP6MZF08Z94M1W1A87VN.png | b4y.by | logo-footer-img | NonexNone
+   img:src | https://mc.yandex.ru/watch/28032156 |  |  | NonexNone
+===== raw/026_biznesmarket-by_biznesmarket-restobar.html https://biznesmarket.by/Offer/ekzoticheskiy-restobar-v-mogileve
+   img:src | https://biznesmarket.by/storage/settings/01KZGZEX2CHPBBA9G1MHQ73AR8.png | Biznesmarket.by | logo-img | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/18/03/2024/01KZH0CY5AQJ2JAD67RA6WG53N.webp | Экзотический рестобар в Могилеве | w-100 main-img | NonexNone
+   img:src | https://biznesmarket.by/storage/banners/01M2R33DXYF87EJHB53XGND74M.jpeg | инста | banner-responsive | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/11/11/2024/01KZH0CYFNY4BVZ1XTXDBWFZZS.webp | Действующий суши-бар | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/11/11/2024/01KZH0D9BNAJY637NM17GR8E1R.webp | Действующий суши-бар | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/11/11/2024/01KZH0D9BRAE7W6Q6JBA7GPT6S.webp | Действующий суши-бар | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/26/06/2026/01KZH0D1EFZYTR5M7PJQZM8VV5.webp | Бар "Шервуд" с ночным режимом работы | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/26/06/2026/01KZH0DETYTP5NJCZ2Z09KQTBE.webp | Бар "Шервуд" с ночным режимом работы | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/26/06/2026/01KZH0DEV16ADPF0EBR2VQVRWH.webp | Бар "Шервуд" с ночным режимом работы | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/26/06/2026/01KZH0DEV4H59EVETGM000MZE9.webp | Бар "Шервуд" с ночным режимом работы | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/26/06/2026/01KZH0DEV7V6EBPA9FJV5MRYDJ.webp | Бар "Шервуд" с ночным режимом работы | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/26/06/2026/01KZH0DEVAXWX2VRZP3V4GD1ZB.webp | Бар "Шервуд" с ночным режимом работы | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/26/06/2026/01KZH0DEVD9CKRM2QRDHMYJFM4.webp | Бар "Шервуд" с ночным режимом работы | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/26/06/2026/01KZH0DEVG7790CC6VGHYG9XX1.webp | Бар "Шервуд" с ночным режимом работы | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/05/11/2026/ixIgWeMZz8GCyPpamJxRxU2vZgxcqmEOQ0GP5eNc.webp | Действующая кофейня на улице Авакяна | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/05/11/2026/sfPOzJ4NyYMXvmsmN9gcVnNt13Eeb5Bv21NJMoX7.webp | Действующая кофейня на улице Авакяна | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/05/11/2026/6kN2wEmsOZFDjUB3SpLsGLXniAAzDr12qA4FI5Sr.webp | Действующая кофейня на улице Авакяна | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/05/11/2026/XiiCQsZ3wr41xU8FMyBHJoBpnBnZnza3Lkvgcc85.webp | Действующая кофейня на улице Авакяна | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/05/11/2026/mgZQLvkm7J5nOi2sMEdCmXN8koNeq9PxKJDJSCXi.webp | Действующая кофейня на улице Авакяна | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/05/11/2026/ErreGd8fFl1tMH5HX7DOI8E3zyKXztPH9fwQAoGb.webp | Действующая кофейня на улице Авакяна | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/27/08/2025/01KZH0D02DXRJBN6G9VMSSTBHS.webp | Одно из самых популярных кафе в Бресте | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/04/02/2026/01KZH0D0RRCR6CT6PMSJ74GCS2.webp | Помещение с действующим кафе «Хинкали» | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/04/02/2026/01KZH0DCWF12ZCEATWZ4J44W24.webp | Помещение с действующим кафе «Хинкали» | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/04/02/2026/01KZH0DCWK2RXH59F9X7YPWDWS.webp | Помещение с действующим кафе «Хинкали» | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/04/02/2026/01KZH0DCWPWZE60NWKXBP9632B.webp | Помещение с действующим кафе «Хинкали» | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/04/02/2026/01KZH0DCWTTX4DG50MM3EW4VNP.webp | Помещение с действующим кафе «Хинкали» | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/04/02/2026/01KZH0DCWYQ2B5XN433YPMQ8C4.webp | Помещение с действующим кафе «Хинкали» | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/04/02/2026/01KZH0DCX2K8EYTANBWM62N127.webp | Помещение с действующим кафе «Хинкали» | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/ads/04/02/2026/01KZH0DCX5SE6QH5T20W7TH908.webp | Помещение с действующим кафе «Хинкали» | w-100 | NonexNone
+   img:src | https://biznesmarket.by/storage/settings/01KZGZEX2ETSCSDATJ6QQTDNKT.png | Biznesmarket.by | logo-footer-img | NonexNone
+   img:src | https://mc.yandex.ru/watch/62591626 |  |  | NonexNone
+===== raw/027_koko-by_koko-poglad-udava.html https://koko.by/cafehouse/13670-poglad-udava
+   img:src | https://koko.by/logo-mark.svg |  | block flex-none  | 36x36
+   img:src | https://koko.by/img/34573 | Где подержать змею и съесть пол-литра Том Яма. Пробрались в  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo23_1764530805.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo20_1764530834.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo22_1764530976.webp |  |  | NonexNone
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo8_1764530854.webp |  |  | NonexNone
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo11_1764530913.webp |  |  | NonexNone
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo9_1764530863.webp |  |  | NonexNone
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo10_1764530904.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo13_1764530885.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo12_1764530925.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo17_1764530933.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo15_1764569279.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo19_1764530951.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo21_1764530961.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo14_1764533741.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo1_1764533754.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo2_1764533763.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo4_1764533778.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo5_1764533786.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_img-2935_1764526622.webp |  |  | 1200x1600
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_img-5654_1764525924.webp |  |  | 1112x1600
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo3_1764533796.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_img-2930_1764525943.webp |  |  | 1320x564
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo6_1764533808.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_photo7_1764533820.webp |  |  | 1500x1125
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_img-5656_1764526799.webp |  |  | 1320x977
+   img:src | https://koko.by/storage/thumbs/uploads/pages/w1600_h1600_q90_water_w1600-h1600-q90-water-photo13-1736272412_1764528981.webp |  |  | 1600x1200
+   img:src | https://koko.by/skidy-mark.png |  | flex-none rounded-[28%] shadow-sm | 34x34
+   img:src | https://skidy.by/img/4054 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://skidy.by/img/4057 |  | size-full object-contain p-1 | NonexNone
+   img:src | https://skidy.by/img/4035 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://skidy.by/img/4036 |  | size-full object-contain p-1 | NonexNone
+   img:src | https://skidy.by/img/2834 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://skidy.by/img/2835 |  | size-full object-contain p-1 | NonexNone
+   img:src | https://skidy.by/img/2793 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://skidy.by/img/2779 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://skidy.by/img/2780 |  | size-full object-contain p-1 | NonexNone
+   img:src | https://skidy.by/img/2769 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://skidy.by/img/2770 |  | size-full object-contain p-1 | NonexNone
+   img:src | https://skidy.by/img/2711 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://skidy.by/img/2712 |  | size-full object-contain p-1 | NonexNone
+   img:src | https://skidy.by/img/2515 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://skidy.by/img/2516 |  | size-full object-contain p-1 | NonexNone
+   img:src | https://koko.by/img/33893 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://koko.by/img/34566 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://koko.by/img/33183 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://koko.by/img/33300 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://koko.by/img/25428 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://koko.by/img/35331 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://koko.by/img/35250 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://koko.by/img/35199 |  | absolute inset-0 size-full object-cover | NonexNone
+   img:src | https://koko.by/img/35198 |  | absolute inset-0 size-full object-cover | NonexNone
+===== raw/028_olo-by_olo-amazonka-2844.html https://olo.by/mogilev/restorany/amazonka-2844
+   img:src | https://mc.yandex.ru/watch/101180903 |  |  | NonexNone
+   img:src | https://olo.by/media/others/logo_684aad7670dd3.png | Общепит Беларуси |  | NonexNone
+   img:src | https://olo.by/templates/images/icon-you.png |  |  | NonexNone
+   img:src | https://olo.by/templates/images/icon-telegram.png |  |  | NonexNone
+   img:src | https://olo.by/templates/images/icon-inst.png |  |  | NonexNone
+   img:src | https://olo.by/media/others/no_avatar.png |  |  | NonexNone
+   img:src | https://olo.by/media/others/e7a9d8fce0ab22c44b0d2160f8c25ef0.png |  |  | Nonex55
+   img:src | https://olo.by/media/others/ec57dbf8b76ea40cac5294a947a63097.png |  |  | Nonex55
+   og:image | https://olo.by/media/images_boards/big/68c958ec16e9a.jpg |  |  | NonexNone
+===== raw/029_olo-by_olo-blog-prosrochka.html https://olo.by/blog/kafe-i-kofeyni/isporchennoe-vino-v-bare-i-ne-tolko-sanstanciya-mogileva-opublikovala-spisok-obektov-gde-nashli-proshli-prosrochku-168
+   img:src | https://mc.yandex.ru/watch/101180903 |  |  | NonexNone
+   img:src | https://olo.by/media/others/logo_684aad7670dd3.png | Общепит Беларуси |  | NonexNone
+   img:src | https://olo.by/media/images_blog/big/b88d1a0aa516ecc41e51cdabfc0b4d4c.jpg | Как будет выглядеть новый квартал на Красноармейской в Минск |  | NonexNone
+   img:src | https://olo.by/media/images_blog/big/770f8584ec39d63dcb4427b6019fedca.jpg | В Беларуси признали опасной лапшу быстрого приготовления |  | NonexNone
+   img:src | https://olo.by/media/images_blog/big/1676800fc5d13ba8ce4aa0a76e2d26d9.jpg | Заведующая кофейни в Лиде похитила более 11000 рублей |  | NonexNone
+   img:src | https://olo.by/media/images_blog/big/779a8fb4af34034c7a5e0b4e92f9f9b0.jpg | Есть драники и слушать белорусскую музыку – по пятницам пред |  | NonexNone
+   img:src | https://olo.by/templates/images/icon-you.png |  |  | NonexNone
+   img:src | https://olo.by/templates/images/icon-telegram.png |  |  | NonexNone
+   img:src | https://olo.by/templates/images/icon-inst.png |  |  | NonexNone
+===== raw/030_mycity-by_mycity-gastrofest-craft.html https://mycity.by/news/obshchestvo/14369-respublikanskij-festival-gastrofest-craft-projdet-v-mogileve-uznali-chto-v-menyu
+   img:src | https://mycity.by/templates/ja_focus/images/icon/telegram.svg |  |  | 15xNone
+   img:src | https://mycity.by/templates/ja_focus/images/logo.svg | Могилевский городской информационно-справочный портал | logo-img | NonexNone
+   img:src | https://mycity.by/templates/ja_focus/images/logo-sm.svg | Могилевский городской информационно-справочный портал | logo-img-sm | NonexNone
+   img:src | https://mycity.by/images/content/news2026/society/weather_dozhd-i-sneg.jpg | Выходные будут с порывистым ветром — прогноз погоды в Могиле |  | NonexNone
+   img:src | https://mycity.by/templates/ja_focus/images/system/arrow.png |  |  | NonexNone
+   img:src | https://mycity.by/images/content/news2026/society/Gastrofest-craft/set/luna.jpg |  |  | 750xNone
+   img:src | https://mycity.by/images/content/news2026/society/Gastrofest-craft/set/cokol.jpg |  |  | 750xNone
+   img:src | https://mycity.by/images/content/news2026/society/Gastrofest-craft/set/inari.jpg |  |  | 750xNone
+   img:src | https://mycity.by/images/content/news2026/society/Gastrofest-craft/set/chaihana.jpg |  |  | 750xNone
+   img:src | https://mycity.by/images/content/news2026/society/Gastrofest-craft/set/101.jpg |  |  | 750xNone
+   img:src | https://mycity.by/images/content/news2026/society/Gastrofest-craft/set/edison.jpg |  |  | 750xNone
+   img:src | https://mycity.by/images/content/news2026/society/Gastrofest-craft/set/hinkalnya.jpg |  |  | 750xNone
+   img:src | https://mycity.by/images/content/news2026/society/Gastrofest-craft/set/amazonka.jpg |  |  | 750xNone
+   img:src | https://mycity.by/images/content/news2026/society/Gastrofest-craft/set/smak-by.jpg |  |  | 750xNone
+   img:src | https://mycity.by/images/icon/soc/instagram.png | Instagram |  | NonexNone
+   img:src | https://mycity.by/images/icon/soc/vk.png | Vkontakte |  | NonexNone
+   img:src | https://mycity.by/images/icon/soc/telegram-5945.png | Telegram |  | NonexNone
+   img:src | https://mc.yandex.ru/watch/1057301 |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/yahimovich.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/amlux.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/cipliakov.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/gapeev.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/matusevich.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/capik.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/bogdashev.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/belsky.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/makarenko.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/germes-trast.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/stankevich.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/pohoron-komp.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/everest202603.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/rittorgkom.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/kapurov.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/morozov.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/zavatskiy.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/Pechkurenko_new.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/elitdiamondstroi.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/belmagika.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/center_tehnology_1225.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/korneev.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/poroshkov.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/BushElit.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/zyatkov.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/rogatkin.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/shihkov.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/oknolux.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/standart-csk.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/teloenergetika.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/mazcharov.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/nikitenko.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/1.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/2.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/3-.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/4.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/seslikov.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/nikitin.jpg |  |  | NonexNone
+   css:background | https://mycity.by/images/yslygi/Kozhanov-1.jpg |  |  | NonexNone
+===== raw/031_biztorg-by_biztorg-zal-kafe.html https://biztorg.by/item/trenazhernyy-zal-kafe-v-mogileve
+   img:src | https://biztorg.by/storage/settings/01KYMDP363G6QJ0YRHN46ZZXZ5.png | Biztorg.by | logo-img | NonexNone
+   img:src | https://biztorg.by/storage/ads/04/09/2025/01KYMF6SC2DBDDBDT38FABQNKN.jpg | Тренажерный зал + кафе в Могилеве | w-100 main-img | NonexNone
+   img:src | https://biztorg.by/storage/ads/04/09/2025/01KYMF73TFCJ98415EPXWQBP6T.jpg | Фото |  | NonexNone
+   img:src | https://biztorg.by/storage/ads/04/09/2025/01KYMF73TWYBY840RDPQK0WRJX.jpg | Фото |  | NonexNone
+   img:src | https://biztorg.by/storage/ads/04/09/2025/01KYMF73TSSE4826HPWJ63NR06.jpg | Фото |  | NonexNone
+   img:src | https://biztorg.by/storage/ads/04/09/2025/01KYMF73TP8X3BHS53W67JZAP8.jpg | Фото |  | NonexNone
+   img:src | https://biztorg.by/storage/ads/04/09/2025/01KYMF73TJWF45BXB671G7HV3J.jpg | Фото |  | NonexNone
+   img:src | https://biztorg.by/storage/ads/04/09/2025/01KYMF73V33A2FS2VZRGKST6F1.jpg | Фото |  | NonexNone
+   img:src | https://biztorg.by/storage/ads/04/09/2025/01KYMF73TZNR8QX0Z3NG26PF3J.jpg | Фото |  | NonexNone
+   img:src | https://biztorg.by/storage/ads/04/09/2025/01KYMF73V6EPE2JECT31HV17J7.jpg | Фото |  | NonexNone
+   img:src | https://biztorg.by/storage/ads/04/09/2025/01KYMF73V9W4P59A8RVMD0V381.jpg | Фото |  | NonexNone
+   img:src | https://biztorg.by/storage/banners/01M2R2QQYDQNQT34EAWHS5QSFV.jpeg | инстаграм | banner-responsive | NonexNone
+   img:src | https://biztorg.by/storage/ads/16/07/2024/01KYMF6RCR3PC0JKNY40MK5N9H.jpg | Прибыльное кафе-шаурма в Минской области | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/16/07/2024/01KYMF72M5SGDHN19KX1MGTNSG.jpg | Прибыльное кафе-шаурма в Минской области | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/16/07/2024/01KYMF72KX0XYK7BTP10XFGN4A.jpg | Прибыльное кафе-шаурма в Минской области | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/16/07/2024/01KYMF72NCY3TNNS9F61TCBCN2.jpg | Прибыльное кафе-шаурма в Минской области | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/16/07/2024/01KYMF72N7TA0D9BZG5QRNYP6V.jpg | Прибыльное кафе-шаурма в Минской области | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/16/07/2024/01KYMF72N152D75E5BRAZKCYRK.jpg | Прибыльное кафе-шаурма в Минской области | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/16/07/2024/01KYMF72MSG9W4BPGJRWSDZWRV.jpg | Прибыльное кафе-шаурма в Минской области | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/16/07/2024/01KYMF72MFHE25TBK3Y79JDX4M.jpg | Прибыльное кафе-шаурма в Минской области | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/12/12/2023/01KYMF6JE0MZNZJJA2M3W8Q5X7.jpg | Популярный ресторан - паб в самом центре Минска | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/12/12/2023/01KYMF6Y1TTG2DDVAGRKH9Y62H.png | Популярный ресторан - паб в самом центре Минска | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/12/12/2023/01KYMF6Y2MWFP8RD21SA2D7C4N.png | Популярный ресторан - паб в самом центре Минска | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/12/12/2023/01KYMF6Y240RJ8PHS8JPVH8MYD.png | Популярный ресторан - паб в самом центре Минска | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/12/12/2023/01KYMF6Y2FKRDDZ9NFN709Q1XF.jpg | Популярный ресторан - паб в самом центре Минска | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/12/12/2023/01KYMF6Y2SPMW6J2BS3FKSRQWP.bmp | Популярный ресторан - паб в самом центре Минска | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/12/12/2023/01KYMF6Y28CXRTVZQN0SVGP7PE.bmp | Популярный ресторан - паб в самом центре Минска | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/12/12/2023/01KYMF6Y20Z9T1YNVRB1M06CTJ.bmp | Популярный ресторан - паб в самом центре Минска | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/30/09/2024/01KYMF6QMD0TMVGMQ1MTX0K2DG.jpg | Кафе в собственности на берегу озера | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/30/09/2024/01KYMF71DYG16NQ013RYHJH62R.jpg | Кафе в собственности на берегу озера | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/30/09/2024/01KYMF71E9WHN4EH7A4KXTZ62Z.jpg | Кафе в собственности на берегу озера | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/30/09/2024/01KYMF71ECE3FSWRVY2V0RHK4A.jpg | Кафе в собственности на берегу озера | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/30/09/2024/01KYMF71EGEX6RKHBV94PH2VCD.jpg | Кафе в собственности на берегу озера | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/30/09/2024/01KYMF71E50FF72Z19EM6F4NZH.jpg | Кафе в собственности на берегу озера | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/30/09/2024/01KYMF71E2MMHC1M0850T90HP3.jpg | Кафе в собственности на берегу озера | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/11/02/2025/01KYMF6QXQC4VQ72J26XJEE6VG.jpeg | Кафе-магазин в Минском районе | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/11/02/2025/01KYMF70SJ3TN1N2AKT9GN2VV9.jpeg | Кафе-магазин в Минском районе | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/03/12/2025/01KYMF6T05GCGTFYWZQDT5DJ3N.jpg | Диско-бар «Сфера» в собственности | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/03/12/2025/01KYMF751SEP7ZG23MJ49MXZ9S.jpg | Диско-бар «Сфера» в собственности | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/03/12/2025/01KYMF751XTS4FTA52Q4898HV6.jpg | Диско-бар «Сфера» в собственности | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/03/12/2025/01KYMF7520TNQMJ3CBCB8G3TG6.jpg | Диско-бар «Сфера» в собственности | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/03/12/2025/01KYMF7523T3W7E9ZD60WFJGTA.jpg | Диско-бар «Сфера» в собственности | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/03/12/2025/01KYMF7526EKN5HYMG0SSQS8B5.jpg | Диско-бар «Сфера» в собственности | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/03/12/2025/01KYMF75295T150SY6P0C4AMN9.jpg | Диско-бар «Сфера» в собственности | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/03/12/2025/01KYMF752CZQ1YGC3SP1ZKKAB3.jpg | Диско-бар «Сфера» в собственности | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/03/12/2025/01KYMF752FHS99C8A1FW8V3X32.jpg | Диско-бар «Сфера» в собственности | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/03/12/2025/01KYMF752JFF7V7B0M41NSG68X.jpg | Диско-бар «Сфера» в собственности | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/01/11/2024/01KYMF6P8A8TXHVJX8XGPP6BBA.png | Пиццерия "ПандаПицца" в Лиде | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/01/11/2024/01KYMF6ZYPDYA7339D3830YF8P.png | Пиццерия "ПандаПицца" в Лиде | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/ads/01/11/2024/01KYMF6ZYTSNWVHP3KV4SCFRX3.png | Пиццерия "ПандаПицца" в Лиде | w-100 | NonexNone
+   img:src | https://biztorg.by/storage/settings/01KYMDP365QFJPRREZEXQNQPWV.png | Biztorg.by | logo-footer-img | NonexNone
+   img:src | https://biztorg.by/images/social_tg.svg | Telegram |  | NonexNone
+   img:src | https://biztorg.by/images/social_insta.svg | Instagram |  | NonexNone
+   img:src | https://mc.yandex.ru/watch/41124164 |  |  | NonexNone

@@ -1,0 +1,108 @@
+{
+ "file": "video_576p_h264.mp4",
+ "model": "large-v3-turbo",
+ "language": "sv",
+ "language_probability": 0.7913374304771423,
+ "duration": 7.6408125,
+ "segments": [
+  {
+   "start": 0.34,
+   "end": 1.72,
+   "text": "När du pratar med Tone",
+   "words": [
+    {
+     "start": 0.34,
+     "end": 0.56,
+     "word": " När",
+     "p": 0.012570789083838463
+    },
+    {
+     "start": 0.56,
+     "end": 0.76,
+     "word": " du",
+     "p": 0.9760861396789551
+    },
+    {
+     "start": 0.76,
+     "end": 1.14,
+     "word": " pratar",
+     "p": 0.961918830871582
+    },
+    {
+     "start": 1.14,
+     "end": 1.36,
+     "word": " med",
+     "p": 0.9964823722839355
+    },
+    {
+     "start": 1.36,
+     "end": 1.72,
+     "word": " Tone",
+     "p": 0.7686620950698853
+    }
+   ]
+  },
+  {
+   "start": 1.72,
+   "end": 3.42,
+   "text": "Tranquillo, tranquillo, tranquillo",
+   "words": [
+    {
+     "start": 1.72,
+     "end": 2.58,
+     "word": " Tranquillo,",
+     "p": 0.7104176978270212
+    },
+    {
+     "start": 2.6,
+     "end": 3.0,
+     "word": " tranquillo,",
+     "p": 0.9422449767589569
+    },
+    {
+     "start": 3.0,
+     "end": 3.42,
+     "word": " tranquillo",
+     "p": 0.9864296615123749
+    }
+   ]
+  },
+  {
+   "start": 3.42,
+   "end": 5.22,
+   "text": "En brunette och en blondin",
+   "words": [
+    {
+     "start": 3.42,
+     "end": 3.76,
+     "word": " En",
+     "p": 0.9022617340087891
+    },
+    {
+     "start": 3.76,
+     "end": 4.34,
+     "word": " brunette",
+     "p": 0.8995198210080465
+    },
+    {
+     "start": 4.34,
+     "end": 4.46,
+     "word": " och",
+     "p": 0.9655703902244568
+    },
+    {
+     "start": 4.46,
+     "end": 4.68,
+     "word": " en",
+     "p": 0.990871012210846
+    },
+    {
+     "start": 4.68,
+     "end": 5.22,
+     "word": " blondin",
+     "p": 0.8917923271656036
+    }
+   ]
+  }
+ ]
+}

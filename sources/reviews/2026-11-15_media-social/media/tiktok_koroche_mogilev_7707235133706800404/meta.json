@@ -1,0 +1,98 @@
+{
+ "page_url": "https://www.tiktok.com/@koroche_mogilev/video/7707235133706800404",
+ "captured_at": "2026-11-15T12:04:19.251Z",
+ "id": "7707235133706800404",
+ "desc": "#корочеМогилев #крч #короче #корочемогилев ",
+ "createTime": "1794480522",
+ "createTimeISO": "2026-11-12T10:48:42.000Z",
+ "author": {
+  "uniqueId": "koroche_mogilev",
+  "nickname": "КОРОЧЕ|ОБЗОРЫ|МОГИЛЕВ"
+ },
+ "stats": {
+  "diggCount": 104,
+  "shareCount": 12,
+  "commentCount": 5,
+  "playCount": 5055,
+  "collectCount": "7"
+ },
+ "statsV2": {
+  "diggCount": "104",
+  "shareCount": "12",
+  "commentCount": "5",
+  "playCount": "5055",
+  "collectCount": "7",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7707235228848147221",
+  "title": "оригинальный звук",
+  "authorName": "КОРОЧЕ|ОБЗОРЫ|МОГИЛЕВ",
+  "original": true,
+  "duration": 57
+ },
+ "challenges": [
+  "корочемогилев",
+  "крч",
+  "короче"
+ ],
+ "textExtra": [
+  {
+   "hashtag": "корочемогилев",
+   "user": null
+  },
+  {
+   "hashtag": "крч",
+   "user": null
+  },
+  {
+   "hashtag": "короче",
+   "user": null
+  },
+  {
+   "hashtag": "корочемогилев",
+   "user": null
+  }
+ ],
+ "contents": [
+  "#корочеМогилев #крч #короче #корочемогилев "
+ ],
+ "stickersOnItem": [],
+ "locationCreated": "BY",
+ "textLanguage": "un",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 57,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "3651075",
+  "variants": [
+   {
+    "gear": "lowest_540_0",
+    "codec": "h264",
+    "bitrate": 505916,
+    "w": 576,
+    "h": 1024,
+    "size": "3651075"
+   }
+  ],
+  "subtitles": [
+   {
+    "lang": "rus-RU",
+    "format": "webvtt",
+    "source": "ASR",
+    "size": "2137"
+   }
+  ]
+ }
+}

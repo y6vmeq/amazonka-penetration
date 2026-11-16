@@ -1,0 +1,107 @@
+{
+ "page_url": "https://www.tiktok.com/@zatestilmogilev/video/7707251649089129736",
+ "captured_at": "2026-11-15T11:21:27.417Z",
+ "id": "7707251649089129736",
+ "desc": "В Могилёве стартовал Gastrofest.Крафт 🍱 УСЛОВИЯ В ИНСТАГРАМ! 📅Продлится с 12 по 29 ноября 💰Стоимость сетов фикс - 39 BYN  📍В Могилёве участвует 10 заведений ",
+ "createTime": "1794484367",
+ "createTimeISO": "2026-11-12T11:52:47.000Z",
+ "author": {
+  "uniqueId": "zatestilmogilev",
+  "nickname": "Zatestilmogilev"
+ },
+ "stats": {
+  "diggCount": 1827,
+  "shareCount": 1899,
+  "commentCount": 22,
+  "playCount": 90100,
+  "collectCount": "601"
+ },
+ "statsV2": {
+  "diggCount": "1827",
+  "shareCount": "1899",
+  "commentCount": "22",
+  "playCount": "90100",
+  "collectCount": "601",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7605791581388818459",
+  "title": "Afro Party Groove",
+  "authorName": "Gummy MusicLab",
+  "original": false,
+  "duration": 119
+ },
+ "challenges": [],
+ "textExtra": [],
+ "contents": [
+  "В Могилёве стартовал Gastrofest.Крафт 🍱",
+  "",
+  "УСЛОВИЯ В ИНСТАГРАМ!",
+  "",
+  "📅Продлится с 12 по 29 ноября",
+  "💰Стоимость сетов фикс - 39 BYN ",
+  "📍В Могилёве участвует 10 заведений "
+ ],
+ "stickersOnItem": [],
+ "locationCreated": "BY",
+ "textLanguage": "ru",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 37,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "2382107",
+  "variants": [
+   {
+    "gear": "adapt_lowest_1080_1",
+    "codec": "h265_hvc1",
+    "bitrate": 1027776,
+    "w": 1080,
+    "h": 1920,
+    "size": "4794192"
+   },
+   {
+    "gear": "adapt_lower_720_1",
+    "codec": "h265_hvc1",
+    "bitrate": 525842,
+    "w": 720,
+    "h": 1280,
+    "size": "2453975"
+   },
+   {
+    "gear": "lowest_540_0",
+    "codec": "h264",
+    "bitrate": 510442,
+    "w": 576,
+    "h": 1024,
+    "size": "2382107"
+   },
+   {
+    "gear": "adapt_540_1",
+    "codec": "h265_hvc1",
+    "bitrate": 428043,
+    "w": 576,
+    "h": 1024,
+    "size": "1997574"
+   }
+  ],
+  "subtitles": [
+   {
+    "lang": "rus-RU",
+    "format": "webvtt",
+    "source": "ASR",
+    "size": "1856"
+   }
+  ]
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "page_url": "https://www.tiktok.com/@amazonka_restobar/video/7153289059169750278",
+ "captured_at": "2026-11-15T11:22:21.396Z",
+ "id": "7153289059169750278",
+ "desc": "Бежим в «Амазонку»!!!",
+ "createTime": "1665504901",
+ "createTimeISO": "2022-10-11T16:15:01.000Z",
+ "author": {
+  "uniqueId": "amazonka_restobar",
+  "nickname": "Amazonkarestobar"
+ },
+ "stats": {
+  "diggCount": 6,
+  "shareCount": 0,
+  "commentCount": 0,
+  "playCount": 1487,
+  "collectCount": "0"
+ },
+ "statsV2": {
+  "diggCount": "6",
+  "shareCount": "0",
+  "commentCount": "0",
+  "playCount": "1487",
+  "collectCount": "0",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "6993025078556379137",
+  "title": "Bubbi Bjørne Dakke Dak",
+  "authorName": "Dak Radio",
+  "original": false,
+  "duration": 37
+ },
+ "challenges": [],
+ "textExtra": [],
+ "contents": [
+  "Бежим в «Амазонку»!!!"
+ ],
+ "stickersOnItem": [],
+ "locationCreated": "BY",
+ "textLanguage": "ru",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 5,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "1354591",
+  "variants": [
+   {
+    "gear": "normal_540_0",
+    "codec": "h264",
+    "bitrate": 1995346,
+    "w": 576,
+    "h": 1024,
+    "size": "1354591"
+   }
+  ],
+  "subtitles": []
+ }
+}

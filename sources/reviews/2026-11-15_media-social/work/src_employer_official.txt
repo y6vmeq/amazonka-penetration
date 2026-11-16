@@ -1,0 +1,143 @@
+## employer-001 | amazonka-mogilev | rabota.by | vacancy | 2025-09-22 | ООО АмазонкаГрупп | neutral | raw=raw/022_rabota-by_rabota-by-vacancy-125624939.html
+   URL: https://rabota.by/vacancy/125624939
+   N: Текст = видимая шапка вакансии (строки до знака «[…]») + описание из блока JSON-LD той же страницы (после знака «[…]»); эти части лежат в разных местах сырой копии, поэтому проверка даёт PARTIAL 100 %, а не OK. УНП работодателя на странице не указан; работодат
+## employer-002 | amazonka-mogilev | biznesmarket.by | other | 2026-08-08 | None | neutral | raw=raw/058_biznesmarket-by_biznesmarket-ekzoticheskiy-restobar-v-mogileve.html
+   URL: https://biznesmarket.by/Offer/ekzoticheskiy-restobar-v-mogileve
+   N: Объявление о продаже готового бизнеса. Вне основной области (работодатель); сохранено из-за фразы о штате и потому, что такие объявления снимают. Строки карточки перед текстом (дословно, валютный переключатель опущен): Экзотический рестобар в Могилеве | Экзоти
+## employer-003 | amazonka-mogilev | rabota.by | vacancy | 2025-09-06 | АмазонкаГрупп (как работодатель назван в выдаче) | neutral | raw=None
+   URL: https://rabota.by/vacancies/povar/smenniy_grafik
+   N: Источник текста — ответы инструмента веб-поиска (WebSearch) от 15.11.2026. Это пересказ поисковой выдачи, НЕ дословный текст страницы; формулировки могут быть искажены. Фрагменты из разных поисковых запросов разделены знаком «//». Должность: Повар (Могилёв). Т
+## employer-004 | amazonka-mogilev | gorodrabot.by | vacancy | None | АмазонкаГрупп (как работодатель назван в выдаче) | neutral | raw=None
+   URL: https://mogilev.gorodrabot.by/%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD
+   N: Источник текста — ответы инструмента веб-поиска (WebSearch) от 15.11.2026. Это пересказ поисковой выдачи, НЕ дословный текст страницы; формулировки могут быть искажены. Фрагменты из разных поисковых запросов разделены знаком «//». Должность: Повар ресторана (М
+## employer-005 | amazonka-mogilev | rabota.by | vacancy | None | АмазонкаГрупп (как работодатель назван в выдаче) | neutral | raw=None
+   URL: https://mogilev.rabota.by/vacancies/sotrudnik-restorana/bez_opyta_raboty
+   N: Источник текста — ответы инструмента веб-поиска (WebSearch) от 15.11.2026. Это пересказ поисковой выдачи, НЕ дословный текст страницы; формулировки могут быть искажены. Фрагменты из разных поисковых запросов разделены знаком «//». Должность: Администратор рест
+## employer-006 | amazonka-minsk | rabota.by | vacancy | None | АмазонкаГрупп (как работодатель назван в выдаче) | neutral | raw=None
+   URL: https://rabota.by/vacancies/upravlyayuschij-restoranom
+   N: Источник текста — ответы инструмента веб-поиска (WebSearch) от 15.11.2026. Это пересказ поисковой выдачи, НЕ дословный текст страницы; формулировки могут быть искажены. Фрагменты из разных поисковых запросов разделены знаком «//». Должность: Управляющий рестор
+## employer-007 | amazonka-minsk | gorodrabot.by | vacancy | None | АмазонкаГрупп (как работодатель назван в выдаче) | neutral | raw=None
+   URL: https://minsk.gorodrabot.by/%D1%85%D0%BE%D1%81%D1%82%D0%B5%D1%81_%D0%BD%D0%BE%D1%87%D1%8C?cp=%D0%BF%D1%80%D1%8F%D0%BC%D0%BE%D0%B9+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C
+   N: Источник текста — ответы инструмента веб-поиска (WebSearch) от 15.11.2026. Это пересказ поисковой выдачи, НЕ дословный текст страницы; формулировки могут быть искажены. Фрагменты из разных поисковых запросов разделены знаком «//». Должность: Хостес (Минск). Та
+## employer-008 | amazonka-minsk | gorodrabot.by | vacancy | None | АмазонкаГрупп (как работодатель назван в выдаче) | neutral | raw=None
+   URL: https://minsk.gorodrabot.by/%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BD%D1%82
+   N: Источник текста — ответы инструмента веб-поиска (WebSearch) от 15.11.2026. Это пересказ поисковой выдачи, НЕ дословный текст страницы; формулировки могут быть искажены. Фрагменты из разных поисковых запросов разделены знаком «//». Должность: Официант (Минск). 
+## employer-009 | amazonka-minsk | gorodrabot.by | vacancy | None | АмазонкаГрупп (как работодатель назван в выдаче) | neutral | raw=None
+   URL: https://minsk.gorodrabot.by/%D0%BF%D0%BE%D0%B2%D0%B0%D1%80
+   N: Источник текста — ответы инструмента веб-поиска (WebSearch) от 15.11.2026. Это пересказ поисковой выдачи, НЕ дословный текст страницы; формулировки могут быть искажены. Фрагменты из разных поисковых запросов разделены знаком «//». Должности: Повар-сушист (Минс
+## employer-011 | legal-entity | gsz.gov.by | official | None | Портал государственной службы занятости | neutral | raw=raw/090_gsz-gov-by_gsz-business-entity-615242-amazonkagrupp.html
+   URL: https://gsz.gov.by/directory/business-entity/615242/detail/public/
+   N: Карточка нанимателя на государственном портале: состояние на момент фиксации (15.11.2026). Прошлые заявки вакансий на портале не показаны, поэтому по карточке нельзя судить, подавались ли вакансии раньше. В справочнике нанимателей эта запись находится и по УНП
+## employer-013 | amazonka-mogilev | rabota.by | vacancy | 2026-04-20 | ООО АмазонкаГрупп | neutral | raw=raw/093_rabota-by_rabota-by-vacancy-132290894.html
+   URL: https://rabota.by/vacancy/132290894
+   N: Текст = видимая шапка вакансии (строки до знака «[…]») + описание из блока JSON-LD той же страницы (после знака «[…]»); эти части лежат в разных местах сырой копии, поэтому проверка даёт PARTIAL 100 %, а не OK. УНП работодателя на странице не указан; работодат
+## employer-014 | amazonka-mogilev | rabota.by | vacancy | 2026-05-17 | ООО АмазонкаГрупп | neutral | raw=raw/094_rabota-by_rabota-by-vacancy-133170666.html
+   URL: https://rabota.by/vacancy/133170666
+   N: Текст = видимая шапка вакансии (строки до знака «[…]») + описание из блока JSON-LD той же страницы (после знака «[…]»); эти части лежат в разных местах сырой копии, поэтому проверка даёт PARTIAL 100 %, а не OK. УНП работодателя на странице не указан; работодат
+## employer-015 | amazonka-minsk | rabota.by | vacancy | 2026-06-07 | ООО АмазонкаГрупп | neutral | raw=raw/095_rabota-by_rabota-by-vacancy-133937454.html
+   URL: https://rabota.by/vacancy/133937454
+   N: Текст = видимая шапка вакансии (строки до знака «[…]») + описание из блока JSON-LD той же страницы (после знака «[…]»); эти части лежат в разных местах сырой копии, поэтому проверка даёт PARTIAL 100 %, а не OK. УНП работодателя на странице не указан; работодат
+## employer-016 | amazonka-minsk | rabota.by | vacancy | 2026-06-07 | ООО АмазонкаГрупп | neutral | raw=raw/096_rabota-by_rabota-by-vacancy-133937493.html
+   URL: https://rabota.by/vacancy/133937493
+   N: Текст = видимая шапка вакансии (строки до знака «[…]») + описание из блока JSON-LD той же страницы (после знака «[…]»); эти части лежат в разных местах сырой копии, поэтому проверка даёт PARTIAL 100 %, а не OK. УНП работодателя на странице не указан; работодат
+## official-001 | legal-entity | grp.nalog.gov.by | official | None | None | neutral | raw=raw/001_grp-nalog-gov-by_mns-grp-json.json
+   URL: https://grp.nalog.gov.by/api/grp-public/data?unp=791349254&charset=UTF-8&type=json
+   N: Ответ открытого веб-сервиса МНС «Сведения из Государственного реестра плательщиков» (JSON, дословно, без внешних скобок). Поля: vunp — УНП; vnaimp и vnaimk — полное и краткое наименование; vpadres — место нахождения; dreg — дата постановки на учёт; nmns и vmns
+## official-002 | amazonka-mogilev | mcge.by | official | 2025-05-12 | Могилевский областной центр гигиены, эпидемиологии и общественного здоровья | negative | raw=raw/344_web-archive-org_wa-mcge-3891-retry3.html
+   URL: https://mcge.by/archives/3891
+   N: Строка таблицы из публикации «Информация по объектам торговли и общественного питания, в которых осуществлялась торговля товарами с истекшими сроками годности (хранения) за апрель месяц 2025 — Могилевский областной центр» (дата на странице: 12.05.2025); ячейки
+## official-003 | amazonka-mogilev | mogilev.gov.by | official | 2024-01-12 | Могилевский городской исполнительный комитет | neutral | raw=raw/147_mogilev-gov-by_mgik-torg-2024-01-zimovy-smak.html
+   URL: https://mogilev.gov.by/sections/ekonomika/trade/novosti-torgovli/o-provedenii-gorodskogo-gastrofestivalya-3imovy-smak
+   N: Объявление о городском гастрофестивале; «Амазонка» названа среди участников: кафе «Амазонка», ул. Ленинская, 38. Юрлицо не указано. В том же перечне по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44, он же ул. Ленинская, 44), названы другие объекты: б
+## official-004 | amazonka-mogilev | mogilev.gov.by | official | 2024-01-12 | Могилевский городской исполнительный комитет | neutral | raw=raw/126_mogilev-gov-by_mgik-news-2024-01-zimovy-smak.html
+   URL: https://mogilev.gov.by/news/obschestvo/mogilevchan-priglashayut-na-gorodskoj-gastrofestival-zimovy-smak/
+   N: Объявление о городском гастрофестивале; «Амазонка» названа среди участников: кафе «Амазонка» (ул. Ленинская, 38). Юрлицо не указано. В том же перечне по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44, он же ул. Ленинская, 44), названы другие объекты: 
+## official-005 | amazonka-mogilev | mogilev.gov.by | official | 2024-06-07 | Могилевский городской исполнительный комитет | neutral | raw=raw/128_mogilev-gov-by_mgik-news-2024-06-belorusskaya-kukhnya.html
+   URL: https://mogilev.gov.by/news/obschestvo/gorodskoj-festival-belorusskoj-kukhni-projdet-v-mogileve/
+   N: Объявление о городском гастрофестивале; «Амазонка» названа среди участников: кафе «Амазонка» (ул. Ленинская, 38). Юрлицо не указано. В том же перечне по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44, он же ул. Ленинская, 44), названы другие объекты: 
+## official-006 | amazonka-mogilev | mogilev.gov.by | official | 2024-10-04 | Могилевский городской исполнительный комитет | neutral | raw=raw/149_mogilev-gov-by_mgik-torg-2024-10-oktyabrfest.html
+   URL: https://mogilev.gov.by/sections/ekonomika/trade/novosti-torgovli/o-provedenii-gorodskogo-festivalya-natsionalnykh-blyud-i-piva-oktyabrfest
+   N: Объявление о городском гастрофестивале; «Амазонка» названа среди участников: бар «Амазонка», ул. Ленинская, д. 38. Юрлицо не указано. В том же перечне по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44, он же ул. Ленинская, 44), названы другие объекты:
+## official-007 | amazonka-mogilev | mogilev.gov.by | official | 2024-10-07 | Могилевский городской исполнительный комитет | neutral | raw=raw/130_mogilev-gov-by_mgik-news-2024-10-oktyabrfest.html
+   URL: https://mogilev.gov.by/news/obschestvo/v-mogileve-s-29-oktyabrya-po-10-noyabrya-provedut-gorodskoj-festival-oktyabrfest/
+   N: Объявление о городском гастрофестивале; «Амазонка» названа среди участников: кафе «Амазонка» (ул. Ленинская, 38). Юрлицо не указано. В том же перечне по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44, он же ул. Ленинская, 44), названы другие объекты: 
+## official-008 | amazonka-mogilev | mogilev.gov.by | official | 2025-01-22 | Могилевский городской исполнительный комитет | neutral | raw=raw/150_mogilev-gov-by_mgik-torg-2025-01-zimovy-smak-2.html
+   URL: https://mogilev.gov.by/sections/ekonomika/trade/novosti-torgovli/o-provedenii-gorodskogo-gorodskogo-gastrofestivalya-blyud-zimovy-smak-kukhnya-zamezhnykh-syabro
+   N: Объявление о городском гастрофестивале; «Амазонка» названа среди участников: кафе «Рестобар «Амазонка», ул. Ленинская, д. 38. Юрлицо не указано. В том же перечне по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44, он же ул. Ленинская, 44), названы друг
+## official-009 | amazonka-mogilev | mogilev.gov.by | official | 2025-01-22 | Могилевский городской исполнительный комитет | neutral | raw=raw/132_mogilev-gov-by_mgik-news-2025-01-zimovy-smak-2.html
+   URL: https://mogilev.gov.by/news/obschestvo/gorodskoy-gastrofestival-proydet-v-mogileve-s-28-yanvarya-po-9-fevralya-/
+   N: Объявление о городском гастрофестивале; «Амазонка» названа среди участников: кафе «Рестобар «Амазонка» (ул.Ленинская, 38). Юрлицо не указано. В том же перечне по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44, он же ул. Ленинская, 44), названы другие 
+## official-010 | amazonka-mogilev | mogilev.gov.by | official | 2025-06-06 | Могилевский городской исполнительный комитет | neutral | raw=raw/151_mogilev-gov-by_mgik-torg-2025-06-pachastunak.html
+   URL: https://mogilev.gov.by/sections/ekonomika/trade/novosti-torgovli/kulinarnyy-festival-pachastunak-pa-magile-ski-
+   N: Объявление о городском гастрофестивале; «Амазонка» названа среди участников: кафе «Рестобар «Амазонка», ул. Ленинская, д. 38. Юрлицо не указано. В том же перечне по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44, он же ул. Ленинская, 44), названы друг
+## official-011 | amazonka-mogilev | mogilev.gov.by | official | 2025-06-09 | Могилевский городской исполнительный комитет | neutral | raw=raw/134_mogilev-gov-by_mgik-news-2025-06-pachastunak.html
+   URL: https://mogilev.gov.by/news/obschestvo/-kulinarnyy-festival-pachastunak-pa-magile-ski-proydet-v-mogileve-s-24-iyunya-po-6-iyulya/
+   N: Объявление о городском гастрофестивале; «Амазонка» названа среди участников: кафе «Рестобар «Амазонка», ул. Ленинская, д. 38. Юрлицо не указано. В том же перечне по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44, он же ул. Ленинская, 44), названы друг
+## official-012 | amazonka-mogilev | mogilev.gov.by | official | 2026-03-05 | Могилевский городской исполнительный комитет | neutral | raw=raw/154_mogilev-gov-by_mgik-torg-2026-03-lepshy-gust.html
+   URL: https://mogilev.gov.by/sections/ekonomika/trade/novosti-torgovli/c-16-po-29-marta-v-oblastnom-tsentre-proydet-gorodskoy-gastrofestival-lepshy-gust-magilyeva
+   N: Объявление о городском гастрофестивале; «Амазонка» названа среди участников: кафе «Рестобар «Амазонка» (ул.Ленинская, 38). Юрлицо не указано. В том же перечне по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44, он же ул. Ленинская, 44), названы другие 
+## official-013 | amazonka-mogilev | mogilev.gov.by | official | 2026-03-05 | Могилевский городской исполнительный комитет | neutral | raw=raw/139_mogilev-gov-by_mgik-news-2026-03-lepshy-gust.html
+   URL: https://mogilev.gov.by/news/ekonomika-i-proizvodstvo/c-16-po-29-marta-v-oblastnom-tsentre-proydet-gorodskoy-gastrofestival-lepshy-gust-magilyeva-/
+   N: Объявление о городском гастрофестивале; «Амазонка» названа среди участников: кафе «Рестобар «Амазонка» (ул.Ленинская, 38). Юрлицо не указано. В том же перечне по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44, он же ул. Ленинская, 44), названы другие 
+## official-014 | amazonka-mogilev | mogilev.gov.by | official | 2026-06-09 | Могилевский городской исполнительный комитет | neutral | raw=raw/140_mogilev-gov-by_mgik-news-2026-06-vkus-leta.html
+   URL: https://mogilev.gov.by/news/obschestvo/gastrofestival-vkus-leta-proydet-v-mogileve-s-22-iyunya-po-5-iyulya/
+   N: Объявление о городском гастрофестивале; «Амазонка» названа среди участников: «Рестобар «Амазонка» (ул.Ленинская, 38). Юрлицо не указано. В том же перечне по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44, он же ул. Ленинская, 44), названы другие объек
+## official-015 | amazonka-mogilev | mogilev.gov.by | official | 2026-09-16 | Могилевский городской исполнительный комитет | neutral | raw=raw/141_mogilev-gov-by_mgik-news-2026-09-bulba-fest.html
+   URL: https://mogilev.gov.by/news/aktualnoe/gorodskoy-gastrofestival-bulba-fest-proydet-v-mogileve-s-20-sentyabrya-po-4-oktyabrya/
+   N: Объявление о городском гастрофестивале; «Амазонка» названа среди участников: «Рестобар «Амазонка» (ул.Ленинская, 38). Юрлицо не указано. В том же перечне по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44, он же ул. Ленинская, 44), названы другие объек
+## official-016 | smak-by | mogilev.gov.by | official | 2023-10-19 | Могилевский городской исполнительный комитет | neutral | raw=raw/153_mogilev-gov-by_mgik-torg-oktyabrfest-2.html
+   URL: https://mogilev.gov.by/sections/ekonomika/trade/novosti-torgovli/o-provedenii-vtorogo-gorodskogo-festivalya-natsionalnykh-blyud-i-piva-oktyabrfest
+   N: Запись по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44). «Смак.BY» и «Амазонка» в публикации не названы. По этому адресу названы: бар «Карчма на Шклоўскiм базары» и кафе «Рестобар «Колетт». Связь этих объектов со «Смак.BY» не установлена. Текст публ
+## official-017 | smak-by | mogilev.gov.by | official | 2025-10-13 | Могилевский городской исполнительный комитет | neutral | raw=raw/152_mogilev-gov-by_mgik-torg-mogilev-pro-osen.html
+   URL: https://mogilev.gov.by/sections/ekonomika/trade/novosti-torgovli/o-provedenii-gorodskogo-kulinarnogo-festivalya-mogilev-pro-osen
+   N: Запись по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44). «Смак.BY» и «Амазонка» в публикации не названы. По этому адресу названы: бар «Карчма на Шклоўскiм базары» и кафе «Рестобар «Колетт». Связь этих объектов со «Смак.BY» не установлена. Текст публ
+## official-018 | smak-by | mogilev.gov.by | official | 2025-10-14 | Могилевский городской исполнительный комитет | neutral | raw=raw/136_mogilev-gov-by_mgik-news-mogilev-pro-osen.html
+   URL: https://mogilev.gov.by/news/obschestvo/gorodskoy-kulinarnyy-festival-mogilev-pro-osen-proydet-v-oblastnom-tsentre-s-20-oktyabrya-po-2-noyab/
+   N: Запись по адресу, заявленному для «Смак.BY» (ул. Буденного, 13/44). «Смак.BY» и «Амазонка» в публикации не названы. По этому адресу названы: бар «Карчма на Шклоўскiм базары» и кафе «Рестобар «Колетт». Связь этих объектов со «Смак.BY» не установлена. Текст публ
+## official-019 | amazonka-mogilev | mogilev.gov.by | official | 2024-06-07 | Могилевский городской исполнительный комитет | neutral | raw=raw/105_mogilev-gov-by_mgik-search-amazonka-p2.html
+   URL: https://mogilev.gov.by/sections/ekonomika/trade/novosti-torgovli/o-provedenii-gorodskogo-festivalya-belorusskoj-kukhni
+   N: Публикация «О проведении городского фестиваля белорусской кухни» (раздел управления торговли и услуг). На самой странице публикации (raw/148_mogilev-gov-by_mgik-torg-2024-06-belorusskaya-kukhnya.html, дата 07.06.2024) виден только заключительный абзац, перечня
+## official-020 | amazonka-mogilev | lenadm-mogilev.gov.by | official | 2024-01-15 | Администрация Ленинского района г. Могилева | neutral | raw=raw/172_lenadm-mogilev-gov-by_lenadm-news-2024-01-zimovy-smak.html
+   URL: https://lenadm-mogilev.gov.by/newsregion/36322-mogilevchan-priglashayut-na-gorodskoj-gastrofestival-zimovy-smak
+   N: Заголовок: «Могилевчан приглашают на городской гастрофестиваль «Зімовы смак»» (раздел «Новости региона»; на странице между заголовком и текстом стоит дата 2024-01-15). Перепечатка объявления горисполкома о гастрофестивале; «Амазонка» названа среди участников: 
+## official-021 | amazonka-mogilev | lenadm-mogilev.gov.by | official | 2024-06-10 | Администрация Ленинского района г. Могилева | neutral | raw=raw/173_lenadm-mogilev-gov-by_lenadm-news-2024-06-belorusskaya-kukhnya.html
+   URL: https://lenadm-mogilev.gov.by/newsregion/38017-gorodskoj-festival-belorusskoj-kukhni-projdet-v-mogileve
+   N: Заголовок: «Городской фестиваль белорусской кухни пройдет в Могилеве» (раздел «Новости региона»; на странице между заголовком и текстом стоит дата 2024-06-10). Перепечатка объявления горисполкома о гастрофестивале; «Амазонка» названа среди участников: кафе «Ам
+## official-022 | amazonka-mogilev | lenadm-mogilev.gov.by | official | 2025-01-23 | Администрация Ленинского района г. Могилева | neutral | raw=raw/174_lenadm-mogilev-gov-by_lenadm-news-2025-01-zimovy-smak-2.html
+   URL: https://lenadm-mogilev.gov.by/newsregion/40681-gorodskoj-gastrofestival-projdet-v-mogileve-s-28-yanvarya-po-9-fevralya
+   N: Заголовок: «Городской гастрофестиваль пройдет в Могилеве с 28 января по 9 февраля» (раздел «Новости региона»; на странице между заголовком и текстом стоит дата 2025-01-23). Перепечатка объявления горисполкома о гастрофестивале; «Амазонка» названа среди участни
+## official-023 | amazonka-mogilev | lenadm-mogilev.gov.by | official | 2026-09-17 | Администрация Ленинского района г. Могилева | neutral | raw=raw/175_lenadm-mogilev-gov-by_lenadm-news-2026-09-bulba-fest.html
+   URL: https://lenadm-mogilev.gov.by/newsregion/47158-gorodskoj-gastrofestival-bulba-fest-projdet-v-mogileve-s-20-sentyabrya-po-4-oktyabrya
+   N: Заголовок: «Городской гастрофестиваль «Бульба-фэст» пройдет в Могилеве с 20 сентября по 4 октября» (раздел «Новости региона»; на странице между заголовком и текстом стоит дата 2026-09-17). Перепечатка объявления горисполкома о гастрофестивале; «Амазонка» назва
+## official-024 | smak-by | mzcge.by | official | 2023-03-31 | УЗ «Могилевский зональный центр гигиены и эпидемиологии» | neutral | raw=raw/058_mzcge-by_mzcge-monitoring-plan-2023-04.pdf
+   URL: https://mzcge.by/_files/news/infoknd/31032023.pdf
+   N: Документ: «План-график мониторингов на апрель 2023» УЗ «Могилевский зональный центр гигиены и эпидемиологии» (раздел сайта «Контрольная (надзорная) деятельность»). Строка плана: субъект, дата мониторинга, вопросы. Запись по адресу, заявленному для «Смак.BY» (Б
+## official-025 | smak-by | mzcge.by | official | 2025-07-31 | УЗ «Могилевский зональный центр гигиены и эпидемиологии» | neutral | raw=raw/031_mzcge-by_mzcge-monitoring-plan-2025-08.pdf
+   URL: https://mzcge.by/_files/news/infoknd/31072025.pdf
+   N: Документ: «План-график мониторингов на август 2025 год» УЗ «Могилевский зональный центр гигиены и эпидемиологии» (раздел сайта «Контрольная (надзорная) деятельность»). Строка плана: субъект, дата мониторинга, вопросы. Запись по адресу, заявленному для «Смак.BY
+## official-026 | smak-by | mzcge.by | official | 2026-07-31 | УЗ «Могилевский зональный центр гигиены и эпидемиологии» | neutral | raw=raw/019_mzcge-by_mzcge-monitoring-plan-2026-08.pdf
+   URL: https://mzcge.by/_files/news/infoknd/03082026.pdf
+   N: Документ: «План-график мониторингов на август 2026 год» УЗ «Могилевский зональный центр гигиены и эпидемиологии» (раздел сайта «Контрольная (надзорная) деятельность»). Строка плана: субъект, дата мониторинга, вопросы. Запись по адресу, заявленному для «Смак.BY
+## official-027 | smak-by | mzcge.by | official | 2026-08-31 | УЗ «Могилевский зональный центр гигиены и эпидемиологии» | neutral | raw=raw/018_mzcge-by_mzcge-monitoring-plan-2026-09.pdf
+   URL: https://mzcge.by/_files/news/infoknd/31082026.pdf
+   N: Документ: «План-график мониторингов на сентябрь 2026 год» УЗ «Могилевский зональный центр гигиены и эпидемиологии» (раздел сайта «Контрольная (надзорная) деятельность»). Строка плана: субъект, дата мониторинга, вопросы. Запись по адресу, заявленному для «Смак.
+   URL: https://mzcge.by/_files/news/infoknd/28022025.pdf
+## official-029 | smak-by | mogilev.gov.by | official | 2026-10-26 | Могилевский городской исполнительный комитет | neutral | raw=raw/142_mogilev-gov-by_mgik-turizm-obekty-obshchepita.html
+   URL: https://mogilev.gov.by/sections/sotsialnaya-sfera/sport-i-turizm/678-tur-potentsial-mogilev/obekty-obshchestvennogo-pitaniya/index.php
+   N: Таблица «Объекты общественного питания для организации питания туристических групп в г. Могилеве», строки 3 и 4 (столбцы: №; категория, название; место расположения, телефон, сайт, наличие парковки; время работы; количество посадочных мест; специализация). Зап
+## official-030 | smak-by | mogilev.gov.by | official | 2025-07-28 | Могилевский городской исполнительный комитет | neutral | raw=raw/108_mogilev-gov-by_mgik-search-budennogo-13-quoted.html
+   URL: https://mogilev.gov.by/zemelnye_uchastki_auktsiony_tendery/lists-perech/21082-spisok-chastei-ploskostny-kh-sooruzhenii-s-pokry-tiem-rasp-na-zemliakh-obshch-pol-z-ia-k-y-e-mogut-predostavliat-sia-v-arendu-dlia-razmeshcheniia-spetcoborudovanny-kh-konst-ii-kioskov-pav-v-i-dr-dlia-osushch-melkorozn-torg-okaz-uslug-i-iny-kh-tcelei
+   N: Публикация «Перечень мест размещения нестационарных торговых объектов на территории города Могилева». Адрес из выдачи поиска по сайту при прямом открытии отдаёт 404 (raw/143_mogilev-gov-by_mgik-perechen-nto.html), новый адрес страницы не найден. Текст записи —
+## official-031 | amazonka-mogilev | mogilev.gov.by | official | 2023-07-04 | Министерство культуры Республики Беларусь | neutral | raw=raw/342_mogilev-gov-by_mgik-minkult-2023-07-04-n92-zony-ohrany.pdf
+   URL: https://mogilev.gov.by/downloads/culture/hist/protection-zones-projects/20230704_92.pdf
+   N: Документ: постановление Министерства культуры Республики Беларусь от 4 июля 2023 г. № 92 «Аб зацвярджэнні праекта зон аховы нерухомай матэрыяльнай гісторыка-культурнай каштоўнасці «Гістарычны цэнтр г. Магілёва» і нерухомых матэрыяльных гісторыка-культурных каш
+## official-032 | smak-by | mogilev.gov.by | official | 2023-07-04 | Министерство культуры Республики Беларусь | neutral | raw=raw/342_mogilev-gov-by_mgik-minkult-2023-07-04-n92-zony-ohrany.pdf
+   URL: https://mogilev.gov.by/downloads/culture/hist/protection-zones-projects/20230704_92.pdf
+   N: Документ: постановление Министерства культуры Республики Беларусь от 4 июля 2023 г. № 92 «Аб зацвярджэнні праекта зон аховы нерухомай матэрыяльнай гісторыка-культурнай каштоўнасці «Гістарычны цэнтр г. Магілёва» і нерухомых матэрыяльных гісторыка-культурных каш
+   N: Ответ открытого веб-сервиса МНС «Сведения из Государственного реестра плательщиков» (JSON, дословно, без внешних скобок). Поля: vunp — УНП; vnaimp и vnaimk — полное и краткое наименование; vpadres — место нахождения; dreg — дата постановки на учёт; nmns и vmns
+## official-034 | smak-by | grp.nalog.gov.by | official | None | None | neutral | raw=raw/353_grp-nalog-gov-by_mns-grp-json-790368798.json
+   URL: https://grp.nalog.gov.by/api/grp-public/data?unp=790368798&charset=UTF-8&type=json
+   N: Ответ открытого веб-сервиса МНС «Сведения из Государственного реестра плательщиков» (JSON, дословно, без внешних скобок). Поля: vunp — УНП; vnaimp и vnaimk — полное и краткое наименование; vpadres — место нахождения; dreg — дата постановки на учёт; nmns и vmns
+## official-035 | amazonka-mogilev | krasnopolie.cge.by | official | 2024 | Краснопольский райЦГЭ | negative | raw=None
+   URL: https://krasnopolie.cge.by/%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0%D0%BC-%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%BB%D0%B8-%D0%B8-%D0%BE%D0%B1%D1%89-6/
+   N: Сведения сообщил координатор со ссылкой на выдачу поисковика у другого агента; мои запросы WebSearch этот фрагмент не воспроизвели. Страница (в читаемом виде: krasnopolie.cge.by/информация-по-объектам-торговли-и-общ-6/) с этого компьютера не открывается: fetch

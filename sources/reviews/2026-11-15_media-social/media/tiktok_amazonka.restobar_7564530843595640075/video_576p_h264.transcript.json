@@ -1,0 +1,28 @@
+{
+ "file": "video_576p_h264.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.4982839822769165,
+ "duration": 15.6284375,
+ "segments": [
+  {
+   "start": 0.78,
+   "end": 0.94,
+   "text": "Thank you.",
+   "words": [
+    {
+     "start": 0.78,
+     "end": 0.78,
+     "word": " Thank",
+     "p": 0.15173375606536865
+    },
+    {
+     "start": 0.78,
+     "end": 0.94,
+     "word": " you.",
+     "p": 0.9982289671897888
+    }
+   ]
+  }
+ ]
+}

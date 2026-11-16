@@ -1,0 +1,100 @@
+{
+ "page_url": "https://www.tiktok.com/@padi.beauty/video/7205690457219763461",
+ "captured_at": "2026-11-15T11:21:03.584Z",
+ "id": "7205690457219763461",
+ "desc": "@Amazonkarestobar #mogilev #могилев #рестобармогилев ",
+ "createTime": "1677705551",
+ "createTimeISO": "2023-03-01T21:19:11.000Z",
+ "author": {
+  "uniqueId": "padi.beauty",
+  "nickname": "Padi.beauty"
+ },
+ "stats": {
+  "diggCount": 22,
+  "shareCount": 0,
+  "commentCount": 2,
+  "playCount": 210,
+  "collectCount": "1"
+ },
+ "statsV2": {
+  "diggCount": "22",
+  "shareCount": "0",
+  "commentCount": "2",
+  "playCount": "210",
+  "collectCount": "1",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7179158306500397826",
+  "title": "оригинальный звук",
+  "authorName": "A.v.g",
+  "original": true,
+  "duration": 24
+ },
+ "challenges": [
+  "mogilev",
+  "могилев",
+  "рестобармогилев"
+ ],
+ "textExtra": [
+  {
+   "hashtag": null,
+   "user": "amazonka_restobar"
+  },
+  {
+   "hashtag": "mogilev",
+   "user": null
+  },
+  {
+   "hashtag": "могилев",
+   "user": null
+  },
+  {
+   "hashtag": "рестобармогилев",
+   "user": null
+  }
+ ],
+ "contents": [
+  "@Amazonkarestobar #mogilev #могилев #рестобармогилев "
+ ],
+ "stickersOnItem": [
+  {
+   "stickerText": [
+    "В Могилёве нет кафе с котиками ",
+    "Но зато есть…. ",
+    "рестобар со змеей 🐍"
+   ],
+   "stickerType": 4
+  }
+ ],
+ "locationCreated": "BY",
+ "textLanguage": "un",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 18,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "2727591",
+  "variants": [
+   {
+    "gear": "normal_540_0",
+    "codec": "h264",
+    "bitrate": 1151671,
+    "w": 576,
+    "h": 1024,
+    "size": "2727591"
+   }
+  ],
+  "subtitles": []
+ }
+}

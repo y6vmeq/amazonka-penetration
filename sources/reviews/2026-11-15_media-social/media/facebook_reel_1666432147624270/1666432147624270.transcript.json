@@ -1,0 +1,34 @@
+{
+ "file": "1666432147624270.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.28801438212394714,
+ "duration": 70.031375,
+ "segments": [
+  {
+   "start": 53.46,
+   "end": 54.12,
+   "text": "God's a God.",
+   "words": [
+    {
+     "start": 53.46,
+     "end": 53.82,
+     "word": " God's",
+     "p": 0.7653821706771851
+    },
+    {
+     "start": 53.82,
+     "end": 53.94,
+     "word": " a",
+     "p": 0.6417191028594971
+    },
+    {
+     "start": 53.94,
+     "end": 54.12,
+     "word": " God.",
+     "p": 0.792489230632782
+    }
+   ]
+  }
+ ]
+}

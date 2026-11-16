@@ -1,0 +1,135 @@
+{
+ "page_url": "https://www.tiktok.com/@amazonka.restobar.minsk/video/7693988152981196065",
+ "captured_at": "2026-11-15T11:22:15.627Z",
+ "id": "7693988152981196065",
+ "desc": "РЕСТОБАР АМАЗОНКА В МИНСКЕ!  Обзяательно приходите попробовать наше необычное меню и познакомится с шикарными рептилиями!  Бронь-inst:amazonka_restobar_minsk Ул. Карла Маркса 21 #Минск #рестобар #рептилии #кудасходитьвминске #амазонка ",
+ "createTime": "1791396217",
+ "createTimeISO": "2026-10-07T18:03:37.000Z",
+ "author": {
+  "uniqueId": "amazonka.restobar.minsk",
+  "nickname": "AMAZONKA"
+ },
+ "stats": {
+  "diggCount": 6,
+  "shareCount": 0,
+  "commentCount": 2,
+  "playCount": 34,
+  "collectCount": "0"
+ },
+ "statsV2": {
+  "diggCount": "6",
+  "shareCount": "0",
+  "commentCount": "2",
+  "playCount": "34",
+  "collectCount": "0",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7680219156586842896",
+  "title": "оригинальный звук",
+  "authorName": "voskresenskii",
+  "original": true,
+  "duration": 17
+ },
+ "challenges": [
+  "минск",
+  "рестобар",
+  "рептилии",
+  "кудасходитьвминске",
+  "амазонка"
+ ],
+ "textExtra": [
+  {
+   "hashtag": "минск",
+   "user": null
+  },
+  {
+   "hashtag": "рестобар",
+   "user": null
+  },
+  {
+   "hashtag": "рептилии",
+   "user": null
+  },
+  {
+   "hashtag": "кудасходитьвминске",
+   "user": null
+  },
+  {
+   "hashtag": "амазонка",
+   "user": null
+  }
+ ],
+ "contents": [
+  "РЕСТОБАР АМАЗОНКА В МИНСКЕ! ",
+  "Обзяательно приходите попробовать наше необычное меню и познакомится с шикарными рептилиями! ",
+  "Бронь-inst:amazonka_restobar_minsk",
+  "Ул. Карла Маркса 21",
+  "#Минск #рестобар #рептилии #кудасходитьвминске #амазонка "
+ ],
+ "stickersOnItem": [
+  {
+   "stickerText": [
+    "Гость:\nУ вас прекрасное меню, \nно вы меня не удивили.\n",
+    "То, чем мы действительно \nУДИВЛЯЕМ"
+   ],
+   "stickerType": 4
+  }
+ ],
+ "locationCreated": "BY",
+ "textLanguage": "ru",
+ "isAd": false,
+ "poi": {
+  "name": "Centraĺny Rajon",
+  "address": "g. Minsk, Belarus",
+  "city": "",
+  "province": "",
+  "country": "",
+  "id": "22535796494231461",
+  "fatherPoiId": "",
+  "fatherPoiName": "",
+  "type": 0,
+  "category": "Место и адрес",
+  "cityCode": "8248298",
+  "countryCode": "630336",
+  "ttTypeCode": "19a3a6",
+  "typeCode": "",
+  "ttTypeNameTiny": "Другие места",
+  "ttTypeNameMedium": "Места",
+  "ttTypeNameSuper": "Место и адрес"
+ },
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 12,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "1240406",
+  "variants": [
+   {
+    "gear": "normal_540_0",
+    "codec": "h264",
+    "bitrate": 800261,
+    "w": 576,
+    "h": 1024,
+    "size": "1240406"
+   },
+   {
+    "gear": "lowest_540_0",
+    "codec": "h264",
+    "bitrate": 336962,
+    "w": 576,
+    "h": 1024,
+    "size": "522292"
+   }
+  ],
+  "subtitles": []
+ }
+}

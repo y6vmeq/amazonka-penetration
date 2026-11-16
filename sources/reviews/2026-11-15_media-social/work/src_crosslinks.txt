@@ -1,0 +1,92 @@
+## crosslinks-001 | amazonka-mogilev | b4y.by | other | 2026-08-28 | None | neutral | raw=raw/085_b4y-by_b4y-ekzoticheskiy-restobar-prodazha.html
+   URL: https://b4y.by/product/21181
+   N: Объявление о продаже бизнеса; текст заведения о себе. В шапке объявления: «Экзотический рестобар в Могилеве», «Премиум», «113 м2», «390 338 BYN»; «Контакты продавца: Беларусь, Могилевская обл., Могилев, Ленинская, 38, +375(29)658-99-69». Тема sanitary поставле
+## crosslinks-002 | amazonka-mogilev | biznesmarket.by | other | 2026-08-08 | None | neutral | raw=raw/086_biznesmarket-by_biznesmarket-ekzoticheskiy-restobar.html
+   URL: https://biznesmarket.by/Offer/ekzoticheskiy-restobar-v-mogileve
+   N: Объявление о продаже бизнеса; текст заведения о себе. В шапке объявления: «Экзотический рестобар в Могилеве», «Премиум», «113 м2», «390 338 BYN»; «Контакты продавца: Беларусь, Могилевская обл., Могилев, Ленинская, 38, +375(29)658-99-69». Тема sanitary поставле
+## crosslinks-003 | unclear | biztorg.by | other | 2026-07-28 | None | neutral | raw=raw/088_biztorg-by_biztorg-trenazhernyy-zal-kafe.html
+   URL: https://biztorg.by/item/trenazhernyy-zal-kafe-v-mogileve
+   N: Почему unclear: с «Амазонкой» это объявление связывает только телефон продавца +375(29)658-99-69 — тот же, что в объявлении о продаже «Амазонки» (crosslinks-001). Чей это номер (собственника или посредника), в источнике не видно. В шапке: «Тренажерный зал + ка
+## crosslinks-004 | amazonka-mogilev | komkur.info | article | 2024-12-12 | Ирина ПОЛОВИКОВА | neutral | raw=raw/060_komkur-info_komkur-amazonka-gekkon.html
+   URL: https://komkur.info/money/v-mogilevskom-restobare-amazonka-mozhno-poderzhat-v-rukakh-gekkona-sest-sup-s-osminozhkami-i-zakazat-rimskuyu-pitstsu/
+   N: Рекламно-обзорная статья, рубрика «Что Где Почем»; заголовок: «В могилевском рестобаре «Амазонка» можно подержать в руках геккона, съесть суп с осьминожками и заказать римскую пиццу». Записана ради фактов, которые заведение сообщает о себе: вместимость («до 20
+## crosslinks-005 | amazonka-mogilev | telegram | post | 2024-12-24 | МогилевОнлайн | neutral | raw=raw/064_t-me_tg-mogilevonline-q-amazonka.html
+   URL: https://t.me/mogilevonline/101680
+   M: https://t.me/mogilevonline/101680?single (фото)
+   M: https://t.me/mogilevonline/101681?single (фото)
+   M: https://t.me/mogilevonline/101682?single (фото)
+   M: https://t.me/mogilevonline/101683?single (фото)
+   M: https://t.me/mogilevonline/101684?single (фото)
+   M: https://t.me/mogilevonline/101685?single (фото)
+   M: https://t.me/mogilevonline/101686?single (фото)
+   M: https://t.me/mogilevonline/101687?single (фото)
+   M: https://t.me/mogilevonline/101688?single (фото)
+   M: https://t.me/mogilevonline/101689?single (фото)
+   N: Пост городского портала, тон доброжелательный. Записан ради фактов о животных в зале: «Живут прямо в заведении», «хомячок, который предназначался змее на обед». Полная статья на mogilev.online не получена: домен не отвечает.
+## crosslinks-006 | amazonka-mogilev | tiktok | video | 2026-06-23 | promogilev24 | neutral | raw=raw/101_www-tiktok-com_tiktok-embed-tag-amazonkamogilev.html
+   URL: https://www.tiktok.com/@promogilev24/video/7654581352817331476
+   M: https://www.tiktok.com/@promogilev24/video/7654581352817331476 (видео, не скачивалось)
+   N: Подпись к видео. Реклама: в конце стоит пометка рекламодателя «ООО "АмазонкаГрупп", 791349254». Дата на embed-странице не показана; 23.06.2026 16:25 по Минску получено из идентификатора видео. Записана ради фактов: «Живой уголок внутри», названия животных — ка
+## crosslinks-007 | amazonka-minsk | tiktok | video | 2026-10-07 | amazonka.restobar.minsk | neutral | raw=raw/095_www-tiktok-com_tiktok-embed-amazonka-restobar-minsk.html
+   URL: https://www.tiktok.com/@amazonka.restobar.minsk/video/7693988152981196065
+   M: https://www.tiktok.com/@amazonka.restobar.minsk/video/7693988152981196065 (видео, не скачивалось)
+   N: Подпись к единственному видео аккаунта «AMAZONKA». Дата 07.10.2026 21:03 по Минску получена из идентификатора видео. Назван Instagram для брони: amazonka_restobar_minsk. Просмотров 34.
+   N: Сведения о продавце на странице «Информация о [исключено]». Юрлицо другое, не ООО «АмазонкаГрупп».
+## crosslinks-010 | amazonka-mogilev | tiktok | other | None | amazonka_restobar | neutral | raw=raw/091_www-tiktok-com_tiktok-embed-amazonka-restobar-underscore.html
+   URL: https://www.tiktok.com/@amazonka_restobar
+   N: Описание профиля «Amazonkarestobar». Аккаунт создан около 06.10.2022 (по идентификатору), видео с 11.10.2022 по 14.02.2023 — раньше регистрации ООО «АмазонкаГрупп» (05.10.2023). Принадлежит ли аккаунт заведению, в источнике прямо не сказано.
+## crosslinks-011 | amazonka-mogilev | tiktok | other | None | amazonka.restobar | neutral | raw=raw/090_www-tiktok-com_tiktok-embed-amazonka-restobar.html
+   URL: https://www.tiktok.com/@amazonka.restobar
+   N: Описание профиля «Amazonka.mogilev»; в подписях к видео — «📍Ленинская, 38». О животных: «с экзотикой🦎».
+## crosslinks-012 | amazonka-mogilev | olo.by | other | None | None | neutral | raw=raw/058_olo-by_olo-amazonka.html
+   URL: https://olo.by/mogilev/restorany/amazonka-2844
+   N: Описание карточки «Амазонка» в каталоге (из метаданных страницы). На 15.11.2026 на странице надпись «Объявление неактивно». Кто автор описания — заведение или каталог, — не видно.
+## crosslinks-013 | smak-by | mycity.by | article | 2026-11-06 | None | neutral | raw=raw/001_mycity-by_mycity-gastrofest-craft.html
+   URL: https://mycity.by/news/obshchestvo/14369-respublikanskij-festival-gastrofest-craft-projdet-v-mogileve-uznali-chto-v-menyu
+   N: Фрагмент статьи городского портала «Республиканский фестиваль Gastrofest.Craft пройдет в Могилеве. Узнали, что в меню». «Смак.BY» назван среди участников без оговорки о том, что заведение не открыто и работает только на самовывоз. Слова «самовывоз» в статье не
+## crosslinks-014 | smak-by | telegram | post | 2026-11-12 | Могилёв - мой город! | neutral | raw=raw/045_t-me_tg-moymogilev-q-smak-by.html
+   URL: https://t.me/moymogilev/66759
+   N: Пост городского канала (23,2 тыс. подписчиков) о старте фестиваля. В списке участников — «Смак. BY», «Рестобар Амазонка» и «Ресторан-бар [исключено]». Оговорки о том, что «Смак.BY» не открыт, нет.
+## crosslinks-015 | smak-by | tiktok | video | 2026-11-05 | koroche_mogilev | neutral | raw=raw/096_www-tiktok-com_tiktok-embed-koroche-mogilev.html
+   URL: https://www.tiktok.com/@koroche_mogilev/video/7704715341372411157
+   M: https://www.tiktok.com/@koroche_mogilev/video/7704715341372411157 (видео, не скачивалось)
+   N: Подпись к видео аккаунта «КОРОЧЕ|ОБЗОРЫ|МОГИЛЕВ» (30,5 тыс. подписчиков). Дата 05.11.2026 18:50 по Минску получена из идентификатора видео. В списке участников — «Смак. BY ул. Буденного, 13/44», «Рестобар Амазонка», «Ресторан-бар [исключено]». Просмотров 28 700.
+## crosslinks-016 | amazonka-mogilev | komkur.info | article | 2024-11-29 | Елена ПАСКИР | mixed | raw=raw/153_komkur-info_komkur-gastrofest-sup-v-amazonke.html
+   URL: https://komkur.info/money/gastrofest-v-mogileve-sup-v-amazonke-na-lyubitelya
+   N: Обзор журналиста, заголовок: ««Гастрофест» в Могилеве: суп в «Амазонке» – на любителя». Претензии: «попавшейся куриной косточкой» в рисе, суп и баклажаны не понравились; обслуживание и десерт автор хвалит. Факты для дела: «можно не только посмотреть, но и поде
+## crosslinks-017 | amazonka-mogilev | restaurantguru.ru | review | None | Анна | negative | raw=raw/155_restaurantguru-ru_restaurantguru-amazonka-restobar-mogilev.html
+   URL: https://restaurantguru.ru/Amazonka-Restobar-Mogilev#comment-1625430
+   N: Отзыв со страницы каталога Restaurant Guru (на странице показаны 3 полных отзыва из 426; общий счёт каталога — 532 оценки, Google 3.7/5 (153), Yandex 4.3/5 (376)). Остальные отзывы — область агента aggregators. Тот же текст, что в отзыве на just-eat.by от 19.0
+## crosslinks-018 | amazonka-mogilev | restaurantguru.ru | review | None | Александр | negative | raw=raw/155_restaurantguru-ru_restaurantguru-amazonka-restobar-mogilev.html
+   URL: https://restaurantguru.ru/Amazonka-Restobar-Mogilev#comment-1327373
+   N: Отзыв со страницы каталога Restaurant Guru (на странице показаны 3 полных отзыва из 426; общий счёт каталога — 532 оценки, Google 3.7/5 (153), Yandex 4.3/5 (376)). Остальные отзывы — область агента aggregators.
+## crosslinks-019 | amazonka-mogilev | restaurantguru.ru | review | None | Роман | negative | raw=raw/155_restaurantguru-ru_restaurantguru-amazonka-restobar-mogilev.html
+   URL: https://restaurantguru.ru/Amazonka-Restobar-Mogilev#comment-1249520
+   N: Отзыв со страницы каталога Restaurant Guru (на странице показаны 3 полных отзыва из 426; общий счёт каталога — 532 оценки, Google 3.7/5 (153), Yandex 4.3/5 (376)). Остальные отзывы — область агента aggregators. Оценка в записи не указана: в разметке страницы у
+## crosslinks-020 | amazonka-mogilev | restaurantguru.ru | review | None | None | negative | raw=raw/155_restaurantguru-ru_restaurantguru-amazonka-restobar-mogilev.html
+   URL: https://restaurantguru.ru/Amazonka-Restobar-Mogilev
+   N: ОБРЫВОК отзыва (номер в каталоге 17656984) из блока «Часто упоминается в отзывах»: каталог показывает только часть текста с многоточиями, автор и оценка не показаны. Текст взят из сырой копии (атрибут data-txt), но внутри него стоит разметка выделения ключевог
+## crosslinks-021 | amazonka-mogilev | restaurantguru.ru | review | None | None | negative | raw=raw/155_restaurantguru-ru_restaurantguru-amazonka-restobar-mogilev.html
+   URL: https://restaurantguru.ru/Amazonka-Restobar-Mogilev
+   N: ОБРЫВОК отзыва (номер в каталоге 1514452) из блока «Часто упоминается в отзывах»: каталог показывает только часть текста с многоточиями, автор и оценка не показаны. Текст взят из сырой копии (атрибут data-txt), но внутри него стоит разметка выделения ключевого
+## crosslinks-022 | amazonka-mogilev | restaurantguru.ru | review | None | None | negative | raw=raw/155_restaurantguru-ru_restaurantguru-amazonka-restobar-mogilev.html
+   URL: https://restaurantguru.ru/Amazonka-Restobar-Mogilev
+   N: ОБРЫВОК отзыва (номер в каталоге 17656985) из блока «Часто упоминается в отзывах»: каталог показывает только часть текста с многоточиями, автор и оценка не показаны. Текст взят из сырой копии (атрибут data-txt), но внутри него стоит разметка выделения ключевог
+## crosslinks-023 | amazonka-mogilev | restaurantguru.ru | review | None | None | negative | raw=raw/155_restaurantguru-ru_restaurantguru-amazonka-restobar-mogilev.html
+   URL: https://restaurantguru.ru/Amazonka-Restobar-Mogilev
+   N: ОБРЫВОК отзыва (номер в каталоге 2549102) из блока «Часто упоминается в отзывах»: каталог показывает только часть текста с многоточиями, автор и оценка не показаны. Текст взят из сырой копии (атрибут data-txt), но внутри него стоит разметка выделения ключевого
+## crosslinks-024 | amazonka-mogilev | mogilev.in | review | 2026-09-19 | None | negative | raw=raw/160_mogilev-in_mogilev-in-amazonka-bar-reviews.html
+   URL: https://mogilev.in/cafe/amazonka_bar/rev3561/
+   N: Отзыв в городском каталоге mogilev.in, карточка «Рестобар «Амазонка»» (3 отзыва, «Рейтинг заведения – 2.0911»). Имя автора на странице не показано. В карточке телефон +375 (33) 692-04-25. Тот же текст, что в отзыве на just-eat.by от 19.09.2026 и на Restaurant 
+## crosslinks-025 | amazonka-mogilev | mogilev.in | review | 2026-01-10 | None | negative | raw=raw/160_mogilev-in_mogilev-in-amazonka-bar-reviews.html
+   URL: https://mogilev.in/cafe/amazonka_bar/rev3445/
+   N: Отзыв в городском каталоге mogilev.in, карточка «Рестобар «Амазонка»» (3 отзыва, «Рейтинг заведения – 2.0911»). Имя автора на странице не показано. В карточке телефон +375 (33) 692-04-25.
+## crosslinks-026 | amazonka-mogilev | mogilev.in | review | 2023-11-27 | None | mixed | raw=raw/160_mogilev-in_mogilev-in-amazonka-bar-reviews.html
+   URL: https://mogilev.in/cafe/amazonka_bar/rev2949/
+   N: Отзыв в городском каталоге mogilev.in, карточка «Рестобар «Амазонка»» (3 отзыва, «Рейтинг заведения – 2.0911»). Имя автора на странице не показано. В карточке телефон +375 (33) 692-04-25. О животных: рептилий «дают потрогать, взять даже за стол»; «сверчки, кот
+## crosslinks-027 | amazonka-minsk | koko.by | article | 2025-12-01 | None | mixed | raw=raw/157_koko-by_koko-poglad-udava-amazonka.html
+   URL: https://koko.by/cafehouse/13670-poglad-udava
+   N: Обзор портала Koko.by о минской «Амазонке» (ул. Карла Маркса, 21), заголовок: «Где подержать змею и съесть пол-литра Том Яма. Пробрались в джунгли первого гастробара с экзотикой «Амазонка»»; автор не подписан, оценка заведения в карточке — 7/10 (шкала портала)
+## crosslinks-028 | amazonka-mogilev | kartapokupok.by | other | None | None | neutral | raw=None
+   URL: https://kartapokupok.by/ru/stores/store_select/amazonka_175407/?city=4057
+   N: СНИППЕТ. В поле text — только заголовок страницы, как он показан в выдаче WebSearch (так и написано: «Амазона»). Сама страница без браузера не отдаётся: сайт показывает проверку «Verification» (сырые копии проверки: raw/162, raw/163), я её не проходил. Остальн

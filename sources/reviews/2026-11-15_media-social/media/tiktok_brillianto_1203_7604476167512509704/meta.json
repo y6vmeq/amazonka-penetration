@@ -1,0 +1,105 @@
+{
+ "page_url": "https://www.tiktok.com/@brillianto_1203/video/7604476167512509704",
+ "captured_at": "2026-11-15T11:19:16.131Z",
+ "id": "7604476167512509704",
+ "desc": "#рестобарамазонка #кафе #вкуснопоесть #могилев",
+ "createTime": "1770555084",
+ "createTimeISO": "2026-02-08T12:51:24.000Z",
+ "author": {
+  "uniqueId": "brillianto_1203",
+  "nickname": "Александра 💥"
+ },
+ "stats": {
+  "diggCount": 66,
+  "shareCount": 59,
+  "commentCount": 10,
+  "playCount": 6457,
+  "collectCount": "8"
+ },
+ "statsV2": {
+  "diggCount": "66",
+  "shareCount": "59",
+  "commentCount": "10",
+  "playCount": "6457",
+  "collectCount": "8",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7604476350154427157",
+  "title": "оригинальный звук",
+  "authorName": "Александра 💥",
+  "original": true,
+  "duration": 120
+ },
+ "challenges": [
+  "рестобарамазонка",
+  "кафе",
+  "вкуснопоесть",
+  "могилев"
+ ],
+ "textExtra": [
+  {
+   "hashtag": "рестобарамазонка",
+   "user": null
+  },
+  {
+   "hashtag": "кафе",
+   "user": null
+  },
+  {
+   "hashtag": "вкуснопоесть",
+   "user": null
+  },
+  {
+   "hashtag": "могилев",
+   "user": null
+  }
+ ],
+ "contents": [
+  "#рестобарамазонка #кафе #вкуснопоесть #могилев"
+ ],
+ "stickersOnItem": [
+  {
+   "stickerText": [
+    "Зашли в рестобар «Амазонка»в Могилеве находится на Ленинской \n\n\nЗдесь очень атмосферно \nИ можно познакомиться с  некоторыми разновидностями рептилий"
+   ],
+   "stickerType": 4
+  },
+  {
+   "stickerText": [
+    "Рестобар Амазонка"
+   ],
+   "stickerType": 9
+  }
+ ],
+ "locationCreated": "BY",
+ "textLanguage": "un",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 120,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "31498604",
+  "variants": [
+   {
+    "gear": "normal_540_0",
+    "codec": "h264",
+    "bitrate": 2083671,
+    "w": 576,
+    "h": 1024,
+    "size": "31498604"
+   }
+  ],
+  "subtitles": []
+ }
+}

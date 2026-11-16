@@ -1,0 +1,76 @@
+{
+ "page_url": "https://www.tiktok.com/@amazonka_restobar/video/7165152175608433926",
+ "captured_at": "2026-11-15T11:22:23.834Z",
+ "id": "7165152175608433926",
+ "desc": "",
+ "createTime": "1668266999",
+ "createTimeISO": "2022-11-12T15:29:59.000Z",
+ "author": {
+  "uniqueId": "amazonka_restobar",
+  "nickname": "Amazonkarestobar"
+ },
+ "stats": {
+  "diggCount": 2,
+  "shareCount": 0,
+  "commentCount": 0,
+  "playCount": 572,
+  "collectCount": "0"
+ },
+ "statsV2": {
+  "diggCount": "2",
+  "shareCount": "0",
+  "commentCount": "0",
+  "playCount": "572",
+  "collectCount": "0",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7164077818812073985",
+  "title": "Royal Legislature",
+  "authorName": "DJ BAI",
+  "original": false,
+  "duration": 41
+ },
+ "challenges": [],
+ "textExtra": [],
+ "contents": [],
+ "stickersOnItem": [],
+ "locationCreated": "BY",
+ "textLanguage": "un",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 6,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "732048",
+  "variants": [
+   {
+    "gear": "normal_540_0",
+    "codec": "h264",
+    "bitrate": 864028,
+    "w": 576,
+    "h": 1024,
+    "size": "732048"
+   },
+   {
+    "gear": "lowest_540_0",
+    "codec": "h264",
+    "bitrate": 402844,
+    "w": 576,
+    "h": 1024,
+    "size": "341310"
+   }
+  ],
+  "subtitles": []
+ }
+}

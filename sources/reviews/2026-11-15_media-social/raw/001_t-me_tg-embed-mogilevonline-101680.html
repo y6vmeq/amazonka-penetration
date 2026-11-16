@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Telegram Widget</title>
+    <base target="_blank">
+    <script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script><script>
+try { if (window.localStorage && localStorage["stel_tme_token"]) {
+  var arr = [];
+  for (var i = 0; i < localStorage.length; i++) {
+    var key = localStorage.key(i);
+    arr.push(encodeURIComponent(key) + '=' + encodeURIComponent(localStorage[key]));
+  }
+  var ls = arr.join('; ');
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', location.href);
+  xhr.setRequestHeader('X-Requested-With', 'relogin');
+  xhr.setRequestHeader('X-Local-Storage', ls);
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4) {
+      if (typeof xhr.responseBody == 'undefined' && xhr.responseText) {
+        document.write(xhr.responseText);
+        document.close();
+      }
+    }
+  };
+  xhr.withCredentials = true;
+  xhr.send();
+  document.close();
+  document.open();
+  console.log('xhr reload');
+} } catch (e) {}
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="MobileOptimized" content="176" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="robots" content="noindex, nofollow" />
+    
+    <link rel="icon" type="image/svg+xml" href="//telegram.org/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="//telegram.org/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//telegram.org/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="//telegram.org/img/favicon-16x16.png">
+<link rel="alternate icon" href="//telegram.org/img/favicon.ico" type="image/x-icon" />
+    <link href="//telegram.org/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+    <link href="//telegram.org/css/widget-frame.css?75" rel="stylesheet" media="screen">
+    
+    <style>        .user-color-12 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #3391d4 0px, #3391d4 5px, #7dd3f0 5px, #7dd3f0 10px);
+          --user-accent-color: #3391d4;
+          --user-background: #3391d41f;
+        }        .user-color-10 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #27a910 0px, #27a910 5px, #a7dc57 5px, #a7dc57 10px);
+          --user-accent-color: #27a910;
+          --user-background: #27a9101f;
+        }        .user-color-8 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #e0802b 0px, #e0802b 5px, #fac534 5px, #fac534 10px);
+          --user-accent-color: #e0802b;
+          --user-background: #e0802b1f;
+        }        .user-color-7 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #e15052 0px, #e15052 5px, #f9ae63 5px, #f9ae63 10px);
+          --user-accent-color: #e15052;
+          --user-background: #e150521f;
+        }        .user-color-9 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #a05ff3 0px, #a05ff3 5px, #f48fff 5px, #f48fff 10px);
+          --user-accent-color: #a05ff3;
+          --user-background: #a05ff31f;
+        }        .user-color-11 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #27acce 0px, #27acce 5px, #82e8d6 5px, #82e8d6 10px);
+          --user-accent-color: #27acce;
+          --user-background: #27acce1f;
+        }        .user-color-13 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #dd4371 0px, #dd4371 5px, #ffbe9f 5px, #ffbe9f 10px);
+          --user-accent-color: #dd4371;
+          --user-background: #dd43711f;
+        }        .user-color-14 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #247bed 0px, #247bed 5px, #f04856 5px, #f04856 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #247bed;
+          --user-background: #247bed1f;
+        }        .user-color-15 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #d67722 0px, #d67722 5px, #1ea011 5px, #1ea011 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #d67722;
+          --user-background: #d677221f;
+        }        .user-color-16 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #179e42 0px, #179e42 5px, #e84a3f 5px, #e84a3f 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #179e42;
+          --user-background: #179e421f;
+        }        .user-color-17 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #2894af 0px, #2894af 5px, #6fc456 5px, #6fc456 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #2894af;
+          --user-background: #2894af1f;
+        }        .user-color-18 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #0c9ab3 0px, #0c9ab3 5px, #ffad95 5px, #ffad95 10px, #ffe6b5 10px, #ffe6b5 15px);
+          --user-accent-color: #0c9ab3;
+          --user-background: #0c9ab31f;
+        }        .user-color-19 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #7757d6 0px, #7757d6 5px, #f79610 5px, #f79610 10px, #ffde8e 10px, #ffde8e 15px);
+          --user-accent-color: #7757d6;
+          --user-background: #7757d61f;
+        }        .user-color-20 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #1585cf 0px, #1585cf 5px, #f2ab1d 5px, #f2ab1d 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #1585cf;
+          --user-background: #1585cf1f;
+        }        body.dark .user-color-12, html.theme_dark .user-color-12 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #52bfff 0px, #52bfff 5px, #0b5494 5px, #0b5494 10px);
+          --user-accent-color: #52bfff;
+          --user-background: #52bfff1f;
+        }        body.dark .user-color-10, html.theme_dark .user-color-10 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #a7eb6e 0px, #a7eb6e 5px, #167e2d 5px, #167e2d 10px);
+          --user-accent-color: #a7eb6e;
+          --user-background: #a7eb6e1f;
+        }        body.dark .user-color-8, html.theme_dark .user-color-8 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ecb04e 0px, #ecb04e 5px, #c35714 5px, #c35714 10px);
+          --user-accent-color: #ecb04e;
+          --user-background: #ecb04e1f;
+        }        body.dark .user-color-7, html.theme_dark .user-color-7 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ff9380 0px, #ff9380 5px, #992f37 5px, #992f37 10px);
+          --user-accent-color: #ff9380;
+          --user-background: #ff93801f;
+        }        body.dark .user-color-9, html.theme_dark .user-color-9 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #c697ff 0px, #c697ff 5px, #5e31c8 5px, #5e31c8 10px);
+          --user-accent-color: #c697ff;
+          --user-background: #c697ff1f;
+        }        body.dark .user-color-11, html.theme_dark .user-color-11 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #40d8d0 0px, #40d8d0 5px, #045c7f 5px, #045c7f 10px);
+          --user-accent-color: #40d8d0;
+          --user-background: #40d8d01f;
+        }        body.dark .user-color-13, html.theme_dark .user-color-13 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ff86a6 0px, #ff86a6 5px, #8e366e 5px, #8e366e 10px);
+          --user-accent-color: #ff86a6;
+          --user-background: #ff86a61f;
+        }        body.dark .user-color-14, html.theme_dark .user-color-14 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #3fa2fe 0px, #3fa2fe 5px, #e5424f 5px, #e5424f 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #3fa2fe;
+          --user-background: #3fa2fe1f;
+        }        body.dark .user-color-15, html.theme_dark .user-color-15 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ff905e 0px, #ff905e 5px, #32a527 5px, #32a527 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #ff905e;
+          --user-background: #ff905e1f;
+        }        body.dark .user-color-16, html.theme_dark .user-color-16 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #66d364 0px, #66d364 5px, #d5444f 5px, #d5444f 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #66d364;
+          --user-background: #66d3641f;
+        }        body.dark .user-color-17, html.theme_dark .user-color-17 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #22bce2 0px, #22bce2 5px, #3da240 5px, #3da240 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #22bce2;
+          --user-background: #22bce21f;
+        }        body.dark .user-color-18, html.theme_dark .user-color-18 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #22bce2 0px, #22bce2 5px, #ff9778 5px, #ff9778 10px, #ffda6b 10px, #ffda6b 15px);
+          --user-accent-color: #22bce2;
+          --user-background: #22bce21f;
+        }        body.dark .user-color-19, html.theme_dark .user-color-19 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #9791ff 0px, #9791ff 5px, #f2731d 5px, #f2731d 10px, #ffdb59 10px, #ffdb59 15px);
+          --user-accent-color: #9791ff;
+          --user-background: #9791ff1f;
+        }        body.dark .user-color-20, html.theme_dark .user-color-20 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #3da6eb 0px, #3da6eb 5px, #eea51d 5px, #eea51d 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #3da6eb;
+          --user-background: #3da6eb1f;
+        }.user-color-6, .user-color-4, .user-color-2, .user-color-0, .user-color-1, .user-color-3, .user-color-5,   .user-color-default {
+    --user-accent-color: var(--accent-color);
+    --user-accent-background: var(--accent-background);
+    --user-line-gradient: linear-gradient(45deg, var(--accent-color), var(--accent-color));
+  }</style>
+    <script>TBaseUrl='//telegram.org/';</script>
+  </head>
+  <body class="widget_frame_base tgme_widget body_widget_post emoji_image tme_mode tme_widget_mode nodark">
+    <div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="mogilevonline/101680" data-view="eyJjIjotMTE0NjU4MDIzNCwicCI6IjEwMTY4MGciLCJ0IjoxNzk0NzQxMTM2LCJoIjoiOTgwMWI5ZDY3MzA4MTdjZTgwIn0" data-peer="c1146580234_-9045612254264115287" data-peer-hash="da4aa7483daa777056" data-post-id="101680">
+  <div class="tgme_widget_message_user"><a href="https://t.me/mogilevonline"><i class="tgme_widget_message_user_photo bgcolor2" data-content="М"><img src="https://cdn4.telesco.pe/file/gyXsFKiE-owBpYVtNSkCY8X3Cn5UHOax20B04ZS6AlKgZbev5DaQj3eC0BKgremzDS9mk7Zaxxz6wXy-W9FH0E0mv0FLaXY5BJ0-WWAh1dhWrO9iQrFZkadKj76TVn4-7pyxGcgQt7Ub_xMfC5B_fXsVQt1kpjpjLRTt5l6MneTeGSvP5tQLZlvSQ8VuxzEj2Sz0BRpJNibz2t01eT7QBc6mMtM-4lUwPNXTbkbRPdv3pfD-wePrxa0Rsbabhmqvi_FJpxGnk11RfRm0AlUmvbrtjZJ-3mkFHtIi7rOU8MBSu3Y7b0YJJJM-aNciOu8Ja2V6k9f3fVa6jDFoCZW51w.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    <a class="tgme_widget_message_bubble_logo" href="//core.telegram.org/widgets"></a>
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/mogilevonline"><span dir="auto">МогилевОнлайн</span></a></div>
+
+
+<div class="tgme_widget_message_grouped_wrap js-message_grouped_wrap" data-margin-w="2" data-margin-h="2" style="width:453px;">
+  <div class="tgme_widget_message_grouped js-message_grouped" style="padding-top:134.437%">
+    <div class="tgme_widget_message_grouped_layer js-message_grouped_layer" style="width:453px;height:609px">
+      <a class="tgme_widget_message_photo_wrap grouped_media_wrap blured js-message_photo" style="left:0px;top:0px;width:453px;height:301px;margin-right:0px;margin-bottom:2px;background-image:url('https://cdn4.telesco.pe/file/HGfElNZ5ZYX3xb5XoYwnzPX3c1ZlIR7soHUc_p9_Wf7MKilpBbOSx56p4V_H1y2lMqfWgS7G6ERTJ4ACeJFEdIvEqVr2ssPiKsgeDu8Q5AWNNGbgJK6DtJ0fPttE4P0EhkN2UZHVANtNgdXW063PZmhBO9KeSgvmjcI6vlG9bDNy4PR_5BZWpqY9nf45VA-Alx5cmv8QJoYtnDGDLwYxNhFiNyJy1ibXiCYNkq2rJfqbv66zLM91aa_bgR-wTfNMlzISJmf-qInzqgFgVDh7YHtVYmbCgNwpTD6Dwf7Ycdy2KANkDwquObc8eAYeVdNJ1OY1M3n7j0zsl7-GC2yytA.jpg')" data-ratio="1.5009380863039" href="https://t.me/mogilevonline/101680?single">
+  <div class="grouped_media_helper" style="left:0;right:0;top:154px;bottom:154px;">
+    <div class="tgme_widget_message_photo grouped_media" style="left:0;right:0;top:-1px;bottom:0px;"></div>
+  </div>
+</a><a class="tgme_widget_message_photo_wrap grouped_media_wrap blured js-message_photo" style="left:0px;top:303px;width:180px;height:106px;margin-right:2px;margin-bottom:2px;background-image:url('https://cdn4.telesco.pe/file/eX2SLSm7yyyqjmJuP6Ex6BQHug0MC3kFwY9rPJDsvpJw9Y98y4QTiNyf3_rKNOATXaehhb8heA6EiTSkm3H9hxarmELtEdY3FF_bQHaVlWuRijUBYIei2vOJwD6f3QMsUrJskjgfDtbB1mhr_jcmFaCaVSjBNNwmp_k24eq7hESj-sPITyp_RNqZKRNfWQUPjf8Eh6fbAifoeeLZJ4f1z-mETKP9k1XPCaxmBI9Vk5OD94CQf7LZbPnOK27i3_dYtH_p-gT3eJAnIg-KgTHbNuIzMldL34DEZ93TxEyyrDlzG05Flpxs-hMRrh0GZ3YXM3wr7WqgLo5R_RDo7gsi1A.jpg')" data-ratio="1.9704433497537" href="https://t.me/mogilevonline/101681?single">
+  <div class="grouped_media_helper" style="left:0;right:0;top:190px;bottom:190px;">
+    <div class="tgme_widget_message_photo grouped_media" style="top:0;bottom:0;left:-15px;right:-14px;"></div>
+  </div>
+</a><a class="tgme_widget_message_photo_wrap grouped_media_wrap blured js-message_photo" style="left:182px;top:303px;width:159px;height:106px;margin-right:2px;margin-bottom:2px;background-image:url('https://cdn4.telesco.pe/file/bQgyNLbUoqbTWG3332z4Drys6NRguQz_w5LYQvE6_-0gkiaZxYJSfIaWj5O6IIlu9qwUvNuxnms0F_2qn5vfy7JdGmh7Z-iArZHN8M8u2Y55wJ7Qt62tdFvthodKAwy3PLGkQ8esHCIzaMhtNKcNI24wWMgEFqurAYi0KJO5Fc_cYPpp9ymK3SJdaq2vo11ADHyMuIcT-rNkD-mjzt6KHBBpZS6f8J0gXPhIBhcrzY-Vjy2h5VUzCAeSNOXvASoEWGZkbtAiuS3HXbEEKR9pSS9D9m8oxTT4Zo29ZMZfdASTUZcujpAbLg4y057yQx3ndFSt0NVOgzV0LmgOHkQhQA.jpg')" data-ratio="1.5009380863039" href="https://t.me/mogilevonline/101682?single">
+  <div class="grouped_media_helper" style="left:0;right:0;top:154px;bottom:154px;">
+    <div class="tgme_widget_message_photo grouped_media" style="top:0;bottom:0;left:-1px;right:0px;"></div>
+  </div>
+</a><a class="tgme_widget_message_photo_wrap grouped_media_wrap blured js-message_photo" style="left:343px;top:303px;width:110px;height:106px;margin-right:0px;margin-bottom:2px;background-image:url('https://cdn4.telesco.pe/file/Q-bJ5nwhcsbHHDgdKtRKyCL7b4MZwXkxvB9Mi00LgCzbiClMjcOVmyGHoTkJPaJm0xDuAqPwvI-ZsTlQyUdMn9sfjj1QvHtazSqYRsJ4vdljRRg5m8yVlOmoxR-wUj1NmA_5LhiR5LtB8IuDRRpgFxcfHFrOfILtTILu_KUgJF71Q5RAHnnMPUC3xl_1vXYMFhjiptiinRd1ipKxI0_HieCES4hXxB7PjyrPixwL389Uy0KZRwGnZgLur1AlTIL3ctuy4gAry1RXs7tjBrIT0oXNY0gCz2hJaCo7k0FU6JjUVORfi1IDjSJAnXZHl38CxmEPGvwiBMWA6lH76mldWg.jpg')" data-ratio="0.87625" href="https://t.me/mogilevonline/101683?single">
+  <div class="grouped_media_helper" style="left:0;right:0;top:46px;bottom:47px;">
+    <div class="tgme_widget_message_photo grouped_media" style="left:0;right:0;top:-10px;bottom:-10px;"></div>
+  </div>
+</a><a class="tgme_widget_message_photo_wrap grouped_media_wrap blured js-message_photo" style="left:0px;top:411px;width:142px;height:95px;margin-right:2px;margin-bottom:2px;background-image:url('https://cdn4.telesco.pe/file/k-_gWi3Za_qa5vVNzwAROzAGUsE8seLnCysAvsPMbTZWmoWvppaZkwrHwsg_Gvm9462VC-Cgf3dAFp_-GCdtALt5pBTIoUB7y5jTOfQK3SPiJYS_OCh3h-HMK29OqN_j6hSPfTB_p6KBJJwkXSDXa8GAeYsBM6t5q6c6_Pqv_y1_lnSExVJMehtfta46XVyNDVNctld0WnhZpTHK6RQHEu30yVejRZFmPmoqOzG1n1X-fDuftcWlHYJ7adSz_e6UZT4BjkNAWVwRfSdKYxWTZcdVHb_TSNJWgL9sRldrrTqEuZ1nEj3OLLAs05B4QMpH-XzoU43frt75Qt8tY_AKYg.jpg')" data-ratio="1.5009380863039" href="https://t.me/mogilevonline/101684?single">
+  <div class="grouped_media_helper" style="left:0;right:0;top:154px;bottom:154px;">
+    <div class="tgme_widget_message_photo grouped_media" style="top:0;bottom:0;left:-1px;right:0px;"></div>
+  </div>
+</a><a class="tgme_widget_message_photo_wrap grouped_media_wrap blured js-message_photo" style="left:144px;top:411px;width:142px;height:95px;margin-right:2px;margin-bottom:2px;background-image:url('https://cdn4.telesco.pe/file/NirXHD4ojqzssiykh8l8dB2ewQNT-Lv0JvhIkuH9a-qL4FYIrTezSudeFOhUveEutFgiPUwRs43pnIqEO8DaYu0yPhuD4VilqyQC3MkgiV2FtQ9IX1oAI0UK8bFKdgq49KNRG33NW7XhGmIC7zcdHJZGEmNmJlTqkf196x944sGbJC-biXylqnUhID34odhzZmgsHg2j1mPWr9tKUMh6i_1qmarE_mvzzhVfAPeG6Af6IgDVqfJKjzK1DJD0arROH6h2qxbYt0v02gcL6crgCeuVUnleImGvs9q2rr0SifoB5mnDZPT1WV5lbw2t2j9OItSiK-rbGMISzyT5-zxADA.jpg')" data-ratio="1.5009380863039" href="https://t.me/mogilevonline/101685?single">
+  <div class="grouped_media_helper" style="left:0;right:0;top:154px;bottom:154px;">
+    <div class="tgme_widget_message_photo grouped_media" style="top:0;bottom:0;left:-1px;right:0px;"></div>
+  </div>
+</a><a class="tgme_widget_message_photo_wrap grouped_media_wrap blured js-message_photo" style="left:288px;top:411px;width:165px;height:95px;margin-right:0px;margin-bottom:2px;background-image:url('https://cdn4.telesco.pe/file/ttlefz5OYZfhjRIb2ziYmsPo1WPL8aCCJraURBrqjo6huCgHI_yCxrQXrwmkfEaPbb_wfZt9zy7ZdjcinAab_wd146qoeEmMpEeBA7m7VdpcKBWC-bFrhJXH2sRl_QQLRDUPu6SHNC1TG4datk3f3hDb1JWpC7WCgx1CzPa2a3ZufCeHBimdn1fdPth4hQoO7l1ws_LnkskjXj3WRkCwxVrPrJb-6T3wjdoJsrd0Yc8XzDOLd2HaSE2f_x7NxXirZt-4sngJigoynIOUJV4VszHzxBVreUmXF0FQdgU0l5RM5DJvs0jb036RZi3oB7xA0f5NKMjv28ZneeZFzKlawQ.jpg')" data-ratio="1.9704433497537" href="https://t.me/mogilevonline/101686?single">
+  <div class="grouped_media_helper" style="left:0;right:0;top:190px;bottom:190px;">
+    <div class="tgme_widget_message_photo grouped_media" style="top:0;bottom:0;left:-12px;right:-11px;"></div>
+  </div>
+</a><a class="tgme_widget_message_photo_wrap grouped_media_wrap blured js-message_photo" style="left:0px;top:508px;width:152px;height:101px;margin-right:2px;margin-bottom:0px;background-image:url('https://cdn4.telesco.pe/file/oMS1BOD2XQDLBu1ETxb-gDNFu20n7KMNtrtT9ySdoUeXMabjy1VUJmA-rBeq-eDgdVnD4FNQbhhDMFKFBhrvpUjHZUAfNTO1n0dJg36R-PPGusJSr2s9TFm77W-NTMBpqB-1kytMpPNiMJ1NQbMOjb-cPCZfrZrmALbpzGLV2OyBys4vjVBbiJAXF4Q1tdcKvjQ4NXaTdHLPO_6S78Xel8ZZ0d2xWTY6jSPeIGeVbMzv2wcBlE857s1BnnA3yGr7e5N4AEDSU_puU6oO8TGJM9LsnVJ_5CIcUEaMuX7vY7wJunUEvbv9V2V0pAUaPgeIN8rtjEA3FT0yldytyd5E0Q.jpg')" data-ratio="1.5122873345936" href="https://t.me/mogilevonline/101687?single">
+  <div class="grouped_media_helper" style="left:0;right:0;top:155px;bottom:155px;">
+    <div class="tgme_widget_message_photo grouped_media" style="top:0;bottom:0;left:-1px;right:0px;"></div>
+  </div>
+</a><a class="tgme_widget_message_photo_wrap grouped_media_wrap blured js-message_photo" style="left:154px;top:508px;width:151px;height:101px;margin-right:2px;margin-bottom:0px;background-image:url('https://cdn4.telesco.pe/file/EY5Ihjkuqx2SMEC6LL11u0tOZHwcXqccft2kJhLHbkhwPbBb-pUtIQJYj9NMkZJHFmWYxS9eiVpn__5HB5vcMPS2OqdkJcp_LnsKnmF9rC1Z3J1AwpBz01QO8SeJuyMWSgkDFYAW_iL952C8wx63ABEHzTbO5whP_tFaUaHQ1CAUTB0kJchzYOJqJ4C0vBfIKkK_8hQQ8wKvxusRt_j4CLq6oM5xav7ZabAJY4ZW8_5boH1yFCqJAD_Ygrjhphj_qj5gQJWzdaW6j_vXvVsMolh0S6ehjrriOfMDf04Q3ZyO8vgqks2OS0kruTYPH7Z3J6XOWY0a6JTxtUnIUkgjxw.jpg')" data-ratio="1.5009380863039" href="https://t.me/mogilevonline/101688?single">
+  <div class="grouped_media_helper" style="left:0;right:0;top:154px;bottom:154px;">
+    <div class="tgme_widget_message_photo grouped_media" style="top:0;bottom:0;left:-1px;right:0px;"></div>
+  </div>
+</a><a class="tgme_widget_message_photo_wrap grouped_media_wrap blured js-message_photo" style="left:307px;top:508px;width:146px;height:101px;margin-right:0px;margin-bottom:0px;background-image:url('https://cdn4.telesco.pe/file/lUjjsEbF80o1Lvp3QRrgSnE778GWCSSPLdHrgGtcDu_qC-KmOl8caQk1ziqH61A9J64YlBHTQ6sJYbBgXoaKXm86wUIpv_FwiQWFkTnzh3o3XznYpwA7E2do7MKi6DSANik-NaaHBheVt-YcsCqoOz_Qtf3REtckEoxzUVVDaK3Qt-GNNJYWwI3cPi1PBaKeAnoliSivpkn5YrpxgmxNviR2-plRv5GUT9ajqW3YU4zP-lqmc9ITEuFJTNxgPKlVbLhH84TG0m5Sqs2hZdNhhcKUI67psiruFchzQKXckXiw7utiuacaBojjDMMNhcDNrJsECK3vJ-0C2bqYtyk-rg.jpg')" data-ratio="1.5009380863039" href="https://t.me/mogilevonline/101689?single">
+  <div class="grouped_media_helper" style="left:0;right:0;top:154px;bottom:154px;">
+    <div class="tgme_widget_message_photo grouped_media" style="top:0;bottom:0;left:-3px;right:-3px;"></div>
+  </div>
+</a>
+    </div>
+  </div>
+</div><div class="tgme_widget_message_text js-message_text" dir="auto"><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Побывали в могилевском рестобаре «Амазонка», где обитают символы года 2025 — змеи</b><br/><br/>Живут прямо в заведении не только змеи — в «Амазонке» соседствуют еще и геккон, агамы и белка-летяга. Мы решили погреться вкусным чаем и зарядится энергией будущего года Змеи, «пообщавшись» с изящными рептилиями.<br/><br/>Сразу скажем, что новогоднее меню, как и в большинстве заведений Могилева не предусмотрено — подают в «Амазонке» те же блюда и напитки, что и обычно.<br/><br/><i>Горожане знают, что фишка этого бара на Ленинской — своеобразный живой уголок. Все обитатели не ядовиты и вполне ручные, кроме белки-летяги. Эта привереда вылазит из укрытия редко, еще меньше она охотница до рук.</i><br/><br/>Интересно, что вместе с маисовым полозом живет хомячок, который предназначался змее на обед, но каким-то чудом животные подружились <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09FA5B0.png')"><b>🥰</b></i><br/><br/>Понятно, что людям с офидиофобией в таком живом уголке лучше не обедать, а вот всем остальным (даже не большим любителям чешуйчатых) для разнообразия и в знаковый год — очень даже можно посетить.</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09FA5B0.png')"><b>🥰</b></i>18</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F918D.png')"><b>👍</b></i>14</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09FA5B4.png')"><b>🥴</b></i>8</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29DA4.png')"><b>❤</b></i>4</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F97BF.png')"><b>🗿</b></i>2</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29DA4E2808DF09F94A5.png')"><b>❤‍🔥</b></i>1</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29AA1.png')"><b>⚡</b></i>1</span><span class="tgme_reaction"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F928B.png')"><b>💋</b></i>1</span></div><div class="tgme_widget_message_footer js-message_footer">
+  <div class="tgme_widget_message_link accent_color"><a href="https://t.me/mogilevonline/101680" class="link_anchor flex_ellipsis"><span class="ellipsis">t.me/mogilevonline</span>/101680</a></div>
+  <div class="tgme_widget_message_info js-message_info">
+    <span class="tgme_widget_message_views">7.77K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/mogilevonline/101680"><time datetime="2024-12-24T11:40:02+00:00" class="datetime">Dec 24, 2024 at 11:40</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div>
+    <script src="https://oauth.tg.dev/js/telegram-widget.js?24"></script>
+
+    <script src="//telegram.org/js/widget-frame.js?68"></script>
+    <script>TWidgetAuth.init({"api_url":"https:\/\/t.me\/api\/method?api_hash=1f4736830bf40aa915","upload_url":"https:\/\/t.me\/api\/upload?api_hash=bb48e314160fa63b3b","unauth":true,"bot_id":1288099309});
+TWidgetPost.init();
+try{var a=new XMLHttpRequest;a.open("POST","");a.setRequestHeader("Content-type","application/x-www-form-urlencoded");a.send("_rl=1")}catch(e){}
+</script>
+  </body>
+</html>
+<!-- page generated in 175.08ms -->

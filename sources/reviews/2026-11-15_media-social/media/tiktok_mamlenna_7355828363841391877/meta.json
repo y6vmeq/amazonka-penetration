@@ -1,0 +1,92 @@
+{
+ "page_url": "https://www.tiktok.com/@mamlenna/video/7355828363841391877",
+ "captured_at": "2026-11-15T11:19:36.624Z",
+ "id": "7355828363841391877",
+ "desc": "#рестобарамазонка ",
+ "createTime": "1712662256",
+ "createTimeISO": "2024-04-09T11:30:56.000Z",
+ "author": {
+  "uniqueId": "mamlenna",
+  "nickname": "Lena"
+ },
+ "stats": {
+  "diggCount": 22,
+  "shareCount": 3,
+  "commentCount": 3,
+  "playCount": 515,
+  "collectCount": "0"
+ },
+ "statsV2": {
+  "diggCount": "22",
+  "shareCount": "3",
+  "commentCount": "3",
+  "playCount": "515",
+  "collectCount": "0",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "6787792108104189954",
+  "title": "Милая",
+  "authorName": "Непара",
+  "original": false,
+  "duration": 60
+ },
+ "challenges": [
+  "рестобарамазонка"
+ ],
+ "textExtra": [
+  {
+   "hashtag": "рестобарамазонка",
+   "user": null
+  }
+ ],
+ "contents": [
+  "#рестобарамазонка "
+ ],
+ "stickersOnItem": [],
+ "locationCreated": "BY",
+ "textLanguage": "un",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 27,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "4691695",
+  "variants": [
+   {
+    "gear": "normal_540_0",
+    "codec": "h264",
+    "bitrate": 1343651,
+    "w": 576,
+    "h": 1024,
+    "size": "4691695"
+   },
+   {
+    "gear": "lowest_540_0",
+    "codec": "h264",
+    "bitrate": 457353,
+    "w": 576,
+    "h": 1024,
+    "size": "1596964"
+   }
+  ],
+  "subtitles": [
+   {
+    "lang": "rus-RU",
+    "format": "webvtt",
+    "source": "ASR",
+    "size": "655"
+   }
+  ]
+ }
+}

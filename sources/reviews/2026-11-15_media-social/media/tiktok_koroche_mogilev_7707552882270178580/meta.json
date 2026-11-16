@@ -1,0 +1,127 @@
+{
+ "page_url": "https://www.tiktok.com/@koroche_mogilev/video/7707552882270178580",
+ "captured_at": "2026-11-15T11:16:28.468Z",
+ "id": "7707552882270178580",
+ "desc": "#корочеМогилев #гастрофест #крч #короче #корочемогилев ",
+ "createTime": "1794554509",
+ "createTimeISO": "2026-11-13T07:21:49.000Z",
+ "author": {
+  "uniqueId": "koroche_mogilev",
+  "nickname": "КОРОЧЕ|ОБЗОРЫ|МОГИЛЕВ"
+ },
+ "stats": {
+  "diggCount": 819,
+  "shareCount": 920,
+  "commentCount": 20,
+  "playCount": 46000,
+  "collectCount": "255"
+ },
+ "statsV2": {
+  "diggCount": "819",
+  "shareCount": "920",
+  "commentCount": "20",
+  "playCount": "46000",
+  "collectCount": "255",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7707552933676878610",
+  "title": "оригинальный звук",
+  "authorName": "КОРОЧЕ|ОБЗОРЫ|МОГИЛЕВ",
+  "original": true,
+  "duration": 59
+ },
+ "challenges": [
+  "корочемогилев",
+  "гастрофест",
+  "крч",
+  "короче"
+ ],
+ "textExtra": [
+  {
+   "hashtag": "корочемогилев",
+   "user": null
+  },
+  {
+   "hashtag": "гастрофест",
+   "user": null
+  },
+  {
+   "hashtag": "крч",
+   "user": null
+  },
+  {
+   "hashtag": "короче",
+   "user": null
+  },
+  {
+   "hashtag": "корочемогилев",
+   "user": null
+  }
+ ],
+ "contents": [
+  "#корочеМогилев #гастрофест #крч #короче #корочемогилев "
+ ],
+ "stickersOnItem": [],
+ "locationCreated": "BY",
+ "textLanguage": "un",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 59,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "2854994",
+  "variants": [
+   {
+    "gear": "adapt_lowest_1080_1",
+    "codec": "h265_hvc1",
+    "bitrate": 1075210,
+    "w": 1080,
+    "h": 1920,
+    "size": "7961260"
+   },
+   {
+    "gear": "adapt_lower_720_1",
+    "codec": "h265_hvc1",
+    "bitrate": 485555,
+    "w": 720,
+    "h": 1280,
+    "size": "3597176"
+   },
+   {
+    "gear": "adapt_540_1",
+    "codec": "h265_hvc1",
+    "bitrate": 396048,
+    "w": 576,
+    "h": 1024,
+    "size": "2934077"
+   },
+   {
+    "gear": "lowest_540_0",
+    "codec": "h264",
+    "bitrate": 385373,
+    "w": 576,
+    "h": 1024,
+    "size": "2854994"
+   }
+  ],
+  "subtitles": [
+   {
+    "lang": "rus-RU",
+    "format": "webvtt",
+    "source": "ASR",
+    "size": "2549"
+   }
+  ]
+ }
+}

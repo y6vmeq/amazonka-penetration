@@ -1,0 +1,34 @@
+{
+ "file": "video_576p_h264.mp4",
+ "model": "large-v3-turbo",
+ "language": "pt",
+ "language_probability": 0.28601691126823425,
+ "duration": 15.02475,
+ "segments": [
+  {
+   "start": 0.08,
+   "end": 2.18,
+   "text": "Ou vai despaixar",
+   "words": [
+    {
+     "start": 0.08,
+     "end": 0.72,
+     "word": " Ou",
+     "p": 0.06171321123838425
+    },
+    {
+     "start": 0.72,
+     "end": 1.14,
+     "word": " vai",
+     "p": 0.40035557746887207
+    },
+    {
+     "start": 1.14,
+     "end": 2.18,
+     "word": " despaixar",
+     "p": 0.5253903195261955
+    }
+   ]
+  }
+ ]
+}

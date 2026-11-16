@@ -1,0 +1,68 @@
+{
+ "page_url": "https://www.tiktok.com/@amazonka_restobar/video/7168379533391858949",
+ "captured_at": "2026-11-15T11:22:26.112Z",
+ "id": "7168379533391858949",
+ "desc": "",
+ "createTime": "1669018428",
+ "createTimeISO": "2022-11-21T08:13:48.000Z",
+ "author": {
+  "uniqueId": "amazonka_restobar",
+  "nickname": "Amazonkarestobar"
+ },
+ "stats": {
+  "diggCount": 8,
+  "shareCount": 0,
+  "commentCount": 0,
+  "playCount": 578,
+  "collectCount": "0"
+ },
+ "statsV2": {
+  "diggCount": "8",
+  "shareCount": "0",
+  "commentCount": "0",
+  "playCount": "578",
+  "collectCount": "0",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7168379516447607558",
+  "title": "оригинальный звук",
+  "authorName": "Amazonkarestobar",
+  "original": true,
+  "duration": 5
+ },
+ "challenges": [],
+ "textExtra": [],
+ "contents": [],
+ "stickersOnItem": [],
+ "locationCreated": "BY",
+ "textLanguage": "un",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 5,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "1124558",
+  "variants": [
+   {
+    "gear": "normal_540_0",
+    "codec": "h264",
+    "bitrate": 1608234,
+    "w": 576,
+    "h": 1024,
+    "size": "1124558"
+   }
+  ],
+  "subtitles": []
+ }
+}

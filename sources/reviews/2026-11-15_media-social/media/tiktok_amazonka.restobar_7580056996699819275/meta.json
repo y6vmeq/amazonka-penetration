@@ -1,0 +1,77 @@
+{
+ "page_url": "https://www.tiktok.com/@amazonka.restobar/video/7580056996699819275",
+ "captured_at": "2026-11-15T11:22:57.336Z",
+ "id": "7580056996699819275",
+ "desc": "📍Ленинская, 38 #могилев🇧🇾 ",
+ "createTime": "1764869555",
+ "createTimeISO": "2025-12-04T17:32:35.000Z",
+ "author": {
+  "uniqueId": "amazonka.restobar",
+  "nickname": "Amazonka.mogilev"
+ },
+ "stats": {
+  "diggCount": 47,
+  "shareCount": 0,
+  "commentCount": 0,
+  "playCount": 967,
+  "collectCount": "1"
+ },
+ "statsV2": {
+  "diggCount": "47",
+  "shareCount": "0",
+  "commentCount": "0",
+  "playCount": "967",
+  "collectCount": "1",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7448305278723853062",
+  "title": "оригинальный звук",
+  "authorName": "Асан Жакаев",
+  "original": true,
+  "duration": 42
+ },
+ "challenges": [
+  "могилев🇧🇾"
+ ],
+ "textExtra": [
+  {
+   "hashtag": "могилев🇧🇾",
+   "user": null
+  }
+ ],
+ "contents": [
+  "📍Ленинская, 38 #могилев🇧🇾 "
+ ],
+ "stickersOnItem": [],
+ "locationCreated": "BY",
+ "textLanguage": "ru",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 8,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "750686",
+  "variants": [
+   {
+    "gear": "normal_540_0",
+    "codec": "h264",
+    "bitrate": 735335,
+    "w": 576,
+    "h": 1024,
+    "size": "750686"
+   }
+  ],
+  "subtitles": []
+ }
+}

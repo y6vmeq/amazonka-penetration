@@ -1,0 +1,93 @@
+{
+ "page_url": "https://www.tiktok.com/@amazonka.restobar/video/7593088809298840844",
+ "captured_at": "2026-11-15T11:23:09.011Z",
+ "id": "7593088809298840844",
+ "desc": "#Рестобар Амазонка | 📍Ленинская, 38",
+ "createTime": "1767903759",
+ "createTimeISO": "2026-01-08T20:22:39.000Z",
+ "author": {
+  "uniqueId": "amazonka.restobar",
+  "nickname": "Amazonka.mogilev"
+ },
+ "stats": {
+  "diggCount": 6,
+  "shareCount": 0,
+  "commentCount": 0,
+  "playCount": 723,
+  "collectCount": "0"
+ },
+ "statsV2": {
+  "diggCount": "6",
+  "shareCount": "0",
+  "commentCount": "0",
+  "playCount": "723",
+  "collectCount": "0",
+  "repostCount": "0"
+ },
+ "music": {
+  "id": "7593088777896839948",
+  "title": "оригинальный звук",
+  "authorName": "Amazonka.mogilev",
+  "original": true,
+  "duration": 6
+ },
+ "challenges": [
+  "рестобар"
+ ],
+ "textExtra": [
+  {
+   "hashtag": "рестобар",
+   "user": null
+  }
+ ],
+ "contents": [
+  "#Рестобар Амазонка | 📍Ленинская, 38"
+ ],
+ "stickersOnItem": [],
+ "locationCreated": "BY",
+ "textLanguage": "ru",
+ "isAd": false,
+ "poi": null,
+ "anchors": null,
+ "itemCommentStatus": 0,
+ "AIGCDescription": "",
+ "IsAigc": false,
+ "imagePostCount": 0,
+ "video": {
+  "duration": 6,
+  "width": 576,
+  "height": 1024,
+  "ratio": "540p",
+  "format": "mp4",
+  "codecType": "h264",
+  "definition": "540p",
+  "size": "482245",
+  "variants": [
+   {
+    "gear": "normal_540_0",
+    "codec": "h264",
+    "bitrate": 635892,
+    "w": 576,
+    "h": 1024,
+    "size": "482245"
+   },
+   {
+    "gear": "adapt_lowest_1080_1",
+    "codec": "h265_hvc1",
+    "bitrate": 411427,
+    "w": 1080,
+    "h": 1920,
+    "size": "312016"
+   },
+   {
+    "gear": "adapt_lower_720_1",
+    "codec": "h265_hvc1",
+    "bitrate": 354881,
+    "w": 720,
+    "h": 1280,
+    "size": "269133"
+   }
+  ],
+  "subtitles": []
+ }
+}

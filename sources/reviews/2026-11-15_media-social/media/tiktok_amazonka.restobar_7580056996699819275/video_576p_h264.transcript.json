@@ -1,0 +1,34 @@
+{
+ "file": "video_576p_h264.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.9606728553771973,
+ "duration": 8.151625,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 0.72,
+   "text": "This is amazing!",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.3,
+     "word": " This",
+     "p": 0.8448050022125244
+    },
+    {
+     "start": 0.3,
+     "end": 0.42,
+     "word": " is",
+     "p": 0.9852095246315002
+    },
+    {
+     "start": 0.42,
+     "end": 0.72,
+     "word": " amazing!",
+     "p": 0.6131027340888977
+    }
+   ]
+  }
+ ]
+}

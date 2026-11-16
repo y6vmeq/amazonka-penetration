@@ -1,0 +1,72 @@
+## media-forums-001 | amazonka-mogilev | mogilev.in | review | 2026-09-19 | id8062 | negative | raw=raw/008_mogilev-in_mogilev-in-amazonka-rev3561.html
+   URL: https://mogilev.in/cafe/amazonka_bar/rev3561/
+   N: Городской портал mogilev.in, каталог заведений, страница «Рестобар «Амазонка» (Ленинская, 38). Заголовок отзыва на странице: «Кафе «Амазонка»: заказали два «цезаря» и пиццу. Привезли быстро, но разочаровали». Оценка 1 из 5 (ratingValue в разметке страницы). Чи
+## media-forums-002 | amazonka-mogilev | mogilev.in | review | 2026-01-10 | id7860 | negative | raw=raw/009_mogilev-in_mogilev-in-amazonka-rev3445.html
+   URL: https://mogilev.in/cafe/amazonka_bar/rev3445/
+   N: Городской портал mogilev.in, страница «Рестобар «Амазонка». Заголовок отзыва на странице: «О заказе пришлось напомнить. После 5 часов ожидания». Оценка 3 из 5 (ratingValue в разметке страницы). Ответа заведения нет.
+## media-forums-003 | amazonka-mogilev | mogilev.in | review | 2023-11-27 | Анастасия Руденок | mixed | raw=raw/010_mogilev-in_mogilev-in-amazonka-rev2949.html
+   URL: https://mogilev.in/cafe/amazonka_bar/rev2949/
+   N: Городской портал mogilev.in, страница «Рестобар «Амазонка». Заголовок отзыва на странице: «Экзотика. Рестобар для тех, кто не боится рептилий». Оценка 4 из 5. В целом положительный отзыв; претензия — сверчки в зале. Также сообщается, что рептилий дают трогать 
+## media-forums-004 | amazonka-mogilev | olo.by | article | 2025-05-17 | None | negative | raw=raw/045_olo-by_olo-blog-prosrochka-amazonka.html
+   URL: https://olo.by/blog/kafe-i-kofeyni/isporchennoe-vino-v-bare-i-ne-tolko-sanstanciya-mogileva-opublikovala-spisok-obektov-gde-nashli-proshli-prosrochku-168
+   N: Заголовок статьи: «Испорченное вино в баре и не только: санстанция Могилёва опубликовала список объектов, где нашли прошли просрочку» (блог каталога «ОлоБай»). В text — два абзаца о заведении; дальше в статье перечислены магазины. Статья пересказывает сводку М
+## media-forums-005 | amazonka-mogilev | magilev.by | article | 2023-10-11 | Саша ДАРИЧ | mixed | raw=raw/053_magilev-by_magilev-2023-10-11-borodataya-zhenya.html
+   URL: https://magilev.by/news/2023/10/11/borodataya-zhenya-i-gekkon-misha-poobedali-za-950-v-restobare-amazonka
+   M: Фото автора в статье (рептилии, блюда, зал) — не скачивались
+   N: Заголовок: «Бородатая Женя и геккон Миша. Пообедали за 9.50 в рестобаре «Амазонка». Самая ранняя найденная публикация о заведении (юрлицо зарегистрировано 05.10.2023). Обзор в целом положительный; замечание автора — «соли было многовато». Фактические сведения 
+## media-forums-006 | amazonka-mogilev | magilev.by | article | 2023-11-26 | Ольга ВИР | mixed | raw=raw/054_magilev-by_magilev-2023-11-26-gastrofest-amazonka.html
+   URL: https://magilev.by/news/2023/11/26/gastrofest-v-mogileve-udivitelno-vkusno-iskristo-i-ostro-vpechatlenie-o-sete-restobara-amazonka
+   M: Фото автора в статье — не скачивались
+   N: Заголовок: ««Гастрофест» в Могилеве: «удивительно вкусно, искристо и остро» накормили в рестобаре «Амазонка». Еда оценена высоко. Претензии автора: тесное помещение, столкнулись официанты и пострадало блюдо; под столом не помещались ноги; в 17:30 официант попр
+## media-forums-007 | amazonka-mogilev | magilev.by | article | 2024-07-02 | Ольга ВИР | mixed | raw=raw/056_magilev-by_magilev-2024-07-02-chto-to-ne-tak.html
+   URL: https://magilev.by/news/2024/07/02/ostalos-chuvstvo-chto-to-s-etim-blyudom-ne-tak-shodili-v-amazonku-na-festival-belorusskoj-kuhni
+   M: Фото автора в статье — не скачивались
+   N: Заголовок: ««Осталось чувство: что-то с этим блюдом не так». Сходили в «Амазонку» на фестиваль белорусской кухни». Претензии автора: при предзаказе за 4 дня попросили ждать; забыли принести приборы, потом тарелки; у официанта «вылетел стакан из рук», «в прошлы
+## media-forums-008 | amazonka-mogilev | magilev.by | article | 2024-11-29 | Елена ПАСКИР | mixed | raw=raw/057_magilev-by_magilev-2024-11-29-sup-na-lyubitelya.html
+   URL: https://magilev.by/news/2024/11/29/gastrofest-v-mogileve-sup-v-amazonke-na-lyubitelya
+   M: Фото автора в статье — не скачивались
+   N: Заголовок: ««Гастрофест» в Могилеве: суп в «Амазонке» – на любителя». Претензии автора: в рисе с цыплёнком попалась куриная косточка; суп пришёлся не по вкусу; баклажаны «хрустящими… можно было назвать с большой натяжкой». Обслуживание и десерт оценены положит
+## media-forums-009 | amazonka-mogilev | magilev.by | article | 2024-12-12 | Ирина ПОЛОВИКОВА | positive | raw=raw/058_magilev-by_magilev-2024-12-12-ekzoticheskie-reptilii.html
+   URL: https://magilev.by/news/2024/12/12/v-raboteekzoticheskie-reptilii-avtorskie-koktejli-i-rolly-na-lyuboj-vkus-v-amazonke-mogut-ugodit-dazhe-samomu-kapriznomu-gostyu
+   M: Фото автора и «фото из инстаграм заведения» в статье — не скачивались
+   N: Заголовок: «Экзотические рептилии, авторские коктейли и роллы на любой вкус: в «Амазонке» могут угодить даже самому капризному гостю». Положительная статья; в конце — реквизиты юрлица «ООО "Амазонка Групп" УНП 791349254». Жалоб в ней нет: внесена ради фактичес
+## media-forums-010 | amazonka-mogilev | magilev.by | article | 2026-03-17 | Саша Дарич | positive | raw=raw/052_magilev-by_magilev-lepshy-gust-amazonka.html
+   URL: https://magilev.by/news/2026/03/17/kulinarnyj-festival-lepshy-gust-magileva-v-gastrobare-amazanka-yaponskij-akcent-i-belorusskaya-dusha
+   M: Фото автора в статье — не скачивались
+   N: Заголовок: «Кулинарный фестиваль «Лепшы густ Магiлева» в гастробаре «Амазонка»: японский акцент и белорусская душа». Положительный обзор фестивального сета; в конце — реквизиты юрлица «ООО "АмазонкаГрупп", УНП 791349254». Жалоб нет. В text — статья целиком; ме
+## media-forums-011 | amazonka-minsk | koko.by | article | 2025-12-01 | Кокобай | mixed | raw=raw/012_koko-by_koko-poglad-udava.html
+   URL: https://koko.by/cafehouse/13670-poglad-udava
+   M: Фото в статье — не скачивались
+   M: https://www.instagram.com/reel/DRtzCqpiIAE (ссылка из статьи)
+   N: Заголовок: «Где подержать змею и съесть пол-литра Том Яма. Пробрались в джунгли первого гастробара с экзотикой «Амазонка». Обзор минского заведения (Минск, ул. Карла Маркса, 21), о котором сказано, что оно пришло «из Могилёва». Оценка 7 — по 10-балльной шкале:
+## media-forums-012 | smak-by | mycity.by | article | 2026-11-06 | None | neutral | raw=raw/002_mycity-by_mycity-gastrofest-craft.html
+   URL: https://mycity.by/news/obshchestvo/14369-respublikanskij-festival-gastrofest-craft-projdet-v-mogileve-uznali-chto-v-menyu
+   N: Заголовок: «Республиканский фестиваль Gastrofest.Craft пройдет в Могилеве. Узнали, что в меню». Могилёвский городской информационно-справочный портал (ГП «МОЦИС») перечисляет «Смак.BY» среди участников фестиваля 12–29 ноября 2026 г. с адресом и составом сета. 
+## media-forums-013 | smak-by | mogilev.in | article | 2026-11-05 | None | neutral | raw=raw/032_mogilev-in_mogilev-in-gastrofest-craft-nov-2026.html
+   URL: https://mogilev.in/news/13566/
+   N: Заголовок: «Республиканский Gastrofest.Крафт пройдет в ноябре: все сеты в Могилеве». Городской портал перечисляет «Смак.BY» среди участников фестиваля 12–29 ноября 2026 г. Жалоб и оценок нет: внесено как подтверждение публичного анонса заведения. У восьми из д
+## media-forums-014 | smak-by | magilev.by | article | 2026-11-03 | Подготовила Галина ПОКРОВСКАЯ | neutral | raw=raw/060_magilev-by_magilev-2026-11-03-12-gastrofest.html
+   URL: https://magilev.by/news/2026/11/03/12-j-gastrofest-v-mogileve-kto-uchastvuet-i-chto-v-menyu-za-39-rublej
+   M: Встроенная публикация Instagram («Посмотреть эту публикацию в Instagram») — не скачивалась
+   N: Заголовок: «12-й «Гастрофест» в Могилеве: кто участвует и что в меню за 39 рублей» (счётчик просмотров на странице: «10k»). «Смак.BY» назван среди участников фестиваля 12–29 ноября 2026 г. В этой статье у «Рестобара [исключено] и «Рестобара «Амазонка» указаны телеф
+## media-forums-015 | amazonka-mogilev | b4y.by | other | 2026-08-28 | None | neutral | raw=raw/051_b4y-by_b4y-restobar-na-prodazhu.html
+   URL: https://b4y.by/product/21181
+   M: https://b4y.by/storage/ads/18/03/2024/fU5q5nlFrzBzspHRf0e5IMN1C.jpg (фото объявления, не скачивалось)
+   N: Объявление о продаже бизнеса: «Экзотический рестобар в Могилеве» (№ 21181, «Премиум», 583 просмотра, 113 м2, цена 390 338 BYN). В блоке «Контакты продавца»: «Беларусь, Могилевская обл., Могилев, Ленинская, 38», телефон +375(29)658-99-69. Жалоб нет: внесено как
+## media-forums-016 | amazonka-mogilev | komkur.info | article | 2024-12-12 | Ирина ПОЛОВИКОВА | positive | raw=raw/001_komkur-info_komkur-amazonka-gekkon.html
+   URL: https://komkur.info/money/v-mogilevskom-restobare-amazonka-mozhno-poderzhat-v-rukakh-gekkona-sest-sup-s-osminozhkami-i-zakazat-rimskuyu-pitstsu/
+   N: Заголовок: «В могилевском рестобаре «Амазонка» можно подержать в руках геккона, съесть суп с осьминожками и заказать римскую пиццу» (рубрика «Что Где Почем», 12.12.2024). Тот же текст, что в статье magilev.by от 12.12.2024 (media-forums-009), с отличиями: здес
+## media-forums-017 | amazonka-mogilev | magilev.by | article | 2026-06-23 | Саша ДАРИЧ | positive | raw=raw/059_magilev-by_magilev-2026-06-23-vkus-leta-amazonka.html
+   URL: https://magilev.by/news/2026/06/23/reklama-na-2306gastrofest-s-ramenom-rollami-i-tryufelnym-desertom-probuem-vkus-leta-v-restobare-amazonka
+   M: Фото автора в статье — не скачивались
+   N: Заголовок: «Гастрофест с раменом, роллами и трюфельным десертом. Пробуем «Вкус лета» в рестобаре «Амазонка». В адресе страницы есть слово «reklama» (reklama-na-2306…). Положительный обзор, жалоб нет. В text — статья целиком; между абзацами подписи к фото. О ве
+## media-forums-018 | amazonka-mogilev | magilev.by | article | 2024-01-27 | Евгений БУЛОВА | positive | raw=raw/055_magilev-by_magilev-2024-01-27-zimovy-smak-amazonka.html
+   URL: https://magilev.by/news/2024/01/27/na-festivale-edy-zimovy-smak-restobar-amazonka-i-udivil-i-vkusno-nakormil
+   M: Фото автора в статье — не скачивались
+   N: Заголовок: «На фестивале еды «Зімовы смак»: рестобар «Амазонка» и удивил, и вкусно накормил». Положительный обзор, жалоб нет. В text — только абзацы о животных в «аквариумах» в зале (между ними подпись к фото).
+## media-forums-019 | amazonka-mogilev | mogilev.in | other | None | None | neutral | raw=raw/006_mogilev-in_mogilev-in-catalog-amazonka.html
+   URL: https://mogilev.in/cafe/amazonka_bar/
+   N: Описание заведения в карточке каталога городского портала mogilev.in (не отзыв). В разметке страницы краткое описание: «Рестобар с живыми рептилиями». В карточке: адрес «212030 г. Могилев, ул. Ленинская, 38», время работы «Пт-сб: 12:00 - 5:00, Вс-чт: 12:00 - 3
+## media-forums-020 | amazonka-mogilev | mcge.by | official | 2025-05 | Могилёвский областной центр гигиены, эпидемиологии и общественного здоровья | negative | raw=None
+   URL: https://mcge.by/archives/3891
+   N: НЕ проверено по сырой копии: это строка в том виде, в каком её привёл поисковый инструмент (WebSearch) как выдержку со страницы «Информация по объектам торговли и общественного питания, в которых осуществлялась торговля товарами с истекшими сроками годности (х

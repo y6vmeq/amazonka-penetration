@@ -1,0 +1,8 @@
+{
+ "file": "video_576p_h264.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.6138256788253784,
+ "duration": 7.68725,
+ "segments": []
+}

@@ -1,0 +1,6 @@
+# Расшифровка: video_576p_h264.mp4
+# Модель: faster-whisper large-v3-turbo; язык: sv (p=0.79); длительность: 7.6 с; автоматическая расшифровка — сверять на слух перед цитированием
+
+[00:00.3 – 00:01.7] När du pratar med Tone
+[00:01.7 – 00:03.4] Tranquillo, tranquillo, tranquillo
+[00:03.4 – 00:05.2] En brunette och en blondin
