@@ -1,0 +1,5 @@
+# Расшифровка: 2026-02-13_amazonka_restobar_mogilev_DUsrm-GiKHu_video1.mp4
+# Модель: faster-whisper large-v3-turbo; язык: en (p=0.73); длительность: 10.4 с; автоматическая расшифровка — сверять на слух перед цитированием
+
+[00:00.2 – 00:05.8] We don't have any words to say
+[00:05.8 – 00:09.6] It's lovely, it's lovely

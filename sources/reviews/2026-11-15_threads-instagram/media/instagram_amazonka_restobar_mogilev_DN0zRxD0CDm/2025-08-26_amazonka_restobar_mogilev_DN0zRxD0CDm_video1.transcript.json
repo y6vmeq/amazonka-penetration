@@ -1,0 +1,46 @@
+{
+ "file": "2025-08-26_amazonka_restobar_mogilev_DN0zRxD0CDm_video1.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.9208800792694092,
+ "duration": 11.9596875,
+ "segments": [
+  {
+   "start": 0.05,
+   "end": 0.69,
+   "text": "That's what you're gonna do.",
+   "words": [
+    {
+     "start": 0.05,
+     "end": 0.19,
+     "word": " That's",
+     "p": 0.4895786587148905
+    },
+    {
+     "start": 0.19,
+     "end": 0.23,
+     "word": " what",
+     "p": 0.8736390471458435
+    },
+    {
+     "start": 0.23,
+     "end": 0.35,
+     "word": " you're",
+     "p": 0.8034135401248932
+    },
+    {
+     "start": 0.35,
+     "end": 0.47,
+     "word": " gonna",
+     "p": 0.5140807032585144
+    },
+    {
+     "start": 0.47,
+     "end": 0.69,
+     "word": " do.",
+     "p": 0.996752917766571
+    }
+   ]
+  }
+ ]
+}

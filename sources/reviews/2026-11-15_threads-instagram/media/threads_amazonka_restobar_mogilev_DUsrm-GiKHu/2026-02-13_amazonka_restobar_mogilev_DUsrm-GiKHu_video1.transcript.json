@@ -1,0 +1,89 @@
+{
+ "file": "2026-02-13_amazonka_restobar_mogilev_DUsrm-GiKHu_video1.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.7314026951789856,
+ "duration": 10.4271875,
+ "segments": [
+  {
+   "start": 0.21,
+   "end": 5.79,
+   "text": "We don't have any words to say",
+   "words": [
+    {
+     "start": 0.21,
+     "end": 1.55,
+     "word": " We",
+     "p": 0.03818197175860405
+    },
+    {
+     "start": 3.15,
+     "end": 4.13,
+     "word": " don't",
+     "p": 0.9117280542850494
+    },
+    {
+     "start": 4.13,
+     "end": 4.35,
+     "word": " have",
+     "p": 0.9164230227470398
+    },
+    {
+     "start": 4.35,
+     "end": 4.75,
+     "word": " any",
+     "p": 0.9270731210708618
+    },
+    {
+     "start": 4.75,
+     "end": 5.07,
+     "word": " words",
+     "p": 0.9968034029006958
+    },
+    {
+     "start": 5.07,
+     "end": 5.27,
+     "word": " to",
+     "p": 0.9871496558189392
+    },
+    {
+     "start": 5.27,
+     "end": 5.79,
+     "word": " say",
+     "p": 0.9858642220497131
+    }
+   ]
+  },
+  {
+   "start": 5.79,
+   "end": 9.61,
+   "text": "It's lovely, it's lovely",
+   "words": [
+    {
+     "start": 5.79,
+     "end": 6.83,
+     "word": " It's",
+     "p": 0.6332796216011047
+    },
+    {
+     "start": 6.83,
+     "end": 7.43,
+     "word": " lovely,",
+     "p": 0.8475620150566101
+    },
+    {
+     "start": 7.99,
+     "end": 8.85,
+     "word": " it's",
+     "p": 0.9691584408283234
+    },
+    {
+     "start": 8.85,
+     "end": 9.61,
+     "word": " lovely",
+     "p": 0.9846240282058716
+    }
+   ]
+  }
+ ]
+}

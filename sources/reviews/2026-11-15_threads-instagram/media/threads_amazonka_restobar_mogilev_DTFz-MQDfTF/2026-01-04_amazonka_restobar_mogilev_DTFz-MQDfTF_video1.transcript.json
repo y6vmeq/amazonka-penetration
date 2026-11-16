@@ -1,0 +1,22 @@
+{
+ "file": "2026-01-04_amazonka_restobar_mogilev_DTFz-MQDfTF_video1.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.6911252737045288,
+ "duration": 12.5634375,
+ "segments": [
+  {
+   "start": 4.69,
+   "end": 5.25,
+   "text": "Yeah.",
+   "words": [
+    {
+     "start": 4.69,
+     "end": 5.25,
+     "word": " Yeah.",
+     "p": 0.13887204229831696
+    }
+   ]
+  }
+ ]
+}

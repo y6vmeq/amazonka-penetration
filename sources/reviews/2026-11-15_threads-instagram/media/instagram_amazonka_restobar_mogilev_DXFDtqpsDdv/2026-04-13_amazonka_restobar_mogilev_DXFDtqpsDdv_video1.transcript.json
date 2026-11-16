@@ -1,0 +1,22 @@
+{
+ "file": "2026-04-13_amazonka_restobar_mogilev_DXFDtqpsDdv_video1.mp4",
+ "model": "large-v3-turbo",
+ "language": "es",
+ "language_probability": 0.22493292391300201,
+ "duration": 11.030875,
+ "segments": [
+  {
+   "start": 0.34,
+   "end": 0.36,
+   "text": "Gracias.",
+   "words": [
+    {
+     "start": 0.34,
+     "end": 0.36,
+     "word": " Gracias.",
+     "p": 0.5651092529296875
+    }
+   ]
+  }
+ ]
+}

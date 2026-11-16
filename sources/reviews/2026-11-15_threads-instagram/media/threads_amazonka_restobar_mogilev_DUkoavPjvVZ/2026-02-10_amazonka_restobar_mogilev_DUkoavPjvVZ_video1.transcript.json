@@ -1,0 +1,40 @@
+{
+ "file": "2026-02-10_amazonka_restobar_mogilev_DUkoavPjvVZ_video1.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.9467828869819641,
+ "duration": 13.07425,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 1.72,
+   "text": "Three, two, one, go!",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.4,
+     "word": " Three,",
+     "p": 0.5477742552757263
+    },
+    {
+     "start": 0.56,
+     "end": 0.82,
+     "word": " two,",
+     "p": 0.993513286113739
+    },
+    {
+     "start": 1.06,
+     "end": 1.32,
+     "word": " one,",
+     "p": 0.9981493949890137
+    },
+    {
+     "start": 1.48,
+     "end": 1.72,
+     "word": " go!",
+     "p": 0.9917444586753845
+    }
+   ]
+  }
+ ]
+}

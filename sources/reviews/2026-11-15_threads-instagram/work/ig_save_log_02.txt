@@ -1,0 +1,68 @@
+085_instagram_amazonka_restobar_mogilev_DfHRi2fkY7q: status=200 login=False final=https://www.instagram.com/p/DfHRi2fkY7q/
+  post DfHRi2fkY7q by amazonka_restobar_mogilev 2026-10-30T09:35:54.000Z likes=51 comments=0 media=['image', 'image', 'image', 'image', 'image', 'image', 'image'] coauthors=[] type=carousel_container
+  caption: Хеллоуин в джунглях Амазонки! 🌿👻 ⏎  ⏎ Самая мистическая ночь года уже совсем скоро!  ⏎  ⏎ Рестобар «Амазонка» приготовил: ⏎  ⏎ ✨ Специальные «жуткие» коктейли 🍹 ⏎ ✨ Тематические блюда 🎃 ⏎ ✨ Таинственная атмосфера и сюрпризы ⏎  ⏎ Успейте забронировать столик — вечер обещает быть по-настоящему колдовским! ⏎  ⏎ 📍 Ленинская, 38 ⏎ 📲 +375 33 399-02-20
+086_instagram_amazonka_restobar_mogilev_De9GkdokdbY: status=200 login=False final=https://www.instagram.com/p/De9GkdokdbY/
+  post De9GkdokdbY by amazonka_restobar_mogilev 2026-10-26T10:47:36.000Z likes=32 comments=0 media=['image', 'image', 'image', 'image', 'image', 'image', 'image', 'image', 'image'] coauthors=[] type=carousel_container
+  caption: 🎃 Хэллоуин в «Амазонке» — время пробовать необычное! 🦎 ⏎  ⏎ Мы подготовили для вас тематические блюда и напитки, которые добавят немного мистики, ярких впечатлений и хэллоуинского настроения в ваши вечера. 👻 ⏎  ⏎ С 27 октября по 9 ноября погружаемся в атмосферу загадок, пробуем специальные позиции меню и наслаждаемся экзотикой в стиле «Амазонки». ⏎  ⏎ Собирайте друзей, выбирайте что-то необычное и
+087_instagram_amazonka_restobar_mogilev_DVjBhMliFPC: status=200 login=False final=https://www.instagram.com/p/DVjBhMliFPC/
+  post DVjBhMliFPC by amazonka_restobar_mogilev 2026-03-09T15:00:00.000Z likes=28 comments=0 media=['image', 'image'] coauthors=[] type=carousel_container
+  caption: Сет из 8 настоек — это уже маленькое путешествие по вкусам 🍹🌿 ⏎  ⏎ Ананасовая • Миндаль-фисташка-джин • Кокосовая • Малиновая • Маракуйя • Персиковая • Лаванда-джин • Банановая ⏎  ⏎ Всё это в одном сете. Приходи пробовать и выбирать фаворита 😍 ⏎ 📍 Ленинская, 38 ⏎ 📲 +375 (33) 399-02-20
+088_instagram_amazonka_restobar_mogilev_DdtFRFsEcyg: status=200 login=False final=https://www.instagram.com/p/DdtFRFsEcyg/
+  post DdtFRFsEcyg by amazonka_restobar_mogilev 2026-09-25T08:56:58.000Z likes=32 comments=0 media=['image', 'image'] coauthors=[] type=carousel_container
+  caption: Сегодня в меню — вишнёвое настроение 🍒 ⏎  ⏎ Стейк с салатом и цукини — 32,99 BYN ⏎ Утка в вишнёвом соусе — 25,99 BYN ⏎  ⏎ Ждём вас в Амазонке 🦎 ⏎  ⏎ 📍 Ленинская, 38 ⏎ ☎️ +375 33 339-02-20
+089_instagram_amazonka_restobar_mogilev_DdRBo1hoBcX: status=200 login=False final=https://www.instagram.com/p/DdRBo1hoBcX/
+  post DdRBo1hoBcX by amazonka_restobar_mogilev 2026-09-14T11:26:44.000Z likes=3 comments=1 media=['image'] coauthors=[] type=feed
+  caption: Том Ям, который хочется попробовать с первой ложки 🍜 ⏎  ⏎ Насыщенный бульон, кокосовое молоко, креветки, мидии и кальмар, ароматные грибы, черри и немного лайма для идеального баланса. ⏎  ⏎ 550 г настоящего азиатского удовольствия. ⏎ Ждем вас в «Амазонке» 🌿 ⏎  ⏎ 📍 Ленинская, 38 ⏎ ☎️ +375 33 339 02 20
+090_instagram_amazonka_restobar_mogilev_DV88TuYiDjw: status=200 login=False final=https://www.instagram.com/p/DV88TuYiDjw/
+  post DV88TuYiDjw by amazonka_restobar_mogilev 2026-03-16T16:35:00.000Z likes=34 comments=0 media=['image', 'image'] coauthors=[] type=carousel_container
+  caption: Наш авторский коктейль Жаманшин — уже любимец гостей 🍸 ⏎  ⏎ Джин • апельсин • маракуйя • лимон • гренадин ⏎ Ярко-оранжевый с рубиновым дном, свежий, фруктовый, с лёгкой кислинкой. ⏎ Наш маленький секрет хорошего вечера 💚 ⏎  ⏎ 📍 Ленинская, 38 ⏎ 📲 +375 (33) 399-02-20
+091_instagram_amazonka_restobar_mogilev_DSMkmSviDz6: status=200 login=False final=https://www.instagram.com/reel/DSMkmSviDz6/
+  post DSMkmSviDz6 by amazonka_restobar_mogilev 2025-12-13T08:14:37.000Z likes=208 comments=1 media=['video'] coauthors=['amazonka_restobar_minsk'] type=clips
+  caption: Неделя позади. ⏎ Время выдохнуть, вкусно поужинать и красиво провести вечер ✨ ⏎  ⏎ Без спешки. Без суеты. ⏎ Только атмосфера, вкус и удовольствие. ⏎  ⏎ Забронируй столик и позволь вечеру быть идеальным 💚
+   c alex.ads.video         2026-03-23T11:15 lk=1 ch=None   Отличное место!
+left in browser: 9 running: False stop: None
+092_instagram_koroche__mogilev_DfpbpVNtnex: status=200 login=False final=https://www.instagram.com/reel/DfpbpVNtnex/
+  post DfpbpVNtnex by koroche__mogilev 2026-11-12T15:59:51.000Z likes=344 comments=15 media=['video'] coauthors=['amazonka_restobar_mogilev'] type=clips
+  caption: Начался гастрофест «Крафт» с 12 ноября по 29 ноября! И первое заведение, которое мы посетили это ресто-бар «Амазонка»! 🔥 ⏎   ⏎ 📍 Находится по адресу: ул. Ленинская, 38. ⏎   ⏎ Специально к фестивалю здесь подготовили очень сытный и разнообразный сет «От светлого к тёмному» (вес: 1425 г). Внутри — настоящий пир для любителей мяса и снеков: ⏎   ⏎ 🧀 Фритюр-микс «Золотая классика»: сырные шарики, сочны
+   c khanfazeup             2026-11-15T09:47 lk=0 ch=None   Сходили на гастрофест
+   c a_masha__              2026-11-15T08:39 lk=0 ch=None   Говорят там много тараканов
+   c makson.lebedev         2026-11-14T09:40 lk=1 ch=None   Прикольно🔥 я тоже снял ОБЗОР на ГастроФест «Цоколь»✅😍
+   c maniac1888             2026-11-14T06:27 lk=0 ch=None   выглядит очень достойно 🔥👏
+   c irina.vaitovich        2026-11-13T17:07 lk=0 ch=None   Короче рулят 🔥Девчонки, молодцы!👏 Красотки, отличный обзор 😍
+   c homutova.e18           2026-11-13T16:13 lk=0 ch=None   Инари) очень вкусно🔥
+   c jenya_922              2026-11-13T05:01 lk=0 ch=None   101
+   c julia_khromowa         2026-11-12T18:58 lk=1 ch=None   Эдисон
+   c mikhail_kartoshkin     2026-11-12T18:32 lk=1 ch=None   🔥🔥🔥
+   c aleksandra__pop        2026-11-12T18:29 lk=1 ch=None   101😉
+   c lavenetskiiandrei      2026-11-12T16:50 lk=5 ch=None   Смаженку хочу увидеть старую добрую
+093_instagram_amazonka_restobar_mogilev_DWg24zxsLvf: status=200 login=False final=https://www.instagram.com/reel/DWg24zxsLvf/
+  post DWg24zxsLvf by amazonka_restobar_mogilev 2026-03-30T15:20:00.000Z likes=335 comments=0 media=['video'] coauthors=[] type=clips
+  caption: Наши рептилии — самые фотогеничные и добрые жители Амазонки 🦎 ⏎  ⏎ С ними можно познакомиться поближе, погладить, подержать на руках и сделать классные фото на память ✨ ⏎ Приходите — они уже ждут новых друзей 💚 ⏎  ⏎ 📍 Ленинская, 38 ⏎ 📲 +375 (33) 399-02-20
+094_instagram_amazonka_restobar_mogilev_Da0brVRI5Ks: status=200 login=False final=https://www.instagram.com/reel/Da0brVRI5Ks/
+  post Da0brVRI5Ks by amazonka_restobar_mogilev 2026-07-15T15:54:15.000Z likes=57 comments=1 media=['video'] coauthors=['lukyanova_yelizaveta'] type=clips
+  caption: Ваша прохлада в ⏎ центре Амазонки 🍹 ⏎  ⏎ Ждём Вас каждый день 💚
+095_instagram_amazonka_restobar_mogilev_DaFK7JioeUa: status=200 login=False final=https://www.instagram.com/reel/DaFK7JioeUa/
+  post DaFK7JioeUa by amazonka_restobar_mogilev 2026-06-27T07:23:18.000Z likes=52 comments=0 media=['video'] coauthors=['lukyanova_yelizaveta', 'amazonka_restobar_minsk'] type=clips
+  caption: Суббота + Амазонка = идеальное настроение! 🥂✨ ⏎  ⏎ Знаем, чего вам хочется в этот вечер, и уже ждем в гости.  ⏎ Проведем эти выходные вместе? 💫
+096_instagram_koroche__mogilev_DfXYpn6NEJW: status=200 login=False final=https://www.instagram.com/reel/DfXYpn6NEJW/
+  post DfXYpn6NEJW by koroche__mogilev 2026-11-05T15:47:03.000Z likes=171 comments=17 media=['video'] coauthors=[] type=clips
+  caption: Гастрофест CRAFT  ⏎ 🔥С 12 по 29 ноября 🔥 ⏎  ⏎ 10 заведений ⤵️ ⏎  ⏎ 1 Рестобар Амазонка ⏎ ул. Ленинская, 38 ⏎ 2 Ресторан Хинкальня ⏎ ул. Будённого, 13 ⏎ 3 Ресторан «Чайхана Рахмат» ⏎ ул. Первомайская, 31 ⏎ 4 INARI ⏎ пр-т Мира, 18 ⏎ 5 Бар «Эдисон» ⏎ ул. Ленинская, 11 ⏎ 6Ресторан 101 пер. Пожарный, 6Б ⏎ 7 Рестобар «Луна» ⏎ ул. Ленинская, 22 ⏎ 8 Гастробар Цоколь ⏎ ул. Дзержинского, 19 ⏎ 9 Ресторан-бар
+   c honora8                2026-11-12T17:41 lk=0 ch=None   Эдиссон
+   c alena_konstantsinova   2026-11-11T17:08 lk=0 ch=None   Луна
+   c alena_konstantsinova   2026-11-11T17:08 lk=0 ch=None   Элисон
+   c marijaglushakova       2026-11-07T19:52 lk=0 ch=None   Инари
+   c svetakoledyuk          2026-11-06T05:57 lk=2 ch=None   Инари
+   c jenya_922              2026-11-05T21:59 lk=1 ch=None   101, просто живу рядом))
+   c alina_yurchanka        2026-11-05T21:18 lk=0 ch=None   🔥
+   c julianails_veino       2026-11-05T17:39 lk=1 ch=None   Цоколь
+   c iriska_bozhkova        2026-11-05T16:46 lk=2 ch=None   Луна
+097_instagram_amazonka_restobar_mogilev_DaUqa2Vx5rx: status=200 login=False final=https://www.instagram.com/reel/DaUqa2Vx5rx/
+  post DaUqa2Vx5rx by amazonka_restobar_mogilev 2026-07-03T07:48:12.000Z likes=120 comments=0 media=['video'] coauthors=['lukyanova_yelizaveta'] type=clips
+  caption: Суету — на паузу. Вечер пятницы — на максимум. Ждем вас в самом сердце города 🍸💚
+098_instagram_lukyanova_yelizaveta_DfM-U6gg-nk: status=200 login=False final=https://www.instagram.com/reel/DfM-U6gg-nk/
+  post DfM-U6gg-nk by lukyanova_yelizaveta 2026-11-01T14:44:49.000Z likes=12 comments=0 media=['video'] coauthors=[] type=clips
+  caption: Привет! Моё имя Елизавета, и я решилась на большую мечту. Я безумно люблю наши кулинарные традиции и хочу создать уютное место, где драники будут по-настоящему хрустящими, мачанка — наваристой, а атмосфера — искренней и домашней. ⏎ Я делаю этот проект одна. Уже нашла локацию, проработала концепт и меню. Но чтобы открыться быстрее и сделать кафе по-настоящему «народным», я запускаю краудфандинг. ⏎ 
+left in browser: 2 running: False stop: None
+099_instagram_page_amazonka_restobar_minsk: status=200 login=False final=https://www.instagram.com/amazonka_restobar_minsk/
+100_instagram_page_amazonka_restobar_mogilev_reels: status=200 login=False final=https://www.instagram.com/amazonka_restobar_mogilev/reels/
+left in browser: 0 running: False stop: None

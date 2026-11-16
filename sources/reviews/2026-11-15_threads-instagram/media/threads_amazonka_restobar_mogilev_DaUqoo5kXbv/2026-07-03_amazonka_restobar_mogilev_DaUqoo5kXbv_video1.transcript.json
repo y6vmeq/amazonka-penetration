@@ -1,0 +1,46 @@
+{
+ "file": "2026-07-03_amazonka_restobar_mogilev_DaUqoo5kXbv_video1.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.6220081448554993,
+ "duration": 11.030875,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 7.32,
+   "text": "I'll see you next time.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.24,
+     "word": " I'll",
+     "p": 0.13471264112740755
+    },
+    {
+     "start": 0.24,
+     "end": 0.36,
+     "word": " see",
+     "p": 0.693408727645874
+    },
+    {
+     "start": 0.36,
+     "end": 6.0,
+     "word": " you",
+     "p": 0.9894828200340271
+    },
+    {
+     "start": 6.0,
+     "end": 7.32,
+     "word": " next",
+     "p": 0.6195045113563538
+    },
+    {
+     "start": 7.32,
+     "end": 7.32,
+     "word": " time.",
+     "p": 0.8054035902023315
+    }
+   ]
+  }
+ ]
+}

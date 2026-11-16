@@ -1,0 +1,7 @@
+# Расшифровка: 2026-03-12_amazonka_restobar_mogilev_DVxx6DZDEUK_video1.mp4
+# Модель: faster-whisper large-v3-turbo; язык: it (p=0.95); длительность: 20.3 с; автоматическая расшифровка — сверять на слух перед цитированием
+
+[00:00.2 – 00:07.6] Il tuo bacio è come un rock che ti morde col tuo swing
+[00:07.6 – 00:11.8] Assai facile a knock out che ti fulmina sul ring
+[00:11.8 – 00:15.8] Ma l'effetto di uno show che perciò canto così
+[00:15.8 – 00:20.2] Il tuo bacio è come un rock

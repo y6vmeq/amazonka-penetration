@@ -1,0 +1,4 @@
+# Расшифровка: 2026-04-28_amazonka_restobar_mogilev_DXrPoLKsyUU_video1.mp4
+# Модель: faster-whisper large-v3-turbo; язык: en (p=0.92); длительность: 5.2 с; автоматическая расшифровка — сверять на слух перед цитированием
+
+[00:03.3 – 00:04.9] It's like this and like that.

@@ -1,0 +1,156 @@
+{
+ "file": "2025-12-24_amazonka_restobar_mogilev_DSpj2nsjLxX_video1.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.9564133882522583,
+ "duration": 18.5541875,
+ "segments": [
+  {
+   "start": 0.4,
+   "end": 7.05,
+   "text": "Like sugar on my tongue, tongue, tongue",
+   "words": [
+    {
+     "start": 0.4,
+     "end": 2.06,
+     "word": " Like",
+     "p": 0.4235093891620636
+    },
+    {
+     "start": 3.85,
+     "end": 4.27,
+     "word": " sugar",
+     "p": 0.9551805853843689
+    },
+    {
+     "start": 4.27,
+     "end": 4.61,
+     "word": " on",
+     "p": 0.925858736038208
+    },
+    {
+     "start": 4.61,
+     "end": 4.81,
+     "word": " my",
+     "p": 0.9991933703422546
+    },
+    {
+     "start": 4.81,
+     "end": 5.29,
+     "word": " tongue,",
+     "p": 0.9988648891448975
+    },
+    {
+     "start": 5.55,
+     "end": 6.23,
+     "word": " tongue,",
+     "p": 0.996880292892456
+    },
+    {
+     "start": 6.55,
+     "end": 7.05,
+     "word": " tongue",
+     "p": 0.9991583824157715
+    }
+   ]
+  },
+  {
+   "start": 7.05,
+   "end": 10.81,
+   "text": "Your body's so sweet, sweet, sweet",
+   "words": [
+    {
+     "start": 7.05,
+     "end": 7.65,
+     "word": " Your",
+     "p": 0.42620497941970825
+    },
+    {
+     "start": 7.65,
+     "end": 8.31,
+     "word": " body's",
+     "p": 0.7562260925769806
+    },
+    {
+     "start": 8.31,
+     "end": 8.63,
+     "word": " so",
+     "p": 0.9977421760559082
+    },
+    {
+     "start": 8.63,
+     "end": 9.21,
+     "word": " sweet,",
+     "p": 0.9997138381004333
+    },
+    {
+     "start": 9.41,
+     "end": 9.95,
+     "word": " sweet,",
+     "p": 0.9995310306549072
+    },
+    {
+     "start": 10.13,
+     "end": 10.81,
+     "word": " sweet",
+     "p": 0.9998905658721924
+    }
+   ]
+  },
+  {
+   "start": 10.81,
+   "end": 16.11,
+   "text": "Invite me if you come on my tongue",
+   "words": [
+    {
+     "start": 10.81,
+     "end": 11.89,
+     "word": " Invite",
+     "p": 0.9707547426223755
+    },
+    {
+     "start": 11.89,
+     "end": 12.01,
+     "word": " me",
+     "p": 0.9999109506607056
+    },
+    {
+     "start": 12.01,
+     "end": 12.29,
+     "word": " if",
+     "p": 0.9966097474098206
+    },
+    {
+     "start": 12.29,
+     "end": 12.41,
+     "word": " you",
+     "p": 0.9998879432678223
+    },
+    {
+     "start": 12.41,
+     "end": 12.93,
+     "word": " come",
+     "p": 0.9913240671157837
+    },
+    {
+     "start": 12.93,
+     "end": 13.67,
+     "word": " on",
+     "p": 0.6385337114334106
+    },
+    {
+     "start": 15.53,
+     "end": 15.79,
+     "word": " my",
+     "p": 0.9996192455291748
+    },
+    {
+     "start": 15.79,
+     "end": 16.11,
+     "word": " tongue",
+     "p": 0.9999127388000488
+    }
+   ]
+  }
+ ]
+}

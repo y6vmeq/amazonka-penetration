@@ -1,0 +1,452 @@
+[
+ {
+  "page": "https://www.threads.com/@masha_portugal",
+  "fetched_at": "2026-11-15T10:01:04.152Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@masha_portugal",
+  "redirected_to_login": false,
+  "posts_in_page_data": 6,
+  "followers": 116
+ },
+ {
+  "page": "https://www.threads.com/@masha_portugal/replies",
+  "fetched_at": "2026-11-15T10:01:07.865Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@masha_portugal/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 9,
+  "followers": 116
+ },
+ {
+  "page": "https://www.threads.com/@_ananacc",
+  "fetched_at": "2026-11-15T10:01:11.510Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@_ananacc",
+  "redirected_to_login": false,
+  "posts_in_page_data": 7,
+  "followers": 110
+ },
+ {
+  "page": "https://www.threads.com/@_ananacc/replies",
+  "fetched_at": "2026-11-15T10:01:15.645Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@_ananacc/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 8,
+  "followers": 110
+ },
+ {
+  "page": "https://www.threads.com/@gurbamladshiy",
+  "fetched_at": "2026-11-15T10:01:19.175Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@gurbamladshiy",
+  "redirected_to_login": false,
+  "posts_in_page_data": 4,
+  "followers": 266
+ },
+ {
+  "page": "https://www.threads.com/@gurbamladshiy/replies",
+  "fetched_at": "2026-11-15T10:01:23.200Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@gurbamladshiy/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 8,
+  "followers": 266
+ },
+ {
+  "page": "https://www.threads.com/@ula.ruu",
+  "fetched_at": "2026-11-15T10:01:26.857Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@ula.ruu",
+  "redirected_to_login": false,
+  "posts_in_page_data": 3,
+  "followers": 7
+ },
+ {
+  "page": "https://www.threads.com/@ula.ruu/replies",
+  "fetched_at": "2026-11-15T10:01:30.480Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@ula.ruu/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 9,
+  "followers": 7
+ },
+ {
+  "page": "https://www.threads.com/@amazonka_restobar_mogilev",
+  "fetched_at": "2026-11-15T10:01:34.812Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@amazonka_restobar_mogilev",
+  "redirected_to_login": false,
+  "posts_in_page_data": 4,
+  "followers": 1089
+ },
+ {
+  "page": "https://www.threads.com/@amazonka_restobar_mogilev/replies",
+  "fetched_at": "2026-11-15T10:01:39.226Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@amazonka_restobar_mogilev/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 0,
+  "followers": 1089
+ },
+ {
+  "page": "https://www.threads.com/@smak.by_mogilev",
+  "fetched_at": "2026-11-15T10:01:42.361Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/login/?next=https%3A%2F%2Fwww.threads.com%2F%40smak.by_mogilev%2F",
+  "redirected_to_login": true,
+  "posts_in_page_data": 0,
+  "followers": null
+ },
+ {
+  "page": "https://www.threads.com/@smak.by_mogilev/replies",
+  "fetched_at": "2026-11-15T10:01:45.878Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/login/?next=https%3A%2F%2Fwww.threads.com%2F%40smak.by_mogilev%2F",
+  "redirected_to_login": true,
+  "posts_in_page_data": 0,
+  "followers": null
+ },
+ {
+  "page": "https://www.threads.com/@lukyanova_yelizaveta",
+  "fetched_at": "2026-11-15T10:01:48.861Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/login/?next=https%3A%2F%2Fwww.threads.com%2F%40lukyanova_yelizaveta%2F",
+  "redirected_to_login": true,
+  "posts_in_page_data": 0,
+  "followers": null
+ },
+ {
+  "page": "https://www.threads.com/@lukyanova_yelizaveta/replies",
+  "fetched_at": "2026-11-15T10:01:51.879Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/login/?next=https%3A%2F%2Fwww.threads.com%2F%40lukyanova_yelizaveta%2F",
+  "redirected_to_login": true,
+  "posts_in_page_data": 0,
+  "followers": null
+ },
+ {
+  "page": "https://www.threads.com/@gastrofest.by",
+  "fetched_at": "2026-11-15T10:01:55.097Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@gastrofest.by",
+  "redirected_to_login": false,
+  "posts_in_page_data": 4,
+  "followers": 30481
+ },
+ {
+  "page": "https://www.threads.com/@gastrofest.by/replies",
+  "fetched_at": "2026-11-15T10:01:59.131Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@gastrofest.by/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 6,
+  "followers": 30481
+ },
+ {
+  "page": "https://www.threads.com/@gastrofest.mogilev",
+  "fetched_at": "2026-11-15T10:02:03.461Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/login/?next=https%3A%2F%2Fwww.threads.com%2F%40gastrofest.mogilev%2F",
+  "redirected_to_login": true,
+  "posts_in_page_data": 0,
+  "followers": null
+ },
+ {
+  "page": "https://www.threads.com/@gastrofest.mogilev/replies",
+  "fetched_at": "2026-11-15T10:02:06.434Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/login/?next=https%3A%2F%2Fwww.threads.com%2F%40gastrofest.mogilev%2F",
+  "redirected_to_login": true,
+  "posts_in_page_data": 0,
+  "followers": null
+ },
+ {
+  "page": "https://www.threads.com/@koroche_mogilev",
+  "fetched_at": "2026-11-15T10:02:09.880Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/login/?next=https%3A%2F%2Fwww.threads.com%2F%40koroche_mogilev%2F",
+  "redirected_to_login": true,
+  "posts_in_page_data": 0,
+  "followers": null
+ },
+ {
+  "page": "https://www.threads.com/@koroche_mogilev/replies",
+  "fetched_at": "2026-11-15T10:02:13.449Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/login/?next=https%3A%2F%2Fwww.threads.com%2F%40koroche_mogilev%2F",
+  "redirected_to_login": true,
+  "posts_in_page_data": 0,
+  "followers": null
+ },
+ {
+  "page": "https://www.threads.com/@carolina_noir_",
+  "fetched_at": "2026-11-15T10:02:16.492Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@carolina_noir_",
+  "redirected_to_login": false,
+  "posts_in_page_data": 0,
+  "followers": 38
+ },
+ {
+  "page": "https://www.threads.com/@carolina_noir_/replies",
+  "fetched_at": "2026-11-15T10:02:20.119Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@carolina_noir_/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 2,
+  "followers": 38
+ },
+ {
+  "page": "https://www.threads.com/@asya.vedd",
+  "fetched_at": "2026-11-15T10:02:24.202Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@asya.vedd",
+  "redirected_to_login": false,
+  "posts_in_page_data": 5,
+  "followers": 24
+ },
+ {
+  "page": "https://www.threads.com/@asya.vedd/replies",
+  "fetched_at": "2026-11-15T10:02:28.307Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@asya.vedd/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 8,
+  "followers": 24
+ },
+ {
+  "page": "https://www.threads.com/@homutovivan.cheff",
+  "fetched_at": "2026-11-15T10:02:32.080Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@homutovivan.cheff",
+  "redirected_to_login": false,
+  "posts_in_page_data": 9,
+  "followers": 387
+ },
+ {
+  "page": "https://www.threads.com/@homutovivan.cheff/replies",
+  "fetched_at": "2026-11-15T10:02:36.065Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@homutovivan.cheff/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 8,
+  "followers": 387
+ },
+ {
+  "page": "https://www.threads.com/@kristina_flute",
+  "fetched_at": "2026-11-15T10:02:40.006Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@kristina_flute",
+  "redirected_to_login": false,
+  "posts_in_page_data": 5,
+  "followers": 149
+ },
+ {
+  "page": "https://www.threads.com/@kristina_flute/replies",
+  "fetched_at": "2026-11-15T10:02:43.734Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@kristina_flute/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 7,
+  "followers": 149
+ },
+ {
+  "page": "https://www.threads.com/@zayceva_nails_mogilev",
+  "fetched_at": "2026-11-15T10:02:47.866Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@zayceva_nails_mogilev",
+  "redirected_to_login": false,
+  "posts_in_page_data": 4,
+  "followers": 54
+ },
+ {
+  "page": "https://www.threads.com/@zayceva_nails_mogilev/replies",
+  "fetched_at": "2026-11-15T10:02:52.326Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@zayceva_nails_mogilev/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 8,
+  "followers": 54
+ },
+ {
+  "page": "https://www.threads.com/@a.vigelina",
+  "fetched_at": "2026-11-15T10:02:56.375Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@a.vigelina",
+  "redirected_to_login": false,
+  "posts_in_page_data": 4,
+  "followers": 49
+ },
+ {
+  "page": "https://www.threads.com/@a.vigelina/replies",
+  "fetched_at": "2026-11-15T10:03:00.508Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@a.vigelina/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 8,
+  "followers": 49
+ },
+ {
+  "page": "https://www.threads.com/@mariya.efremova12",
+  "fetched_at": "2026-11-15T10:03:04.211Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@mariya.efremova12",
+  "redirected_to_login": false,
+  "posts_in_page_data": 0,
+  "followers": 92
+ },
+ {
+  "page": "https://www.threads.com/@mariya.efremova12/replies",
+  "fetched_at": "2026-11-15T10:03:07.675Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@mariya.efremova12/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 7,
+  "followers": 92
+ },
+ {
+  "page": "https://www.threads.com/@yana_efimova_design",
+  "fetched_at": "2026-11-15T10:03:11.547Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@yana_efimova_design",
+  "redirected_to_login": false,
+  "posts_in_page_data": 0,
+  "followers": 48
+ },
+ {
+  "page": "https://www.threads.com/@yana_efimova_design/replies",
+  "fetched_at": "2026-11-15T10:03:14.831Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@yana_efimova_design/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 6,
+  "followers": 48
+ },
+ {
+  "page": "https://www.threads.com/@malaxova.marina",
+  "fetched_at": "2026-11-15T10:03:18.660Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@malaxova.marina",
+  "redirected_to_login": false,
+  "posts_in_page_data": 3,
+  "followers": 119
+ },
+ {
+  "page": "https://www.threads.com/@malaxova.marina/replies",
+  "fetched_at": "2026-11-15T10:03:22.339Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@malaxova.marina/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 8,
+  "followers": 119
+ },
+ {
+  "page": "https://www.threads.com/@dmitrynovicov_",
+  "fetched_at": "2026-11-15T10:03:26.015Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@dmitrynovicov_",
+  "redirected_to_login": false,
+  "posts_in_page_data": 0,
+  "followers": 52
+ },
+ {
+  "page": "https://www.threads.com/@dmitrynovicov_/replies",
+  "fetched_at": "2026-11-15T10:03:29.272Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@dmitrynovicov_/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 8,
+  "followers": 52
+ },
+ {
+  "page": "https://www.threads.com/@woodguk.by",
+  "fetched_at": "2026-11-15T10:03:33.536Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@woodguk.by",
+  "redirected_to_login": false,
+  "posts_in_page_data": 4,
+  "followers": 285
+ },
+ {
+  "page": "https://www.threads.com/@woodguk.by/replies",
+  "fetched_at": "2026-11-15T10:03:37.667Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@woodguk.by/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 8,
+  "followers": 285
+ },
+ {
+  "page": "https://www.threads.com/@draichukov",
+  "fetched_at": "2026-11-15T10:03:41.640Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@draichukov",
+  "redirected_to_login": false,
+  "posts_in_page_data": 4,
+  "followers": 262
+ },
+ {
+  "page": "https://www.threads.com/@draichukov/replies",
+  "fetched_at": "2026-11-15T10:03:45.545Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@draichukov/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 7,
+  "followers": 262
+ },
+ {
+  "page": "https://www.threads.com/@mother.of.cats.and.lion",
+  "fetched_at": "2026-11-15T10:03:49.520Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@mother.of.cats.and.lion",
+  "redirected_to_login": false,
+  "posts_in_page_data": 4,
+  "followers": 57
+ },
+ {
+  "page": "https://www.threads.com/@mother.of.cats.and.lion/replies",
+  "fetched_at": "2026-11-15T10:03:53.869Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@mother.of.cats.and.lion/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 9,
+  "followers": 57
+ },
+ {
+  "page": "https://www.threads.com/@sergemaksimchik",
+  "fetched_at": "2026-11-15T10:03:57.543Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@sergemaksimchik",
+  "redirected_to_login": false,
+  "posts_in_page_data": 0,
+  "followers": 61
+ },
+ {
+  "page": "https://www.threads.com/@sergemaksimchik/replies",
+  "fetched_at": "2026-11-15T10:04:00.710Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@sergemaksimchik/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 7,
+  "followers": 61
+ },
+ {
+  "page": "https://www.threads.com/@yancheak",
+  "fetched_at": "2026-11-15T10:04:04.150Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@yancheak",
+  "redirected_to_login": false,
+  "posts_in_page_data": 0,
+  "followers": 21
+ },
+ {
+  "page": "https://www.threads.com/@yancheak/replies",
+  "fetched_at": "2026-11-15T10:04:07.731Z",
+  "status": 200,
+  "final_url": "https://www.threads.com/@yancheak/replies",
+  "redirected_to_login": false,
+  "posts_in_page_data": 8,
+  "followers": 21
+ }
+]

@@ -1,0 +1,4 @@
+# Расшифровка: 2026-02-10_amazonka_restobar_mogilev_DUkoavPjvVZ_video1.mp4
+# Модель: faster-whisper large-v3-turbo; язык: en (p=0.95); длительность: 13.1 с; автоматическая расшифровка — сверять на слух перед цитированием
+
+[00:00.0 – 00:01.7] Three, two, one, go!

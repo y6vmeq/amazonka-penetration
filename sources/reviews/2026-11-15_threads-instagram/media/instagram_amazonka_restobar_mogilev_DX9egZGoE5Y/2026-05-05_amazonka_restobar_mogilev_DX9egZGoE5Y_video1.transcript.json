@@ -1,0 +1,34 @@
+{
+ "file": "2026-05-05_amazonka_restobar_mogilev_DX9egZGoE5Y_video1.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.7361746430397034,
+ "duration": 5.829625,
+ "segments": [
+  {
+   "start": 0.94,
+   "end": 1.54,
+   "text": "And it matters.",
+   "words": [
+    {
+     "start": 0.94,
+     "end": 1.14,
+     "word": " And",
+     "p": 0.09106925874948502
+    },
+    {
+     "start": 1.14,
+     "end": 1.3,
+     "word": " it",
+     "p": 0.4433608055114746
+    },
+    {
+     "start": 1.3,
+     "end": 1.54,
+     "word": " matters.",
+     "p": 0.93170565366745
+    }
+   ]
+  }
+ ]
+}

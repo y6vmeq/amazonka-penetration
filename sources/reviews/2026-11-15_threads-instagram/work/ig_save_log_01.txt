@@ -1,0 +1,123 @@
+058_instagram_gastrofest.mogilev_DfhVI_UjMdT: status=200 login=False final=https://www.instagram.com/p/DfhVI_UjMdT/
+  post DfhVI_UjMdT by gastrofest.mogilev 2026-11-09T12:27:35.000Z likes=348 comments=22 media=['image', 'image', 'image', 'image', 'image', 'image'] coauthors=['smak.by_mogilev'] type=carousel_container
+  caption: 📍Смак.BY / @smak.by_mogilev  ⏎ ❗️На данный момент фестивальный сет доступен только на самовывоз (о дате открытия заведения для гостей мы сообщим дополнительно)  ⏎ 🏠 ул. Будённого, 13/44 ⏎ 📆 12 - 29 ноября ⏎  ⏎ 🍕 Бульба пицца с курицей и шампиньонами ⏎ 🧀 Картофельные клецки с пармезаном �
+   c dariaonfire            2026-11-14T11:23 lk=0 ch=None   Если заведение не открыто, то готовят дома на кухне ?! Или как это понимать?
+   c tatianachernova7948    2026-11-14T04:39 lk=1 ch=None   Очень, очень все вкусно, упаковка добротная. Спасибо ребята, Ваш сет - отпад. 🔥🔥🔥
+   c _intafani              2026-11-13T16:59 lk=0 ch=None   Что то вообще не понимаю где это заведение. По телефону сделал заказ на 19.30 по итогу пол часа звоню , трубку не поднимают. Никто из соседних заведений не знают о таких 😒
+   c dmitrynovicov_         2026-11-13T16:44 lk=3 ch=None   Реально странные ребята, зачем полезли в гастрофэст. Получается нужно стоять в подворотне возле таблички в не самую хорошую погоду, чтобы они привезли этот сет хз с откуда, еще бы на лопате раздавали для полного сюра) ⏎  А кстати 
+   c marshalovav            2026-11-13T07:12 lk=1 ch=None   🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+   c nastena6194            2026-11-12T17:52 lk=0 ch=None   Прям как я люблю , картошка с картошкой , ну и еще чуток картошки 😍
+   c _gershonya_            2026-11-12T17:39 lk=3 ch=None   Очень вкусно, все как на картинке. А картофельная пицца вообще улет 🔥
+   c osun5hine              2026-11-09T16:55 lk=2 ch=None   Здравствуйте. Бульба пицца - там основа картошка вместо теста?)
+   c galanbl4               2026-11-09T14:13 lk=5 ch=None   Это я так понимаю новое какое-то заведение
+   c nas.tya85309           2026-11-09T13:40 lk=0 ch=None   Это не в Минске?
+   c trufanova_alesia       2026-11-09T12:39 lk=2 ch=None   Где находится? Я не нашла
+060_instagram_kornilina_blog_DTPz0eagr40: status=200 login=False final=https://www.instagram.com/reel/DTPz0eagr40/
+  post DTPz0eagr40 by kornilina_blog 2026-01-08T10:59:06.000Z likes=3 comments=4 media=['video'] coauthors=[] type=clips
+  caption: «АМАЗОНКА»: рестобар с контактными рептилиями🐍 ⏎  ⏎ 🦜 Рестобар включает в себя две зоны: лаунж с кальяном и ресторан.  ⏎  ⏎ 🍽️ В меню слишком большое разнообразие азиатской и европейской кухни. Однако я уверена, можно было бы обойтись одной Азией. Ее мы и решились пробовать.  
+   c girlboss_by            2026-01-08T15:31 lk=0 ch=None   Очень хочу прийти в @amazonka_restobar_minsk составить впечатление
+   c girlboss_by            2026-01-08T15:31 lk=0 ch=None   Ну мое мнение ты знаешь 😂
+   c valentina.shik51       2026-01-08T14:14 lk=0 ch=None   😍👏
+061_instagram_page_amazonka_restobar_mogilev: status=200 login=False final=https://www.instagram.com/amazonka_restobar_mogilev/
+062_instagram_page_smak.by_mogilev: status=200 login=False final=https://www.instagram.com/smak.by_mogilev/
+left in browser: 23 running: False stop: None
+064_instagram_page_amazonka_restobar: status=200 login=False final=https://www.instagram.com/amazonka_restobar/
+065_instagram_page_gastrofest.mogilev: status=200 login=False final=https://www.instagram.com/gastrofest.mogilev/
+066_instagram_page_koroche__mogilev: status=200 login=False final=https://www.instagram.com/koroche__mogilev/
+067_instagram_amazonka_restobar_mogilev_DTu2Z_8iPLu: status=200 login=False final=https://www.instagram.com/reel/DTu2Z_8iPLu/
+  post DTu2Z_8iPLu by amazonka_restobar_mogilev 2026-01-20T12:15:52.000Z likes=25 comments=0 media=['video'] coauthors=[] type=clips
+  caption: Отзывы не врут — @amazonka_restobar_mogilev действительно любят 💚 ⏎ ⠀ ⏎ Каждый день мы читаем десятки сообщений, отметок и отзывов — тёплых, искренних и очень трогательных. ⏎ ⠀ ⏎ Спасибо каждому, кто делится впечатлениями. Вы помогаете другим путешественникам и гостям города найти своё
+left in browser: 17 running: False stop: None
+068_instagram_amazonka_restobar_mogilev_DCGm8SNI-aU: status=200 login=False final=https://www.instagram.com/reel/DCGm8SNI-aU/
+  post DCGm8SNI-aU by amazonka_restobar_mogilev 2024-11-08T08:29:19.000Z likes=341 comments=16 media=['video'] coauthors=[] type=clips
+  caption: 📍Рестобар «Амазонка» / @amazonka_restobar_mogilev ⏎ 🏠 ул. Ленинская, 38 ⏎ 📆 14 ноября - 1 декабря ⏎   ⏎ Рестобар «Амазонка» представляет собой уникальное место, где посетители могут познакомиться с разнообразием мира рептилий. Террариумы обустроены таким образом, чтобы максимально воссоз�
+   c oksana_radkovva        2024-12-03T08:28 lk=0 ch=None   🔥🔥🔥🔥🔥👏👏👏
+   c k_smaliuga             2024-12-01T12:42 lk=0 ch=None   Клааасс😍🔥🙌👏 ⏎ А сет очень вкусный ,если что 🤗🫠😋
+   c elena_yurche           2024-12-01T07:26 lk=2 ch=None   Сет очень вкусный! Реклама 🔥
+   c darmira_om             2024-11-28T19:04 lk=1 ch=None   Это шедеееевраааальнооо😍😍
+   c aleks__avdeev97        2024-11-17T11:44 lk=0 ch=None   😂
+   c delau_4t0_ho4y         2024-11-08T20:02 lk=2 ch=None   Мишка легенда
+   c liliyalukyanova76      2024-11-08T19:52 lk=1 ch=None   Молодцы ребята.Круто подошли,успехов Вам и вашей команде🔥
+   c decea7ed               2024-11-08T12:51 lk=1 ch=None   Лучшие 🔥
+   c irinasafronova5993     2024-11-08T12:35 lk=0 ch=None   🔥🔥🔥🔥🔥
+   c katusha_radusha        2024-11-08T09:44 lk=0 ch=None   🔥🔥🔥
+   c creato_in_felicita     2024-11-08T09:15 lk=3 ch=None   Очень крутая реклама! Браво👏
+   c sfit_mogilev           2024-11-08T09:13 lk=0 ch=None   🔥🔥🔥
+069_instagram_amazonka_restobar_mogilev_DPtd7lwCNRv: status=200 login=False final=https://www.instagram.com/reel/DPtd7lwCNRv/
+  post DPtd7lwCNRv by amazonka_restobar_mogilev 2025-10-12T13:18:46.000Z likes=118 comments=0 media=['video'] coauthors=[] type=clips
+  caption: 🦎 Путешествие по реке Амазонка начинается здесь! ⏎  ⏎ Смотрите наш видеообзор и откройте для себя уют, вкусные блюда и атмосферу настоящего приключения. ⏎  ⏎ 📍 Ленинская, 38 | 📲 +375 33 399-02-20
+070_instagram_post_DTDmtjeiE4Z: status=200 login=False final=https://www.instagram.com/p/DTDmtjeiE4Z/
+071_instagram_amazonka_restobar_mogilev_DRKMsGECPxz: status=200 login=False final=https://www.instagram.com/reel/DRKMsGECPxz/
+  post DRKMsGECPxz by amazonka_restobar_mogilev 2025-11-17T13:31:52.000Z likes=23 comments=0 media=['video'] coauthors=[] type=clips
+  caption: Амазонка — место, куда хочется возвращаться 💚 ⏎  ⏎ Тёплый свет, вкусная кухня и вечера, наполненные атмосферой 🦎 ⏎  ⏎ Пн–Чт 15:00–03:00 ⏎ Пт 15:00–05:00 ⏎ Сб 12:00–05:00 ⏎ Вс 12:00–03:00 ⏎  ⏎ Столик можно забронировать онлайн — ссылка в био. ⏎ 📍 Ленинская, 38
+072_instagram_amazonka_restobar_mogilev_DRETOzXiKvK: status=200 login=False final=https://www.instagram.com/p/DRETOzXiKvK/
+  post DRETOzXiKvK by amazonka_restobar_mogilev 2025-11-15T06:33:43.000Z likes=3 comments=1 media=['image'] coauthors=[] type=feed
+  caption: AMAZONKA приглашает в команду! 🦎 ⏎  ⏎ Открыты вакансии: ⏎  ⏎ • Бармен — для создания идеальных напитков и атмосферы ⏎ • Повар — для воплощения кулинарных идей в хиты ⏎ • Администратор — для безупречной работы зала и комфорта гостей ⏎  ⏎ Мы предлагаем: ⏎ - Стабильность и достойн
+073_instagram_post_CxgZtl-o7H7: status=200 login=False final=https://www.instagram.com/p/CxgZtl-o7H7/
+left in browser: 11 running: False stop: None
+074_instagram_amazonka_restobar_mogilev_DN0zRxD0CDm: status=200 login=False final=https://www.instagram.com/reel/DN0zRxD0CDm/
+  post DN0zRxD0CDm by amazonka_restobar_mogilev 2025-08-26T16:35:30.000Z likes=73 comments=0 media=['video'] coauthors=[] type=clips
+  caption: amazonka_restobar_mogilev ⏎ Место, где можно быть самим собой 💞 ⏎ •Настольные игры ⏎ •Рептилии ⏎ •Детское меню  ⏎ •Кухня ⏎ •Напитки  ⏎ •Отдельный зал для Кальянов 💨  ⏎  ⏎ У Нас есть всё 😌
+075_instagram_eatandmeet.go_DScY6EojBf2: status=200 login=False final=https://www.instagram.com/reel/DScY6EojBf2/
+  post DScY6EojBf2 by eatandmeet.go 2025-12-19T11:37:18.000Z likes=36 comments=1 media=['video'] coauthors=[] type=clips
+  caption: Ужины в джунглях🦎 ⏎  ⏎ У нас появился новый партнёр в Могилёве – атмосферный рестобар с экзотикой @amazonka_restobar_mogilev , где тропики встречаются с авторской кухней. Джунглевый интерьер с неоном и зеленью, коктейли с неожиданными сочетаниями, акцент на экзотических ингредиентах и э�
+   c _yaros.lava213_        2025-12-20T11:35 lk=1 ch=None   🔥🔥🔥
+076_instagram_vidosy_mogilev_DV_BpUhRn6N: status=200 login=False final=https://www.instagram.com/reel/DV_BpUhRn6N/
+  post DV_BpUhRn6N by vidosy_mogilev 2026-03-17T12:00:00.000Z likes=27 comments=1 media=['video'] coauthors=[] type=clips
+  caption: 🍜 Японский акцент с белорусской душой: рестобар @amazonka_restobar_mogilev на фестивале «Лепшы густ Магілёва» ⏎  ⏎ Здесь встретились грибной рамен и свинина тясю. И это любовь ❤️ ⏎  ⏎ 📍 Адрес: ул. Ленинская, 38 ⏎ ⚖️ Вес сета: 1250 гр. ⏎ 💰 Цена: 45 рублей ⏎  ⏎ 🥣 Что в сете: ⏎  ⏎ Грибной рамен �
+   c aleshon_1              2026-03-18T02:32 lk=0 ch=None   @romaedze наше место
+077_instagram_zatestilmogilev_CydDQwlIVR9: status=200 login=False final=https://www.instagram.com/reel/CydDQwlIVR9/
+  post CydDQwlIVR9 by zatestilmogilev 2023-10-16T09:07:39.000Z likes=898 comments=8 media=['video'] coauthors=[] type=clips
+  caption: Лаунж-Бар, в котором можно пообедать со змеей 🐍 ⏎  ⏎ Рестобар Амазонка  ⏎ 📍 ул.Ленинская, 38 ⏎ 🕐 вс-чт 12:00 - 03:00 ⏎   пт-сб 12:00 - 05:00 ⏎  ⏎ Внутри стильный интерьер, приглушенный свет, уютная атмосфера. На каждом столе стоит подсвечник в виде крокодила и зажигают свечи ✨ ⏎  ⏎ Есть нес�
+   c katya_marketologshcool 2023-10-16T22:13 lk=1 ch=None   Мой свн будет в восторге
+   c sigida_linda           2023-10-16T17:31 lk=1 ch=None   Считаю дороговато, плюс типо посетитель поел бургер, а потом давай рептилий гладить. Микс всего, и игры настолки и кальян и зоопарк, перемудрили
+   c alenka_love_is_love    2023-10-16T14:49 lk=0 ch=None   Это просто класс🔥
+   c daryanayozhik          2023-10-16T13:26 lk=7 ch=None   Идея, хорошая в плане того, что можно приходить с животными, в Могилёве мало таких мест. Но контактный зоопарк, это такое себе. Пусть лучше они там красивые сидят, за ними хорошо ухаживают. И на этом всë. Лапать и вводит в стресс 
+   c anna.who__             2023-10-16T12:32 lk=16 ch=None   Бедные рептилии, такой гениальный стресс они испытывают. Нет, буду проходить мимо и всем советую. Издевательство
+   c _black__show_          2023-10-16T09:20 lk=0 ch=None   Гении
+   c bulbanews              2023-10-16T09:13 lk=1 ch=None   Ого😳
+078_instagram_koroche__mogilev_DJPVvEXNvBo: status=200 login=False final=https://www.instagram.com/reel/DJPVvEXNvBo/
+  post DJPVvEXNvBo by koroche__mogilev 2025-05-04T17:17:46.000Z likes=100 comments=2 media=['video'] coauthors=[] type=clips
+  caption: 🌴 Отправляемся в «Амазонку»! 🐍 ⏎  ⏎ В рестобаре «Амазонка» вас ждет незабываемый опыт! 🤩 ⏎  ⏎ • 🐍 Подружитесь со змеями, подержите на руках милых рептилий и понаблюдайте за хамелеонами, меняющими цвет! 🦎 ⏎ • 🎲 Большой выбор настольных игр для любой компании. ⏎  ⏎ • 🍽️ В�
+   c olya_belokon_          2025-05-05T21:33 lk=0 ch=None   Живность там в руки не дают) то они беременны,то болеют,то спят. Были несколько раз и на все один ответ. Смысла ходить посмотреть через стекла не вижу.
+079_instagram_mogilev_online_DD9erVVop0U: status=200 login=False final=https://www.instagram.com/p/DD9erVVop0U/
+  post DD9erVVop0U by mogilev_online 2024-12-24T12:10:37.000Z likes=35 comments=0 media=['image', 'image', 'image', 'image', 'image', 'image', 'image', 'image', 'image', 'image'] coauthors=[] type=carousel_container
+  caption: Побывали в могилевском рестобаре «Амазонка», где обитают символы года 2025 — змеи ⏎  ⏎ Живут прямо в заведении не только змеи — в «Амазонке» соседствуют еще и геккон, агамы и белка-летяга. Мы решили погреться вкусным чаем и зарядится энергией будущего года Змеи, «пообщавшись» с �
+left in browser: 5 running: False stop: None
+080_instagram_vikilinki_DSIJ6hjjPYy: status=200 login=False final=https://www.instagram.com/reel/DSIJ6hjjPYy/
+  post DSIJ6hjjPYy by vikilinki 2025-12-11T15:03:03.000Z likes=270 comments=12 media=['video'] coauthors=[] type=clips
+  caption: Обзор рестобора в Могилеве смотрите у меня в профиле @vikilinki  ⏎  ⏎ #обзорыминск #местаминска #могилев #ресторан #кудасходитьвминске
+   c tgalinovskaia          2025-12-22T20:12 lk=0 ch=None   🔥
+   c rimma_bogush           2025-12-11T19:03 lk=0 ch=None   😮😮😮
+   c panyshirina            2025-12-11T18:16 lk=1 ch=None   Так в Минске или в Могилеве открылся этот бар? В описание написано про Могилев. А в видео речь про Минск.
+   c vinnikova              2025-12-11T17:04 lk=4 ch=None   Ужас какой !!! Опять издевательство над животными до развлечения людей. Печально такое видеть….очень печально
+   c lyusicrazy             2025-12-11T15:36 lk=2 ch=None   Бедные(((
+   c nadysha.os             2025-12-11T15:07 lk=0 ch=None   👏👏👏👏
+   c seletk0                2025-12-11T15:04 lk=0 ch=None   Срочно позовите Олега😍
+081_instagram_post_Cza3gcVIYU8: status=200 login=False final=https://www.instagram.com/p/Cza3gcVIYU8/
+082_instagram_gastrofest.mogilev_DWoYqG7DOoj: status=200 login=False final=https://www.instagram.com/p/DWoYqG7DOoj/
+  post DWoYqG7DOoj by gastrofest.mogilev 2026-04-02T13:30:27.000Z likes=461 comments=7 media=['image', 'image', 'image', 'image', 'image', 'image', 'image'] coauthors=['amazonka_restobar_mogilev'] type=carousel_container
+  caption: 📍Рестобар “Амазонка” / @amazonka_restobar_mogilev ⏎ 🏠 ул. Ленинская, 38 ⏎ 📆 9 апреля - 3 мая ⏎ 🎬 Гарри Поттер  ⏎  ⏎ Рестобар “Амазонка” приглашает вас за стол, за которым оживает магия. Этот сет – путешествие в мир Гарри Поттера, собранное из самых тёплых и вкусных воспоминаний. ⏎  ⏎ 🥧 Па
+   c larisasaperova         2026-05-03T14:52 lk=2 ch=None   Сет супер! Спасибо рестобару Амазонка
+   c yana_efimova_design    2026-04-24T16:32 lk=1 ch=None   Долго думала оставлять ли отзыв… но такое должно быть освещено. Вчера мы посетили это заведение. Попробовать успели только салат, т.к. в нем оказался таракан. Мы позвали официанта. Она унесла тарелку, извинялась. Поверив, что это 
+   c olya_davidovich        2026-04-17T17:51 lk=0 ch=None   Поверьте, шикарно это выглядит только на фото, ходили сюда с большими ожиданиями, и в итоге полное разочарование! ⏎ Никогда не писала плохие отзывы, но тут 💯 огорчение! Утка сухая, апельсин не первой свежести, но хорошо хоть зелен
+   c _dashagrush            2026-04-16T07:29 lk=1 ch=None   В доставке,конечно, не так шикарно выглядит,как на фото. Но…ожидала и похуже 😅 Салат- понравился, сочетание апельсина и утки - хорошие. Тяжело было определиться какой соус к какому блюду подходит 😅 Йоркширский пудинг  мне понравил
+083_instagram_koko_by_DRtzCqpiIAE: status=200 login=False final=https://www.instagram.com/reel/DRtzCqpiIAE/
+  post DRtzCqpiIAE by koko_by 2025-12-01T09:21:10.000Z likes=3327 comments=67 media=['video'] coauthors=[] type=clips
+  caption: Хочешь подержать змею? Тестим новый первый гастробара с экзотикой «Амазонка»🐍 ⏎ [💰] Ещё одна экзотика - это цены, за Том Ям хотят 36р/450г, в Могилёве у них же 28р. Ролл Филадельфия с огурцом - 36р/330г, в Могилёве - 31р. Прикол в том, что в нашем топовом ресторане «Ронин» дешевле получает�
+   c zhirovashki            2025-12-06T10:07 lk=1 ch=None   Это ужасно!!!!
+   c dark_witch1234         2025-12-05T23:47 lk=0 ch=None   Была там 3-4 дня назад , все вкусно , но цены завышены
+   c lululu_lu_lululu       2025-12-05T07:47 lk=0 ch=None   Бедные животные….😢
+   c alyoshka_kroshka       2025-12-04T18:07 lk=8 ch=None   Я как владелица змей, скажу одно, это заведение издевательство для этих питомцев, у них есть линьки, время после еды когда их нельзя брать в руки, а люди их тягают не зная как с ними обращаться... Бедные рептилии
+   c renta_photo_gomel      2025-12-03T07:29 lk=0 ch=None   😍😍😍
+   c 7343konstantin         2025-12-03T05:39 lk=2 ch=None   Смотрится не аппетитно и дорого! Мы не миллионеры так дорого питаться ( или все на живот отдавать
+   c learning_new_good4u    2025-12-03T05:21 lk=0 ch=None   Были у нас в Орше-обслуживание было отвратным, и насекомые везде позади и летали... 👎
+   c girlboss_by            2025-12-03T04:11 lk=3 ch=None   Всегда очень удивляет, как люди вкладывают десятки тысяч долларов в странные бизнес гипотезы, без каких-либо обоснований и расчетов, без исследования рынка …
+   c artemarti5779          2025-12-02T15:40 lk=0 ch=None   Своя это святое 😂🤣😈😏
+   c hugo_boss1981777       2025-12-02T07:54 lk=0 ch=None   Приятного аппетита
+   c ivantravmat            2025-12-02T04:47 lk=0 ch=None   Будет такое же дерьмище как и в могилеве
+084_instagram_amazonka_restobar_minsk_DY4PkCRIa-R: status=200 login=False final=https://www.instagram.com/reel/DY4PkCRIa-R/
+  post DY4PkCRIa-R by amazonka_restobar_minsk 2026-05-28T10:21:57.000Z likes=62 comments=2 media=['video'] coauthors=[] type=clips
+  caption: Ждем Вас в рестобаре «Амазонка» ⏎  ⏎ Режим работы:  ⏎ 11:00 - 23:00 каждый день 🦎 ⏎  ⏎ 📍 Карла Маркса, 21 ⏎ 📲 +375 (29) 740-00-14
+   c tanyazhaludko          2026-05-28T14:54 lk=1 ch=None   🔥Какой красивый администратор
+left in browser: 0 running: False stop: None

@@ -1,0 +1,942 @@
+{
+ "_comment": "Разметка постов и ответов Threads для reviews.jsonl: код поста -> [venue, kind, sentiment, [topics], notes]. Тексты берутся скриптом из work/threads_posts.json, вручную не набираются.",
+ "Dfmpin6Ctpv": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "money-debts"
+  ],
+  "Часть 1 из 3 ветки автора. Утверждения третьего лица, источник сведений автор не раскрывает (см. её ответ DfoOsawCgHt). Тот же текст автор повторила ответом под постом _ananacc: https://www.threads.com/@ula.ruu/post/DfrrAL3CqFi"
+ ],
+ "Dfmpiq3CjWu": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "money-debts",
+   "ads-unlicensed"
+  ],
+  "Часть 2 из 3. Упомянуты «Смак.бай» (скидочные карты до открытия). Предложение об образе жизни и автомобиле заменено на [личные сведения опущены]. Повтор под постом _ananacc: https://www.threads.com/@ula.ruu/post/DfrrAI0iiMj"
+ ],
+ "DfmpipbCkYG": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "money-debts"
+  ],
+  "Часть 3 из 3: призыв к поставщикам и пострадавшим. Повтор под постом _ananacc: https://www.threads.com/@ula.ruu/post/DfrrAIvCqsB"
+ ],
+ "Dfm-Cm9DFhI": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "other"
+  ],
+  "Оценочное мнение без фактов."
+ ],
+ "DfnEVbuFT3S": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "other"
+  ],
+  "Предположение автора, фактов нет."
+ ],
+ "Dfm00xWjq6O": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "management-response",
+   "service"
+  ],
+  "О личном опыте общения с «Елизаветой»; обстоятельства и дата не указаны."
+ ],
+ "DfnBNjEkZU8": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "other"
+  ],
+  "Оценочное мнение без фактов."
+ ],
+ "DfnKo4fipYu": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "staff-labor",
+   "money-debts"
+  ],
+  "Автор далее пишет, что работала в заведении (см. DfnSVahClB4)."
+ ],
+ "DfnSVahClB4": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "staff-labor",
+   "sanitary",
+   "money-debts"
+  ],
+  "Автор называет себя бывшей работницей («пару лет назад», «когда амазонка была в другом месте»). О нынешних невыплатах — с чужих слов («всё всё знают»)."
+ ],
+ "DfnLxYJDTat": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "service"
+  ],
+  ""
+ ],
+ "DfnL7qdjJrb": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "food-quality",
+   "billing",
+   "service"
+  ],
+  "Дата посещения не указана."
+ ],
+ "DfnWDxvjqId": [
+  "amazonka-mogilev",
+  "reply",
+  "mixed",
+  [
+   "billing",
+   "food-quality",
+   "service"
+  ],
+  "Дата посещений не указана."
+ ],
+ "DfoOsawCgHt": [
+  "amazonka-mogilev",
+  "reply",
+  "neutral",
+  [
+   "money-debts"
+  ],
+  "Ответ автора ветки на вопрос _lady_juls (https://www.threads.com/@_lady_juls/post/DfndLj4DHlS): «А есть какие-то доказательства вещественные, откуда Вам известно о долгах?..». Доказательства в ветке не приведены."
+ ],
+ "DfobgriDb_g": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "sanitary",
+   "service",
+   "staff-labor",
+   "other"
+  ],
+  "Животные в зале: «зашли с детьми посмотреть на живность, которая там имеется». О зарплате — со слов знакомой автора; фраза про «вексель» приведена как написана. Даты не указаны."
+ ],
+ "Dfoh8htDNyb": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "food-quality",
+   "alcohol",
+   "premises-building"
+  ],
+  "Автор пишет о смене владельца и переезде заведения; даты не указаны."
+ ],
+ "Dfojgh2DF5H": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "billing",
+   "service"
+  ],
+  "Продолжение ответа ledi_alissa_ (Dfoh8htDNyb)."
+ ],
+ "Dfq-YE2EWpt": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "delivery",
+   "food-quality",
+   "service"
+  ],
+  "Часть 1 из 4. Отмечены @amazonka_restobar_mogilev и @gastrofest.by. Событие — 12.11.2026 («вчера начался гастрофест»). К посту приложены 2 изображения."
+ ],
+ "Dfq-XvYESyA": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "food-quality",
+   "delivery"
+  ],
+  "Часть 2 из 4."
+ ],
+ "Dfq-XucEQca": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "food-quality",
+   "delivery"
+  ],
+  "Часть 3 из 4."
+ ],
+ "Dfq-XveEWh5": [
+  "amazonka-mogilev",
+  "post",
+  "mixed",
+  [
+   "billing",
+   "delivery"
+  ],
+  "Часть 4 из 4: упаковка 8 BYN, сертификат на 10 %."
+ ],
+ "DfrrEspkZKz": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "delivery",
+   "billing"
+  ],
+  "Ответ автора поста: сумма «-47р» (со слов автора; чек не приложен)."
+ ],
+ "DfrImxfkbRe": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "delivery"
+  ],
+  "Ответ автора поста: возврата денег не требовала."
+ ],
+ "Dfrqua2kV0G": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "delivery",
+   "service"
+  ],
+  "Ответ автора поста на рассказ _anie.bane."
+ ],
+ "DfrHnFSiE9G": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "sanitary",
+   "service"
+  ],
+  "Даты посещений не указаны."
+ ],
+ "DfrJzRgDMi7": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "delivery",
+   "service",
+   "billing"
+  ],
+  "Часть 1 из 3 ответа. «Около месяца назад», то есть примерно октябрь 2026 г. Заказ через сайт; оплата картой при получении, по словам автора, оказалась невозможной."
+ ],
+ "DfrJzNFDISM": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "delivery",
+   "food-quality"
+  ],
+  "Часть 2 из 3."
+ ],
+ "DfrJzNxjI8B": [
+  "amazonka-mogilev",
+  "reply",
+  "mixed",
+  [
+   "food-quality"
+  ],
+  "Часть 3 из 3."
+ ],
+ "DfrLGyZjetR": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "service"
+  ],
+  "Дата посещения не указана."
+ ],
+ "DfrMiFgEbie": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "food-quality"
+  ],
+  "Оценочное мнение; факты — в следующем ответе автора (DfrqnGJkSar)."
+ ],
+ "DfrqnGJkSar": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "food-quality",
+   "service",
+   "alcohol"
+  ],
+  "Дата посещения не указана («в обычный день»)."
+ ],
+ "DfrrGAcESZ_": [
+  "amazonka-minsk",
+  "reply",
+  "negative",
+  [
+   "other"
+  ],
+  "Оценочное упоминание минского заведения без фактов. Автор поста ответила: «Продается ведь в минске» (https://www.threads.com/@_ananacc/post/DfrtV4aEWM1)."
+ ],
+ "DfrQNsxALQM": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "other"
+  ],
+  "О рекламной публикации страницы «Короче Могилев»; предположение автора."
+ ],
+ "DfrwUXxiJ6i": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "other"
+  ],
+  "Утверждение о рекламе «по бартеру»; источник сведений не указан."
+ ],
+ "Dfrcf5WCI3T": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "food-quality",
+   "other"
+  ],
+  "К ответу приложено изображение."
+ ],
+ "DfrkvGejKtS": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "food-quality",
+   "sanitary",
+   "other"
+  ],
+  "Животные в зале: автор сама называет это слухом («не знаю правда или нет»). Дата посещения не указана."
+ ],
+ "DfrsZFcDaKC": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "food-quality",
+   "service",
+   "sanitary"
+  ],
+  "Даты посещений не указаны."
+ ],
+ "Dfr4ITzkVio": [
+  "amazonka-mogilev",
+  "reply",
+  "mixed",
+  [
+   "staff-labor"
+  ],
+  "Автор называет себя бывшей работницей (помощник повара, «в прошлом году»). Текст обрывается на словах «По поводу продуктов скажу» — продолжение в следующем ответе (Dfr4ISIEVc-)."
+ ],
+ "Dfr4ISIEVc-": [
+  "amazonka-mogilev",
+  "reply",
+  "mixed",
+  [
+   "staff-labor",
+   "sanitary"
+  ],
+  "Свидетельство в пользу заведения за 2025 г.: маркировка и сроки годности, по словам автора, соблюдались."
+ ],
+ "DfvEiDcEf9S": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "staff-labor"
+  ],
+  "Ответ на вопрос masha_portugal «Как у вас там обстояли дела с оформлением сотрудников?..» (https://www.threads.com/@masha_portugal/post/DfvDBp5DEa6). Автор сообщает сведения о себе; использовать в обращениях только с её согласия или обезличенно."
+ ],
+ "DfvFxgukRoJ": [
+  "amazonka-mogilev",
+  "reply",
+  "mixed",
+  [
+   "staff-labor"
+  ],
+  "Ответ на реплику masha_portugal «То есть вы месяц проработали без надлежащего оформления в принципе. Чудесно.» (https://www.threads.com/@masha_portugal/post/DfvEokRDK1S). Смягчающее обстоятельство: документы, по словам автора, с неё требовали."
+ ],
+ "DfsbW7GgmQK": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "delivery",
+   "food-quality",
+   "service"
+  ],
+  "К ответу приложены 4 изображения. Дата заказа не указана."
+ ],
+ "DfsfH_uDY7D": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "delivery",
+   "food-quality"
+  ],
+  "Событие — 12.11.2026 («в первый день гастрофеста»), 3 сета."
+ ],
+ "DftU_VmjLu7": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "sanitary",
+   "service"
+  ],
+  "К ответу приложено изображение. Дата и место съёмки не указаны; о каком заведении речь, в самом ответе не названо (ответ под постом об «Амазонке»)."
+ ],
+ "DfrlrgOkbQO": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "food-quality",
+   "sanitary"
+  ],
+  "Часть 1 из 4. Дата посещения не указана; пост опубликован 13.11.2026, гастрофест идёт с 12.11."
+ ],
+ "DfrlrgykfGf": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "sanitary",
+   "other"
+  ],
+  "Часть 2 из 4. Под этой частью автор отдельным ответом без текста (https://www.threads.com/@viksha2704/post/DfrmeALEf45, 13.11.2026 15:11 по Минску) приложила видео: насекомое, похожее на таракана, ползёт по стене, затем камера показывает стол с остатками сета. Видео внесено в поле media этой записи."
+ ],
+ "DfrlrhCERBQ": [
+  "amazonka-mogilev",
+  "post",
+  "mixed",
+  [
+   "service",
+   "food-quality",
+   "sanitary"
+  ],
+  "Часть 3 из 4."
+ ],
+ "DfsJC48EZh3": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "sanitary",
+   "premises-building",
+   "service"
+  ],
+  "«Тоже были вчера» — то есть 12.11.2026."
+ ],
+ "DfrmonJCtdG": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "service"
+  ],
+  "Что речь об «Амазонке», автор подтверждает следующим ответом (Dfrnh-WCvBL). Дата не указана."
+ ],
+ "Dfrnh-WCvBL": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "sanitary",
+   "service"
+  ],
+  "Дата не указана."
+ ],
+ "DfrplSCCM1i": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "service",
+   "food-quality"
+  ],
+  "«Несколько лет назад»."
+ ],
+ "Dft4uxnkawf": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "sanitary"
+  ],
+  "Дата не указана."
+ ],
+ "DfthySojYkl": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "food-quality",
+   "service"
+  ],
+  "Заведение в тексте не названо, но к ответу приложен снимок экрана поста ula.ruu о баре «Амазонка». «В том году» — 2025."
+ ],
+ "DfvGpa0CNyk": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "sanitary"
+  ],
+  "К ответу приложены 2 изображения. «Там» — по смыслу ветки об «Амазонке»; в самом ответе заведение не названо."
+ ],
+ "DfsDkxTESCq": [
+  "smak-by",
+  "post",
+  "negative",
+  [
+   "ads-unlicensed",
+   "delivery",
+   "service",
+   "premises-building"
+  ],
+  "Тег ветки — «Гастрофест». К посту приложены 2 видео и 1 изображение."
+ ],
+ "DfsH9uSDGQm": [
+  "smak-by",
+  "reply",
+  "negative",
+  [
+   "delivery",
+   "service",
+   "ads-unlicensed"
+  ],
+  "К ответу приложено видео."
+ ],
+ "DfsJjQsCCvo": [
+  "smak-by",
+  "reply",
+  "negative",
+  [
+   "ads-unlicensed",
+   "sanitary",
+   "other"
+  ],
+  "Утверждение «У всех один владелец» — мнение автора, источник не указан. «Калфест» — так в тексте."
+ ],
+ "DfsI2kciBq2": [
+  "smak-by",
+  "reply",
+  "negative",
+  [
+   "premises-building",
+   "ads-unlicensed"
+  ],
+  "Наблюдение прохожей: ремонт в помещении («в этой „квартире“»). Дата наблюдения — «недавно»."
+ ],
+ "DfsOsqLnO44": [
+  "smak-by",
+  "reply",
+  "neutral",
+  [
+   "premises-building"
+  ],
+  "Встречная версия (предположение автора, не из Могилёва): помещение могли не сдать вовремя строители."
+ ],
+ "DfsPtebkXLO": [
+  "smak-by",
+  "reply",
+  "negative",
+  [
+   "service",
+   "delivery"
+  ],
+  "Ответ автора поста на реплику woodguk.by. К ответу приложено видео."
+ ],
+ "DfsP1uLDG4W": [
+  "smak-by",
+  "reply",
+  "negative",
+  [
+   "ads-unlicensed"
+  ],
+  "Про «Амазонку» автор сам оговаривается: «случайно в сравнение поставил». Мнение."
+ ],
+ "DfsQHYaDJwD": [
+  "smak-by",
+  "reply",
+  "negative",
+  [
+   "service",
+   "delivery"
+  ],
+  "Мнение; в тексте грубая лексика."
+ ],
+ "DfsSMK_DNkm": [
+  "smak-by",
+  "reply",
+  "negative",
+  [
+   "service",
+   "delivery"
+  ],
+  "Мнение; в тексте грубая лексика."
+ ],
+ "DfsWvzCCohC": [
+  "smak-by",
+  "reply",
+  "neutral",
+  [
+   "other"
+  ],
+  "Утверждение о связи «Смак.BY» и «Амазонки»; источник не указан."
+ ],
+ "DfuGbXTEdIv": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "service"
+  ],
+  "Ответ под постом о «Смак.BY», но речь об «Амазонке». Дата посещения не указана (ответ от 14.11.2026)."
+ ],
+ "DfvBCpuDJfA": [
+  "unclear",
+  "reply",
+  "negative",
+  [
+   "delivery",
+   "service"
+  ],
+  "Заведение не названо. Ответ написан под репликой о рестобаре «Луна» в ветке о «Смак.BY»; та же автор в другой ветке писала об «Амазонке». «Вчера» — 13.11.2026."
+ ],
+ "DfsF8sDiIBS": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "other"
+  ],
+  "Упоминание: к делу относятся только первые два предложения (об «Амазонке» и «Смак.бай»), остальной текст — о другом кафе. Фото и видео поста показывают блюда другого кафе и не скачивались."
+ ],
+ "DfsViqFjlAI": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "money-debts"
+  ],
+  "Пересказ поста ula.ruu («Писали пост в Тредс про Амазонку» — предыдущий ответ автора, https://www.threads.com/@yanina_groomer_mogilev/post/DfsViqnDul-), собственных сведений нет."
+ ],
+ "DfuuRGijHrQ": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "other"
+  ],
+  "Оценочное мнение без фактов."
+ ],
+ "DfuxGCzjKsE": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "booking-events",
+   "service"
+  ],
+  "Часть 1 из 7. Событие — пятница 13.11.2026."
+ ],
+ "DfuxGEQjOL-": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "booking-events",
+   "service",
+   "premises-building"
+  ],
+  "Часть 2 из 7."
+ ],
+ "DfuxGC7jF7N": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "food-quality",
+   "service"
+  ],
+  "Часть 3 из 7."
+ ],
+ "DfuxGGsjHfR": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "service",
+   "management-response"
+  ],
+  "Часть 4 из 7. Книга замечаний и предложений — «только с третьего раза»."
+ ],
+ "DfuxGCqDJMa": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "billing",
+   "sanitary",
+   "service"
+  ],
+  "Часть 5 из 7. «Тараканы были зафиксированы на видео» — само видео в ветке не опубликовано; на вопрос vadim_hts «А видео можно?» (15.11.2026, https://www.threads.com/@vadim_hts/post/DfwPPzBlr8X) ответа на момент фиксации нет."
+ ],
+ "DfuxGCgjPMg": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "management-response"
+  ],
+  "Часть 6 из 7. Фразу руководителя автор передаёт со слов друзей (сама не слышала)."
+ ],
+ "DfuxGDUDEPV": [
+  "amazonka-mogilev",
+  "post",
+  "negative",
+  [
+   "other"
+  ],
+  "Часть 7 из 7: намерение обратиться в управление торговли и санстанцию."
+ ],
+ "DfvEdKRjDy3": [
+  "amazonka-mogilev",
+  "reply",
+  "mixed",
+  [
+   "food-quality"
+  ],
+  "Уточнение автора поста: к вкусу еды претензий нет. Ответ на реплику anastasia_krukovskaya."
+ ],
+ "Dfu14rLCEu2": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "sanitary",
+   "service"
+  ],
+  "«В прошлом году» — гастрофест 2025 г. Автор пишет, что фото и видео были и что отзыв оставлен на странице гастрофеста; в ответе они не приложены."
+ ],
+ "Dfu2GZPiIu_": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "booking-events"
+  ],
+  "Продолжение рассказа yana_efimova_design (гастрофест 2025 г.)."
+ ],
+ "Dfuz64uDF5J": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "sanitary"
+  ],
+  "Дата второго посещения не указана."
+ ],
+ "DfvGhOPCqXC": [
+  "reply",
+  "negative",
+  [
+   "other"
+  ],
+  "Ответ-цитата под постом masha_portugal: утверждение, что «Смак бай» — «заведения Елизаветы». про «Смак бай» mother.of.cats.and.lion подтверждает («выше перечисленные, да ее»)."
+ ],
+ "DfwNjSvDWtU": [
+  "reply",
+  "neutral",
+  [
+   "other"
+  ]
+ ],
+ "DfwNyUjDTdk": [
+  "reply",
+  "neutral",
+  [
+   "other"
+  ]
+ ],
+ "DfwN9msiNxx": [
+  "reply",
+  "neutral",
+  [
+   "other"
+  ]
+ ],
+ "DfwTaLHiNH_": [
+  "reply",
+  "neutral",
+  [
+   "other"
+  ]
+ ],
+ "DSpj2nsjLxX": [
+  "amazonka-mogilev",
+  "post",
+  "neutral",
+  [
+   "alcohol"
+  ],
+  "Публикация самого заведения в Threads: акция «выпей 3 литра пива за 4 минуты — и твой счёт аннулируется». К посту приложено видео с надписью «ВЫПЕЙ 3 ЛИТРА ПИВА ЗА 4 МИНУТЫ И НЕ ПЛАТИ ЗА СЧЕТ»."
+ ],
+ "DTFz-MQDfTF": [
+  "amazonka-mogilev",
+  "post",
+  "neutral",
+  [
+   "noise-night",
+   "other"
+  ],
+  "Публикация самого заведения: режим работы («до 03:00 утра»). Животные в зале: к посту приложено видео с двумя ящерицами в новогодних колпаках; площадка пометила публикацию «ИИ-контент», то есть это не съёмка реальных животных."
+ ],
+ "DTqCyiRiH2B": [
+  "amazonka-mogilev",
+  "post",
+  "neutral",
+  [
+   "noise-night"
+  ],
+  "Публикация самого заведения: режим работы в воскресенье («до 03:00 ночи»). К посту приложено видео."
+ ],
+ "DTu26IECJM2": [
+  "amazonka-mogilev",
+  "post",
+  "neutral",
+  [
+   "other",
+   "hookah-smoking"
+  ],
+  "Публикация самого заведения об отзывах. Животные в зале: в приложенном видео заведение показывает отзыв со словами «Можно подержать на руках рептилий»; там же отзывы с упоминанием кальянов."
+ ],
+ "DUIcTVPiMXW": [
+  "amazonka-mogilev",
+  "post",
+  "neutral",
+  [
+   "noise-night",
+   "hookah-smoking",
+   "other"
+  ],
+  "Публикация самого заведения: режим работы до 5 утра, кальяны. Животные в зале: «рептилии, которых можно посмотреть и сделать несколько фото»; в приложенном видео ящерицы находятся вне террариума — на столешнице среди игровых карточек и на ладонях человека. Через 10 минут опубликован почти такой же пост (DUIdZ89iE8l)."
+ ],
+ "DUIdZ89iE8l": [
+  "amazonka-mogilev",
+  "post",
+  "neutral",
+  [
+   "noise-night",
+   "hookah-smoking",
+   "other"
+  ],
+  "Публикация самого заведения: режим работы до 5 утра, кальяны. Животные в зале: «рептилии, которых можно посмотреть и сделать фото»; в приложенном видео ящерицы находятся вне террариума — на столешнице и на ладонях человека."
+ ],
+ "DUiad6TiHfx": [
+  "amazonka-mogilev",
+  "post",
+  "neutral",
+  [
+   "alcohol"
+  ],
+  "Публикация самого заведения: «расширенный выбор шотов». К посту приложено видео."
+ ],
+ "DUsrm-GiKHu": [
+  "amazonka-mogilev",
+  "post",
+  "neutral",
+  [
+   "noise-night"
+  ],
+  "Публикация самого заведения: режим работы 13–15 февраля 2026 г. (до 05:00). К посту приложено видео."
+ ],
+ "DVQcpEbDLRA": [
+  "amazonka-mogilev",
+  "post",
+  "neutral",
+  [
+   "noise-night",
+   "other"
+  ],
+  "Публикация самого заведения: режим работы в выходные (до 05:00). Животные в зале: в приложенном видео ящерица ползёт по одежде человека; виден стеллаж с террариумами, рядом с которым человек ест и пьёт."
+ ],
+ "Dfu9M6hmERg": [
+  "amazonka-mogilev",
+  "post",
+  "neutral",
+  [
+   "other"
+  ],
+  "Пост о волне публикаций об «Амазонке» с призывом писать отзывы на Яндексе. Учитывать при оценке отзывов, появившихся на Яндекс Картах после 14.11.2026. В тексте грубая лексика."
+ ],
+ "DTj-HCVgkye": [
+  "amazonka-minsk",
+  "post",
+  "neutral",
+  [
+   "other"
+  ],
+  "Публикация аккаунта минского заведения @amazonka_restobar_minsk в Threads: 16.01.2026 заведение пишет «Мы только открылись». В ответах посетителей — пожелания (тишина, «меню с нормальной едой», негромкая музыка)."
+ ],
+ "DexNIw8EYKa": [
+  "amazonka-minsk",
+  "reply",
+  "negative",
+  [
+   "other"
+  ],
+  "Животные в зале (минское заведение): ответ под публикацией @lesikzdes о минской «Амазонке» (https://www.threads.com/@lesikzdes/post/Dewwg_XCJii — «Рестобар, где можно не только поесть, но и потрогать змей!»). Оценочное мнение."
+ ],
+ "DfwqokTAOCY": [
+  "amazonka-mogilev",
+  "reply",
+  "negative",
+  [
+   "food-quality",
+   "service"
+  ],
+  "Ответ появился 15.11.2026 (найден при повторном обходе ветки). Дата посещения не указана («будний день»)."
+ ]
+}

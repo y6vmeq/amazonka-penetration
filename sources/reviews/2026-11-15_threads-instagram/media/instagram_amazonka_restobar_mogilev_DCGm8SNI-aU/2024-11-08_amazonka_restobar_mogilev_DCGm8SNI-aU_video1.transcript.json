@@ -1,0 +1,82 @@
+{
+ "file": "2024-11-08_amazonka_restobar_mogilev_DCGm8SNI-aU_video1.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.34227293729782104,
+ "duration": 59.746375,
+ "segments": [
+  {
+   "start": 22.16,
+   "end": 38.54,
+   "text": "WONDER AMAZONA, UNO PRENDO GANDRO FESTIVAL, SETE AMAZONA, AYAHUASKA, INDO IT.",
+   "words": [
+    {
+     "start": 22.16,
+     "end": 22.84,
+     "word": " WONDER",
+     "p": 0.43343715866406757
+    },
+    {
+     "start": 22.84,
+     "end": 23.88,
+     "word": " AMAZONA,",
+     "p": 0.8451782464981079
+    },
+    {
+     "start": 24.06,
+     "end": 25.02,
+     "word": " UNO",
+     "p": 0.8679989576339722
+    },
+    {
+     "start": 25.02,
+     "end": 26.12,
+     "word": " PRENDO",
+     "p": 0.8111499349276224
+    },
+    {
+     "start": 26.12,
+     "end": 27.28,
+     "word": " GANDRO",
+     "p": 0.9234801332155863
+    },
+    {
+     "start": 27.28,
+     "end": 28.24,
+     "word": " FESTIVAL,",
+     "p": 0.9474191427230835
+    },
+    {
+     "start": 28.56,
+     "end": 29.52,
+     "word": " SETE",
+     "p": 0.7327178517977396
+    },
+    {
+     "start": 29.52,
+     "end": 30.6,
+     "word": " AMAZONA,",
+     "p": 0.9519551992416382
+    },
+    {
+     "start": 30.74,
+     "end": 32.02,
+     "word": " AYAHUASKA,",
+     "p": 0.7987644573052725
+    },
+    {
+     "start": 37.64,
+     "end": 38.12,
+     "word": " INDO",
+     "p": 0.530422568321228
+    },
+    {
+     "start": 38.12,
+     "end": 38.54,
+     "word": " IT.",
+     "p": 0.74350506067276
+    }
+   ]
+  }
+ ]
+}
