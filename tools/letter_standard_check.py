@@ -77,6 +77,14 @@ def check(path):
     add("OK" if "от [фамилия, имя, отчество]," in body else "ОШИБКА", "поле заявителя: «от [фамилия, имя, отчество],»")
     add("OK" if "проживающего(ей) по адресу: [" in body else "ОШИБКА", "поле адреса заявителя")
 
+    add("OK" if re.search(r"(?m)^\*\*Кратко\.\*\*", body) else "ОШИБКА", "абзац «Кратко.» под названием (стандарт, раздел 8, пункт 2)")
+    size = len(body)
+    level = "OK" if size <= 30000 else ("ВНИМАНИЕ" if size <= 36000 else "ОШИБКА")
+    add(level, "объём текста письма — до 30 тысяч знаков (стандарт, раздел 8, пункт 1)", f"знаков: {size}")
+    add("OK" if "не могли быть проверены" not in flat else "ОШИБКА", "в абзаце об источниках нет слов «не могли быть проверены» (заменено на «мной на месте не проверялись»)")
+    add("OK" if "в таком порядке" not in flat else "ВНИМАНИЕ", "в просьбах нет слов «в таком порядке» (стандарт, раздел 8, пункт 11)")
+    add("OK" if re.search(r"(?m)^## Приложение \d+ \(проект\): [Нн]ормы", tail) else "ВНИМАНИЕ", "есть приложение с полными текстами норм (стандарт, раздел 2, пункт 6)")
+
     found = re.findall(r"(?m)^\*\*(I{1,3}|IV|V|VI{0,2})\. [^*]+\*\*\s*$", body)
     add("OK" if found == SECTIONS else "ОШИБКА", "разделы I–VII по порядку", "найдено: " + ", ".join(found))
 
@@ -93,7 +101,7 @@ def check(path):
         cited = {int(n) for n in re.findall(r"В(\d+)", body)}
         extra = sorted(n for n in cited if n > len(numbers))
         add("OK" if not extra else "ОШИБКА", "нет ссылок на несуществующие вопросы", f"лишние: {extra}")
-        add("OK" if len(numbers) >= 8 else "ВНИМАНИЕ", "вопросов не меньше восьми", f"вопросов: {len(numbers)}")
+        add("OK" if 8 <= len(numbers) <= 22 else "ВНИМАНИЕ", "вопросов от 8 до 22 (стандарт, раздел 8, пункт 1)", f"вопросов: {len(numbers)}")
 
     add("OK" if re.search(r"(?m)^\*{0,2}Приложения:\*{0,2}\s*$", body) else "ОШИБКА", "перечень «Приложения:»")
     add("OK" if "[дата]" in body and "[личная подпись]" in body else "ОШИБКА", "строка даты и подписи")
@@ -102,6 +110,7 @@ def check(path):
     add("OK" if listed and listed <= sections + 5 else "ВНИМАНИЕ", "приложения перечислены", f"в перечне: {listed}, разделов «## Приложение N» в файле: {sections}")
 
     add("OK" if "⟦" not in text else "ОШИБКА", "нет пометок ⟦…⟧", f"осталось: {text.count('⟦')}")
+    add("OK" if not re.search(r"№\s*510", body) else "ОШИБКА", "нет ссылок на Указ № 510 (утратил силу с 01.01.2026; действует Указ № 227)")
     mentions = [m.group(0) for m in scope_filter.MENTION.finditer(text)]
     add("OK" if not mentions else "ОШИБКА", "нет упоминаний заведений, исключённых из работы", f"совпадений: {len(mentions)}")
 
