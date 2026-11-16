@@ -9,7 +9,7 @@
 | Файл или папка | Что это |
 |---|---|
 | [gorispolkom_amazonka_torgovlya_prilozhenie-1.json](gorispolkom_amazonka_torgovlya_prilozhenie-1.json) | Данные JSON, 18 КБ |
-| [gorispolkom_amazonka_zdanie-fasad-reklama_prilozhenie-1.json](gorispolkom_amazonka_zdanie-fasad-reklama_prilozhenie-1.json) | Данные JSON, 6 КБ |
+| [gorispolkom_amazonka_zdanie-fasad-reklama_prilozhenie-1.json](gorispolkom_amazonka_zdanie-fasad-reklama_prilozhenie-1.json) | Данные JSON, 7 КБ |
 | [gorispolkom_smak-by_prilozhenie-1.json](gorispolkom_smak-by_prilozhenie-1.json) | Данные JSON, 4 КБ |
 | [gorispolkom_smak-by_raboty-okna-vhod_prilozhenie-1.json](gorispolkom_smak-by_raboty-okna-vhod_prilozhenie-1.json) | Данные JSON, 4 КБ |
 | [gorispolkom_smak-by_torgovlya_prilozhenie-1.json](gorispolkom_smak-by_torgovlya_prilozhenie-1.json) | Данные JSON, 8 КБ |

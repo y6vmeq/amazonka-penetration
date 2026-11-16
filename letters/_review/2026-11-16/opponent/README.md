@@ -10,6 +10,7 @@
 |---|---|
 | [gorispolkom_amazonka_zdanie-fasad-reklama.json](gorispolkom_amazonka_zdanie-fasad-reklama.json) | Данные JSON, 56 КБ |
 | [nalogovaya_amazonka-smak-by.json](nalogovaya_amazonka-smak-by.json) | Данные JSON, 46 КБ |
+| [prirodoohrana_amazonka_zhivotnye.json](prirodoohrana_amazonka_zhivotnye.json) | Данные JSON, 55 КБ |
 | [sanitarnaya-sluzhba_amazonka.json](sanitarnaya-sluzhba_amazonka.json) | Данные JSON, 54 КБ |
 | [sanitarnaya-sluzhba_smak-by.json](sanitarnaya-sluzhba_smak-by.json) | Данные JSON, 60 КБ |
 

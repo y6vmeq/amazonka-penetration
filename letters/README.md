@@ -8,7 +8,7 @@
 
 | Файл или папка | Что это |
 |---|---|
-| [_review/](_review/) | Проверка писем · файлов: 9 |
+| [_review/](_review/) | Проверка писем · файлов: 17 |
 | [_src/](_src/) | Описания приложений к письмам · файлов: 12 |
 | [STANDART.md](STANDART.md) | Стандарт обращения: структура, обязательные формулировки, критерии оценки |
 | [_build_docx.sh](_build_docx.sh) | Пересобирает приложения и файлы Word с условным заявителем |
@@ -16,7 +16,7 @@
 | [gorispolkom_amazonka_fasad-vyveska-terrasa.md](gorispolkom_amazonka_fasad-vyveska-terrasa.md) | ПРОЕКТ. Обращение в Могилёвский горисполком: фасад, вывеска, летняя терраса и работы в помещении рестобара «Амазонка» |
 | [gorispolkom_amazonka_torgovlya.md](gorispolkom_amazonka_torgovlya.md) | ПРОЕКТ. Обращение в Могилёвский горисполком: Торговый реестр, ночной режим, летняя площадка, лицензии, книга замечаний, цены, реклама алкоголя и пива, кальяны в рестобар… |
 | [gorispolkom_amazonka_torgovlya_prilozhenie-1.md](gorispolkom_amazonka_torgovlya_prilozhenie-1.md) | Приложение 1 к заявлению о торговле и общественном питании в рестобаре «Амазонка» (г. Могилёв, ул. Ленинская, 38): перечень публикаций и отзывов с дословными выдержками |
-| [gorispolkom_amazonka_zdanie-fasad-reklama.md](gorispolkom_amazonka_zdanie-fasad-reklama.md) | ПРОЕКТ. Обращение в Могилёвский горисполком: здание-ценность, перестройки, вывеска, конструкции на фасаде и рекламные щиты рестобара «Амазонка» (письмо П2) |
+| [gorispolkom_amazonka_zdanie-fasad-reklama.md](gorispolkom_amazonka_zdanie-fasad-reklama.md) | ПРОЕКТ. Обращение в Могилёвский горисполком: здание-ценность, работы в помещениях, вывеска, конструкции на фасаде и рекламные щиты рестобара «Амазонка» (письмо П2) |
 | [gorispolkom_amazonka_zdanie-fasad-reklama_prilozhenie-1.md](gorispolkom_amazonka_zdanie-fasad-reklama_prilozhenie-1.md) | Приложение 1 к заявлению о здании, вывеске, конструкциях на фасаде и выносных рекламных конструкциях рестобара «Амазонка» (г. Могилёв, ул. Ленинская, 38): перечень публи… |
 | [gorispolkom_smak-by_raboty-fasad-torgovlya.docx](gorispolkom_smak-by_raboty-fasad-torgovlya.docx) | Документ Word, 41 КБ |
 | [gorispolkom_smak-by_raboty-fasad-torgovlya.md](gorispolkom_smak-by_raboty-fasad-torgovlya.md) | ПРОЕКТ. Обращение в Могилёвский горисполком: работы в помещении и на фасаде, продажа блюд под названием «Смак.BY» до открытия |
