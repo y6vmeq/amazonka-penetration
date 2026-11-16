@@ -117,6 +117,8 @@ def add_appendix(document, title, note, table_lines):
     heading = document.add_paragraph()
     heading.paragraph_format.space_after = Pt(6)
     add_text(heading, title, size=13, bold=True)
+    # слово «Проект.» в начале вводного абзаца — рабочая пометка: в документ для органа она не идёт
+    note = re.sub(r"^\s*Проект\.\s*", "", note or "")
     if note:
         paragraph = document.add_paragraph()
         paragraph.paragraph_format.space_after = Pt(6)

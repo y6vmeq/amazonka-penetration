@@ -9,6 +9,7 @@
 | Файл или папка | Что это |
 |---|---|
 | [gorispolkom_amazonka_zdanie-fasad-reklama__a.json](gorispolkom_amazonka_zdanie-fasad-reklama__a.json) | Данные JSON, 32 КБ |
+| [gorispolkom_amazonka_zdanie-fasad-reklama__b.json](gorispolkom_amazonka_zdanie-fasad-reklama__b.json) | Данные JSON, 37 КБ |
 
 [← Папка выше](../README.md) · [Путеводитель по проекту](../../../../README.md)
 <!-- dir-readme:end -->

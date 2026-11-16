@@ -50,7 +50,8 @@ def human_date(iso):
     iso = str(iso or "")
     m = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", iso)
     if m:
-        return f"{int(m.group(3))} {MONTHS[int(m.group(2)) - 1]} {m.group(1)} г."
+        # тот же вид даты, что в тексте писем: ДД.ММ.ГГГГ (стандарт, раздел 8, пункт 53)
+        return f"{m.group(3)}.{m.group(2)}.{m.group(1)}"
     m = re.fullmatch(r"(\d{4})-(\d{2})", iso)
     if m:
         return f"{'январь февраль март апрель май июнь июль август сентябрь октябрь ноябрь декабрь'.split()[int(m.group(2)) - 1]} {m.group(1)} г."

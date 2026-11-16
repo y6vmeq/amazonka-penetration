@@ -12,7 +12,7 @@
 | [animals-vet/](animals-vet/) | Животные: ветеринарное законодательство · файлов: 87 |
 | [control-procedures/](control-procedures/) | Контрольная (надзорная) деятельность и разрешения · файлов: 58 |
 | [heritage-92/](heritage-92/) | Охрана историко-культурного наследия · файлов: 7 |
-| [letters-2026-11-16/](letters-2026-11-16/) | Тексты актов для набора обращений от 16.11.2026 · файлов: 158 |
+| [letters-2026-11-16/](letters-2026-11-16/) | Тексты актов для набора обращений от 16.11.2026 · файлов: 170 |
 | [sanitary-obshchepit/](sanitary-obshchepit/) | Санитарные и пожарные требования для общепита: сборка выписок · файлов: 13 |
 | [trade-ads-smoking/](trade-ads-smoking/) | Торговля, реклама, курение, обращения, местные акты · файлов: 88 |
 | [PROEKT_SP_zdaniya-i-pomeshcheniya-obshchepita.txt](PROEKT_SP_zdaniya-i-pomeshcheniya-obshchepita.txt) | Текст, 184 КБ |
