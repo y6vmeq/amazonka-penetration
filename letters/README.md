@@ -8,21 +8,21 @@
 
 | Файл или папка | Что это |
 |---|---|
-| [_review/](_review/) | Проверка писем · файлов: 26 |
+| [_review/](_review/) | Проверка писем · файлов: 38 |
 | [_src/](_src/) | Описания приложений к письмам · файлов: 12 |
 | [STANDART.md](STANDART.md) | Стандарт обращения: структура, обязательные формулировки, критерии оценки |
 | [_build_docx.sh](_build_docx.sh) | Пересобирает приложения и файлы Word с условным заявителем |
 | [gorispolkom_amazonka_fasad-vyveska-terrasa.docx](gorispolkom_amazonka_fasad-vyveska-terrasa.docx) | Документ Word, 40 КБ |
 | [gorispolkom_amazonka_fasad-vyveska-terrasa.md](gorispolkom_amazonka_fasad-vyveska-terrasa.md) | ПРОЕКТ. Обращение в Могилёвский горисполком: фасад, вывеска, летняя терраса и работы в помещении рестобара «Амазонка» |
 | [gorispolkom_amazonka_torgovlya.md](gorispolkom_amazonka_torgovlya.md) | ПРОЕКТ. Обращение в Могилёвский горисполком: Торговый реестр, ночной режим, летняя площадка, лицензии, книга замечаний, цены, реклама алкоголя и пива, кальяны в рестобар… |
-| [gorispolkom_amazonka_torgovlya_prilozhenie-1.md](gorispolkom_amazonka_torgovlya_prilozhenie-1.md) | Приложение 1 к заявлению о торговле и общественном питании в рестобаре «Амазонка» (г. Могилёв, ул. Ленинская, 38): перечень публикаций и отзывов с дословными выдержками |
+| [gorispolkom_amazonka_torgovlya_prilozhenie-1.md](gorispolkom_amazonka_torgovlya_prilozhenie-1.md) | Приложение 1: перечень публикаций и отзывов с дословными выдержками (к заявлению о торговле и общественном питании в рестобаре «Амазонка», г. Могилёв, ул. Ленинская, 38) |
 | [gorispolkom_amazonka_zdanie-fasad-reklama.md](gorispolkom_amazonka_zdanie-fasad-reklama.md) | ПРОЕКТ. Обращение в Могилёвский горисполком: здание-ценность, работы в помещениях, вывеска, конструкции на фасаде и рекламные щиты рестобара «Амазонка» (письмо П2) |
 | [gorispolkom_amazonka_zdanie-fasad-reklama_prilozhenie-1.md](gorispolkom_amazonka_zdanie-fasad-reklama_prilozhenie-1.md) | Приложение 1 к заявлению о здании, вывеске, конструкциях на фасаде и выносных рекламных конструкциях рестобара «Амазонка» (г. Могилёв, ул. Ленинская, 38): перечень публи… |
 | [gorispolkom_smak-by_raboty-fasad-torgovlya.docx](gorispolkom_smak-by_raboty-fasad-torgovlya.docx) | Документ Word, 41 КБ |
 | [gorispolkom_smak-by_raboty-fasad-torgovlya.md](gorispolkom_smak-by_raboty-fasad-torgovlya.md) | ПРОЕКТ. Обращение в Могилёвский горисполком: работы в помещении и на фасаде, продажа блюд под названием «Смак.BY» до открытия |
 | [gorispolkom_smak-by_raboty-fasad-torgovlya_prilozhenie-1.md](gorispolkom_smak-by_raboty-fasad-torgovlya_prilozhenie-1.md) | Приложение 1 к обращению о работах в помещении и продаже блюд под названием «Смак.BY»: перечень публикаций |
 | [gorispolkom_smak-by_raboty-okna-vhod.md](gorispolkom_smak-by_raboty-okna-vhod.md) | ПРОЕКТ. Обращение в Могилёвский горисполком (П7): работы в помещении «Смак.BY», замена окон, вход на месте окон фасада, строительные материалы во дворе |
-| [gorispolkom_smak-by_raboty-okna-vhod_prilozhenie-1.md](gorispolkom_smak-by_raboty-okna-vhod_prilozhenie-1.md) | Приложение 1 к заявлению о проверке работ в помещении дома по ул. Будённого, 13/44 в г. Могилёве (заведение «Смак.BY»): перечень публикаций |
+| [gorispolkom_smak-by_raboty-okna-vhod_prilozhenie-1.md](gorispolkom_smak-by_raboty-okna-vhod_prilozhenie-1.md) | Приложение 1: перечень публикаций к заявлению о рассмотрении сведений о работах в помещении дома по ул. Будённого, 13/44 в г. Могилёве (заведение «Смак.BY») |
 | [gorispolkom_smak-by_torgovlya.md](gorispolkom_smak-by_torgovlya.md) | ПРОЕКТ. Обращение в Могилёвский горисполком (П8): продажа наборов блюд «Смак.BY» до открытия заведения — Торговый реестр и форма общественного питания, сведения о продав… |
 | [gorispolkom_smak-by_torgovlya_prilozhenie-1.md](gorispolkom_smak-by_torgovlya_prilozhenie-1.md) | Приложение 1 к заявлению о продаже наборов блюд под названием «Смак.BY» (г. Могилёв, ул. Будённого, 13/44): перечень публикаций |
 | [mchs_amazonka_pozharnaya-bezopasnost.docx](mchs_amazonka_pozharnaya-bezopasnost.docx) | Документ Word, 41 КБ |

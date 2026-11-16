@@ -10,6 +10,17 @@
 |---|---|
 | [gorispolkom_amazonka_zdanie-fasad-reklama__a.json](gorispolkom_amazonka_zdanie-fasad-reklama__a.json) | Данные JSON, 32 КБ |
 | [gorispolkom_amazonka_zdanie-fasad-reklama__b.json](gorispolkom_amazonka_zdanie-fasad-reklama__b.json) | Данные JSON, 37 КБ |
+| [gorispolkom_smak-by_torgovlya__a.json](gorispolkom_smak-by_torgovlya__a.json) | Данные JSON, 44 КБ |
+| [gorispolkom_smak-by_torgovlya__b.json](gorispolkom_smak-by_torgovlya__b.json) | Данные JSON, 47 КБ |
+| [nalogovaya_amazonka__a.json](nalogovaya_amazonka__a.json) | Данные JSON, 34 КБ |
+| [nalogovaya_amazonka__b.json](nalogovaya_amazonka__b.json) | Данные JSON, 31 КБ |
+| [nalogovaya_smak-by__a.json](nalogovaya_smak-by__a.json) | Данные JSON, 31 КБ |
+| [nalogovaya_smak-by__b.json](nalogovaya_smak-by__b.json) | Данные JSON, 29 КБ |
+| [prirodoohrana_amazonka_zhivotnye__a.json](prirodoohrana_amazonka_zhivotnye__a.json) | Данные JSON, 38 КБ |
+| [prirodoohrana_amazonka_zhivotnye__b.json](prirodoohrana_amazonka_zhivotnye__b.json) | Данные JSON, 50 КБ |
+| [sanitarnaya-sluzhba_amazonka__a.json](sanitarnaya-sluzhba_amazonka__a.json) | Данные JSON, 36 КБ |
+| [sanitarnaya-sluzhba_amazonka__b.json](sanitarnaya-sluzhba_amazonka__b.json) | Данные JSON, 35 КБ |
+| [sanitarnaya-sluzhba_smak-by__a.json](sanitarnaya-sluzhba_smak-by__a.json) | Данные JSON, 35 КБ |
 
 [← Папка выше](../README.md) · [Путеводитель по проекту](../../../../README.md)
 <!-- dir-readme:end -->
