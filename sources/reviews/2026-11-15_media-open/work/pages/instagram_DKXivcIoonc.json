@@ -1,0 +1,55 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:05:33.449Z",
+ "page": "https://www.instagram.com/p/DKXivcIoonc/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "img1",
+   "kind": "image",
+   "url": "https://scontent-waw2-2.cdninstagram.com/v/t51.75761-15/502789623_18504919996005052_8117158998800966708_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=MzY0NTUzNTIxNjk4NjEzMDkwODE4NTA0OTE5OTkwMDA1MDUy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=s8h-et65FugQ7kNvwGFOROW&_nc_oc=AdpHmhPECJpDjSdCkScAPctqLl8obrKUAAOOjZ9Lqj4PfOFHC_wzvY7xcv4hJlYOIyE&_nc_zt=23&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_gid=ElbCsGMBPnvMaDDyIjDBDQ&_nc_ss=7b689&_nc_ct=RQosPBUIFQQlBAAAAA&oh=00_AQTPdiV1NzzRnQZsxgBhA69j-JHlqTp2sJWm2rhv9dXmZA&oe=6AFFDCAC",
+   "w": 720,
+   "h": 1280,
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 113261,
+   "sha256": "d325bade16df55135d5f5b965741f3967d97d57e5cf2ee180f2e9810ef187960"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "DKXivcIoonc",
+  "copyright_blocked": true
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "DKXivcIoonc",
+  "id": "3645535216986130908",
+  "typename": "GraphVideo",
+  "owner": "kleshchenok_",
+  "caption": "Змеи - древние хранители мудрости,\n\nКогда они приходят — значит, трансформация рядом. Сегодня в кафе было нечто большее, чем кофе 🐍🐍☕️\n\n#энергиязмеи #пробуждение #трансформация #знакивпути #мудростьжизни #духовныйрост #гипнотерапия #глубинав повседневности",
+  "taken_at": null,
+  "video_duration": 31.021,
+  "dimensions": {
+   "height": 1280,
+   "width": 720
+  },
+  "product_type": "clips",
+  "music": {
+   "artist_name": "kleshchenok_",
+   "song_name": "Оригинальное аудио",
+   "uses_original_audio": true,
+   "should_mute_audio": false
+  },
+  "likes": 8,
+  "comments": 1,
+  "views": 32,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2025-06-01T18:14:00+00:00",
+ "published_minsk_date": "2025-06-01",
+ "post_url": "https://www.instagram.com/reel/DKXivcIoonc/",
+ "group": "instagram_kleshchenok__DKXivcIoonc"
+}

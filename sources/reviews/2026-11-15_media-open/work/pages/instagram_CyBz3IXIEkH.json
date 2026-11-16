@@ -1,0 +1,51 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:08:07.787Z",
+ "page": "https://www.instagram.com/p/CyBz3IXIEkH/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-1.cdninstagram.com/o1/v/t16/f2/m69/AQMWPxo2EqSavzNAogaGQRuyir6w3lt3jEdUiyumgzYOJLttyAMV3M83x3MnubFtZT-elcYxh-69sr-BkT6oiDGV.mp4?strext=1&_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_ohc=YNhgZirl73AQ7kNvwGjRzUa&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uSUdUVi5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIiwieHB2X2Fzc2V0X2lkIjo4NTc0Njk3OTkyNjc4MzEsImFzc2V0X2FnZV9kYXlzIjoxMTM3LCJ2aV91c2VjYXNlX2lkIjoxMDE0NSwiZHVyYXRpb25fcyI6MjcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=fd4ff2406bf785ab&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HRExNNnhZcmRpbThWN0VEQUdEV3VXS1JfTUZoYnZWQkFBQUYVAALIARIAFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HTzJuRFJlb25LNUpqMmtDQUpZbEc2VGtMWnhFYnZWQkFBQUYVAgLIARIAKAAYABsDiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATESY29weV9zYW1wbGVfZ3JvdXBzATEVAAAm7vfT7Kf3hQMVAigCQzMsF0A7AAAAAAAAGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXsB2XCngEA&_nc_gid=9QxV3GaVf9sOfmASR7P9nA&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSkI0h85LsbFLcamYlNJugSH5c_osuyEr6BLyViQwuvjQ&oe=6AFFE990",
+   "w": 720,
+   "h": 1120,
+   "dur": 27.051,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 7983591,
+   "sha256": "b726b17a64950707e23b8dc633f49316aea7fa69528efd675caddefc22532553"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "CyBz3IXIEkH",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "CyBz3IXIEkH",
+  "id": "3207072498585716999",
+  "typename": "GraphVideo",
+  "owner": "kriuchok_igrushkin",
+  "caption": "Очень атмосферное место, мои ценители живности были в восторге))))",
+  "taken_at": null,
+  "video_duration": 27.051,
+  "dimensions": {
+   "height": 1120,
+   "width": 720
+  },
+  "product_type": "igtv",
+  "music": null,
+  "likes": 20,
+  "comments": 3,
+  "views": 151,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2023-10-05T19:07:00+00:00",
+ "published_minsk_date": "2023-10-05",
+ "post_url": "https://www.instagram.com/p/CyBz3IXIEkH/",
+ "group": "instagram_kriuchok_igrushkin_CyBz3IXIEkH"
+}

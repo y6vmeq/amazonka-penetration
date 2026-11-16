@@ -1,0 +1,2920 @@
+{
+  "source_url": "https://yandex.by/maps/org/amazonka_restobar/172475261635/gallery/?ll=30.339188%2C53.900995&z=14",
+  "captured_at_browser": "2026-11-15T10:18:00.900Z",
+  "page_title": "Фото: Амазонка рестобар, ресторан, Могилёв, Ленинская ул., 38 — Яндекс Карты",
+  "org_permalink_id": "172475261635",
+  "tab_counter_as_shown": "Фото, 226",
+  "tags_as_shown": [
+    "Все",
+    "Вход",
+    "Еда",
+    "Внутри",
+    "Услуги",
+    "Снаружи",
+    "Меню",
+    "Доступность"
+  ],
+  "method": "List of gallery items read from the React props (data) of the .media-gallery element on the Photos tab, order as in the tab \"Все\". Photos themselves were not downloaded.",
+  "counts": {
+    "total": 226,
+    "by_tag": {
+      "Вход": 2,
+      "Еда": 94,
+      "Внутри": 46,
+      "Услуги": 1,
+      "Снаружи": 33,
+      "(без тега)": 31,
+      "Меню": 16,
+      "Доступность": 5,
+      "Панорама": 1
+    },
+    "by_upload_year": {
+      "2022": 2,
+      "2023": 63,
+      "2024": 11,
+      "2025": 81,
+      "2026": 69
+    }
+  },
+  "photos": [
+    {
+      "n": 1,
+      "id": "urn:yandex:sprav:photo:2a00000198eb6eb62fea93aca01f20d611c0",
+      "tags": [
+        "Вход"
+      ],
+      "width": 545,
+      "height": 724,
+      "url": "https://avatars.mds.yandex.net/get-altay/16431464/2a00000198eb6eb62fea93aca01f20d611c0/XXXL",
+      "uploaded_at": "2025-08-27T12:09:18Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 2,
+      "id": "urn:yandex:sprav:photo:15682944_2a0000019b511b13c5360c6f26e2a2082296",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15682944/2a0000019b511b13c5360c6f26e2a2082296/XXXL",
+      "uploaded_at": "2025-12-24T16:04:50Z",
+      "uploader_name_shown": "Дарья Емельянова",
+      "type": "photo"
+    },
+    {
+      "n": 3,
+      "id": "urn:yandex:sprav:photo:2a0000018acc405ee1d4a61da660040d8a43",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/10926933/2a0000018acc405ee1d4a61da660040d8a43/XXXL",
+      "uploaded_at": "2023-09-25T12:11:26Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 4,
+      "id": "urn:yandex:sprav:photo:2a00000198eb70435a5b3a5d0eb9f082fbcb",
+      "tags": [
+        "Вход"
+      ],
+      "width": 720,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/12721348/2a00000198eb70435a5b3a5d0eb9f082fbcb/XXXL",
+      "uploaded_at": "2025-08-27T12:11:01Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 5,
+      "id": "urn:yandex:sprav:photo:18128678_2a0000019db39eddead52d8928fb679f44e3",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/18128678/2a0000019db39eddead52d8928fb679f44e3/XXXL",
+      "uploaded_at": "2026-04-22T05:17:09Z",
+      "uploader_name_shown": "Юлия С.",
+      "type": "photo"
+    },
+    {
+      "n": 6,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1fce05777266045c1984390f",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/10767865/2a00000189fd1fce05777266045c1984390f/XXXL",
+      "uploaded_at": "2023-08-16T06:54:28Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 7,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66abc5b083ade73af875c870",
+      "tags": [
+        "Еда"
+      ],
+      "width": 687,
+      "height": 557,
+      "url": "https://avatars.mds.yandex.net/get-altay/15042938/2a00000198eb66abc5b083ade73af875c870/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 8,
+      "id": "urn:yandex:sprav:photo:2a000001975f83cf049672abe07388ed1e8e",
+      "tags": [
+        "Услуги"
+      ],
+      "width": 720,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16451045/2a000001975f83cf049672abe07388ed1e8e/XXXL",
+      "uploaded_at": "2025-06-11T15:02:44Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 9,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1efd258ccca7db8e25dda9c6",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/10814540/2a00000189fd1efd258ccca7db8e25dda9c6/XXXL",
+      "uploaded_at": "2023-08-16T06:53:37Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 10,
+      "id": "urn:yandex:sprav:photo:2a0000018acc4365dd67dee8e943a2797194",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/10814540/2a0000018acc4365dd67dee8e943a2797194/XXXL",
+      "uploaded_at": "2023-09-25T12:14:44Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 11,
+      "id": "urn:yandex:sprav:photo:18151954_2a0000019db39eecbcfa54d9198387179d55",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/18151954/2a0000019db39eecbcfa54d9198387179d55/XXXL",
+      "uploaded_at": "2026-04-22T05:17:12Z",
+      "uploader_name_shown": "Юлия С.",
+      "type": "photo"
+    },
+    {
+      "n": 12,
+      "id": "urn:yandex:sprav:photo:14782168_2a00000197dad8de9240457ab76b9fb6decd",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/14782168/2a00000197dad8de9240457ab76b9fb6decd/XXXL",
+      "uploaded_at": "2025-07-05T13:48:59Z",
+      "uploader_name_shown": "Мария Ф.",
+      "type": "photo"
+    },
+    {
+      "n": 13,
+      "id": "urn:yandex:sprav:photo:17737331_2a0000019db39eb90af44289501ea48ed4e9",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/17737331/2a0000019db39eb90af44289501ea48ed4e9/XXXL",
+      "uploaded_at": "2026-04-22T05:16:59Z",
+      "uploader_name_shown": "Юлия С.",
+      "type": "photo"
+    },
+    {
+      "n": 14,
+      "id": "urn:yandex:sprav:photo:15043309_2a00000197dad8f96b6117c19826fa533600",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15043309/2a00000197dad8f96b6117c19826fa533600/XXXL",
+      "uploaded_at": "2025-07-05T13:49:06Z",
+      "uploader_name_shown": "Мария Ф.",
+      "type": "photo"
+    },
+    {
+      "n": 15,
+      "id": "urn:yandex:sprav:photo:9954022_2a00000189f8a9428215f21f5ebc5eb44abe",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 512,
+      "height": 768,
+      "url": "https://avatars.mds.yandex.net/get-altay/9954022/2a00000189f8a9428215f21f5ebc5eb44abe/XXXL",
+      "uploaded_at": "2023-08-15T10:06:30Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 16,
+      "id": "urn:yandex:sprav:photo:2a00000189fd242593e5231b760bc8873e9f",
+      "tags": [
+        "Меню"
+      ],
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10829645/2a00000189fd242593e5231b760bc8873e9f/XXXL",
+      "uploaded_at": "2023-08-16T06:59:14Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 17,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66a40ec76b8c1db7a2b69fca",
+      "tags": [
+        "Еда"
+      ],
+      "width": 686,
+      "height": 751,
+      "url": "https://avatars.mds.yandex.net/get-altay/14599414/2a00000198eb66a40ec76b8c1db7a2b69fca/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 18,
+      "id": "urn:yandex:sprav:photo:2a00000197686b955b71d378e3b96be8eb27",
+      "tags": [
+        "Еда"
+      ],
+      "width": 856,
+      "height": 652,
+      "url": "https://avatars.mds.yandex.net/get-altay/15426074/2a00000197686b955b71d378e3b96be8eb27/XXXL",
+      "uploaded_at": "2025-06-13T08:32:52Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 19,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66ae024d27de46c900d5ea92",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 673,
+      "height": 938,
+      "url": "https://avatars.mds.yandex.net/get-altay/15381861/2a00000198eb66ae024d27de46c900d5ea92/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 20,
+      "id": "urn:yandex:sprav:photo:11385489_2a0000018c266dea89b8ae53483d4a0befc0",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 1280,
+      "height": 964,
+      "url": "https://avatars.mds.yandex.net/get-altay/11385489/2a0000018c266dea89b8ae53483d4a0befc0/XXXL",
+      "uploaded_at": "2023-12-01T17:29:52Z",
+      "uploader_name_shown": "Алексей",
+      "type": "photo"
+    },
+    {
+      "n": 21,
+      "id": "urn:yandex:sprav:photo:2a0000018acc405e76fcc707ed1c076d94c4",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/11048854/2a0000018acc405e76fcc707ed1c076d94c4/XXXL",
+      "uploaded_at": "2023-09-25T12:11:26Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 22,
+      "id": "urn:yandex:sprav:photo:15389647_2a0000019829aa56a61712a217107ec16658",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 964,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15389647/2a0000019829aa56a61712a217107ec16658/XXXL",
+      "uploaded_at": "2025-07-20T21:08:08Z",
+      "uploader_name_shown": "Anna Shilina",
+      "type": "photo"
+    },
+    {
+      "n": 23,
+      "id": "urn:yandex:sprav:photo:14295867_2a00000194d5b655a2c855fb94538cd430d2",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/14295867/2a00000194d5b655a2c855fb94538cd430d2/XXXL",
+      "uploaded_at": "2025-02-05T10:44:47Z",
+      "uploader_name_shown": "Олег Гришанов",
+      "type": "photo"
+    },
+    {
+      "n": 24,
+      "id": "urn:yandex:sprav:photo:2a00000198eb65f806614a702bfbc5309125",
+      "tags": [
+        "Еда"
+      ],
+      "width": 656,
+      "height": 565,
+      "url": "https://avatars.mds.yandex.net/get-altay/16270073/2a00000198eb65f806614a702bfbc5309125/XXXL",
+      "uploaded_at": "2025-08-27T11:59:46Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 25,
+      "id": "urn:yandex:sprav:photo:988435_2a00000190b0d0b36cb4bc39e4db15cad916",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/988435/2a00000190b0d0b36cb4bc39e4db15cad916/XXXL",
+      "uploaded_at": "2024-07-14T10:36:27Z",
+      "uploader_name_shown": "yandex",
+      "type": "photo"
+    },
+    {
+      "n": 26,
+      "id": "urn:yandex:sprav:photo:10156117_2a00000189f8a92504f8b57ac0644eaa11af",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 512,
+      "height": 768,
+      "url": "https://avatars.mds.yandex.net/get-altay/10156117/2a00000189f8a92504f8b57ac0644eaa11af/XXXL",
+      "uploaded_at": "2023-08-15T10:06:22Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 27,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1efc9637082ba5820b7f23c8",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/9428388/2a00000189fd1efc9637082ba5820b7f23c8/XXXL",
+      "uploaded_at": "2023-08-16T06:53:36Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 28,
+      "id": "urn:yandex:sprav:photo:10845257_2a00000189f8a93122273828173efae2cc0c",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 512,
+      "height": 768,
+      "url": "https://avatars.mds.yandex.net/get-altay/10845257/2a00000189f8a93122273828173efae2cc0c/XXXL",
+      "uploaded_at": "2023-08-15T10:06:25Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 29,
+      "id": "urn:yandex:sprav:photo:16123546_2a0000019a201239b1aa554f25c8fa9fb6e8",
+      "tags": [
+        "Внутри",
+        "Еда"
+      ],
+      "width": 1280,
+      "height": 960,
+      "url": "https://avatars.mds.yandex.net/get-altay/16123546/2a0000019a201239b1aa554f25c8fa9fb6e8/XXXL",
+      "uploaded_at": "2025-10-26T10:30:58Z",
+      "uploader_name_shown": "Ксения Белова",
+      "type": "photo"
+    },
+    {
+      "n": 30,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66a413c9a7f19ee1bd303e5a",
+      "tags": [
+        "Еда"
+      ],
+      "width": 689,
+      "height": 777,
+      "url": "https://avatars.mds.yandex.net/get-altay/16920891/2a00000198eb66a413c9a7f19ee1bd303e5a/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 31,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1efd0e8deeffb2bc9b4edd20",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/9663145/2a00000189fd1efd0e8deeffb2bc9b4edd20/XXXL",
+      "uploaded_at": "2023-08-16T06:53:36Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 32,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66a7382fafeeb8494c4a90ad",
+      "tags": [
+        "Еда"
+      ],
+      "width": 685,
+      "height": 695,
+      "url": "https://avatars.mds.yandex.net/get-altay/15031174/2a00000198eb66a7382fafeeb8494c4a90ad/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 33,
+      "id": "urn:yandex:sprav:photo:2a00000189fd242544036e73c4a88528ca76",
+      "tags": [
+        "Меню"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/6249106/2a00000189fd242544036e73c4a88528ca76/XXXL",
+      "uploaded_at": "2023-08-16T06:59:13Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 34,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66a41292dbcdcc562da0fd76",
+      "tags": [
+        "Еда"
+      ],
+      "width": 686,
+      "height": 845,
+      "url": "https://avatars.mds.yandex.net/get-altay/15712112/2a00000198eb66a41292dbcdcc562da0fd76/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 35,
+      "id": "urn:yandex:sprav:photo:14683384_2a0000019824d02f404caf608958907a0652",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/14683384/2a0000019824d02f404caf608958907a0652/XXXL",
+      "uploaded_at": "2025-07-19T22:31:22Z",
+      "uploader_name_shown": "Мария",
+      "type": "photo"
+    },
+    {
+      "n": 36,
+      "id": "urn:yandex:sprav:photo:16483787_2a0000019bc3659163a959a72635136c3e8f",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16483787/2a0000019bc3659163a959a72635136c3e8f/XXXL",
+      "uploaded_at": "2026-01-15T20:42:54Z",
+      "uploader_name_shown": "Ксения Шикуть",
+      "type": "photo"
+    },
+    {
+      "n": 37,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66ae34c1ee3933067dc26018",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 678,
+      "height": 835,
+      "url": "https://avatars.mds.yandex.net/get-altay/14085323/2a00000198eb66ae34c1ee3933067dc26018/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 38,
+      "id": "urn:yandex:sprav:photo:11368589_2a0000018c1ae16f094882e7c9ef738dfb76",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11368589/2a0000018c1ae16f094882e7c9ef738dfb76/XXXL",
+      "uploaded_at": "2023-11-29T11:40:35Z",
+      "uploader_name_shown": "Kosva",
+      "type": "photo"
+    },
+    {
+      "n": 39,
+      "id": "urn:yandex:sprav:photo:10926933_2a0000018c36c7639aeb8d8e0fc11c9aac55",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 964,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10926933/2a0000018c36c7639aeb8d8e0fc11c9aac55/XXXL",
+      "uploaded_at": "2023-12-04T21:41:30Z",
+      "uploader_name_shown": "Алексей",
+      "type": "photo"
+    },
+    {
+      "n": 40,
+      "id": "urn:yandex:sprav:photo:19662431_2a0000019bc36d583e5373ed6b03eda2ab24",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/19662431/2a0000019bc36d583e5373ed6b03eda2ab24/XXXL",
+      "uploaded_at": "2026-01-15T20:51:24Z",
+      "uploader_name_shown": "Инкогнито 3112",
+      "type": "photo"
+    },
+    {
+      "n": 41,
+      "id": "urn:yandex:sprav:photo:2a0000018acc405ead5990301188e86a326c",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/11072941/2a0000018acc405ead5990301188e86a326c/XXXL",
+      "uploaded_at": "2023-09-25T12:11:26Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 42,
+      "id": "urn:yandex:sprav:photo:2a00000183e7d2548d838de4d0f87f07c7e9",
+      "tags": [
+        "Еда"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/7754763/2a00000183e7d2548d838de4d0f87f07c7e9/XXXL",
+      "uploaded_at": "2022-10-17T21:21:05Z",
+      "uploader_name_shown": "Константин",
+      "type": "photo"
+    },
+    {
+      "n": 43,
+      "id": "urn:yandex:sprav:photo:11381866_2a0000018cb088158197e9626e1327051395",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 577,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11381866/2a0000018cb088158197e9626e1327051395/XXXL",
+      "uploaded_at": "2023-12-28T13:05:59Z",
+      "uploader_name_shown": "Дмитрий Бездников",
+      "type": "photo"
+    },
+    {
+      "n": 44,
+      "id": "urn:yandex:sprav:photo:2a0000018acc405e9efffb9aa0131877259c",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/11018317/2a0000018acc405e9efffb9aa0131877259c/XXXL",
+      "uploaded_at": "2023-09-25T12:11:26Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 45,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66a40dedfe7ff3f21087dec5",
+      "tags": [
+        "Еда"
+      ],
+      "width": 599,
+      "height": 589,
+      "url": "https://avatars.mds.yandex.net/get-altay/16398472/2a00000198eb66a40dedfe7ff3f21087dec5/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 46,
+      "id": "urn:yandex:sprav:photo:2a00000189fd2425758209427d7ee2fdba2b",
+      "tags": [
+        "Меню"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/7691421/2a00000189fd2425758209427d7ee2fdba2b/XXXL",
+      "uploaded_at": "2023-08-16T06:59:13Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 47,
+      "id": "urn:yandex:sprav:photo:10702157_2a00000189f8a9719b0f5044fb99c6f8217b",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 512,
+      "height": 768,
+      "url": "https://avatars.mds.yandex.net/get-altay/10702157/2a00000189f8a9719b0f5044fb99c6f8217b/XXXL",
+      "uploaded_at": "2023-08-15T10:06:42Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 48,
+      "id": "urn:yandex:sprav:photo:15231053_2a0000019638899b38ba579fa290e453574d",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15231053/2a0000019638899b38ba579fa290e453574d/XXXL",
+      "uploaded_at": "2025-04-15T08:21:06Z",
+      "uploader_name_shown": "Катерина",
+      "type": "photo"
+    },
+    {
+      "n": 49,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1fce3a162b43583273e9a9df",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/10829645/2a00000189fd1fce3a162b43583273e9a9df/XXXL",
+      "uploaded_at": "2023-08-16T06:54:28Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 50,
+      "id": "urn:yandex:sprav:photo:15539509_2a000001973605877cb6934d4977e19c1ef1",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15539509/2a000001973605877cb6934d4977e19c1ef1/XXXL",
+      "uploaded_at": "2025-06-03T13:40:25Z",
+      "uploader_name_shown": "Анастасия Мельникова",
+      "type": "photo"
+    },
+    {
+      "n": 51,
+      "id": "urn:yandex:sprav:photo:17753003_2a0000019db39eab49482260f9764fb022a9",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/17753003/2a0000019db39eab49482260f9764fb022a9/XXXL",
+      "uploaded_at": "2026-04-22T05:16:56Z",
+      "uploader_name_shown": "Юлия С.",
+      "type": "photo"
+    },
+    {
+      "n": 52,
+      "id": "urn:yandex:sprav:photo:13940652_2a00000194c77c03e9dd112b8986d1f382c0",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/13940652/2a00000194c77c03e9dd112b8986d1f382c0/XXXL",
+      "uploaded_at": "2025-02-02T16:26:24Z",
+      "uploader_name_shown": "Валери",
+      "type": "photo"
+    },
+    {
+      "n": 53,
+      "id": "urn:yandex:sprav:photo:2a00000197686b99db09308244125d92c9b9",
+      "tags": [
+        "Еда"
+      ],
+      "width": 577,
+      "height": 870,
+      "url": "https://avatars.mds.yandex.net/get-altay/16399547/2a00000197686b99db09308244125d92c9b9/XXXL",
+      "uploaded_at": "2025-06-13T08:32:52Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 54,
+      "id": "urn:yandex:sprav:photo:10156117_2a00000189e45f35e30775183eebdb9e88de",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 853,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10156117/2a00000189e45f35e30775183eebdb9e88de/XXXL",
+      "uploaded_at": "2023-08-11T11:33:13Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 55,
+      "id": "urn:yandex:sprav:photo:15074997_2a000001969a62d51349f09c163998cdb4b1",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15074997/2a000001969a62d51349f09c163998cdb4b1/XXXL",
+      "uploaded_at": "2025-05-04T08:21:31Z",
+      "uploader_name_shown": "Гелечка Муа",
+      "type": "photo"
+    },
+    {
+      "n": 56,
+      "id": "urn:yandex:sprav:photo:2a0000018acc405e8ba86c39b3dd9bfa93d8",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/11048854/2a0000018acc405e8ba86c39b3dd9bfa93d8/XXXL",
+      "uploaded_at": "2023-09-25T12:11:26Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 57,
+      "id": "urn:yandex:sprav:photo:15544497_2a000001985f9a52b7f1ebe93a0497c5a642",
+      "tags": [
+        "Еда"
+      ],
+      "width": 720,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15544497/2a000001985f9a52b7f1ebe93a0497c5a642/XXXL",
+      "uploaded_at": "2025-07-31T08:30:08Z",
+      "uploader_name_shown": "Тату Салон",
+      "type": "photo"
+    },
+    {
+      "n": 58,
+      "id": "urn:yandex:sprav:photo:9720991_2a00000189f8a953e1dadcdb6e842157fce0",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 512,
+      "height": 768,
+      "url": "https://avatars.mds.yandex.net/get-altay/9720991/2a00000189f8a953e1dadcdb6e842157fce0/XXXL",
+      "uploaded_at": "2023-08-15T10:06:34Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 59,
+      "id": "urn:yandex:sprav:photo:11411122-2a0000018e0a44ce5b0cbe6c8c7d01fb41aa",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 1280,
+      "height": 960,
+      "url": "https://avatars.mds.yandex.net/get-altay/11411122/2a0000018e0a44ce5b0cbe6c8c7d01fb41aa/XXXL",
+      "uploaded_at": "2024-02-11T14:31:59Z",
+      "uploader_name_shown": "Яндекс",
+      "type": "photo"
+    },
+    {
+      "n": 60,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66aa2466b0d857f04b8d3840",
+      "tags": [
+        "Еда"
+      ],
+      "width": 687,
+      "height": 683,
+      "url": "https://avatars.mds.yandex.net/get-altay/14907426/2a00000198eb66aa2466b0d857f04b8d3840/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 61,
+      "id": "urn:yandex:sprav:photo:16069310_2a0000019736055c329f304a9832cfd40f60",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 1280,
+      "height": 1231,
+      "url": "https://avatars.mds.yandex.net/get-altay/16069310/2a0000019736055c329f304a9832cfd40f60/XXXL",
+      "uploaded_at": "2025-06-03T13:40:12Z",
+      "uploader_name_shown": "Анастасия Мельникова",
+      "type": "photo"
+    },
+    {
+      "n": 62,
+      "id": "urn:yandex:sprav:photo:14599414_2a000001969a6349af24b86a12b0b225034e",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 720,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/14599414/2a000001969a6349af24b86a12b0b225034e/XXXL",
+      "uploaded_at": "2025-05-04T08:22:03Z",
+      "uploader_name_shown": "Гелечка Муа",
+      "type": "photo"
+    },
+    {
+      "n": 63,
+      "id": "urn:yandex:sprav:photo:12851611_2a0000018e29a73a1b3d63ff59edcf5c752c",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/12851611/2a0000018e29a73a1b3d63ff59edcf5c752c/XXXL",
+      "uploaded_at": "2024-03-10T18:36:51Z",
+      "uploader_name_shown": "Анастасия Силина",
+      "type": "photo"
+    },
+    {
+      "n": 64,
+      "id": "urn:yandex:sprav:photo:16105135_2a000001973c65020c0180cb0757e1f3bb08",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16105135/2a000001973c65020c0180cb0757e1f3bb08/XXXL",
+      "uploaded_at": "2025-06-04T19:22:25Z",
+      "uploader_name_shown": "Елизавета К.",
+      "type": "photo"
+    },
+    {
+      "n": 65,
+      "id": "urn:yandex:sprav:photo:16399547_2a0000019bc355bad53d4348c14b54640235",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16399547/2a0000019bc355bad53d4348c14b54640235/XXXL",
+      "uploaded_at": "2026-01-15T20:25:35Z",
+      "uploader_name_shown": "Александра Савельева",
+      "type": "photo"
+    },
+    {
+      "n": 66,
+      "id": "urn:yandex:sprav:photo:2a0000018acc405e7610ae619b5cf2c2d468",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/10702157/2a0000018acc405e7610ae619b5cf2c2d468/XXXL",
+      "uploaded_at": "2023-09-25T12:11:26Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 67,
+      "id": "urn:yandex:sprav:photo:11047134_2a0000018e29a74a18aa6118d37248521a0d",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11047134/2a0000018e29a74a18aa6118d37248521a0d/XXXL",
+      "uploaded_at": "2024-03-10T18:36:55Z",
+      "uploader_name_shown": "Анастасия Силина",
+      "type": "photo"
+    },
+    {
+      "n": 68,
+      "id": "urn:yandex:sprav:photo:18144645_2a0000019db39e93948904e9bcbe9643cfa3",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/18144645/2a0000019db39e93948904e9bcbe9643cfa3/XXXL",
+      "uploaded_at": "2026-04-22T05:16:52Z",
+      "uploader_name_shown": "Юлия С.",
+      "type": "photo"
+    },
+    {
+      "n": 69,
+      "id": "urn:yandex:sprav:photo:13054604_2a00000191985a564a9ae6bddd2cf8eaa443",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/13054604/2a00000191985a564a9ae6bddd2cf8eaa443/XXXL",
+      "uploaded_at": "2024-08-28T09:39:07Z",
+      "uploader_name_shown": "Александр Афанасенко",
+      "type": "photo"
+    },
+    {
+      "n": 70,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1d5510979b92f18b3e8d235e",
+      "tags": [
+        "Еда"
+      ],
+      "width": 828,
+      "height": 552,
+      "url": "https://avatars.mds.yandex.net/get-altay/9428388/2a00000189fd1d5510979b92f18b3e8d235e/XXXL",
+      "uploaded_at": "2023-08-16T06:51:46Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 71,
+      "id": "urn:yandex:sprav:photo:15343885_2a00000197cbd4c5a3a060cccfade6df7788",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15343885/2a00000197cbd4c5a3a060cccfade6df7788/XXXL",
+      "uploaded_at": "2025-07-02T15:50:11Z",
+      "uploader_name_shown": "НАТАША Ф",
+      "type": "photo"
+    },
+    {
+      "n": 72,
+      "id": "urn:yandex:sprav:photo:9849468_2a00000189f8a91ac209bca30e9efeebbcc2",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 512,
+      "height": 768,
+      "url": "https://avatars.mds.yandex.net/get-altay/9849468/2a00000189f8a91ac209bca30e9efeebbcc2/XXXL",
+      "uploaded_at": "2023-08-15T10:06:20Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 73,
+      "id": "urn:yandex:sprav:photo:2a0000018acc4365b2e8aea82936550dfafe",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/7652307/2a0000018acc4365b2e8aea82936550dfafe/XXXL",
+      "uploaded_at": "2023-09-25T12:14:44Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 74,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1efcefb424f84e1c91fd203a",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/9428388/2a00000189fd1efcefb424f84e1c91fd203a/XXXL",
+      "uploaded_at": "2023-08-16T06:53:36Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 75,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66ab58535bc5753a1bd9422e",
+      "tags": [
+        "Еда"
+      ],
+      "width": 681,
+      "height": 556,
+      "url": "https://avatars.mds.yandex.net/get-altay/16113897/2a00000198eb66ab58535bc5753a1bd9422e/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 76,
+      "id": "urn:yandex:sprav:photo:15017195_2a000001963889c229cf43a825bf6a0aa150",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15017195/2a000001963889c229cf43a825bf6a0aa150/XXXL",
+      "uploaded_at": "2025-04-15T08:21:17Z",
+      "uploader_name_shown": "Катерина",
+      "type": "photo"
+    },
+    {
+      "n": 77,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1d55177fec2cb29a50e08e36",
+      "tags": [
+        "Еда"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/11093519/2a00000189fd1d55177fec2cb29a50e08e36/XXXL",
+      "uploaded_at": "2023-08-16T06:51:47Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 78,
+      "id": "urn:yandex:sprav:photo:10142335_2a0000018d0e25a407c1d3fc30d7e4d92c23",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10142335/2a0000018d0e25a407c1d3fc30d7e4d92c23/XXXL",
+      "uploaded_at": "2024-01-15T17:22:47Z",
+      "uploader_name_shown": "Анна Симанкова",
+      "type": "photo"
+    },
+    {
+      "n": 79,
+      "id": "urn:yandex:sprav:photo:16413163_2a0000019be2918a01aac3708cec05bff2a7",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16413163/2a0000019be2918a01aac3708cec05bff2a7/XXXL",
+      "uploaded_at": "2026-01-21T21:59:10Z",
+      "uploader_name_shown": "Алина Краснова",
+      "type": "photo"
+    },
+    {
+      "n": 80,
+      "id": "urn:yandex:sprav:photo:2a00000189fd24256430b4ebb54db9eea347",
+      "tags": [
+        "Меню"
+      ],
+      "width": 828,
+      "height": 1241,
+      "url": "https://avatars.mds.yandex.net/get-altay/10216747/2a00000189fd24256430b4ebb54db9eea347/XXXL",
+      "uploaded_at": "2023-08-16T06:59:13Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 81,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1efd100a915d7565aa892968",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/9916116/2a00000189fd1efd100a915d7565aa892968/XXXL",
+      "uploaded_at": "2023-08-16T06:53:37Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 82,
+      "id": "urn:yandex:sprav:photo:16823151_2a0000019902071bdeae0b178f07144f8f86",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16823151/2a0000019902071bdeae0b178f07144f8f86/XXXL",
+      "uploaded_at": "2025-08-31T21:27:27Z",
+      "uploader_name_shown": "Марина",
+      "type": "photo"
+    },
+    {
+      "n": 83,
+      "id": "urn:yandex:sprav:photo:14703533_2a00000194c77c35ade53c05d2f10ec1c9c7",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/14703533/2a00000194c77c35ade53c05d2f10ec1c9c7/XXXL",
+      "uploaded_at": "2025-02-02T16:26:36Z",
+      "uploader_name_shown": "Валери",
+      "type": "photo"
+    },
+    {
+      "n": 84,
+      "id": "urn:yandex:sprav:photo:17753003_2a0000019d33056678e15bf987209b4fd29f",
+      "tags": [
+        "Еда"
+      ],
+      "width": 575,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/17753003/2a0000019d33056678e15bf987209b4fd29f/XXXL",
+      "uploaded_at": "2026-03-28T05:58:07Z",
+      "uploader_name_shown": "Анастасия С.",
+      "type": "photo"
+    },
+    {
+      "n": 85,
+      "id": "urn:yandex:sprav:photo:6195924_2a00000190fe57d5ccd98156899281757670",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/6195924/2a00000190fe57d5ccd98156899281757670/XXXL",
+      "uploaded_at": "2024-07-29T11:54:49Z",
+      "uploader_name_shown": "Петрова Янина",
+      "type": "photo"
+    },
+    {
+      "n": 86,
+      "id": "urn:yandex:sprav:photo:2a00000197686b953ae8ec0224a1e74cb179",
+      "tags": [
+        "Еда"
+      ],
+      "width": 577,
+      "height": 870,
+      "url": "https://avatars.mds.yandex.net/get-altay/15395175/2a00000197686b953ae8ec0224a1e74cb179/XXXL",
+      "uploaded_at": "2025-06-13T08:32:52Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 87,
+      "id": "urn:yandex:sprav:photo:16161139_2a00000197dc4231265479881d9513f6e7d5",
+      "tags": [
+        "Доступность"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16161139/2a00000197dc4231265479881d9513f6e7d5/XXXL",
+      "uploaded_at": "2025-07-05T20:23:38Z",
+      "uploader_name_shown": "Мария Ф.",
+      "type": "photo"
+    },
+    {
+      "n": 88,
+      "id": "urn:yandex:sprav:photo:14675612_2a0000019638898ce1fc7ca1239b96f09334",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/14675612/2a0000019638898ce1fc7ca1239b96f09334/XXXL",
+      "uploaded_at": "2025-04-15T08:21:02Z",
+      "uploader_name_shown": "Катерина",
+      "type": "photo"
+    },
+    {
+      "n": 89,
+      "id": "urn:yandex:sprav:photo:10702157_2a00000189f8a92d40933dabcb33311b90da",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 512,
+      "height": 768,
+      "url": "https://avatars.mds.yandex.net/get-altay/10702157/2a00000189f8a92d40933dabcb33311b90da/XXXL",
+      "uploaded_at": "2023-08-15T10:06:24Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 90,
+      "id": "urn:yandex:sprav:photo:17788144_2a0000019e283abd1892687f0a927fa52cf0",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/17788144/2a0000019e283abd1892687f0a927fa52cf0/XXXL",
+      "uploaded_at": "2026-05-14T20:43:21Z",
+      "uploader_name_shown": "Илья Лобода",
+      "type": "photo"
+    },
+    {
+      "n": 91,
+      "id": "urn:yandex:sprav:photo:2a0000018acc4365e906225d7ca81c3421f9",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/10963046/2a0000018acc4365e906225d7ca81c3421f9/XXXL",
+      "uploaded_at": "2023-09-25T12:14:44Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 92,
+      "id": "urn:yandex:sprav:photo:10147638_2a0000018c0856b7fccbdce0c0d789302144",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10147638/2a0000018c0856b7fccbdce0c0d789302144/XXXL",
+      "uploaded_at": "2023-11-25T21:15:51Z",
+      "uploader_name_shown": "Андрей И.",
+      "type": "photo"
+    },
+    {
+      "n": 93,
+      "id": "urn:yandex:sprav:photo:16161139_2a000001979cd687fe7662b457647173965a",
+      "tags": [
+        "Еда"
+      ],
+      "width": 1280,
+      "height": 720,
+      "url": "https://avatars.mds.yandex.net/get-altay/16161139/2a000001979cd687fe7662b457647173965a/XXXL",
+      "uploaded_at": "2025-06-23T12:49:57Z",
+      "uploader_name_shown": "Дася",
+      "type": "photo"
+    },
+    {
+      "n": 94,
+      "id": "urn:yandex:sprav:photo:10141118_2a00000189e45f37499b979f910bcb7f4a39",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 1280,
+      "height": 853,
+      "url": "https://avatars.mds.yandex.net/get-altay/10141118/2a00000189e45f37499b979f910bcb7f4a39/XXXL",
+      "uploaded_at": "2023-08-11T11:33:13Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 95,
+      "id": "urn:yandex:sprav:photo:10700095_2a00000189e45f300a596cfff99305629045",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 1280,
+      "height": 855,
+      "url": "https://avatars.mds.yandex.net/get-altay/10700095/2a00000189e45f300a596cfff99305629045/XXXL",
+      "uploaded_at": "2023-08-11T11:33:12Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 96,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66ad1062624005aaaac4840a",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 683,
+      "height": 948,
+      "url": "https://avatars.mds.yandex.net/get-altay/16914582/2a00000198eb66ad1062624005aaaac4840a/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 97,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1d54d5180012bd2e5462c6ab",
+      "tags": [
+        "Еда"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/10869107/2a00000189fd1d54d5180012bd2e5462c6ab/XXXL",
+      "uploaded_at": "2023-08-16T06:51:46Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 98,
+      "id": "urn:yandex:sprav:photo:16394283_2a0000019736056e54fe0b2b9ad4e16e233f",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16394283/2a0000019736056e54fe0b2b9ad4e16e233f/XXXL",
+      "uploaded_at": "2025-06-03T13:40:17Z",
+      "uploader_name_shown": "Анастасия Мельникова",
+      "type": "photo"
+    },
+    {
+      "n": 99,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1d5500e053753c073b3638cf",
+      "tags": [
+        "Еда"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/11003990/2a00000189fd1d5500e053753c073b3638cf/XXXL",
+      "uploaded_at": "2023-08-16T06:51:46Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 100,
+      "id": "urn:yandex:sprav:photo:15288133_2a00000195c42e65d522c21909fcd707d244",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15288133/2a00000195c42e65d522c21909fcd707d244/XXXL",
+      "uploaded_at": "2025-03-23T18:05:33Z",
+      "uploader_name_shown": "Прораб",
+      "type": "photo"
+    },
+    {
+      "n": 101,
+      "id": "urn:yandex:sprav:photo:11522875_2a0000018e29a838d35b623b2af59702b502",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11522875/2a0000018e29a838d35b623b2af59702b502/XXXL",
+      "uploaded_at": "2024-03-10T18:37:56Z",
+      "uploader_name_shown": "Анастасия Силина",
+      "type": "photo"
+    },
+    {
+      "n": 102,
+      "id": "urn:yandex:sprav:photo:15397479_2a00000194d5b66182c6cc07e0655439e4c5",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15397479/2a00000194d5b66182c6cc07e0655439e4c5/XXXL",
+      "uploaded_at": "2025-02-05T10:44:50Z",
+      "uploader_name_shown": "Олег Гришанов",
+      "type": "photo"
+    },
+    {
+      "n": 103,
+      "id": "urn:yandex:sprav:photo:18148618_2a0000019bc365aff863d00cb8cdcd1cebc0",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/18148618/2a0000019bc365aff863d00cb8cdcd1cebc0/XXXL",
+      "uploaded_at": "2026-01-15T20:43:02Z",
+      "uploader_name_shown": "Ксения Шикуть",
+      "type": "photo"
+    },
+    {
+      "n": 104,
+      "id": "urn:yandex:sprav:photo:2a00000198eb65f922630e78eed55806f04f",
+      "tags": [
+        "Меню"
+      ],
+      "width": 676,
+      "height": 555,
+      "url": "https://avatars.mds.yandex.net/get-altay/16823151/2a00000198eb65f922630e78eed55806f04f/XXXL",
+      "uploaded_at": "2025-08-27T11:59:46Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 105,
+      "id": "urn:yandex:sprav:photo:2a00000189fd242560ebd171577b4abfd4f6",
+      "tags": [
+        "Меню"
+      ],
+      "width": 828,
+      "height": 980,
+      "url": "https://avatars.mds.yandex.net/get-altay/10700095/2a00000189fd242560ebd171577b4abfd4f6/XXXL",
+      "uploaded_at": "2023-08-16T06:59:13Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 106,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1d5535492b929a4f5339094b",
+      "tags": [
+        "Еда"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/902827/2a00000189fd1d5535492b929a4f5339094b/XXXL",
+      "uploaded_at": "2023-08-16T06:51:47Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 107,
+      "id": "urn:yandex:sprav:photo:11385489_2a0000018d0e261b902f562eab309528c7e2",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11385489/2a0000018d0e261b902f562eab309528c7e2/XXXL",
+      "uploaded_at": "2024-01-15T17:23:18Z",
+      "uploader_name_shown": "Анна Симанкова",
+      "type": "photo"
+    },
+    {
+      "n": 108,
+      "id": "urn:yandex:sprav:photo:9770129_2a00000189e45f3aa2d3ca705a5439c7a4df",
+      "tags": [
+        "Меню"
+      ],
+      "width": 853,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/9770129/2a00000189e45f3aa2d3ca705a5439c7a4df/XXXL",
+      "uploaded_at": "2023-08-11T11:33:14Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 109,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1efce601901bdf71c686d8d7",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/9719535/2a00000189fd1efce601901bdf71c686d8d7/XXXL",
+      "uploaded_at": "2023-08-16T06:53:36Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 110,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1efc8d37b1ee982c31c666e0",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/10933525/2a00000189fd1efc8d37b1ee982c31c666e0/XXXL",
+      "uploaded_at": "2023-08-16T06:53:36Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 111,
+      "id": "urn:yandex:sprav:photo:2a00000189fd242568b9356d83f0e0295855",
+      "tags": [
+        "Меню"
+      ],
+      "width": 828,
+      "height": 1146,
+      "url": "https://avatars.mds.yandex.net/get-altay/9428388/2a00000189fd242568b9356d83f0e0295855/XXXL",
+      "uploaded_at": "2023-08-16T06:59:14Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 112,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66a7e3aa8bd8ef38e68d50dd",
+      "tags": [
+        "Еда"
+      ],
+      "width": 681,
+      "height": 618,
+      "url": "https://avatars.mds.yandex.net/get-altay/15291179/2a00000198eb66a7e3aa8bd8ef38e68d50dd/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 113,
+      "id": "urn:yandex:sprav:photo:18133168_2a0000019bc355de22b44c3901558dec3593",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/18133168/2a0000019bc355de22b44c3901558dec3593/XXXL",
+      "uploaded_at": "2026-01-15T20:25:46Z",
+      "uploader_name_shown": "Александра Савельева",
+      "type": "photo"
+    },
+    {
+      "n": 114,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1efd9ebe9a3385b98784b807",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/10216747/2a00000189fd1efd9ebe9a3385b98784b807/XXXL",
+      "uploaded_at": "2023-08-16T06:53:36Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 115,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66a4b7a392773396128c31c9",
+      "tags": [
+        "Еда"
+      ],
+      "width": 678,
+      "height": 749,
+      "url": "https://avatars.mds.yandex.net/get-altay/16874376/2a00000198eb66a4b7a392773396128c31c9/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 116,
+      "id": "urn:yandex:sprav:photo:15289836_2a00000196388970cf752b1cfe3720f7be6b",
+      "tags": [
+        "Меню"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15289836/2a00000196388970cf752b1cfe3720f7be6b/XXXL",
+      "uploaded_at": "2025-04-15T08:20:56Z",
+      "uploader_name_shown": "Катерина",
+      "type": "photo"
+    },
+    {
+      "n": 117,
+      "id": "urn:yandex:sprav:photo:9719535_2a00000189f8a938b185765c553b1a8e8823",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 512,
+      "height": 768,
+      "url": "https://avatars.mds.yandex.net/get-altay/9719535/2a00000189f8a938b185765c553b1a8e8823/XXXL",
+      "uploaded_at": "2023-08-15T10:06:27Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 118,
+      "id": "urn:yandex:sprav:photo:16789805_2a0000019a2012662660457e4ecd192a36d5",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16789805/2a0000019a2012662660457e4ecd192a36d5/XXXL",
+      "uploaded_at": "2025-10-26T10:31:10Z",
+      "uploader_name_shown": "Ксения Белова",
+      "type": "photo"
+    },
+    {
+      "n": 119,
+      "id": "urn:yandex:sprav:photo:16323929_2a000001990206a0043c42dbc8b6126780fe",
+      "tags": [
+        "Доступность"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16323929/2a000001990206a0043c42dbc8b6126780fe/XXXL",
+      "uploaded_at": "2025-08-31T21:26:55Z",
+      "uploader_name_shown": "Марина",
+      "type": "photo"
+    },
+    {
+      "n": 120,
+      "id": "urn:yandex:sprav:photo:2a00000198eb65f899a98603f8359890ef44",
+      "tags": [
+        "Еда"
+      ],
+      "width": 681,
+      "height": 531,
+      "url": "https://avatars.mds.yandex.net/get-altay/16771051/2a00000198eb65f899a98603f8359890ef44/XXXL",
+      "uploaded_at": "2025-08-27T11:59:46Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 121,
+      "id": "urn:yandex:sprav:photo:18116908_2a0000019e283b37ac8633dd2abb313a26a5",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/18116908/2a0000019e283b37ac8633dd2abb313a26a5/XXXL",
+      "uploaded_at": "2026-05-14T20:43:52Z",
+      "uploader_name_shown": "Илья Лобода",
+      "type": "photo"
+    },
+    {
+      "n": 122,
+      "id": "urn:yandex:sprav:photo:16404250_2a0000019829aa74df8cd9605184de61b1a6",
+      "tags": [],
+      "width": 964,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16404250/2a0000019829aa74df8cd9605184de61b1a6/XXXL",
+      "uploaded_at": "2025-07-20T21:08:16Z",
+      "uploader_name_shown": "Anna Shilina",
+      "type": "photo"
+    },
+    {
+      "n": 123,
+      "id": "urn:yandex:sprav:photo:2a00000197686b97e8ac17fa9464bc8aa9d1",
+      "tags": [
+        "Еда"
+      ],
+      "width": 287,
+      "height": 434,
+      "url": "https://avatars.mds.yandex.net/get-altay/14816713/2a00000197686b97e8ac17fa9464bc8aa9d1/XXXL",
+      "uploaded_at": "2025-06-13T08:32:52Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 124,
+      "id": "urn:yandex:sprav:photo:15278128_2a000001969a62f16cf0ed01f8dd3af8beec",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15278128/2a000001969a62f16cf0ed01f8dd3af8beec/XXXL",
+      "uploaded_at": "2025-05-04T08:21:39Z",
+      "uploader_name_shown": "Гелечка Муа",
+      "type": "photo"
+    },
+    {
+      "n": 125,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66a8222e34b1c9955c623c33",
+      "tags": [
+        "Еда"
+      ],
+      "width": 683,
+      "height": 641,
+      "url": "https://avatars.mds.yandex.net/get-altay/15544497/2a00000198eb66a8222e34b1c9955c623c33/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 126,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1efca36ef81ab2f0b1331dc6",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/11093519/2a00000189fd1efca36ef81ab2f0b1331dc6/XXXL",
+      "uploaded_at": "2023-08-16T06:53:36Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 127,
+      "id": "urn:yandex:sprav:photo:11368589_2a0000018be83a2ec0d46e1b1e454ab45e25",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 1280,
+      "height": 964,
+      "url": "https://avatars.mds.yandex.net/get-altay/11368589/2a0000018be83a2ec0d46e1b1e454ab45e25/XXXL",
+      "uploaded_at": "2023-11-19T15:36:54Z",
+      "uploader_name_shown": "Алексей",
+      "type": "photo"
+    },
+    {
+      "n": 128,
+      "id": "urn:yandex:sprav:photo:16557473_2a00000197dc42191b68c727f7921e6be006",
+      "tags": [
+        "Доступность"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16557473/2a00000197dc42191b68c727f7921e6be006/XXXL",
+      "uploaded_at": "2025-07-05T20:23:33Z",
+      "uploader_name_shown": "Мария Ф.",
+      "type": "photo"
+    },
+    {
+      "n": 129,
+      "id": "urn:yandex:sprav:photo:15288852_2a0000019638897f42e6843de7665ad843a1",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15288852/2a0000019638897f42e6843de7665ad843a1/XXXL",
+      "uploaded_at": "2025-04-15T08:20:59Z",
+      "uploader_name_shown": "Катерина",
+      "type": "photo"
+    },
+    {
+      "n": 130,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1d551b4ba156edfcf1a9aa05",
+      "tags": [
+        "Еда"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/10142335/2a00000189fd1d551b4ba156edfcf1a9aa05/XXXL",
+      "uploaded_at": "2023-08-16T06:51:47Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 131,
+      "id": "urn:yandex:sprav:photo:15502563_2a00000194d5b653c15aaf561016acc9884d",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15502563/2a00000194d5b653c15aaf561016acc9884d/XXXL",
+      "uploaded_at": "2025-02-05T10:44:46Z",
+      "uploader_name_shown": "Олег Гришанов",
+      "type": "photo"
+    },
+    {
+      "n": 132,
+      "id": "urn:yandex:sprav:photo:2a00000197686b95366a5d7e60f1d6ed9691",
+      "tags": [
+        "Еда"
+      ],
+      "width": 577,
+      "height": 434,
+      "url": "https://avatars.mds.yandex.net/get-altay/15251163/2a00000197686b95366a5d7e60f1d6ed9691/XXXL",
+      "uploaded_at": "2025-06-13T08:32:52Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 133,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66a7547e7c9251b7c4e46c72",
+      "tags": [
+        "Еда"
+      ],
+      "width": 685,
+      "height": 739,
+      "url": "https://avatars.mds.yandex.net/get-altay/16055577/2a00000198eb66a7547e7c9251b7c4e46c72/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 134,
+      "id": "urn:yandex:sprav:photo:16011054_2a000001963889b1d4211bb753298313b0e9",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16011054/2a000001963889b1d4211bb753298313b0e9/XXXL",
+      "uploaded_at": "2025-04-15T08:21:12Z",
+      "uploader_name_shown": "Катерина",
+      "type": "photo"
+    },
+    {
+      "n": 135,
+      "id": "urn:yandex:sprav:photo:16483787_2a0000019bc355b109af18e8b325d2987d33",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16483787/2a0000019bc355b109af18e8b325d2987d33/XXXL",
+      "uploaded_at": "2026-01-15T20:25:33Z",
+      "uploader_name_shown": "Александра Савельева",
+      "type": "photo"
+    },
+    {
+      "n": 136,
+      "id": "urn:yandex:sprav:photo:2a00000197686b951a368746bd1630d9c5ec",
+      "tags": [
+        "Еда"
+      ],
+      "width": 287,
+      "height": 434,
+      "url": "https://avatars.mds.yandex.net/get-altay/16444693/2a00000197686b951a368746bd1630d9c5ec/XXXL",
+      "uploaded_at": "2025-06-13T08:32:52Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 137,
+      "id": "urn:yandex:sprav:photo:2a00000189fd24255c2ac48fd1569fb69069",
+      "tags": [
+        "Меню"
+      ],
+      "width": 828,
+      "height": 1241,
+      "url": "https://avatars.mds.yandex.net/get-altay/10812438/2a00000189fd24255c2ac48fd1569fb69069/XXXL",
+      "uploaded_at": "2023-08-16T06:59:14Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 138,
+      "id": "urn:yandex:sprav:photo:9828935_2a00000189f8a97d8425facefb40acb612ec",
+      "tags": [
+        "Еда"
+      ],
+      "width": 512,
+      "height": 768,
+      "url": "https://avatars.mds.yandex.net/get-altay/9828935/2a00000189f8a97d8425facefb40acb612ec/XXXL",
+      "uploaded_at": "2023-08-15T10:06:45Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 139,
+      "id": "urn:yandex:sprav:photo:14703533_2a000001963889635934714074648dc6d87c",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/14703533/2a000001963889635934714074648dc6d87c/XXXL",
+      "uploaded_at": "2025-04-15T08:20:52Z",
+      "uploader_name_shown": "Катерина",
+      "type": "photo"
+    },
+    {
+      "n": 140,
+      "id": "urn:yandex:sprav:photo:2a00000189fd24259f5ad5c8ef8de6db7940",
+      "tags": [
+        "Меню"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/9704097/2a00000189fd24259f5ad5c8ef8de6db7940/XXXL",
+      "uploaded_at": "2023-08-16T06:59:13Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 141,
+      "id": "urn:yandex:sprav:photo:14105192_2a00000194c77c4cbfed01d3aec841f87120",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/14105192/2a00000194c77c4cbfed01d3aec841f87120/XXXL",
+      "uploaded_at": "2025-02-02T16:26:43Z",
+      "uploader_name_shown": "Валери",
+      "type": "photo"
+    },
+    {
+      "n": 142,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66a3ffaf5ec55d689dff127f",
+      "tags": [
+        "Еда"
+      ],
+      "width": 566,
+      "height": 551,
+      "url": "https://avatars.mds.yandex.net/get-altay/14910910/2a00000198eb66a3ffaf5ec55d689dff127f/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 143,
+      "id": "urn:yandex:sprav:photo:19547275_2a0000019d33057adbdf8ff22acdae5b93e2",
+      "tags": [
+        "Еда"
+      ],
+      "width": 575,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/19547275/2a0000019d33057adbdf8ff22acdae5b93e2/XXXL",
+      "uploaded_at": "2026-03-28T05:58:13Z",
+      "uploader_name_shown": "Анастасия С.",
+      "type": "photo"
+    },
+    {
+      "n": 144,
+      "id": "urn:yandex:sprav:photo:15388054_2a0000019a3f35e8026b91ee53ee51db78eb",
+      "tags": [
+        "Доступность"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15388054/2a0000019a3f35e8026b91ee53ee51db78eb/XXXL",
+      "uploaded_at": "2025-11-01T11:38:11Z",
+      "uploader_name_shown": "Ксения Белова",
+      "type": "photo"
+    },
+    {
+      "n": 145,
+      "id": "urn:yandex:sprav:photo:16465668_2a0000019be2920b7e840801b9e9da2a0906",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16465668/2a0000019be2920b7e840801b9e9da2a0906/XXXL",
+      "uploaded_at": "2026-01-21T21:59:43Z",
+      "uploader_name_shown": "Кристина Касперович",
+      "type": "photo"
+    },
+    {
+      "n": 146,
+      "id": "urn:yandex:sprav:photo:19681410_2a0000019db39e857ff64bb108bf28633218",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/19681410/2a0000019db39e857ff64bb108bf28633218/XXXL",
+      "uploaded_at": "2026-04-22T05:16:52Z",
+      "uploader_name_shown": "Юлия С.",
+      "type": "photo"
+    },
+    {
+      "n": 147,
+      "id": "urn:yandex:sprav:photo:19519244_2a0000019bc359f1bb2ddbb4c50199263fa4",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/19519244/2a0000019bc359f1bb2ddbb4c50199263fa4/XXXL",
+      "uploaded_at": "2026-01-15T20:30:12Z",
+      "uploader_name_shown": "Лиза",
+      "type": "photo"
+    },
+    {
+      "n": 148,
+      "id": "urn:yandex:sprav:photo:2a00000197686b978788009f1683449f9e77",
+      "tags": [
+        "Еда"
+      ],
+      "width": 287,
+      "height": 434,
+      "url": "https://avatars.mds.yandex.net/get-altay/16418365/2a00000197686b978788009f1683449f9e77/XXXL",
+      "uploaded_at": "2025-06-13T08:32:52Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 149,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1efcf14481190be96625187b",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/6203703/2a00000189fd1efcf14481190be96625187b/XXXL",
+      "uploaded_at": "2023-08-16T06:53:36Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 150,
+      "id": "urn:yandex:sprav:photo:2a00000197686b9531dc5d5b86481dcf6043",
+      "tags": [
+        "Еда"
+      ],
+      "width": 577,
+      "height": 870,
+      "url": "https://avatars.mds.yandex.net/get-altay/15608211/2a00000197686b9531dc5d5b86481dcf6043/XXXL",
+      "uploaded_at": "2025-06-13T08:32:52Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 151,
+      "id": "urn:yandex:sprav:photo:15487932_2a0000019829aa6733f67ceec17b81d9cb45",
+      "tags": [],
+      "width": 964,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15487932/2a0000019829aa6733f67ceec17b81d9cb45/XXXL",
+      "uploaded_at": "2025-07-20T21:08:12Z",
+      "uploader_name_shown": "Anna Shilina",
+      "type": "photo"
+    },
+    {
+      "n": 152,
+      "id": "urn:yandex:sprav:photo:10156117_2a0000018c08544e0829641e8b504bb357c4",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10156117/2a0000018c08544e0829641e8b504bb357c4/XXXL",
+      "uploaded_at": "2023-11-25T21:13:14Z",
+      "uploader_name_shown": "Александра Р.",
+      "type": "photo"
+    },
+    {
+      "n": 153,
+      "id": "urn:yandex:sprav:photo:2a00000189fd1d54e6ac9f1506434fd12993",
+      "tags": [
+        "Еда"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/10639454/2a00000189fd1d54e6ac9f1506434fd12993/XXXL",
+      "uploaded_at": "2023-08-16T06:51:46Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 154,
+      "id": "urn:yandex:sprav:photo:16866637_2a000001979cd669a6237bce6abad1adb2c3",
+      "tags": [
+        "Еда"
+      ],
+      "width": 1280,
+      "height": 720,
+      "url": "https://avatars.mds.yandex.net/get-altay/16866637/2a000001979cd669a6237bce6abad1adb2c3/XXXL",
+      "uploaded_at": "2025-06-23T12:49:50Z",
+      "uploader_name_shown": "Дася",
+      "type": "photo"
+    },
+    {
+      "n": 155,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66a6e6af942d99384a8595eb",
+      "tags": [
+        "Еда"
+      ],
+      "width": 669,
+      "height": 778,
+      "url": "https://avatars.mds.yandex.net/get-altay/16323929/2a00000198eb66a6e6af942d99384a8595eb/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 156,
+      "id": "urn:yandex:sprav:photo:11400839_2a0000018c1ae1cb677c9fb8e9706dfbeb30",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11400839/2a0000018c1ae1cb677c9fb8e9706dfbeb30/XXXL",
+      "uploaded_at": "2023-11-29T11:40:59Z",
+      "uploader_name_shown": "Kosva",
+      "type": "photo"
+    },
+    {
+      "n": 157,
+      "id": "urn:yandex:sprav:photo:2a00000189fd24260551733f1b2e042cc848",
+      "tags": [
+        "Меню"
+      ],
+      "width": 828,
+      "height": 1241,
+      "url": "https://avatars.mds.yandex.net/get-altay/10700016/2a00000189fd24260551733f1b2e042cc848/XXXL",
+      "uploaded_at": "2023-08-16T06:59:14Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 158,
+      "id": "urn:yandex:sprav:photo:15650736_2a0000019823bd108883792085b86357c4e9",
+      "tags": [
+        "Доступность"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15650736/2a0000019823bd108883792085b86357c4e9/XXXL",
+      "uploaded_at": "2025-07-19T17:30:52Z",
+      "uploader_name_shown": "валерия дубинская",
+      "type": "photo"
+    },
+    {
+      "n": 159,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66abc0b6ca138215a09a20af",
+      "tags": [
+        "Еда"
+      ],
+      "width": 681,
+      "height": 529,
+      "url": "https://avatars.mds.yandex.net/get-altay/15042938/2a00000198eb66abc0b6ca138215a09a20af/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 160,
+      "id": "urn:yandex:sprav:photo:2a00000183e7ce84f11468add3712b4c24ce",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 1280,
+      "height": 853,
+      "url": "https://avatars.mds.yandex.net/get-altay/5534173/2a00000183e7ce84f11468add3712b4c24ce/XXXL",
+      "uploaded_at": "2022-10-17T21:16:58Z",
+      "uploader_name_shown": "Константин",
+      "type": "photo"
+    },
+    {
+      "n": 161,
+      "id": "urn:yandex:sprav:photo:14816713_2a000001973c64d3b24ffe07d717fd67bb1e",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 720,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/14816713/2a000001973c64d3b24ffe07d717fd67bb1e/XXXL",
+      "uploaded_at": "2025-06-04T19:22:12Z",
+      "uploader_name_shown": "Елизавета К.",
+      "type": "photo"
+    },
+    {
+      "n": 162,
+      "id": "urn:yandex:sprav:photo:16396695_2a00000197d563aaa462f0d101a57ff5849c",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16396695/2a00000197d563aaa462f0d101a57ff5849c/XXXL",
+      "uploaded_at": "2025-07-04T12:22:51Z",
+      "uploader_name_shown": "Таня Сидоренко",
+      "type": "photo"
+    },
+    {
+      "n": 163,
+      "id": "urn:yandex:sprav:photo:10702222_2a00000189f8a934de7495a80f8f1b9f434d",
+      "tags": [
+        "Меню"
+      ],
+      "width": 512,
+      "height": 768,
+      "url": "https://avatars.mds.yandex.net/get-altay/10702222/2a00000189f8a934de7495a80f8f1b9f434d/XXXL",
+      "uploaded_at": "2023-08-15T10:06:26Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 164,
+      "id": "urn:yandex:sprav:photo:2a00000197686b979f702882c1589bee0e5c",
+      "tags": [
+        "Еда"
+      ],
+      "width": 287,
+      "height": 434,
+      "url": "https://avatars.mds.yandex.net/get-altay/15586709/2a00000197686b979f702882c1589bee0e5c/XXXL",
+      "uploaded_at": "2025-06-13T08:32:52Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 165,
+      "id": "urn:yandex:sprav:photo:19521209_2a0000019bc365a3f60d64b1aeb9b0ffa564",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/19521209/2a0000019bc365a3f60d64b1aeb9b0ffa564/XXXL",
+      "uploaded_at": "2026-01-15T20:42:59Z",
+      "uploader_name_shown": "Ксения Шикуть",
+      "type": "photo"
+    },
+    {
+      "n": 166,
+      "id": "urn:yandex:sprav:photo:9368060_2a00000189e45f306c349322fe76c5175157",
+      "tags": [
+        "Меню"
+      ],
+      "width": 853,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/9368060/2a00000189e45f306c349322fe76c5175157/XXXL",
+      "uploaded_at": "2023-08-11T11:33:13Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 167,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66ab484c5e4bddd43bbaa876",
+      "tags": [
+        "Еда"
+      ],
+      "width": 686,
+      "height": 601,
+      "url": "https://avatars.mds.yandex.net/get-altay/16485345/2a00000198eb66ab484c5e4bddd43bbaa876/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 168,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66a7cc5b1dc0df0efa7fed2c",
+      "tags": [
+        "Еда"
+      ],
+      "width": 683,
+      "height": 722,
+      "url": "https://avatars.mds.yandex.net/get-altay/16318204/2a00000198eb66a7cc5b1dc0df0efa7fed2c/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 169,
+      "id": "urn:yandex:sprav:photo:19996834_2a0000019db39ec405cc6fef5cda1a3a20de",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/19996834/2a0000019db39ec405cc6fef5cda1a3a20de/XXXL",
+      "uploaded_at": "2026-04-22T05:17:02Z",
+      "uploader_name_shown": "Юлия С.",
+      "type": "photo"
+    },
+    {
+      "n": 170,
+      "id": "urn:yandex:sprav:photo:2a00000197686b95581dea6fe277f984f1e2",
+      "tags": [
+        "Еда"
+      ],
+      "width": 577,
+      "height": 870,
+      "url": "https://avatars.mds.yandex.net/get-altay/12721348/2a00000197686b95581dea6fe277f984f1e2/XXXL",
+      "uploaded_at": "2025-06-13T08:32:52Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 171,
+      "id": "urn:yandex:sprav:photo:16410678_2a000001985f9a6e1c350412d6e44c797f90",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/16410678/2a000001985f9a6e1c350412d6e44c797f90/XXXL",
+      "uploaded_at": "2025-07-31T08:30:16Z",
+      "uploader_name_shown": "Тату Салон",
+      "type": "photo"
+    },
+    {
+      "n": 172,
+      "id": "urn:yandex:sprav:photo:15682944_2a0000019b511a7bae753245f1cb6b30e6b4",
+      "tags": [],
+      "width": 720,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/15682944/2a0000019b511a7bae753245f1cb6b30e6b4/XXXL",
+      "uploaded_at": "2025-12-24T16:04:10Z",
+      "uploader_name_shown": "Дарья Емельянова",
+      "type": "photo"
+    },
+    {
+      "n": 173,
+      "id": "urn:yandex:sprav:photo:19662431_2a0000019db39e9e6c1cd494b9434e437059",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/19662431/2a0000019db39e9e6c1cd494b9434e437059/XXXL",
+      "uploaded_at": "2026-04-22T05:16:52Z",
+      "uploader_name_shown": "Юлия С.",
+      "type": "photo"
+    },
+    {
+      "n": 174,
+      "id": "urn:yandex:sprav:photo:2a00000198eb66abcaa6558de90366acc8eb",
+      "tags": [
+        "Еда"
+      ],
+      "width": 682,
+      "height": 603,
+      "url": "https://avatars.mds.yandex.net/get-altay/16789805/2a00000198eb66abcaa6558de90366acc8eb/XXXL",
+      "uploaded_at": "2025-08-27T12:00:32Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 175,
+      "id": "urn:yandex:sprav:photo:2a00000189fd242523a2f21d9d17cea9720b",
+      "tags": [
+        "Меню"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/10869107/2a00000189fd242523a2f21d9d17cea9720b/XXXL",
+      "uploaded_at": "2023-08-16T06:59:13Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 176,
+      "id": "urn:yandex:sprav:photo:910613_2a0000018d0e25dd3cdf1bfb361a06e93534",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/910613/2a0000018d0e25dd3cdf1bfb361a06e93534/XXXL",
+      "uploaded_at": "2024-01-15T17:23:01Z",
+      "uploader_name_shown": "Анна Симанкова",
+      "type": "photo"
+    },
+    {
+      "n": 177,
+      "id": "urn:yandex:sprav:photo:2a0000018acc405e761091f5219f11bdc7db",
+      "tags": [
+        "Снаружи"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/10445027/2a0000018acc405e761091f5219f11bdc7db/XXXL",
+      "uploaded_at": "2023-09-25T12:11:26Z",
+      "uploader_name_shown": "Елизавета Лапекина",
+      "type": "photo"
+    },
+    {
+      "n": 178,
+      "id": "urn:yandex:sprav:photo:2a00000189fd2425052be27eecdc4470bb15",
+      "tags": [
+        "Меню"
+      ],
+      "width": 828,
+      "height": 1242,
+      "url": "https://avatars.mds.yandex.net/get-altay/10829645/2a00000189fd2425052be27eecdc4470bb15/XXXL",
+      "uploaded_at": "2023-08-16T06:59:12Z",
+      "uploader_name_shown": "Елизавета Устинова",
+      "type": "photo"
+    },
+    {
+      "n": 179,
+      "id": "urn:yandex:sprav:photo:21991621_2a000001a1db74aaebfef73baa322b9acc16",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/21991621/2a000001a1db74aaebfef73baa322b9acc16/XXXL",
+      "uploaded_at": "2026-11-14T19:07:02Z",
+      "uploader_name_shown": "Анастасия Хрущёва",
+      "type": "photo"
+    },
+    {
+      "n": 180,
+      "id": "urn:yandex:sprav:photo:20655612_2a000001a1db7490ebc888f1d708395a9949",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20655612/2a000001a1db7490ebc888f1d708395a9949/XXXL",
+      "uploaded_at": "2026-11-14T19:06:55Z",
+      "uploader_name_shown": "Анастасия Хрущёва",
+      "type": "photo"
+    },
+    {
+      "n": 181,
+      "id": "urn:yandex:sprav:photo:22252707_2a000001a1db7479b2b47f49761080c652e4",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/22252707/2a000001a1db7479b2b47f49761080c652e4/XXXL",
+      "uploaded_at": "2026-11-14T19:06:48Z",
+      "uploader_name_shown": "Анастасия Хрущёва",
+      "type": "photo"
+    },
+    {
+      "n": 182,
+      "id": "urn:yandex:sprav:photo:20655612_2a000001a1db73cc64a9957139957c7da23f",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20655612/2a000001a1db73cc64a9957139957c7da23f/XXXL",
+      "uploaded_at": "2026-11-14T19:06:04Z",
+      "uploader_name_shown": "Анастасия Хрущёва",
+      "type": "photo"
+    },
+    {
+      "n": 183,
+      "id": "urn:yandex:sprav:photo:22251957_2a000001a1db73ae88f13b88797d0a0c79f3",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/22251957/2a000001a1db73ae88f13b88797d0a0c79f3/XXXL",
+      "uploaded_at": "2026-11-14T19:05:56Z",
+      "uploader_name_shown": "Анастасия Хрущёва",
+      "type": "photo"
+    },
+    {
+      "n": 184,
+      "id": "urn:yandex:sprav:photo:19753916_2a000001a1cf88a864bdaff1992cc941e802",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/19753916/2a000001a1cf88a864bdaff1992cc941e802/XXXL",
+      "uploaded_at": "2026-11-12T11:33:25Z",
+      "uploader_name_shown": "Дарья",
+      "type": "photo"
+    },
+    {
+      "n": 185,
+      "id": "urn:yandex:sprav:photo:17771550_2a000001a1894718c508da3edb158aaa8e87",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/17771550/2a000001a1894718c508da3edb158aaa8e87/XXXL",
+      "uploaded_at": "2026-10-29T20:08:23Z",
+      "uploader_name_shown": "Виктория",
+      "type": "photo"
+    },
+    {
+      "n": 186,
+      "id": "urn:yandex:sprav:photo:21093731_2a000001a1894702377ae1d911f9680775f3",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/21093731/2a000001a1894702377ae1d911f9680775f3/XXXL",
+      "uploaded_at": "2026-10-29T20:08:17Z",
+      "uploader_name_shown": "Виктория",
+      "type": "photo"
+    },
+    {
+      "n": 187,
+      "id": "urn:yandex:sprav:photo:21099961_2a000001a173a96842a87f063aa41b215b8d",
+      "tags": [],
+      "width": 1280,
+      "height": 960,
+      "url": "https://avatars.mds.yandex.net/get-altay/21099961/2a000001a173a96842a87f063aa41b215b8d/XXXL",
+      "uploaded_at": "2026-10-25T15:24:07Z",
+      "uploader_name_shown": "Виктория Идоленко",
+      "type": "photo"
+    },
+    {
+      "n": 188,
+      "id": "urn:yandex:sprav:photo:21012565_2a000001a13bae7be365baaef2a27323d112",
+      "tags": [
+        "Еда"
+      ],
+      "width": 720,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/21012565/2a000001a13bae7be365baaef2a27323d112/XXXL",
+      "uploaded_at": "2026-10-14T18:30:56Z",
+      "uploader_name_shown": "елизавета .",
+      "type": "photo"
+    },
+    {
+      "n": 189,
+      "id": "urn:yandex:sprav:photo:18735233_2a000001a0ee28ced1105425ad5dfbacae0a",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/18735233/2a000001a0ee28ced1105425ad5dfbacae0a/XXXL",
+      "uploaded_at": "2026-09-29T17:14:11Z",
+      "uploader_name_shown": "Инна Грищенкова",
+      "type": "photo"
+    },
+    {
+      "n": 190,
+      "id": "urn:yandex:sprav:photo:20838862_2a000001a0ee28b7e866e8ca6d7f285da15a",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20838862/2a000001a0ee28b7e866e8ca6d7f285da15a/XXXL",
+      "uploaded_at": "2026-09-29T17:14:04Z",
+      "uploader_name_shown": "Инна Грищенкова",
+      "type": "photo"
+    },
+    {
+      "n": 191,
+      "id": "urn:yandex:sprav:photo:21166000_2a000001a0ee2895d64f4d08cd4ec2d7b222",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/21166000/2a000001a0ee2895d64f4d08cd4ec2d7b222/XXXL",
+      "uploaded_at": "2026-09-29T17:13:56Z",
+      "uploader_name_shown": "Инна Грищенкова",
+      "type": "photo"
+    },
+    {
+      "n": 192,
+      "id": "urn:yandex:sprav:photo:21022651_2a000001a0ed689358cedcaba6d9bd099826",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/21022651/2a000001a0ed689358cedcaba6d9bd099826/XXXL",
+      "uploaded_at": "2026-09-29T13:44:13Z",
+      "uploader_name_shown": "Инна Грищенкова",
+      "type": "photo"
+    },
+    {
+      "n": 193,
+      "id": "urn:yandex:sprav:photo:20781708_2a000001a0ba395f58f49c96d788af9142e8",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20781708/2a000001a0ba395f58f49c96d788af9142e8/XXXL",
+      "uploaded_at": "2026-09-19T15:12:00Z",
+      "uploader_name_shown": "Настя",
+      "type": "photo"
+    },
+    {
+      "n": 194,
+      "id": "urn:yandex:sprav:photo:20614309_2a000001a0ba394f47158add1e1cc1723cc8",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20614309/2a000001a0ba394f47158add1e1cc1723cc8/XXXL",
+      "uploaded_at": "2026-09-19T15:11:56Z",
+      "uploader_name_shown": "Настя",
+      "type": "photo"
+    },
+    {
+      "n": 195,
+      "id": "urn:yandex:sprav:photo:19809277_2a000001a0aa04305c18c18a39cc795da988",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/19809277/2a000001a0aa04305c18c18a39cc795da988/XXXL",
+      "uploaded_at": "2026-09-16T11:40:00Z",
+      "uploader_name_shown": "Ангелина",
+      "type": "photo"
+    },
+    {
+      "n": 196,
+      "id": "urn:yandex:sprav:photo:17786812_2a000001a0aa0416e66bc91256d27c2d7640",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/17786812/2a000001a0aa0416e66bc91256d27c2d7640/XXXL",
+      "uploaded_at": "2026-09-16T11:39:54Z",
+      "uploader_name_shown": "Ангелина",
+      "type": "photo"
+    },
+    {
+      "n": 197,
+      "id": "urn:yandex:sprav:photo:17786812_2a000001a0aa03f68173ae39ba6dfe3db249",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/17786812/2a000001a0aa03f68173ae39ba6dfe3db249/XXXL",
+      "uploaded_at": "2026-09-16T11:39:45Z",
+      "uploader_name_shown": "Ангелина",
+      "type": "photo"
+    },
+    {
+      "n": 198,
+      "id": "urn:yandex:sprav:photo:18190072_2a000001a0aa03d9ca57a06038296ff8203f",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/18190072/2a000001a0aa03d9ca57a06038296ff8203f/XXXL",
+      "uploaded_at": "2026-09-16T11:39:37Z",
+      "uploader_name_shown": "Ангелина",
+      "type": "photo"
+    },
+    {
+      "n": 199,
+      "id": "urn:yandex:sprav:photo:21009421_2a000001a0865082b64e8fcadf0fbe5972d2",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/21009421/2a000001a0865082b64e8fcadf0fbe5972d2/XXXL",
+      "uploaded_at": "2026-09-09T13:17:00Z",
+      "uploader_name_shown": "Виктория Ю.",
+      "type": "photo"
+    },
+    {
+      "n": 200,
+      "id": "urn:yandex:sprav:photo:20179276_2a000001a08650797d1d5c9717d1897a812b",
+      "tags": [
+        "Внутри",
+        "Еда"
+      ],
+      "width": 963,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20179276/2a000001a08650797d1d5c9717d1897a812b/XXXL",
+      "uploaded_at": "2026-09-09T13:16:58Z",
+      "uploader_name_shown": "Виктория Ю.",
+      "type": "photo"
+    },
+    {
+      "n": 201,
+      "id": "urn:yandex:sprav:photo:18777850_2a000001a076ba6009a6572c8db6f4636d65",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/18777850/2a000001a076ba6009a6572c8db6f4636d65/XXXL",
+      "uploaded_at": "2026-09-06T12:38:43Z",
+      "uploader_name_shown": "Siarhei T.",
+      "type": "photo"
+    },
+    {
+      "n": 202,
+      "id": "urn:yandex:sprav:photo:17781590_2a0000019ffa1ed6ead778a709e9b856baa5",
+      "tags": [
+        "Еда"
+      ],
+      "width": 1280,
+      "height": 960,
+      "url": "https://avatars.mds.yandex.net/get-altay/17781590/2a0000019ffa1ed6ead778a709e9b856baa5/XXXL",
+      "uploaded_at": "2026-08-13T07:55:54Z",
+      "uploader_name_shown": "Иван Ткаченко",
+      "type": "photo"
+    },
+    {
+      "n": 203,
+      "id": "urn:yandex:sprav:photo:20387359_2a0000019ffa1ec9d9e6372cae9c3d1f8684",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20387359/2a0000019ffa1ec9d9e6372cae9c3d1f8684/XXXL",
+      "uploaded_at": "2026-08-13T07:55:51Z",
+      "uploader_name_shown": "Иван Ткаченко",
+      "type": "photo"
+    },
+    {
+      "n": 204,
+      "id": "urn:yandex:sprav:photo:20238055_2a0000019ffa1ebc228fb7dabf660f30f2b3",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20238055/2a0000019ffa1ebc228fb7dabf660f30f2b3/XXXL",
+      "uploaded_at": "2026-08-13T07:55:47Z",
+      "uploader_name_shown": "Иван Ткаченко",
+      "type": "photo"
+    },
+    {
+      "n": 205,
+      "id": "urn:yandex:sprav:photo:20105336_2a0000019ffa1eabe5e96912cb3db86b80fe",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20105336/2a0000019ffa1eabe5e96912cb3db86b80fe/XXXL",
+      "uploaded_at": "2026-08-13T07:55:43Z",
+      "uploader_name_shown": "Иван Ткаченко",
+      "type": "photo"
+    },
+    {
+      "n": 206,
+      "id": "urn:yandex:sprav:photo:20242116_2a0000019ffa1e9babc83b9c7aea77dee5b6",
+      "tags": [
+        "Внутри"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20242116/2a0000019ffa1e9babc83b9c7aea77dee5b6/XXXL",
+      "uploaded_at": "2026-08-13T07:55:39Z",
+      "uploader_name_shown": "Иван Ткаченко",
+      "type": "photo"
+    },
+    {
+      "n": 207,
+      "id": "urn:yandex:sprav:photo:20994058_2a0000019ffa1e92de491eb60fd4b4be445a",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20994058/2a0000019ffa1e92de491eb60fd4b4be445a/XXXL",
+      "uploaded_at": "2026-08-13T07:55:36Z",
+      "uploader_name_shown": "Иван Ткаченко",
+      "type": "photo"
+    },
+    {
+      "n": 208,
+      "id": "urn:yandex:sprav:photo:17787346_2a0000019fe84c9a68bff5a28465a03d299a",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/17787346/2a0000019fe84c9a68bff5a28465a03d299a/XXXL",
+      "uploaded_at": "2026-08-09T20:52:44Z",
+      "uploader_name_shown": "Ольга Галиновская",
+      "type": "photo"
+    },
+    {
+      "n": 209,
+      "id": "urn:yandex:sprav:photo:20238055_2a0000019fe84c977c8ea7cfdbc7ea97e7b4",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20238055/2a0000019fe84c977c8ea7cfdbc7ea97e7b4/XXXL",
+      "uploaded_at": "2026-08-09T20:52:44Z",
+      "uploader_name_shown": "Ольга Галиновская",
+      "type": "photo"
+    },
+    {
+      "n": 210,
+      "id": "urn:yandex:sprav:photo:20840442_2a0000019fe84c9431eb297c2a02b2f36654",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20840442/2a0000019fe84c9431eb297c2a02b2f36654/XXXL",
+      "uploaded_at": "2026-08-09T20:52:44Z",
+      "uploader_name_shown": "Ольга Галиновская",
+      "type": "photo"
+    },
+    {
+      "n": 211,
+      "id": "urn:yandex:sprav:photo:20840442_2a0000019fe84c94684322ad1deabfe0241a",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20840442/2a0000019fe84c94684322ad1deabfe0241a/XXXL",
+      "uploaded_at": "2026-08-09T20:52:43Z",
+      "uploader_name_shown": "Ольга Галиновская",
+      "type": "photo"
+    },
+    {
+      "n": 212,
+      "id": "urn:yandex:sprav:photo:20824784_2a0000019fe84c92cb503f5d18cb1ac31e7c",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20824784/2a0000019fe84c92cb503f5d18cb1ac31e7c/XXXL",
+      "uploaded_at": "2026-08-09T20:52:43Z",
+      "uploader_name_shown": "Ольга Галиновская",
+      "type": "photo"
+    },
+    {
+      "n": 213,
+      "id": "urn:yandex:sprav:photo:18190072_2a0000019fe84c90c2d8be8e8bb38bc5a836",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/18190072/2a0000019fe84c90c2d8be8e8bb38bc5a836/XXXL",
+      "uploaded_at": "2026-08-09T20:52:42Z",
+      "uploader_name_shown": "Ольга Галиновская",
+      "type": "photo"
+    },
+    {
+      "n": 214,
+      "id": "urn:yandex:sprav:photo:19300554_2a0000019fe84c900b9b9449eeab1ededc58",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/19300554/2a0000019fe84c900b9b9449eeab1ededc58/XXXL",
+      "uploaded_at": "2026-08-09T20:52:41Z",
+      "uploader_name_shown": "Ольга Галиновская",
+      "type": "photo"
+    },
+    {
+      "n": 215,
+      "id": "urn:yandex:sprav:photo:20249436_2a0000019fe84affd9ee13b180740b201c0b",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20249436/2a0000019fe84affd9ee13b180740b201c0b/XXXL",
+      "uploaded_at": "2026-08-09T20:51:00Z",
+      "uploader_name_shown": "Ольга Галиновская",
+      "type": "photo"
+    },
+    {
+      "n": 216,
+      "id": "urn:yandex:sprav:photo:20387359_2a0000019fe84adcddd225b1a27d9b93d55d",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20387359/2a0000019fe84adcddd225b1a27d9b93d55d/XXXL",
+      "uploaded_at": "2026-08-09T20:50:50Z",
+      "uploader_name_shown": "Ольга Галиновская",
+      "type": "photo"
+    },
+    {
+      "n": 217,
+      "id": "urn:yandex:sprav:photo:20219917_2a0000019fe84a7f9f38a9e39a8a86533ee0",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/20219917/2a0000019fe84a7f9f38a9e39a8a86533ee0/XXXL",
+      "uploaded_at": "2026-08-09T20:50:27Z",
+      "uploader_name_shown": "Ольга Галиновская",
+      "type": "photo"
+    },
+    {
+      "n": 218,
+      "id": "urn:yandex:sprav:photo:19816667_2a0000019fcca183d4c47c5338c4976919a2",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/19816667/2a0000019fcca183d4c47c5338c4976919a2/XXXL",
+      "uploaded_at": "2026-08-04T11:56:08Z",
+      "uploader_name_shown": "*",
+      "type": "photo"
+    },
+    {
+      "n": 219,
+      "id": "urn:yandex:sprav:photo:19807214_2a0000019fcca0f4c40ac4600a903eb6881f",
+      "tags": [
+        "Внутри",
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/19807214/2a0000019fcca0f4c40ac4600a903eb6881f/XXXL",
+      "uploaded_at": "2026-08-04T11:55:31Z",
+      "uploader_name_shown": "*",
+      "type": "photo"
+    },
+    {
+      "n": 220,
+      "id": "urn:yandex:sprav:photo:17786812_2a0000019fcca09ad3351a3f6d74bf920eae",
+      "tags": [
+        "Еда"
+      ],
+      "width": 1280,
+      "height": 960,
+      "url": "https://avatars.mds.yandex.net/get-altay/17786812/2a0000019fcca09ad3351a3f6d74bf920eae/XXXL",
+      "uploaded_at": "2026-08-04T11:55:09Z",
+      "uploader_name_shown": "*",
+      "type": "photo"
+    },
+    {
+      "n": 221,
+      "id": "urn:yandex:sprav:photo:18190072_2a0000019f9ff43fc4d67d2287f985bf92b2",
+      "tags": [],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/18190072/2a0000019f9ff43fc4d67d2287f985bf92b2/XXXL",
+      "uploaded_at": "2026-07-26T19:43:34Z",
+      "uploader_name_shown": "violsheia",
+      "type": "photo"
+    },
+    {
+      "n": 222,
+      "id": "urn:yandex:sprav:photo:17692458_2a0000019f9fa08f0ae7c9a5181ab7a41e5e",
+      "tags": [],
+      "width": 1280,
+      "height": 960,
+      "url": "https://avatars.mds.yandex.net/get-altay/17692458/2a0000019f9fa08f0ae7c9a5181ab7a41e5e/XXXL",
+      "uploaded_at": "2026-07-26T18:12:10Z",
+      "uploader_name_shown": "violsheia",
+      "type": "photo"
+    },
+    {
+      "n": 223,
+      "id": "urn:yandex:sprav:photo:17018388_2a0000019f88ddd732614a2d7b6b29f1810f",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/17018388/2a0000019f88ddd732614a2d7b6b29f1810f/XXXL",
+      "uploaded_at": "2026-07-22T08:07:49Z",
+      "uploader_name_shown": "Daria Smirnova",
+      "type": "photo"
+    },
+    {
+      "n": 224,
+      "id": "urn:yandex:sprav:photo:17700564_2a0000019f88ddbedaad20cf216f5c9a6f97",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/17700564/2a0000019f88ddbedaad20cf216f5c9a6f97/XXXL",
+      "uploaded_at": "2026-07-22T08:07:46Z",
+      "uploader_name_shown": "Daria Smirnova",
+      "type": "photo"
+    },
+    {
+      "n": 225,
+      "id": "urn:yandex:sprav:photo:19840634_2a0000019f88ddb32fa9cbac4db9ef7949ac",
+      "tags": [
+        "Еда"
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/19840634/2a0000019f88ddb32fa9cbac4db9ef7949ac/XXXL",
+      "uploaded_at": "2026-07-22T08:07:39Z",
+      "uploader_name_shown": "Daria Smirnova",
+      "type": "photo"
+    },
+    {
+      "n": 226,
+      "id": "urn:yandex:sprav:photo:11420721_2a0000018e2abd1f4e6c5388a2d08e28adce",
+      "tags": [
+        "Панорама"
+      ],
+      "width": 1280,
+      "height": 750,
+      "url": "https://avatars.mds.yandex.net/get-altay/11420721/2a0000018e2abd1f4e6c5388a2d08e28adce/XXXL",
+      "uploaded_at": "2024-03-10T23:40:22Z",
+      "uploader_name_shown": "Яндекс Панорамы",
+      "type": "photo"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+- generic [ref=f45e1]:
+  - generic [ref=f45e8]:
+    - generic [ref=f45e10]:
+      - link [ref=f45e13] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f45e27]:
+        - link [ref=f45e29] [cursor=pointer]:
+          - /url: /accounts/login/?next=%2Freel%2FCzMnCKsIsDR%2F&source=desktop_nav
+          - text: Войти
+        - link [ref=f45e31] [cursor=pointer]:
+          - /url: /accounts/emailsignup/
+          - text: Зарегистрироваться
+    - main [ref=f45e32]:
+      - generic [ref=f45e35]:
+        - generic [ref=f45e39]: Людям младше 18 лет этот контент недоступен
+        - generic [ref=f45e41]: Владелец аккаунта установил ограничения на просмотр своего профиля и контента.
+  - dialog [ref=f45e49]:
+    - generic [ref=f45e52]:
+      - generic [ref=f45e53]:
+        - generic [ref=f45e55] [cursor=pointer]:
+          - img "Язык" [ref=f45e56]
+          - combobox "Изменить язык отображения" [ref=f45e60]:
+            - option "Afrikaans"
+            - option "العربية"
+            - option "Čeština"
+            - option "Dansk"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "English"
+            - option "English (UK)"
+            - option "Español (España)"
+            - option "Español"
+            - option "فارسی"
+            - option "Suomi"
+            - option "Français"
+            - option "עברית"
+            - option "Bahasa Indonesia"
+            - option "Italiano"
+            - option "日本語"
+            - option "한국어"
+            - option "Bahasa Melayu"
+            - option "Norsk"
+            - option "Nederlands"
+            - option "Polski"
+            - option "Português (Brasil)"
+            - option "Português (Portugal)"
+            - option "Русский" [selected]
+            - option "Svenska"
+            - option "ภาษาไทย"
+            - option "Filipino"
+            - option "Türkçe"
+            - option "中文(简体)"
+            - option "中文(台灣)"
+            - option "বাংলা"
+            - option "ગુજરાતી"
+            - option "हिन्दी"
+            - option "Hrvatski"
+            - option "Magyar"
+            - option "ಕನ್ನಡ"
+            - option "മലയാളം"
+            - option "मराठी"
+            - option "नेपाली"
+            - option "ਪੰਜਾਬੀ"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "اردو"
+            - option "Tiếng Việt"
+            - option "中文(香港)"
+            - option "Български"
+            - option "Français (Canada)"
+            - option "Română"
+            - option "Српски"
+            - option "Українська"
+        - generic [ref=f45e61]:
+          - generic [ref=f45e62]:
+            - heading "Разрешить использование файлов cookie от Instagram в этом браузере?" [active] [level=2] [ref=f45e64]
+            - generic [ref=f45e65]:
+              - generic [ref=f45e68]:
+                - text: Мы используем файлы cookie и подобные технологии, чтобы показывать и улучшать контент в
+                - link "Продуктах Meta" [ref=f45e69] [cursor=pointer]:
+                  - /url: https://www.facebook.com/help/1561485474074139
+                - text: ", обеспечивать безопасный пользовательский опыт с помощью информации, полученной из файлов cookie в Instagram и за его пределами, а также чтобы предоставлять и улучшать Продукты Meta для зарегистрированных пользователей."
+              - list [ref=f45e70]:
+                - listitem [ref=f45e71]: Основные файлы cookie. Эти файлы cookie необходимы для использования Продуктов Meta и корректной работы наших сайтов.
+                - listitem [ref=f45e72]: Файлы cookie от других компаний. Мы используем эти файлы cookie, чтобы показывать вам рекламу вне Продуктов Meta и предоставлять такие функции, как карты и видео, в Продуктах Meta. Эти файлы cookie не обязательны.
+              - generic [ref=f45e75]:
+                - text: Вы можете контролировать, какие необязательные файлы cookie мы используем. Подробнее о том, что такое файлы cookie и как мы их используем, а также о том, как в любое время посмотреть и изменить настройки, вы можете узнать в нашей
+                - link "Политике в отношении файлов cookie" [ref=f45e76] [cursor=pointer]:
+                  - /url: /legal/cookies/
+                - text: .
+          - generic [ref=f45e78]: Информация о файлах cookie
+          - generic [ref=f45e79]:
+            - generic [ref=f45e80]:
+              - img "cookie" [ref=f45e82]
+              - generic [ref=f45e84]: Что такое файлы cookie?
+              - button "Подробнее" [ref=f45e87] [cursor=pointer]
+            - generic [ref=f45e89]:
+              - img "щит" [ref=f45e91]
+              - generic [ref=f45e94]: Почему мы используем файлы cookie?
+              - button "Подробнее" [ref=f45e97] [cursor=pointer]
+          - generic [ref=f45e98]:
+            - generic [ref=f45e99]:
+              - img "логотип Meta" [ref=f45e101]
+              - generic [ref=f45e103]: Что такое Продукты Meta?
+              - button "Подробнее" [ref=f45e106] [cursor=pointer]
+            - generic [ref=f45e108]:
+              - img "фильтр" [ref=f45e110]
+              - generic [ref=f45e112]: Ваши настройки файлов cookie
+              - button "Подробнее" [ref=f45e115] [cursor=pointer]
+          - generic [ref=f45e117]:
+            - generic [ref=f45e118]: Необязательные файлы cookie
+            - generic [ref=f45e119]:
+              - generic [ref=f45e120]:
+                - generic [ref=f45e121]: Файлы cookie других компаний
+                - generic [ref=f45e124]:
+                  - text: Мы используем файлы cookie от
+                  - link "других компаний" [ref=f45e125] [cursor=pointer]:
+                    - /url: https://privacycenter.instagram.com/policies/cookies/?annotations[0]=explanation%2F3_companies_list
+                  - text: ", чтобы показывать вам рекламу вне наших Продуктов и предоставлять такие функции, как карты, платежные сервисы и видео."
+              - switch "Файлы cookie других компаний" [ref=f45e128] [cursor=pointer]
+            - button [ref=f45e130] [cursor=pointer]:
+              - generic [ref=f45e131]:
+                - heading "Выберите файлы cookie по категориям" [level=4] [ref=f45e133]
+                - img "Значок шеврона" [ref=f45e135]
+            - button [ref=f45e138] [cursor=pointer]:
+              - generic [ref=f45e139]:
+                - heading "Как мы используем эти файлы cookie" [level=5] [ref=f45e141]
+                - img "Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=f45e143]
+            - button [ref=f45e146] [cursor=pointer]:
+              - generic [ref=f45e147]:
+                - heading "Если вы разрешите использовать эти файлы cookie" [level=5] [ref=f45e149]
+                - img "Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=f45e151]
+            - button [ref=f45e154] [cursor=pointer]:
+              - generic [ref=f45e155]:
+                - heading "Если вы не разрешите использовать эти файлы cookie" [level=5] [ref=f45e157]
+                - img "Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=f45e159]
+          - generic [ref=f45e162]:
+            - generic [ref=f45e163]: Другие способы управления вашими данными
+            - button [ref=f45e165] [cursor=pointer]:
+              - generic [ref=f45e166]:
+                - heading "Управляйте показом рекламы в Центре аккаунтов" [level=5] [ref=f45e168]
+                - img "Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=f45e170]
+            - button [ref=f45e173] [cursor=pointer]:
+              - generic [ref=f45e174]:
+                - heading "Подробнее об онлайн-рекламе" [level=5] [ref=f45e176]
+                - img "Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=f45e178]
+            - button [ref=f45e181] [cursor=pointer]:
+              - generic [ref=f45e182]:
+                - heading "Управление использованием файлов cookie c помощью настроек браузера" [level=5] [ref=f45e184]
+                - img "Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=f45e186]
+      - button "Разрешить все cookie" [ref=f45e188] [cursor=pointer]
+      - button "Отклонить необязательные файлы cookie" [ref=f45e189] [cursor=pointer]

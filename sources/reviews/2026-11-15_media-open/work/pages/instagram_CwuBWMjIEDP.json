@@ -1,0 +1,56 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:08:28.305Z",
+ "page": "https://www.instagram.com/p/CwuBWMjIEDP/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-1.cdninstagram.com/o1/v/t2/f2/m82/AQM3_d16mPSCluy0Up0YPUyLTmpoln9v682CnJYCgmuWEpTH-zb5zMkMKtRhPn-wKPLsMBXkGauLxedpDCFkGbryCwpM_Wx9mdniER8.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_ohc=PZSCVJCyrKoQ7kNvwEWuvM6&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6ODI0MTA2ODY5MjE2ODUyLCJhc3NldF9hZ2VfZGF5cyI6MTE2OSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjE4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=62c310a0d5a3af5c&_nc_vs=HBksFQIYT2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfcHJvZC81ODRENURBRDlBRDIyOUM0Q0NGMTVDODc0NUExNjVBQ192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HTEJYTmhhXzF5aEJJVDBGQUJTZUFDOE56VXgwYnFfRUFBQUYVAgLIARIAKAAYABsDiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATESY29weV9zYW1wbGVfZ3JvdXBzATEVAAAmqNmS06rh9gIVAigCQzMsF0Ay1T987ZFoGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=Wo4fQul3yIqTUpwPD1pdIw&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQREXbmDsV4135V3yFxg1Gk5KqOTiJia8_clxJyMEdQ_4g&oe=6AFBFE65",
+   "w": 409,
+   "h": 726,
+   "dur": 18.854,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 4111385,
+   "sha256": "99a834c78b7db60f1dbe1a0b85e6b26a483b2c766163bbac5161fc375cde2167"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "CwuBWMjIEDP",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "CwuBWMjIEDP",
+  "id": "3183487909946736847",
+  "typename": "GraphVideo",
+  "owner": "savonkina.irina",
+  "caption": "Уникальное место с прекрасной кухней и очень вежливым коллективом)\n.\n.\n#вкусно_покушали#могилев#рб#ленинская#суши#бургеры#змея#ящерица#террариум#",
+  "taken_at": null,
+  "video_duration": 18.854,
+  "dimensions": {
+   "height": 726,
+   "width": 409
+  },
+  "product_type": "clips",
+  "music": {
+   "artist_name": "lenargimatdinov",
+   "song_name": "Озвучил @lenargimatdinov",
+   "uses_original_audio": true,
+   "should_mute_audio": false
+  },
+  "likes": 21,
+  "comments": 0,
+  "views": 121,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2023-09-03T06:09:00+00:00",
+ "published_minsk_date": "2023-09-03",
+ "post_url": "https://www.instagram.com/reel/CwuBWMjIEDP/",
+ "group": "instagram_savonkina.irina_CwuBWMjIEDP"
+}

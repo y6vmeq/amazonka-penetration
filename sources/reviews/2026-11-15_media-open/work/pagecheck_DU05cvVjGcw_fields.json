@@ -1,0 +1,17 @@
+{
+ "fetched_at": "2026-11-15T21:13:59.620Z",
+ "page": "https://www.instagram.com/p/DU05cvVjGcw/",
+ "login_wall": "false",
+ "status": "200",
+ "type": "image/jpeg",
+ "bytes": "140753",
+ "sha256": "5c5facb6fb749ae8eec25160f49c3148370b314d2f3a0925032c75b187883d7d",
+ "owner": "maxim.2179",
+ "taken_at": "1771261930",
+ "media_type": "1",
+ "product_type": "feed",
+ "original_width": "1440",
+ "original_height": "1920",
+ "carousel_count": "0",
+ "note": "Проверочный заход на обычную страницу без входа: одно фото (не карусель); файл совпал с сохранённым из плеера (тот же SHA-256), повторно не писался."
+}

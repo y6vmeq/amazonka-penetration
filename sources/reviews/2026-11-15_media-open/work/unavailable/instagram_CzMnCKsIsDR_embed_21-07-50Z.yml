@@ -1,0 +1,8 @@
+- generic [ref=f27e3]:
+  - link "Instagram" [ref=f27e5] [cursor=pointer]:
+    - /url: https://www.instagram.com/p/CzMnCKsIsDR/?utm_source=ig_embed&utm_campaign=invalid&ig_rid=AprTKU8gu-06BwsH8avzxiR
+  - link "Instagram" [ref=f27e9] [cursor=pointer]:
+    - /url: https://www.instagram.com/p/CzMnCKsIsDR/?utm_source=ig_embed&utm_campaign=invalid&ig_rid=AprTKU8gu-06BwsH8avzxiR
+  - generic [ref=f27e12]: Возможно, ссылка на фото или видео недействительна или публикация была удалена.
+  - link "Открыть Instagram" [ref=f27e13] [cursor=pointer]:
+    - /url: https://www.instagram.com/p/CzMnCKsIsDR/?utm_source=ig_embed&utm_campaign=invalid&ig_rid=AprTKU8gu-06BwsH8avzxiR

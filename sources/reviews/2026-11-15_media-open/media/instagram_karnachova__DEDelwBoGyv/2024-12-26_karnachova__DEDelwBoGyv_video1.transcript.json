@@ -1,0 +1,46 @@
+{
+ "file": "2024-12-26_karnachova__DEDelwBoGyv_video1.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.8750648498535156,
+ "duration": 10.3343125,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 1.84,
+   "text": "I just had deja vu.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.36,
+     "word": " I",
+     "p": 0.8578071594238281
+    },
+    {
+     "start": 0.36,
+     "end": 0.62,
+     "word": " just",
+     "p": 0.964821994304657
+    },
+    {
+     "start": 0.62,
+     "end": 0.96,
+     "word": " had",
+     "p": 0.9907709360122681
+    },
+    {
+     "start": 0.96,
+     "end": 1.38,
+     "word": " deja",
+     "p": 0.5448353886604309
+    },
+    {
+     "start": 1.38,
+     "end": 1.84,
+     "word": " vu.",
+     "p": 0.9839463233947754
+    }
+   ]
+  }
+ ]
+}

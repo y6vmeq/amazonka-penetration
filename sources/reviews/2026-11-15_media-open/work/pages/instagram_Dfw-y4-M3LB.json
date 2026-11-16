@@ -1,0 +1,56 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T20:59:56.486Z",
+ "page": "https://www.instagram.com/p/Dfw-y4-M3LB/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-2.cdninstagram.com/o1/v/t2/f2/m86/AQPAkLChBNrUiqWFoGGU6XicaOx8Co88xE1sAmPHDUxv6JFGsjYkIn5pFi5rKFGiWFzb5wJdSIG8k18MyWoME5la7YA7ynlETOdW6kk.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_ohc=dMl4zkPB9CEQ7kNvwGBsOLv&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQ1ODIzMTQ5OTgzNjk4MywiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=a4641573a4d0b4f4&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yMDE4OUVFMkE3MDI0Rjk0OUFFQTAzMDI0MjNFRENDNl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzUzMzg1MjYzQzYyRDQ5Njc5NjRCMjhFMTI2M0Q4MzMyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbuuOKon5CXBRUCKAJDMywXQDHEGJN0vGoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=pWxmtIYtI_fCjzr7AKfcag&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQS5nILLfRCMIu4iKHT9TJ8XaQxf8YET877q9oTg_SNxtw&oe=6AFBEE2D",
+   "w": 1170,
+   "h": 2080,
+   "dur": 17.785,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 2575128,
+   "sha256": "2662b6d5d03883b38e61fff6f71a4ef8721db20eab5847b9efaa96a5dd3799df"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "Dfw-y4-M3LB",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "Dfw-y4-M3LB",
+  "id": "4030997842527220417",
+  "typename": "GraphVideo",
+  "owner": "khanfazeup",
+  "caption": "Решили сходить попробовать гастрофест, выбрали забегаловку «Амазонка». Всё оказалось очень печальным: еда не соответствует меню, время ожидания заказа — 2 часа, и еду выносят холодной. Интересуешься у официанта, почему еда холодная, — они не отвечают, говорят: «Мы ничего не знаем». Позвали админа, он сказал: «Сейчас всё разогреем». После этого выносят картофель фри, а не картофель дольками. Рёбра — это вообще ужас: одни кости, заколоть можно. А в конце вообще «подарок» — таракан!",
+  "taken_at": null,
+  "video_duration": 17.785,
+  "dimensions": {
+   "height": 2080,
+   "width": 1170
+  },
+  "product_type": "clips",
+  "music": {
+   "artist_name": "khanfazeup",
+   "song_name": "Оригинальное аудио",
+   "uses_original_audio": true,
+   "should_mute_audio": false
+  },
+  "likes": 12,
+  "comments": 2,
+  "views": 835,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2026-11-15T14:20:00+00:00",
+ "published_minsk_date": "2026-11-15",
+ "post_url": "https://www.instagram.com/reel/Dfw-y4-M3LB/",
+ "group": "instagram_khanfazeup_Dfw-y4-M3LB"
+}

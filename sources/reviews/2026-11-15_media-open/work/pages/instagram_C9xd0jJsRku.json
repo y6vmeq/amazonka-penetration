@@ -1,0 +1,56 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:07:11.135Z",
+ "page": "https://www.instagram.com/p/C9xd0jJsRku/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-2.cdninstagram.com/o1/v/t2/f2/m86/AQNI1DHCzDfgolGdywxTxqV9P6Q4z6ag_NhRUUDP8i0-YHvIcCykVR5VTjIWq6N7Ep4l05gKD7U4v63mTAPvIhP4tO0UTvHTvSFAgao.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_ohc=UEb08dDHoOsQ7kNvwFrzXkr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMzYwLmRhc2hfYmFzZWxpbmVfM192MSIsInhwdl9hc3NldF9pZCI6MTE0MjM5NDkzMDM4ODU3MSwiYXNzZXRfYWdlX2RheXMiOjg0NSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjMwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=500f3b464081adde&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80NTRCMEVCMTI5NTRCOTQyMTFEQTU0NjdBNjc5N0M4MV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYRmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80MzQ5ODcwOTYyMDI5NDJfNjY0OTYwMDAzOTI2Mjg2NTMzNC5tcDQVAgLIARIAKAAYABsDiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATESY29weV9zYW1wbGVfZ3JvdXBzATEVAAAmtvmmwJHAhwQVAigCQzMsF0A-5mZmZmZmGBJkYXNoX2Jhc2VsaW5lXzNfdjERAHX-B2XmnQEA&_nc_gid=e3Q50-XojeMMswLCiD3lpQ&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQvMsSpvJDF5cWt0RByVEjD4OsFxsXZ1YkIu5qvKXQxhA&oe=6AFC0781",
+   "w": 540,
+   "h": 960,
+   "dur": 30.998,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 1762288,
+   "sha256": "7994652ee827d5b31295a561abdf86861df7f8e04a30014dcbd139bb005e854e"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "C9xd0jJsRku",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "C9xd0jJsRku",
+  "id": "3418644746656094510",
+  "typename": "GraphVideo",
+  "owner": "odyvan_chik24",
+  "caption": "Встреча с подружками😂\nВы только посмотрите на эту милоту🥹\nФотки в конце видео))",
+  "taken_at": null,
+  "video_duration": 30.998,
+  "dimensions": {
+   "height": 960,
+   "width": 540
+  },
+  "product_type": "clips",
+  "music": {
+   "artist_name": "odyvan_chik24",
+   "song_name": "Оригинальное аудио",
+   "uses_original_audio": true,
+   "should_mute_audio": false
+  },
+  "likes": 47,
+  "comments": 0,
+  "views": 287,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2024-07-23T17:03:00+00:00",
+ "published_minsk_date": "2024-07-23",
+ "post_url": "https://www.instagram.com/reel/C9xd0jJsRku/",
+ "group": "instagram_odyvan_chik24_C9xd0jJsRku"
+}

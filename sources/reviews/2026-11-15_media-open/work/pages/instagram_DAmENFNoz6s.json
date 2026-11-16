@@ -1,0 +1,94 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:00:41.921Z",
+ "page": "https://www.instagram.com/p/DAmENFNoz6s/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "img1",
+   "kind": "image",
+   "url": "https://scontent-waw2-1.cdninstagram.com/v/t51.82787-15/655122599_18110115757827025_184809374341322780_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=MzQ2OTQ3OTA0Mjc1NTkzNjQwMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=6NhOQViwFOMQ7kNvwEb68lE&_nc_oc=AdoQSLxdvVbccwIr444tjOU7Hevl7vdThHxLv8wyxfEuL_tGEvjLAeI3seHxcvJNaCA&_nc_zt=23&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_gid=SQU64FuGtgFsDdRiAoyD_w&_nc_ss=7b689&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQT95rjsKXMlRYPKlcF6_Nab4bShNsyEmnBCrjlhhVZY4g&oe=6AFFE462",
+   "w": 1440,
+   "h": 1440,
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 175896,
+   "sha256": "4efd4860e0ebd94493c327bb30a39278e76db3c4c93e2154b2f7d12fb405613b"
+  },
+  {
+   "key": "img2",
+   "kind": "image",
+   "url": "https://scontent-waw2-2.cdninstagram.com/v/t51.82787-15/656676882_18119410741717636_172645919886450715_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=MzQ2OTQ3OTA0Mjc1NTk3MzEwOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=oNMidqLKFAEQ7kNvwHYXY6Y&_nc_oc=Adp1kcTVzYpKC7oZJE34MHrC1Cz2NFW6jIIOPuZ-XLxk8oQebGuud3CcXjJpBeJVkOc&_nc_zt=23&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_gid=SQU64FuGtgFsDdRiAoyD_w&_nc_ss=7b689&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQSNogfG0Uf9n2F0XrAutlKpDATrpNTApe5m_L84uNf6yw&oe=6AFFE583",
+   "w": 1440,
+   "h": 1440,
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 233058,
+   "sha256": "ec4a4cba73c4b6ea7208e9b282952b849effa9f0dcf470edb0185e367e1a3114"
+  },
+  {
+   "key": "img3",
+   "kind": "image",
+   "url": "https://scontent-waw2-1.cdninstagram.com/v/t51.82787-15/656289105_18077855945616555_5494945746835921454_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=MzQ2OTQ3OTA0Mjc2NDM2NDg3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=mYoWNm9L2zIQ7kNvwGtoZpf&_nc_oc=AdooHHspxPJQY3MCq8YHx3nxAomh9IN93JCulxeGFD2Kytr0_gcgO_-Bm3qpLgOXU2M&_nc_zt=23&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_gid=SQU64FuGtgFsDdRiAoyD_w&_nc_ss=7b689&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQTPSRfVLDYG_AKbbC0VUcaFAqjs34Sq97YZCBWnCQMsYA&oe=6AFFEF95",
+   "w": 1440,
+   "h": 1440,
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 151733,
+   "sha256": "43a51936f6da46adfdd5ed9459ba36f01754a95cec71b8f1b985573f801ef74b"
+  },
+  {
+   "key": "img4",
+   "kind": "image",
+   "url": "https://scontent-waw2-2.cdninstagram.com/v/t51.82787-15/655067673_18122937382524919_2011525267421947578_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=MzQ2OTQ3OTA0Mjc1NTkyODg5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=weHsvTSMxSYQ7kNvwEaBF03&_nc_oc=AdqZN9OYTiiRP7OJ9ukQhTXrVzr7PhD0uNJKqbK8NIOty-oAORRbvTVURR3Brvzlf0E&_nc_zt=23&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_gid=SQU64FuGtgFsDdRiAoyD_w&_nc_ss=7b689&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQRMw2pWNmXFNx7KBdsRwGH5ocyXxwA0QsbAxGt6rs3V1g&oe=6AFFE28B",
+   "w": 1440,
+   "h": 1440,
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 244324,
+   "sha256": "d1e06dc5149043651179303600999204112e225bea63208c47b38ad79ef1d40f"
+  },
+  {
+   "key": "img5",
+   "kind": "image",
+   "url": "https://scontent-waw2-1.cdninstagram.com/v/t51.82787-15/660680100_18366752647206993_8679306670264717522_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=MzQ2OTQ3OTA0Mjc3Mjc3ODE4OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=UXXFKQ3N_fcQ7kNvwGw0FYB&_nc_oc=AdpKHTaWkQ_YcjPRxUIjEgziXg47vbBNete4VFdhRG6zs8pjrEv5VCpqImwpyLdiqaM&_nc_zt=23&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_gid=SQU64FuGtgFsDdRiAoyD_w&_nc_ss=7b689&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQQqx4Q1Hefth_55XKOPm70W94-dmU4fyNBOfCrWp-4zaA&oe=6AFFFD57",
+   "w": 1440,
+   "h": 1440,
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 223372,
+   "sha256": "1d6cb4ca31d52eb956e90c2dfa4a127f534b98ad2b3d03e489fb4401485b8daf"
+  }
+ ],
+ "context": {
+  "type": "GraphSidecar",
+  "shortcode": "DAmENFNoz6s",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "DAmENFNoz6s",
+  "id": "3469479054072299180",
+  "typename": "GraphSidecar",
+  "owner": "moy.mahilyow",
+  "caption": "Прямо в центре пешеходной улицы разместился уникальный кальян-бар. Здесь обитают Ульяна, Вадим, Лиза, Юля и ещё парочка персонажей. Если вы подумали, что мы начали перечислять имена персонала, то оказались правы лишь на половину. Ведь так ещё зовут рептилий, которые мирно нежатся под лампами в своих террариумах прямо у ресепшена. \n\nТак как заведение позиционирует себя как кальян- бар, а удивительные животные привлекают внимание не только взрослых, но и детей, «Амазонка» разделилась на два зала: в одном можно покурить кальян, а во втором насладиться атмосферой джунглей.\n\nКоктейльное меню, как и оформление бара, выдержано в стиле путешествия. Здесь можно попробовать напитки «из разных уголков мира». \n\nКухня в заведении большая, а меню увесистое. Каждый сможет найти что-то себе по душе. Но больше всего нас привлекли вафли. Поверьте нам на слово и если у вас появиться мысль о том, что вы давно не ели сладкого – обязательно загляните в «Амазонку».",
+  "taken_at": null,
+  "video_duration": null,
+  "dimensions": {
+   "height": 1440,
+   "width": 1440
+  },
+  "product_type": null,
+  "music": null,
+  "likes": 21,
+  "comments": 2,
+  "views": null,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2024-10-01T20:22:00+00:00",
+ "published_minsk_date": "2024-10-01",
+ "post_url": "https://www.instagram.com/p/DAmENFNoz6s/",
+ "group": "instagram_moy.mahilyow_DAmENFNoz6s"
+}

@@ -1,0 +1,42 @@
+{
+ "platform": "threads",
+ "fetched_at": "2026-11-15T21:02:38.640Z",
+ "page": "https://www.threads.com/@amazonka_restobar_mogilev/post/DPtenIyCJ7P",
+ "title": "🦎 Путешествие по реке Амазонка начинается здесь! Смотрите наш видеообзор и откройте для себя уют, вкусные блюда и атмосферу настоящего приключения. 📍 Ленинская, 38 | 📲 +375 33 399-02-20",
+ "login_cookie": false,
+ "login_button": true,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-1.cdninstagram.com/o1/v/t2/f2/m86/AQPYQ-jKkVXPbZZ6RC4hm7pSNgZloha2f66KkVlruxRxNTz3nmwyTAe3F1QPO-afE1W0Z-QyGimhCz-7DnQp66BLFxV6G1nCBPnOm1A.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_ohc=GIqzSM3FxqsQ7kNvwE0kn3o&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIiwieHB2X2Fzc2V0X2lkIjoxMTA4MzUwNzI0Nzg3MTczLCJhc3NldF9hZ2VfZGF5cyI6Mzk5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=61b29174d7bde92a&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83QjRGRUY5RDVBOTQ2QTUxNjMwNTNENTExMTY1NERCNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8zNzQzODU1Mjg1OTA5NzA5Xzg2MDU2MjgyOTcyMjcxOTcyODgubXA0FQICyAESACgAGAAbA4gHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExEmNvcHlfc2FtcGxlX2dyb3VwcwExFQAAJsqv5rPAgvgDFQIoAkMzLBdATTMzMzMzMxgSZGFzaF9iYXNlbGluZV8xX3YxEQB16gdl5p0BAA&_nc_gid=kpmS3g8iC6NM5auAlu4s5Q&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRagkFgPW8qVS920wPFxCXo1N9KnkD0zyyewuJjueTkPw&oe=6AFBE154",
+   "w": 1080,
+   "h": 1920,
+   "has_audio": true,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 12246102,
+   "sha256": "99d36225570b87c77218988e4883fdc104443969c09e7915cebba0733aed0a82"
+  }
+ ],
+ "meta": {
+  "source": "page-json",
+  "code": "DPtenIyCJ7P",
+  "pk": "3741781496299036367",
+  "owner": "amazonka_restobar_mogilev",
+  "caption": "🦎 Путешествие по реке Амазонка начинается здесь!\n\nСмотрите наш видеообзор и откройте для себя уют, вкусные блюда и атмосферу настоящего приключения.\n\n📍 Ленинская, 38 | 📲 +375 33 399-02-20",
+  "taken_at": 1760275139,
+  "media_type": 2,
+  "original_width": 1080,
+  "original_height": 1920,
+  "has_audio": true,
+  "permalink": "https://www.threads.com/@amazonka_restobar_mogilev/post/DPtenIyCJ7P",
+  "like_count": 0,
+  "reply_count": 0,
+  "carousel_count": 0
+ },
+ "published_utc": "2025-10-12T13:18:59+00:00",
+ "published_minsk_date": "2025-10-12",
+ "post_url": "https://www.threads.com/@amazonka_restobar_mogilev/post/DPtenIyCJ7P",
+ "group": "threads_amazonka_restobar_mogilev_DPtenIyCJ7P"
+}

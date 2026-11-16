@@ -1,0 +1,56 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:00:29.672Z",
+ "page": "https://www.instagram.com/p/DXXV5GsOQjU/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-2.cdninstagram.com/o1/v/t2/f2/m86/AQO8BF50RurDDoMvbGXNkgftZjRyHSrtSixH3dyZxk1qLjziXoaeHsBJX1TnM3yj4Z22A23X4df7dHlD0v9eOCQLRZZs41yrsItDYF8.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_ohc=kmLqPu40L5UQ7kNvwGqddNL&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTY2MTI5NTM3NTA1NzA2OSwiYXNzZXRfYWdlX2RheXMiOjIwOSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjMwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=b574fb38fda059a8&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81RjQxMTRFQzEzN0VGREZDMzJFRkIwNDRCRDY3REFBMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0NENDNGNzVGMzdDRTE5MEEzMEVGMEJCNkFBMzhBOTk4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbagpSLj7zzBRUCKAJDMywXQD6iDEm6XjUYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=Y2hXmoQRL0O2QWfmWNnViA&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSfpA1ZpECnFWF3wVW82xZqr3Y7qeDLMWSfjugOuf5-PA&oe=6AFBF6C2",
+   "w": 1166,
+   "h": 2068,
+   "dur": 30.633,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 5581658,
+   "sha256": "d6b1aa30f4621fa80ce6d9dfe534a9fd81f5cce55fc634c38d01a6ea1600bd36"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "DXXV5GsOQjU",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "DXXV5GsOQjU",
+  "id": "3879665887174265044",
+  "typename": "GraphVideo",
+  "owner": "olga_kohno_",
+  "caption": "GastroFest.Кино в @amazonka_restobar_mogilev 🦎\n\nАтмосфера Хогвартса вам обеспечена 👌 \n\nНо больше всего, конечно, моего 8-летку впечатлили ящерки, гекконы и ребята, которые терпеливо и с интересом рассказывали и показывали нам местных жителей 😁",
+  "taken_at": null,
+  "video_duration": 30.633,
+  "dimensions": {
+   "height": 2068,
+   "width": 1166
+  },
+  "product_type": "clips",
+  "music": {
+   "artist_name": "olga_kohno_",
+   "song_name": "Оригинальное аудио",
+   "uses_original_audio": true,
+   "should_mute_audio": false
+  },
+  "likes": 49,
+  "comments": 0,
+  "views": 405,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2026-04-20T19:10:00+00:00",
+ "published_minsk_date": "2026-04-20",
+ "post_url": "https://www.instagram.com/reel/DXXV5GsOQjU/",
+ "group": "instagram_olga_kohno__DXXV5GsOQjU"
+}

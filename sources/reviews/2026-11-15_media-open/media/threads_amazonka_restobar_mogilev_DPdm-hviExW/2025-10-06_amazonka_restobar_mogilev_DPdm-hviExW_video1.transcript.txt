@@ -1,0 +1,6 @@
+# Расшифровка: 2025-10-06_amazonka_restobar_mogilev_DPdm-hviExW_video1.mp4
+# Модель: faster-whisper large-v3-turbo; язык: en (p=0.94); длительность: 11.6 с; автоматическая расшифровка — сверять на слух перед цитированием
+
+[00:01.5 – 00:05.6] Like sugar on my tongue, tongue, tongue
+[00:05.6 – 00:09.4] Your body so sweet, sweet, sweet
+[00:09.4 – 00:11.3] Invite me if you come

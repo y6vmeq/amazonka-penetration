@@ -1,0 +1,56 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:06:37.634Z",
+ "page": "https://www.instagram.com/p/DEDelwBoGyv/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-1.cdninstagram.com/o1/v/t2/f2/m367/AQPYU0CplnMU7raJcMwzBcQ8wpFoV9Qp83_5qcybpHG5rl-ZqzK7JjdVfAltIvlrFU6ul8SZ_W3VRcfWypWCUfIz_6FRiN6u2FHyZa0.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_ohc=SVYy2lJX_ZoQ7kNvwHD6NwJ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzE2LmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTMwMzA2MDU4NDQ3NjMyMCwiYXNzZXRfYWdlX2RheXMiOjY4OSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjEwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=11d7a6d0b33d40f5&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC81MzQ0RkI2ODIwQkNFRTJGRkZCREU2NkM4RTk2NEJCM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMjQ4NzQ0NDEzMDkxODE4XzY3MzQ0OTM2NTc3ODg2MTU4ODMubXA0FQICyAESACgAGAAbA4gHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExEmNvcHlfc2FtcGxlX2dyb3VwcwExFQAAJsC6kfSNyNAEFQIoAkMzLBdAJJmZmZmZmhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=pp6ZjWJilNDw_txj7Pvl8w&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRIRLAQjGiAlDPxGORDFTRdrZErJRvfYp339RpxsLWPdQ&oe=6AFFEF3B",
+   "w": 1410,
+   "h": 2500,
+   "dur": 10.308,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 1211565,
+   "sha256": "0921d5bf3db4cc92af2098cc121d8742f93aee85c991fd300588b47e40926abe"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "DEDelwBoGyv",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "DEDelwBoGyv",
+  "id": "3531801068371471535",
+  "typename": "GraphVideo",
+  "owner": "karnachova_",
+  "caption": "Детали \n\n#годзмеи #символгода",
+  "taken_at": null,
+  "video_duration": 10.308,
+  "dimensions": {
+   "height": 2500,
+   "width": 1410
+  },
+  "product_type": "clips",
+  "music": {
+   "artist_name": "karnachova_",
+   "song_name": "Оригинальное аудио",
+   "uses_original_audio": true,
+   "should_mute_audio": false
+  },
+  "likes": 70,
+  "comments": 4,
+  "views": 763,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2024-12-26T20:05:00+00:00",
+ "published_minsk_date": "2024-12-26",
+ "post_url": "https://www.instagram.com/reel/DEDelwBoGyv/",
+ "group": "instagram_karnachova__DEDelwBoGyv"
+}

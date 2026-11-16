@@ -1,0 +1,56 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:07:23.070Z",
+ "page": "https://www.instagram.com/p/C4QpIinK1j_/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-2.cdninstagram.com/o1/v/t2/f2/m82/AQNQ4kidrT2oLaF6bbIwrKBBMrCXC3SRcCSRBjwl12awvEWXePC8wB33hzcXN75Cd_krnfKgTCwks7yfju3NG6DcONnZFoXp9Uw0B40.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_ohc=0MmYmXwVT8YQ7kNvwFwjWlx&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuOTYwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTEyNDQwNDA5NTY3NzA0NywiYXNzZXRfYWdlX2RheXMiOjk4MiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjIwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=6ff8292725c0a140&_nc_vs=HBksFQIYT2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfcHJvZC8zNzQwQkU2OTNFOEE1RkNDRkQxQ0JCNTIxREFDODM4OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HRnpiRHhtTVNuR0ZGSVlCQUNna2Q4dklBTDBsYnFfRUFBQUYVAgLIARIAKAAYABsDiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATESY29weV9zYW1wbGVfZ3JvdXBzATEVAAAm7smnq_eo_wMVAigCQzMsF0A0Fwo9cKPXGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=S3r7riklECL-wZ0cXRR6dQ&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTf3BNETZLr8uNLLeDlIHMLqRdGxgM9o0GjKf7Il2XDSQ&oe=6AFC1721",
+   "w": 1440,
+   "h": 1080,
+   "dur": 20.09,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 3159346,
+   "sha256": "55e54910d85f4f9dade1cca11fcc28cc0ffe3b4f78657542614c626f0d4ba3fe"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "C4QpIinK1j_",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "C4QpIinK1j_",
+  "id": "3319333832199198975",
+  "typename": "GraphVideo",
+  "owner": "mikkimaus_____",
+  "caption": "Амазонка 🦎🐍 @amazonka_restobar \n08.03.2024г. #змеи #ящерица #агама #рестобар #амазонка #инстаграм #рилс #snakes #lizard #agama #restobar #amazon #instagramreels",
+  "taken_at": null,
+  "video_duration": 20.09,
+  "dimensions": {
+   "height": 1080,
+   "width": 1440
+  },
+  "product_type": "clips",
+  "music": {
+   "artist_name": "mikkimaus_____",
+   "song_name": "Оригинальное аудио",
+   "uses_original_audio": true,
+   "should_mute_audio": false
+  },
+  "likes": 133,
+  "comments": 24,
+  "views": 841,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2024-03-08T16:30:00+00:00",
+ "published_minsk_date": "2024-03-08",
+ "post_url": "https://www.instagram.com/reel/C4QpIinK1j_/",
+ "group": "instagram_mikkimaus______C4QpIinK1j_"
+}

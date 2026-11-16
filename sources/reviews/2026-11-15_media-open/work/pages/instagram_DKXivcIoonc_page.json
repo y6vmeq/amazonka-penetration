@@ -1,0 +1,47 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:12:38.670Z",
+ "page": "https://www.instagram.com/reel/DKXivcIoonc/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "login_wall": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-1.cdninstagram.com/o1/v/t2/f2/m86/AQMKcKuVO6YQYPoP1ehZo-yQqreeuY0p6e6sAWmgj2DOOwyvqBseOn41hx7GW8kcZBBc-3e6wbMOaTayZoXAy4Le4JCloruin0zjBOo.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_ohc=fKOmSfBSthEQ7kNvwGHn_Gk&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMzYwLmRhc2hfYmFzZWxpbmVfM192MSIsInhwdl9hc3NldF9pZCI6MTk3OTgwNzM5MjQyODI2NSwiYXNzZXRfYWdlX2RheXMiOjUzMiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjMxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=703347c0b6cdc155&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84RDRGNkNGOTRGN0Y4NjBBQ0IyMjREQ0Y4M0EzNTI5OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xNzgyOTAzNTA1OTkwOTM3XzE4NTUxOTk5ODE3MDk5MjIzNjMubXA0FQICyAESACgAGAAbA4gHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExEmNvcHlfc2FtcGxlX2dyb3VwcwExFQAAJtLDy8X6p4QHFQIoAkMzLBdAPuZmZmZmZhgSZGFzaF9iYXNlbGluZV8zX3YxEQB1_gdl5p0BAA&_nc_gid=cI6tSe8XwYDJZxgFU9l_UQ&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRMYnFEEXsU9r_EQUiWehlKB73RuT5qFJ7Ic_RgoW3UAQ&oe=6AFBE437",
+   "w": 360,
+   "h": 640,
+   "dur": null,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 1575048,
+   "sha256": "8818c041700aabbed9c5311c1528b1ec7cf6dd5468925efafd5dc23e3922951d"
+  }
+ ],
+ "meta": {
+  "source": "page-json",
+  "code": "DKXivcIoonc",
+  "pk": "3645535216986130908",
+  "owner": "kleshchenok_",
+  "caption": "Змеи - древние хранители мудрости,\n\nКогда они приходят — значит, трансформация рядом. Сегодня в кафе было нечто большее, чем кофе 🐍🐍☕️\n\n#энергиязмеи #пробуждение #трансформация #знакивпути #мудростьжизни #духовныйрост #гипнотерапия #глубинав повседневности",
+  "taken_at": 1748802173,
+  "media_type": 2,
+  "product_type": "clips",
+  "video_duration": null,
+  "has_audio": true,
+  "original_width": 360,
+  "original_height": 640,
+  "likes": 8,
+  "comments": 2,
+  "location": null,
+  "tagged": [
+   "amazonka_restobar_mogilev"
+  ],
+  "carousel_count": 0
+ },
+ "published_utc": "2025-06-01T18:22:53+00:00",
+ "published_minsk_date": "2025-06-01",
+ "post_url": "https://www.instagram.com/reel/DKXivcIoonc/",
+ "group": "instagram_kleshchenok__DKXivcIoonc"
+}

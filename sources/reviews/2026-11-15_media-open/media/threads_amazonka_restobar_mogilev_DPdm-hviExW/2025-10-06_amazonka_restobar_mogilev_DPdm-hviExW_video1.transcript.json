@@ -1,0 +1,138 @@
+{
+ "file": "2025-10-06_amazonka_restobar_mogilev_DPdm-hviExW_video1.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.9401058554649353,
+ "duration": 11.5881875,
+ "segments": [
+  {
+   "start": 1.54,
+   "end": 5.56,
+   "text": "Like sugar on my tongue, tongue, tongue",
+   "words": [
+    {
+     "start": 1.54,
+     "end": 2.38,
+     "word": " Like",
+     "p": 0.4843802750110626
+    },
+    {
+     "start": 2.38,
+     "end": 2.8,
+     "word": " sugar",
+     "p": 0.9494615793228149
+    },
+    {
+     "start": 2.8,
+     "end": 3.14,
+     "word": " on",
+     "p": 0.9492132067680359
+    },
+    {
+     "start": 3.14,
+     "end": 3.34,
+     "word": " my",
+     "p": 0.9992756247520447
+    },
+    {
+     "start": 3.34,
+     "end": 3.8,
+     "word": " tongue,",
+     "p": 0.9985060691833496
+    },
+    {
+     "start": 4.08,
+     "end": 4.76,
+     "word": " tongue,",
+     "p": 0.9980849027633667
+    },
+    {
+     "start": 5.06,
+     "end": 5.56,
+     "word": " tongue",
+     "p": 0.9992179870605469
+    }
+   ]
+  },
+  {
+   "start": 5.56,
+   "end": 9.38,
+   "text": "Your body so sweet, sweet, sweet",
+   "words": [
+    {
+     "start": 5.56,
+     "end": 6.18,
+     "word": " Your",
+     "p": 0.48411425948143005
+    },
+    {
+     "start": 6.18,
+     "end": 6.7,
+     "word": " body",
+     "p": 0.9953774213790894
+    },
+    {
+     "start": 6.7,
+     "end": 7.12,
+     "word": " so",
+     "p": 0.6242190599441528
+    },
+    {
+     "start": 7.12,
+     "end": 7.72,
+     "word": " sweet,",
+     "p": 0.9996726512908936
+    },
+    {
+     "start": 7.92,
+     "end": 8.48,
+     "word": " sweet,",
+     "p": 0.9995167255401611
+    },
+    {
+     "start": 8.68,
+     "end": 9.38,
+     "word": " sweet",
+     "p": 0.9999099969863892
+    }
+   ]
+  },
+  {
+   "start": 9.38,
+   "end": 11.26,
+   "text": "Invite me if you come",
+   "words": [
+    {
+     "start": 9.38,
+     "end": 10.42,
+     "word": " Invite",
+     "p": 0.9772360622882843
+    },
+    {
+     "start": 10.42,
+     "end": 10.56,
+     "word": " me",
+     "p": 0.9998908042907715
+    },
+    {
+     "start": 10.56,
+     "end": 10.82,
+     "word": " if",
+     "p": 0.9984697699546814
+    },
+    {
+     "start": 10.82,
+     "end": 10.94,
+     "word": " you",
+     "p": 0.99988853931427
+    },
+    {
+     "start": 10.94,
+     "end": 11.26,
+     "word": " come",
+     "p": 0.9968717694282532
+    }
+   ]
+  }
+ ]
+}

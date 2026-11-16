@@ -1,0 +1,53 @@
+- generic [ref=f55e19]:
+  - generic [ref=f55e20]:
+    - link [ref=f55e22] [cursor=pointer]:
+      - /url: /
+      - img "Threads" [ref=f55e24]
+    - generic [ref=f55e26]:
+      - link [ref=f55e28] [cursor=pointer]:
+        - /url: /
+        - img "Главная" [ref=f55e32]
+      - link [ref=f55e36] [cursor=pointer]:
+        - /url: /search
+        - img "Поиск" [ref=f55e40]
+      - button [ref=f55e43] [cursor=pointer]:
+        - img "Создать" [ref=f55e47]
+      - button [ref=f55e50] [cursor=pointer]:
+        - img "Уведомления" [ref=f55e54]
+      - button [ref=f55e57] [cursor=pointer]:
+        - img "Профиль" [ref=f55e61]
+    - generic [ref=f55e64]:
+      - button [ref=f55e66] [cursor=pointer]:
+        - img "Прикрепить" [ref=f55e70]
+      - button [ref=f55e72] [cursor=pointer]:
+        - generic [ref=f55e73]:
+          - img "Ещё" [ref=f55e75]
+          - img "Ещё" [ref=f55e79]
+  - link "Войти" [ref=f55e83] [cursor=pointer]:
+    - /url: /login?show_choice_screen=false
+  - button [ref=f55e86] [cursor=pointer]:
+    - img "Скачать приложение" [ref=f55e89]
+  - generic [ref=f55e98]:
+    - generic [ref=f55e100]:
+      - generic [ref=f55e101]: Этот контент доступен не всем
+      - generic [ref=f55e103]:
+        - text: Контент не виден определенным аудиториям.
+        - button "Узнать причину" [ref=f55e105] [cursor=pointer]
+    - contentinfo [ref=f55e107]:
+      - list [ref=f55e108]:
+        - listitem [ref=f55e109]:
+          - generic [ref=f55e110]: © 2026
+        - listitem [ref=f55e111]:
+          - link "Условия Threads" [ref=f55e113] [cursor=pointer]:
+            - /url: https://help.instagram.com/769983657850450
+        - listitem [ref=f55e114]:
+          - link "Политика конфиденциальности" [ref=f55e116] [cursor=pointer]:
+            - /url: https://help.instagram.com/515230437301944
+        - listitem [ref=f55e117]:
+          - link "Политику в отношении файлов cookie" [ref=f55e119] [cursor=pointer]:
+            - /url: https://help.instagram.com/1896641480634370/
+        - listitem [ref=f55e120]:
+          - link "Настройки файлов cookie" [ref=f55e122] [cursor=pointer]:
+            - /url: /privacy/cookie_settings
+        - listitem [ref=f55e123]:
+          - button "Сообщить о проблеме" [ref=f55e124] [cursor=pointer]

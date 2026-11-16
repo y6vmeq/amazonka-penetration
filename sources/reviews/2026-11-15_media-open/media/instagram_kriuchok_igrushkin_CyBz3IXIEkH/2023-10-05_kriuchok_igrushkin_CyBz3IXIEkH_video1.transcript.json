@@ -1,0 +1,41 @@
+{
+ "file": "2023-10-05_kriuchok_igrushkin_CyBz3IXIEkH_video1.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.8436324000358582,
+ "duration": 27.0526875,
+ "segments": [
+  {
+   "start": 1.78,
+   "end": 2.54,
+   "text": "Ready?",
+   "words": [
+    {
+     "start": 1.78,
+     "end": 2.54,
+     "word": " Ready?",
+     "p": 0.8292409181594849
+    }
+   ]
+  },
+  {
+   "start": 5.05,
+   "end": 6.24,
+   "text": "Happy birthday",
+   "words": [
+    {
+     "start": 5.05,
+     "end": 5.7,
+     "word": " Happy",
+     "p": 0.8720138669013977
+    },
+    {
+     "start": 5.7,
+     "end": 6.24,
+     "word": " birthday",
+     "p": 0.558645486831665
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:07:34.270Z",
+ "page": "https://www.instagram.com/p/C4BR91tovdE/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-1.cdninstagram.com/o1/v/t2/f2/m82/AQORapQArPpOqai6GKO9QO6A6yjiAPiqUAUxaNH8HAZMGL7ENSCgi3O61Sjk2CTN1Ifoq3-muFbDObU0kl3nA9a-CJd5JerslncRBfU.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_ohc=X9pIE4M0kUwQ7kNvwGEOf10&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTA5NDM1ODYyMTc4Mjk3NiwiYXNzZXRfYWdlX2RheXMiOjk4OCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjMwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=639f0db5376c890b&_nc_vs=HBksFQIYT2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfcHJvZC9GQTRDOENCNDkxQkI4Q0M1RjY1QUVFMEYxRDBBMTE4OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HQlBkcFJsR1QyUEtqMDRCQUxPUnV2eGxfSTBpYnFfRUFBQUYVAgLIARIAKAAYABsDiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATESY29weV9zYW1wbGVfZ3JvdXBzATEVAAAmgI_EjofU8QMVAigCQzMsF0A-KTdLxqfwGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=68X2hzaWNF-naa60m9ATuw&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRN5KgKfCgRudxU-0pvXkU54zhWkdfyk8OEprrwHA0lxg&oe=6AFC05D4",
+   "w": 1058,
+   "h": 1876,
+   "dur": 30.161,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 5423324,
+   "sha256": "e6ba2bddb93de59b39acc8ce9186b11b6300e0b44ae680fe8349bd86d115bdd2"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "C4BR91tovdE",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "C4BR91tovdE",
+  "id": "3315009817074136900",
+  "typename": "GraphVideo",
+  "owner": "aleksandra._malakhova",
+  "caption": "Сегодня посетили невероятное место в Могилеве \n\n кафе, в котором вы сможете не просто пообедать, но и познакомиться с удивительными созданиями 🦎🐍\nУ каждого из хлоднокровиков есть имена, о которых с удовольствием поведают Вам ребята из персонала ☺️\nЕсли вы не знаете, как провести выходной день с семьей, то смотрите видео и скорее занимайте свой столик в @amazonka_restobar \n\nВсем приятных весенних дней \n💚#могилев #могилевсейчас #меставмогилеве #могилевкафепиццерия #кафевмогилеве #мойгород #могилевмоимиглазами #могилёвмойгород #городмогилёв",
+  "taken_at": null,
+  "video_duration": 30.161,
+  "dimensions": {
+   "height": 1876,
+   "width": 1058
+  },
+  "product_type": "clips",
+  "music": {
+   "artist_name": "aleksandra._malakhova",
+   "song_name": "Оригинальное аудио",
+   "uses_original_audio": true,
+   "should_mute_audio": false
+  },
+  "likes": 29,
+  "comments": 5,
+  "views": 278,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2024-03-02T17:19:00+00:00",
+ "published_minsk_date": "2024-03-02",
+ "post_url": "https://www.instagram.com/reel/C4BR91tovdE/",
+ "group": "instagram_aleksandra._malakhova_C4BR91tovdE"
+}

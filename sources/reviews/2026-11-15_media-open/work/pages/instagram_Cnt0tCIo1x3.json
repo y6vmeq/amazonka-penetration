@@ -1,0 +1,56 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:08:39.888Z",
+ "page": "https://www.instagram.com/p/Cnt0tCIo1x3/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-1.cdninstagram.com/o1/v/t2/f2/m82/AQO6xTKOAClJ52BG4MKv9dOTytqem47MPf1mr3rysV2vE2rU7f--y5Z7wUzXo-Q0jhwPj5jeHIStGn2Y_b3904_1TpVEG4PVHbcHarw.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_ohc=JDGH_nuI_mEQ7kNvwGJlLfs&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6ODY1NjkyOTAxMzY4ODM1LCJhc3NldF9hZ2VfZGF5cyI6MTM5MywidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjIxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=388a8bb74c008732&_nc_vs=HBksFQIYT2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfcHJvZC83NDQ4MzFFRTc1OEE3NDM5QzNGNkVENEU4RDFFQzk4RV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HSndMZlJPbWw3cTZ3Z0FEQUtMV1ZibXBRTzU0YnFfRUFBQUYVAgLIARIAKAAYABsDiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATESY29weV9zYW1wbGVfZ3JvdXBzATEVAAAmhpD33frViQMVAigCQzMsF0A1AAAAAAAAGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=oRmEgHcuhGKcQepb0jqTOA&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSxPN5FGxop0gHoLYPrvquXgtEPqm7BFoQpZN-9T-bAgg&oe=6AFC0DC3",
+   "w": 2268,
+   "h": 4032,
+   "dur": 21,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 5503267,
+   "sha256": "8faef7bdcd1514b632b9e4a92614ce69ca89a351e70074066bafd0fef71c1763"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "Cnt0tCIo1x3",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "Cnt0tCIo1x3",
+  "id": "3021302718122908791",
+  "typename": "GraphVideo",
+  "owner": "yana_fitness",
+  "caption": "Иногда СТРАХИ - просто выдуманное нами явление… \nвсегда считала, что я боюсь змей 😅 но со временем она мне даже понравилась 🤭 \n\nтак-то я сама та еще 🐍\n… по китайскому гороскопу если что 🤣😂🤣",
+  "taken_at": null,
+  "video_duration": 21,
+  "dimensions": {
+   "height": 4032,
+   "width": 2268
+  },
+  "product_type": "clips",
+  "music": {
+   "artist_name": "yana_fitness",
+   "song_name": "Оригинальное аудио",
+   "uses_original_audio": true,
+   "should_mute_audio": false
+  },
+  "likes": 84,
+  "comments": 2,
+  "views": 858,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2023-01-22T11:36:00+00:00",
+ "published_minsk_date": "2023-01-22",
+ "post_url": "https://www.instagram.com/reel/Cnt0tCIo1x3/",
+ "group": "instagram_yana_fitness_Cnt0tCIo1x3"
+}

@@ -1,0 +1,41 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:14:53.105Z",
+ "page": "https://www.instagram.com/p/DEKdq8dozlx/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "login_wall": false,
+ "items": [
+  {
+   "key": "img1",
+   "kind": "image",
+   "url": "https://scontent-waw2-1.cdninstagram.com/v/t51.82787-15/622548195_18092909170814938_6266416387873018650_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=MzUzMzc2NzM1MjExNDE2NjEyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=QXt2KKIWcYcQ7kNvwGufFPV&_nc_oc=AdoNXfbTT9WMhy61Xcju8cB5dChUeot-_Bw1fKNUNvDmG_BETxj3b3SyVFu0foV_PGo&_nc_zt=23&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_gid=7OiqBSErenTMA3RmhiuoZA&_nc_ss=7b689&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQQ6kelRvwVlcru2to2-uUG0b4hhFkNSzUcXZCmiRckexw&oe=6AFFE8F9",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 375417,
+   "sha256": "df28f00546d949e91a8e259cae3ca845049e572091417e290da4b096c0c814f3"
+  }
+ ],
+ "meta": {
+  "source": "page-json",
+  "code": "DEKdq8dozlx",
+  "pk": "3533767352114166129",
+  "owner": "karnachova_",
+  "caption": "Эта #фобия у меня отсутствует 😌",
+  "taken_at": 1735477917,
+  "media_type": 1,
+  "product_type": "feed",
+  "video_duration": null,
+  "has_audio": null,
+  "original_width": 1440,
+  "original_height": 1800,
+  "likes": 78,
+  "comments": 0,
+  "location": "Могилев, Республика Беларусь",
+  "tagged": [
+   "nikma_ph",
+   "amazonka_restobar_mogilev"
+  ],
+  "carousel_count": 0
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:09:24.275Z",
+ "page": "https://www.instagram.com/p/DU05cvVjGcw/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "img1",
+   "kind": "image",
+   "url": "https://scontent-waw2-2.cdninstagram.com/v/t51.82787-15/636673250_18174431626383254_6130668736718041306_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ig_cache_key=MzgzMzk0MTg0NjQyMzAwNDk3Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=7Cy5Z9iDMoAQ7kNvwFAAWiN&_nc_oc=AdqqV8Dlz5h6C4qQXsOK2VuFTHizEvM5mrPj-mPMitwLydbV3nMKOjItCGagMrPymzI&_nc_zt=23&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_gid=ORrHCq3uEYkUo48BiOr5ZQ&_nc_ss=7b689&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQTOPtvyiu82XNGZWFKK36ByzWCq_YeeuGbZIhiTxmGKHw&oe=6AFFFD27",
+   "w": 932,
+   "h": 1242,
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 140753,
+   "sha256": "5c5facb6fb749ae8eec25160f49c3148370b314d2f3a0925032c75b187883d7d"
+  }
+ ],
+ "meta": {
+  "source": "dom",
+  "code": "DU05cvVjGcw",
+  "owner": "maxim.2179",
+  "caption": "maxim.2179\n\nЭкзотический ужин🦎🐍🐊 #РестоБарАмазонка #Могилёв #Рептилии #Кухня",
+  "text": "maxim.2179\n698 подписчики\nПосмотреть профиль\nmaxim.2179\n14 публикаций · 698 подписчики\nЕщё больше в Instagram\nНравится\nКомментарий\nПоделиться\nСохранить\n29 отметок \"Нравится\"\nmaxim.2179\n\nЭкзотический ужин🦎🐍🐊 #РестоБарАмазонка #Могилёв #Рептилии #Кухня\nДобавьте комментарий...\nInstagram"
+ },
+ "published_utc": "2026-02-16T17:05:00+00:00",
+ "published_minsk_date": "2026-02-16",
+ "post_url": "https://www.instagram.com/p/DU05cvVjGcw/",
+ "group": "instagram_maxim.2179_DU05cvVjGcw"
+}

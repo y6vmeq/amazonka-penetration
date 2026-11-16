@@ -1,0 +1,56 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:06:59.818Z",
+ "page": "https://www.instagram.com/p/DC7Lx7ioF4_/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-2.cdninstagram.com/o1/v/t2/f2/m86/AQMeg30lJf3DZP46mr838JgPk-lq3MOZIM2aQnkGnIt5hg1aMT0bcHxeIG6JgRWJXb-PCwauGYVx5MlcGAXBgO2YYbBCbkHl6xmBPQE.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_ohc=Ph1zHYV2v0cQ7kNvwGz2pE4&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMzYwLmRhc2hfYmFzZWxpbmVfM192MSIsInhwdl9hc3NldF9pZCI6MTEyNjgxNjk0MjEzNjA2OCwiYXNzZXRfYWdlX2RheXMiOjcxNywidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=8ed34e494a546c42&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FMzRGRUEwQzg5MTM0OUMzQTVERUM3MDEyMTAzMTRCNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMjUyNjMzOTM1OTkyMDE4XzgzMjU1NDQ5NTU5MTE0MDIwOTEubXA0FQICyAESACgAGAAbA4gHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExEmNvcHlfc2FtcGxlX2dyb3VwcwExFQAAJojsgLmwtYAEFQIoAkMzLBdAIwAAAAAAABgSZGFzaF9iYXNlbGluZV8zX3YxEQB1_gdl5p0BAA&_nc_gid=UbASEIXf0FWYjAuVxK9q7w&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTAjtTYtBgk7NVBi_JiCoD0O8GIR1Z5xDsvBPBLs9Z6Ig&oe=6AFBE170",
+   "w": 720,
+   "h": 1280,
+   "dur": 9.5,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 580709,
+   "sha256": "b56de438b9ef8fa7ea04b8f13b6c758de690c9c29926493cf8ae2f2f03915cbf"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "DC7Lx7ioF4_",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "DC7Lx7ioF4_",
+  "id": "3511452144163118655",
+  "typename": "GraphVideo",
+  "owner": "aleksandra._malakhova",
+  "caption": "Не елка 🌲 🔥\n@prostranstvo.photostudio \n@amazonka_restobar_mogilev \n@leisa_photohouse \n@margaritkaup \n@laura__ivanova",
+  "taken_at": null,
+  "video_duration": 9.5,
+  "dimensions": {
+   "height": 1280,
+   "width": 720
+  },
+  "product_type": "clips",
+  "music": {
+   "artist_name": "aleksandra._malakhova",
+   "song_name": "Оригинальное аудио",
+   "uses_original_audio": true,
+   "should_mute_audio": false
+  },
+  "likes": 86,
+  "comments": 2,
+  "views": 2678,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2024-11-28T18:15:00+00:00",
+ "published_minsk_date": "2024-11-28",
+ "post_url": "https://www.instagram.com/reel/DC7Lx7ioF4_/",
+ "group": "instagram_aleksandra._malakhova_DC7Lx7ioF4_"
+}

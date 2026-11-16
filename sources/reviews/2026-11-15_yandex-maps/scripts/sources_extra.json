@@ -1,0 +1,12 @@
+[
+ {
+  "venue": "amazonka-minsk",
+  "late": true,
+  "raw": "raw/008_yandex-maps_amazonka-minsk_all-reviews.json",
+  "classification": "scripts/classification_amazonka-minsk.tsv",
+  "fallback_url": "https://yandex.by/maps/org/amazonka_restobar/24980541044/reviews/",
+  "animals": "scripts/animals_amazonka-minsk.tsv",
+  "animals_annotate_only": true,
+  "animals_mark": "В отзыве упоминаются животные в заведении (минская карточка)."
+ }
+]

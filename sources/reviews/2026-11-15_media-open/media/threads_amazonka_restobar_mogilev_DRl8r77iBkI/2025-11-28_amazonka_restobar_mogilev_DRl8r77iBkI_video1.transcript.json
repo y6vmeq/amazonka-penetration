@@ -1,0 +1,34 @@
+{
+ "file": "2025-11-28_amazonka_restobar_mogilev_DRl8r77iBkI_video1.mp4",
+ "model": "large-v3-turbo",
+ "language": "en",
+ "language_probability": 0.9372969269752502,
+ "duration": 8.1051875,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 0.42,
+   "text": "This is amazing.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.14,
+     "word": " This",
+     "p": 0.6040998697280884
+    },
+    {
+     "start": 0.14,
+     "end": 0.2,
+     "word": " is",
+     "p": 0.976745069026947
+    },
+    {
+     "start": 0.2,
+     "end": 0.42,
+     "word": " amazing.",
+     "p": 0.7764067053794861
+    }
+   ]
+  }
+ ]
+}

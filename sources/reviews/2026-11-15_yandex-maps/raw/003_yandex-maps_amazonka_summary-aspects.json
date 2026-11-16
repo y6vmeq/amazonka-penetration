@@ -1,0 +1,254 @@
+{
+  "source_url": "https://yandex.by/maps/org/amazonka_restobar/172475261635/reviews/?ll=30.339188%2C53.900995&z=14",
+  "captured_at_browser": "2026-11-15T09:41:01.556Z",
+  "page_title": "Отзывы об «Амазонка рестобар», Могилёв, Ленинская улица, 38 — Яндекс Карты",
+  "org_name_h1": "Амазонка рестобар",
+  "org_permalink": "172475261635",
+  "aggregateRating_meta": {
+    "ratingValue": "4.3",
+    "ratingCount": "683",
+    "reviewCount": "388",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "rating_text_as_shown": "Рейтинг 4,3",
+  "rating_count_as_shown": "683 оценки",
+  "reviews_header_as_shown": "388 отзывов",
+  "sort_as_shown": "По умолчанию",
+  "tabs": [
+    {
+      "label": "Обзор, ",
+      "text": "Обзор",
+      "selected": "false"
+    },
+    {
+      "label": "Меню, ",
+      "text": "Меню",
+      "selected": "false"
+    },
+    {
+      "label": "Фото, 226",
+      "text": "Фото226",
+      "selected": "false"
+    },
+    {
+      "label": "Отзывы, 388",
+      "text": "Отзывы388",
+      "selected": "true"
+    },
+    {
+      "label": "Особенности, ",
+      "text": "Особенности",
+      "selected": "false"
+    },
+    {
+      "label": "Похожие места, ",
+      "text": "Похожие места",
+      "selected": "false"
+    }
+  ],
+  "aspects": [
+    {
+      "position": 1,
+      "text_as_shown": "Персонал · 59%положительный",
+      "name": "Персонал",
+      "percent": "59%",
+      "polarity_label": "положительный",
+      "is_negative_class": false,
+      "count_text": "268 отзывов"
+    },
+    {
+      "position": 2,
+      "text_as_shown": "Еда · 60%положительный",
+      "name": "Еда",
+      "percent": "60%",
+      "polarity_label": "положительный",
+      "is_negative_class": false,
+      "count_text": "265 отзывов"
+    },
+    {
+      "position": 3,
+      "text_as_shown": "Время ожидания · 23%отрицательный",
+      "name": "Время ожидания",
+      "percent": "23%",
+      "polarity_label": "отрицательный",
+      "is_negative_class": true,
+      "count_text": "131 отзыв"
+    },
+    {
+      "position": 4,
+      "text_as_shown": "Атмосфера · 85%положительный",
+      "name": "Атмосфера",
+      "percent": "85%",
+      "polarity_label": "положительный",
+      "is_negative_class": false,
+      "count_text": "110 отзывов"
+    },
+    {
+      "position": 5,
+      "text_as_shown": "Напитки · 46%положительный",
+      "name": "Напитки",
+      "percent": "46%",
+      "polarity_label": "положительный",
+      "is_negative_class": false,
+      "count_text": "92 отзыва"
+    },
+    {
+      "position": 6,
+      "text_as_shown": "Интерьер · 75%положительный",
+      "name": "Интерьер",
+      "percent": "75%",
+      "polarity_label": "положительный",
+      "is_negative_class": false,
+      "count_text": "56 отзывов"
+    },
+    {
+      "position": 7,
+      "text_as_shown": "Чистота · 7%отрицательный",
+      "name": "Чистота",
+      "percent": "7%",
+      "polarity_label": "отрицательный",
+      "is_negative_class": true,
+      "count_text": "42 отзыва"
+    },
+    {
+      "position": 8,
+      "text_as_shown": "Роллы и суши · 27%отрицательный",
+      "name": "Роллы и суши",
+      "percent": "27%",
+      "polarity_label": "отрицательный",
+      "is_negative_class": true,
+      "count_text": "39 отзывов"
+    },
+    {
+      "position": 9,
+      "text_as_shown": "Кальян · 56%положительный",
+      "name": "Кальян",
+      "percent": "56%",
+      "polarity_label": "положительный",
+      "is_negative_class": false,
+      "count_text": "39 отзывов"
+    },
+    {
+      "position": 10,
+      "text_as_shown": "Коктейли · 62%положительный",
+      "name": "Коктейли",
+      "percent": "62%",
+      "polarity_label": "положительный",
+      "is_negative_class": false,
+      "count_text": "37 отзывов"
+    },
+    {
+      "position": 11,
+      "text_as_shown": "Столы · 15%отрицательный",
+      "name": "Столы",
+      "percent": "15%",
+      "polarity_label": "отрицательный",
+      "is_negative_class": true,
+      "count_text": "37 отзывов"
+    },
+    {
+      "position": 12,
+      "text_as_shown": "Алкоголь · 59%положительный",
+      "name": "Алкоголь",
+      "percent": "59%",
+      "polarity_label": "положительный",
+      "is_negative_class": false,
+      "count_text": "32 отзыва"
+    },
+    {
+      "position": 13,
+      "text_as_shown": "Десерты · 20%отрицательный",
+      "name": "Десерты",
+      "percent": "20%",
+      "polarity_label": "отрицательный",
+      "is_negative_class": true,
+      "count_text": "26 отзывов"
+    },
+    {
+      "position": 14,
+      "text_as_shown": "Доставка · 24%отрицательный",
+      "name": "Доставка",
+      "percent": "24%",
+      "polarity_label": "отрицательный",
+      "is_negative_class": true,
+      "count_text": "22 отзыва"
+    },
+    {
+      "position": 15,
+      "text_as_shown": "Музыка · 82%положительный",
+      "name": "Музыка",
+      "percent": "82%",
+      "polarity_label": "положительный",
+      "is_negative_class": false,
+      "count_text": "17 отзывов"
+    },
+    {
+      "position": 16,
+      "text_as_shown": "Помещение · 17%отрицательный",
+      "name": "Помещение",
+      "percent": "17%",
+      "polarity_label": "отрицательный",
+      "is_negative_class": true,
+      "count_text": "13 отзывов"
+    },
+    {
+      "position": 17,
+      "text_as_shown": "Бургеры · 46%положительный",
+      "name": "Бургеры",
+      "percent": "46%",
+      "polarity_label": "положительный",
+      "is_negative_class": false,
+      "count_text": "13 отзывов"
+    },
+    {
+      "position": 18,
+      "text_as_shown": "Морепродукты · 33%отрицательный",
+      "name": "Морепродукты",
+      "percent": "33%",
+      "polarity_label": "отрицательный",
+      "is_negative_class": true,
+      "count_text": "13 отзывов"
+    },
+    {
+      "position": 19,
+      "text_as_shown": "Мясо · 38%отрицательный",
+      "name": "Мясо",
+      "percent": "38%",
+      "polarity_label": "отрицательный",
+      "is_negative_class": true,
+      "count_text": "13 отзывов"
+    },
+    {
+      "position": 20,
+      "text_as_shown": "Пицца · 36%отрицательный",
+      "name": "Пицца",
+      "percent": "36%",
+      "polarity_label": "отрицательный",
+      "is_negative_class": true,
+      "count_text": "12 отзывов"
+    },
+    {
+      "position": 21,
+      "text_as_shown": "Красивая подача блюд · 90%положительный",
+      "name": "Красивая подача блюд",
+      "percent": "90%",
+      "polarity_label": "положительный",
+      "is_negative_class": false,
+      "count_text": "11 отзывов"
+    },
+    {
+      "position": 22,
+      "text_as_shown": "С детьми · 60%положительный",
+      "name": "С детьми",
+      "percent": "60%",
+      "polarity_label": "положительный",
+      "is_negative_class": false,
+      "count_text": "10 отзывов"
+    }
+  ],
+  "summary_outerHTML": "<div class=\"card-reviews-view__summary\"><div data-chunk=\"reviews\" data-ssr-uid=\"6-2-1\"><div class=\"business-summary-rating _wide\"><div class=\"business-summary-rating__main\"><div class=\"business-summary-rating__main-rating\"><div class=\"business-summary-rating-badge-view _wide\"><div class=\"business-summary-rating-badge-view__rating-and-stars\"><div class=\"business-summary-rating-badge-view__rating\"><span class=\"a11y-hidden\">Рейтинг&nbsp;</span><span class=\"business-summary-rating-badge-view__rating-text\">4</span><span class=\"business-summary-rating-badge-view__rating-text _separator\">,</span><span class=\"business-summary-rating-badge-view__rating-text\">3</span></div><div class=\"business-summary-rating-badge-view__stars-and-count\"><div class=\"business-rating-badge-view _size_m _weight_medium\"><div aria-label=\"Оценка 4.3 Из 5\" class=\"business-rating-badge-view__stars _spacing_normal\"><span tag=\"span\" class=\"inline-image _loaded icon business-rating-badge-view__star _full\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"m7.985 11.65-3.707 2.265a.546.546 0 0 1-.814-.598l1.075-4.282L1.42 6.609a.546.546 0 0 1 .29-.976l4.08-.336 1.7-3.966a.546.546 0 0 1 1.004.001l1.687 3.965 4.107.337c.496.04.684.67.29.976l-3.131 2.425 1.073 4.285a.546.546 0 0 1-.814.598z\" clip-rule=\"evenodd\"></path></svg></span><span tag=\"span\" class=\"inline-image _loaded icon business-rating-badge-view__star _full\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"m7.985 11.65-3.707 2.265a.546.546 0 0 1-.814-.598l1.075-4.282L1.42 6.609a.546.546 0 0 1 .29-.976l4.08-.336 1.7-3.966a.546.546 0 0 1 1.004.001l1.687 3.965 4.107.337c.496.04.684.67.29.976l-3.131 2.425 1.073 4.285a.546.546 0 0 1-.814.598z\" clip-rule=\"evenodd\"></path></svg></span><span tag=\"span\" class=\"inline-image _loaded icon business-rating-badge-view__star _full\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"m7.985 11.65-3.707 2.265a.546.546 0 0 1-.814-.598l1.075-4.282L1.42 6.609a.546.546 0 0 1 .29-.976l4.08-.336 1.7-3.966a.546.546 0 0 1 1.004.001l1.687 3.965 4.107.337c.496.04.684.67.29.976l-3.131 2.425 1.073 4.285a.546.546 0 0 1-.814.598z\" clip-rule=\"evenodd\"></path></svg></span><span tag=\"span\" class=\"inline-image _loaded icon business-rating-badge-view__star _full\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"m7.985 11.65-3.707 2.265a.546.546 0 0 1-.814-.598l1.075-4.282L1.42 6.609a.546.546 0 0 1 .29-.976l4.08-.336 1.7-3.966a.546.546 0 0 1 1.004.001l1.687 3.965 4.107.337c.496.04.684.67.29.976l-3.131 2.425 1.073 4.285a.546.546 0 0 1-.814.598z\" clip-rule=\"evenodd\"></path></svg></span><span tag=\"span\" class=\"inline-image _loaded icon business-rating-badge-view__star _half\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#ccc\" fill-rule=\"evenodd\" d=\"m7.985 11.65-3.707 2.266a.546.546 0 0 1-.814-.598l1.075-4.282L1.42 6.609a.546.546 0 0 1 .29-.975l4.08-.336 1.7-3.966a.546.546 0 0 1 1.004.001l1.687 3.965 4.107.337c.496.04.684.67.29.975l-3.131 2.426 1.073 4.284a.546.546 0 0 1-.814.6z\" clip-rule=\"evenodd\"></path><path fill=\"#fc0\" fill-rule=\"evenodd\" d=\"m4.278 13.915 3.707-2.266V1a.54.54 0 0 0-.494.33l-1.7 3.967-4.08.336a.546.546 0 0 0-.29.975l3.118 2.427-1.075 4.282a.546.546 0 0 0 .814.598\" clip-rule=\"evenodd\"></path></svg></span></div></div><div class=\"business-summary-rating-badge-view__rating-count\"><span class=\"business-rating-amount-view _summary\">683 оценки</span></div></div></div></div><div class=\"business-summary-rating__review\"><div class=\"business-user-review-card-view _wide\"><div class=\"business-user-review-card-view__write-review _has-rating\"><div class=\"business-review-suggestion-view _wide\"><div class=\"business-review-suggestion-view__rate\"><div class=\"business-review-suggestion-view__rate-text\">Оцените это место</div><div class=\"business-rating-edit-view\"><div class=\"business-rating-edit-view__star _size_s _wide\" aria-hidden=\"false\" aria-label=\"1 звезда\" role=\"button\" aria-pressed=\"false\" tabindex=\"0\"><span tag=\"span\" class=\"inline-image _loaded icon business-rating-edit-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"m11.965 18.42-6.05 3.699a.5.5 0 0 1-.745-.549l1.751-6.975-5.168-4.023a.5.5 0 0 1 .266-.892l6.734-.556 2.764-6.448a.5.5 0 0 1 .92.001l2.743 6.447 6.778.556a.5.5 0 0 1 .265.893l-5.19 4.021 1.748 6.979a.5.5 0 0 1-.746.548z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-rating-edit-view__star _size_s _wide\" aria-hidden=\"false\" aria-label=\"2 звезды\" role=\"button\" aria-pressed=\"false\" tabindex=\"0\"><span tag=\"span\" class=\"inline-image _loaded icon business-rating-edit-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"m11.965 18.42-6.05 3.699a.5.5 0 0 1-.745-.549l1.751-6.975-5.168-4.023a.5.5 0 0 1 .266-.892l6.734-.556 2.764-6.448a.5.5 0 0 1 .92.001l2.743 6.447 6.778.556a.5.5 0 0 1 .265.893l-5.19 4.021 1.748 6.979a.5.5 0 0 1-.746.548z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-rating-edit-view__star _size_s _wide\" aria-hidden=\"false\" aria-label=\"3 звезды\" role=\"button\" aria-pressed=\"false\" tabindex=\"0\"><span tag=\"span\" class=\"inline-image _loaded icon business-rating-edit-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"m11.965 18.42-6.05 3.699a.5.5 0 0 1-.745-.549l1.751-6.975-5.168-4.023a.5.5 0 0 1 .266-.892l6.734-.556 2.764-6.448a.5.5 0 0 1 .92.001l2.743 6.447 6.778.556a.5.5 0 0 1 .265.893l-5.19 4.021 1.748 6.979a.5.5 0 0 1-.746.548z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-rating-edit-view__star _size_s _wide\" aria-hidden=\"false\" aria-label=\"4 звезды\" role=\"button\" aria-pressed=\"false\" tabindex=\"0\"><span tag=\"span\" class=\"inline-image _loaded icon business-rating-edit-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"m11.965 18.42-6.05 3.699a.5.5 0 0 1-.745-.549l1.751-6.975-5.168-4.023a.5.5 0 0 1 .266-.892l6.734-.556 2.764-6.448a.5.5 0 0 1 .92.001l2.743 6.447 6.778.556a.5.5 0 0 1 .265.893l-5.19 4.021 1.748 6.979a.5.5 0 0 1-.746.548z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-rating-edit-view__star _size_s _wide\" aria-hidden=\"false\" aria-label=\"5 звезд\" role=\"button\" aria-pressed=\"false\" tabindex=\"0\"><span tag=\"span\" class=\"inline-image _loaded icon business-rating-edit-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"m11.965 18.42-6.05 3.699a.5.5 0 0 1-.745-.549l1.751-6.975-5.168-4.023a.5.5 0 0 1 .266-.892l6.734-.556 2.764-6.448a.5.5 0 0 1 .92.001l2.743 6.447 6.778.556a.5.5 0 0 1 .265.893l-5.19 4.021 1.748 6.979a.5.5 0 0 1-.746.548z\" clip-rule=\"evenodd\"></path></svg></span></div></div></div></div></div></div></div></div></div><span itemscope=\"\" itemprop=\"aggregateRating\" itemtype=\"http://schema.org/AggregateRating\"><meta itemprop=\"reviewCount\" content=\"388\"><meta itemprop=\"ratingCount\" content=\"683\"><meta itemprop=\"bestRating\" content=\"5\"><meta itemprop=\"worstRating\" content=\"1\"><meta itemprop=\"ratingValue\" content=\"4.3\"></span></div></div></div>",
+  "reviews_header_outerHTML": "<div class=\"business-reviews-card-view__header\"><div class=\"business-reviews-card-view__title\"><div class=\"card-section-header _wide _type_h2\"><h2 class=\"card-section-header__title _wide\">388 отзывов</h2><div class=\"card-section-header__right-content\"><div class=\"business-reviews-card-view__ranking\"><div class=\"rating-ranking-view\" aria-hidden=\"false\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" tabindex=\"0\"><span>По умолчанию</span><span tag=\"span\" class=\"inline-image _loaded icon flip-icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"8\" height=\"8\" fill=\"none\" viewBox=\"0 0 8 8\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M7.378 1.85c.28-.47.062-.85-.485-.85H1.106c-.548 0-.763.382-.484.85l2.87 4.799c.28.469.736.467 1.016 0z\" clip-rule=\"evenodd\"></path></svg></span></div></div></div></div></div><div class=\"business-reviews-card-view__tags-container\"><div role=\"menu\" class=\"business-review-aspects\"><div class=\"carousel _old-browsers-workaround _theme_white\" style=\"margin-left: 0px; margin-right: 0px; height: 56px;\"><div role=\"presentation\" class=\"carousel__scrollable _smooth-scroll\" style=\"height: 77px; padding-bottom: 21px;\"><div role=\"list\" class=\"carousel__content\"><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 80px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view\"><div class=\"business-aspect-view__text\">Персонал · <span class=\"business-aspect-view__rating\">59%</span><span class=\"a11y-hidden\">положительный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">268 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view\"><div class=\"business-aspect-view__text\">Еда · <span class=\"business-aspect-view__rating\">60%</span><span class=\"a11y-hidden\">положительный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">265 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view _is-negative\"><div class=\"business-aspect-view__text\">Время ожидания · <span class=\"business-aspect-view__rating\">23%</span><span class=\"a11y-hidden\">отрицательный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">131 отзыв</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view\"><div class=\"business-aspect-view__text\">Атмосфера · <span class=\"business-aspect-view__rating\">85%</span><span class=\"a11y-hidden\">положительный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">110 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view\"><div class=\"business-aspect-view__text\">Напитки · <span class=\"business-aspect-view__rating\">46%</span><span class=\"a11y-hidden\">положительный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">92 отзыва</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view\"><div class=\"business-aspect-view__text\">Интерьер · <span class=\"business-aspect-view__rating\">75%</span><span class=\"a11y-hidden\">положительный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">56 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view _is-negative\"><div class=\"business-aspect-view__text\">Чистота · <span class=\"business-aspect-view__rating\">7%</span><span class=\"a11y-hidden\">отрицательный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">42 отзыва</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view _is-negative\"><div class=\"business-aspect-view__text\">Роллы и суши · <span class=\"business-aspect-view__rating\">27%</span><span class=\"a11y-hidden\">отрицательный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">39 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view\"><div class=\"business-aspect-view__text\">Кальян · <span class=\"business-aspect-view__rating\">56%</span><span class=\"a11y-hidden\">положительный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">39 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view\"><div class=\"business-aspect-view__text\">Коктейли · <span class=\"business-aspect-view__rating\">62%</span><span class=\"a11y-hidden\">положительный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">37 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view _is-negative\"><div class=\"business-aspect-view__text\">Столы · <span class=\"business-aspect-view__rating\">15%</span><span class=\"a11y-hidden\">отрицательный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">37 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view\"><div class=\"business-aspect-view__text\">Алкоголь · <span class=\"business-aspect-view__rating\">59%</span><span class=\"a11y-hidden\">положительный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">32 отзыва</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view _is-negative\"><div class=\"business-aspect-view__text\">Десерты · <span class=\"business-aspect-view__rating\">20%</span><span class=\"a11y-hidden\">отрицательный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">26 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view _is-negative\"><div class=\"business-aspect-view__text\">Доставка · <span class=\"business-aspect-view__rating\">24%</span><span class=\"a11y-hidden\">отрицательный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">22 отзыва</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view\"><div class=\"business-aspect-view__text\">Музыка · <span class=\"business-aspect-view__rating\">82%</span><span class=\"a11y-hidden\">положительный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">17 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view _is-negative\"><div class=\"business-aspect-view__text\">Помещение · <span class=\"business-aspect-view__rating\">17%</span><span class=\"a11y-hidden\">отрицательный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">13 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view\"><div class=\"business-aspect-view__text\">Бургеры · <span class=\"business-aspect-view__rating\">46%</span><span class=\"a11y-hidden\">положительный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">13 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view _is-negative\"><div class=\"business-aspect-view__text\">Морепродукты · <span class=\"business-aspect-view__rating\">33%</span><span class=\"a11y-hidden\">отрицательный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">13 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view _is-negative\"><div class=\"business-aspect-view__text\">Мясо · <span class=\"business-aspect-view__rating\">38%</span><span class=\"a11y-hidden\">отрицательный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">13 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view _is-negative\"><div class=\"business-aspect-view__text\">Пицца · <span class=\"business-aspect-view__rating\">36%</span><span class=\"a11y-hidden\">отрицательный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">12 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view\"><div class=\"business-aspect-view__text\">Красивая подача блюд · <span class=\"business-aspect-view__rating\">90%</span><span class=\"a11y-hidden\">положительный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">11 отзывов</div></div></span></button></div><div role=\"listitem\" class=\"carousel__item _align_center\" style=\"padding-right: 80px; padding-left: 8px;\"><button role=\"menuitem\" type=\"button\" class=\"button _view_secondary-gray _ui _size_large\"><span class=\"button__text\"><div class=\"business-aspect-view\"><div class=\"business-aspect-view__text\">С детьми · <span class=\"business-aspect-view__rating\">60%</span><span class=\"a11y-hidden\">положительный</span><span tag=\"span\" class=\"inline-image _loaded icon business-aspect-view__icon\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M1 10.025c0 .538.426.973.952.973 0 0 4.797.004 5.479 0 1.484.017 2.42-.417 2.825-1.538.108-.286.708-2.612.714-2.64.17-.818-.398-1.533-1.226-1.533H7.623c-.133 0-.22-.107-.193-.24 0 0 .023-.438.108-1.056s.085-1.111.085-1.535-.11-.879-.39-1.157c-.205-.205-.342-.221-.342-.221a.7.7 0 0 0-.961.346s-1.368 3.19-1.481 3.422a1 1 0 0 1-.048.08l-1.21 2.655C3.146 7.68 3 7.647 3 7.54V5.287H1.952A.963.963 0 0 0 1 6.26z\" clip-rule=\"evenodd\"></path></svg></span></div><div class=\"business-aspect-view__count\">10 отзывов</div></div></span></button></div><iframe class=\"resize-listener\" tabindex=\"-1\" aria-hidden=\"true\"></iframe></div></div><div class=\"carousel__arrow-wrapper _next _size_m\"><div aria-hidden=\"true\" class=\"carousel__arrow _size_m\" style=\"margin: 12px 0px;\"><span tag=\"span\" class=\"inline-image _loaded icon carousel__arrow-image\" style=\"font-size: 0px; line-height: 0;\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M8.293 5.293a1 1 0 0 1 1.414 0l6 6a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414L13.586 12 8.293 6.707a1 1 0 0 1 0-1.414\" clip-rule=\"evenodd\"></path></svg></span></div></div></div></div></div></div>",
+  "sha256_summary_outerHTML": "026f22a63136555a0a659261af58d05316c54c3f8558077d30607788fff932cd",
+  "sha256_reviews_header_outerHTML": "a3b05723c5eb7780111d9c1bd876e9b22fbfce6a607a0b601f77ca812833bdce"
+}

@@ -1,0 +1,56 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:00:18.422Z",
+ "page": "https://www.instagram.com/p/Dfu0BPWIg-0/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-2.cdninstagram.com/o1/v/t2/f2/m86/AQMPCm7Tm6hByAQzj8QfVsic7SphrgHZKzXu7FUuWO6Iz0xFxfNkD5o7d0bnGw2ARwcsk9Xtj6yB0BLUfBf4JWUa9Jf2clGLPqkl0Cw.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_ohc=Brps62ztmvIQ7kNvwGGsH76&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjU4NDI1ODI3NTQwOTU0NSwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo1NywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=169a1600fc2e719f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81NjFCQzQwQTIyRkU0MjRDQUFERUQyQkI1QTBFNzQ5MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzk0OUMxMUNFNjk4MDRDN0ZBOURDNDFCQjg4QUY5RTEzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaS-pvI0JeXCRUCKAJDMywXQEyiDEm6XjUYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=BopZ0-WCpH17gqQVejwpOA&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQnnQAnn-VFcOCJwg8BTXP4H-iJe2tGbLhvhRX7SxrYxQ&oe=6AFBEA5D",
+   "w": 640,
+   "h": 1136,
+   "dur": 57.266,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 8341950,
+   "sha256": "d6197d49c50e1dda1fd36b8f86f5e768aa0c186ece521b030c9a8ace190f18e3"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "Dfu0BPWIg-0",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "Dfu0BPWIg-0",
+  "id": "4030387500158685108",
+  "typename": "GraphVideo",
+  "owner": "___yulchuk___",
+  "caption": "Gastrofest2026 спасибо за испорченный вечер",
+  "taken_at": null,
+  "video_duration": 57.266,
+  "dimensions": {
+   "height": 1136,
+   "width": 640
+  },
+  "product_type": "clips",
+  "music": {
+   "artist_name": "___yulchuk___",
+   "song_name": "Оригинальное аудио",
+   "uses_original_audio": true,
+   "should_mute_audio": false
+  },
+  "likes": 161,
+  "comments": 23,
+  "views": 4578,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2026-11-14T18:07:00+00:00",
+ "published_minsk_date": "2026-11-14",
+ "post_url": "https://www.instagram.com/reel/Dfu0BPWIg-0/",
+ "group": "instagram____yulchuk____Dfu0BPWIg-0"
+}

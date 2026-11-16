@@ -1,0 +1,42 @@
+{
+ "platform": "threads",
+ "fetched_at": "2026-11-15T21:03:59.017Z",
+ "page": "https://www.threads.com/@amazonka_restobar_mogilev/post/DRKG8ZfCENl",
+ "title": "Амазонка — место, куда хочется возвращаться 💚 Тёплый свет, вкусная кухня и вечера, наполненные атмосферой 🦎 Пн–Чт 15:00–03:00 Пт 15:00–05:00 Сб 12:00–05:00 Вс 12:00–03:00 Столик можно забронировать онлайн — ссылка в био. 📍 Ленинская, 38",
+ "login_cookie": false,
+ "login_button": true,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-2.cdninstagram.com/o1/v/t2/f2/m86/AQNypkY1e_Ac1Mm4G4YMcsMy6m7_-d0qv3_FN86qJtgpblHxVCdKTdJo8Rcsn5oLVa-j8lsYHciVPSQEiv_MImz5HNhsncQvHGTOyeI.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_ohc=AOKdh6lUwcIQ7kNvwG2-ux0&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4zNjAuZGFzaF9iYXNlbGluZV8zX3YxIiwieHB2X2Fzc2V0X2lkIjoxNTMyOTIxMzgxMDc5MzA4LCJhc3NldF9hZ2VfZGF5cyI6MzYzLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6OCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=ef4200f3ad9c7871&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82NDQ2OUU1MDFFRDAyNTQzQjcxQzI4RDQ5NzIzQzdCNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80MDE1NTk3NzI1NDE1ODI3XzI5MDM3MTU2MDk4NDExOTk5MTIubXA0FQICyAESACgAGAAbA4gHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExEmNvcHlfc2FtcGxlX2dyb3VwcwExFQAAJpikmqbii7kFFQIoAkMzLBdAIIgxJul41RgSZGFzaF9iYXNlbGluZV8zX3YxEQB16gdl5p0BAA&_nc_gid=sPOto61cnLW9tI_yumCPsQ&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRAS4VVoPABlBZ4jEqXEOYLOXbvhK_Qg5vDMCWQ0l2WGA&oe=6AFBFB5F",
+   "w": 360,
+   "h": 640,
+   "has_audio": true,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 465327,
+   "sha256": "cfa148e4753d59d25b02da660a89697b24068155584c7ad6f713d9b38b607326"
+  }
+ ],
+ "meta": {
+  "source": "page-json",
+  "code": "DRKG8ZfCENl",
+  "pk": "3767854577060692837",
+  "owner": "amazonka_restobar_mogilev",
+  "caption": "Амазонка — место, куда хочется возвращаться 💚\n\nТёплый свет, вкусная кухня и вечера, наполненные атмосферой 🦎\n\nПн–Чт 15:00–03:00\nПт 15:00–05:00\nСб 12:00–05:00\nВс 12:00–03:00\n\nСтолик можно забронировать онлайн — ссылка в био.\n📍 Ленинская, 38",
+  "taken_at": 1763383293,
+  "media_type": 2,
+  "original_width": 360,
+  "original_height": 640,
+  "has_audio": true,
+  "permalink": "https://www.threads.com/@amazonka_restobar_mogilev/post/DRKG8ZfCENl",
+  "like_count": 0,
+  "reply_count": 0,
+  "carousel_count": 0
+ },
+ "published_utc": "2025-11-17T12:41:33+00:00",
+ "published_minsk_date": "2025-11-17",
+ "post_url": "https://www.threads.com/@amazonka_restobar_mogilev/post/DRKG8ZfCENl",
+ "group": "threads_amazonka_restobar_mogilev_DRKG8ZfCENl"
+}

@@ -1,0 +1,56 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:07:45.137Z",
+ "page": "https://www.instagram.com/p/C1RaXK0o8IC/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-1.cdninstagram.com/o1/v/t2/f2/m82/AQMMjKilDuB5ZW1avtY9zIcdi4FUTvbhSW7BNQiS2VO_9rS46H9l_0_nggbE4HU-saZQMzooURJwZCvB_pN8pWLaXOATL67t5YCUSO4.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_ohc=Tnsy12uHGmkQ7kNvwHTZmS8&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MzQ3Nzg0ODA0NTMzMzMzLCJhc3NldF9hZ2VfZGF5cyI6MTA1NiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjM2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=b5888567b40320fe&_nc_vs=HBksFQIYT2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfcHJvZC80RDQ2MDZBNzk4OTUwQTFEREIxNjQyQkE5NzhGRkNCOF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HSFlFVWhndGhBb1EydlVFQUZLLUstTHVVamdEYnFfRUFBQUYVAgLIARIAKAAYABsDiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATESY29weV9zYW1wbGVfZ3JvdXBzATEVAAAmqpHc296TngEVAigCQzMsF0BCZmZmZmZmGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=7pNxEy3O53Qr0SEHWU71Yw&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRjtRaPr3vpLSFRU_X2a8r-icbdPydqU4ZlMQv__jV9Rw&oe=6AFBF490",
+   "w": 2268,
+   "h": 4032,
+   "dur": 36.8,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 4709716,
+   "sha256": "14c7962cd6d6f8f88c5a305993803038c81b3ede42ee978be908b89f0824c53c"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "C1RaXK0o8IC",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "C1RaXK0o8IC",
+  "id": "3265507146198139394",
+  "typename": "GraphVideo",
+  "owner": "gurchenko_kate",
+  "caption": "Посетили вчера одно заведение, в котором живут рептилии 🦎 🐍 \nТам можно покушать, выпить вкусный коктейль 🍸 и познакомиться со змейками, хамелеоном и разными видами ящериц 🤗 жаль, что сейчас сезон линьки у многих из них и их нельзя тревожить.. но с одной из них мы всё-же познакомились☺️🫶",
+  "taken_at": null,
+  "video_duration": 36.8,
+  "dimensions": {
+   "height": 4032,
+   "width": 2268
+  },
+  "product_type": "clips",
+  "music": {
+   "artist_name": "gurchenko_kate",
+   "song_name": "Оригинальное аудио",
+   "uses_original_audio": true,
+   "should_mute_audio": false
+  },
+  "likes": 0,
+  "comments": 1,
+  "views": null,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2023-12-25T10:06:00+00:00",
+ "published_minsk_date": "2023-12-25",
+ "post_url": "https://www.instagram.com/reel/C1RaXK0o8IC/",
+ "group": "instagram_gurchenko_kate_C1RaXK0o8IC"
+}

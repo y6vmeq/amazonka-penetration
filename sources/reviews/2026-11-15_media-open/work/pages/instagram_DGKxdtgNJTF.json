@@ -1,0 +1,56 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:06:24.317Z",
+ "page": "https://www.instagram.com/p/DGKxdtgNJTF/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-2.cdninstagram.com/o1/v/t2/f2/m367/AQMvMILbePFPCQJPk1LC_1VG0UnpY0IjlNdT8hKxjIyCJlf0CRWQSKNC9HOhy_2B7-Eeh0qVQYH33NviPZx5sQ1Y6ue9b7C8wU2lMjE.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_ohc=l0t7FOHLcLcQ7kNvwH8Dc8d&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NjU4MDkyMjE2NTY1MTQxLCJhc3NldF9hZ2VfZGF5cyI6NjM2LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NzgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=a960dffa2aabd9fd&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC80QzQ3QTAyNjVGMTI3NjBCNEY0OTVFMDMxNEZEN0E5RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMTM0NDUyMjcxMjIyNDA4XzQ0ODg1NzYzMjcyNTA4ODk3MTgubXA0FQICyAESACgAGAAbA4gHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExEmNvcHlfc2FtcGxlX2dyb3VwcwExFQAAJqr24YyBoqsCFQIoAkMzLBdAU7HrhR64UhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=LhT44lLD17JCPRd6KKCwDw&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQ_hxIWT7TZpwfzUB7ZPtx50qOLGLxKOPJXUEFT4ENTOA&oe=6AFFFFFC",
+   "w": 640,
+   "h": 1136,
+   "dur": 78.785,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 13537007,
+   "sha256": "dbf1120f3d09e6bf9be779e8d2cc5b3808677b8c8d495eedfc394ce70744df53"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "DGKxdtgNJTF",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "DGKxdtgNJTF",
+  "id": "3569883200647107781",
+  "typename": "GraphVideo",
+  "owner": "tic.mogilev",
+  "caption": "Часть 1.\n❗Не является рекламой\n\n#регионмогилев #могилев #гастрономическийтуризм #гастротуризм #еда #гдепоесть #кафе #ресторан",
+  "taken_at": null,
+  "video_duration": 78.785,
+  "dimensions": {
+   "height": 1136,
+   "width": 640
+  },
+  "product_type": "clips",
+  "music": {
+   "artist_name": "tic.mogilev",
+   "song_name": "Оригинальное аудио",
+   "uses_original_audio": true,
+   "should_mute_audio": false
+  },
+  "likes": 34,
+  "comments": 0,
+  "views": 571,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2025-02-17T09:07:00+00:00",
+ "published_minsk_date": "2025-02-17",
+ "post_url": "https://www.instagram.com/reel/DGKxdtgNJTF/",
+ "group": "instagram_tic.mogilev_DGKxdtgNJTF"
+}

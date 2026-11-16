@@ -1,0 +1,56 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:05:20.048Z",
+ "page": "https://www.instagram.com/p/DWEe1b2DXC7/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-2.cdninstagram.com/o1/v/t2/f2/m367/AQPRzgixK-t0ZO8aAnyGyP1S0038FerrFX2eeE20130PmREYaERdZB4r9WQJuoCVn8EXlvwSSoRx5gfW4q270hn9t2SlFjEzSH2Gaco.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_ohc=kV3UOxyGNU0Q7kNvwFzyMrf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc4ODcwNjg2MjQ0NjExODAsImFzc2V0X2FnZV9kYXlzIjoyNDEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo2OCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=c3a6a3ee08ebb7cf&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC81NjkwNTRBNDZFRUQ0MUJGQkM1MTA5MzIyNzQ1OEUyM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzRBNDMzNDFGQUJBODhCMzIyNkREMTY1MDM3ODk1N0E3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACb49fi2tozGPxUCKAJDMywXQFEiHKwIMScYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=sZIg64B2cjc45OQbo--0Qg&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSJQy29j6mvdGSKDB44EGpiWIJ4N0uANGjD00BKKjD63Q&oe=6AFFFF45",
+   "w": 1198,
+   "h": 2128,
+   "dur": 68.533,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 19041621,
+   "sha256": "b177285e1c055c70a6578d7f211fcb1b5efc1e2e6b3d30617c9e6e4a5f032e20"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "DWEe1b2DXC7",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "DWEe1b2DXC7",
+  "id": "3856342794361467067",
+  "typename": "GraphVideo",
+  "owner": "koroche__mogilev",
+  "caption": "Гастрофестиваль «Лепшы\nгуст Магілёва» сегодня в Амазонке 🔥\nФестивальная подборка:\n✅Моти — нежные шарики счастья с разными начинками\n✅Свинина тясю с салатом коул слоу — сочное мясо + свежий хруст\n✅Грибной рамен — глубокий, ароматный, идеальный для тёплого вечера\n✅Ролл тар тар — классика с современным твистом, свежо и ярко\n\n📍Ленинская, 38\n\nРассказывайте, кто уже успел попробовать? ⤵️\n\n#корочемогилев #могилев #гастрофестиваль #амазонка #крч",
+  "taken_at": null,
+  "video_duration": 68.533,
+  "dimensions": {
+   "height": 2128,
+   "width": 1198
+  },
+  "product_type": "clips",
+  "music": {
+   "artist_name": "koroche__mogilev",
+   "song_name": "Оригинальное аудио",
+   "uses_original_audio": true,
+   "should_mute_audio": false
+  },
+  "likes": 117,
+  "comments": 5,
+  "views": 3473,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2026-03-19T14:51:00+00:00",
+ "published_minsk_date": "2026-03-19",
+ "post_url": "https://www.instagram.com/reel/DWEe1b2DXC7/",
+ "group": "instagram_koroche__mogilev_DWEe1b2DXC7"
+}

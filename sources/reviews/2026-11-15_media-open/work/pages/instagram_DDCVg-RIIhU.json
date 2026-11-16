@@ -1,0 +1,56 @@
+{
+ "platform": "instagram",
+ "fetched_at": "2026-11-15T21:06:49.018Z",
+ "page": "https://www.instagram.com/p/DDCVg-RIIhU/embed/captioned/",
+ "title": "Instagram",
+ "login_cookie": false,
+ "items": [
+  {
+   "key": "video1",
+   "kind": "video",
+   "url": "https://scontent-waw2-2.cdninstagram.com/o1/v/t2/f2/m86/AQMeHnvrM6cY_coMFGF8KrlDnEhpC9W_gd7AQYOoTRXVWRWyEivW2p74Pvt79dmKzdLxZ0dNUpw6Q41g6DxhCYOo-GNgy-8YNG07UzU.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_ohc=Zv1_p9v8b8YQ7kNvwHlyS1l&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMzYwLmRhc2hfYmFzZWxpbmVfM192MSIsInhwdl9hc3NldF9pZCI6NTcwOTM0NTYyMzMwODMxLCJhc3NldF9hZ2VfZGF5cyI6NzE0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=45995ab6c81718b8&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wMzREMTAyQTRCODQ5MUIzRkEwRjNGNjJDMUMyMThCOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMTA0Mjk4MTcxMjAxNjU0XzQ4NjIwMzk1MTE5NzEwOTU0MDkubXA0FQICyAESACgAGAAbA4gHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExEmNvcHlfc2FtcGxlX2dyb3VwcwExFQAAJp7juPzh0IMCFQIoAkMzLBdANCIMSbpeNRgSZGFzaF9iYXNlbGluZV8zX3YxEQB1_gdl5p0BAA&_nc_gid=qTek0ZqjDxSxCmFvL1UJ0g&_nc_ss=7b689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQQ9sZPrVJlosdbaRg5Vy-So3LRBZcYbCI3hXqcbhAnnA&oe=6AFBF99D",
+   "w": 1408,
+   "h": 2500,
+   "dur": 20.133,
+   "status": 200,
+   "type": "video/mp4",
+   "bytes": 960868,
+   "sha256": "b76b53ec0ff73d509494f8b5563204c4456003bf982f1fdae696b529ccaf428c"
+  }
+ ],
+ "context": {
+  "type": "GraphVideo",
+  "shortcode": "DDCVg-RIIhU",
+  "copyright_blocked": false
+ },
+ "meta": {
+  "source": "contextJSON",
+  "code": "DDCVg-RIIhU",
+  "id": "3513465284161734740",
+  "typename": "GraphVideo",
+  "owner": "ali.luka.a",
+  "caption": "Пока все выкладывают милые фотосессии с ёлкой - я вам покажу,как преодолела свой страх и познакомилась с символом наступающего года ))\n\nГод змеи - мой год 🐍",
+  "taken_at": null,
+  "video_duration": 20.133,
+  "dimensions": {
+   "height": 2500,
+   "width": 1408
+  },
+  "product_type": "clips",
+  "music": {
+   "artist_name": "ali.luka.a",
+   "song_name": "Оригинальное аудио",
+   "uses_original_audio": true,
+   "should_mute_audio": false
+  },
+  "likes": 0,
+  "comments": 6,
+  "views": null,
+  "location": null,
+  "tagged": null
+ },
+ "published_utc": "2024-12-01T12:55:00+00:00",
+ "published_minsk_date": "2024-12-01",
+ "post_url": "https://www.instagram.com/reel/DDCVg-RIIhU/",
+ "group": "instagram_ali.luka.a_DDCVg-RIIhU"
+}
