@@ -8,7 +8,8 @@
 
 | Файл или папка | Что это |
 |---|---|
-| [media/](media/) | Скачанные фото и видео, кадры и обзорные листы · файлов: 231 |
+| [2026-11-17_embed-kopii/](2026-11-17_embed-kopii/) | Копии публикации от 01.11.2026 (сняты 17.11.2026) · файлов: 5 |
+| [media/](media/) | Скачанные фото и видео, кадры и обзорные листы · файлов: 235 |
 | [2026-11-14_instagram_smak.by_mogilev.md](2026-11-14_instagram_smak.by_mogilev.md) | Instagram @smak.by_mogilev («Смак.Бай Белорусская кухня») и пост гастрофеста о нём |
 | [2026-11-15_instagram_lukyanova_yelizaveta.md](2026-11-15_instagram_lukyanova_yelizaveta.md) | Instagram @lukyanova_yelizaveta («Елизавета») — деловые публикации |
 | [2026-11-15_instagram_lukyanova_yelizaveta_stories-remont.md](2026-11-15_instagram_lukyanova_yelizaveta_stories-remont.md) | Instagram @lukyanova_yelizaveta — видео и фото о ремонте помещения «Смак.BY» (файлы от пользователя) |

@@ -10,11 +10,14 @@
 |---|---|
 | [animals-sanitary/](animals-sanitary/) | Животные в общепите: санитарные нормы · файлов: 119 |
 | [animals-vet/](animals-vet/) | Животные: ветеринарное законодательство · файлов: 87 |
-| [control-procedures/](control-procedures/) | Контрольная (надзорная) деятельность и разрешения · файлов: 58 |
-| [heritage-92/](heritage-92/) | Охрана историко-культурного наследия · файлов: 7 |
+| [control-procedures/](control-procedures/) | Контрольная (надзорная) деятельность и разрешения · файлов: 64 |
+| [heritage-92/](heritage-92/) | Охрана историко-культурного наследия · файлов: 11 |
 | [letters-2026-11-16/](letters-2026-11-16/) | Тексты актов для набора обращений от 16.11.2026 · файлов: 170 |
+| [redakcii-2026-11-17a/](redakcii-2026-11-17a/) | Редакции норм во времени: реклама, охрана наследия · файлов: 40 |
+| [redakcii-2026-11-17b/](redakcii-2026-11-17b/) | Редакции норм во времени: торговля, потребители, санитария, приём оплаты · файлов: 75 |
 | [sanitary-obshchepit/](sanitary-obshchepit/) | Санитарные и пожарные требования для общепита: сборка выписок · файлов: 13 |
 | [trade-ads-smoking/](trade-ads-smoking/) | Торговля, реклама, курение, обращения, местные акты · файлов: 91 |
+| [zakon-300-2004/](zakon-300-2004/) | Закон 2004 года об архитектурной, градостроительной и строительной деятельности · файлов: 95 |
 | [PROEKT_SP_zdaniya-i-pomeshcheniya-obshchepita.txt](PROEKT_SP_zdaniya-i-pomeshcheniya-obshchepita.txt) | Текст, 184 КБ |
 | [PROEKT_SP_zdaniya-i-pomeshcheniya-obshchepita_stn-by.pdf](PROEKT_SP_zdaniya-i-pomeshcheniya-obshchepita_stn-by.pdf) | Документ PDF, 892 КБ |
 | [PSM_164_2026-04-03_pereustroystvo-pereplanirovka.pdf](PSM_164_2026-04-03_pereustroystvo-pereplanirovka.pdf) | Документ PDF, 187 КБ |

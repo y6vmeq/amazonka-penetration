@@ -8,9 +8,9 @@
 
 | Файл или папка | Что это |
 |---|---|
-| [instagram/](instagram/) | Публикации Instagram · файлов: 234 |
+| [instagram/](instagram/) | Публикации Instagram · файлов: 243 |
 | [kartoteka/](kartoteka/) | Сведения реестров через сервис kartoteka.by · файлов: 16 |
-| [official/](official/) | Государственные сайты · файлов: 222 |
+| [official/](official/) | Государственные сайты · файлов: 228 |
 | [onsite/](onsite/) | Материалы осмотра и покупки · пока пусто |
 | [reviews/](reviews/) | Сплошной сбор отзывов и публикаций · файлов: 9218 |
 | [telegram/](telegram/) | Материалы из Telegram · файлов: 289 |
