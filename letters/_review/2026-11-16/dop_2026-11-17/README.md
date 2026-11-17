@@ -17,6 +17,7 @@
 | [_pravki-g-p7/](_pravki-g-p7/) | Вспомогательная подпапка · файлов: 2 |
 | [_pravki-g-p8/](_pravki-g-p8/) | Вспомогательная подпапка · файлов: 2 |
 | [_pravki-g-p9/](_pravki-g-p9/) | Вспомогательная подпапка · файлов: 2 |
+| [_pravki-g2/](_pravki-g2/) | Вспомогательная подпапка · файлов: 2 |
 | [_redakcii-reklama-kultura/](_redakcii-reklama-kultura/) | Вспомогательная подпапка · файлов: 2 |
 | [_redakcii-torgovlya-sanitariya/](_redakcii-torgovlya-sanitariya/) | Вспомогательная подпапка · файлов: 2 |
 | [_svodnaya-proverka/](_svodnaya-proverka/) | Вспомогательная подпапка · файлов: 2 |
