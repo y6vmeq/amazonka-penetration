@@ -17,6 +17,8 @@
 | [2026-11-15_povody-kratko.md](2026-11-15_povody-kratko.md) | Кратко: о чём можно написать и куда (на 15.11.2026) |
 | [2026-11-15_zadanie-dlya-belarusi.md](2026-11-15_zadanie-dlya-belarusi.md) | Задание для человека в Беларуси: что открыть и сохранить |
 | [2026-11-15_zhiltsam_obrazec.md](2026-11-15_zhiltsam_obrazec.md) | Жильцам дома: что написать, о чём спросить, что они могут сделать сами |
+| [2026-11-17_instrukciya_pokupka-i-nablyudenie_smak-by.docx](2026-11-17_instrukciya_pokupka-i-nablyudenie_smak-by.docx) | Документ Word, 45 КБ |
+| [2026-11-17_instrukciya_pokupka-i-nablyudenie_smak-by.md](2026-11-17_instrukciya_pokupka-i-nablyudenie_smak-by.md) | Инструкция: покупка набора «Смак.BY» и наблюдение у окна выдачи — как снять, откуда приносят еду |
 
 [← Путеводитель по проекту](../README.md)
 <!-- dir-readme:end -->
