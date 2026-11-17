@@ -28,7 +28,7 @@ from pathlib import Path
 CRITERIA = [f"К{n}" for n in range(1, 9)]
 SEVERITIES = ["критическое", "существенное", "мелкое"]
 THRESHOLD = 9.5
-EVALUATORS = 2
+EVALUATORS = 3  # два итоговых оценщика (роли А и Б) и третий, независимый (роль В, с 17.11.2026)
 CLOSED = ("исправлено", "отклонено", "частично")
 
 
@@ -57,7 +57,7 @@ def number(value):
 
 
 def state(lowest, evaluators):
-    """Состояние письма: принято — только при двух и более оценщиках и оценках не ниже порога."""
+    """Состояние письма: принято — только когда оценили все оценщики (EVALUATORS) и у каждого оценки не ниже порога."""
     if lowest is None:
         return "итоговой оценки нет"
     if lowest < THRESHOLD:

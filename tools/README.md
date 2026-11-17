@@ -19,6 +19,7 @@
 | [image_sheets.py](image_sheets.py) | Собирает обзорные листы из изображений, чтобы быстро просмотреть много фото. |
 | [kartoteka_fetch.py](kartoteka_fetch.py) | Выгружает сведения по УНП через API kartoteka.by (нужен действующий токен) |
 | [letter_appendix.py](letter_appendix.py) | Собирает приложение к обращению: перечень публикаций с дословными выдержками. |
+| [letter_copies_scan.py](letter_copies_scan.py) | Поиск грубых слов в публикациях, копии которых прикладываются к письму. |
 | [letter_quotes_check.py](letter_quotes_check.py) | Сверяет цитаты «…» из проекта обращения с сохранёнными источниками. |
 | [letter_standard_check.py](letter_standard_check.py) | Проверяет проект обращения на соответствие стандарту letters/STANDART.md (форма и обязательные блоки). |
 | [letter_to_docx.py](letter_to_docx.py) | Оформляет проект обращения из letters/&lt;имя&gt;.md как документ Word. |

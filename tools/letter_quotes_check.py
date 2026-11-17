@@ -9,6 +9,8 @@
 в словах появляются лишние пробелы. Оценки:
     OK    — найдено дословно;
     Е/Ё   — найдено, если не различать «е» и «ё» (обычно это название органа или акта);
+    ПЕР   — найдено, если не учитывать дефисы: в тексте, извлечённом из старых PDF (опубликования до 2012 г.),
+            слова разорваны переносами на концах строк («разреши-тельной»); такую цитату просмотреть глазами;
     НЕТ   — не найдено: это название, надпись с изображения или ошибка. Каждую такую строку просмотреть.
 Код возврата 1, если есть хотя бы одна оценка НЕТ.
 """
@@ -28,6 +30,10 @@ def squeeze(text):
 
 def plain(text):
     return squeeze(text).replace("ё", "е").replace("Ё", "Е")
+
+
+def bare(text):
+    return re.sub("[-‐‑­]", "", plain(text))
 
 
 def letter_part(path):
@@ -58,7 +64,7 @@ def main():
         if name.endswith(".json"):
             raw = raw.replace("\\n", " ").replace('\\"', '"')
         sources.append((Path(name).name, squeeze(raw) + "\u0000" + squeeze(TAG.sub(" ", raw))))
-    seen, missing = [], 0
+    seen, missing, hyphen = [], 0, 0
     for quote in QUOTE.findall(letter_part(Path(sys.argv[1]))):
         quote = re.sub(r"\*\*", "", quote).strip()
         if quote in seen:
@@ -66,11 +72,16 @@ def main():
         seen.append(quote)
         exact = [name for name, text in sources if squeeze(quote) in text]
         loose = [] if exact else [name for name, text in sources if plain(quote) in text.replace("ё", "е").replace("Ё", "Е")]
-        mark = "OK " if exact else ("Е/Ё" if loose else "НЕТ")
+        if not exact and not loose:
+            loose = [name for name, text in sources if bare(quote) in bare(text)]
+            mark = "ПЕР" if loose else "НЕТ"
+        else:
+            mark = "OK " if exact else "Е/Ё"
         missing += mark == "НЕТ"
+        hyphen += mark == "ПЕР"
         where = ", ".join((exact or loose)[:3]) + (" …" if len(exact or loose) > 3 else "")
         print(f"{mark}  «{quote[:110]}{'…' if len(quote) > 110 else ''}»" + (f"  ← {where}" if where else ""))
-    print(f"цитат: {len(seen)}, не найдено: {missing}")
+    print(f"цитат: {len(seen)}, не найдено: {missing}" + (f", найдено без учёта переносов (ПЕР): {hyphen}" if hyphen else ""))
     sys.exit(1 if missing else 0)
 
 

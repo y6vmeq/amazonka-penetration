@@ -9,38 +9,38 @@
 | Файл или папка | Что это |
 |---|---|
 | [_archive/](_archive/) | Архив прежних проектов писем · файлов: 9 |
-| [_review/](_review/) | Проверка писем · файлов: 241 |
+| [_review/](_review/) | Проверка писем · файлов: 405 |
 | [_src/](_src/) | Описания приложений к письмам · файлов: 10 |
 | [STANDART.md](STANDART.md) | Стандарт обращения: структура, обязательные формулировки, критерии оценки |
 | [_build_docx.sh](_build_docx.sh) | Пересобирает приложения и файлы Word с условным заявителем |
-| [gorispolkom_amazonka_torgovlya.docx](gorispolkom_amazonka_torgovlya.docx) | Документ Word, 79 КБ |
+| [gorispolkom_amazonka_torgovlya.docx](gorispolkom_amazonka_torgovlya.docx) | Документ Word, 80 КБ |
 | [gorispolkom_amazonka_torgovlya.md](gorispolkom_amazonka_torgovlya.md) | ПРОЕКТ. Обращение в Могилёвский горисполком: Торговый реестр, ночной режим, летняя площадка, лицензии, книга замечаний, цены, реклама алкоголя и пива, кальяны в рестобар… |
 | [gorispolkom_amazonka_torgovlya_prilozhenie-1.md](gorispolkom_amazonka_torgovlya_prilozhenie-1.md) | Приложение 1: перечень публикаций и отзывов с дословными выдержками (к заявлению о торговле и общественном питании в рестобаре «Амазонка», г. Могилёв, ул. Ленинская, 38) |
-| [gorispolkom_amazonka_zdanie-fasad-reklama.docx](gorispolkom_amazonka_zdanie-fasad-reklama.docx) | Документ Word, 72 КБ |
+| [gorispolkom_amazonka_zdanie-fasad-reklama.docx](gorispolkom_amazonka_zdanie-fasad-reklama.docx) | Документ Word, 75 КБ |
 | [gorispolkom_amazonka_zdanie-fasad-reklama.md](gorispolkom_amazonka_zdanie-fasad-reklama.md) | ПРОЕКТ. Обращение в Могилёвский горисполком: здание-ценность, работы в помещениях, вывеска, конструкции на фасаде и рекламные щиты рестобара «Амазонка» (письмо П2) |
 | [gorispolkom_amazonka_zdanie-fasad-reklama_prilozhenie-1.md](gorispolkom_amazonka_zdanie-fasad-reklama_prilozhenie-1.md) | Приложение 1: перечень публикаций о здании, вывеске, конструкциях на фасаде и выносных рекламных конструкциях рестобара «Амазонка» (г. Могилёв, ул. Ленинская, 38) |
-| [gorispolkom_smak-by_raboty-okna-vhod.docx](gorispolkom_smak-by_raboty-okna-vhod.docx) | Документ Word, 70 КБ |
-| [gorispolkom_smak-by_raboty-okna-vhod.md](gorispolkom_smak-by_raboty-okna-vhod.md) | ПРОЕКТ. Обращение в Могилёвский горисполком (П7): работы в помещении «Смак.BY», замена окон, вход на месте окон фасада, строительные материалы во дворе |
+| [gorispolkom_smak-by_raboty-okna-vhod.docx](gorispolkom_smak-by_raboty-okna-vhod.docx) | Документ Word, 71 КБ |
+| [gorispolkom_smak-by_raboty-okna-vhod.md](gorispolkom_smak-by_raboty-okna-vhod.md) | ПРОЕКТ. Обращение в Могилёвский горисполком (П7): работы в помещении «Смак.BY», замена окон, намерение устроить вход в выступе фасада с окнами, строительные материалы во… |
 | [gorispolkom_smak-by_raboty-okna-vhod_prilozhenie-1.md](gorispolkom_smak-by_raboty-okna-vhod_prilozhenie-1.md) | Приложение 1: перечень публикаций к заявлению о рассмотрении сведений о работах в помещении дома по ул. Будённого, 13/44 в г. Могилёве (заведение «Смак.BY») |
-| [gorispolkom_smak-by_torgovlya.docx](gorispolkom_smak-by_torgovlya.docx) | Документ Word, 65 КБ |
+| [gorispolkom_smak-by_torgovlya.docx](gorispolkom_smak-by_torgovlya.docx) | Документ Word, 66 КБ |
 | [gorispolkom_smak-by_torgovlya.md](gorispolkom_smak-by_torgovlya.md) | ПРОЕКТ. Обращение в Могилёвский горисполком (П8): продажа наборов блюд «Смак.BY» до открытия заведения — Торговый реестр и форма общественного питания, сведения о продав… |
 | [gorispolkom_smak-by_torgovlya_prilozhenie-1.md](gorispolkom_smak-by_torgovlya_prilozhenie-1.md) | Приложение 1: перечень публикаций с датами, адресами и дословными выдержками (продажа наборов блюд под названием «Смак.BY», г. Могилёв, ул. Будённого, 13/44) |
 | [mchs_amazonka_pozharnaya-bezopasnost.docx](mchs_amazonka_pozharnaya-bezopasnost.docx) | Документ Word, 41 КБ |
 | [mchs_amazonka_pozharnaya-bezopasnost.md](mchs_amazonka_pozharnaya-bezopasnost.md) | ПРОЕКТ. Обращение в органы государственного пожарного надзора о проверке рестобара «Амазонка» |
 | [mchs_amazonka_pozharnaya-bezopasnost_prilozhenie-1.md](mchs_amazonka_pozharnaya-bezopasnost_prilozhenie-1.md) | Приложение 1 к обращению о проверке пожарной безопасности рестобара «Амазонка»: перечень публикаций |
-| [nalogovaya_amazonka.docx](nalogovaya_amazonka.docx) | Документ Word, 61 КБ |
+| [nalogovaya_amazonka.docx](nalogovaya_amazonka.docx) | Документ Word, 62 КБ |
 | [nalogovaya_amazonka.md](nalogovaya_amazonka.md) | ПРОЕКТ. Обращение в налоговую инспекцию (П5): приём оплаты, кассовое оборудование и платёжные терминалы в рестобаре «Амазонка» |
 | [nalogovaya_amazonka_prilozhenie-1.md](nalogovaya_amazonka_prilozhenie-1.md) | Приложение 1: перечень отзывов о порядке приёма средств платежа в рестобаре «Амазонка» (г. Могилёв, ул. Ленинская, 38) |
-| [nalogovaya_smak-by.docx](nalogovaya_smak-by.docx) | Документ Word, 60 КБ |
+| [nalogovaya_smak-by.docx](nalogovaya_smak-by.docx) | Документ Word, 61 КБ |
 | [nalogovaya_smak-by.md](nalogovaya_smak-by.md) | ПРОЕКТ. Обращение в налоговую инспекцию (П9, срочное): кто принимает оплату и как при продаже блюд под названием «Смак.BY» |
 | [nalogovaya_smak-by_prilozhenie-1.md](nalogovaya_smak-by_prilozhenie-1.md) | Приложение 1: перечень публикаций о продаже блюд под названием «Смак.BY» (г. Могилёв, ул. Будённого, 13/44) |
 | [prirodoohrana_amazonka_zhivotnye.docx](prirodoohrana_amazonka_zhivotnye.docx) | Документ Word, 72 КБ |
 | [prirodoohrana_amazonka_zhivotnye.md](prirodoohrana_amazonka_zhivotnye.md) | ПРОЕКТ. Обращение в природоохранный орган (П4): дикие животные в зале рестобара «Амазонка», их показ посетителям и передача в руки |
 | [prirodoohrana_amazonka_zhivotnye_prilozhenie-1.md](prirodoohrana_amazonka_zhivotnye_prilozhenie-1.md) | Приложение 1: перечень публикаций о животных в рестобаре «Амазонка» (г. Могилёв, ул. Ленинская, 38) |
-| [sanitarnaya-sluzhba_amazonka.docx](sanitarnaya-sluzhba_amazonka.docx) | Документ Word, 78 КБ |
+| [sanitarnaya-sluzhba_amazonka.docx](sanitarnaya-sluzhba_amazonka.docx) | Документ Word, 79 КБ |
 | [sanitarnaya-sluzhba_amazonka.md](sanitarnaya-sluzhba_amazonka.md) | ПРОЕКТ. Заявление в санитарную службу о рестобаре «Амазонка» (письмо П1) |
 | [sanitarnaya-sluzhba_amazonka_prilozhenie-1.md](sanitarnaya-sluzhba_amazonka_prilozhenie-1.md) | Приложение 1: перечень публикаций заведения и посетителей |
-| [sanitarnaya-sluzhba_smak-by.docx](sanitarnaya-sluzhba_smak-by.docx) | Документ Word, 69 КБ |
+| [sanitarnaya-sluzhba_smak-by.docx](sanitarnaya-sluzhba_smak-by.docx) | Документ Word, 70 КБ |
 | [sanitarnaya-sluzhba_smak-by.md](sanitarnaya-sluzhba_smak-by.md) | ПРОЕКТ. Обращение в санитарную службу о заведении «Смак.BY»: продажа блюд до открытия, работы в помещении, помещение (П6) |
 | [sanitarnaya-sluzhba_smak-by_prilozhenie-1.md](sanitarnaya-sluzhba_smak-by_prilozhenie-1.md) | Приложение 1: Перечень публикаций |
 | [shablon_zhaloba-na-otvet.docx](shablon_zhaloba-na-otvet.docx) | Документ Word, 39 КБ |

@@ -68,7 +68,7 @@ def fill(text, opts):
         text = re.sub(r"\[почтовый индекс, населённый пункт, улица, дом, квартира\]", lambda _: mark(opts["address"]), text)
         text = FEMININE.sub("", text)
         if text.startswith("[Ранее по изложенным вопросам"):
-            text = mark("Ранее по изложенным вопросам я в государственные органы не обращался.")
+            text = mark("Ранее по изложенным вопросам я в государственные органы и иные организации не обращался.")
     text = text.replace("[__]", mark("___"))
     text = re.sub(r"(?<!\.)\.\.(?!\.)", ".", text)  # после удаления служебной ссылки остаются две точки
     return BRACKETS.sub(lambda match: mark(match.group(0)), text)

@@ -1,0 +1,25 @@
+<!-- dir-readme:generated — этот файл создаёт tools/dir_readmes.py; описание папки правится в tools/dir_readmes.json -->
+# Дополнительные проверки от 17.11.2026
+
+Отчёты исполнителей, которые после приёмки набора восстанавливали редакцию Закона 2004 года об архитектурной, градостроительной и строительной деятельности и проверяли действие цитируемых норм во времени.
+
+<!-- dir-readme:start -->
+## Что в этой папке
+
+| Файл или папка | Что это |
+|---|---|
+| [_redakcii-reklama-kultura/](_redakcii-reklama-kultura/) | Вспомогательная подпапка · файлов: 2 |
+| [_redakcii-torgovlya-sanitariya/](_redakcii-torgovlya-sanitariya/) | Вспомогательная подпапка · файлов: 2 |
+| [_svodnaya-proverka/](_svodnaya-proverka/) | Вспомогательная подпапка · файлов: 2 |
+| [_svodnye-pravki-p1/](_svodnye-pravki-p1/) | Вспомогательная подпапка · файлов: 2 |
+| [_svodnye-pravki-p2/](_svodnye-pravki-p2/) | Вспомогательная подпапка · файлов: 2 |
+| [_svodnye-pravki-p3/](_svodnye-pravki-p3/) | Вспомогательная подпапка · файлов: 2 |
+| [_svodnye-pravki-p4/](_svodnye-pravki-p4/) | Вспомогательная подпапка · файлов: 2 |
+| [_svodnye-pravki-p6/](_svodnye-pravki-p6/) | Вспомогательная подпапка · файлов: 2 |
+| [_svodnye-pravki-p7/](_svodnye-pravki-p7/) | Вспомогательная подпапка · файлов: 2 |
+| [_svodnye-pravki-p8/](_svodnye-pravki-p8/) | Вспомогательная подпапка · файлов: 2 |
+| [_zakon-300-2004/](_zakon-300-2004/) | Вспомогательная подпапка · файлов: 2 |
+| [ZADANIE_svodnye-pravki.md](ZADANIE_svodnye-pravki.md) | Задание составителю: правки по сводной проверке набора (17.11.2026) |
+
+[← Папка выше](../README.md) · [Путеводитель по проекту](../../../../README.md)
+<!-- dir-readme:end -->
