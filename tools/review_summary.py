@@ -28,7 +28,7 @@ from pathlib import Path
 CRITERIA = [f"К{n}" for n in range(1, 9)]
 SEVERITIES = ["критическое", "существенное", "мелкое"]
 THRESHOLD = 9.5
-EVALUATORS = 3  # два итоговых оценщика (роли А и Б) и третий, независимый (роль В, с 17.11.2026)
+EVALUATORS = 4  # итоговые оценщики А и Б, третий независимый (роль В) и четвёртый на модели Fable (роль Г) — оба с 17.11.2026
 CLOSED = ("исправлено", "отклонено", "частично")
 
 
@@ -56,11 +56,15 @@ def number(value):
     return "—" if value is None else str(value).replace(".", ",")
 
 
-def state(lowest, evaluators):
-    """Состояние письма: принято — только когда оценили все оценщики (EVALUATORS) и у каждого оценки не ниже порога."""
+def state(lowest, evaluators, pending=()):
+    """Состояние письма: принято — только когда оценили все оценщики (EVALUATORS) и у каждого оценки не ниже порога.
+    pending — оценщики, у которых в последнем круге есть оценка ниже порога, но на все их замечания этого круга
+    составитель уже ответил (исправлено, частично или отклонено): письмо ждёт их нового круга."""
     if lowest is None:
         return "итоговой оценки нет"
     if lowest < THRESHOLD:
+        if pending:
+            return "правки по замечаниям внесены — ждём подтверждения: " + ", ".join(pending)
         return "на доработке"
     return "принято" if evaluators >= EVALUATORS else f"оценил {evaluators} из {EVALUATORS} — ждём остальных"
 
@@ -112,25 +116,31 @@ def main():
             lines += [score_line(f"{review['_role']}", review["scores"])[0] for review in working]
         if final:
             lines += ["", "**Итоговая оценка (последний круг каждого оценщика):**", "", header, rule]
-            lowest_all = []
+            lowest_all, below, pending = [], [], []
             for key in sorted(final):
                 review = final[key]
                 row, lowest = score_line(f"{key}, круг {review['_round']}", review["scores"])
                 lines.append(row)
                 if lowest is not None:
                     lowest_all.append(lowest)
+                    if lowest < THRESHOLD:
+                        below.append(key)
+                        findings = review.get("findings") or []
+                        if findings and all(answers.get((letter, f"{review['_role']}:{item.get('id')}")) in CLOSED for item in findings):
+                            pending.append(key)
             lowest = min(lowest_all) if lowest_all else None
-            verdict = state(lowest, len(final))
+            pending = pending if below and len(pending) == len(below) else []
+            verdict = state(lowest, len(final), pending)
             lines += ["", f"Наименьшая итоговая оценка: **{number(lowest)}** — {verdict}."]
-            totals.append((letter, lowest, len(final)))
+            totals.append((letter, lowest, len(final), pending))
         else:
             lines += ["", "Итоговой оценки ещё нет."]
-            totals.append((letter, None, 0))
+            totals.append((letter, None, 0, []))
         lines.append("")
     lines += ["## Итог по набору", "", "| Письмо | Оценщиков | Наименьшая итоговая оценка | Состояние |", "|---|---|---|---|"]
-    for letter, lowest, count in totals:
-        lines.append(f"| {letter} | {count} | {number(lowest)} | {state(lowest, count)} |")
-    graded = [lowest for _, lowest, _ in totals if lowest is not None]
+    for letter, lowest, count, pending in totals:
+        lines.append(f"| {letter} | {count} | {number(lowest)} | {state(lowest, count, pending)} |")
+    graded = [lowest for _, lowest, _, _ in totals if lowest is not None]
     if graded and len(graded) == len(totals):
         lines += ["", f"**Наименьшая итоговая оценка по всему набору: {number(min(graded))}.** Порог приёмки — 9,5 по каждому критерию у каждого оценщика."]
     else:

@@ -8,6 +8,15 @@
 
 | Файл или папка | Что это |
 |---|---|
+| [_pravki-g-p1/](_pravki-g-p1/) | Вспомогательная подпапка · файлов: 2 |
+| [_pravki-g-p2/](_pravki-g-p2/) | Вспомогательная подпапка · файлов: 2 |
+| [_pravki-g-p3/](_pravki-g-p3/) | Вспомогательная подпапка · файлов: 2 |
+| [_pravki-g-p4/](_pravki-g-p4/) | Вспомогательная подпапка · файлов: 2 |
+| [_pravki-g-p5/](_pravki-g-p5/) | Вспомогательная подпапка · файлов: 2 |
+| [_pravki-g-p6/](_pravki-g-p6/) | Вспомогательная подпапка · файлов: 2 |
+| [_pravki-g-p7/](_pravki-g-p7/) | Вспомогательная подпапка · файлов: 2 |
+| [_pravki-g-p8/](_pravki-g-p8/) | Вспомогательная подпапка · файлов: 2 |
+| [_pravki-g-p9/](_pravki-g-p9/) | Вспомогательная подпапка · файлов: 2 |
 | [_redakcii-reklama-kultura/](_redakcii-reklama-kultura/) | Вспомогательная подпапка · файлов: 2 |
 | [_redakcii-torgovlya-sanitariya/](_redakcii-torgovlya-sanitariya/) | Вспомогательная подпапка · файлов: 2 |
 | [_svodnaya-proverka/](_svodnaya-proverka/) | Вспомогательная подпапка · файлов: 2 |
@@ -19,6 +28,7 @@
 | [_svodnye-pravki-p7/](_svodnye-pravki-p7/) | Вспомогательная подпапка · файлов: 2 |
 | [_svodnye-pravki-p8/](_svodnye-pravki-p8/) | Вспомогательная подпапка · файлов: 2 |
 | [_zakon-300-2004/](_zakon-300-2004/) | Вспомогательная подпапка · файлов: 2 |
+| [ZADANIE_pravki-po-roli-g.md](ZADANIE_pravki-po-roli-g.md) | Задание составителю: правки по замечаниям четвёртого оценщика (роль Г), 17.11.2026 |
 | [ZADANIE_svodnye-pravki.md](ZADANIE_svodnye-pravki.md) | Задание составителю: правки по сводной проверке набора (17.11.2026) |
 
 [← Папка выше](../README.md) · [Путеводитель по проекту](../../../../README.md)
